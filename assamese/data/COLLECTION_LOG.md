@@ -1356,3 +1356,143 @@
 - [2026-08-17 08:39:40] niyomiyabarta: 240/41157 articles this run, ~2430180 words total so far, 60164 non-Assamese lines dropped so far
 - [2026-08-17 08:40:18] niyomiyabarta: 260/41157 articles this run, ~2435439 words total so far, 60286 non-Assamese lines dropped so far
 - [2026-08-17 08:40:56] niyomiyabarta: 280/41157 articles this run, ~2441162 words total so far, 60406 non-Assamese lines dropped so far
+- [2026-08-17 20:16:44] asomiyapratidin: discovery found 138 items, 35 new
+- [2026-08-17 20:17:20] asomiyapratidin: 20/35 articles this run, ~46629 words total so far, 1274 non-Assamese lines dropped so far
+- [2026-08-17 20:17:56] DONE asomiyapratidin: 35 new articles, 193 total ever, ~49859 words total
+- [2026-08-17 20:21:06] xobdo: discovered 361 alphabetical ranges
+- [2026-08-17 20:21:06] xobdo: already fully drained (361/361 ranges)
+- [2026-08-17 20:25:21] niyomiyabarta: discovery found 50000 items, 40859 new
+- [2026-08-17 20:26:46] niyomiyabarta: 20/40859 articles this run, ~2452024 words total so far, 60653 non-Assamese lines dropped so far
+- [2026-08-17 20:27:46] niyomiyabarta: 40/40859 articles this run, ~2456618 words total so far, 60779 non-Assamese lines dropped so far
+- [2026-08-17 20:29:00] niyomiyabarta: 60/40859 articles this run, ~2462743 words total so far, 60898 non-Assamese lines dropped so far
+- [2026-08-17 20:30:03] niyomiyabarta: 80/40859 articles this run, ~2467980 words total so far, 61021 non-Assamese lines dropped so far
+- [2026-08-17 20:31:06] niyomiyabarta: 100/40859 articles this run, ~2471529 words total so far, 61158 non-Assamese lines dropped so far
+- [2026-08-17 20:32:10] niyomiyabarta: 120/40859 articles this run, ~2476639 words total so far, 61288 non-Assamese lines dropped so far
+- [2026-08-17 20:33:07] niyomiyabarta: 140/40859 articles this run, ~2481516 words total so far, 61408 non-Assamese lines dropped so far
+- [2026-08-17 20:34:13] niyomiyabarta: 160/40859 articles this run, ~2487141 words total so far, 61527 non-Assamese lines dropped so far
+- [2026-08-17 20:35:54] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/the-election-commission-has-directed-to-link-voter-id-with-aadhaar-card/
+- [2026-08-17 20:35:59] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/former-president-of-gagna-mumbai-sujit-bora-passes-away/
+- [2026-08-17 20:36:03] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/israeli-bombings-kill-more-than-400-in-gaza/
+- [2026-08-17 20:36:08] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/messi-not-in-squad-brazil-uruguay-world-cup-qualifier/
+- [2026-08-17 20:36:12] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/boxing-will-return-to-the-2028-los-angeles-olympics/
+- [2026-08-17 20:36:17] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/editorial/editorial-affordable-housing/
+- [2026-08-17 20:36:22] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/how-sunita-wilmore-survived-nine-months-at-nasas-space-station/
+- [2026-08-17 20:36:26] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/nasa-scientist-nearly-stopped-breathing-for-7-minutes/
+- [2026-08-17 20:36:31] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/4-learn-more-about-the-current-health-of-the-astronauts/
+- [2026-08-17 20:36:35] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/four-astronauts-including-sunita-arrived-on-earth-with-a-smile/
+- [2026-08-17 20:42:26] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/todays-horoscope-543/
+- [2026-08-17 20:42:31] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/kabir-khan-rima-dass-my-melbourne-is-in-theatres/
+- [2026-08-17 20:42:35] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/niyog-barta/jobs-in-digital-india-corporation/
+- [2026-08-17 20:43:00] niyomiyabarta: 180/40859 articles this run, ~2493051 words total so far, 61652 non-Assamese lines dropped so far
+- [2026-08-17 20:43:43] niyomiyabarta: 200/40859 articles this run, ~2500106 words total so far, 61773 non-Assamese lines dropped so far
+- [2026-08-17 20:48:55] niyomiyabarta: 220/40859 articles this run, ~2509194 words total so far, 61900 non-Assamese lines dropped so far
+- [2026-08-17 21:04:58] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/palnam-at-sivsagar/
+- [2026-08-17 21:05:03] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/naharlagun-charlapally-holi-special-train-of-north-east-frontier-railway/
+- [2026-08-17 21:05:07] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/mother-and-daughter-die-after-being-hit-by-train-in-nalbari/
+- [2026-08-17 21:05:12] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/rabha-hasong-parishad-elections-in-nagarbera/
+- [2026-08-17 21:05:16] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/the-auction-of-the-mariani-premier-league-has-been-completed/
+- [2026-08-17 21:05:21] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/three-youths-arrested-with-heroin-in-shivsagar/
+- [2026-08-17 21:05:26] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/sports-2/i-was-threatened-with-death-after-the-twenty20-world-cup/
+- [2026-08-17 21:05:30] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/international/indian-dances-and-songs-banned-at-pakistani-college-entertainment-fairs/
+- [2026-08-17 21:05:35] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/national/a-youth-threw-a-bomb-at-the-thakurdwar-temple-in-amritsar/
+- [2026-08-17 21:05:39] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/sports-2/surgical-strike-on-pakistan-cricket-team-in-ipl-ignored-in-the-hundred-league/
+- [2026-08-17 21:09:24] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/sports-2/delhi-capitals-vs-mumbai-indians-in-the-wpl-final/
+- [2026-08-17 21:09:28] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/national/there-is-a-lot-of-communal-tension-over-the-death-of-a-nurse/
+- [2026-08-17 21:09:33] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/national/pawan-kalyan-criticizes-anti-hindi-movement-in-tamil-nadu/
+- [2026-08-17 21:09:38] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/daul-bharatiya-vikas-parishad-special-program-in-dhubri-the-spring-festival-of-the-dance-hall/
+- [2026-08-17 21:09:42] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/artist-and-educator-lakshhira-das-passes-away/
+- [2026-08-17 21:09:47] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/editorial/trumps-ceasefire-initiative/
+- [2026-08-17 21:09:51] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/todays-horoscope-539/
+- [2026-08-17 21:09:56] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/jorhat-has-become-a-criminal-haven/
+- [2026-08-17 21:10:01] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/sports-2/who-is-this-13-year-old-dangerous-player-to-play-in-the-ipl/
+- [2026-08-17 21:10:05] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/dhubri-chowk-bazar/
+- [2026-08-17 21:10:48] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/special-exhibition-and-workshop-on-clay-sculpture-at-dhakuakhana-college/
+- [2026-08-17 21:10:52] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/gold-prices-have-reached-the-sky/
+- [2026-08-17 21:10:57] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/national/impenetrable-forts-in-uttar-pradesh-for-holi-friday-prayers/
+- [2026-08-17 21:11:15] niyomiyabarta: 240/40859 articles this run, ~2515014 words total so far, 62029 non-Assamese lines dropped so far
+- [2026-08-17 21:11:52] asomiyapratidin: discovery found 141 items, 3 new
+- [2026-08-17 21:11:57] DONE asomiyapratidin: 3 new articles, 196 total ever, ~51002 words total
+- [2026-08-17 21:12:03] xobdo: discovered 361 alphabetical ranges
+- [2026-08-17 21:12:03] xobdo: already fully drained (361/361 ranges)
+- [2026-08-17 21:12:23] niyomiyabarta: 260/40859 articles this run, ~2520036 words total so far, 62149 non-Assamese lines dropped so far
+- [2026-08-17 21:13:09] niyomiyabarta: 280/40859 articles this run, ~2526706 words total so far, 62275 non-Assamese lines dropped so far
+- [2026-08-17 21:14:12] niyomiyabarta: 300/40859 articles this run, ~2531592 words total so far, 62412 non-Assamese lines dropped so far
+- [2026-08-17 21:15:01] niyomiyabarta: 320/40859 articles this run, ~2537127 words total so far, 62550 non-Assamese lines dropped so far
+- [2026-08-17 21:15:56] niyomiyabarta: 340/40859 articles this run, ~2542050 words total so far, 62691 non-Assamese lines dropped so far
+- [2026-08-17 21:16:59] niyomiyabarta: 360/40859 articles this run, ~2546938 words total so far, 62824 non-Assamese lines dropped so far
+- [2026-08-17 21:18:13] niyomiyabarta: 380/40859 articles this run, ~2551109 words total so far, 62956 non-Assamese lines dropped so far
+- [2026-08-17 21:18:51] niyomiyabarta: discovery found 50000 items, 40575 new
+- [2026-08-17 21:19:55] niyomiyabarta: 400/40859 articles this run, ~2556082 words total so far, 63080 non-Assamese lines dropped so far
+- [2026-08-17 21:20:17] niyomiyabarta: 20/40575 articles this run, ~2521850 words total so far, 62201 non-Assamese lines dropped so far
+- [2026-08-17 21:20:40] niyomiyabarta: 420/40859 articles this run, ~2564167 words total so far, 63210 non-Assamese lines dropped so far
+- [2026-08-17 21:21:22] niyomiyabarta: 40/40575 articles this run, ~2528696 words total so far, 62326 non-Assamese lines dropped so far
+- [2026-08-17 21:21:34] niyomiyabarta: 440/40859 articles this run, ~2569080 words total so far, 63343 non-Assamese lines dropped so far
+- [2026-08-17 21:22:26] niyomiyabarta: 460/40859 articles this run, ~2574678 words total so far, 63475 non-Assamese lines dropped so far
+- [2026-08-17 21:22:29] niyomiyabarta: 60/40575 articles this run, ~2534400 words total so far, 62466 non-Assamese lines dropped so far
+- [2026-08-17 21:23:42] niyomiyabarta: 80/40575 articles this run, ~2538085 words total so far, 62607 non-Assamese lines dropped so far
+- [2026-08-17 21:23:53] niyomiyabarta: 480/40859 articles this run, ~2579865 words total so far, 63606 non-Assamese lines dropped so far
+- [2026-08-17 21:24:44] niyomiyabarta: 100/40575 articles this run, ~2544884 words total so far, 62742 non-Assamese lines dropped so far
+- [2026-08-17 21:25:24] niyomiyabarta: 500/40859 articles this run, ~2585892 words total so far, 63727 non-Assamese lines dropped so far
+- [2026-08-17 21:25:24] BATCH STOP niyomiyabarta: 500 new articles this batch (3603s), 40359 still remaining, 9677 total ever, ~2585892 words total
+- [2026-08-17 21:25:24] Scraper run complete.
+- [2026-08-17 21:26:19] niyomiyabarta: 120/40575 articles this run, ~2548763 words total so far, 62878 non-Assamese lines dropped so far
+- [2026-08-17 21:27:17] niyomiyabarta: 140/40575 articles this run, ~2553435 words total so far, 63008 non-Assamese lines dropped so far
+- [2026-08-17 21:28:19] niyomiyabarta: 160/40575 articles this run, ~2558711 words total so far, 63132 non-Assamese lines dropped so far
+- [2026-08-17 21:29:16] niyomiyabarta: 180/40575 articles this run, ~2566648 words total so far, 63259 non-Assamese lines dropped so far
+- [2026-08-17 21:30:41] niyomiyabarta: 200/40575 articles this run, ~2571394 words total so far, 63398 non-Assamese lines dropped so far
+- [2026-08-17 21:31:39] niyomiyabarta: 220/40575 articles this run, ~2576483 words total so far, 63532 non-Assamese lines dropped so far
+- [2026-08-17 21:32:52] niyomiyabarta: 240/40575 articles this run, ~2582915 words total so far, 63654 non-Assamese lines dropped so far
+- [2026-08-17 21:33:41] niyomiyabarta: 260/40575 articles this run, ~2589019 words total so far, 63779 non-Assamese lines dropped so far
+- [2026-08-17 21:34:32] niyomiyabarta: 280/40575 articles this run, ~2594544 words total so far, 63899 non-Assamese lines dropped so far
+- [2026-08-17 21:36:13] niyomiyabarta: 300/40575 articles this run, ~2599313 words total so far, 64020 non-Assamese lines dropped so far
+- [2026-08-17 21:37:06] niyomiyabarta: 320/40575 articles this run, ~2606971 words total so far, 64147 non-Assamese lines dropped so far
+- [2026-08-17 21:38:21] niyomiyabarta: 340/40575 articles this run, ~2612771 words total so far, 64272 non-Assamese lines dropped so far
+- [2026-08-17 21:39:47] niyomiyabarta: 360/40575 articles this run, ~2617223 words total so far, 64407 non-Assamese lines dropped so far
+- [2026-08-17 21:40:47] niyomiyabarta: 380/40575 articles this run, ~2625589 words total so far, 64527 non-Assamese lines dropped so far
+- [2026-08-17 21:41:41] niyomiyabarta: 400/40575 articles this run, ~2629748 words total so far, 64653 non-Assamese lines dropped so far
+- [2026-08-17 21:43:02] niyomiyabarta: 420/40575 articles this run, ~2634449 words total so far, 64785 non-Assamese lines dropped so far
+- [2026-08-17 21:44:12] niyomiyabarta: 440/40575 articles this run, ~2639795 words total so far, 64907 non-Assamese lines dropped so far
+- [2026-08-17 21:45:58] niyomiyabarta: 460/40575 articles this run, ~2644070 words total so far, 65043 non-Assamese lines dropped so far
+- [2026-08-17 21:46:49] niyomiyabarta: 480/40575 articles this run, ~2650089 words total so far, 65179 non-Assamese lines dropped so far
+- [2026-08-17 21:48:05] niyomiyabarta: 500/40575 articles this run, ~2654496 words total so far, 65304 non-Assamese lines dropped so far
+- [2026-08-17 21:49:15] niyomiyabarta: 520/40575 articles this run, ~2659673 words total so far, 65423 non-Assamese lines dropped so far
+- [2026-08-17 21:50:29] niyomiyabarta: 540/40575 articles this run, ~2666471 words total so far, 65542 non-Assamese lines dropped so far
+- [2026-08-17 21:51:30] niyomiyabarta: 560/40575 articles this run, ~2671990 words total so far, 65662 non-Assamese lines dropped so far
+- [2026-08-17 21:52:32] niyomiyabarta: 580/40575 articles this run, ~2679263 words total so far, 65781 non-Assamese lines dropped so far
+- [2026-08-17 21:53:48] niyomiyabarta: 600/40575 articles this run, ~2685420 words total so far, 65904 non-Assamese lines dropped so far
+- [2026-08-17 21:54:59] niyomiyabarta: 620/40575 articles this run, ~2692707 words total so far, 66024 non-Assamese lines dropped so far
+- [2026-08-17 21:56:04] niyomiyabarta: 640/40575 articles this run, ~2696966 words total so far, 66147 non-Assamese lines dropped so far
+- [2026-08-17 21:56:58] niyomiyabarta: 660/40575 articles this run, ~2700771 words total so far, 66273 non-Assamese lines dropped so far
+- [2026-08-17 21:58:11] niyomiyabarta: 680/40575 articles this run, ~2707192 words total so far, 66413 non-Assamese lines dropped so far
+- [2026-08-17 21:59:16] niyomiyabarta: 700/40575 articles this run, ~2711376 words total so far, 66547 non-Assamese lines dropped so far
+- [2026-08-17 22:00:28] niyomiyabarta: 720/40575 articles this run, ~2717227 words total so far, 66675 non-Assamese lines dropped so far
+- [2026-08-17 22:01:58] niyomiyabarta: 740/40575 articles this run, ~2723509 words total so far, 66805 non-Assamese lines dropped so far
+- [2026-08-17 22:03:07] niyomiyabarta: 760/40575 articles this run, ~2730472 words total so far, 66935 non-Assamese lines dropped so far
+- [2026-08-17 22:04:24] niyomiyabarta: 780/40575 articles this run, ~2735325 words total so far, 67056 non-Assamese lines dropped so far
+- [2026-08-17 22:05:31] niyomiyabarta: 800/40575 articles this run, ~2741167 words total so far, 67182 non-Assamese lines dropped so far
+- [2026-08-17 22:06:30] niyomiyabarta: 820/40575 articles this run, ~2745940 words total so far, 67317 non-Assamese lines dropped so far
+- [2026-08-17 22:07:26] niyomiyabarta: 840/40575 articles this run, ~2751970 words total so far, 67454 non-Assamese lines dropped so far
+- [2026-08-17 22:08:22] niyomiyabarta: 860/40575 articles this run, ~2755797 words total so far, 67591 non-Assamese lines dropped so far
+- [2026-08-17 22:10:15] niyomiyabarta: 880/40575 articles this run, ~2759797 words total so far, 67721 non-Assamese lines dropped so far
+- [2026-08-17 22:11:10] niyomiyabarta: 900/40575 articles this run, ~2764996 words total so far, 67847 non-Assamese lines dropped so far
+- [2026-08-17 22:12:03] niyomiyabarta: 920/40575 articles this run, ~2770315 words total so far, 67970 non-Assamese lines dropped so far
+- [2026-08-17 22:13:06] niyomiyabarta: 940/40575 articles this run, ~2775276 words total so far, 68094 non-Assamese lines dropped so far
+- [2026-08-17 22:14:30] niyomiyabarta: 960/40575 articles this run, ~2781589 words total so far, 68216 non-Assamese lines dropped so far
+- [2026-08-17 22:16:10] niyomiyabarta: 980/40575 articles this run, ~2786308 words total so far, 68345 non-Assamese lines dropped so far
+- [2026-08-17 22:17:07] niyomiyabarta: 1000/40575 articles this run, ~2794046 words total so far, 68475 non-Assamese lines dropped so far
+- [2026-08-17 22:17:56] niyomiyabarta: 1020/40575 articles this run, ~2799541 words total so far, 68602 non-Assamese lines dropped so far
+- [2026-08-17 22:18:51] BATCH STOP niyomiyabarta: 1033 new articles this batch (3601s), 39542 still remaining, 10458 total ever, ~2802703 words total
+- [2026-08-17 22:18:51] Scraper run complete.
+- [2026-08-18 00:03:23] asomiyapratidin: discovery found 147 items, 6 new
+- [2026-08-18 00:03:23] xobdo: discovered 361 alphabetical ranges
+- [2026-08-18 00:03:23] xobdo: already fully drained (361/361 ranges)
+- [2026-08-18 00:03:40] DONE asomiyapratidin: 6 new articles, 202 total ever, ~53181 words total
+- [2026-08-18 00:09:33] niyomiyabarta: discovery found 50000 items, 39542 new
+- [2026-08-18 00:10:19] niyomiyabarta: 20/39542 articles this run, ~2807949 words total so far, 68806 non-Assamese lines dropped so far
+- [2026-08-18 00:11:02] niyomiyabarta: 40/39542 articles this run, ~2812209 words total so far, 68933 non-Assamese lines dropped so far
+- [2026-08-18 00:11:44] niyomiyabarta: 60/39542 articles this run, ~2817296 words total so far, 69068 non-Assamese lines dropped so far
+- [2026-08-18 00:12:25] niyomiyabarta: 80/39542 articles this run, ~2821967 words total so far, 69197 non-Assamese lines dropped so far
+- [2026-08-18 00:13:05] niyomiyabarta: 100/39542 articles this run, ~2829415 words total so far, 69323 non-Assamese lines dropped so far
+- [2026-08-18 00:13:47] niyomiyabarta: 120/39542 articles this run, ~2836726 words total so far, 69444 non-Assamese lines dropped so far
+- [2026-08-18 00:14:30] niyomiyabarta: 140/39542 articles this run, ~2844535 words total so far, 69563 non-Assamese lines dropped so far
+- [2026-08-18 00:40:22] Downloading https://dumps.wikimedia.org/aswikisource/latest/aswikisource-latest-pages-articles.xml.bz2 -> /Users/borah/resources/IIITH PDM/sem_3/lma/ind_proj/individual-project-abhinavborah/assamese/data/raw/wikisource_dump/aswikisource-latest-pages-articles.xml.bz2

@@ -2930,3 +2930,624 @@
 - [2026-08-17 08:41:20] patrika: 700/15107 articles this batch, ~374293 words this batch (~1396239 total ever)
 - [2026-08-17 08:41:28] abplive: 1180/5834 articles this batch, ~626368 words this batch (~3908548 total ever)
 - [2026-08-17 08:42:24] HALT: user-directed full stop. batch6 (scraper, 4 sources) killed mid-run at ~35min of 60min cap, checkpointed per-article so no work lost -- resumes clean next launch. Cumulative state at halt: scrape 24507 urls / 11177787 words across abplive+indiatv+patrika+zeenews (+ jagran/amarujala/bbc_hindi/livehindustan drained/blocked, prabhatkhabar/aajtak still 0), wiki_dump_parallel 3271/3271 chunks / 48130250 words (done, static). OCR pipeline: idle at gate, untouched, last known 473/1617. No processes running.
+- [2026-08-17 20:16:42] Starting 6 concurrent source workers: ['abplive', 'prabhatkhabar', 'indiatv', 'patrika', 'zeenews', 'aajtak']
+- [2026-08-17 20:16:42] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (0 already resolved from prior batches)
+- [2026-08-17 20:16:43] batch progress: 10 new codes attempted (0 extracted, 0 words) this batch
+- [2026-08-17 20:16:44] aajtak: discovery attempt 1/3 failed, retrying
+- [2026-08-17 20:16:45] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-11.xml
+- [2026-08-17 20:16:46] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-10.xml
+- [2026-08-17 20:16:47] aajtak: discovery attempt 2/3 failed, retrying
+- [2026-08-17 20:16:48] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-09.xml
+- [2026-08-17 20:16:49] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-08.xml
+- [2026-08-17 20:16:50] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 20:16:51] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-07.xml
+- [2026-08-17 20:16:52] aajtak: discovery attempt 3/3 failed, retrying
+- [2026-08-17 20:16:52] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-06.xml
+- [2026-08-17 20:16:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-05.xml
+- [2026-08-17 20:16:56] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-04.xml
+- [2026-08-17 20:16:56] aajtak: discovery failed 3/3 times -- skipping this run, NOT marking as drained (0 done so far)
+- [2026-08-17 20:16:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-03.xml
+- [2026-08-17 20:16:59] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-02.xml
+- [2026-08-17 20:17:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-01.xml
+- [2026-08-17 20:17:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-31.xml
+- [2026-08-17 20:17:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-30.xml
+- [2026-08-17 20:17:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-29.xml
+- [2026-08-17 20:17:07] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-28.xml
+- [2026-08-17 20:17:08] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-27.xml
+- [2026-08-17 20:17:10] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-26.xml
+- [2026-08-17 20:17:11] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-25.xml
+- [2026-08-17 20:17:13] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-24.xml
+- [2026-08-17 20:17:14] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-23.xml
+- [2026-08-17 20:17:16] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-22.xml
+- [2026-08-17 20:17:18] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-21.xml
+- [2026-08-17 20:17:19] fhcu101: pdftotext, ~1865 words
+- [2026-08-17 20:17:19] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-20.xml
+- [2026-08-17 20:17:21] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-19.xml
+- [2026-08-17 20:17:22] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-18.xml
+- [2026-08-17 20:17:23] fhcu1ps: pdftotext, ~5123 words
+- [2026-08-17 20:17:24] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-17.xml
+- [2026-08-17 20:17:25] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-16.xml
+- [2026-08-17 20:17:27] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-15.xml
+- [2026-08-17 20:17:29] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-14.xml
+- [2026-08-17 20:17:30] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-13.xml
+- [2026-08-17 20:17:32] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-12.xml
+- [2026-08-17 20:17:33] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-11.xml
+- [2026-08-17 20:17:35] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-10.xml
+- [2026-08-17 20:17:36] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-09.xml
+- [2026-08-17 20:17:37] fhcu104: pdftotext, ~4059 words
+- [2026-08-17 20:17:38] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-08.xml
+- [2026-08-17 20:17:39] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-07.xml
+- [2026-08-17 20:17:41] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-06.xml
+- [2026-08-17 20:17:43] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-05.xml
+- [2026-08-17 20:17:44] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-04.xml
+- [2026-08-17 20:17:45] fhcu102: pdftotext, ~7292 words
+- [2026-08-17 20:17:46] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-03.xml
+- [2026-08-17 20:17:47] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-02.xml
+- [2026-08-17 20:17:48] abplive: discovery found 12222 URLs, 4944 new
+- [2026-08-17 20:17:49] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-01.xml
+- [2026-08-17 20:17:50] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-30.xml
+- [2026-08-17 20:17:52] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-29.xml
+- [2026-08-17 20:17:53] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-28.xml
+- [2026-08-17 20:17:55] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-27.xml
+- [2026-08-17 20:17:57] fhcu105: pdftotext, ~4733 words
+- [2026-08-17 20:17:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-26.xml
+- [2026-08-17 20:17:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-25.xml
+- [2026-08-17 20:18:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-24.xml
+- [2026-08-17 20:18:00] prabhatkhabar: discovery found 0 URLs, 0 new
+- [2026-08-17 20:18:00] prabhatkhabar: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 20:18:03] indiatv: discovery found 7907 URLs, 564 new
+- [2026-08-17 20:18:13] zeenews: discovery found 244711 URLs, 240237 new
+- [2026-08-17 20:18:13] patrika: discovery found 18327 URLs, 14564 new
+- [2026-08-17 20:18:23] fhcu103: pdftotext, ~6485 words
+- [2026-08-17 20:18:23] abplive: 20/4944 articles this batch, ~9661 words this batch (~3924947 total ever)
+- [2026-08-17 20:18:37] indiatv: 20/564 articles this batch, ~10922 words this batch (~3684420 total ever)
+- [2026-08-17 20:18:50] zeenews: 20/240237 articles this batch, ~7100 words this batch (~1408919 total ever)
+- [2026-08-17 20:18:51] fhcu107: pdftotext, ~4439 words
+- [2026-08-17 20:18:51] batch progress: 20 new codes attempted (7 extracted, 33996 words) this batch
+- [2026-08-17 20:18:58] abplive: 40/4944 articles this batch, ~24657 words this batch (~3939943 total ever)
+- [2026-08-17 20:19:08] patrika: 20/14564 articles this batch, ~11254 words this batch (~1414217 total ever)
+- [2026-08-17 20:19:10] indiatv: 40/564 articles this batch, ~20319 words this batch (~3693817 total ever)
+- [2026-08-17 20:19:17] fhcu108: pdftotext, ~5728 words
+- [2026-08-17 20:19:17] fhcu106: pdftotext, ~5348 words
+- [2026-08-17 20:19:18] batch progress: 30 new codes attempted (9 extracted, 45072 words) this batch
+- [2026-08-17 20:19:20] batch progress: 40 new codes attempted (9 extracted, 45072 words) this batch
+- [2026-08-17 20:19:21] batch progress: 50 new codes attempted (9 extracted, 45072 words) this batch
+- [2026-08-17 20:19:22] batch progress: 60 new codes attempted (9 extracted, 45072 words) this batch
+- [2026-08-17 20:19:31] zeenews: 40/240237 articles this batch, ~14596 words this batch (~1416415 total ever)
+- [2026-08-17 20:19:33] abplive: 60/4944 articles this batch, ~34239 words this batch (~3949525 total ever)
+- [2026-08-17 20:19:47] indiatv: 60/564 articles this batch, ~31166 words this batch (~3704664 total ever)
+- [2026-08-17 20:19:58] patrika: 40/14564 articles this batch, ~23372 words this batch (~1426335 total ever)
+- [2026-08-17 20:20:08] abplive: 80/4944 articles this batch, ~43646 words this batch (~3958932 total ever)
+- [2026-08-17 20:20:15] zeenews: 60/240237 articles this batch, ~21034 words this batch (~1422853 total ever)
+- [2026-08-17 20:20:20] indiatv: 80/564 articles this batch, ~40843 words this batch (~3714341 total ever)
+- [2026-08-17 20:20:20] fhes101: pdftotext, ~6493 words
+- [2026-08-17 20:20:21] fhcu110: pdftotext, ~6706 words
+- [2026-08-17 20:20:22] fhcu109: pdftotext, ~5262 words
+- [2026-08-17 20:20:43] abplive: 100/4944 articles this batch, ~55204 words this batch (~3970490 total ever)
+- [2026-08-17 20:20:46] fhcu112: pdftotext, ~6140 words
+- [2026-08-17 20:20:48] patrika: 60/14564 articles this batch, ~35133 words this batch (~1438096 total ever)
+- [2026-08-17 20:20:53] indiatv: 100/564 articles this batch, ~50374 words this batch (~3723872 total ever)
+- [2026-08-17 20:20:58] zeenews: 80/240237 articles this batch, ~26592 words this batch (~1428411 total ever)
+- [2026-08-17 20:21:01] fhcu111: pdftotext, ~6237 words
+- [2026-08-17 20:21:12] fhes102: pdftotext, ~3067 words
+- [2026-08-17 20:21:17] abplive: 120/4944 articles this batch, ~65615 words this batch (~3980901 total ever)
+- [2026-08-17 20:21:24] fhes104: pdftotext, ~3803 words
+- [2026-08-17 20:21:27] indiatv: 120/564 articles this batch, ~59606 words this batch (~3733104 total ever)
+- [2026-08-17 20:21:34] zeenews: 100/240237 articles this batch, ~30824 words this batch (~1432643 total ever)
+- [2026-08-17 20:21:38] patrika: 80/14564 articles this batch, ~47235 words this batch (~1450198 total ever)
+- [2026-08-17 20:21:39] fhes105: pdftotext, ~2073 words
+- [2026-08-17 20:21:42] fhes103: pdftotext, ~4068 words
+- [2026-08-17 20:21:42] batch progress: 70 new codes attempted (18 extracted, 88921 words) this batch
+- [2026-08-17 20:21:52] abplive: 140/4944 articles this batch, ~74782 words this batch (~3990068 total ever)
+- [2026-08-17 20:22:01] indiatv: 140/564 articles this batch, ~68823 words this batch (~3742321 total ever)
+- [2026-08-17 20:22:18] zeenews: 120/240237 articles this batch, ~38230 words this batch (~1440049 total ever)
+- [2026-08-17 20:22:27] abplive: 160/4944 articles this batch, ~85203 words this batch (~4000489 total ever)
+- [2026-08-17 20:22:29] patrika: 100/14564 articles this batch, ~59396 words this batch (~1462359 total ever)
+- [2026-08-17 20:22:36] indiatv: 160/564 articles this batch, ~77674 words this batch (~3751172 total ever)
+- [2026-08-17 20:22:37] fhes110: pdftotext, ~3339 words
+- [2026-08-17 20:22:38] fhes108: pdftotext, ~2759 words
+- [2026-08-17 20:22:54] fhes109: pdftotext, ~2792 words
+- [2026-08-17 20:22:55] fhes106: pdftotext, ~4197 words
+- [2026-08-17 20:22:56] zeenews: 140/240237 articles this batch, ~44170 words this batch (~1445989 total ever)
+- [2026-08-17 20:23:00] fhes112: pdftotext, ~2070 words
+- [2026-08-17 20:23:02] abplive: 180/4944 articles this batch, ~95079 words this batch (~4010365 total ever)
+- [2026-08-17 20:23:04] fhes111: pdftotext, ~2281 words
+- [2026-08-17 20:23:09] indiatv: 180/564 articles this batch, ~88183 words this batch (~3761681 total ever)
+- [2026-08-17 20:23:24] patrika: 120/14564 articles this batch, ~71073 words this batch (~1474036 total ever)
+- [2026-08-17 20:23:30] fhes107: pdftotext, ~5385 words
+- [2026-08-17 20:23:37] abplive: 200/4944 articles this batch, ~106737 words this batch (~4022023 total ever)
+- [2026-08-17 20:23:40] zeenews: 160/240237 articles this batch, ~48924 words this batch (~1450743 total ever)
+- [2026-08-17 20:23:42] fhes1ps: pdftotext, ~4235 words
+- [2026-08-17 20:23:43] indiatv: 200/564 articles this batch, ~99077 words this batch (~3772575 total ever)
+- [2026-08-17 20:23:43] fhgp101: pdftotext, ~2529 words
+- [2026-08-17 20:23:44] fhes113: pdftotext, ~2122 words
+- [2026-08-17 20:23:44] batch progress: 80 new codes attempted (28 extracted, 120630 words) this batch
+- [2026-08-17 20:24:11] abplive: 220/4944 articles this batch, ~116864 words this batch (~4032150 total ever)
+- [2026-08-17 20:24:17] indiatv: 220/564 articles this batch, ~108113 words this batch (~3781611 total ever)
+- [2026-08-17 20:24:18] fhgp1ps: pdftotext, ~5635 words
+- [2026-08-17 20:24:22] zeenews: 180/240237 articles this batch, ~53988 words this batch (~1455807 total ever)
+- [2026-08-17 20:24:24] patrika: 140/14564 articles this batch, ~84252 words this batch (~1487215 total ever)
+- [2026-08-17 20:24:35] fhgp103: pdftotext, ~4455 words
+- [2026-08-17 20:24:46] abplive: 240/4944 articles this batch, ~127396 words this batch (~4042682 total ever)
+- [2026-08-17 20:24:53] indiatv: 240/564 articles this batch, ~118238 words this batch (~3791736 total ever)
+- [2026-08-17 20:24:55] fhes114: pdftotext, ~2774 words
+- [2026-08-17 20:25:01] zeenews: 200/240237 articles this batch, ~61186 words this batch (~1463005 total ever)
+- [2026-08-17 20:25:11] fhgp105: pdftotext, ~6721 words
+- [2026-08-17 20:25:22] abplive: 260/4944 articles this batch, ~136433 words this batch (~4051719 total ever)
+- [2026-08-17 20:25:22] fhgp106: pdftotext, ~4555 words
+- [2026-08-17 20:25:28] indiatv: 260/564 articles this batch, ~127500 words this batch (~3800998 total ever)
+- [2026-08-17 20:25:29] patrika: 160/14564 articles this batch, ~96214 words this batch (~1499177 total ever)
+- [2026-08-17 20:25:42] zeenews: 220/240237 articles this batch, ~69414 words this batch (~1471233 total ever)
+- [2026-08-17 20:26:01] indiatv: 280/564 articles this batch, ~139310 words this batch (~3812808 total ever)
+- [2026-08-17 20:26:02] abplive: 280/4944 articles this batch, ~145671 words this batch (~4060957 total ever)
+- [2026-08-17 20:26:02] fhgp102: pdftotext, ~6974 words
+- [2026-08-17 20:26:14] fhgp107: pdftotext, ~6879 words
+- [2026-08-17 20:26:17] patrika: 180/14564 articles this batch, ~107672 words this batch (~1510635 total ever)
+- [2026-08-17 20:26:18] fhgp104: pdftotext, ~7002 words
+- [2026-08-17 20:26:22] zeenews: 240/240237 articles this batch, ~75313 words this batch (~1477132 total ever)
+- [2026-08-17 20:26:29] fhgp108: pdftotext, ~4982 words
+- [2026-08-17 20:26:35] indiatv: 300/564 articles this batch, ~148271 words this batch (~3821769 total ever)
+- [2026-08-17 20:26:35] indiatv: batch done -- 300 new articles, ~148271 words, 512s, ~3821769 words total ever
+- [2026-08-17 20:26:36] abplive: 300/4944 articles this batch, ~155691 words this batch (~4070977 total ever)
+- [2026-08-17 20:26:36] abplive: batch done -- 300 new articles, ~155691 words, 529s, ~4070977 words total ever
+- [2026-08-17 20:27:01] zeenews: 260/240237 articles this batch, ~81806 words this batch (~1483625 total ever)
+- [2026-08-17 20:27:03] fhgp110: pdftotext, ~7900 words
+- [2026-08-17 20:27:03] batch progress: 90 new codes attempted (38 extracted, 178507 words) this batch
+- [2026-08-17 20:27:14] patrika: 200/14564 articles this batch, ~119802 words this batch (~1522765 total ever)
+- [2026-08-17 20:27:21] fhgp109: pdftotext, ~4302 words
+- [2026-08-17 20:27:24] fhkb104: pdftotext, ~3896 words
+- [2026-08-17 20:27:25] fhkb101: pdftotext, ~6172 words
+- [2026-08-17 20:27:32] fhkb102: pdftotext, ~4920 words
+- [2026-08-17 20:27:34] fhkb1ps: pdftotext, ~7034 words
+- [2026-08-17 20:27:41] zeenews: 280/240237 articles this batch, ~88129 words this batch (~1489948 total ever)
+- [2026-08-17 20:27:48] fhkr1ps: pdftotext, ~4183 words
+- [2026-08-17 20:28:10] patrika: 220/14564 articles this batch, ~130217 words this batch (~1533180 total ever)
+- [2026-08-17 20:28:12] fhkb105: pdftotext, ~4377 words
+- [2026-08-17 20:28:12] fhkr103: pdftotext, ~1080 words
+- [2026-08-17 20:28:13] fhkr101: pdftotext, ~2066 words
+- [2026-08-17 20:28:22] fhkr105: pdftotext, ~1220 words
+- [2026-08-17 20:28:22] batch progress: 100 new codes attempted (48 extracted, 217757 words) this batch
+- [2026-08-17 20:28:22] fhkr104: pdftotext, ~660 words
+- [2026-08-17 20:28:22] zeenews: 300/240237 articles this batch, ~98139 words this batch (~1499958 total ever)
+- [2026-08-17 20:28:22] zeenews: batch done -- 300 new articles, ~98139 words, 609s, ~1499958 words total ever
+- [2026-08-17 20:28:23] fhkb106: pdftotext, ~5163 words
+- [2026-08-17 20:28:29] fhkr107: pdftotext, ~1184 words
+- [2026-08-17 20:28:35] fhkr106: pdftotext, ~3348 words
+- [2026-08-17 20:28:38] fhkr110: pdftotext, ~1089 words
+- [2026-08-17 20:28:45] fhkr102: pdftotext, ~1938 words
+- [2026-08-17 20:28:48] fhkr108: pdftotext, ~3012 words
+- [2026-08-17 20:28:51] fhkr109: pdftotext, ~1987 words
+- [2026-08-17 20:28:51] fhkr111: pdftotext, ~601 words
+- [2026-08-17 20:28:52] fhkb103: pdftotext, ~4648 words
+- [2026-08-17 20:28:52] batch progress: 110 new codes attempted (58 extracted, 241387 words) this batch
+- [2026-08-17 20:29:00] patrika: 240/14564 articles this batch, ~142947 words this batch (~1545910 total ever)
+- [2026-08-17 20:29:05] fhkr113: pdftotext, ~864 words
+- [2026-08-17 20:29:08] fhkr115: pdftotext, ~1165 words
+- [2026-08-17 20:29:26] fhkr114: pdftotext, ~1159 words
+- [2026-08-17 20:29:28] fhkr118: pdftotext, ~934 words
+- [2026-08-17 20:29:30] fhkr120: pdftotext, ~650 words
+- [2026-08-17 20:29:32] fhkr117: pdftotext, ~3767 words
+- [2026-08-17 20:29:43] fhkr121: pdftotext, ~1320 words
+- [2026-08-17 20:29:49] fhkr119: pdftotext, ~2244 words
+- [2026-08-17 20:29:54] fhkr112: pdftotext, ~1879 words
+- [2026-08-17 20:29:57] patrika: 260/14564 articles this batch, ~153686 words this batch (~1556649 total ever)
+- [2026-08-17 20:29:58] fhkr122: pdftotext, ~2706 words
+- [2026-08-17 20:29:58] batch progress: 120 new codes attempted (68 extracted, 258075 words) this batch
+- [2026-08-17 20:30:15] fhkr116: pdftotext, ~4138 words
+- [2026-08-17 20:30:54] patrika: 280/14564 articles this batch, ~166365 words this batch (~1569328 total ever)
+- [2026-08-17 20:31:00] fhky1ps: pdftotext, ~3944 words
+- [2026-08-17 20:31:43] patrika: 300/14564 articles this batch, ~179182 words this batch (~1582145 total ever)
+- [2026-08-17 20:31:43] patrika: batch done -- 300 new articles, ~179182 words, 810s, ~1582145 words total ever
+- [2026-08-17 20:31:43] RUN COMPLETE: 6 sources, 1200 new articles, 581283 words, 901s elapsed, ~2321302 words/hour aggregate throughput
+- [2026-08-17 20:31:43]   abplive: 300 articles, 155691 words, 529s
+- [2026-08-17 20:31:43]   prabhatkhabar: 0 articles, 0 words, 0s
+- [2026-08-17 20:31:43]   indiatv: 300 articles, 148271 words, 512s
+- [2026-08-17 20:31:43]   patrika: 300 articles, 179182 words, 810s
+- [2026-08-17 20:31:43]   zeenews: 300 articles, 98139 words, 609s
+- [2026-08-17 20:31:43]   aajtak: 0 articles, 0 words, 0s
+- [2026-08-17 20:32:41] fhky101: OCR, ~1617 words
+- [2026-08-17 20:32:42] fhml1ps: pdftotext, ~4762 words
+- [2026-08-17 20:33:31] fhml102: pdftotext, ~2775 words
+- [2026-08-17 20:33:43] fhml101: pdftotext, ~1688 words
+- [2026-08-17 20:34:40] fhky102: OCR, ~3386 words
+- [2026-08-17 20:34:41] fhml104: pdftotext, ~2404 words
+- [2026-08-17 20:34:41] fhml103: pdftotext, ~1114 words
+- [2026-08-17 20:35:56] batch progress: 130 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:56] batch progress: 140 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:57] batch progress: 150 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:57] batch progress: 160 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:57] batch progress: 170 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:58] batch progress: 180 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:58] batch progress: 190 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:58] batch progress: 200 new codes attempted (77 extracted, 283903 words) this batch
+- [2026-08-17 20:35:58] BATCH COMPLETE: 200 new codes attempted this batch (77 extracted, 283903 words), 1098s elapsed. Overall: 200/1617 codes resolved so far.
+- [2026-08-17 21:11:50] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (200 already resolved from prior batches)
+- [2026-08-17 21:11:50] Starting 6 concurrent source workers: ['abplive', 'prabhatkhabar', 'indiatv', 'patrika', 'zeenews', 'aajtak']
+- [2026-08-17 21:11:52] aajtak: discovery attempt 1/3 failed, retrying
+- [2026-08-17 21:11:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-11.xml
+- [2026-08-17 21:11:55] aajtak: discovery attempt 2/3 failed, retrying
+- [2026-08-17 21:11:55] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-10.xml
+- [2026-08-17 21:11:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-09.xml
+- [2026-08-17 21:11:59] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-08.xml
+- [2026-08-17 21:12:00] aajtak: discovery attempt 3/3 failed, retrying
+- [2026-08-17 21:12:00] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 21:12:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-07.xml
+- [2026-08-17 21:12:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-06.xml
+- [2026-08-17 21:12:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-05.xml
+- [2026-08-17 21:12:04] aajtak: discovery failed 3/3 times -- skipping this run, NOT marking as drained (0 done so far)
+- [2026-08-17 21:12:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-04.xml
+- [2026-08-17 21:12:06] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-03.xml
+- [2026-08-17 21:12:08] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-02.xml
+- [2026-08-17 21:12:09] ghcu109: pdftotext, ~6366 words
+- [2026-08-17 21:12:10] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-01.xml
+- [2026-08-17 21:12:11] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-31.xml
+- [2026-08-17 21:12:13] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-30.xml
+- [2026-08-17 21:12:13] ghcu110: pdftotext, ~5515 words
+- [2026-08-17 21:12:14] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-29.xml
+- [2026-08-17 21:12:16] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-28.xml
+- [2026-08-17 21:12:16] ghcu112: pdftotext, ~6945 words
+- [2026-08-17 21:12:17] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-27.xml
+- [2026-08-17 21:12:17] ghcu111: pdftotext, ~5325 words
+- [2026-08-17 21:12:19] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-26.xml
+- [2026-08-17 21:12:20] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-25.xml
+- [2026-08-17 21:12:22] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-24.xml
+- [2026-08-17 21:12:23] ghes102: pdftotext, ~4387 words
+- [2026-08-17 21:12:24] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-23.xml
+- [2026-08-17 21:12:25] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-22.xml
+- [2026-08-17 21:12:27] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-21.xml
+- [2026-08-17 21:12:28] ghes104: pdftotext, ~3588 words
+- [2026-08-17 21:12:28] batch progress: 10 new codes attempted (6 extracted, 32126 words) this batch
+- [2026-08-17 21:12:28] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-20.xml
+- [2026-08-17 21:12:30] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-19.xml
+- [2026-08-17 21:12:30] ghes101: pdftotext, ~5641 words
+- [2026-08-17 21:12:31] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-18.xml
+- [2026-08-17 21:12:33] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-17.xml
+- [2026-08-17 21:12:34] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-16.xml
+- [2026-08-17 21:12:36] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-15.xml
+- [2026-08-17 21:12:37] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-14.xml
+- [2026-08-17 21:12:39] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-13.xml
+- [2026-08-17 21:12:41] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-12.xml
+- [2026-08-17 21:12:41] ghes108: pdftotext, ~4953 words
+- [2026-08-17 21:12:42] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-11.xml
+- [2026-08-17 21:12:44] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-10.xml
+- [2026-08-17 21:12:45] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-09.xml
+- [2026-08-17 21:12:47] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-08.xml
+- [2026-08-17 21:12:47] ghes105: pdftotext, ~8285 words
+- [2026-08-17 21:12:48] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-07.xml
+- [2026-08-17 21:12:50] ghes103: pdftotext, ~5832 words
+- [2026-08-17 21:12:50] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-06.xml
+- [2026-08-17 21:12:51] ghes107: pdftotext, ~5549 words
+- [2026-08-17 21:12:51] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-05.xml
+- [2026-08-17 21:12:53] abplive: discovery found 12233 URLs, 4653 new
+- [2026-08-17 21:12:53] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-04.xml
+- [2026-08-17 21:12:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-03.xml
+- [2026-08-17 21:12:55] ghes109: pdftotext, ~6722 words
+- [2026-08-17 21:12:56] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-02.xml
+- [2026-08-17 21:12:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-01.xml
+- [2026-08-17 21:12:58] ghes111: pdftotext, ~4367 words
+- [2026-08-17 21:12:59] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-30.xml
+- [2026-08-17 21:13:01] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-29.xml
+- [2026-08-17 21:13:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-28.xml
+- [2026-08-17 21:13:04] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-27.xml
+- [2026-08-17 21:13:04] ghes106: pdftotext, ~6102 words
+- [2026-08-17 21:13:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-26.xml
+- [2026-08-17 21:13:07] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-25.xml
+- [2026-08-17 21:13:08] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-24.xml
+- [2026-08-17 21:13:08] prabhatkhabar: discovery found 0 URLs, 0 new
+- [2026-08-17 21:13:08] prabhatkhabar: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 21:13:10] indiatv: discovery found 7911 URLs, 268 new
+- [2026-08-17 21:13:12] ghes1ps: pdftotext, ~4615 words
+- [2026-08-17 21:13:14] ghes201: pdftotext, ~8236 words
+- [2026-08-17 21:13:14] batch progress: 20 new codes attempted (16 extracted, 92428 words) this batch
+- [2026-08-17 21:13:15] ghes112: pdftotext, ~6203 words
+- [2026-08-17 21:13:19] patrika: discovery found 18476 URLs, 14120 new
+- [2026-08-17 21:13:21] ghes2ps: pdftotext, ~3066 words
+- [2026-08-17 21:13:22] ghes202: pdftotext, ~8792 words
+- [2026-08-17 21:13:26] abplive: 20/4653 articles this batch, ~8746 words this batch (~4079723 total ever)
+- [2026-08-17 21:13:29] ghes205: pdftotext, ~4961 words
+- [2026-08-17 21:13:34] zeenews: discovery found 244711 URLs, 239935 new
+- [2026-08-17 21:13:38] ghes206: pdftotext, ~7812 words
+- [2026-08-17 21:13:41] ghes204: pdftotext, ~8666 words
+- [2026-08-17 21:13:43] indiatv: 20/268 articles this batch, ~11061 words this batch (~3832830 total ever)
+- [2026-08-17 21:13:48] ghes203: pdftotext, ~11203 words
+- [2026-08-17 21:13:55] ghes208: pdftotext, ~5976 words
+- [2026-08-17 21:14:02] ghgp1ps: pdftotext, ~5115 words
+- [2026-08-17 21:14:02] abplive: 40/4653 articles this batch, ~18816 words this batch (~4089793 total ever)
+- [2026-08-17 21:14:05] ghgp102: pdftotext, ~6196 words
+- [2026-08-17 21:14:05] batch progress: 30 new codes attempted (26 extracted, 160418 words) this batch
+- [2026-08-17 21:14:05] ghes207: pdftotext, ~5779 words
+- [2026-08-17 21:14:13] patrika: 20/14120 articles this batch, ~11436 words this batch (~1593581 total ever)
+- [2026-08-17 21:14:16] indiatv: 40/268 articles this batch, ~21823 words this batch (~3843592 total ever)
+- [2026-08-17 21:14:16] zeenews: 20/239935 articles this batch, ~5231 words this batch (~1505189 total ever)
+- [2026-08-17 21:14:17] ghes110: pdftotext, ~4917 words
+- [2026-08-17 21:14:20] ghgp105: pdftotext, ~4592 words
+- [2026-08-17 21:14:21] ghgp104: pdftotext, ~6880 words
+- [2026-08-17 21:14:38] abplive: 60/4653 articles this batch, ~28300 words this batch (~4099277 total ever)
+- [2026-08-17 21:14:39] ghkb1ps: pdftotext, ~6427 words
+- [2026-08-17 21:14:40] ghgp101: pdftotext, ~5776 words
+- [2026-08-17 21:14:51] indiatv: 60/268 articles this batch, ~31484 words this batch (~3853253 total ever)
+- [2026-08-17 21:14:51] patrika: 40/14120 articles this batch, ~22622 words this batch (~1604767 total ever)
+- [2026-08-17 21:14:56] ghgp107: pdftotext, ~7008 words
+- [2026-08-17 21:14:58] zeenews: 40/239935 articles this batch, ~11477 words this batch (~1511435 total ever)
+- [2026-08-17 21:14:58] ghkb101: pdftotext, ~5285 words
+- [2026-08-17 21:15:02] ghkb102: pdftotext, ~6493 words
+- [2026-08-17 21:15:04] ghgp106: pdftotext, ~6167 words
+- [2026-08-17 21:15:04] batch progress: 40 new codes attempted (36 extracted, 219742 words) this batch
+- [2026-08-17 21:15:11] ghgp108: pdftotext, ~6359 words
+- [2026-08-17 21:15:12] abplive: 80/4653 articles this batch, ~37450 words this batch (~4108427 total ever)
+- [2026-08-17 21:15:13] ghgp103: pdftotext, ~6869 words
+- [2026-08-17 21:15:19] ghkb104: pdftotext, ~5995 words
+- [2026-08-17 21:15:23] ghkb106: pdftotext, ~5814 words
+- [2026-08-17 21:15:23] indiatv: 80/268 articles this batch, ~42987 words this batch (~3864756 total ever)
+- [2026-08-17 21:15:26] ghkb103: pdftotext, ~7280 words
+- [2026-08-17 21:15:29] ghkb105: pdftotext, ~6945 words
+- [2026-08-17 21:15:36] ghkb107: pdftotext, ~8828 words
+- [2026-08-17 21:15:38] ghkr102: pdftotext, ~2200 words
+- [2026-08-17 21:15:44] zeenews: 60/239935 articles this batch, ~17567 words this batch (~1517525 total ever)
+- [2026-08-17 21:15:47] abplive: 100/4653 articles this batch, ~48727 words this batch (~4119704 total ever)
+- [2026-08-17 21:15:48] ghkr104: pdftotext, ~1866 words
+- [2026-08-17 21:15:50] patrika: 60/14120 articles this batch, ~34959 words this batch (~1617104 total ever)
+- [2026-08-17 21:15:56] indiatv: 100/268 articles this batch, ~53775 words this batch (~3875544 total ever)
+- [2026-08-17 21:15:58] ghkr105: pdftotext, ~2372 words
+- [2026-08-17 21:15:58] batch progress: 50 new codes attempted (46 extracted, 274270 words) this batch
+- [2026-08-17 21:15:58] ghkr106: pdftotext, ~1583 words
+- [2026-08-17 21:16:00] ghkr1ps: pdftotext, ~5570 words
+- [2026-08-17 21:16:12] ghkr103: pdftotext, ~4459 words
+- [2026-08-17 21:16:14] ghkr107: pdftotext, ~2861 words
+- [2026-08-17 21:16:17] ghkr101: pdftotext, ~4992 words
+- [2026-08-17 21:16:19] ghkr109: pdftotext, ~1487 words
+- [2026-08-17 21:16:23] abplive: 120/4653 articles this batch, ~59038 words this batch (~4130015 total ever)
+- [2026-08-17 21:16:25] ghkr108: pdftotext, ~2462 words
+- [2026-08-17 21:16:25] zeenews: 80/239935 articles this batch, ~23118 words this batch (~1523076 total ever)
+- [2026-08-17 21:16:28] ghkr110: pdftotext, ~2176 words
+- [2026-08-17 21:16:28] ghkr113: pdftotext, ~485 words
+- [2026-08-17 21:16:29] ghkr112: pdftotext, ~1603 words
+- [2026-08-17 21:16:29] batch progress: 60 new codes attempted (56 extracted, 301948 words) this batch
+- [2026-08-17 21:16:30] indiatv: 120/268 articles this batch, ~62917 words this batch (~3884686 total ever)
+- [2026-08-17 21:16:36] ghkr114: pdftotext, ~1656 words
+- [2026-08-17 21:16:39] ghkr111: pdftotext, ~2280 words
+- [2026-08-17 21:16:46] ghkr116: pdftotext, ~2101 words
+- [2026-08-17 21:16:46] ghkr117: pdftotext, ~1807 words
+- [2026-08-17 21:16:52] ghkr119: pdftotext, ~1740 words
+- [2026-08-17 21:16:52] patrika: 80/14120 articles this batch, ~45963 words this batch (~1628108 total ever)
+- [2026-08-17 21:16:54] ghkr120: pdftotext, ~879 words
+- [2026-08-17 21:16:57] abplive: 140/4653 articles this batch, ~69877 words this batch (~4140854 total ever)
+- [2026-08-17 21:17:03] indiatv: 140/268 articles this batch, ~71906 words this batch (~3893675 total ever)
+- [2026-08-17 21:17:10] zeenews: 100/239935 articles this batch, ~29917 words this batch (~1529875 total ever)
+- [2026-08-17 21:17:14] ghkr118: pdftotext, ~1314 words
+- [2026-08-17 21:17:16] ghkr115: pdftotext, ~2938 words
+- [2026-08-17 21:17:31] abplive: 160/4653 articles this batch, ~79543 words this batch (~4150520 total ever)
+- [2026-08-17 21:17:36] indiatv: 160/268 articles this batch, ~82061 words this batch (~3903830 total ever)
+- [2026-08-17 21:17:53] patrika: 100/14120 articles this batch, ~58316 words this batch (~1640461 total ever)
+- [2026-08-17 21:17:53] zeenews: 120/239935 articles this batch, ~35685 words this batch (~1535643 total ever)
+- [2026-08-17 21:18:02] ghky1ps: pdftotext, ~4235 words
+- [2026-08-17 21:18:05] abplive: 180/4653 articles this batch, ~88571 words this batch (~4159548 total ever)
+- [2026-08-17 21:18:10] indiatv: 180/268 articles this batch, ~92645 words this batch (~3914414 total ever)
+- [2026-08-17 21:18:36] zeenews: 140/239935 articles this batch, ~40886 words this batch (~1540844 total ever)
+- [2026-08-17 21:18:39] abplive: 200/4653 articles this batch, ~99670 words this batch (~4170647 total ever)
+- [2026-08-17 21:18:43] indiatv: 200/268 articles this batch, ~103091 words this batch (~3924860 total ever)
+- [2026-08-17 21:18:52] patrika: 120/14120 articles this batch, ~70341 words this batch (~1652486 total ever)
+- [2026-08-17 21:19:18] indiatv: 220/268 articles this batch, ~113506 words this batch (~3935275 total ever)
+- [2026-08-17 21:19:19] abplive: 220/4653 articles this batch, ~118347 words this batch (~4189324 total ever)
+- [2026-08-17 21:19:24] zeenews: 160/239935 articles this batch, ~47612 words this batch (~1547570 total ever)
+- [2026-08-17 21:19:52] indiatv: 240/268 articles this batch, ~123314 words this batch (~3945083 total ever)
+- [2026-08-17 21:19:54] patrika: 140/14120 articles this batch, ~82218 words this batch (~1664363 total ever)
+- [2026-08-17 21:19:54] abplive: 240/4653 articles this batch, ~127848 words this batch (~4198825 total ever)
+- [2026-08-17 21:20:11] zeenews: 180/239935 articles this batch, ~51187 words this batch (~1551145 total ever)
+- [2026-08-17 21:20:25] indiatv: 260/268 articles this batch, ~133979 words this batch (~3955748 total ever)
+- [2026-08-17 21:20:28] abplive: 260/4653 articles this batch, ~136518 words this batch (~4207495 total ever)
+- [2026-08-17 21:20:36] indiatv: batch done -- 267 new articles, ~137816 words, 446s, ~3959585 words total ever
+- [2026-08-17 21:20:37] ghky106: pdftotext, ~18239 words
+- [2026-08-17 21:20:37] batch progress: 70 new codes attempted (66 extracted, 339137 words) this batch
+- [2026-08-17 21:20:57] patrika: 160/14120 articles this batch, ~95036 words this batch (~1677181 total ever)
+- [2026-08-17 21:20:59] zeenews: 200/239935 articles this batch, ~56687 words this batch (~1556645 total ever)
+- [2026-08-17 21:21:03] abplive: 280/4653 articles this batch, ~145492 words this batch (~4216469 total ever)
+- [2026-08-17 21:21:40] abplive: 300/4653 articles this batch, ~158519 words this batch (~4229496 total ever)
+- [2026-08-17 21:21:40] abplive: batch done -- 300 new articles, ~158519 words, 528s, ~4229496 words total ever
+- [2026-08-17 21:21:46] zeenews: 220/239935 articles this batch, ~61956 words this batch (~1561914 total ever)
+- [2026-08-17 21:22:00] patrika: 180/14120 articles this batch, ~106226 words this batch (~1688371 total ever)
+- [2026-08-17 21:22:10] ghml1ps: pdftotext, ~5301 words
+- [2026-08-17 21:22:33] zeenews: 240/239935 articles this batch, ~66906 words this batch (~1566864 total ever)
+- [2026-08-17 21:23:04] patrika: 200/14120 articles this batch, ~118532 words this batch (~1700677 total ever)
+- [2026-08-17 21:23:27] zeenews: 260/239935 articles this batch, ~73309 words this batch (~1573267 total ever)
+- [2026-08-17 21:24:13] zeenews: 280/239935 articles this batch, ~81642 words this batch (~1581600 total ever)
+- [2026-08-17 21:24:13] patrika: 220/14120 articles this batch, ~130702 words this batch (~1712847 total ever)
+- [2026-08-17 21:24:17] ghml101: pdftotext, ~2470 words
+- [2026-08-17 21:24:42] ghml102: pdftotext, ~4413 words
+- [2026-08-17 21:24:54] zeenews: 300/239935 articles this batch, ~86622 words this batch (~1586580 total ever)
+- [2026-08-17 21:24:54] zeenews: batch done -- 300 new articles, ~86622 words, 681s, ~1586580 words total ever
+- [2026-08-17 21:25:15] patrika: 240/14120 articles this batch, ~142181 words this batch (~1724326 total ever)
+- [2026-08-17 21:25:46] ghml103: pdftotext, ~2615 words
+- [2026-08-17 21:26:16] patrika: 260/14120 articles this batch, ~154350 words this batch (~1736495 total ever)
+- [2026-08-17 21:26:57] ghml104: pdftotext, ~4128 words
+- [2026-08-17 21:27:14] patrika: 280/14120 articles this batch, ~166021 words this batch (~1748166 total ever)
+- [2026-08-17 21:27:45] ghml105: pdftotext, ~4301 words
+- [2026-08-17 21:28:01] ghml106: pdftotext, ~2669 words
+- [2026-08-17 21:28:10] patrika: 300/14120 articles this batch, ~174370 words this batch (~1756515 total ever)
+- [2026-08-17 21:28:10] patrika: batch done -- 300 new articles, ~174370 words, 890s, ~1756515 words total ever
+- [2026-08-17 21:28:10] RUN COMPLETE: 6 sources, 1167 new articles, 557327 words, 980s elapsed, ~2047328 words/hour aggregate throughput
+- [2026-08-17 21:28:10]   abplive: 300 articles, 158519 words, 528s
+- [2026-08-17 21:28:10]   prabhatkhabar: 0 articles, 0 words, 0s
+- [2026-08-17 21:28:10]   indiatv: 267 articles, 137816 words, 446s
+- [2026-08-17 21:28:10]   patrika: 300 articles, 174370 words, 890s
+- [2026-08-17 21:28:10]   zeenews: 300 articles, 86622 words, 681s
+- [2026-08-17 21:28:10]   aajtak: 0 articles, 0 words, 0s
+- [2026-08-17 21:30:25] ghml107: pdftotext, ~2581 words
+- [2026-08-17 21:31:21] ghml108: pdftotext, ~5229 words
+- [2026-08-17 21:33:26] ghml109: pdftotext, ~2514 words
+- [2026-08-17 21:33:26] batch progress: 80 new codes attempted (76 extracted, 375358 words) this batch
+- [2026-08-17 21:33:28] ghky101: pdftotext, ~3203 words
+- [2026-08-17 21:33:52] hhbk1ps: OCR, ~2560 words
+- [2026-08-17 21:34:24] hhbk101: OCR, ~665 words
+- [2026-08-17 21:34:24] ghml110: pdftotext, ~5277 words
+- [2026-08-17 21:34:56] hhbk102: OCR, ~4341 words
+- [2026-08-17 21:35:40] hhbk103: OCR, ~8746 words
+- [2026-08-17 21:36:19] hhbk104: OCR, ~7676 words
+- [2026-08-17 21:36:49] hhbk105: OCR, ~6068 words
+- [2026-08-17 21:37:12] hhbk106: OCR, ~4606 words
+- [2026-08-17 21:37:26] hhbk107: OCR, ~2624 words
+- [2026-08-17 21:37:26] batch progress: 90 new codes attempted (86 extracted, 421124 words) this batch
+- [2026-08-17 21:37:29] hhbk108: OCR, ~336 words
+- [2026-08-17 21:37:40] hhbk109: OCR, ~1610 words
+- [2026-08-17 21:37:57] hhcu1ps: pdftotext, ~5378 words
+- [2026-08-17 21:37:59] hhcu101: pdftotext, ~2612 words
+- [2026-08-17 21:38:26] hhcu102: pdftotext, ~7671 words
+- [2026-08-17 21:38:51] hhcu103: pdftotext, ~6534 words
+- [2026-08-17 21:39:06] hhcu104: pdftotext, ~5840 words
+- [2026-08-17 21:39:46] hhcu105: pdftotext, ~6847 words
+- [2026-08-17 21:40:19] hhcu106: pdftotext, ~6693 words
+- [2026-08-17 21:40:43] hhcu108: pdftotext, ~6212 words
+- [2026-08-17 21:40:43] batch progress: 100 new codes attempted (96 extracted, 470857 words) this batch
+- [2026-08-17 21:40:47] hhcu107: pdftotext, ~5877 words
+- [2026-08-17 21:40:58] hhcu109: pdftotext, ~6386 words
+- [2026-08-17 21:41:21] hhcu111: pdftotext, ~8252 words
+- [2026-08-17 21:41:24] hhcu110: pdftotext, ~6164 words
+- [2026-08-17 21:43:23] hhcu113: pdftotext, ~8299 words
+- [2026-08-17 21:43:37] hhcu112: pdftotext, ~7378 words
+- [2026-08-17 21:44:04] hhdv1ps: OCR, ~2103 words
+- [2026-08-17 21:45:32] hhdv102: OCR, ~2532 words
+- [2026-08-17 21:45:39] hhdv101: OCR, ~509 words
+- [2026-08-17 21:46:14] hhdv104: OCR, ~774 words
+- [2026-08-17 21:46:14] batch progress: 110 new codes attempted (106 extracted, 519131 words) this batch
+- [2026-08-17 21:46:35] hhdv103: OCR, ~1597 words
+- [2026-08-17 21:47:09] hhdv105: OCR, ~2020 words
+- [2026-08-17 21:47:22] hhdv106: OCR, ~1977 words
+- [2026-08-17 21:47:33] ghky105: pdftotext, ~4974 words
+- [2026-08-17 21:47:47] hhdv107: OCR, ~732 words
+- [2026-08-17 21:47:55] hhdv109: OCR, ~1093 words
+- [2026-08-17 21:48:12] hhdv108: OCR, ~2151 words
+- [2026-08-17 21:48:15] ghky102: pdftotext, ~4060 words
+- [2026-08-17 21:48:30] hhdv110: OCR, ~2290 words
+- [2026-08-17 21:48:44] hhdv111: OCR, ~2388 words
+- [2026-08-17 21:48:44] batch progress: 120 new codes attempted (116 extracted, 542413 words) this batch
+- [2026-08-17 21:48:51] hhdv112: OCR, ~591 words
+- [2026-08-17 21:49:01] hhdv115: OCR, ~446 words
+- [2026-08-17 21:49:15] hhdv113: OCR, ~1947 words
+- [2026-08-17 21:49:30] hhdv114: OCR, ~2007 words
+- [2026-08-17 21:49:40] hhdv117: OCR, ~1334 words
+- [2026-08-17 21:49:51] hhdv116: OCR, ~1617 words
+- [2026-08-17 21:49:56] hhdv119: OCR, ~145 words
+- [2026-08-17 21:50:01] hhdv118: OCR, ~550 words
+- [2026-08-17 21:50:01] batch progress: 130 new codes attempted (124 extracted, 551050 words) this batch
+- [2026-08-17 21:50:02] batch progress: 140 new codes attempted (124 extracted, 551050 words) this batch
+- [2026-08-17 21:51:22] hhes103: pdftotext, ~5903 words
+- [2026-08-17 21:52:15] hhes101: pdftotext, ~6113 words
+- [2026-08-17 21:53:07] hhes1ps: pdftotext, ~4469 words
+- [2026-08-17 21:54:08] hhes105: pdftotext, ~5439 words
+- [2026-08-17 21:54:10] hhes104: pdftotext, ~9686 words
+- [2026-08-17 21:54:29] hhes102: pdftotext, ~10062 words
+- [2026-08-17 21:55:08] hhes106: pdftotext, ~6506 words
+- [2026-08-17 21:55:43] hhgp101: pdftotext, ~5386 words
+- [2026-08-17 21:55:43] batch progress: 150 new codes attempted (132 extracted, 604614 words) this batch
+- [2026-08-17 21:56:46] hhgp1ps: pdftotext, ~4969 words
+- [2026-08-17 21:57:10] ghky103: pdftotext, ~4388 words
+- [2026-08-17 21:57:22] hhgp102: pdftotext, ~8576 words
+- [2026-08-17 21:57:42] hhgp104: pdftotext, ~6948 words
+- [2026-08-17 21:58:25] hhgp106: pdftotext, ~4947 words
+- [2026-08-17 21:58:50] hhgp103: pdftotext, ~9303 words
+- [2026-08-17 21:58:57] hhgp105: pdftotext, ~7410 words
+- [2026-08-17 21:59:27] hhgp107: pdftotext, ~6444 words
+- [2026-08-17 21:59:52] hhes107: pdftotext, ~7805 words
+- [2026-08-17 22:02:14] hhkb1ps: pdftotext, ~6366 words
+- [2026-08-17 22:02:14] batch progress: 160 new codes attempted (142 extracted, 671770 words) this batch
+- [2026-08-17 22:03:33] hhkb101: pdftotext, ~6887 words
+- [2026-08-17 22:03:36] hhkb104: pdftotext, ~5591 words
+- [2026-08-17 22:03:50] hhkb102: pdftotext, ~7631 words
+- [2026-08-17 22:04:52] hhkb107: pdftotext, ~769 words
+- [2026-08-17 22:05:16] hhkb103: pdftotext, ~5792 words
+- [2026-08-17 22:05:59] hhkr1ps: pdftotext, ~4699 words
+- [2026-08-17 22:06:12] hhkb105: pdftotext, ~6763 words
+- [2026-08-17 22:06:28] hhkr102: pdftotext, ~2728 words
+- [2026-08-17 22:07:10] hhkr101: pdftotext, ~4038 words
+- [2026-08-17 22:07:10] batch progress: 170 new codes attempted (151 extracted, 716668 words) this batch
+- [2026-08-17 22:07:27] hhkb106: pdftotext, ~6036 words
+- [2026-08-17 22:07:30] hhkr104: pdftotext, ~2118 words
+- [2026-08-17 22:07:40] hhkr105: pdftotext, ~2552 words
+- [2026-08-17 22:07:40] hhkr106: pdftotext, ~1674 words
+- [2026-08-17 22:08:15] hhkr107: pdftotext, ~2304 words
+- [2026-08-17 22:09:06] hhkr108: pdftotext, ~1354 words
+- [2026-08-17 22:09:26] hhkr109: pdftotext, ~2126 words
+- [2026-08-17 22:09:34] hhkr103: pdftotext, ~5566 words
+- [2026-08-17 22:10:09] hhkr111: pdftotext, ~2277 words
+- [2026-08-17 22:10:10] hhkr113: pdftotext, ~2021 words
+- [2026-08-17 22:10:10] batch progress: 180 new codes attempted (161 extracted, 744696 words) this batch
+- [2026-08-17 22:10:12] hhkr112: pdftotext, ~2328 words
+- [2026-08-17 22:11:01] hhkr114: pdftotext, ~1790 words
+- [2026-08-17 22:11:02] hhkr110: pdftotext, ~3001 words
+- [2026-08-17 22:11:05] hhkr118: pdftotext, ~1696 words
+- [2026-08-17 22:11:13] hhkr116: pdftotext, ~1692 words
+- [2026-08-17 22:11:31] hhkr117: pdftotext, ~1999 words
+- [2026-08-17 22:11:46] hhkr119: pdftotext, ~1495 words
+- [2026-08-17 22:12:12] hhkr115: pdftotext, ~2520 words
+- [2026-08-17 22:12:41] BATCH COMPLETE: 188 new codes attempted this batch (169 extracted, 761217 words), 3651s elapsed. Overall: 388/1617 codes resolved so far.
+- [2026-08-18 00:03:20] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (388 already resolved from prior batches)
+- [2026-08-18 00:03:21] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-18 00:03:31] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 00:03:56] hhmh102: OCR, ~1403 words
+- [2026-08-18 00:04:17] abplive: discovery found 12268 URLs, 4386 new
+- [2026-08-18 00:04:31] hhmh1ps: OCR, ~4882 words
+- [2026-08-18 00:04:50] indiatv: discovery found 7764 URLs, 21 new
+- [2026-08-18 00:04:52] abplive: 20/4386 articles this batch, ~10830 words this batch (~4240326 total ever)
+- [2026-08-18 00:04:59] hhmh103: OCR, ~4697 words
+- [2026-08-18 00:05:01] patrika: discovery found 18310 URLs, 13841 new
+- [2026-08-18 00:05:18] hhmh101: OCR, ~2968 words
+- [2026-08-18 00:05:18] batch progress: 10 new codes attempted (4 extracted, 13950 words) this batch
+- [2026-08-18 00:05:27] indiatv: 20/21 articles this batch, ~10439 words this batch (~3970024 total ever)
+- [2026-08-18 00:05:27] indiatv: batch done -- 20 new articles, ~10439 words, 38s, ~3970024 words total ever
+- [2026-08-18 00:05:28] abplive: 40/4386 articles this batch, ~20777 words this batch (~4250273 total ever)
+- [2026-08-18 00:05:30] hhmh106: OCR, ~2379 words
+- [2026-08-18 00:05:34] zeenews: discovery found 244711 URLs, 239634 new
+- [2026-08-18 00:05:51] patrika: 20/13841 articles this batch, ~14121 words this batch (~1770636 total ever)
+- [2026-08-18 00:06:03] abplive: 60/4386 articles this batch, ~32716 words this batch (~4262212 total ever)
+- [2026-08-18 00:06:05] hhmh105: OCR, ~6691 words
+- [2026-08-18 00:06:26] zeenews: 20/239634 articles this batch, ~7000 words this batch (~1593580 total ever)
+- [2026-08-18 00:06:26] hhmh107: OCR, ~4250 words
+- [2026-08-18 00:06:39] abplive: 80/4386 articles this batch, ~43017 words this batch (~4272513 total ever)
+- [2026-08-18 00:06:45] hhmh108: OCR, ~3584 words
+- [2026-08-18 00:06:49] patrika: 40/13841 articles this batch, ~19552 words this batch (~1776067 total ever)
+- [2026-08-18 00:07:07] hhmh104: OCR, ~3993 words
+- [2026-08-18 00:07:14] abplive: 100/4386 articles this batch, ~53763 words this batch (~4283259 total ever)
+- [2026-08-18 00:07:14] zeenews: 40/239634 articles this batch, ~12392 words this batch (~1598972 total ever)
+- [2026-08-18 00:07:20] hhmh110: OCR, ~2165 words
+- [2026-08-18 00:07:43] patrika: 60/13841 articles this batch, ~26203 words this batch (~1782718 total ever)
+- [2026-08-18 00:07:48] abplive: 120/4386 articles this batch, ~63512 words this batch (~4293008 total ever)
+- [2026-08-18 00:08:09] zeenews: 60/239634 articles this batch, ~19918 words this batch (~1606498 total ever)
+- [2026-08-18 00:08:13] hhmh109: OCR, ~5586 words
+- [2026-08-18 00:08:23] abplive: 140/4386 articles this batch, ~74743 words this batch (~4304239 total ever)
+- [2026-08-18 00:08:36] hhmh112: OCR, ~4755 words
+- [2026-08-18 00:08:43] patrika: 80/13841 articles this batch, ~38730 words this batch (~1795245 total ever)
+- [2026-08-18 00:08:53] hhmh113: OCR, ~2969 words
+- [2026-08-18 00:08:56] zeenews: 80/239634 articles this batch, ~24162 words this batch (~1610742 total ever)
+- [2026-08-18 00:08:58] abplive: 160/4386 articles this batch, ~84662 words this batch (~4314158 total ever)
+- [2026-08-18 00:09:36] abplive: 180/4386 articles this batch, ~95949 words this batch (~4325445 total ever)
+- [2026-08-18 00:09:41] hhmh111: OCR, ~5235 words
+- [2026-08-18 00:09:41] batch progress: 20 new codes attempted (14 extracted, 55557 words) this batch
+- [2026-08-18 00:09:49] patrika: 100/13841 articles this batch, ~50364 words this batch (~1806879 total ever)
+- [2026-08-18 00:09:51] zeenews: 100/239634 articles this batch, ~29898 words this batch (~1616478 total ever)
+- [2026-08-18 00:10:11] abplive: 200/4386 articles this batch, ~106120 words this batch (~4335616 total ever)
+- [2026-08-18 00:10:27] hhml1ps: pdftotext, ~4939 words
+- [2026-08-18 00:10:44] hhml103: pdftotext, ~1753 words
+- [2026-08-18 00:10:46] abplive: 220/4386 articles this batch, ~115490 words this batch (~4344986 total ever)
+- [2026-08-18 00:10:49] zeenews: 120/239634 articles this batch, ~34821 words this batch (~1621401 total ever)
+- [2026-08-18 00:10:52] patrika: 120/13841 articles this batch, ~61843 words this batch (~1818358 total ever)
+- [2026-08-18 00:11:21] abplive: 240/4386 articles this batch, ~127576 words this batch (~4357072 total ever)
+- [2026-08-18 00:11:27] hhml101: pdftotext, ~1932 words
+- [2026-08-18 00:11:38] zeenews: 140/239634 articles this batch, ~40616 words this batch (~1627196 total ever)
+- [2026-08-18 00:11:52] patrika: 140/13841 articles this batch, ~74296 words this batch (~1830811 total ever)
+- [2026-08-18 00:11:56] abplive: 260/4386 articles this batch, ~138143 words this batch (~4367639 total ever)
+- [2026-08-18 00:12:30] abplive: 280/4386 articles this batch, ~148920 words this batch (~4378416 total ever)
+- [2026-08-18 00:12:31] zeenews: 160/239634 articles this batch, ~46256 words this batch (~1632836 total ever)
+- [2026-08-18 00:12:58] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-18 00:13:00] hhml102: pdftotext, ~7035 words
+- [2026-08-18 00:13:07] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 00:13:15] hhml105: pdftotext, ~3137 words
+- [2026-08-18 00:13:29] hhml104: pdftotext, ~4861 words
+- [2026-08-18 00:13:41] hhml106: pdftotext, ~4037 words
+- [2026-08-18 00:14:00] abplive: discovery found 11895 URLs, 3729 new
+- [2026-08-18 00:14:08] hhml107: pdftotext, ~3344 words
+- [2026-08-18 00:14:09] hhsb1ps: pdftotext, ~2594 words
+- [2026-08-18 00:14:23] indiatv: discovery found 7764 URLs, 0 new
+- [2026-08-18 00:14:23] indiatv: batch done -- 0 new articles, ~0 words, 0s, ~3970024 words total ever
+- [2026-08-18 00:14:27] patrika: discovery found 18502 URLs, 13687 new
+- [2026-08-18 00:14:41] abplive: 20/3729 articles this batch, ~10514 words this batch (~4389689 total ever)
+- [2026-08-18 00:14:54] zeenews: discovery found 244711 URLs, 239473 new

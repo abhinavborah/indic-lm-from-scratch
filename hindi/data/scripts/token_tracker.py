@@ -164,7 +164,7 @@ def render_section(stats):
     ])
 
 
-PREAMBLE = """# Token Progress — rough, post-purity-filter, post-dedup
+PREAMBLE = """# Token Progress: rough, post-purity-filter, post-dedup
 
 Rough whitespace/regex tokenization, not the real BPE count (that comes once
 the tokenizer is trained). Each language's section below is recomputed

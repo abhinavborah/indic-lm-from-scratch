@@ -63,7 +63,7 @@ TARGET_TOKENS = 500_000_000
 # unaffected -- the downloader always wrote true raw text, cleaning has
 # always happened here at count-time via clean_text().
 SOURCES = [("clean/ocr", "manual"), ("clean/scrape", "manual"),
-           ("raw/sangraha", "downloaded")]
+           ("raw/sangraha", "downloaded"), ("raw/mwirelabs", "downloaded")]
 
 TOKEN_RE = re.compile(r"\S+")
 
@@ -195,7 +195,7 @@ def render_section(stats):
     ])
 
 
-PREAMBLE = """# Token Progress — rough, post-purity-filter, post-dedup
+PREAMBLE = """# Token Progress: rough, post-purity-filter, post-dedup
 
 Rough whitespace/regex tokenization, not the real BPE count (that comes once
 the tokenizer is trained). Each language's section below is recomputed

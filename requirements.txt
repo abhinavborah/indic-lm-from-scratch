@@ -1,0 +1,20 @@
+# Shared Python env for individual-project-abhinavborah. Create/sync with uv:
+#   uv venv && uv pip install -r requirements.txt
+# Fallback where uv isn't available (e.g. Colab), plain pip still works:
+#   python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
+# Add to this file rather than each teammate installing ad hoc, so either
+# command above reconstructs the whole environment.
+
+# Sangraha corpus download (raw-text pull only).
+datasets
+huggingface_hub
+
+# Tokenizer training engine (byte-level BPE via sentencepiece, per course
+# guidance to use a library rather than a hand-rolled implementation).
+sentencepiece
+
+# assamese-data / hindi-data: news-scrape HTML parsing + HTTP (scraper.py in
+# each language's data/scripts/). OCR pipeline scripts otherwise use only
+# stdlib + system tools (pdftotext/pdftoppm/tesseract via subprocess).
+beautifulsoup4
+requests

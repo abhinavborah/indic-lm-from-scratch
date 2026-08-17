@@ -1,0 +1,1358 @@
+- [2026-08-15 11:19:37] Found 29 PDFs in /Users/borah/resources/IIITH PDM/sem_3/lma/ind_proj/docs/assamese/books
+- [2026-08-15 11:19:43] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 10/225 (OCR), ~318 words this page
+- [2026-08-15 11:19:49] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 20/225 (OCR), ~265 words this page
+- [2026-08-15 11:19:57] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 30/225 (OCR), ~228 words this page
+- [2026-08-15 11:20:04] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 40/225 (OCR), ~172 words this page
+- [2026-08-15 11:20:11] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 50/225 (OCR), ~424 words this page
+- [2026-08-15 11:20:19] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 60/225 (OCR), ~281 words this page
+- [2026-08-15 11:20:26] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 70/225 (OCR), ~276 words this page
+- [2026-08-15 11:20:33] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 80/225 (OCR), ~157 words this page
+- [2026-08-15 11:20:40] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 90/225 (OCR), ~248 words this page
+- [2026-08-15 11:20:47] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 100/225 (OCR), ~147 words this page
+- [2026-08-15 11:20:53] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 110/225 (OCR), ~174 words this page
+- [2026-08-15 11:21:01] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 120/225 (OCR), ~287 words this page
+- [2026-08-15 11:22:51] Found 29 PDFs in /Users/borah/resources/IIITH PDM/sem_3/lma/ind_proj/docs/assamese/books
+- [2026-08-15 11:22:54] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 130/225 (OCR), ~326 words this page
+- [2026-08-15 11:23:02] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 140/225 (OCR), ~294 words this page
+- [2026-08-15 11:23:09] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 150/225 (OCR), ~254 words this page
+- [2026-08-15 11:23:16] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 160/225 (OCR), ~297 words this page
+- [2026-08-15 11:23:23] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 170/225 (OCR), ~309 words this page
+- [2026-08-15 11:23:31] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 180/225 (OCR), ~267 words this page
+- [2026-08-15 11:23:39] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 190/225 (OCR), ~253 words this page
+- [2026-08-15 11:23:45] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 200/225 (OCR), ~213 words this page
+- [2026-08-15 11:23:53] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 210/225 (OCR), ~278 words this page
+- [2026-08-15 11:24:00] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 220/225 (OCR), ~278 words this page
+- [2026-08-15 11:24:03] ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: page 225/225 (OCR), ~91 words this page
+- [2026-08-15 11:24:03] DONE ASSAMESE MIL_Asomiya Byakaran Jyoti_Assamese_Class IX-X.pdf: 225 pages total (225 OCR, 0 text-layer)
+- [2026-08-15 11:24:47] Found 29 PDFs in /Users/borah/resources/IIITH PDM/sem_3/lma/ind_proj/docs/assamese/books
+- [2026-08-15 11:24:50] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 10/163 (OCR), ~257 words this page
+- [2026-08-15 11:25:00] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 20/163 (OCR), ~409 words this page
+- [2026-08-15 11:25:11] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 30/163 (OCR), ~213 words this page
+- [2026-08-15 11:25:20] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 40/163 (OCR), ~359 words this page
+- [2026-08-15 11:25:30] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 50/163 (OCR), ~324 words this page
+- [2026-08-15 11:25:39] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 60/163 (OCR), ~335 words this page
+- [2026-08-15 11:25:48] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 70/163 (OCR), ~340 words this page
+- [2026-08-15 11:25:58] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 80/163 (OCR), ~416 words this page
+- [2026-08-15 11:26:08] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 90/163 (OCR), ~332 words this page
+- [2026-08-15 11:26:18] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 100/163 (OCR), ~333 words this page
+- [2026-08-15 11:26:28] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 110/163 (OCR), ~334 words this page
+- [2026-08-15 11:26:37] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 120/163 (OCR), ~60 words this page
+- [2026-08-15 11:26:47] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 130/163 (OCR), ~232 words this page
+- [2026-08-15 11:26:57] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 140/163 (OCR), ~293 words this page
+- [2026-08-15 11:27:07] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 150/163 (OCR), ~314 words this page
+- [2026-08-15 11:27:17] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 160/163 (OCR), ~225 words this page
+- [2026-08-15 11:27:24] ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: page 163/163 (OCR), ~0 words this page
+- [2026-08-15 11:27:24] DONE ASSAMESE MIL_Rapid Reader_BOISITRAMAI AXOM_Assamese_Class IX-X.pdf: 163 pages total (163 OCR, 0 text-layer)
+- [2026-08-15 11:27:37] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 10/258 (OCR), ~299 words this page
+- [2026-08-15 11:27:45] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 20/258 (OCR), ~267 words this page
+- [2026-08-15 11:27:51] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 30/258 (OCR), ~190 words this page
+- [2026-08-15 11:27:57] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 40/258 (OCR), ~180 words this page
+- [2026-08-15 11:28:05] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 50/258 (OCR), ~219 words this page
+- [2026-08-15 11:28:12] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 60/258 (OCR), ~232 words this page
+- [2026-08-15 11:28:19] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 70/258 (OCR), ~138 words this page
+- [2026-08-15 11:28:25] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 80/258 (OCR), ~142 words this page
+- [2026-08-15 11:28:32] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 90/258 (OCR), ~203 words this page
+- [2026-08-15 11:28:39] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 100/258 (OCR), ~212 words this page
+- [2026-08-15 11:28:46] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 110/258 (OCR), ~256 words this page
+- [2026-08-15 11:28:53] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 120/258 (OCR), ~162 words this page
+- [2026-08-15 11:28:59] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 130/258 (OCR), ~249 words this page
+- [2026-08-15 11:29:06] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 140/258 (OCR), ~215 words this page
+- [2026-08-15 11:29:13] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 150/258 (OCR), ~271 words this page
+- [2026-08-15 11:29:20] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 160/258 (OCR), ~113 words this page
+- [2026-08-15 11:29:26] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 170/258 (OCR), ~157 words this page
+- [2026-08-15 11:29:33] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 180/258 (OCR), ~301 words this page
+- [2026-08-15 11:29:40] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 190/258 (OCR), ~188 words this page
+- [2026-08-15 11:29:47] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 200/258 (OCR), ~166 words this page
+- [2026-08-15 11:29:55] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 210/258 (OCR), ~213 words this page
+- [2026-08-15 11:30:01] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 220/258 (OCR), ~137 words this page
+- [2026-08-15 11:30:06] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 230/258 (OCR), ~145 words this page
+- [2026-08-15 11:30:13] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 240/258 (OCR), ~146 words this page
+- [2026-08-15 11:30:19] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 250/258 (OCR), ~186 words this page
+- [2026-08-15 11:30:26] Advance Maths E_ Class-IX_Assamese_2024.pdf: page 258/258 (OCR), ~9 words this page
+- [2026-08-15 11:30:26] DONE Advance Maths E_ Class-IX_Assamese_2024.pdf: 258 pages total (258 OCR, 0 text-layer)
+- [2026-08-15 11:30:32] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 10/73 (OCR), ~31 words this page
+- [2026-08-15 11:30:36] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 20/73 (OCR), ~198 words this page
+- [2026-08-15 11:30:42] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 30/73 (OCR), ~154 words this page
+- [2026-08-15 11:30:50] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 40/73 (OCR), ~346 words this page
+- [2026-08-15 11:30:59] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 50/73 (OCR), ~326 words this page
+- [2026-08-15 11:31:06] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 60/73 (OCR), ~208 words this page
+- [2026-08-15 11:31:15] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 70/73 (OCR), ~199 words this page
+- [2026-08-15 11:31:16] Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: page 73/73 (OCR), ~0 words this page
+- [2026-08-15 11:31:16] DONE Assamese (E)_Saral Asomiya Sahitya_Class IX.pdf: 73 pages total (73 OCR, 0 text-layer)
+- [2026-08-15 11:31:22] Banjyak_X Ass Book Full Book.pdf: page 10/88 (OCR), ~99 words this page
+- [2026-08-15 11:31:31] Banjyak_X Ass Book Full Book.pdf: page 20/88 (OCR), ~257 words this page
+- [2026-08-15 11:31:40] Banjyak_X Ass Book Full Book.pdf: page 30/88 (OCR), ~245 words this page
+- [2026-08-15 11:31:49] Banjyak_X Ass Book Full Book.pdf: page 40/88 (OCR), ~253 words this page
+- [2026-08-15 11:31:58] Banjyak_X Ass Book Full Book.pdf: page 50/88 (OCR), ~210 words this page
+- [2026-08-15 11:32:08] Banjyak_X Ass Book Full Book.pdf: page 60/88 (OCR), ~269 words this page
+- [2026-08-15 11:32:16] Banjyak_X Ass Book Full Book.pdf: page 70/88 (OCR), ~225 words this page
+- [2026-08-15 11:32:23] Banjyak_X Ass Book Full Book.pdf: page 80/88 (OCR), ~108 words this page
+- [2026-08-15 11:32:30] Banjyak_X Ass Book Full Book.pdf: page 88/88 (OCR), ~5 words this page
+- [2026-08-15 11:32:30] DONE Banjyak_X Ass Book Full Book.pdf: 88 pages total (88 OCR, 0 text-layer)
+- [2026-08-15 11:32:36] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 10/124 (OCR), ~221 words this page
+- [2026-08-15 11:32:43] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 20/124 (OCR), ~181 words this page
+- [2026-08-15 11:32:49] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 30/124 (OCR), ~149 words this page
+- [2026-08-15 11:32:56] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 40/124 (OCR), ~238 words this page
+- [2026-08-15 11:33:03] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 50/124 (OCR), ~228 words this page
+- [2026-08-15 11:33:10] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 60/124 (OCR), ~155 words this page
+- [2026-08-15 11:33:16] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 70/124 (OCR), ~207 words this page
+- [2026-08-15 11:33:23] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 80/124 (OCR), ~244 words this page
+- [2026-08-15 11:33:29] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 90/124 (OCR), ~229 words this page
+- [2026-08-15 11:33:35] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 100/124 (OCR), ~99 words this page
+- [2026-08-15 11:33:38] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 110/124 (OCR), ~52 words this page
+- [2026-08-15 11:33:40] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 120/124 (OCR), ~45 words this page
+- [2026-08-15 11:33:42] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 124/124 (OCR), ~63 words this page
+- [2026-08-15 11:33:42] DONE Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: 124 pages total (124 OCR, 0 text-layer)
+- [2026-08-15 11:33:51] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 10/125 (OCR), ~268 words this page
+- [2026-08-15 11:34:03] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 20/125 (OCR), ~145 words this page
+- [2026-08-15 11:34:13] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 30/125 (OCR), ~204 words this page
+- [2026-08-15 11:34:23] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 40/125 (OCR), ~10 words this page
+- [2026-08-15 11:34:32] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 50/125 (OCR), ~171 words this page
+- [2026-08-15 11:34:42] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 60/125 (OCR), ~217 words this page
+- [2026-08-15 11:34:51] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 70/125 (OCR), ~99 words this page
+- [2026-08-15 11:35:01] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 80/125 (OCR), ~112 words this page
+- [2026-08-15 11:35:11] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 90/125 (OCR), ~154 words this page
+- [2026-08-15 11:35:22] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 100/125 (OCR), ~199 words this page
+- [2026-08-15 11:35:32] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 110/125 (OCR), ~131 words this page
+- [2026-08-15 11:35:42] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 120/125 (OCR), ~189 words this page
+- [2026-08-15 11:35:50] Bhugol_Class_IX Assamese (Elective)_2024.pdf: page 125/125 (OCR), ~12 words this page
+- [2026-08-15 11:35:50] DONE Bhugol_Class_IX Assamese (Elective)_2024.pdf: 125 pages total (125 OCR, 0 text-layer)
+- [2026-08-15 11:35:56] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 10/82 (OCR), ~71 words this page
+- [2026-08-15 11:36:05] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 20/82 (OCR), ~291 words this page
+- [2026-08-15 11:36:14] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 30/82 (OCR), ~97 words this page
+- [2026-08-15 11:36:23] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 40/82 (OCR), ~188 words this page
+- [2026-08-15 11:36:31] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 50/82 (OCR), ~197 words this page
+- [2026-08-15 11:36:41] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 60/82 (OCR), ~277 words this page
+- [2026-08-15 11:36:50] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 70/82 (OCR), ~189 words this page
+- [2026-08-15 11:36:59] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 80/82 (OCR), ~171 words this page
+- [2026-08-15 11:37:00] COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: page 82/82 (OCR), ~59 words this page
+- [2026-08-15 11:37:00] DONE COMMERCE (E )_Banijya Parichoy_Assamese_Class IX.pdf: 82 pages total (82 OCR, 0 text-layer)
+- [2026-08-15 11:37:07] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 10/74 (OCR), ~135 words this page
+- [2026-08-15 11:37:17] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 20/74 (OCR), ~101 words this page
+- [2026-08-15 11:37:27] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 30/74 (OCR), ~185 words this page
+- [2026-08-15 11:37:35] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 40/74 (OCR), ~331 words this page
+- [2026-08-15 11:37:44] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 50/74 (OCR), ~217 words this page
+- [2026-08-15 11:37:52] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 60/74 (OCR), ~222 words this page
+- [2026-08-15 11:38:01] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 70/74 (OCR), ~178 words this page
+- [2026-08-15 11:38:04] Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: page 74/74 (OCR), ~102 words this page
+- [2026-08-15 11:38:04] DONE Co-Curricular_Yogavidyar Hathputhi_Assamese_Class IX-X.pdf: 74 pages total (74 OCR, 0 text-layer)
+- [2026-08-15 11:38:13] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 10/189 (OCR), ~210 words this page
+- [2026-08-15 11:38:22] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 20/189 (OCR), ~224 words this page
+- [2026-08-15 11:38:29] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 30/189 (OCR), ~189 words this page
+- [2026-08-15 11:38:38] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 40/189 (OCR), ~130 words this page
+- [2026-08-15 11:38:45] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 50/189 (OCR), ~281 words this page
+- [2026-08-15 11:38:52] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 60/189 (OCR), ~260 words this page
+- [2026-08-15 11:38:58] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 70/189 (OCR), ~0 words this page
+- [2026-08-15 11:39:04] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 80/189 (OCR), ~118 words this page
+- [2026-08-15 11:39:11] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 90/189 (OCR), ~156 words this page
+- [2026-08-15 11:39:19] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 100/189 (OCR), ~205 words this page
+- [2026-08-15 11:39:26] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 110/189 (OCR), ~168 words this page
+- [2026-08-15 11:39:34] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 120/189 (OCR), ~190 words this page
+- [2026-08-15 11:39:43] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 130/189 (OCR), ~225 words this page
+- [2026-08-15 11:39:51] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 140/189 (OCR), ~253 words this page
+- [2026-08-15 11:39:59] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 150/189 (OCR), ~224 words this page
+- [2026-08-15 11:40:07] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 160/189 (OCR), ~152 words this page
+- [2026-08-15 11:40:13] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 170/189 (OCR), ~57 words this page
+- [2026-08-15 11:40:18] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 180/189 (OCR), ~2 words this page
+- [2026-08-15 11:40:23] DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: page 189/189 (OCR), ~11 words this page
+- [2026-08-15 11:40:23] DONE DANCE (E)_Bharatia Sastriya Nrityar Ruprekha_Assamese_Class IX.pdf: 189 pages total (189 OCR, 0 text-layer)
+- [2026-08-15 11:40:31] Ganit_assamese_Class X.pdf: page 10/436 (OCR), ~309 words this page
+- [2026-08-15 11:40:37] Ganit_assamese_Class X.pdf: page 20/436 (OCR), ~157 words this page
+- [2026-08-15 11:40:44] Ganit_assamese_Class X.pdf: page 30/436 (OCR), ~222 words this page
+- [2026-08-15 11:40:51] Ganit_assamese_Class X.pdf: page 40/436 (OCR), ~224 words this page
+- [2026-08-15 11:41:00] Ganit_assamese_Class X.pdf: page 50/436 (OCR), ~284 words this page
+- [2026-08-15 11:41:08] Ganit_assamese_Class X.pdf: page 60/436 (OCR), ~259 words this page
+- [2026-08-15 11:41:16] Ganit_assamese_Class X.pdf: page 70/436 (OCR), ~111 words this page
+- [2026-08-15 11:41:23] Ganit_assamese_Class X.pdf: page 80/436 (OCR), ~274 words this page
+- [2026-08-15 11:41:30] Ganit_assamese_Class X.pdf: page 90/436 (OCR), ~76 words this page
+- [2026-08-15 11:41:38] Ganit_assamese_Class X.pdf: page 100/436 (OCR), ~220 words this page
+- [2026-08-15 11:41:45] Ganit_assamese_Class X.pdf: page 110/436 (OCR), ~173 words this page
+- [2026-08-15 11:41:52] Ganit_assamese_Class X.pdf: page 120/436 (OCR), ~172 words this page
+- [2026-08-15 11:41:59] Ganit_assamese_Class X.pdf: page 130/436 (OCR), ~136 words this page
+- [2026-08-15 11:42:06] Ganit_assamese_Class X.pdf: page 140/436 (OCR), ~195 words this page
+- [2026-08-15 11:42:13] Ganit_assamese_Class X.pdf: page 150/436 (OCR), ~237 words this page
+- [2026-08-15 11:42:20] Ganit_assamese_Class X.pdf: page 160/436 (OCR), ~153 words this page
+- [2026-08-15 11:42:27] Ganit_assamese_Class X.pdf: page 170/436 (OCR), ~111 words this page
+- [2026-08-15 11:42:36] Ganit_assamese_Class X.pdf: page 180/436 (OCR), ~197 words this page
+- [2026-08-15 11:42:43] Ganit_assamese_Class X.pdf: page 190/436 (OCR), ~230 words this page
+- [2026-08-15 11:42:50] Ganit_assamese_Class X.pdf: page 200/436 (OCR), ~174 words this page
+- [2026-08-15 11:42:58] Ganit_assamese_Class X.pdf: page 210/436 (OCR), ~257 words this page
+- [2026-08-15 11:43:06] Ganit_assamese_Class X.pdf: page 220/436 (OCR), ~248 words this page
+- [2026-08-15 11:43:14] Ganit_assamese_Class X.pdf: page 230/436 (OCR), ~265 words this page
+- [2026-08-15 11:43:22] Ganit_assamese_Class X.pdf: page 240/436 (OCR), ~224 words this page
+- [2026-08-15 11:43:29] Ganit_assamese_Class X.pdf: page 250/436 (OCR), ~185 words this page
+- [2026-08-15 11:43:37] Ganit_assamese_Class X.pdf: page 260/436 (OCR), ~176 words this page
+- [2026-08-15 11:43:46] Ganit_assamese_Class X.pdf: page 270/436 (OCR), ~259 words this page
+- [2026-08-15 11:43:53] Ganit_assamese_Class X.pdf: page 280/436 (OCR), ~274 words this page
+- [2026-08-15 11:44:01] Ganit_assamese_Class X.pdf: page 290/436 (OCR), ~243 words this page
+- [2026-08-15 11:44:07] Ganit_assamese_Class X.pdf: page 300/436 (OCR), ~100 words this page
+- [2026-08-15 11:44:15] Ganit_assamese_Class X.pdf: page 310/436 (OCR), ~295 words this page
+- [2026-08-15 11:44:23] Ganit_assamese_Class X.pdf: page 320/436 (OCR), ~328 words this page
+- [2026-08-15 11:44:30] Ganit_assamese_Class X.pdf: page 330/436 (OCR), ~128 words this page
+- [2026-08-15 11:44:36] Ganit_assamese_Class X.pdf: page 340/436 (OCR), ~119 words this page
+- [2026-08-15 11:44:42] Ganit_assamese_Class X.pdf: page 350/436 (OCR), ~116 words this page
+- [2026-08-15 11:44:50] Ganit_assamese_Class X.pdf: page 360/436 (OCR), ~221 words this page
+- [2026-08-15 11:44:58] Ganit_assamese_Class X.pdf: page 370/436 (OCR), ~228 words this page
+- [2026-08-15 11:45:05] Ganit_assamese_Class X.pdf: page 380/436 (OCR), ~254 words this page
+- [2026-08-15 11:45:13] Ganit_assamese_Class X.pdf: page 390/436 (OCR), ~221 words this page
+- [2026-08-15 11:45:21] Ganit_assamese_Class X.pdf: page 400/436 (OCR), ~322 words this page
+- [2026-08-15 11:45:30] Ganit_assamese_Class X.pdf: page 410/436 (OCR), ~159 words this page
+- [2026-08-15 11:45:37] Ganit_assamese_Class X.pdf: page 420/436 (OCR), ~171 words this page
+- [2026-08-15 11:45:43] Ganit_assamese_Class X.pdf: page 430/436 (OCR), ~203 words this page
+- [2026-08-15 11:45:46] Ganit_assamese_Class X.pdf: page 436/436 (OCR), ~83 words this page
+- [2026-08-15 11:45:46] DONE Ganit_assamese_Class X.pdf: 436 pages total (436 OCR, 0 text-layer)
+- [2026-08-15 11:45:56] General Science_Assamese_Class X.pdf: page 10/296 (OCR), ~277 words this page
+- [2026-08-15 11:46:06] General Science_Assamese_Class X.pdf: page 20/296 (OCR), ~375 words this page
+- [2026-08-15 11:46:15] General Science_Assamese_Class X.pdf: page 30/296 (OCR), ~324 words this page
+- [2026-08-15 11:46:25] General Science_Assamese_Class X.pdf: page 40/296 (OCR), ~293 words this page
+- [2026-08-15 11:46:35] General Science_Assamese_Class X.pdf: page 50/296 (OCR), ~257 words this page
+- [2026-08-15 11:46:45] General Science_Assamese_Class X.pdf: page 60/296 (OCR), ~333 words this page
+- [2026-08-15 11:46:57] General Science_Assamese_Class X.pdf: page 70/296 (OCR), ~227 words this page
+- [2026-08-15 11:47:07] General Science_Assamese_Class X.pdf: page 80/296 (OCR), ~254 words this page
+- [2026-08-15 11:47:18] General Science_Assamese_Class X.pdf: page 90/296 (OCR), ~315 words this page
+- [2026-08-15 11:47:29] General Science_Assamese_Class X.pdf: page 100/296 (OCR), ~364 words this page
+- [2026-08-15 11:47:41] General Science_Assamese_Class X.pdf: page 110/296 (OCR), ~340 words this page
+- [2026-08-15 11:47:52] General Science_Assamese_Class X.pdf: page 120/296 (OCR), ~202 words this page
+- [2026-08-15 11:48:04] General Science_Assamese_Class X.pdf: page 130/296 (OCR), ~421 words this page
+- [2026-08-15 11:48:14] General Science_Assamese_Class X.pdf: page 140/296 (OCR), ~389 words this page
+- [2026-08-15 11:48:27] General Science_Assamese_Class X.pdf: page 150/296 (OCR), ~427 words this page
+- [2026-08-15 11:48:42] General Science_Assamese_Class X.pdf: page 160/296 (OCR), ~267 words this page
+- [2026-08-15 11:48:53] General Science_Assamese_Class X.pdf: page 170/296 (OCR), ~415 words this page
+- [2026-08-15 11:49:02] General Science_Assamese_Class X.pdf: page 180/296 (OCR), ~380 words this page
+- [2026-08-15 11:49:11] General Science_Assamese_Class X.pdf: page 190/296 (OCR), ~241 words this page
+- [2026-08-15 11:49:21] General Science_Assamese_Class X.pdf: page 200/296 (OCR), ~332 words this page
+- [2026-08-15 11:49:31] General Science_Assamese_Class X.pdf: page 210/296 (OCR), ~154 words this page
+- [2026-08-15 11:49:39] General Science_Assamese_Class X.pdf: page 220/296 (OCR), ~293 words this page
+- [2026-08-15 11:49:49] General Science_Assamese_Class X.pdf: page 230/296 (OCR), ~202 words this page
+- [2026-08-15 11:49:59] General Science_Assamese_Class X.pdf: page 240/296 (OCR), ~367 words this page
+- [2026-08-15 11:50:09] General Science_Assamese_Class X.pdf: page 250/296 (OCR), ~267 words this page
+- [2026-08-15 11:50:21] General Science_Assamese_Class X.pdf: page 260/296 (OCR), ~301 words this page
+- [2026-08-15 11:50:32] General Science_Assamese_Class X.pdf: page 270/296 (OCR), ~180 words this page
+- [2026-08-15 11:50:42] General Science_Assamese_Class X.pdf: page 280/296 (OCR), ~263 words this page
+- [2026-08-15 11:50:51] General Science_Assamese_Class X.pdf: page 290/296 (OCR), ~300 words this page
+- [2026-08-15 11:50:57] General Science_Assamese_Class X.pdf: page 296/296 (OCR), ~133 words this page
+- [2026-08-15 11:50:57] DONE General Science_Assamese_Class X.pdf: 296 pages total (296 OCR, 0 text-layer)
+- [2026-08-15 11:51:07] General Science_Bigyan_Assamese_Class IX.pdf: page 10/234 (OCR), ~41 words this page
+- [2026-08-15 11:51:07] niyomiyabarta: sitemap discovery found 50000 URLs, 50000 new
+- [2026-08-15 11:51:21] General Science_Bigyan_Assamese_Class IX.pdf: page 20/234 (OCR), ~301 words this page
+- [2026-08-15 11:51:34] General Science_Bigyan_Assamese_Class IX.pdf: page 30/234 (OCR), ~243 words this page
+- [2026-08-15 11:51:46] General Science_Bigyan_Assamese_Class IX.pdf: page 40/234 (OCR), ~229 words this page
+- [2026-08-15 11:51:50] niyomiyabarta: 20/50000 articles this run, ~6827 words total so far, 142 non-Assamese lines dropped so far
+- [2026-08-15 11:51:57] General Science_Bigyan_Assamese_Class IX.pdf: page 50/234 (OCR), ~320 words this page
+- [2026-08-15 11:52:09] General Science_Bigyan_Assamese_Class IX.pdf: page 60/234 (OCR), ~417 words this page
+- [2026-08-15 11:52:21] General Science_Bigyan_Assamese_Class IX.pdf: page 70/234 (OCR), ~465 words this page
+- [2026-08-15 11:52:32] niyomiyabarta: 40/50000 articles this run, ~12342 words total so far, 285 non-Assamese lines dropped so far
+- [2026-08-15 11:52:37] General Science_Bigyan_Assamese_Class IX.pdf: page 80/234 (OCR), ~502 words this page
+- [2026-08-15 11:52:50] General Science_Bigyan_Assamese_Class IX.pdf: page 90/234 (OCR), ~218 words this page
+- [2026-08-15 11:53:03] General Science_Bigyan_Assamese_Class IX.pdf: page 100/234 (OCR), ~189 words this page
+- [2026-08-15 11:53:14] General Science_Bigyan_Assamese_Class IX.pdf: page 110/234 (OCR), ~359 words this page
+- [2026-08-15 11:53:15] niyomiyabarta: 60/50000 articles this run, ~17152 words total so far, 419 non-Assamese lines dropped so far
+- [2026-08-15 11:53:26] General Science_Bigyan_Assamese_Class IX.pdf: page 120/234 (OCR), ~348 words this page
+- [2026-08-15 11:53:39] General Science_Bigyan_Assamese_Class IX.pdf: page 130/234 (OCR), ~416 words this page
+- [2026-08-15 11:53:51] General Science_Bigyan_Assamese_Class IX.pdf: page 140/234 (OCR), ~345 words this page
+- [2026-08-15 11:53:56] niyomiyabarta: 80/50000 articles this run, ~22458 words total so far, 548 non-Assamese lines dropped so far
+- [2026-08-15 11:54:04] General Science_Bigyan_Assamese_Class IX.pdf: page 150/234 (OCR), ~304 words this page
+- [2026-08-15 11:54:16] General Science_Bigyan_Assamese_Class IX.pdf: page 160/234 (OCR), ~349 words this page
+- [2026-08-15 11:54:27] General Science_Bigyan_Assamese_Class IX.pdf: page 170/234 (OCR), ~285 words this page
+- [2026-08-15 11:54:37] niyomiyabarta: 100/50000 articles this run, ~27703 words total so far, 685 non-Assamese lines dropped so far
+- [2026-08-15 11:54:40] General Science_Bigyan_Assamese_Class IX.pdf: page 180/234 (OCR), ~409 words this page
+- [2026-08-15 11:54:52] General Science_Bigyan_Assamese_Class IX.pdf: page 190/234 (OCR), ~544 words this page
+- [2026-08-15 11:55:06] General Science_Bigyan_Assamese_Class IX.pdf: page 200/234 (OCR), ~220 words this page
+- [2026-08-15 11:55:17] niyomiyabarta: 120/50000 articles this run, ~32799 words total so far, 813 non-Assamese lines dropped so far
+- [2026-08-15 11:55:20] General Science_Bigyan_Assamese_Class IX.pdf: page 210/234 (OCR), ~188 words this page
+- [2026-08-15 11:55:34] General Science_Bigyan_Assamese_Class IX.pdf: page 220/234 (OCR), ~506 words this page
+- [2026-08-15 11:55:45] General Science_Bigyan_Assamese_Class IX.pdf: page 230/234 (OCR), ~149 words this page
+- [2026-08-15 11:55:49] General Science_Bigyan_Assamese_Class IX.pdf: page 234/234 (OCR), ~252 words this page
+- [2026-08-15 11:55:49] DONE General Science_Bigyan_Assamese_Class IX.pdf: 234 pages total (234 OCR, 0 text-layer)
+- [2026-08-15 11:55:58] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 10/157 (OCR), ~196 words this page
+- [2026-08-15 11:56:07] niyomiyabarta: 140/50000 articles this run, ~39963 words total so far, 945 non-Assamese lines dropped so far
+- [2026-08-15 11:56:08] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 20/157 (OCR), ~216 words this page
+- [2026-08-15 11:56:18] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 30/157 (OCR), ~123 words this page
+- [2026-08-15 11:56:30] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 40/157 (OCR), ~187 words this page
+- [2026-08-15 11:56:40] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 50/157 (OCR), ~132 words this page
+- [2026-08-15 11:56:46] niyomiyabarta: 160/50000 articles this run, ~45445 words total so far, 1073 non-Assamese lines dropped so far
+- [2026-08-15 11:56:50] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 60/157 (OCR), ~125 words this page
+- [2026-08-15 11:57:00] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 70/157 (OCR), ~214 words this page
+- [2026-08-15 11:57:10] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 80/157 (OCR), ~141 words this page
+- [2026-08-15 11:57:20] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 90/157 (OCR), ~187 words this page
+- [2026-08-15 11:57:27] niyomiyabarta: 180/50000 articles this run, ~50466 words total so far, 1205 non-Assamese lines dropped so far
+- [2026-08-15 11:57:30] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 100/157 (OCR), ~140 words this page
+- [2026-08-15 11:57:41] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 110/157 (OCR), ~233 words this page
+- [2026-08-15 11:57:49] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 120/157 (OCR), ~108 words this page
+- [2026-08-15 11:57:57] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 130/157 (OCR), ~169 words this page
+- [2026-08-15 11:58:05] niyomiyabarta: 200/50000 articles this run, ~54523 words total so far, 1335 non-Assamese lines dropped so far
+- [2026-08-15 11:58:08] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 140/157 (OCR), ~200 words this page
+- [2026-08-15 11:58:19] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 150/157 (OCR), ~208 words this page
+- [2026-08-15 11:58:25] Griha Biggan_Class IX_(Assamese)_2024.pdf: page 157/157 (OCR), ~11 words this page
+- [2026-08-15 11:58:25] DONE Griha Biggan_Class IX_(Assamese)_2024.pdf: 157 pages total (157 OCR, 0 text-layer)
+- [2026-08-15 11:58:34] Griha Bigyan_X_Assamese_2024.pdf: page 10/175 (OCR), ~233 words this page
+- [2026-08-15 11:58:43] niyomiyabarta: 220/50000 articles this run, ~59895 words total so far, 1467 non-Assamese lines dropped so far
+- [2026-08-15 11:58:44] Griha Bigyan_X_Assamese_2024.pdf: page 20/175 (OCR), ~186 words this page
+- [2026-08-15 11:58:54] Griha Bigyan_X_Assamese_2024.pdf: page 30/175 (OCR), ~188 words this page
+- [2026-08-15 11:59:06] Griha Bigyan_X_Assamese_2024.pdf: page 40/175 (OCR), ~245 words this page
+- [2026-08-15 11:59:17] Griha Bigyan_X_Assamese_2024.pdf: page 50/175 (OCR), ~246 words this page
+- [2026-08-15 11:59:23] niyomiyabarta: 240/50000 articles this run, ~65497 words total so far, 1604 non-Assamese lines dropped so far
+- [2026-08-15 11:59:27] Griha Bigyan_X_Assamese_2024.pdf: page 60/175 (OCR), ~219 words this page
+- [2026-08-15 11:59:39] Griha Bigyan_X_Assamese_2024.pdf: page 70/175 (OCR), ~142 words this page
+- [2026-08-15 11:59:48] Griha Bigyan_X_Assamese_2024.pdf: page 80/175 (OCR), ~170 words this page
+- [2026-08-15 11:59:59] Griha Bigyan_X_Assamese_2024.pdf: page 90/175 (OCR), ~213 words this page
+- [2026-08-15 12:00:03] niyomiyabarta: 260/50000 articles this run, ~70337 words total so far, 1736 non-Assamese lines dropped so far
+- [2026-08-15 12:00:10] Griha Bigyan_X_Assamese_2024.pdf: page 100/175 (OCR), ~169 words this page
+- [2026-08-15 12:00:20] Griha Bigyan_X_Assamese_2024.pdf: page 110/175 (OCR), ~143 words this page
+- [2026-08-15 12:00:28] Griha Bigyan_X_Assamese_2024.pdf: page 120/175 (OCR), ~218 words this page
+- [2026-08-15 12:00:39] Griha Bigyan_X_Assamese_2024.pdf: page 130/175 (OCR), ~219 words this page
+- [2026-08-15 12:00:43] niyomiyabarta: 280/50000 articles this run, ~76557 words total so far, 1865 non-Assamese lines dropped so far
+- [2026-08-15 12:00:50] Griha Bigyan_X_Assamese_2024.pdf: page 140/175 (OCR), ~211 words this page
+- [2026-08-15 12:01:01] Griha Bigyan_X_Assamese_2024.pdf: page 150/175 (OCR), ~94 words this page
+- [2026-08-15 12:01:12] Griha Bigyan_X_Assamese_2024.pdf: page 160/175 (OCR), ~245 words this page
+- [2026-08-15 12:01:22] Griha Bigyan_X_Assamese_2024.pdf: page 170/175 (OCR), ~167 words this page
+- [2026-08-15 12:01:24] niyomiyabarta: 300/50000 articles this run, ~80908 words total so far, 1996 non-Assamese lines dropped so far
+- [2026-08-15 12:01:26] Griha Bigyan_X_Assamese_2024.pdf: page 175/175 (OCR), ~12 words this page
+- [2026-08-15 12:01:26] DONE Griha Bigyan_X_Assamese_2024.pdf: 175 pages total (175 OCR, 0 text-layer)
+- [2026-08-15 12:01:34] Itihas-IX (Assamese)_Elective_2024.pdf: page 10/202 (OCR), ~232 words this page
+- [2026-08-15 12:01:44] Itihas-IX (Assamese)_Elective_2024.pdf: page 20/202 (OCR), ~222 words this page
+- [2026-08-15 12:01:53] Itihas-IX (Assamese)_Elective_2024.pdf: page 30/202 (OCR), ~129 words this page
+- [2026-08-15 12:02:03] Itihas-IX (Assamese)_Elective_2024.pdf: page 40/202 (OCR), ~222 words this page
+- [2026-08-15 12:02:06] niyomiyabarta: 320/50000 articles this run, ~86985 words total so far, 2126 non-Assamese lines dropped so far
+- [2026-08-15 12:02:12] Itihas-IX (Assamese)_Elective_2024.pdf: page 50/202 (OCR), ~201 words this page
+- [2026-08-15 12:02:23] Itihas-IX (Assamese)_Elective_2024.pdf: page 60/202 (OCR), ~230 words this page
+- [2026-08-15 12:02:32] Itihas-IX (Assamese)_Elective_2024.pdf: page 70/202 (OCR), ~234 words this page
+- [2026-08-15 12:02:42] Itihas-IX (Assamese)_Elective_2024.pdf: page 80/202 (OCR), ~220 words this page
+- [2026-08-15 12:02:51] Itihas-IX (Assamese)_Elective_2024.pdf: page 90/202 (OCR), ~216 words this page
+- [2026-08-15 12:02:52] niyomiyabarta: 340/50000 articles this run, ~94054 words total so far, 2252 non-Assamese lines dropped so far
+- [2026-08-15 12:02:59] Itihas-IX (Assamese)_Elective_2024.pdf: page 100/202 (OCR), ~138 words this page
+- [2026-08-15 12:03:09] Itihas-IX (Assamese)_Elective_2024.pdf: page 110/202 (OCR), ~188 words this page
+- [2026-08-15 12:03:19] Itihas-IX (Assamese)_Elective_2024.pdf: page 120/202 (OCR), ~234 words this page
+- [2026-08-15 12:03:29] Itihas-IX (Assamese)_Elective_2024.pdf: page 130/202 (OCR), ~108 words this page
+- [2026-08-15 12:03:37] Itihas-IX (Assamese)_Elective_2024.pdf: page 140/202 (OCR), ~208 words this page
+- [2026-08-15 12:03:37] niyomiyabarta: 360/50000 articles this run, ~100009 words total so far, 2383 non-Assamese lines dropped so far
+- [2026-08-15 12:03:47] Itihas-IX (Assamese)_Elective_2024.pdf: page 150/202 (OCR), ~180 words this page
+- [2026-08-15 12:03:57] Itihas-IX (Assamese)_Elective_2024.pdf: page 160/202 (OCR), ~216 words this page
+- [2026-08-15 12:04:05] Itihas-IX (Assamese)_Elective_2024.pdf: page 170/202 (OCR), ~223 words this page
+- [2026-08-15 12:04:15] Itihas-IX (Assamese)_Elective_2024.pdf: page 180/202 (OCR), ~251 words this page
+- [2026-08-15 12:04:15] niyomiyabarta: 380/50000 articles this run, ~105002 words total so far, 2520 non-Assamese lines dropped so far
+- [2026-08-15 12:04:24] Itihas-IX (Assamese)_Elective_2024.pdf: page 190/202 (OCR), ~236 words this page
+- [2026-08-15 12:04:34] Itihas-IX (Assamese)_Elective_2024.pdf: page 200/202 (OCR), ~174 words this page
+- [2026-08-15 12:04:38] Itihas-IX (Assamese)_Elective_2024.pdf: page 202/202 (OCR), ~12 words this page
+- [2026-08-15 12:04:38] DONE Itihas-IX (Assamese)_Elective_2024.pdf: 202 pages total (202 OCR, 0 text-layer)
+- [2026-08-15 12:04:44] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 10/106 (OCR), ~145 words this page
+- [2026-08-15 12:04:49] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 20/106 (OCR), ~90 words this page
+- [2026-08-15 12:04:54] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 30/106 (OCR), ~146 words this page
+- [2026-08-15 12:04:54] niyomiyabarta: 400/50000 articles this run, ~111095 words total so far, 2654 non-Assamese lines dropped so far
+- [2026-08-15 12:05:02] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 40/106 (OCR), ~252 words this page
+- [2026-08-15 12:05:10] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 50/106 (OCR), ~167 words this page
+- [2026-08-15 12:05:18] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 60/106 (OCR), ~231 words this page
+- [2026-08-15 12:05:26] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 70/106 (OCR), ~264 words this page
+- [2026-08-15 12:05:34] niyomiyabarta: 420/50000 articles this run, ~115907 words total so far, 2796 non-Assamese lines dropped so far
+- [2026-08-15 12:05:35] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 80/106 (OCR), ~221 words this page
+- [2026-08-15 12:05:41] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 90/106 (OCR), ~100 words this page
+- [2026-08-15 12:05:47] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 100/106 (OCR), ~247 words this page
+- [2026-08-15 12:05:51] MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: page 106/106 (OCR), ~207 words this page
+- [2026-08-15 12:05:51] DONE MIL_Assamese_Asomiya Sahitya Chayanika_Class IX.pdf: 106 pages total (106 OCR, 0 text-layer)
+- [2026-08-15 12:05:59] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 10/124 (OCR), ~139 words this page
+- [2026-08-15 12:06:05] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 20/124 (OCR), ~117 words this page
+- [2026-08-15 12:06:12] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 30/124 (OCR), ~209 words this page
+- [2026-08-15 12:06:19] niyomiyabarta: 440/50000 articles this run, ~121275 words total so far, 2929 non-Assamese lines dropped so far
+- [2026-08-15 12:06:21] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 40/124 (OCR), ~231 words this page
+- [2026-08-15 12:06:32] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 50/124 (OCR), ~207 words this page
+- [2026-08-15 12:06:41] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 60/124 (OCR), ~326 words this page
+- [2026-08-15 12:06:51] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 70/124 (OCR), ~347 words this page
+- [2026-08-15 12:06:59] niyomiyabarta: 460/50000 articles this run, ~127217 words total so far, 3065 non-Assamese lines dropped so far
+- [2026-08-15 12:07:01] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 80/124 (OCR), ~315 words this page
+- [2026-08-15 12:07:10] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 90/124 (OCR), ~319 words this page
+- [2026-08-15 12:07:20] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 100/124 (OCR), ~191 words this page
+- [2026-08-15 12:07:26] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 110/124 (OCR), ~126 words this page
+- [2026-08-15 12:07:33] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 120/124 (OCR), ~216 words this page
+- [2026-08-15 12:07:37] MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: page 124/124 (OCR), ~45 words this page
+- [2026-08-15 12:07:37] DONE MIL_Assamese_Asomiya Sahitya Chayanika_Class X.pdf: 124 pages total (124 OCR, 0 text-layer)
+- [2026-08-15 12:07:42] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 10/120 (OCR), ~170 words this page
+- [2026-08-15 12:07:42] niyomiyabarta: 480/50000 articles this run, ~134323 words total so far, 3203 non-Assamese lines dropped so far
+- [2026-08-15 12:07:49] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 20/120 (OCR), ~270 words this page
+- [2026-08-15 12:07:54] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 30/120 (OCR), ~126 words this page
+- [2026-08-15 12:07:59] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 40/120 (OCR), ~156 words this page
+- [2026-08-15 12:08:03] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 50/120 (OCR), ~132 words this page
+- [2026-08-15 12:08:08] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 60/120 (OCR), ~207 words this page
+- [2026-08-15 12:08:15] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 70/120 (OCR), ~211 words this page
+- [2026-08-15 12:08:20] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 80/120 (OCR), ~61 words this page
+- [2026-08-15 12:08:24] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 90/120 (OCR), ~119 words this page
+- [2026-08-15 12:08:24] niyomiyabarta: 500/50000 articles this run, ~138634 words total so far, 3335 non-Assamese lines dropped so far
+- [2026-08-15 12:08:28] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 100/120 (OCR), ~131 words this page
+- [2026-08-15 12:08:32] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 110/120 (OCR), ~144 words this page
+- [2026-08-15 12:08:38] MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: page 120/120 (OCR), ~95 words this page
+- [2026-08-15 12:08:38] DONE MUSIC (E) (VOCAL & INSTRUMENT)_Sangeet Madhurya_Assamese_Class IX-X.pdf: 120 pages total (120 OCR, 0 text-layer)
+- [2026-08-15 12:08:45] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 10/175 (OCR), ~192 words this page
+- [2026-08-15 12:08:51] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 20/175 (OCR), ~81 words this page
+- [2026-08-15 12:08:57] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 30/175 (OCR), ~97 words this page
+- [2026-08-15 12:09:03] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 40/175 (OCR), ~222 words this page
+- [2026-08-15 12:09:09] niyomiyabarta: 520/50000 articles this run, ~144050 words total so far, 3462 non-Assamese lines dropped so far
+- [2026-08-15 12:09:09] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 50/175 (OCR), ~84 words this page
+- [2026-08-15 12:09:14] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 60/175 (OCR), ~157 words this page
+- [2026-08-15 12:09:20] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 70/175 (OCR), ~114 words this page
+- [2026-08-15 12:09:25] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 80/175 (OCR), ~193 words this page
+- [2026-08-15 12:09:31] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 90/175 (OCR), ~225 words this page
+- [2026-08-15 12:09:36] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 100/175 (OCR), ~204 words this page
+- [2026-08-15 12:09:43] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 110/175 (OCR), ~209 words this page
+- [2026-08-15 12:09:49] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 120/175 (OCR), ~84 words this page
+- [2026-08-15 12:09:50] niyomiyabarta: 540/50000 articles this run, ~148887 words total so far, 3595 non-Assamese lines dropped so far
+- [2026-08-15 12:09:54] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 130/175 (OCR), ~27 words this page
+- [2026-08-15 12:10:01] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 140/175 (OCR), ~350 words this page
+- [2026-08-15 12:10:06] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 150/175 (OCR), ~112 words this page
+- [2026-08-15 12:10:11] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 160/175 (OCR), ~127 words this page
+- [2026-08-15 12:10:15] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 170/175 (OCR), ~123 words this page
+- [2026-08-15 12:10:18] MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: page 175/175 (OCR), ~106 words this page
+- [2026-08-15 12:10:18] DONE MUSIC (E) (VOCAL & INSTRUMENT)_Tabala Vidya_Assamese_Class IX-X.pdf: 175 pages total (175 OCR, 0 text-layer)
+- [2026-08-15 12:10:25] Maths_Ganit_Assamese_IX.pdf: page 10/406 (OCR), ~180 words this page
+- [2026-08-15 12:10:32] Maths_Ganit_Assamese_IX.pdf: page 20/406 (OCR), ~203 words this page
+- [2026-08-15 12:10:32] niyomiyabarta: 560/50000 articles this run, ~154189 words total so far, 3729 non-Assamese lines dropped so far
+- [2026-08-15 12:10:37] Maths_Ganit_Assamese_IX.pdf: page 30/406 (OCR), ~122 words this page
+- [2026-08-15 12:10:44] Maths_Ganit_Assamese_IX.pdf: page 40/406 (OCR), ~258 words this page
+- [2026-08-15 12:10:52] Maths_Ganit_Assamese_IX.pdf: page 50/406 (OCR), ~221 words this page
+- [2026-08-15 12:10:58] Maths_Ganit_Assamese_IX.pdf: page 60/406 (OCR), ~210 words this page
+- [2026-08-15 12:11:06] Maths_Ganit_Assamese_IX.pdf: page 70/406 (OCR), ~180 words this page
+- [2026-08-15 12:11:13] Maths_Ganit_Assamese_IX.pdf: page 80/406 (OCR), ~311 words this page
+- [2026-08-15 12:11:19] niyomiyabarta: 580/50000 articles this run, ~160477 words total so far, 3862 non-Assamese lines dropped so far
+- [2026-08-15 12:11:20] Maths_Ganit_Assamese_IX.pdf: page 90/406 (OCR), ~265 words this page
+- [2026-08-15 12:11:26] Maths_Ganit_Assamese_IX.pdf: page 100/406 (OCR), ~197 words this page
+- [2026-08-15 12:11:34] Maths_Ganit_Assamese_IX.pdf: page 110/406 (OCR), ~348 words this page
+- [2026-08-15 12:11:42] Maths_Ganit_Assamese_IX.pdf: page 120/406 (OCR), ~253 words this page
+- [2026-08-15 12:11:50] Maths_Ganit_Assamese_IX.pdf: page 130/406 (OCR), ~241 words this page
+- [2026-08-15 12:11:57] Maths_Ganit_Assamese_IX.pdf: page 140/406 (OCR), ~242 words this page
+- [2026-08-15 12:12:04] Maths_Ganit_Assamese_IX.pdf: page 150/406 (OCR), ~186 words this page
+- [2026-08-15 12:12:06] niyomiyabarta: 600/50000 articles this run, ~165822 words total so far, 3994 non-Assamese lines dropped so far
+- [2026-08-15 12:12:11] Maths_Ganit_Assamese_IX.pdf: page 160/406 (OCR), ~112 words this page
+- [2026-08-15 12:12:18] Maths_Ganit_Assamese_IX.pdf: page 170/406 (OCR), ~211 words this page
+- [2026-08-15 12:12:25] Maths_Ganit_Assamese_IX.pdf: page 180/406 (OCR), ~276 words this page
+- [2026-08-15 12:12:32] Maths_Ganit_Assamese_IX.pdf: page 190/406 (OCR), ~272 words this page
+- [2026-08-15 12:12:39] Maths_Ganit_Assamese_IX.pdf: page 200/406 (OCR), ~275 words this page
+- [2026-08-15 12:12:46] Maths_Ganit_Assamese_IX.pdf: page 210/406 (OCR), ~68 words this page
+- [2026-08-15 12:12:52] niyomiyabarta: 620/50000 articles this run, ~171052 words total so far, 4126 non-Assamese lines dropped so far
+- [2026-08-15 12:12:54] Maths_Ganit_Assamese_IX.pdf: page 220/406 (OCR), ~230 words this page
+- [2026-08-15 12:13:01] Maths_Ganit_Assamese_IX.pdf: page 230/406 (OCR), ~230 words this page
+- [2026-08-15 12:13:08] Maths_Ganit_Assamese_IX.pdf: page 240/406 (OCR), ~170 words this page
+- [2026-08-15 12:13:15] Maths_Ganit_Assamese_IX.pdf: page 250/406 (OCR), ~147 words this page
+- [2026-08-15 12:13:21] Maths_Ganit_Assamese_IX.pdf: page 260/406 (OCR), ~224 words this page
+- [2026-08-15 12:13:29] Maths_Ganit_Assamese_IX.pdf: page 270/406 (OCR), ~243 words this page
+- [2026-08-15 12:13:34] niyomiyabarta: 640/50000 articles this run, ~176121 words total so far, 4256 non-Assamese lines dropped so far
+- [2026-08-15 12:13:37] Maths_Ganit_Assamese_IX.pdf: page 280/406 (OCR), ~301 words this page
+- [2026-08-15 12:13:44] Maths_Ganit_Assamese_IX.pdf: page 290/406 (OCR), ~226 words this page
+- [2026-08-15 12:13:51] Maths_Ganit_Assamese_IX.pdf: page 300/406 (OCR), ~215 words this page
+- [2026-08-15 12:13:57] Maths_Ganit_Assamese_IX.pdf: page 310/406 (OCR), ~249 words this page
+- [2026-08-15 12:14:03] Maths_Ganit_Assamese_IX.pdf: page 320/406 (OCR), ~174 words this page
+- [2026-08-15 12:14:10] Maths_Ganit_Assamese_IX.pdf: page 330/406 (OCR), ~225 words this page
+- [2026-08-15 12:14:15] niyomiyabarta: 660/50000 articles this run, ~182082 words total so far, 4388 non-Assamese lines dropped so far
+- [2026-08-15 12:14:18] Maths_Ganit_Assamese_IX.pdf: page 340/406 (OCR), ~266 words this page
+- [2026-08-15 12:14:26] Maths_Ganit_Assamese_IX.pdf: page 350/406 (OCR), ~268 words this page
+- [2026-08-15 12:14:34] Maths_Ganit_Assamese_IX.pdf: page 360/406 (OCR), ~298 words this page
+- [2026-08-15 12:14:42] Maths_Ganit_Assamese_IX.pdf: page 370/406 (OCR), ~265 words this page
+- [2026-08-15 12:14:49] Maths_Ganit_Assamese_IX.pdf: page 380/406 (OCR), ~201 words this page
+- [2026-08-15 12:14:54] Maths_Ganit_Assamese_IX.pdf: page 390/406 (OCR), ~226 words this page
+- [2026-08-15 12:14:57] niyomiyabarta: 680/50000 articles this run, ~188405 words total so far, 4526 non-Assamese lines dropped so far
+- [2026-08-15 12:14:59] Maths_Ganit_Assamese_IX.pdf: page 400/406 (OCR), ~80 words this page
+- [2026-08-15 12:15:03] Maths_Ganit_Assamese_IX.pdf: page 406/406 (OCR), ~99 words this page
+- [2026-08-15 12:15:03] DONE Maths_Ganit_Assamese_IX.pdf: 406 pages total (406 OCR, 0 text-layer)
+- [2026-08-15 12:15:32] Social Science Assamese Bhugol Part-II Class X.pdf: page 10/113 (OCR), ~291 words this page
+- [2026-08-15 12:15:40] niyomiyabarta: 700/50000 articles this run, ~192707 words total so far, 4661 non-Assamese lines dropped so far
+- [2026-08-15 12:15:45] Social Science Assamese Bhugol Part-II Class X.pdf: page 20/113 (OCR), ~198 words this page
+- [2026-08-15 12:15:59] Social Science Assamese Bhugol Part-II Class X.pdf: page 30/113 (OCR), ~321 words this page
+- [2026-08-15 12:16:11] Social Science Assamese Bhugol Part-II Class X.pdf: page 40/113 (OCR), ~194 words this page
+- [2026-08-15 12:16:22] niyomiyabarta: 720/50000 articles this run, ~197380 words total so far, 4794 non-Assamese lines dropped so far
+- [2026-08-15 12:16:25] Social Science Assamese Bhugol Part-II Class X.pdf: page 50/113 (OCR), ~2 words this page
+- [2026-08-15 12:16:36] Social Science Assamese Bhugol Part-II Class X.pdf: page 60/113 (OCR), ~125 words this page
+- [2026-08-15 12:16:45] Social Science Assamese Bhugol Part-II Class X.pdf: page 70/113 (OCR), ~253 words this page
+- [2026-08-15 12:16:58] Social Science Assamese Bhugol Part-II Class X.pdf: page 80/113 (OCR), ~386 words this page
+- [2026-08-15 12:17:04] niyomiyabarta: 740/50000 articles this run, ~202472 words total so far, 4924 non-Assamese lines dropped so far
+- [2026-08-15 12:17:11] Social Science Assamese Bhugol Part-II Class X.pdf: page 90/113 (OCR), ~319 words this page
+- [2026-08-15 12:17:24] Social Science Assamese Bhugol Part-II Class X.pdf: page 100/113 (OCR), ~239 words this page
+- [2026-08-15 12:17:38] Social Science Assamese Bhugol Part-II Class X.pdf: page 110/113 (OCR), ~365 words this page
+- [2026-08-15 12:17:42] Social Science Assamese Bhugol Part-II Class X.pdf: page 113/113 (OCR), ~314 words this page
+- [2026-08-15 12:17:42] DONE Social Science Assamese Bhugol Part-II Class X.pdf: 113 pages total (113 OCR, 0 text-layer)
+- [2026-08-15 12:17:43] niyomiyabarta: 760/50000 articles this run, ~208301 words total so far, 5063 non-Assamese lines dropped so far
+- [2026-08-15 12:18:04] Social Science Assamese Itihas Part-I Class X.pdf: page 10/114 (OCR), ~306 words this page
+- [2026-08-15 12:18:20] Social Science Assamese Itihas Part-I Class X.pdf: page 20/114 (OCR), ~300 words this page
+- [2026-08-15 12:18:25] niyomiyabarta: 780/50000 articles this run, ~214258 words total so far, 5193 non-Assamese lines dropped so far
+- [2026-08-15 12:18:32] Social Science Assamese Itihas Part-I Class X.pdf: page 30/114 (OCR), ~118 words this page
+- [2026-08-15 12:18:48] Social Science Assamese Itihas Part-I Class X.pdf: page 40/114 (OCR), ~293 words this page
+- [2026-08-15 12:19:01] Social Science Assamese Itihas Part-I Class X.pdf: page 50/114 (OCR), ~267 words this page
+- [2026-08-15 12:19:06] niyomiyabarta: 800/50000 articles this run, ~219449 words total so far, 5326 non-Assamese lines dropped so far
+- [2026-08-15 12:19:16] Social Science Assamese Itihas Part-I Class X.pdf: page 60/114 (OCR), ~350 words this page
+- [2026-08-15 12:19:29] Social Science Assamese Itihas Part-I Class X.pdf: page 70/114 (OCR), ~155 words this page
+- [2026-08-15 12:19:44] Social Science Assamese Itihas Part-I Class X.pdf: page 80/114 (OCR), ~358 words this page
+- [2026-08-15 12:19:46] niyomiyabarta: 820/50000 articles this run, ~224132 words total so far, 5460 non-Assamese lines dropped so far
+- [2026-08-15 13:00:21] Found 29 PDFs in /Users/borah/resources/IIITH PDM/sem_3/lma/ind_proj/docs/assamese/books
+- [2026-08-15 13:00:30] Social Science Assamese Itihas Part-I Class X.pdf: page 90/114 (OCR), ~258 words this page
+- [2026-08-15 13:00:44] Social Science Assamese Itihas Part-I Class X.pdf: page 100/114 (OCR), ~167 words this page
+- [2026-08-15 13:00:57] Social Science Assamese Itihas Part-I Class X.pdf: page 110/114 (OCR), ~138 words this page
+- [2026-08-15 13:01:01] Social Science Assamese Itihas Part-I Class X.pdf: page 114/114 (OCR), ~163 words this page
+- [2026-08-15 13:01:01] DONE Social Science Assamese Itihas Part-I Class X.pdf: 114 pages total (114 OCR, 0 text-layer)
+- [2026-08-15 13:01:09] Social Science Assamese Itihash Part I Class IX.pdf: page 10/109 (OCR), ~141 words this page
+- [2026-08-15 13:01:24] Social Science Assamese Itihash Part I Class IX.pdf: page 20/109 (OCR), ~322 words this page
+- [2026-08-15 13:01:29] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/sitemap.xml
+- [2026-08-15 13:01:29] niyomiyabarta: sitemap discovery found 0 URLs, 0 new
+- [2026-08-15 13:01:29] DONE niyomiyabarta: 0 new articles, 820 total ever, ~224132 words total
+- [2026-08-15 13:01:29] Scraper run complete.
+- [2026-08-15 13:01:39] Social Science Assamese Itihash Part I Class IX.pdf: page 30/109 (OCR), ~97 words this page
+- [2026-08-15 13:01:51] Social Science Assamese Itihash Part I Class IX.pdf: page 40/109 (OCR), ~304 words this page
+- [2026-08-15 13:02:04] Social Science Assamese Itihash Part I Class IX.pdf: page 50/109 (OCR), ~320 words this page
+- [2026-08-15 13:02:18] Social Science Assamese Itihash Part I Class IX.pdf: page 60/109 (OCR), ~331 words this page
+- [2026-08-15 13:02:31] Social Science Assamese Itihash Part I Class IX.pdf: page 70/109 (OCR), ~307 words this page
+- [2026-08-15 13:02:44] Social Science Assamese Itihash Part I Class IX.pdf: page 80/109 (OCR), ~279 words this page
+- [2026-08-15 13:02:57] Social Science Assamese Itihash Part I Class IX.pdf: page 90/109 (OCR), ~114 words this page
+- [2026-08-15 13:03:10] Social Science Assamese Itihash Part I Class IX.pdf: page 100/109 (OCR), ~343 words this page
+- [2026-08-15 13:03:21] Social Science Assamese Itihash Part I Class IX.pdf: page 109/109 (OCR), ~0 words this page
+- [2026-08-15 13:03:21] DONE Social Science Assamese Itihash Part I Class IX.pdf: 109 pages total (109 OCR, 0 text-layer)
+- [2026-08-15 13:03:28] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 10/65 (OCR), ~132 words this page
+- [2026-08-15 13:03:40] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 20/65 (OCR), ~202 words this page
+- [2026-08-15 13:03:49] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 30/65 (OCR), ~227 words this page
+- [2026-08-15 13:03:59] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 40/65 (OCR), ~216 words this page
+- [2026-08-15 13:04:09] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 50/65 (OCR), ~136 words this page
+- [2026-08-15 13:04:19] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 60/65 (OCR), ~307 words this page
+- [2026-08-15 13:04:23] Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: page 65/65 (OCR), ~96 words this page
+- [2026-08-15 13:04:23] DONE Social Science Assamese Rajniti aru Arthaniti Bigyan part III Class IX.pdf: 65 pages total (65 OCR, 0 text-layer)
+- [2026-08-15 13:04:34] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 10/78 (OCR), ~327 words this page
+- [2026-08-15 13:04:48] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 20/78 (OCR), ~171 words this page
+- [2026-08-15 13:05:02] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 30/78 (OCR), ~325 words this page
+- [2026-08-15 13:05:17] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 40/78 (OCR), ~317 words this page
+- [2026-08-15 13:05:31] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 50/78 (OCR), ~319 words this page
+- [2026-08-15 13:05:46] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 60/78 (OCR), ~406 words this page
+- [2026-08-15 13:06:02] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 70/78 (OCR), ~425 words this page
+- [2026-08-15 13:06:13] Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: page 78/78 (OCR), ~125 words this page
+- [2026-08-15 13:06:13] DONE Social Science Assamese RajnitiAruArthanitiBigyan Part III Class X.pdf: 78 pages total (78 OCR, 0 text-layer)
+- [2026-08-15 13:06:21] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 10/113 (OCR), ~5 words this page
+- [2026-08-15 13:06:29] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 20/113 (OCR), ~219 words this page
+- [2026-08-15 13:06:36] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 30/113 (OCR), ~172 words this page
+- [2026-08-15 13:06:43] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 40/113 (OCR), ~194 words this page
+- [2026-08-15 13:06:51] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 50/113 (OCR), ~302 words this page
+- [2026-08-15 13:06:59] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 60/113 (OCR), ~200 words this page
+- [2026-08-15 13:07:08] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 70/113 (OCR), ~268 words this page
+- [2026-08-15 13:07:16] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 80/113 (OCR), ~60 words this page
+- [2026-08-15 13:07:24] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 90/113 (OCR), ~229 words this page
+- [2026-08-15 13:07:34] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 100/113 (OCR), ~190 words this page
+- [2026-08-15 13:07:41] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 110/113 (OCR), ~221 words this page
+- [2026-08-15 13:07:43] WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: page 113/113 (OCR), ~139 words this page
+- [2026-08-15 13:07:43] DONE WEAVING _ TEXTILE DESIGN (E)_Bayan Kala Aru Saneki_Class X.pdf: 113 pages total (113 OCR, 0 text-layer)
+- [2026-08-15 13:07:50] Yoga Book_IX.pdf: page 10/117 (OCR), ~257 words this page
+- [2026-08-15 13:07:58] Yoga Book_IX.pdf: page 20/117 (OCR), ~146 words this page
+- [2026-08-15 13:08:05] Yoga Book_IX.pdf: page 30/117 (OCR), ~149 words this page
+- [2026-08-15 13:08:06] niyomiyabarta: sitemap discovery found 50000 URLs, 49180 new
+- [2026-08-15 13:08:14] Yoga Book_IX.pdf: page 40/117 (OCR), ~188 words this page
+- [2026-08-15 13:08:22] Yoga Book_IX.pdf: page 50/117 (OCR), ~135 words this page
+- [2026-08-15 13:08:30] Yoga Book_IX.pdf: page 60/117 (OCR), ~162 words this page
+- [2026-08-15 13:08:38] Yoga Book_IX.pdf: page 70/117 (OCR), ~300 words this page
+- [2026-08-15 13:08:44] niyomiyabarta: 20/49180 articles this run, ~228469 words total so far, 5594 non-Assamese lines dropped so far
+- [2026-08-15 13:08:46] Yoga Book_IX.pdf: page 80/117 (OCR), ~279 words this page
+- [2026-08-15 13:08:55] Yoga Book_IX.pdf: page 90/117 (OCR), ~165 words this page
+- [2026-08-15 13:09:02] Yoga Book_IX.pdf: page 100/117 (OCR), ~171 words this page
+- [2026-08-15 13:09:10] Yoga Book_IX.pdf: page 110/117 (OCR), ~124 words this page
+- [2026-08-15 13:09:15] Yoga Book_IX.pdf: page 117/117 (OCR), ~252 words this page
+- [2026-08-15 13:09:15] DONE Yoga Book_IX.pdf: 117 pages total (117 OCR, 0 text-layer)
+- [2026-08-15 13:09:23] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 10/86 (OCR), ~232 words this page
+- [2026-08-15 13:09:29] niyomiyabarta: 40/49180 articles this run, ~232555 words total so far, 5729 non-Assamese lines dropped so far
+- [2026-08-15 13:09:40] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 20/86 (OCR), ~92 words this page
+- [2026-08-15 13:09:59] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 30/86 (OCR), ~269 words this page
+- [2026-08-15 13:10:11] niyomiyabarta: 60/49180 articles this run, ~238035 words total so far, 5865 non-Assamese lines dropped so far
+- [2026-08-15 13:10:16] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 40/86 (OCR), ~207 words this page
+- [2026-08-15 13:10:34] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 50/86 (OCR), ~267 words this page
+- [2026-08-15 13:10:52] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 60/86 (OCR), ~244 words this page
+- [2026-08-15 13:10:54] niyomiyabarta: 80/49180 articles this run, ~242936 words total so far, 6001 non-Assamese lines dropped so far
+- [2026-08-15 13:11:10] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 70/86 (OCR), ~285 words this page
+- [2026-08-15 13:11:26] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 80/86 (OCR), ~177 words this page
+- [2026-08-15 13:11:34] bayan kala aru saneki_ix_ass_22_bharat.pdf: page 86/86 (OCR), ~0 words this page
+- [2026-08-15 13:11:34] DONE bayan kala aru saneki_ix_ass_22_bharat.pdf: 86 pages total (86 OCR, 0 text-layer)
+- [2026-08-15 13:11:34] OCR pipeline run complete (all PDFs at or past their last checkpoint).
+- [2026-08-15 13:11:36] niyomiyabarta: 100/49180 articles this run, ~247643 words total so far, 6135 non-Assamese lines dropped so far
+- [2026-08-15 13:12:16] niyomiyabarta: 120/49180 articles this run, ~252233 words total so far, 6262 non-Assamese lines dropped so far
+- [2026-08-15 13:12:56] niyomiyabarta: 140/49180 articles this run, ~257622 words total so far, 6395 non-Assamese lines dropped so far
+- [2026-08-15 13:13:36] niyomiyabarta: 160/49180 articles this run, ~262987 words total so far, 6530 non-Assamese lines dropped so far
+- [2026-08-15 13:14:21] niyomiyabarta: 180/49180 articles this run, ~269316 words total so far, 6663 non-Assamese lines dropped so far
+- [2026-08-15 13:15:02] niyomiyabarta: 200/49180 articles this run, ~274016 words total so far, 6799 non-Assamese lines dropped so far
+- [2026-08-15 13:15:44] niyomiyabarta: 220/49180 articles this run, ~279127 words total so far, 6930 non-Assamese lines dropped so far
+- [2026-08-15 13:16:26] niyomiyabarta: 240/49180 articles this run, ~283998 words total so far, 7058 non-Assamese lines dropped so far
+- [2026-08-15 13:17:05] niyomiyabarta: 260/49180 articles this run, ~292728 words total so far, 7205 non-Assamese lines dropped so far
+- [2026-08-15 13:17:44] niyomiyabarta: 280/49180 articles this run, ~297191 words total so far, 7334 non-Assamese lines dropped so far
+- [2026-08-15 13:18:25] niyomiyabarta: 300/49180 articles this run, ~302772 words total so far, 7467 non-Assamese lines dropped so far
+- [2026-08-15 13:19:06] niyomiyabarta: 320/49180 articles this run, ~307203 words total so far, 7600 non-Assamese lines dropped so far
+- [2026-08-15 13:19:52] niyomiyabarta: 340/49180 articles this run, ~313191 words total so far, 7729 non-Assamese lines dropped so far
+- [2026-08-15 13:20:32] niyomiyabarta: 360/49180 articles this run, ~319161 words total so far, 7861 non-Assamese lines dropped so far
+- [2026-08-15 13:21:20] niyomiyabarta: 380/49180 articles this run, ~324947 words total so far, 7995 non-Assamese lines dropped so far
+- [2026-08-15 13:22:07] niyomiyabarta: 400/49180 articles this run, ~330346 words total so far, 8127 non-Assamese lines dropped so far
+- [2026-08-15 13:22:46] niyomiyabarta: 420/49180 articles this run, ~334735 words total so far, 8258 non-Assamese lines dropped so far
+- [2026-08-15 13:23:25] niyomiyabarta: 440/49180 articles this run, ~341007 words total so far, 8392 non-Assamese lines dropped so far
+- [2026-08-15 13:24:04] niyomiyabarta: 460/49180 articles this run, ~346721 words total so far, 8520 non-Assamese lines dropped so far
+- [2026-08-15 13:24:46] niyomiyabarta: 480/49180 articles this run, ~352335 words total so far, 8654 non-Assamese lines dropped so far
+- [2026-08-15 13:25:26] niyomiyabarta: 500/49180 articles this run, ~357506 words total so far, 8790 non-Assamese lines dropped so far
+- [2026-08-15 13:26:09] niyomiyabarta: 520/49180 articles this run, ~361916 words total so far, 8918 non-Assamese lines dropped so far
+- [2026-08-15 13:26:50] niyomiyabarta: 540/49180 articles this run, ~366582 words total so far, 9046 non-Assamese lines dropped so far
+- [2026-08-15 13:33:06] niyomiyabarta: sitemap discovery found 50000 URLs, 48633 new
+- [2026-08-15 13:33:47] niyomiyabarta: 20/48633 articles this run, ~372987 words total so far, 9220 non-Assamese lines dropped so far
+- [2026-08-15 13:34:25] niyomiyabarta: 40/48633 articles this run, ~377571 words total so far, 9363 non-Assamese lines dropped so far
+- [2026-08-15 13:35:07] niyomiyabarta: 60/48633 articles this run, ~384468 words total so far, 9494 non-Assamese lines dropped so far
+- [2026-08-15 13:41:54] RETROFIT raw/ocr/advance_maths_e_class_ix_assamese_2024.txt: 47244 -> 38557 words (2133 lines dropped this pass)
+- [2026-08-15 13:41:54] RETROFIT raw/ocr/assamese_e_saral_asomiya_sahitya_class_ix.txt: 14360 -> 14262 words (41 lines dropped this pass)
+- [2026-08-15 13:41:54] RETROFIT raw/ocr/assamese_mil_asomiya_byakaran_jyoti_assamese_class_ix_x.txt: 57935 -> 57641 words (151 lines dropped this pass)
+- [2026-08-15 13:41:54] RETROFIT raw/ocr/assamese_mil_rapid_reader_boisitramai_axom_assamese_class_ix_x.txt: 45134 -> 45033 words (18 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/banjyak_x_ass_book_full_book.txt: 16546 -> 16333 words (96 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/bayan_kala_aru_saneki_ix_ass_22_bharat.txt: 18885 -> 18511 words (161 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/bharatiya_sastriya_nrityar_ruprekha_x.txt: 20697 -> 20130 words (295 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/bhugol_class_ix_assamese_elective_2024.txt: 30988 -> 30058 words (408 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/co_curricular_yogavidyar_hathputhi_assamese_class_ix_x.txt: 16637 -> 16480 words (81 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/commerce_e_banijya_parichoy_assamese_class_ix.txt: 16291 -> 15849 words (176 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/dance_e_bharatia_sastriya_nrityar_ruprekha_assamese_class_ix.txt: 32053 -> 30517 words (764 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/ganit_assamese_class_x.txt: 87398 -> 81155 words (1990 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/general_science_assamese_class_x.txt: 88627 -> 86843 words (832 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/general_science_bigyan_assamese_class_ix.txt: 76028 -> 74204 words (921 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/griha_biggan_class_ix_assamese_2024.txt: 40569 -> 39748 words (366 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/griha_bigyan_x_assamese_2024.txt: 50103 -> 49497 words (199 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/itihas_ix_assamese_elective_2024.txt: 41722 -> 41645 words (73 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/maths_ganit_assamese_ix.txt: 91062 -> 85465 words (1912 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/mil_assamese_asomiya_sahitya_chayanika_class_ix.txt: 21753 -> 21640 words (81 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/mil_assamese_asomiya_sahitya_chayanika_class_x.txt: 29435 -> 29292 words (63 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/music_e_vocal_instrument_sangeet_madhurya_assamese_class_ix_x.txt: 16829 -> 16040 words (479 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/music_e_vocal_instrument_tabala_vidya_assamese_class_ix_x.txt: 24514 -> 23979 words (361 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/social_science_assamese_bhugol_part_ii_class_x.txt: 27744 -> 26957 words (572 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/social_science_assamese_itihas_part_i_class_x.txt: 30094 -> 29834 words (119 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/social_science_assamese_itihash_part_i_class_ix.txt: 26177 -> 25449 words (240 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/social_science_assamese_rajniti_aru_arthaniti_bigyan_part_iii_class_ix.txt: 12343 -> 11848 words (226 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/social_science_assamese_rajnitiaruarthanitibigyan_part_iii_class_x.txt: 22444 -> 22199 words (139 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/weaving_textile_design_e_bayan_kala_aru_saneki_class_x.txt: 21867 -> 21492 words (134 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/ocr/yoga_book_ix.txt: 24509 -> 24230 words (123 lines dropped this pass)
+- [2026-08-15 13:41:55] RETROFIT raw/scrape/niyomiyabarta.txt: 388555 -> 387274 words (0 lines dropped this pass)
+- [2026-08-15 13:41:55] Retrofit word-level purity pass complete.
+- [2026-08-16 12:40:04] asomiyapratidin: discovery found 136 items, 136 new
+- [2026-08-16 12:40:54] asomiyapratidin: 20/136 articles this run, ~4578 words total so far, 140 non-Assamese lines dropped so far
+- [2026-08-16 12:41:42] asomiyapratidin: 40/136 articles this run, ~10288 words total so far, 285 non-Assamese lines dropped so far
+- [2026-08-16 12:42:27] asomiyapratidin: 60/136 articles this run, ~15350 words total so far, 427 non-Assamese lines dropped so far
+- [2026-08-16 12:43:19] asomiyapratidin: 80/136 articles this run, ~19846 words total so far, 568 non-Assamese lines dropped so far
+- [2026-08-16 12:43:49] as_wikipedia: discovery found 25410 items, 25410 new
+- [2026-08-16 12:43:58] asomiyapratidin: 100/136 articles this run, ~25058 words total so far, 719 non-Assamese lines dropped so far
+- [2026-08-16 12:44:34] as_wikipedia: 20/25410 articles this run, ~5732 words total so far, 6 non-Assamese lines dropped so far
+- [2026-08-16 12:44:41] asomiyapratidin: 120/136 articles this run, ~31008 words total so far, 862 non-Assamese lines dropped so far
+- [2026-08-16 12:45:09] niyomiyabarta: discovery found 50000 items, 48554 new
+- [2026-08-16 12:45:19] DONE asomiyapratidin: 136 new articles, 136 total ever, ~33954 words total
+- [2026-08-16 12:45:20] as_wikipedia: 40/25410 articles this run, ~13133 words total so far, 19 non-Assamese lines dropped so far
+- [2026-08-16 12:45:55] niyomiyabarta: 20/48554 articles this run, ~392159 words total so far, 9753 non-Assamese lines dropped so far
+- [2026-08-16 12:46:06] as_wikipedia: 60/25410 articles this run, ~20048 words total so far, 29 non-Assamese lines dropped so far
+- [2026-08-16 12:46:44] niyomiyabarta: 40/48554 articles this run, ~395563 words total so far, 9885 non-Assamese lines dropped so far
+- [2026-08-16 12:46:56] as_wikipedia: 80/25410 articles this run, ~29914 words total so far, 52 non-Assamese lines dropped so far
+- [2026-08-16 12:47:32] niyomiyabarta: 60/48554 articles this run, ~399425 words total so far, 10019 non-Assamese lines dropped so far
+- [2026-08-16 12:47:45] as_wikipedia: 100/25410 articles this run, ~41199 words total so far, 456 non-Assamese lines dropped so far
+- [2026-08-16 12:48:20] niyomiyabarta: 80/48554 articles this run, ~403822 words total so far, 10167 non-Assamese lines dropped so far
+- [2026-08-16 12:48:29] as_wikipedia: 120/25410 articles this run, ~46829 words total so far, 494 non-Assamese lines dropped so far
+- [2026-08-16 12:49:08] niyomiyabarta: 100/48554 articles this run, ~408481 words total so far, 10299 non-Assamese lines dropped so far
+- [2026-08-16 12:49:17] as_wikipedia: 140/25410 articles this run, ~54940 words total so far, 496 non-Assamese lines dropped so far
+- [2026-08-16 12:49:57] niyomiyabarta: 120/48554 articles this run, ~413416 words total so far, 10433 non-Assamese lines dropped so far
+- [2026-08-16 12:50:06] as_wikipedia: 160/25410 articles this run, ~66225 words total so far, 528 non-Assamese lines dropped so far
+- [2026-08-16 12:50:44] niyomiyabarta: 140/48554 articles this run, ~417959 words total so far, 10566 non-Assamese lines dropped so far
+- [2026-08-16 12:50:52] as_wikipedia: 180/25410 articles this run, ~73141 words total so far, 531 non-Assamese lines dropped so far
+- [2026-08-16 12:51:35] niyomiyabarta: 160/48554 articles this run, ~422342 words total so far, 10701 non-Assamese lines dropped so far
+- [2026-08-16 12:51:38] as_wikipedia: 200/25410 articles this run, ~79764 words total so far, 544 non-Assamese lines dropped so far
+- [2026-08-16 12:52:23] niyomiyabarta: 180/48554 articles this run, ~427154 words total so far, 10829 non-Assamese lines dropped so far
+- [2026-08-16 12:52:28] as_wikipedia: 220/25410 articles this run, ~95958 words total so far, 661 non-Assamese lines dropped so far
+- [2026-08-16 12:53:16] as_wikipedia: 240/25410 articles this run, ~103995 words total so far, 697 non-Assamese lines dropped so far
+- [2026-08-16 12:53:30] niyomiyabarta: 200/48554 articles this run, ~432997 words total so far, 10960 non-Assamese lines dropped so far
+- [2026-08-16 12:54:02] as_wikipedia: 260/25410 articles this run, ~110630 words total so far, 714 non-Assamese lines dropped so far
+- [2026-08-16 12:54:17] niyomiyabarta: 220/48554 articles this run, ~438568 words total so far, 11089 non-Assamese lines dropped so far
+- [2026-08-16 12:54:48] as_wikipedia: 280/25410 articles this run, ~117337 words total so far, 729 non-Assamese lines dropped so far
+- [2026-08-16 12:55:04] niyomiyabarta: 240/48554 articles this run, ~444135 words total so far, 11222 non-Assamese lines dropped so far
+- [2026-08-16 12:55:33] as_wikipedia: 300/25410 articles this run, ~123712 words total so far, 730 non-Assamese lines dropped so far
+- [2026-08-16 12:55:52] niyomiyabarta: 260/48554 articles this run, ~448738 words total so far, 11364 non-Assamese lines dropped so far
+- [2026-08-16 12:56:17] as_wikipedia: 320/25410 articles this run, ~129242 words total so far, 737 non-Assamese lines dropped so far
+- [2026-08-16 12:56:40] niyomiyabarta: 280/48554 articles this run, ~455306 words total so far, 11498 non-Assamese lines dropped so far
+- [2026-08-16 12:57:04] as_wikipedia: 340/25410 articles this run, ~137099 words total so far, 760 non-Assamese lines dropped so far
+- [2026-08-16 12:57:29] niyomiyabarta: 300/48554 articles this run, ~459635 words total so far, 11641 non-Assamese lines dropped so far
+- [2026-08-16 12:57:52] as_wikipedia: 360/25410 articles this run, ~146231 words total so far, 762 non-Assamese lines dropped so far
+- [2026-08-16 12:58:18] niyomiyabarta: 320/48554 articles this run, ~464060 words total so far, 11772 non-Assamese lines dropped so far
+- [2026-08-16 12:58:38] as_wikipedia: 380/25410 articles this run, ~154703 words total so far, 767 non-Assamese lines dropped so far
+- [2026-08-16 12:59:08] niyomiyabarta: 340/48554 articles this run, ~468168 words total so far, 11907 non-Assamese lines dropped so far
+- [2026-08-16 12:59:24] as_wikipedia: 400/25410 articles this run, ~160855 words total so far, 787 non-Assamese lines dropped so far
+- [2026-08-16 12:59:55] niyomiyabarta: 360/48554 articles this run, ~473710 words total so far, 12045 non-Assamese lines dropped so far
+- [2026-08-16 13:00:10] as_wikipedia: 420/25410 articles this run, ~167282 words total so far, 805 non-Assamese lines dropped so far
+- [2026-08-16 13:00:39] niyomiyabarta: 380/48554 articles this run, ~478174 words total so far, 12180 non-Assamese lines dropped so far
+- [2026-08-16 13:00:55] as_wikipedia: 440/25410 articles this run, ~172593 words total so far, 809 non-Assamese lines dropped so far
+- [2026-08-16 13:01:28] niyomiyabarta: 400/48554 articles this run, ~483120 words total so far, 12326 non-Assamese lines dropped so far
+- [2026-08-16 13:01:44] as_wikipedia: 460/25410 articles this run, ~180008 words total so far, 829 non-Assamese lines dropped so far
+- [2026-08-16 13:02:16] niyomiyabarta: 420/48554 articles this run, ~487619 words total so far, 12475 non-Assamese lines dropped so far
+- [2026-08-16 13:02:29] as_wikipedia: 480/25410 articles this run, ~186723 words total so far, 829 non-Assamese lines dropped so far
+- [2026-08-16 13:03:05] niyomiyabarta: 440/48554 articles this run, ~491618 words total so far, 12607 non-Assamese lines dropped so far
+- [2026-08-16 13:03:15] as_wikipedia: 500/25410 articles this run, ~194388 words total so far, 832 non-Assamese lines dropped so far
+- [2026-08-16 13:03:56] niyomiyabarta: 460/48554 articles this run, ~495986 words total so far, 12741 non-Assamese lines dropped so far
+- [2026-08-16 13:04:02] as_wikipedia: 520/25410 articles this run, ~203593 words total so far, 837 non-Assamese lines dropped so far
+- [2026-08-16 13:04:43] niyomiyabarta: 480/48554 articles this run, ~500713 words total so far, 12871 non-Assamese lines dropped so far
+- [2026-08-16 13:04:47] as_wikipedia: 540/25410 articles this run, ~210480 words total so far, 844 non-Assamese lines dropped so far
+- [2026-08-16 13:05:28] niyomiyabarta: 500/48554 articles this run, ~506416 words total so far, 13013 non-Assamese lines dropped so far
+- [2026-08-16 13:05:33] as_wikipedia: 560/25410 articles this run, ~217080 words total so far, 844 non-Assamese lines dropped so far
+- [2026-08-16 13:06:16] niyomiyabarta: 520/48554 articles this run, ~511269 words total so far, 13145 non-Assamese lines dropped so far
+- [2026-08-16 13:06:19] as_wikipedia: 580/25410 articles this run, ~223938 words total so far, 881 non-Assamese lines dropped so far
+- [2026-08-16 13:07:04] niyomiyabarta: 540/48554 articles this run, ~515023 words total so far, 13278 non-Assamese lines dropped so far
+- [2026-08-16 13:07:06] as_wikipedia: 600/25410 articles this run, ~230803 words total so far, 903 non-Assamese lines dropped so far
+- [2026-08-16 13:07:54] as_wikipedia: 620/25410 articles this run, ~237752 words total so far, 920 non-Assamese lines dropped so far
+- [2026-08-16 13:07:56] niyomiyabarta: 560/48554 articles this run, ~520198 words total so far, 13410 non-Assamese lines dropped so far
+- [2026-08-16 13:08:42] as_wikipedia: 640/25410 articles this run, ~247733 words total so far, 934 non-Assamese lines dropped so far
+- [2026-08-16 13:08:45] niyomiyabarta: 580/48554 articles this run, ~524831 words total so far, 13541 non-Assamese lines dropped so far
+- [2026-08-16 13:09:29] as_wikipedia: 660/25410 articles this run, ~255326 words total so far, 1000 non-Assamese lines dropped so far
+- [2026-08-16 13:09:34] niyomiyabarta: 600/48554 articles this run, ~529492 words total so far, 13676 non-Assamese lines dropped so far
+- [2026-08-16 13:10:15] as_wikipedia: 680/25410 articles this run, ~260864 words total so far, 1003 non-Assamese lines dropped so far
+- [2026-08-16 13:10:23] niyomiyabarta: 620/48554 articles this run, ~533606 words total so far, 13811 non-Assamese lines dropped so far
+- [2026-08-16 13:11:03] as_wikipedia: 700/25410 articles this run, ~270185 words total so far, 1078 non-Assamese lines dropped so far
+- [2026-08-16 13:11:12] niyomiyabarta: 640/48554 articles this run, ~538660 words total so far, 13943 non-Assamese lines dropped so far
+- [2026-08-16 13:11:49] as_wikipedia: 720/25410 articles this run, ~278177 words total so far, 1111 non-Assamese lines dropped so far
+- [2026-08-16 13:12:02] niyomiyabarta: 660/48554 articles this run, ~543645 words total so far, 14077 non-Assamese lines dropped so far
+- [2026-08-16 13:12:36] as_wikipedia: 740/25410 articles this run, ~286583 words total so far, 1135 non-Assamese lines dropped so far
+- [2026-08-16 13:12:48] niyomiyabarta: 680/48554 articles this run, ~549312 words total so far, 14212 non-Assamese lines dropped so far
+- [2026-08-16 13:13:23] as_wikipedia: 760/25410 articles this run, ~292987 words total so far, 1152 non-Assamese lines dropped so far
+- [2026-08-16 13:13:35] niyomiyabarta: 700/48554 articles this run, ~553466 words total so far, 14351 non-Assamese lines dropped so far
+- [2026-08-16 13:14:11] as_wikipedia: 780/25410 articles this run, ~307786 words total so far, 1182 non-Assamese lines dropped so far
+- [2026-08-16 13:14:19] niyomiyabarta: 720/48554 articles this run, ~557532 words total so far, 14482 non-Assamese lines dropped so far
+- [2026-08-16 13:14:57] as_wikipedia: 800/25410 articles this run, ~313783 words total so far, 1228 non-Assamese lines dropped so far
+- [2026-08-16 13:15:10] niyomiyabarta: 740/48554 articles this run, ~563229 words total so far, 14611 non-Assamese lines dropped so far
+- [2026-08-16 13:15:42] as_wikipedia: 820/25410 articles this run, ~322856 words total so far, 1234 non-Assamese lines dropped so far
+- [2026-08-16 13:15:57] niyomiyabarta: 760/48554 articles this run, ~567825 words total so far, 14740 non-Assamese lines dropped so far
+- [2026-08-16 13:16:30] as_wikipedia: 840/25410 articles this run, ~333718 words total so far, 1258 non-Assamese lines dropped so far
+- [2026-08-16 13:16:46] niyomiyabarta: 780/48554 articles this run, ~572801 words total so far, 14872 non-Assamese lines dropped so far
+- [2026-08-16 13:17:20] as_wikipedia: 860/25410 articles this run, ~344508 words total so far, 1298 non-Assamese lines dropped so far
+- [2026-08-16 13:17:37] niyomiyabarta: 800/48554 articles this run, ~577251 words total so far, 15002 non-Assamese lines dropped so far
+- [2026-08-16 13:18:04] as_wikipedia: 880/25410 articles this run, ~351756 words total so far, 1311 non-Assamese lines dropped so far
+- [2026-08-16 13:18:25] niyomiyabarta: 820/48554 articles this run, ~582743 words total so far, 15136 non-Assamese lines dropped so far
+- [2026-08-16 13:18:52] as_wikipedia: 900/25410 articles this run, ~357469 words total so far, 1378 non-Assamese lines dropped so far
+- [2026-08-16 13:22:42] asomiyapratidin: discovery found 137 items, 1 new
+- [2026-08-16 13:22:43] DONE asomiyapratidin: 1 new articles, 137 total ever, ~34346 words total
+- [2026-08-16 13:27:50] niyomiyabarta: discovery found 50000 items, 47721 new
+- [2026-08-16 13:28:36] niyomiyabarta: 20/47721 articles this run, ~595050 words total so far, 15358 non-Assamese lines dropped so far
+- [2026-08-16 13:29:06] Resuming wikidump extraction from page index 0
+- [2026-08-16 13:29:06] as_wikipedia (dump): 200 pages scanned, 199 written, ~201360 words so far
+- [2026-08-16 13:29:07] as_wikipedia (dump): 400 pages scanned, 399 written, ~326865 words so far
+- [2026-08-16 13:29:08] as_wikipedia (dump): 600 pages scanned, 599 written, ~428470 words so far
+- [2026-08-16 13:29:08] as_wikipedia (dump): 800 pages scanned, 799 written, ~525125 words so far
+- [2026-08-16 13:29:10] as_wikipedia (dump): 1000 pages scanned, 999 written, ~628554 words so far
+- [2026-08-16 13:29:10] as_wikipedia (dump): 1200 pages scanned, 1199 written, ~761029 words so far
+- [2026-08-16 13:29:11] as_wikipedia (dump): 1400 pages scanned, 1399 written, ~929768 words so far
+- [2026-08-16 13:29:12] as_wikipedia (dump): 1600 pages scanned, 1599 written, ~993685 words so far
+- [2026-08-16 13:29:12] as_wikipedia (dump): 1800 pages scanned, 1799 written, ~1067667 words so far
+- [2026-08-16 13:29:13] as_wikipedia (dump): 2000 pages scanned, 1998 written, ~1185837 words so far
+- [2026-08-16 13:29:14] as_wikipedia (dump): 2200 pages scanned, 2198 written, ~1275431 words so far
+- [2026-08-16 13:29:14] as_wikipedia (dump): 2400 pages scanned, 2397 written, ~1346490 words so far
+- [2026-08-16 13:29:15] as_wikipedia (dump): 2600 pages scanned, 2597 written, ~1419894 words so far
+- [2026-08-16 13:29:16] as_wikipedia (dump): 2800 pages scanned, 2797 written, ~1493888 words so far
+- [2026-08-16 13:29:16] as_wikipedia (dump): 3000 pages scanned, 2996 written, ~1555540 words so far
+- [2026-08-16 13:29:17] as_wikipedia (dump): 3200 pages scanned, 3196 written, ~1619858 words so far
+- [2026-08-16 13:29:17] as_wikipedia (dump): 3400 pages scanned, 3396 written, ~1683113 words so far
+- [2026-08-16 13:29:18] as_wikipedia (dump): 3600 pages scanned, 3596 written, ~1746024 words so far
+- [2026-08-16 13:29:18] as_wikipedia (dump): 3800 pages scanned, 3796 written, ~1804336 words so far
+- [2026-08-16 13:29:19] as_wikipedia (dump): 4000 pages scanned, 3996 written, ~1864232 words so far
+- [2026-08-16 13:29:20] as_wikipedia (dump): 4200 pages scanned, 4196 written, ~1925845 words so far
+- [2026-08-16 13:29:20] as_wikipedia (dump): 4400 pages scanned, 4395 written, ~1989896 words so far
+- [2026-08-16 13:29:21] as_wikipedia (dump): 4600 pages scanned, 4595 written, ~2018670 words so far
+- [2026-08-16 13:29:21] as_wikipedia (dump): 4800 pages scanned, 4795 written, ~2073185 words so far
+- [2026-08-16 13:29:22] as_wikipedia (dump): 5000 pages scanned, 4995 written, ~2132790 words so far
+- [2026-08-16 13:29:22] niyomiyabarta: 40/47721 articles this run, ~599762 words total so far, 15485 non-Assamese lines dropped so far
+- [2026-08-16 13:29:22] as_wikipedia (dump): 5200 pages scanned, 5195 written, ~2199341 words so far
+- [2026-08-16 13:29:23] as_wikipedia (dump): 5400 pages scanned, 5395 written, ~2262160 words so far
+- [2026-08-16 13:29:24] as_wikipedia (dump): 5600 pages scanned, 5595 written, ~2321145 words so far
+- [2026-08-16 13:29:24] as_wikipedia (dump): 5800 pages scanned, 5795 written, ~2372071 words so far
+- [2026-08-16 13:29:25] as_wikipedia (dump): 6000 pages scanned, 5995 written, ~2453961 words so far
+- [2026-08-16 13:29:25] as_wikipedia (dump): 6200 pages scanned, 6195 written, ~2546508 words so far
+- [2026-08-16 13:29:26] as_wikipedia (dump): 6400 pages scanned, 6395 written, ~2632286 words so far
+- [2026-08-16 13:29:27] as_wikipedia (dump): 6600 pages scanned, 6595 written, ~2730539 words so far
+- [2026-08-16 13:29:27] as_wikipedia (dump): 6800 pages scanned, 6795 written, ~2815997 words so far
+- [2026-08-16 13:29:28] as_wikipedia (dump): 7000 pages scanned, 6995 written, ~2892272 words so far
+- [2026-08-16 13:29:28] as_wikipedia (dump): 7200 pages scanned, 7195 written, ~2960295 words so far
+- [2026-08-16 13:29:29] as_wikipedia (dump): 7400 pages scanned, 7395 written, ~3022180 words so far
+- [2026-08-16 13:29:30] as_wikipedia (dump): 7600 pages scanned, 7595 written, ~3085640 words so far
+- [2026-08-16 13:29:30] as_wikipedia (dump): 7800 pages scanned, 7795 written, ~3165031 words so far
+- [2026-08-16 13:29:31] as_wikipedia (dump): 8000 pages scanned, 7995 written, ~3250520 words so far
+- [2026-08-16 13:29:31] as_wikipedia (dump): 8200 pages scanned, 8195 written, ~3339559 words so far
+- [2026-08-16 13:29:32] as_wikipedia (dump): 8400 pages scanned, 8395 written, ~3423125 words so far
+- [2026-08-16 13:29:33] as_wikipedia (dump): 8600 pages scanned, 8595 written, ~3499140 words so far
+- [2026-08-16 13:29:33] as_wikipedia (dump): 8800 pages scanned, 8795 written, ~3594640 words so far
+- [2026-08-16 13:29:34] as_wikipedia (dump): 9000 pages scanned, 8995 written, ~3668149 words so far
+- [2026-08-16 13:29:34] as_wikipedia (dump): 9200 pages scanned, 9195 written, ~3761012 words so far
+- [2026-08-16 13:29:35] as_wikipedia (dump): 9400 pages scanned, 9395 written, ~3848885 words so far
+- [2026-08-16 13:29:36] as_wikipedia (dump): 9600 pages scanned, 9595 written, ~3929752 words so far
+- [2026-08-16 13:29:36] as_wikipedia (dump): 9800 pages scanned, 9794 written, ~4013652 words so far
+- [2026-08-16 13:29:37] as_wikipedia (dump): 10000 pages scanned, 9994 written, ~4090642 words so far
+- [2026-08-16 13:29:37] as_wikipedia (dump): 10200 pages scanned, 10194 written, ~4167402 words so far
+- [2026-08-16 13:29:38] as_wikipedia (dump): 10400 pages scanned, 10393 written, ~4243568 words so far
+- [2026-08-16 13:29:39] as_wikipedia (dump): 10600 pages scanned, 10593 written, ~4315269 words so far
+- [2026-08-16 13:29:39] as_wikipedia (dump): 10800 pages scanned, 10793 written, ~4409275 words so far
+- [2026-08-16 13:29:40] as_wikipedia (dump): 11000 pages scanned, 10993 written, ~4495055 words so far
+- [2026-08-16 13:29:40] as_wikipedia (dump): 11200 pages scanned, 11193 written, ~4571954 words so far
+- [2026-08-16 13:29:41] as_wikipedia (dump): 11400 pages scanned, 11393 written, ~4648204 words so far
+- [2026-08-16 13:29:42] as_wikipedia (dump): 11600 pages scanned, 11593 written, ~4711415 words so far
+- [2026-08-16 13:29:42] as_wikipedia (dump): 11800 pages scanned, 11793 written, ~4776741 words so far
+- [2026-08-16 13:29:43] as_wikipedia (dump): 12000 pages scanned, 11993 written, ~4865027 words so far
+- [2026-08-16 13:29:43] as_wikipedia (dump): 12200 pages scanned, 12192 written, ~4938043 words so far
+- [2026-08-16 13:29:44] as_wikipedia (dump): 12400 pages scanned, 12392 written, ~5033348 words so far
+- [2026-08-16 13:29:45] as_wikipedia (dump): 12600 pages scanned, 12592 written, ~5127745 words so far
+- [2026-08-16 13:29:45] as_wikipedia (dump): 12800 pages scanned, 12792 written, ~5237361 words so far
+- [2026-08-16 13:29:46] as_wikipedia (dump): 13000 pages scanned, 12992 written, ~5345453 words so far
+- [2026-08-16 13:29:47] as_wikipedia (dump): 13200 pages scanned, 13192 written, ~5450920 words so far
+- [2026-08-16 13:29:47] as_wikipedia (dump): 13400 pages scanned, 13391 written, ~5553115 words so far
+- [2026-08-16 13:29:48] as_wikipedia (dump): 13600 pages scanned, 13591 written, ~5628106 words so far
+- [2026-08-16 13:29:48] as_wikipedia (dump): 13800 pages scanned, 13791 written, ~5705737 words so far
+- [2026-08-16 13:29:49] as_wikipedia (dump): 14000 pages scanned, 13990 written, ~5798269 words so far
+- [2026-08-16 13:29:50] as_wikipedia (dump): 14200 pages scanned, 14190 written, ~5880724 words so far
+- [2026-08-16 13:29:50] as_wikipedia (dump): 14400 pages scanned, 14390 written, ~5974128 words so far
+- [2026-08-16 13:29:51] as_wikipedia (dump): 14600 pages scanned, 14589 written, ~6069100 words so far
+- [2026-08-16 13:29:52] as_wikipedia (dump): 14800 pages scanned, 14789 written, ~6163350 words so far
+- [2026-08-16 13:29:52] as_wikipedia (dump): 15000 pages scanned, 14989 written, ~6253818 words so far
+- [2026-08-16 13:29:53] as_wikipedia (dump): 15200 pages scanned, 15189 written, ~6331363 words so far
+- [2026-08-16 13:29:53] as_wikipedia (dump): 15400 pages scanned, 15389 written, ~6394116 words so far
+- [2026-08-16 13:29:54] as_wikipedia (dump): 15600 pages scanned, 15589 written, ~6454405 words so far
+- [2026-08-16 13:29:54] as_wikipedia (dump): 15800 pages scanned, 15789 written, ~6508332 words so far
+- [2026-08-16 13:29:55] as_wikipedia (dump): 16000 pages scanned, 15989 written, ~6560449 words so far
+- [2026-08-16 13:29:55] as_wikipedia (dump): 16200 pages scanned, 16189 written, ~6609752 words so far
+- [2026-08-16 13:29:56] as_wikipedia (dump): 16400 pages scanned, 16389 written, ~6663570 words so far
+- [2026-08-16 13:29:56] as_wikipedia (dump): 16600 pages scanned, 16589 written, ~6714169 words so far
+- [2026-08-16 13:29:57] as_wikipedia (dump): 16800 pages scanned, 16789 written, ~6773124 words so far
+- [2026-08-16 13:29:58] as_wikipedia (dump): 17000 pages scanned, 16989 written, ~6830651 words so far
+- [2026-08-16 13:29:58] as_wikipedia (dump): 17200 pages scanned, 17189 written, ~6881812 words so far
+- [2026-08-16 13:29:59] as_wikipedia (dump): 17400 pages scanned, 17389 written, ~6933439 words so far
+- [2026-08-16 13:29:59] as_wikipedia (dump): 17600 pages scanned, 17589 written, ~6987271 words so far
+- [2026-08-16 13:30:00] as_wikipedia (dump): 17800 pages scanned, 17789 written, ~7043563 words so far
+- [2026-08-16 13:30:00] as_wikipedia (dump): 18000 pages scanned, 17989 written, ~7099919 words so far
+- [2026-08-16 13:30:01] as_wikipedia (dump): 18200 pages scanned, 18189 written, ~7144298 words so far
+- [2026-08-16 13:30:01] as_wikipedia (dump): 18400 pages scanned, 18389 written, ~7185341 words so far
+- [2026-08-16 13:30:02] as_wikipedia (dump): 18600 pages scanned, 18589 written, ~7255722 words so far
+- [2026-08-16 13:30:03] as_wikipedia (dump): 18800 pages scanned, 18789 written, ~7362230 words so far
+- [2026-08-16 13:30:03] as_wikipedia (dump): 19000 pages scanned, 18989 written, ~7445419 words so far
+- [2026-08-16 13:30:04] as_wikipedia (dump): 19200 pages scanned, 19189 written, ~7548967 words so far
+- [2026-08-16 13:30:04] as_wikipedia (dump): 19400 pages scanned, 19389 written, ~7631231 words so far
+- [2026-08-16 13:30:05] as_wikipedia (dump): 19600 pages scanned, 19589 written, ~7728989 words so far
+- [2026-08-16 13:30:06] as_wikipedia (dump): 19800 pages scanned, 19789 written, ~7784846 words so far
+- [2026-08-16 13:30:06] as_wikipedia (dump): 20000 pages scanned, 19988 written, ~7868903 words so far
+- [2026-08-16 13:30:07] as_wikipedia (dump): 20200 pages scanned, 20188 written, ~7956847 words so far
+- [2026-08-16 13:30:07] as_wikipedia (dump): 20400 pages scanned, 20388 written, ~8062778 words so far
+- [2026-08-16 13:30:08] as_wikipedia (dump): 20600 pages scanned, 20588 written, ~8176500 words so far
+- [2026-08-16 13:30:09] as_wikipedia (dump): 20800 pages scanned, 20788 written, ~8300949 words so far
+- [2026-08-16 13:30:09] as_wikipedia (dump): 21000 pages scanned, 20987 written, ~8405014 words so far
+- [2026-08-16 13:30:10] as_wikipedia (dump): 21200 pages scanned, 21187 written, ~8469251 words so far
+- [2026-08-16 13:30:11] as_wikipedia (dump): 21400 pages scanned, 21387 written, ~8545591 words so far
+- [2026-08-16 13:30:11] as_wikipedia (dump): 21600 pages scanned, 21587 written, ~8616887 words so far
+- [2026-08-16 13:30:12] niyomiyabarta: 60/47721 articles this run, ~605705 words total so far, 15619 non-Assamese lines dropped so far
+- [2026-08-16 13:30:12] as_wikipedia (dump): 21800 pages scanned, 21787 written, ~8689451 words so far
+- [2026-08-16 13:30:12] as_wikipedia (dump): 22000 pages scanned, 21987 written, ~8764983 words so far
+- [2026-08-16 13:30:13] as_wikipedia (dump): 22200 pages scanned, 22187 written, ~8846074 words so far
+- [2026-08-16 13:30:13] as_wikipedia (dump): 22400 pages scanned, 22387 written, ~8935103 words so far
+- [2026-08-16 13:30:14] as_wikipedia (dump): 22600 pages scanned, 22587 written, ~9015450 words so far
+- [2026-08-16 13:30:15] as_wikipedia (dump): 22800 pages scanned, 22787 written, ~9098237 words so far
+- [2026-08-16 13:30:15] as_wikipedia (dump): 23000 pages scanned, 22987 written, ~9191484 words so far
+- [2026-08-16 13:30:16] as_wikipedia (dump): 23200 pages scanned, 23187 written, ~9277844 words so far
+- [2026-08-16 13:30:16] as_wikipedia (dump): 23400 pages scanned, 23387 written, ~9353242 words so far
+- [2026-08-16 13:30:17] as_wikipedia (dump): 23600 pages scanned, 23587 written, ~9434566 words so far
+- [2026-08-16 13:30:18] as_wikipedia (dump): 23800 pages scanned, 23787 written, ~9499962 words so far
+- [2026-08-16 13:30:18] as_wikipedia (dump): 24000 pages scanned, 23987 written, ~9569321 words so far
+- [2026-08-16 13:30:19] as_wikipedia (dump): 24200 pages scanned, 24187 written, ~9636534 words so far
+- [2026-08-16 13:30:19] as_wikipedia (dump): 24400 pages scanned, 24387 written, ~9747251 words so far
+- [2026-08-16 13:30:20] as_wikipedia (dump): 24600 pages scanned, 24587 written, ~9834537 words so far
+- [2026-08-16 13:30:21] as_wikipedia (dump): 24800 pages scanned, 24786 written, ~9920134 words so far
+- [2026-08-16 13:30:21] as_wikipedia (dump): 25000 pages scanned, 24986 written, ~10028950 words so far
+- [2026-08-16 13:30:22] DONE as_wikipedia (dump): 25110 pages written, ~10192069 words total, 0 suspect-language pages excluded
+- [2026-08-16 13:30:58] niyomiyabarta: 80/47721 articles this run, ~611272 words total so far, 15752 non-Assamese lines dropped so far
+- [2026-08-16 13:31:45] niyomiyabarta: 100/47721 articles this run, ~616489 words total so far, 15884 non-Assamese lines dropped so far
+- [2026-08-16 13:32:30] niyomiyabarta: 120/47721 articles this run, ~620522 words total so far, 16016 non-Assamese lines dropped so far
+- [2026-08-16 13:33:17] niyomiyabarta: 140/47721 articles this run, ~627093 words total so far, 16144 non-Assamese lines dropped so far
+- [2026-08-16 13:34:04] niyomiyabarta: 160/47721 articles this run, ~631358 words total so far, 16271 non-Assamese lines dropped so far
+- [2026-08-16 13:34:51] niyomiyabarta: 180/47721 articles this run, ~637972 words total so far, 16408 non-Assamese lines dropped so far
+- [2026-08-16 13:35:39] niyomiyabarta: 200/47721 articles this run, ~643804 words total so far, 16543 non-Assamese lines dropped so far
+- [2026-08-16 13:36:28] niyomiyabarta: 220/47721 articles this run, ~648507 words total so far, 16675 non-Assamese lines dropped so far
+- [2026-08-16 13:37:18] niyomiyabarta: 240/47721 articles this run, ~652940 words total so far, 16810 non-Assamese lines dropped so far
+- [2026-08-16 13:38:10] niyomiyabarta: 260/47721 articles this run, ~657824 words total so far, 16942 non-Assamese lines dropped so far
+- [2026-08-16 13:38:57] niyomiyabarta: 280/47721 articles this run, ~663423 words total so far, 17080 non-Assamese lines dropped so far
+- [2026-08-16 13:39:46] niyomiyabarta: 300/47721 articles this run, ~667706 words total so far, 17206 non-Assamese lines dropped so far
+- [2026-08-16 13:40:33] niyomiyabarta: 320/47721 articles this run, ~672952 words total so far, 17337 non-Assamese lines dropped so far
+- [2026-08-16 13:41:21] niyomiyabarta: 340/47721 articles this run, ~676756 words total so far, 17470 non-Assamese lines dropped so far
+- [2026-08-16 13:42:10] niyomiyabarta: 360/47721 articles this run, ~681046 words total so far, 17599 non-Assamese lines dropped so far
+- [2026-08-16 13:45:42] asomiyapratidin: discovery found 137 items, 0 new
+- [2026-08-16 13:45:42] DONE asomiyapratidin: 0 new articles, 137 total ever, ~34346 words total
+- [2026-08-16 13:50:56] niyomiyabarta: discovery found 50000 items, 47346 new
+- [2026-08-16 13:51:41] Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: page 2/2 (OCR), ~0 clean words this page
+- [2026-08-16 13:51:41] DONE Bharatiya_Sastriya_Nrityar_Ruprekha_X.pdf: 2 pages total (2 OCR, 0 text-layer)
+- [2026-08-16 13:51:42] niyomiyabarta: 20/47346 articles this run, ~688910 words total so far, 17836 non-Assamese lines dropped so far
+- [2026-08-16 13:52:32] niyomiyabarta: 40/47346 articles this run, ~694191 words total so far, 17974 non-Assamese lines dropped so far
+- [2026-08-16 13:53:21] niyomiyabarta: 60/47346 articles this run, ~700097 words total so far, 18108 non-Assamese lines dropped so far
+- [2026-08-16 13:54:08] niyomiyabarta: 80/47346 articles this run, ~705417 words total so far, 18241 non-Assamese lines dropped so far
+- [2026-08-16 13:54:56] niyomiyabarta: 100/47346 articles this run, ~709917 words total so far, 18377 non-Assamese lines dropped so far
+- [2026-08-16 13:55:44] niyomiyabarta: 120/47346 articles this run, ~716022 words total so far, 18510 non-Assamese lines dropped so far
+- [2026-08-16 13:56:36] niyomiyabarta: 140/47346 articles this run, ~720773 words total so far, 18642 non-Assamese lines dropped so far
+- [2026-08-16 13:57:28] niyomiyabarta: 160/47346 articles this run, ~724778 words total so far, 18778 non-Assamese lines dropped so far
+- [2026-08-16 13:58:19] niyomiyabarta: 180/47346 articles this run, ~730317 words total so far, 18909 non-Assamese lines dropped so far
+- [2026-08-16 13:59:13] niyomiyabarta: 200/47346 articles this run, ~735137 words total so far, 19042 non-Assamese lines dropped so far
+- [2026-08-16 13:59:59] niyomiyabarta: 220/47346 articles this run, ~739176 words total so far, 19176 non-Assamese lines dropped so far
+- [2026-08-16 14:00:48] niyomiyabarta: 240/47346 articles this run, ~743592 words total so far, 19308 non-Assamese lines dropped so far
+- [2026-08-16 14:01:35] niyomiyabarta: 260/47346 articles this run, ~747932 words total so far, 19434 non-Assamese lines dropped so far
+- [2026-08-16 14:02:18] niyomiyabarta: 280/47346 articles this run, ~754262 words total so far, 19560 non-Assamese lines dropped so far
+- [2026-08-16 14:03:05] niyomiyabarta: 300/47346 articles this run, ~759691 words total so far, 19686 non-Assamese lines dropped so far
+- [2026-08-16 14:03:37] Resuming wikidump extraction from page index 0
+- [2026-08-16 14:03:38] as_wikipedia (dump): 200 pages scanned, 199 written, ~201360 words so far
+- [2026-08-16 14:03:38] as_wikipedia (dump): 400 pages scanned, 399 written, ~326865 words so far
+- [2026-08-16 14:03:39] as_wikipedia (dump): 600 pages scanned, 599 written, ~428470 words so far
+- [2026-08-16 14:03:40] as_wikipedia (dump): 800 pages scanned, 799 written, ~525125 words so far
+- [2026-08-16 14:03:41] as_wikipedia (dump): 1000 pages scanned, 999 written, ~628554 words so far
+- [2026-08-16 14:03:42] as_wikipedia (dump): 1200 pages scanned, 1199 written, ~761029 words so far
+- [2026-08-16 14:03:43] as_wikipedia (dump): 1400 pages scanned, 1399 written, ~929768 words so far
+- [2026-08-16 14:03:44] as_wikipedia (dump): 1600 pages scanned, 1599 written, ~993685 words so far
+- [2026-08-16 14:03:44] as_wikipedia (dump): 1800 pages scanned, 1799 written, ~1067667 words so far
+- [2026-08-16 14:03:45] as_wikipedia (dump): 2000 pages scanned, 1998 written, ~1185837 words so far
+- [2026-08-16 14:03:46] as_wikipedia (dump): 2200 pages scanned, 2198 written, ~1275431 words so far
+- [2026-08-16 14:03:47] as_wikipedia (dump): 2400 pages scanned, 2397 written, ~1346490 words so far
+- [2026-08-16 14:03:48] as_wikipedia (dump): 2600 pages scanned, 2597 written, ~1419894 words so far
+- [2026-08-16 14:03:49] as_wikipedia (dump): 2800 pages scanned, 2797 written, ~1493888 words so far
+- [2026-08-16 14:03:49] as_wikipedia (dump): 3000 pages scanned, 2996 written, ~1555540 words so far
+- [2026-08-16 14:03:50] as_wikipedia (dump): 3200 pages scanned, 3196 written, ~1619858 words so far
+- [2026-08-16 14:03:51] as_wikipedia (dump): 3400 pages scanned, 3396 written, ~1683113 words so far
+- [2026-08-16 14:03:51] as_wikipedia (dump): 3600 pages scanned, 3596 written, ~1746024 words so far
+- [2026-08-16 14:03:51] niyomiyabarta: 320/47346 articles this run, ~764548 words total so far, 19819 non-Assamese lines dropped so far
+- [2026-08-16 14:03:52] as_wikipedia (dump): 3800 pages scanned, 3796 written, ~1804336 words so far
+- [2026-08-16 14:03:53] as_wikipedia (dump): 4000 pages scanned, 3996 written, ~1864232 words so far
+- [2026-08-16 14:03:53] as_wikipedia (dump): 4200 pages scanned, 4196 written, ~1925845 words so far
+- [2026-08-16 14:03:54] as_wikipedia (dump): 4400 pages scanned, 4395 written, ~1989896 words so far
+- [2026-08-16 14:03:54] as_wikipedia (dump): 4600 pages scanned, 4595 written, ~2018670 words so far
+- [2026-08-16 14:03:55] as_wikipedia (dump): 4800 pages scanned, 4795 written, ~2073185 words so far
+- [2026-08-16 14:03:56] as_wikipedia (dump): 5000 pages scanned, 4995 written, ~2132790 words so far
+- [2026-08-16 14:03:56] as_wikipedia (dump): 5200 pages scanned, 5195 written, ~2199341 words so far
+- [2026-08-16 14:03:57] as_wikipedia (dump): 5400 pages scanned, 5395 written, ~2262160 words so far
+- [2026-08-16 14:03:58] as_wikipedia (dump): 5600 pages scanned, 5595 written, ~2321145 words so far
+- [2026-08-16 14:03:58] as_wikipedia (dump): 5800 pages scanned, 5795 written, ~2372071 words so far
+- [2026-08-16 14:03:59] as_wikipedia (dump): 6000 pages scanned, 5995 written, ~2453961 words so far
+- [2026-08-16 14:04:00] as_wikipedia (dump): 6200 pages scanned, 6195 written, ~2546508 words so far
+- [2026-08-16 14:04:01] as_wikipedia (dump): 6400 pages scanned, 6395 written, ~2632286 words so far
+- [2026-08-16 14:04:01] as_wikipedia (dump): 6600 pages scanned, 6595 written, ~2730539 words so far
+- [2026-08-16 14:04:02] as_wikipedia (dump): 6800 pages scanned, 6795 written, ~2815997 words so far
+- [2026-08-16 14:04:03] as_wikipedia (dump): 7000 pages scanned, 6995 written, ~2892272 words so far
+- [2026-08-16 14:04:03] as_wikipedia (dump): 7200 pages scanned, 7195 written, ~2960295 words so far
+- [2026-08-16 14:04:04] as_wikipedia (dump): 7400 pages scanned, 7395 written, ~3022180 words so far
+- [2026-08-16 14:04:05] as_wikipedia (dump): 7600 pages scanned, 7595 written, ~3085640 words so far
+- [2026-08-16 14:04:05] as_wikipedia (dump): 7800 pages scanned, 7795 written, ~3165031 words so far
+- [2026-08-16 14:04:06] as_wikipedia (dump): 8000 pages scanned, 7995 written, ~3250520 words so far
+- [2026-08-16 14:04:07] as_wikipedia (dump): 8200 pages scanned, 8195 written, ~3339559 words so far
+- [2026-08-16 14:04:07] as_wikipedia (dump): 8400 pages scanned, 8395 written, ~3423125 words so far
+- [2026-08-16 14:04:08] as_wikipedia (dump): 8600 pages scanned, 8595 written, ~3499140 words so far
+- [2026-08-16 14:04:09] as_wikipedia (dump): 8800 pages scanned, 8795 written, ~3594640 words so far
+- [2026-08-16 14:04:09] as_wikipedia (dump): 9000 pages scanned, 8995 written, ~3668149 words so far
+- [2026-08-16 14:04:10] as_wikipedia (dump): 9200 pages scanned, 9195 written, ~3761012 words so far
+- [2026-08-16 14:04:11] as_wikipedia (dump): 9400 pages scanned, 9395 written, ~3848885 words so far
+- [2026-08-16 14:04:12] as_wikipedia (dump): 9600 pages scanned, 9595 written, ~3929752 words so far
+- [2026-08-16 14:04:13] as_wikipedia (dump): 9800 pages scanned, 9794 written, ~4013652 words so far
+- [2026-08-16 14:04:14] as_wikipedia (dump): 10000 pages scanned, 9994 written, ~4090642 words so far
+- [2026-08-16 14:04:14] as_wikipedia (dump): 10200 pages scanned, 10194 written, ~4167402 words so far
+- [2026-08-16 14:04:15] as_wikipedia (dump): 10400 pages scanned, 10393 written, ~4243568 words so far
+- [2026-08-16 14:04:16] as_wikipedia (dump): 10600 pages scanned, 10593 written, ~4315269 words so far
+- [2026-08-16 14:04:16] as_wikipedia (dump): 10800 pages scanned, 10793 written, ~4409275 words so far
+- [2026-08-16 14:04:17] as_wikipedia (dump): 11000 pages scanned, 10993 written, ~4495055 words so far
+- [2026-08-16 14:04:18] as_wikipedia (dump): 11200 pages scanned, 11193 written, ~4571954 words so far
+- [2026-08-16 14:04:18] as_wikipedia (dump): 11400 pages scanned, 11393 written, ~4648204 words so far
+- [2026-08-16 14:04:19] as_wikipedia (dump): 11600 pages scanned, 11593 written, ~4711415 words so far
+- [2026-08-16 14:04:20] as_wikipedia (dump): 11800 pages scanned, 11793 written, ~4776741 words so far
+- [2026-08-16 14:04:20] as_wikipedia (dump): 12000 pages scanned, 11993 written, ~4865027 words so far
+- [2026-08-16 14:04:21] as_wikipedia (dump): 12200 pages scanned, 12192 written, ~4938043 words so far
+- [2026-08-16 14:04:22] as_wikipedia (dump): 12400 pages scanned, 12392 written, ~5033348 words so far
+- [2026-08-16 14:04:23] as_wikipedia (dump): 12600 pages scanned, 12592 written, ~5127745 words so far
+- [2026-08-16 14:04:23] as_wikipedia (dump): 12800 pages scanned, 12792 written, ~5237361 words so far
+- [2026-08-16 14:04:24] as_wikipedia (dump): 13000 pages scanned, 12992 written, ~5345453 words so far
+- [2026-08-16 14:04:25] as_wikipedia (dump): 13200 pages scanned, 13192 written, ~5450920 words so far
+- [2026-08-16 14:04:25] as_wikipedia (dump): 13400 pages scanned, 13391 written, ~5553115 words so far
+- [2026-08-16 14:04:26] as_wikipedia (dump): 13600 pages scanned, 13591 written, ~5628106 words so far
+- [2026-08-16 14:04:27] as_wikipedia (dump): 13800 pages scanned, 13791 written, ~5705737 words so far
+- [2026-08-16 14:04:28] as_wikipedia (dump): 14000 pages scanned, 13990 written, ~5798269 words so far
+- [2026-08-16 14:04:28] as_wikipedia (dump): 14200 pages scanned, 14190 written, ~5880724 words so far
+- [2026-08-16 14:04:29] as_wikipedia (dump): 14400 pages scanned, 14390 written, ~5974128 words so far
+- [2026-08-16 14:04:30] as_wikipedia (dump): 14600 pages scanned, 14589 written, ~6069100 words so far
+- [2026-08-16 14:04:30] as_wikipedia (dump): 14800 pages scanned, 14789 written, ~6163350 words so far
+- [2026-08-16 14:04:31] as_wikipedia (dump): 15000 pages scanned, 14989 written, ~6253818 words so far
+- [2026-08-16 14:04:32] as_wikipedia (dump): 15200 pages scanned, 15189 written, ~6331363 words so far
+- [2026-08-16 14:04:33] as_wikipedia (dump): 15400 pages scanned, 15389 written, ~6394116 words so far
+- [2026-08-16 14:04:34] as_wikipedia (dump): 15600 pages scanned, 15589 written, ~6454405 words so far
+- [2026-08-16 14:04:34] as_wikipedia (dump): 15800 pages scanned, 15789 written, ~6508332 words so far
+- [2026-08-16 14:04:35] as_wikipedia (dump): 16000 pages scanned, 15989 written, ~6560449 words so far
+- [2026-08-16 14:04:36] as_wikipedia (dump): 16200 pages scanned, 16189 written, ~6609752 words so far
+- [2026-08-16 14:04:36] as_wikipedia (dump): 16400 pages scanned, 16389 written, ~6663570 words so far
+- [2026-08-16 14:04:37] as_wikipedia (dump): 16600 pages scanned, 16589 written, ~6714169 words so far
+- [2026-08-16 14:04:37] as_wikipedia (dump): 16800 pages scanned, 16789 written, ~6773124 words so far
+- [2026-08-16 14:04:38] as_wikipedia (dump): 17000 pages scanned, 16989 written, ~6830651 words so far
+- [2026-08-16 14:04:39] as_wikipedia (dump): 17200 pages scanned, 17189 written, ~6881812 words so far
+- [2026-08-16 14:04:39] niyomiyabarta: 340/47346 articles this run, ~770514 words total so far, 19950 non-Assamese lines dropped so far
+- [2026-08-16 14:04:39] as_wikipedia (dump): 17400 pages scanned, 17389 written, ~6933439 words so far
+- [2026-08-16 14:04:40] as_wikipedia (dump): 17600 pages scanned, 17589 written, ~6987271 words so far
+- [2026-08-16 14:04:41] as_wikipedia (dump): 17800 pages scanned, 17789 written, ~7043563 words so far
+- [2026-08-16 14:04:41] as_wikipedia (dump): 18000 pages scanned, 17989 written, ~7099919 words so far
+- [2026-08-16 14:04:42] as_wikipedia (dump): 18200 pages scanned, 18189 written, ~7144298 words so far
+- [2026-08-16 14:04:42] as_wikipedia (dump): 18400 pages scanned, 18389 written, ~7185341 words so far
+- [2026-08-16 14:04:43] as_wikipedia (dump): 18600 pages scanned, 18589 written, ~7255722 words so far
+- [2026-08-16 14:04:44] as_wikipedia (dump): 18800 pages scanned, 18789 written, ~7362230 words so far
+- [2026-08-16 14:21:15] as_wikipedia (dump): 19000 pages scanned, 18989 written, ~7445419 words so far
+- [2026-08-16 14:21:16] as_wikipedia (dump): 19200 pages scanned, 19189 written, ~7548967 words so far
+- [2026-08-16 14:21:17] as_wikipedia (dump): 19400 pages scanned, 19389 written, ~7631231 words so far
+- [2026-08-16 14:21:18] as_wikipedia (dump): 19600 pages scanned, 19589 written, ~7728989 words so far
+- [2026-08-16 14:21:18] as_wikipedia (dump): 19800 pages scanned, 19789 written, ~7784846 words so far
+- [2026-08-16 14:21:19] as_wikipedia (dump): 20000 pages scanned, 19988 written, ~7868903 words so far
+- [2026-08-16 14:21:28] as_wikipedia (dump): 20200 pages scanned, 20188 written, ~7956847 words so far
+- [2026-08-16 14:21:28] as_wikipedia (dump): 20400 pages scanned, 20388 written, ~8062778 words so far
+- [2026-08-16 14:21:29] as_wikipedia (dump): 20600 pages scanned, 20588 written, ~8176500 words so far
+- [2026-08-16 14:21:30] as_wikipedia (dump): 20800 pages scanned, 20788 written, ~8300949 words so far
+- [2026-08-16 14:21:31] as_wikipedia (dump): 21000 pages scanned, 20987 written, ~8405014 words so far
+- [2026-08-16 14:21:31] as_wikipedia (dump): 21200 pages scanned, 21187 written, ~8469251 words so far
+- [2026-08-16 14:21:32] as_wikipedia (dump): 21400 pages scanned, 21387 written, ~8545591 words so far
+- [2026-08-16 14:21:33] as_wikipedia (dump): 21600 pages scanned, 21587 written, ~8616887 words so far
+- [2026-08-16 14:21:33] as_wikipedia (dump): 21800 pages scanned, 21787 written, ~8689451 words so far
+- [2026-08-16 14:21:34] as_wikipedia (dump): 22000 pages scanned, 21987 written, ~8764983 words so far
+- [2026-08-16 14:21:35] as_wikipedia (dump): 22200 pages scanned, 22187 written, ~8846074 words so far
+- [2026-08-16 14:21:36] as_wikipedia (dump): 22400 pages scanned, 22387 written, ~8935103 words so far
+- [2026-08-16 14:21:37] as_wikipedia (dump): 22600 pages scanned, 22587 written, ~9015450 words so far
+- [2026-08-16 14:21:38] as_wikipedia (dump): 22800 pages scanned, 22787 written, ~9098237 words so far
+- [2026-08-16 14:21:38] as_wikipedia (dump): 23000 pages scanned, 22987 written, ~9191484 words so far
+- [2026-08-16 14:21:39] as_wikipedia (dump): 23200 pages scanned, 23187 written, ~9277844 words so far
+- [2026-08-16 14:21:40] as_wikipedia (dump): 23400 pages scanned, 23387 written, ~9353242 words so far
+- [2026-08-16 14:21:41] as_wikipedia (dump): 23600 pages scanned, 23587 written, ~9434566 words so far
+- [2026-08-16 14:21:41] as_wikipedia (dump): 23800 pages scanned, 23787 written, ~9499962 words so far
+- [2026-08-16 14:21:42] as_wikipedia (dump): 24000 pages scanned, 23987 written, ~9569321 words so far
+- [2026-08-16 14:21:42] as_wikipedia (dump): 24200 pages scanned, 24187 written, ~9636534 words so far
+- [2026-08-16 14:21:43] as_wikipedia (dump): 24400 pages scanned, 24387 written, ~9747251 words so far
+- [2026-08-16 14:21:44] as_wikipedia (dump): 24600 pages scanned, 24587 written, ~9834537 words so far
+- [2026-08-16 14:21:45] as_wikipedia (dump): 24800 pages scanned, 24786 written, ~9920134 words so far
+- [2026-08-16 14:21:45] as_wikipedia (dump): 25000 pages scanned, 24986 written, ~10028950 words so far
+- [2026-08-16 14:21:46] DONE as_wikipedia (dump): 25110 pages written, ~10192069 words total, 0 suspect-language pages excluded
+- [2026-08-16 14:22:07] niyomiyabarta: 360/47346 articles this run, ~775711 words total so far, 20076 non-Assamese lines dropped so far
+- [2026-08-16 14:22:56] niyomiyabarta: 380/47346 articles this run, ~781434 words total so far, 20207 non-Assamese lines dropped so far
+- [2026-08-16 14:30:02] niyomiyabarta: 400/47346 articles this run, ~786112 words total so far, 20327 non-Assamese lines dropped so far
+- [2026-08-16 14:30:50] niyomiyabarta: 420/47346 articles this run, ~790254 words total so far, 20453 non-Assamese lines dropped so far
+- [2026-08-16 14:31:38] niyomiyabarta: 440/47346 articles this run, ~794510 words total so far, 20572 non-Assamese lines dropped so far
+- [2026-08-16 14:32:26] niyomiyabarta: 460/47346 articles this run, ~798795 words total so far, 20695 non-Assamese lines dropped so far
+- [2026-08-16 14:33:07] niyomiyabarta: 480/47346 articles this run, ~802802 words total so far, 20814 non-Assamese lines dropped so far
+- [2026-08-16 14:33:52] niyomiyabarta: 500/47346 articles this run, ~807422 words total so far, 20932 non-Assamese lines dropped so far
+- [2026-08-16 14:34:36] niyomiyabarta: 520/47346 articles this run, ~811697 words total so far, 21052 non-Assamese lines dropped so far
+- [2026-08-16 14:35:24] niyomiyabarta: 540/47346 articles this run, ~816448 words total so far, 21172 non-Assamese lines dropped so far
+- [2026-08-16 14:36:14] niyomiyabarta: 560/47346 articles this run, ~821029 words total so far, 21293 non-Assamese lines dropped so far
+- [2026-08-16 14:37:01] niyomiyabarta: 580/47346 articles this run, ~825126 words total so far, 21414 non-Assamese lines dropped so far
+- [2026-08-16 14:37:46] niyomiyabarta: 600/47346 articles this run, ~829917 words total so far, 21539 non-Assamese lines dropped so far
+- [2026-08-16 14:38:27] niyomiyabarta: 620/47346 articles this run, ~834040 words total so far, 21658 non-Assamese lines dropped so far
+- [2026-08-16 14:39:08] niyomiyabarta: 640/47346 articles this run, ~839116 words total so far, 21778 non-Assamese lines dropped so far
+- [2026-08-16 14:39:50] niyomiyabarta: 660/47346 articles this run, ~843811 words total so far, 21896 non-Assamese lines dropped so far
+- [2026-08-16 14:40:36] niyomiyabarta: 680/47346 articles this run, ~847494 words total so far, 22017 non-Assamese lines dropped so far
+- [2026-08-16 14:41:24] niyomiyabarta: 700/47346 articles this run, ~852826 words total so far, 22137 non-Assamese lines dropped so far
+- [2026-08-16 14:42:11] niyomiyabarta: 720/47346 articles this run, ~857491 words total so far, 22259 non-Assamese lines dropped so far
+- [2026-08-16 14:42:54] niyomiyabarta: 740/47346 articles this run, ~862744 words total so far, 22378 non-Assamese lines dropped so far
+- [2026-08-16 14:43:40] niyomiyabarta: 760/47346 articles this run, ~868039 words total so far, 22494 non-Assamese lines dropped so far
+- [2026-08-16 14:44:25] niyomiyabarta: 780/47346 articles this run, ~873019 words total so far, 22614 non-Assamese lines dropped so far
+- [2026-08-16 14:45:15] niyomiyabarta: 800/47346 articles this run, ~877705 words total so far, 22734 non-Assamese lines dropped so far
+- [2026-08-16 14:46:04] niyomiyabarta: 820/47346 articles this run, ~882120 words total so far, 22853 non-Assamese lines dropped so far
+- [2026-08-16 14:46:50] niyomiyabarta: 840/47346 articles this run, ~888415 words total so far, 22974 non-Assamese lines dropped so far
+- [2026-08-16 14:47:36] niyomiyabarta: 860/47346 articles this run, ~892383 words total so far, 23095 non-Assamese lines dropped so far
+- [2026-08-16 14:48:21] niyomiyabarta: 880/47346 articles this run, ~896513 words total so far, 23216 non-Assamese lines dropped so far
+- [2026-08-16 14:49:06] niyomiyabarta: 900/47346 articles this run, ~900063 words total so far, 23336 non-Assamese lines dropped so far
+- [2026-08-16 14:49:52] niyomiyabarta: 920/47346 articles this run, ~903947 words total so far, 23458 non-Assamese lines dropped so far
+- [2026-08-16 14:50:37] niyomiyabarta: 940/47346 articles this run, ~908979 words total so far, 23580 non-Assamese lines dropped so far
+- [2026-08-16 14:50:58] BATCH STOP niyomiyabarta: 949 new articles this batch (3602s), 46397 still remaining, 3603 total ever, ~911955 words total
+- [2026-08-16 14:50:58] Scraper run complete.
+- [2026-08-16 17:57:13] asomiyapratidin: discovery found 144 items, 7 new
+- [2026-08-16 17:57:27] DONE asomiyapratidin: 7 new articles, 144 total ever, ~36255 words total
+- [2026-08-16 18:02:23] niyomiyabarta: discovery found 50000 items, 46397 new
+- [2026-08-16 18:03:10] niyomiyabarta: 20/46397 articles this run, ~916000 words total so far, 23753 non-Assamese lines dropped so far
+- [2026-08-16 18:04:00] niyomiyabarta: 40/46397 articles this run, ~920908 words total so far, 23873 non-Assamese lines dropped so far
+- [2026-08-16 18:04:51] niyomiyabarta: 60/46397 articles this run, ~925827 words total so far, 23996 non-Assamese lines dropped so far
+- [2026-08-16 18:05:41] niyomiyabarta: 80/46397 articles this run, ~932759 words total so far, 24116 non-Assamese lines dropped so far
+- [2026-08-16 18:06:30] niyomiyabarta: 100/46397 articles this run, ~937431 words total so far, 24236 non-Assamese lines dropped so far
+- [2026-08-16 18:07:21] niyomiyabarta: 120/46397 articles this run, ~943115 words total so far, 24353 non-Assamese lines dropped so far
+- [2026-08-16 18:08:12] niyomiyabarta: 140/46397 articles this run, ~948248 words total so far, 24473 non-Assamese lines dropped so far
+- [2026-08-16 18:09:04] niyomiyabarta: 160/46397 articles this run, ~952583 words total so far, 24601 non-Assamese lines dropped so far
+- [2026-08-16 18:09:55] niyomiyabarta: 180/46397 articles this run, ~958540 words total so far, 24722 non-Assamese lines dropped so far
+- [2026-08-16 18:10:44] niyomiyabarta: 200/46397 articles this run, ~963293 words total so far, 24854 non-Assamese lines dropped so far
+- [2026-08-16 18:11:35] niyomiyabarta: 220/46397 articles this run, ~968157 words total so far, 24974 non-Assamese lines dropped so far
+- [2026-08-16 18:12:25] niyomiyabarta: 240/46397 articles this run, ~974626 words total so far, 25094 non-Assamese lines dropped so far
+- [2026-08-16 18:13:19] niyomiyabarta: 260/46397 articles this run, ~979951 words total so far, 25214 non-Assamese lines dropped so far
+- [2026-08-16 18:14:11] niyomiyabarta: 280/46397 articles this run, ~985365 words total so far, 25335 non-Assamese lines dropped so far
+- [2026-08-16 18:15:01] niyomiyabarta: 300/46397 articles this run, ~989401 words total so far, 25458 non-Assamese lines dropped so far
+- [2026-08-16 18:15:51] niyomiyabarta: 320/46397 articles this run, ~995212 words total so far, 25577 non-Assamese lines dropped so far
+- [2026-08-16 18:16:40] niyomiyabarta: 340/46397 articles this run, ~1000030 words total so far, 25698 non-Assamese lines dropped so far
+- [2026-08-16 18:17:30] niyomiyabarta: 360/46397 articles this run, ~1012450 words total so far, 25819 non-Assamese lines dropped so far
+- [2026-08-16 18:18:21] niyomiyabarta: 380/46397 articles this run, ~1019526 words total so far, 25942 non-Assamese lines dropped so far
+- [2026-08-16 18:19:10] niyomiyabarta: 400/46397 articles this run, ~1024739 words total so far, 26062 non-Assamese lines dropped so far
+- [2026-08-16 18:19:58] niyomiyabarta: 420/46397 articles this run, ~1032173 words total so far, 26182 non-Assamese lines dropped so far
+- [2026-08-16 18:20:51] niyomiyabarta: 440/46397 articles this run, ~1036551 words total so far, 26303 non-Assamese lines dropped so far
+- [2026-08-16 18:21:41] niyomiyabarta: 460/46397 articles this run, ~1041738 words total so far, 26438 non-Assamese lines dropped so far
+- [2026-08-16 18:22:28] niyomiyabarta: 480/46397 articles this run, ~1047606 words total so far, 26578 non-Assamese lines dropped so far
+- [2026-08-16 18:23:19] niyomiyabarta: 500/46397 articles this run, ~1052621 words total so far, 26699 non-Assamese lines dropped so far
+- [2026-08-16 18:24:07] niyomiyabarta: 520/46397 articles this run, ~1057773 words total so far, 26824 non-Assamese lines dropped so far
+- [2026-08-16 18:24:54] niyomiyabarta: 540/46397 articles this run, ~1063876 words total so far, 26952 non-Assamese lines dropped so far
+- [2026-08-16 18:25:44] niyomiyabarta: 560/46397 articles this run, ~1068756 words total so far, 27078 non-Assamese lines dropped so far
+- [2026-08-16 18:26:38] niyomiyabarta: 580/46397 articles this run, ~1073420 words total so far, 27197 non-Assamese lines dropped so far
+- [2026-08-16 18:27:36] niyomiyabarta: 600/46397 articles this run, ~1077263 words total so far, 27325 non-Assamese lines dropped so far
+- [2026-08-16 18:28:28] niyomiyabarta: 620/46397 articles this run, ~1082234 words total so far, 27449 non-Assamese lines dropped so far
+- [2026-08-16 18:29:16] niyomiyabarta: 640/46397 articles this run, ~1087096 words total so far, 27582 non-Assamese lines dropped so far
+- [2026-08-16 18:30:07] niyomiyabarta: 660/46397 articles this run, ~1091905 words total so far, 27704 non-Assamese lines dropped so far
+- [2026-08-16 18:30:55] niyomiyabarta: 680/46397 articles this run, ~1097487 words total so far, 27836 non-Assamese lines dropped so far
+- [2026-08-16 18:31:43] niyomiyabarta: 700/46397 articles this run, ~1104213 words total so far, 27983 non-Assamese lines dropped so far
+- [2026-08-16 18:32:35] niyomiyabarta: 720/46397 articles this run, ~1110202 words total so far, 28103 non-Assamese lines dropped so far
+- [2026-08-16 18:33:28] niyomiyabarta: 740/46397 articles this run, ~1116547 words total so far, 28224 non-Assamese lines dropped so far
+- [2026-08-16 18:34:21] niyomiyabarta: 760/46397 articles this run, ~1123024 words total so far, 28344 non-Assamese lines dropped so far
+- [2026-08-16 18:35:10] niyomiyabarta: 780/46397 articles this run, ~1128526 words total so far, 28464 non-Assamese lines dropped so far
+- [2026-08-16 18:36:00] niyomiyabarta: 800/46397 articles this run, ~1133480 words total so far, 28597 non-Assamese lines dropped so far
+- [2026-08-16 18:36:49] niyomiyabarta: 820/46397 articles this run, ~1138854 words total so far, 28719 non-Assamese lines dropped so far
+- [2026-08-16 18:37:38] niyomiyabarta: 840/46397 articles this run, ~1145237 words total so far, 28840 non-Assamese lines dropped so far
+- [2026-08-16 18:38:28] niyomiyabarta: 860/46397 articles this run, ~1151604 words total so far, 28973 non-Assamese lines dropped so far
+- [2026-08-16 18:39:15] niyomiyabarta: 880/46397 articles this run, ~1155780 words total so far, 29104 non-Assamese lines dropped so far
+- [2026-08-16 18:40:09] niyomiyabarta: 900/46397 articles this run, ~1162164 words total so far, 29241 non-Assamese lines dropped so far
+- [2026-08-16 18:40:58] niyomiyabarta: 920/46397 articles this run, ~1166940 words total so far, 29363 non-Assamese lines dropped so far
+- [2026-08-16 18:41:49] niyomiyabarta: 940/46397 articles this run, ~1172742 words total so far, 29728 non-Assamese lines dropped so far
+- [2026-08-16 18:42:42] niyomiyabarta: 960/46397 articles this run, ~1177604 words total so far, 29852 non-Assamese lines dropped so far
+- [2026-08-16 18:43:35] niyomiyabarta: 980/46397 articles this run, ~1182426 words total so far, 29974 non-Assamese lines dropped so far
+- [2026-08-16 18:44:30] niyomiyabarta: 1000/46397 articles this run, ~1187685 words total so far, 30096 non-Assamese lines dropped so far
+- [2026-08-16 18:45:19] niyomiyabarta: 1020/46397 articles this run, ~1192867 words total so far, 30221 non-Assamese lines dropped so far
+- [2026-08-16 18:46:09] niyomiyabarta: 1040/46397 articles this run, ~1197365 words total so far, 30341 non-Assamese lines dropped so far
+- [2026-08-16 18:46:56] niyomiyabarta: 1060/46397 articles this run, ~1202556 words total so far, 30463 non-Assamese lines dropped so far
+- [2026-08-16 18:47:43] niyomiyabarta: 1080/46397 articles this run, ~1207463 words total so far, 30587 non-Assamese lines dropped so far
+- [2026-08-16 18:48:31] niyomiyabarta: 1100/46397 articles this run, ~1212194 words total so far, 30711 non-Assamese lines dropped so far
+- [2026-08-16 18:49:18] niyomiyabarta: 1120/46397 articles this run, ~1218078 words total so far, 30831 non-Assamese lines dropped so far
+- [2026-08-16 18:50:06] niyomiyabarta: 1140/46397 articles this run, ~1223549 words total so far, 30950 non-Assamese lines dropped so far
+- [2026-08-16 18:50:54] niyomiyabarta: 1160/46397 articles this run, ~1227639 words total so far, 31072 non-Assamese lines dropped so far
+- [2026-08-16 18:51:43] niyomiyabarta: 1180/46397 articles this run, ~1231865 words total so far, 31192 non-Assamese lines dropped so far
+- [2026-08-16 18:52:33] niyomiyabarta: 1200/46397 articles this run, ~1236615 words total so far, 31312 non-Assamese lines dropped so far
+- [2026-08-16 18:53:22] niyomiyabarta: 1220/46397 articles this run, ~1241724 words total so far, 31434 non-Assamese lines dropped so far
+- [2026-08-16 18:54:09] niyomiyabarta: 1240/46397 articles this run, ~1246380 words total so far, 31554 non-Assamese lines dropped so far
+- [2026-08-16 18:54:59] niyomiyabarta: 1260/46397 articles this run, ~1252759 words total so far, 31674 non-Assamese lines dropped so far
+- [2026-08-16 18:55:46] niyomiyabarta: 1280/46397 articles this run, ~1256837 words total so far, 31795 non-Assamese lines dropped so far
+- [2026-08-16 18:56:34] niyomiyabarta: 1300/46397 articles this run, ~1261982 words total so far, 31915 non-Assamese lines dropped so far
+- [2026-08-16 18:57:25] niyomiyabarta: 1320/46397 articles this run, ~1268064 words total so far, 32037 non-Assamese lines dropped so far
+- [2026-08-16 18:58:14] niyomiyabarta: 1340/46397 articles this run, ~1271297 words total so far, 32168 non-Assamese lines dropped so far
+- [2026-08-16 18:59:03] niyomiyabarta: 1360/46397 articles this run, ~1275474 words total so far, 32297 non-Assamese lines dropped so far
+- [2026-08-16 18:59:53] niyomiyabarta: 1380/46397 articles this run, ~1280846 words total so far, 32418 non-Assamese lines dropped so far
+- [2026-08-16 19:00:43] niyomiyabarta: 1400/46397 articles this run, ~1285223 words total so far, 32540 non-Assamese lines dropped so far
+- [2026-08-16 19:01:33] niyomiyabarta: 1420/46397 articles this run, ~1289725 words total so far, 32662 non-Assamese lines dropped so far
+- [2026-08-16 19:02:26] niyomiyabarta: 1440/46397 articles this run, ~1294960 words total so far, 32783 non-Assamese lines dropped so far
+- [2026-08-16 19:02:26] BATCH STOP niyomiyabarta: 1440 new articles this batch (3603s), 44957 still remaining, 5043 total ever, ~1294960 words total
+- [2026-08-16 19:02:26] Scraper run complete.
+- [2026-08-17 02:47:49] asomiyapratidin: discovery found 158 items, 14 new
+- [2026-08-17 02:48:18] DONE asomiyapratidin: 14 new articles, 158 total ever, ~40264 words total
+- [2026-08-17 02:52:53] niyomiyabarta: discovery found 50000 items, 44957 new
+- [2026-08-17 02:53:33] niyomiyabarta: 20/44957 articles this run, ~1299978 words total so far, 32904 non-Assamese lines dropped so far
+- [2026-08-17 02:54:20] niyomiyabarta: 40/44957 articles this run, ~1304257 words total so far, 33025 non-Assamese lines dropped so far
+- [2026-08-17 02:55:04] niyomiyabarta: 60/44957 articles this run, ~1308598 words total so far, 33148 non-Assamese lines dropped so far
+- [2026-08-17 02:55:48] niyomiyabarta: 80/44957 articles this run, ~1318383 words total so far, 33274 non-Assamese lines dropped so far
+- [2026-08-17 02:56:28] niyomiyabarta: 100/44957 articles this run, ~1323846 words total so far, 33399 non-Assamese lines dropped so far
+- [2026-08-17 02:57:08] niyomiyabarta: 120/44957 articles this run, ~1329124 words total so far, 33520 non-Assamese lines dropped so far
+- [2026-08-17 02:57:47] niyomiyabarta: 140/44957 articles this run, ~1334879 words total so far, 33642 non-Assamese lines dropped so far
+- [2026-08-17 02:58:36] niyomiyabarta: 160/44957 articles this run, ~1339803 words total so far, 33767 non-Assamese lines dropped so far
+- [2026-08-17 02:59:19] niyomiyabarta: 180/44957 articles this run, ~1344160 words total so far, 33886 non-Assamese lines dropped so far
+- [2026-08-17 03:00:20] niyomiyabarta: 200/44957 articles this run, ~1348329 words total so far, 34010 non-Assamese lines dropped so far
+- [2026-08-17 03:01:06] niyomiyabarta: 220/44957 articles this run, ~1354185 words total so far, 34127 non-Assamese lines dropped so far
+- [2026-08-17 03:01:56] niyomiyabarta: 240/44957 articles this run, ~1358755 words total so far, 34255 non-Assamese lines dropped so far
+- [2026-08-17 03:02:51] niyomiyabarta: 260/44957 articles this run, ~1362951 words total so far, 34375 non-Assamese lines dropped so far
+- [2026-08-17 03:03:47] niyomiyabarta: 280/44957 articles this run, ~1368143 words total so far, 34496 non-Assamese lines dropped so far
+- [2026-08-17 03:04:42] niyomiyabarta: 300/44957 articles this run, ~1376848 words total so far, 34629 non-Assamese lines dropped so far
+- [2026-08-17 03:05:29] niyomiyabarta: 320/44957 articles this run, ~1382286 words total so far, 34764 non-Assamese lines dropped so far
+- [2026-08-17 03:06:19] niyomiyabarta: 340/44957 articles this run, ~1387846 words total so far, 34885 non-Assamese lines dropped so far
+- [2026-08-17 03:07:06] niyomiyabarta: 360/44957 articles this run, ~1392121 words total so far, 35018 non-Assamese lines dropped so far
+- [2026-08-17 03:07:34] xobdo: discovered 361 alphabetical ranges
+- [2026-08-17 03:07:49] niyomiyabarta: 380/44957 articles this run, ~1398304 words total so far, 35151 non-Assamese lines dropped so far
+- [2026-08-17 03:08:23] xobdo: 20/361 ranges, 2483 dictionary entries, ~22799 clean words so far
+- [2026-08-17 03:08:41] niyomiyabarta: 400/44957 articles this run, ~1403833 words total so far, 35297 non-Assamese lines dropped so far
+- [2026-08-17 03:09:16] xobdo: 40/361 ranges, 5558 dictionary entries, ~51999 clean words so far
+- [2026-08-17 03:09:29] niyomiyabarta: 420/44957 articles this run, ~1408257 words total so far, 35430 non-Assamese lines dropped so far
+- [2026-08-17 03:10:03] xobdo: 60/361 ranges, 7880 dictionary entries, ~75113 clean words so far
+- [2026-08-17 03:10:09] niyomiyabarta: 440/44957 articles this run, ~1412608 words total so far, 35563 non-Assamese lines dropped so far
+- [2026-08-17 03:10:47] xobdo: 80/361 ranges, 10105 dictionary entries, ~96593 clean words so far
+- [2026-08-17 03:10:51] niyomiyabarta: 460/44957 articles this run, ~1417886 words total so far, 35683 non-Assamese lines dropped so far
+- [2026-08-17 03:11:36] xobdo: 100/361 ranges, 13190 dictionary entries, ~127524 clean words so far
+- [2026-08-17 03:11:37] niyomiyabarta: 480/44957 articles this run, ~1423346 words total so far, 35815 non-Assamese lines dropped so far
+- [2026-08-17 03:12:18] niyomiyabarta: 500/44957 articles this run, ~1426997 words total so far, 35937 non-Assamese lines dropped so far
+- [2026-08-17 03:12:19] xobdo: 120/361 ranges, 15705 dictionary entries, ~151796 clean words so far
+- [2026-08-17 03:13:01] niyomiyabarta: 520/44957 articles this run, ~1432531 words total so far, 36058 non-Assamese lines dropped so far
+- [2026-08-17 03:13:04] xobdo: 140/361 ranges, 18453 dictionary entries, ~178827 clean words so far
+- [2026-08-17 03:13:42] niyomiyabarta: 540/44957 articles this run, ~1437029 words total so far, 36179 non-Assamese lines dropped so far
+- [2026-08-17 03:13:46] xobdo: 160/361 ranges, 20427 dictionary entries, ~198663 clean words so far
+- [2026-08-17 03:14:21] niyomiyabarta: 560/44957 articles this run, ~1443388 words total so far, 36299 non-Assamese lines dropped so far
+- [2026-08-17 03:14:28] xobdo: 180/361 ranges, 23055 dictionary entries, ~224045 clean words so far
+- [2026-08-17 03:15:10] niyomiyabarta: 580/44957 articles this run, ~1447411 words total so far, 36422 non-Assamese lines dropped so far
+- [2026-08-17 03:15:21] xobdo: 200/361 ranges, 25963 dictionary entries, ~251271 clean words so far
+- [2026-08-17 03:15:57] niyomiyabarta: 600/44957 articles this run, ~1453144 words total so far, 36542 non-Assamese lines dropped so far
+- [2026-08-17 03:16:07] xobdo: 220/361 ranges, 28896 dictionary entries, ~280401 clean words so far
+- [2026-08-17 03:16:38] niyomiyabarta: 620/44957 articles this run, ~1458397 words total so far, 36669 non-Assamese lines dropped so far
+- [2026-08-17 03:16:49] xobdo: 240/361 ranges, 31721 dictionary entries, ~308021 clean words so far
+- [2026-08-17 03:17:18] niyomiyabarta: 640/44957 articles this run, ~1462603 words total so far, 36796 non-Assamese lines dropped so far
+- [2026-08-17 03:17:35] xobdo: 260/361 ranges, 34952 dictionary entries, ~340225 clean words so far
+- [2026-08-17 03:18:04] niyomiyabarta: 660/44957 articles this run, ~1468285 words total so far, 36919 non-Assamese lines dropped so far
+- [2026-08-17 03:18:24] xobdo: 280/361 ranges, 37698 dictionary entries, ~366843 clean words so far
+- [2026-08-17 03:18:50] niyomiyabarta: 680/44957 articles this run, ~1474186 words total so far, 37041 non-Assamese lines dropped so far
+- [2026-08-17 03:19:10] xobdo: 300/361 ranges, 40559 dictionary entries, ~394904 clean words so far
+- [2026-08-17 03:19:41] niyomiyabarta: 700/44957 articles this run, ~1478426 words total so far, 37162 non-Assamese lines dropped so far
+- [2026-08-17 03:20:04] xobdo: 320/361 ranges, 43149 dictionary entries, ~420689 clean words so far
+- [2026-08-17 03:20:24] niyomiyabarta: 720/44957 articles this run, ~1482994 words total so far, 37293 non-Assamese lines dropped so far
+- [2026-08-17 03:20:47] xobdo: 340/361 ranges, 46018 dictionary entries, ~448720 clean words so far
+- [2026-08-17 03:21:03] niyomiyabarta: 740/44957 articles this run, ~1489539 words total so far, 37416 non-Assamese lines dropped so far
+- [2026-08-17 03:21:30] DONE xobdo: 47972 dictionary entries, ~468560 clean words total, 0 suspect-language ranges excluded
+- [2026-08-17 03:21:43] niyomiyabarta: 760/44957 articles this run, ~1495268 words total so far, 37543 non-Assamese lines dropped so far
+- [2026-08-17 03:22:23] niyomiyabarta: 780/44957 articles this run, ~1500307 words total so far, 37668 non-Assamese lines dropped so far
+- [2026-08-17 03:23:03] niyomiyabarta: 800/44957 articles this run, ~1505543 words total so far, 37786 non-Assamese lines dropped so far
+- [2026-08-17 03:23:44] niyomiyabarta: 820/44957 articles this run, ~1510124 words total so far, 37904 non-Assamese lines dropped so far
+- [2026-08-17 03:24:25] niyomiyabarta: 840/44957 articles this run, ~1518914 words total so far, 38037 non-Assamese lines dropped so far
+- [2026-08-17 03:25:07] niyomiyabarta: 860/44957 articles this run, ~1525772 words total so far, 38173 non-Assamese lines dropped so far
+- [2026-08-17 03:25:48] niyomiyabarta: 880/44957 articles this run, ~1531881 words total so far, 38297 non-Assamese lines dropped so far
+- [2026-08-17 03:26:32] niyomiyabarta: 900/44957 articles this run, ~1542230 words total so far, 38429 non-Assamese lines dropped so far
+- [2026-08-17 03:27:20] niyomiyabarta: 920/44957 articles this run, ~1546468 words total so far, 38549 non-Assamese lines dropped so far
+- [2026-08-17 03:28:04] niyomiyabarta: 940/44957 articles this run, ~1550290 words total so far, 38669 non-Assamese lines dropped so far
+- [2026-08-17 03:28:47] niyomiyabarta: 960/44957 articles this run, ~1555060 words total so far, 38790 non-Assamese lines dropped so far
+- [2026-08-17 03:29:32] niyomiyabarta: 980/44957 articles this run, ~1559840 words total so far, 38911 non-Assamese lines dropped so far
+- [2026-08-17 03:30:16] niyomiyabarta: 1000/44957 articles this run, ~1565302 words total so far, 39033 non-Assamese lines dropped so far
+- [2026-08-17 03:30:56] niyomiyabarta: 1020/44957 articles this run, ~1574080 words total so far, 39157 non-Assamese lines dropped so far
+- [2026-08-17 03:31:40] niyomiyabarta: 1040/44957 articles this run, ~1579677 words total so far, 39307 non-Assamese lines dropped so far
+- [2026-08-17 03:32:23] niyomiyabarta: 1060/44957 articles this run, ~1584185 words total so far, 39508 non-Assamese lines dropped so far
+- [2026-08-17 03:33:02] niyomiyabarta: 1080/44957 articles this run, ~1589800 words total so far, 39659 non-Assamese lines dropped so far
+- [2026-08-17 03:33:40] niyomiyabarta: 1100/44957 articles this run, ~1595632 words total so far, 39789 non-Assamese lines dropped so far
+- [2026-08-17 03:34:19] niyomiyabarta: 1120/44957 articles this run, ~1604811 words total so far, 39912 non-Assamese lines dropped so far
+- [2026-08-17 03:34:58] niyomiyabarta: 1140/44957 articles this run, ~1611490 words total so far, 40039 non-Assamese lines dropped so far
+- [2026-08-17 03:35:37] niyomiyabarta: 1160/44957 articles this run, ~1616177 words total so far, 40169 non-Assamese lines dropped so far
+- [2026-08-17 03:36:17] niyomiyabarta: 1180/44957 articles this run, ~1620654 words total so far, 40306 non-Assamese lines dropped so far
+- [2026-08-17 03:36:55] niyomiyabarta: 1200/44957 articles this run, ~1625942 words total so far, 40444 non-Assamese lines dropped so far
+- [2026-08-17 03:37:34] niyomiyabarta: 1220/44957 articles this run, ~1631170 words total so far, 40574 non-Assamese lines dropped so far
+- [2026-08-17 03:53:13] FETCH FAILED after 3 attempts: https://niyomiyabarta.com/assam/tragic-death-of-a-youth-due-to-electrocution-incident-in-goroimari/
+- [2026-08-17 03:53:13] BATCH STOP niyomiyabarta: 1233 new articles this batch (3620s), 43724 still remaining, 6277 total ever, ~1633603 words total
+- [2026-08-17 03:53:13] Scraper run complete.
+- [2026-08-17 04:11:37] asomiyapratidin: discovery found 158 items, 0 new
+- [2026-08-17 04:11:37] DONE asomiyapratidin: 0 new articles, 158 total ever, ~40264 words total
+- [2026-08-17 04:16:47] niyomiyabarta: discovery found 50000 items, 43723 new
+- [2026-08-17 04:17:25] niyomiyabarta: 20/43723 articles this run, ~1639314 words total so far, 40798 non-Assamese lines dropped so far
+- [2026-08-17 04:18:02] niyomiyabarta: 40/43723 articles this run, ~1645034 words total so far, 40925 non-Assamese lines dropped so far
+- [2026-08-17 04:18:39] niyomiyabarta: 60/43723 articles this run, ~1650808 words total so far, 41054 non-Assamese lines dropped so far
+- [2026-08-17 04:19:17] niyomiyabarta: 80/43723 articles this run, ~1655347 words total so far, 41199 non-Assamese lines dropped so far
+- [2026-08-17 04:19:54] niyomiyabarta: 100/43723 articles this run, ~1661463 words total so far, 41327 non-Assamese lines dropped so far
+- [2026-08-17 04:20:32] niyomiyabarta: 120/43723 articles this run, ~1665015 words total so far, 41458 non-Assamese lines dropped so far
+- [2026-08-17 04:21:10] niyomiyabarta: 140/43723 articles this run, ~1669728 words total so far, 41592 non-Assamese lines dropped so far
+- [2026-08-17 04:21:48] niyomiyabarta: 160/43723 articles this run, ~1674222 words total so far, 41724 non-Assamese lines dropped so far
+- [2026-08-17 04:22:26] niyomiyabarta: 180/43723 articles this run, ~1680497 words total so far, 41857 non-Assamese lines dropped so far
+- [2026-08-17 04:23:04] niyomiyabarta: 200/43723 articles this run, ~1686358 words total so far, 41987 non-Assamese lines dropped so far
+- [2026-08-17 04:23:41] niyomiyabarta: 220/43723 articles this run, ~1690579 words total so far, 42134 non-Assamese lines dropped so far
+- [2026-08-17 04:24:19] niyomiyabarta: 240/43723 articles this run, ~1695321 words total so far, 42268 non-Assamese lines dropped so far
+- [2026-08-17 04:24:57] niyomiyabarta: 260/43723 articles this run, ~1700422 words total so far, 42411 non-Assamese lines dropped so far
+- [2026-08-17 04:25:35] niyomiyabarta: 280/43723 articles this run, ~1704421 words total so far, 42553 non-Assamese lines dropped so far
+- [2026-08-17 04:26:13] niyomiyabarta: 300/43723 articles this run, ~1710093 words total so far, 42695 non-Assamese lines dropped so far
+- [2026-08-17 04:26:51] niyomiyabarta: 320/43723 articles this run, ~1714749 words total so far, 42834 non-Assamese lines dropped so far
+- [2026-08-17 04:27:29] niyomiyabarta: 340/43723 articles this run, ~1719117 words total so far, 42971 non-Assamese lines dropped so far
+- [2026-08-17 04:28:07] niyomiyabarta: 360/43723 articles this run, ~1724448 words total so far, 43100 non-Assamese lines dropped so far
+- [2026-08-17 04:28:45] niyomiyabarta: 380/43723 articles this run, ~1731702 words total so far, 43231 non-Assamese lines dropped so far
+- [2026-08-17 04:29:23] niyomiyabarta: 400/43723 articles this run, ~1737907 words total so far, 43371 non-Assamese lines dropped so far
+- [2026-08-17 04:30:01] niyomiyabarta: 420/43723 articles this run, ~1743550 words total so far, 43504 non-Assamese lines dropped so far
+- [2026-08-17 04:30:39] niyomiyabarta: 440/43723 articles this run, ~1750157 words total so far, 43643 non-Assamese lines dropped so far
+- [2026-08-17 04:31:17] niyomiyabarta: 460/43723 articles this run, ~1755145 words total so far, 43777 non-Assamese lines dropped so far
+- [2026-08-17 04:31:55] niyomiyabarta: 480/43723 articles this run, ~1759696 words total so far, 43911 non-Assamese lines dropped so far
+- [2026-08-17 04:32:33] niyomiyabarta: 500/43723 articles this run, ~1764540 words total so far, 44040 non-Assamese lines dropped so far
+- [2026-08-17 04:33:11] niyomiyabarta: 520/43723 articles this run, ~1771673 words total so far, 44170 non-Assamese lines dropped so far
+- [2026-08-17 04:33:49] niyomiyabarta: 540/43723 articles this run, ~1776620 words total so far, 44312 non-Assamese lines dropped so far
+- [2026-08-17 04:34:27] niyomiyabarta: 560/43723 articles this run, ~1781343 words total so far, 44465 non-Assamese lines dropped so far
+- [2026-08-17 04:35:05] niyomiyabarta: 580/43723 articles this run, ~1786066 words total so far, 44602 non-Assamese lines dropped so far
+- [2026-08-17 04:35:43] niyomiyabarta: 600/43723 articles this run, ~1792555 words total so far, 44736 non-Assamese lines dropped so far
+- [2026-08-17 04:36:21] niyomiyabarta: 620/43723 articles this run, ~1798791 words total so far, 44880 non-Assamese lines dropped so far
+- [2026-08-17 04:36:59] niyomiyabarta: 640/43723 articles this run, ~1805410 words total so far, 45039 non-Assamese lines dropped so far
+- [2026-08-17 04:37:37] niyomiyabarta: 660/43723 articles this run, ~1812137 words total so far, 45492 non-Assamese lines dropped so far
+- [2026-08-17 04:38:15] niyomiyabarta: 680/43723 articles this run, ~1818028 words total so far, 45693 non-Assamese lines dropped so far
+- [2026-08-17 04:38:53] niyomiyabarta: 700/43723 articles this run, ~1824786 words total so far, 45896 non-Assamese lines dropped so far
+- [2026-08-17 04:39:31] niyomiyabarta: 720/43723 articles this run, ~1829993 words total so far, 46031 non-Assamese lines dropped so far
+- [2026-08-17 04:40:09] niyomiyabarta: 740/43723 articles this run, ~1834650 words total so far, 46167 non-Assamese lines dropped so far
+- [2026-08-17 04:40:47] niyomiyabarta: 760/43723 articles this run, ~1840573 words total so far, 46300 non-Assamese lines dropped so far
+- [2026-08-17 04:41:25] niyomiyabarta: 780/43723 articles this run, ~1845097 words total so far, 46433 non-Assamese lines dropped so far
+- [2026-08-17 04:42:04] niyomiyabarta: 800/43723 articles this run, ~1849945 words total so far, 46579 non-Assamese lines dropped so far
+- [2026-08-17 04:42:42] niyomiyabarta: 820/43723 articles this run, ~1855504 words total so far, 46714 non-Assamese lines dropped so far
+- [2026-08-17 04:43:20] niyomiyabarta: 840/43723 articles this run, ~1860908 words total so far, 46882 non-Assamese lines dropped so far
+- [2026-08-17 04:43:58] niyomiyabarta: 860/43723 articles this run, ~1867161 words total so far, 47012 non-Assamese lines dropped so far
+- [2026-08-17 06:42:26] asomiyapratidin: discovery found 158 items, 0 new
+- [2026-08-17 06:42:26] DONE asomiyapratidin: 0 new articles, 158 total ever, ~40264 words total
+- [2026-08-17 06:46:56] niyomiyabarta: discovery found 50000 items, 42859 new
+- [2026-08-17 06:47:34] niyomiyabarta: 20/42859 articles this run, ~1875878 words total so far, 47178 non-Assamese lines dropped so far
+- [2026-08-17 06:48:12] niyomiyabarta: 40/42859 articles this run, ~1881478 words total so far, 47312 non-Assamese lines dropped so far
+- [2026-08-17 06:48:51] niyomiyabarta: 60/42859 articles this run, ~1885993 words total so far, 47448 non-Assamese lines dropped so far
+- [2026-08-17 06:49:28] niyomiyabarta: 80/42859 articles this run, ~1892230 words total so far, 47584 non-Assamese lines dropped so far
+- [2026-08-17 06:50:06] niyomiyabarta: 100/42859 articles this run, ~1897401 words total so far, 47721 non-Assamese lines dropped so far
+- [2026-08-17 06:50:44] niyomiyabarta: 120/42859 articles this run, ~1902984 words total so far, 47860 non-Assamese lines dropped so far
+- [2026-08-17 06:51:22] niyomiyabarta: 140/42859 articles this run, ~1907720 words total so far, 47995 non-Assamese lines dropped so far
+- [2026-08-17 06:52:00] niyomiyabarta: 160/42859 articles this run, ~1914224 words total so far, 48131 non-Assamese lines dropped so far
+- [2026-08-17 06:52:38] niyomiyabarta: 180/42859 articles this run, ~1918492 words total so far, 48266 non-Assamese lines dropped so far
+- [2026-08-17 06:53:15] niyomiyabarta: 200/42859 articles this run, ~1924454 words total so far, 48462 non-Assamese lines dropped so far
+- [2026-08-17 06:53:53] niyomiyabarta: 220/42859 articles this run, ~1930358 words total so far, 48612 non-Assamese lines dropped so far
+- [2026-08-17 06:54:31] niyomiyabarta: 240/42859 articles this run, ~1935613 words total so far, 48749 non-Assamese lines dropped so far
+- [2026-08-17 06:55:09] niyomiyabarta: 260/42859 articles this run, ~1941033 words total so far, 48894 non-Assamese lines dropped so far
+- [2026-08-17 06:55:47] niyomiyabarta: 280/42859 articles this run, ~1946536 words total so far, 49054 non-Assamese lines dropped so far
+- [2026-08-17 06:56:25] niyomiyabarta: 300/42859 articles this run, ~1951581 words total so far, 49209 non-Assamese lines dropped so far
+- [2026-08-17 06:57:03] niyomiyabarta: 320/42859 articles this run, ~1957370 words total so far, 49347 non-Assamese lines dropped so far
+- [2026-08-17 06:57:41] niyomiyabarta: 340/42859 articles this run, ~1962854 words total so far, 49481 non-Assamese lines dropped so far
+- [2026-08-17 06:58:19] niyomiyabarta: 360/42859 articles this run, ~1969597 words total so far, 49613 non-Assamese lines dropped so far
+- [2026-08-17 06:58:56] niyomiyabarta: 380/42859 articles this run, ~1975810 words total so far, 49737 non-Assamese lines dropped so far
+- [2026-08-17 06:59:34] niyomiyabarta: 400/42859 articles this run, ~1981260 words total so far, 49860 non-Assamese lines dropped so far
+- [2026-08-17 07:00:12] niyomiyabarta: 420/42859 articles this run, ~1986612 words total so far, 50035 non-Assamese lines dropped so far
+- [2026-08-17 07:00:50] niyomiyabarta: 440/42859 articles this run, ~1991796 words total so far, 50164 non-Assamese lines dropped so far
+- [2026-08-17 07:01:28] niyomiyabarta: 460/42859 articles this run, ~1999350 words total so far, 50306 non-Assamese lines dropped so far
+- [2026-08-17 07:02:06] niyomiyabarta: 480/42859 articles this run, ~2007833 words total so far, 50435 non-Assamese lines dropped so far
+- [2026-08-17 07:02:44] niyomiyabarta: 500/42859 articles this run, ~2012594 words total so far, 50608 non-Assamese lines dropped so far
+- [2026-08-17 07:03:22] niyomiyabarta: 520/42859 articles this run, ~2019401 words total so far, 50758 non-Assamese lines dropped so far
+- [2026-08-17 07:04:00] niyomiyabarta: 540/42859 articles this run, ~2026424 words total so far, 50963 non-Assamese lines dropped so far
+- [2026-08-17 07:04:37] niyomiyabarta: 560/42859 articles this run, ~2032338 words total so far, 51089 non-Assamese lines dropped so far
+- [2026-08-17 07:05:15] niyomiyabarta: 580/42859 articles this run, ~2038515 words total so far, 51254 non-Assamese lines dropped so far
+- [2026-08-17 07:05:54] niyomiyabarta: 600/42859 articles this run, ~2047023 words total so far, 51391 non-Assamese lines dropped so far
+- [2026-08-17 07:06:32] niyomiyabarta: 620/42859 articles this run, ~2052408 words total so far, 51533 non-Assamese lines dropped so far
+- [2026-08-17 07:07:10] niyomiyabarta: 640/42859 articles this run, ~2059586 words total so far, 51669 non-Assamese lines dropped so far
+- [2026-08-17 07:07:48] niyomiyabarta: 660/42859 articles this run, ~2066486 words total so far, 51819 non-Assamese lines dropped so far
+- [2026-08-17 07:08:25] niyomiyabarta: 680/42859 articles this run, ~2072371 words total so far, 51954 non-Assamese lines dropped so far
+- [2026-08-17 07:09:03] niyomiyabarta: 700/42859 articles this run, ~2076950 words total so far, 52082 non-Assamese lines dropped so far
+- [2026-08-17 07:09:41] niyomiyabarta: 720/42859 articles this run, ~2083898 words total so far, 52215 non-Assamese lines dropped so far
+- [2026-08-17 07:10:19] niyomiyabarta: 740/42859 articles this run, ~2089195 words total so far, 52348 non-Assamese lines dropped so far
+- [2026-08-17 07:10:57] niyomiyabarta: 760/42859 articles this run, ~2093309 words total so far, 52480 non-Assamese lines dropped so far
+- [2026-08-17 07:11:35] niyomiyabarta: 780/42859 articles this run, ~2100144 words total so far, 52609 non-Assamese lines dropped so far
+- [2026-08-17 07:12:13] niyomiyabarta: 800/42859 articles this run, ~2104899 words total so far, 52778 non-Assamese lines dropped so far
+- [2026-08-17 07:12:51] niyomiyabarta: 820/42859 articles this run, ~2110178 words total so far, 52910 non-Assamese lines dropped so far
+- [2026-08-17 07:13:29] niyomiyabarta: 840/42859 articles this run, ~2115349 words total so far, 53111 non-Assamese lines dropped so far
+- [2026-08-17 07:14:07] niyomiyabarta: 860/42859 articles this run, ~2119623 words total so far, 53243 non-Assamese lines dropped so far
+- [2026-08-17 07:14:45] niyomiyabarta: 880/42859 articles this run, ~2125489 words total so far, 53382 non-Assamese lines dropped so far
+- [2026-08-17 07:15:23] niyomiyabarta: 900/42859 articles this run, ~2130519 words total so far, 53525 non-Assamese lines dropped so far
+- [2026-08-17 07:16:00] niyomiyabarta: 920/42859 articles this run, ~2135590 words total so far, 53667 non-Assamese lines dropped so far
+- [2026-08-17 07:16:38] niyomiyabarta: 940/42859 articles this run, ~2140252 words total so far, 53804 non-Assamese lines dropped so far
+- [2026-08-17 07:17:16] niyomiyabarta: 960/42859 articles this run, ~2145359 words total so far, 53933 non-Assamese lines dropped so far
+- [2026-08-17 07:17:54] niyomiyabarta: 980/42859 articles this run, ~2150385 words total so far, 54053 non-Assamese lines dropped so far
+- [2026-08-17 07:18:34] niyomiyabarta: 1000/42859 articles this run, ~2154801 words total so far, 54176 non-Assamese lines dropped so far
+- [2026-08-17 07:19:12] niyomiyabarta: 1020/42859 articles this run, ~2160985 words total so far, 54309 non-Assamese lines dropped so far
+- [2026-08-17 07:19:51] niyomiyabarta: 1040/42859 articles this run, ~2166414 words total so far, 54434 non-Assamese lines dropped so far
+- [2026-08-17 07:20:28] niyomiyabarta: 1060/42859 articles this run, ~2170903 words total so far, 54549 non-Assamese lines dropped so far
+- [2026-08-17 07:21:06] niyomiyabarta: 1080/42859 articles this run, ~2177284 words total so far, 54668 non-Assamese lines dropped so far
+- [2026-08-17 07:21:44] niyomiyabarta: 1100/42859 articles this run, ~2184225 words total so far, 54786 non-Assamese lines dropped so far
+- [2026-08-17 07:22:22] niyomiyabarta: 1120/42859 articles this run, ~2189868 words total so far, 54908 non-Assamese lines dropped so far
+- [2026-08-17 07:22:59] niyomiyabarta: 1140/42859 articles this run, ~2197397 words total so far, 55031 non-Assamese lines dropped so far
+- [2026-08-17 07:23:37] niyomiyabarta: 1160/42859 articles this run, ~2202945 words total so far, 55151 non-Assamese lines dropped so far
+- [2026-08-17 07:24:15] niyomiyabarta: 1180/42859 articles this run, ~2209822 words total so far, 55277 non-Assamese lines dropped so far
+- [2026-08-17 07:24:53] niyomiyabarta: 1200/42859 articles this run, ~2216253 words total so far, 55396 non-Assamese lines dropped so far
+- [2026-08-17 07:25:31] niyomiyabarta: 1220/42859 articles this run, ~2225679 words total so far, 55518 non-Assamese lines dropped so far
+- [2026-08-17 07:26:10] niyomiyabarta: 1240/42859 articles this run, ~2231139 words total so far, 55640 non-Assamese lines dropped so far
+- [2026-08-17 07:26:48] niyomiyabarta: 1260/42859 articles this run, ~2236699 words total so far, 55769 non-Assamese lines dropped so far
+- [2026-08-17 07:27:26] niyomiyabarta: 1280/42859 articles this run, ~2244218 words total so far, 55890 non-Assamese lines dropped so far
+- [2026-08-17 07:28:03] niyomiyabarta: 1300/42859 articles this run, ~2253116 words total so far, 56014 non-Assamese lines dropped so far
+- [2026-08-17 07:28:41] niyomiyabarta: 1320/42859 articles this run, ~2259674 words total so far, 56139 non-Assamese lines dropped so far
+- [2026-08-17 07:29:19] niyomiyabarta: 1340/42859 articles this run, ~2267146 words total so far, 56269 non-Assamese lines dropped so far
+- [2026-08-17 07:29:57] niyomiyabarta: 1360/42859 articles this run, ~2271741 words total so far, 56395 non-Assamese lines dropped so far
+- [2026-08-17 07:30:35] niyomiyabarta: 1380/42859 articles this run, ~2278530 words total so far, 56527 non-Assamese lines dropped so far
+- [2026-08-17 07:31:13] niyomiyabarta: 1400/42859 articles this run, ~2286003 words total so far, 56684 non-Assamese lines dropped so far
+- [2026-08-17 07:31:51] niyomiyabarta: 1420/42859 articles this run, ~2292902 words total so far, 56810 non-Assamese lines dropped so far
+- [2026-08-17 07:32:29] niyomiyabarta: 1440/42859 articles this run, ~2299127 words total so far, 56931 non-Assamese lines dropped so far
+- [2026-08-17 07:33:07] niyomiyabarta: 1460/42859 articles this run, ~2303885 words total so far, 57068 non-Assamese lines dropped so far
+- [2026-08-17 07:33:44] niyomiyabarta: 1480/42859 articles this run, ~2310956 words total so far, 57189 non-Assamese lines dropped so far
+- [2026-08-17 07:34:22] niyomiyabarta: 1500/42859 articles this run, ~2314899 words total so far, 57324 non-Assamese lines dropped so far
+- [2026-08-17 07:35:00] niyomiyabarta: 1520/42859 articles this run, ~2322017 words total so far, 57446 non-Assamese lines dropped so far
+- [2026-08-17 07:35:38] niyomiyabarta: 1540/42859 articles this run, ~2327678 words total so far, 57589 non-Assamese lines dropped so far
+- [2026-08-17 07:36:16] niyomiyabarta: 1560/42859 articles this run, ~2333328 words total so far, 57722 non-Assamese lines dropped so far
+- [2026-08-17 07:36:53] niyomiyabarta: 1580/42859 articles this run, ~2337622 words total so far, 57853 non-Assamese lines dropped so far
+- [2026-08-17 07:37:31] niyomiyabarta: 1600/42859 articles this run, ~2342563 words total so far, 57986 non-Assamese lines dropped so far
+- [2026-08-17 07:38:09] niyomiyabarta: 1620/42859 articles this run, ~2349089 words total so far, 58110 non-Assamese lines dropped so far
+- [2026-08-17 07:38:47] niyomiyabarta: 1640/42859 articles this run, ~2353386 words total so far, 58245 non-Assamese lines dropped so far
+- [2026-08-17 07:39:25] niyomiyabarta: 1660/42859 articles this run, ~2358411 words total so far, 58379 non-Assamese lines dropped so far
+- [2026-08-17 07:40:02] niyomiyabarta: 1680/42859 articles this run, ~2363771 words total so far, 58499 non-Assamese lines dropped so far
+- [2026-08-17 07:40:40] niyomiyabarta: 1700/42859 articles this run, ~2368798 words total so far, 58623 non-Assamese lines dropped so far
+- [2026-08-17 08:26:56] asomiyapratidin: discovery found 158 items, 0 new
+- [2026-08-17 08:26:56] DONE asomiyapratidin: 0 new articles, 158 total ever, ~40264 words total
+- [2026-08-17 08:32:00] niyomiyabarta: discovery found 50000 items, 41157 new
+- [2026-08-17 08:32:38] niyomiyabarta: 20/41157 articles this run, ~2375353 words total so far, 58767 non-Assamese lines dropped so far
+- [2026-08-17 08:33:16] niyomiyabarta: 40/41157 articles this run, ~2379391 words total so far, 58903 non-Assamese lines dropped so far
+- [2026-08-17 08:33:53] niyomiyabarta: 60/41157 articles this run, ~2383675 words total so far, 59028 non-Assamese lines dropped so far
+- [2026-08-17 08:34:31] niyomiyabarta: 80/41157 articles this run, ~2391047 words total so far, 59161 non-Assamese lines dropped so far
+- [2026-08-17 08:35:09] niyomiyabarta: 100/41157 articles this run, ~2397404 words total so far, 59289 non-Assamese lines dropped so far
+- [2026-08-17 08:35:47] niyomiyabarta: 120/41157 articles this run, ~2402077 words total so far, 59406 non-Assamese lines dropped so far
+- [2026-08-17 08:36:27] niyomiyabarta: 140/41157 articles this run, ~2406726 words total so far, 59526 non-Assamese lines dropped so far
+- [2026-08-17 08:37:05] niyomiyabarta: 160/41157 articles this run, ~2412196 words total so far, 59657 non-Assamese lines dropped so far
+- [2026-08-17 08:37:42] niyomiyabarta: 180/41157 articles this run, ~2416752 words total so far, 59786 non-Assamese lines dropped so far
+- [2026-08-17 08:38:20] niyomiyabarta: 200/41157 articles this run, ~2421339 words total so far, 59915 non-Assamese lines dropped so far
+- [2026-08-17 08:39:03] niyomiyabarta: 220/41157 articles this run, ~2425123 words total so far, 60037 non-Assamese lines dropped so far
+- [2026-08-17 08:39:40] niyomiyabarta: 240/41157 articles this run, ~2430180 words total so far, 60164 non-Assamese lines dropped so far
+- [2026-08-17 08:40:18] niyomiyabarta: 260/41157 articles this run, ~2435439 words total so far, 60286 non-Assamese lines dropped so far
+- [2026-08-17 08:40:56] niyomiyabarta: 280/41157 articles this run, ~2441162 words total so far, 60406 non-Assamese lines dropped so far

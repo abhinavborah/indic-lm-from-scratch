@@ -1,0 +1,2932 @@
+- [2026-08-15 11:48:27] lhvt1ps: OCR, ~0 words
+- [2026-08-15 11:48:57] lhvt101: OCR, ~0 words
+- [2026-08-15 11:53:31] lhvt1ps: OCR, ~2368 words
+- [2026-08-15 11:58:43] lhvt1ps: OCR, ~2368 words
+- [2026-08-15 11:59:53] lhvt101: OCR, ~6728 words
+- [2026-08-15 12:59:53] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books
+- [2026-08-15 13:00:02] progress: 10/1617 codes attempted, 0 extracted so far
+- [2026-08-15 13:01:32] fhcu1ps: pdftotext, ~5127 words
+- [2026-08-15 13:02:31] fhcu101: pdftotext, ~1865 words
+- [2026-08-15 13:09:00] fhcu104: pdftotext, ~4088 words
+- [2026-08-15 13:13:37] fhcu106: pdftotext, ~5402 words
+- [2026-08-15 13:13:37] progress: 20/1617 codes attempted, 4 extracted so far
+- [2026-08-15 13:16:04] fhcu107: pdftotext, ~4485 words
+- [2026-08-15 13:28:24] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (27 already resolved from prior batches)
+- [2026-08-15 13:30:26] fhcu112: pdftotext, ~6148 words
+- [2026-08-15 13:30:30] batch progress: 10 new codes attempted (1 extracted, 6148 words) this batch
+- [2026-08-15 13:30:35] batch progress: 20 new codes attempted (1 extracted, 6148 words) this batch
+- [2026-08-15 13:30:41] batch progress: 30 new codes attempted (1 extracted, 6148 words) this batch
+- [2026-08-15 13:30:47] batch progress: 40 new codes attempted (1 extracted, 6148 words) this batch
+- [2026-08-15 13:35:28] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (67 already resolved from prior batches)
+- [2026-08-15 13:35:52] fhes102: pdftotext, ~3072 words
+- [2026-08-15 13:35:57] fhes105: pdftotext, ~2074 words
+- [2026-08-15 13:36:22] fhes104: pdftotext, ~3803 words
+- [2026-08-15 13:36:42] fhes101: pdftotext, ~6492 words
+- [2026-08-15 13:36:49] fhes103: pdftotext, ~4068 words
+- [2026-08-15 13:37:11] fhes108: pdftotext, ~2759 words
+- [2026-08-15 13:37:26] fhes110: pdftotext, ~3341 words
+- [2026-08-15 13:37:34] fhes107: pdftotext, ~5387 words
+- [2026-08-15 13:37:51] fhes106: pdftotext, ~4197 words
+- [2026-08-15 13:37:57] fhes111: pdftotext, ~2283 words
+- [2026-08-15 13:37:57] batch progress: 10 new codes attempted (10 extracted, 37476 words) this batch
+- [2026-08-15 13:38:15] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (77 already resolved from prior batches)
+- [2026-08-15 13:39:14] fhes112: pdftotext, ~2070 words
+- [2026-08-15 13:39:14] fhgp1ps: pdftotext, ~5635 words
+- [2026-08-15 13:39:17] fhes113: pdftotext, ~2122 words
+- [2026-08-15 13:39:37] fhes114: pdftotext, ~2774 words
+- [2026-08-15 13:39:38] fhgp101: pdftotext, ~2529 words
+- [2026-08-15 13:40:12] fhgp103: pdftotext, ~4455 words
+- [2026-08-15 13:40:18] fhes109: pdftotext, ~2792 words
+- [2026-08-15 13:40:23] fhgp105: pdftotext, ~6721 words
+- [2026-08-15 13:40:25] Starting 3 concurrent source workers: ['jagran', 'amarujala', 'hi_wikipedia']
+- [2026-08-15 13:40:27] jagran: discovery found 129 URLs, 129 new
+- [2026-08-15 13:40:27] amarujala: discovery found 783 URLs, 783 new
+- [2026-08-15 13:40:33] hi_wikipedia: discovery found 2000 URLs, 2000 new
+- [2026-08-15 13:40:36] jagran: batch done -- 3 new articles, ~54 words, 9s, ~54 words total ever
+- [2026-08-15 13:40:39] hi_wikipedia: batch done -- 3 new articles, ~520 words, 6s, ~520 words total ever
+- [2026-08-15 13:41:10] fhgp106: pdftotext, ~4555 words
+- [2026-08-15 13:41:23] fhgp108: pdftotext, ~4982 words
+- [2026-08-15 13:41:23] batch progress: 10 new codes attempted (10 extracted, 38635 words) this batch
+- [2026-08-15 13:42:04] fhgp104: pdftotext, ~7002 words
+- [2026-08-15 13:42:05] fhgp107: pdftotext, ~6879 words
+- [2026-08-15 13:42:26] fhgp102: pdftotext, ~6974 words
+- [2026-08-15 13:42:28] amarujala: batch done -- 0 new articles, ~0 words, 121s, ~0 words total ever
+- [2026-08-15 13:42:28] RUN COMPLETE: 3 sources, 6 new articles, 574 words, 123s elapsed, ~16849 words/hour aggregate throughput
+- [2026-08-15 13:42:28]   jagran: 3 articles, 54 words, 9s
+- [2026-08-15 13:42:28]   amarujala: 0 articles, 0 words, 121s
+- [2026-08-15 13:42:28]   hi_wikipedia: 3 articles, 520 words, 6s
+- [2026-08-15 13:43:16] fhgp110: pdftotext, ~7900 words
+- [2026-08-15 13:43:23] fhkb102: pdftotext, ~4920 words
+- [2026-08-15 13:43:34] fhgp109: pdftotext, ~4302 words
+- [2026-08-15 13:43:34] fhkb1ps: pdftotext, ~7034 words
+- [2026-08-15 13:43:42] fhkb101: pdftotext, ~6172 words
+- [2026-08-15 13:43:57] fhkr1ps: pdftotext, ~4183 words
+- [2026-08-15 13:43:57] batch progress: 20 new codes attempted (19 extracted, 94001 words) this batch
+- [2026-08-15 13:44:27] fhes1ps: pdftotext, ~4235 words
+- [2026-08-15 13:44:27] fhkb105: pdftotext, ~4377 words
+- [2026-08-15 13:44:32] fhkr101: pdftotext, ~2066 words
+- [2026-08-15 13:44:44] fhkr103: pdftotext, ~1080 words
+- [2026-08-15 13:44:45] fhkr104: pdftotext, ~660 words
+- [2026-08-15 13:44:47] fhkr105: pdftotext, ~1220 words
+- [2026-08-15 13:45:04] fhkr107: pdftotext, ~1184 words
+- [2026-08-15 13:45:07] fhkr106: pdftotext, ~3348 words
+- [2026-08-15 13:45:09] fhkb106: pdftotext, ~5163 words
+- [2026-08-15 13:45:16] fhkr110: pdftotext, ~1089 words
+- [2026-08-15 13:45:16] batch progress: 30 new codes attempted (29 extracted, 118423 words) this batch
+- [2026-08-15 13:45:20] fhkr111: pdftotext, ~601 words
+- [2026-08-15 13:45:32] fhkr108: pdftotext, ~3012 words
+- [2026-08-15 13:45:40] fhkr109: pdftotext, ~1987 words
+- [2026-08-15 13:45:42] fhkb103: pdftotext, ~4648 words
+- [2026-08-15 13:45:45] fhkr102: pdftotext, ~1938 words
+- [2026-08-15 13:45:51] fhkr114: pdftotext, ~1159 words
+- [2026-08-15 13:45:58] fhkr113: pdftotext, ~864 words
+- [2026-08-15 13:46:12] fhkr118: pdftotext, ~934 words
+- [2026-08-15 13:46:17] fhkr120: pdftotext, ~650 words
+- [2026-08-15 13:46:31] fhkr115: pdftotext, ~1165 words
+- [2026-08-15 13:46:31] batch progress: 40 new codes attempted (39 extracted, 135381 words) this batch
+- [2026-08-15 13:46:33] fhkr117: pdftotext, ~3767 words
+- [2026-08-15 13:46:34] fhkr121: pdftotext, ~1320 words
+- [2026-08-15 13:46:46] fhkr116: pdftotext, ~4138 words
+- [2026-08-15 13:46:51] fhkr112: pdftotext, ~1879 words
+- [2026-08-15 13:46:52] fhkr122: pdftotext, ~2706 words
+- [2026-08-15 13:47:02] fhkr119: pdftotext, ~2244 words
+- [2026-08-15 13:47:51] fhky1ps: pdftotext, ~3944 words
+- [2026-08-15 13:49:40] fhky101: OCR, ~1617 words
+- [2026-08-15 13:50:40] fhml1ps: pdftotext, ~4762 words
+- [2026-08-15 13:50:47] fhml101: pdftotext, ~1688 words
+- [2026-08-15 13:50:47] batch progress: 50 new codes attempted (49 extracted, 163446 words) this batch
+- [2026-08-15 13:51:42] fhml102: pdftotext, ~2775 words
+- [2026-08-15 13:51:46] fhml103: pdftotext, ~1114 words
+- [2026-08-15 13:52:46] fhky102: OCR, ~3386 words
+- [2026-08-15 13:52:46] fhml105: pdftotext, ~1194 words
+- [2026-08-15 13:52:46] fhml104: pdftotext, ~2404 words
+- [2026-08-15 13:53:25] fhml106: pdftotext, ~2198 words
+- [2026-08-15 13:53:50] fhml107: pdftotext, ~2340 words
+- [2026-08-15 13:54:19] fhml109: pdftotext, ~1872 words
+- [2026-08-15 13:55:11] fhky103: OCR, ~4019 words
+- [2026-08-15 13:55:11] fhml111: pdftotext, ~1041 words
+- [2026-08-15 13:55:11] batch progress: 60 new codes attempted (59 extracted, 185789 words) this batch
+- [2026-08-15 13:55:11] fhml108: pdftotext, ~4144 words
+- [2026-08-15 13:55:16] batch progress: 70 new codes attempted (60 extracted, 189933 words) this batch
+- [2026-08-15 13:55:20] batch progress: 80 new codes attempted (60 extracted, 189933 words) this batch
+- [2026-08-15 13:55:26] batch progress: 90 new codes attempted (60 extracted, 189933 words) this batch
+- [2026-08-15 13:56:08] fhky104: OCR, ~3687 words
+- [2026-08-15 13:56:09] fhml110: pdftotext, ~3384 words
+- [2026-08-15 13:56:12] batch progress: 100 new codes attempted (62 extracted, 197004 words) this batch
+- [2026-08-15 13:56:16] batch progress: 110 new codes attempted (62 extracted, 197004 words) this batch
+- [2026-08-15 13:56:29] fhml113: pdftotext, ~4279 words
+- [2026-08-15 13:57:04] ghcu101: pdftotext, ~2014 words
+- [2026-08-15 13:57:09] fhml112: pdftotext, ~3861 words
+- [2026-08-15 13:57:09] batch progress: 120 new codes attempted (65 extracted, 207158 words) this batch
+- [2026-08-15 13:58:03] ghcu102: pdftotext, ~4912 words
+- [2026-08-15 13:58:21] ghcu1ps: pdftotext, ~4710 words
+- [2026-08-15 13:59:13] ghcu103: pdftotext, ~5464 words
+- [2026-08-15 13:59:37] ghcu104: pdftotext, ~5426 words
+- [2026-08-15 13:59:41] ghcu106: pdftotext, ~5054 words
+- [2026-08-15 13:59:41] ghcu105: pdftotext, ~4817 words
+- [2026-08-15 14:00:09] ghcu107: pdftotext, ~5587 words
+- [2026-08-15 14:01:02] ghcu108: pdftotext, ~5638 words
+- [2026-08-15 14:02:56] fhky105: OCR, ~12451 words
+- [2026-08-15 14:02:56] ghcu110: pdftotext, ~5515 words
+- [2026-08-15 14:02:56] batch progress: 130 new codes attempted (75 extracted, 266732 words) this batch
+- [2026-08-15 14:02:56] ghcu109: pdftotext, ~6366 words
+- [2026-08-15 14:02:56] ghcu111: pdftotext, ~5325 words
+- [2026-08-15 14:02:56] ghcu112: pdftotext, ~6945 words
+- [2026-08-15 14:05:02] ghes104: pdftotext, ~3588 words
+- [2026-08-15 14:05:10] ghes102: pdftotext, ~4387 words
+- [2026-08-15 14:05:54] ghes101: pdftotext, ~5641 words
+- [2026-08-15 14:07:02] ghes105: pdftotext, ~8285 words
+- [2026-08-15 14:07:48] ghes103: pdftotext, ~5832 words
+- [2026-08-15 14:08:11] ghes1ps: pdftotext, ~4615 words
+- [2026-08-15 14:08:51] ghes108: pdftotext, ~4953 words
+- [2026-08-15 14:08:51] batch progress: 140 new codes attempted (85 extracted, 322669 words) this batch
+- [2026-08-15 14:08:57] ghes109: pdftotext, ~6722 words
+- [2026-08-15 14:09:18] ghes107: pdftotext, ~5549 words
+- [2026-08-15 14:09:41] ghes111: pdftotext, ~4367 words
+- [2026-08-15 14:09:43] ghes106: pdftotext, ~6102 words
+- [2026-08-15 14:11:23] ghes201: pdftotext, ~8236 words
+- [2026-08-15 14:12:48] ghes202: pdftotext, ~8792 words
+- [2026-08-15 14:13:28] ghes112: pdftotext, ~6203 words
+- [2026-08-15 14:13:29] ghes203: pdftotext, ~11203 words
+- [2026-08-15 14:14:08] ghes2ps: pdftotext, ~3066 words
+- [2026-08-15 14:14:44] ghes205: pdftotext, ~4961 words
+- [2026-08-15 14:14:44] batch progress: 150 new codes attempted (95 extracted, 387870 words) this batch
+- [2026-08-15 14:15:01] ghes204: pdftotext, ~8666 words
+- [2026-08-15 14:15:07] ghes206: pdftotext, ~7812 words
+- [2026-08-15 14:15:10] ghes208: pdftotext, ~5976 words
+- [2026-08-15 14:16:25] ghes207: pdftotext, ~5779 words
+- [2026-08-15 14:16:26] ghes110: pdftotext, ~4917 words
+- [2026-08-15 14:16:31] ghgp1ps: pdftotext, ~5115 words
+- [2026-08-15 14:16:33] ghgp102: pdftotext, ~6196 words
+- [2026-08-15 14:17:27] ghgp105: pdftotext, ~4592 words
+- [2026-08-15 14:17:42] ghgp104: pdftotext, ~6880 words
+- [2026-08-15 14:18:11] ghgp101: pdftotext, ~5776 words
+- [2026-08-15 14:18:11] batch progress: 160 new codes attempted (105 extracted, 449579 words) this batch
+- [2026-08-15 14:18:29] ghgp107: pdftotext, ~7008 words
+- [2026-08-15 14:19:30] ghgp106: pdftotext, ~6167 words
+- [2026-08-15 14:19:36] ghkb101: pdftotext, ~5285 words
+- [2026-08-15 14:19:49] ghkb1ps: pdftotext, ~6427 words
+- [2026-08-15 14:20:25] ghkb102: pdftotext, ~6493 words
+- [2026-08-15 14:20:51] ghgp103: pdftotext, ~6869 words
+- [2026-08-15 14:21:09] ghgp108: pdftotext, ~6359 words
+- [2026-08-15 14:21:30] ghkb104: pdftotext, ~5995 words
+- [2026-08-15 14:21:57] ghkb106: pdftotext, ~5814 words
+- [2026-08-15 14:22:25] ghkb105: pdftotext, ~6945 words
+- [2026-08-15 14:22:25] batch progress: 170 new codes attempted (115 extracted, 512941 words) this batch
+- [2026-08-15 14:22:36] ghkb103: pdftotext, ~7280 words
+- [2026-08-15 14:23:29] ghkb107: pdftotext, ~8828 words
+- [2026-08-15 14:23:59] ghkr102: pdftotext, ~2200 words
+- [2026-08-15 14:25:00] ghkr104: pdftotext, ~1866 words
+- [2026-08-15 14:26:00] ghkr105: pdftotext, ~2372 words
+- [2026-08-15 14:26:01] ghkr106: pdftotext, ~1583 words
+- [2026-08-15 14:26:32] ghkr103: pdftotext, ~4459 words
+- [2026-08-15 14:26:55] ghkr1ps: pdftotext, ~5570 words
+- [2026-08-15 14:27:09] ghkr101: pdftotext, ~4992 words
+- [2026-08-15 14:27:25] ghkr109: pdftotext, ~1487 words
+- [2026-08-15 14:27:25] batch progress: 180 new codes attempted (125 extracted, 553578 words) this batch
+- [2026-08-15 14:27:40] ghkr107: pdftotext, ~2861 words
+- [2026-08-15 14:28:22] ghkr108: pdftotext, ~2462 words
+- [2026-08-15 14:28:24] ghkr113: pdftotext, ~485 words
+- [2026-08-15 14:28:41] ghkr112: pdftotext, ~1603 words
+- [2026-08-15 14:29:21] ghkr111: pdftotext, ~2280 words
+- [2026-08-15 14:29:44] ghkr114: pdftotext, ~1656 words
+- [2026-08-15 14:29:55] ghkr110: pdftotext, ~2176 words
+- [2026-08-15 14:30:10] ghkr116: pdftotext, ~2101 words
+- [2026-08-15 14:30:35] ghkr117: pdftotext, ~1807 words
+- [2026-08-15 14:31:32] ghkr115: pdftotext, ~2938 words
+- [2026-08-15 14:31:32] batch progress: 190 new codes attempted (135 extracted, 573947 words) this batch
+- [2026-08-15 14:31:49] ghkr120: pdftotext, ~879 words
+- [2026-08-15 14:31:53] ghkr119: pdftotext, ~1740 words
+- [2026-08-15 14:32:04] ghkr118: pdftotext, ~1314 words
+- [2026-08-15 14:34:26] ghky1ps: pdftotext, ~4235 words
+- [2026-08-15 14:40:25] ghml1ps: pdftotext, ~5301 words
+- [2026-08-15 14:40:51] BATCH COMPLETE: 196 new codes attempted this batch (140 extracted, 587416 words), 3756s elapsed. Overall: 273/1617 codes resolved so far.
+- [2026-08-16 12:28:11] Starting 1 concurrent source workers: ['hi_wikipedia']
+- [2026-08-16 12:28:37] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:28:37] hi_wikipedia: discovery attempt 1/3 failed, retrying
+- [2026-08-16 12:28:50] hi_wikipedia: discovery found 2000 URLs, 1997 new
+- [2026-08-16 12:29:45] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:30:09] hi_wikipedia: 20/1997 articles this batch, ~1942 words this batch (~2462 total ever)
+- [2026-08-16 12:30:43] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:31:10] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:31:56] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:32:12] hi_wikipedia: 40/1997 articles this batch, ~3310 words this batch (~3830 total ever)
+- [2026-08-16 12:32:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:33:44] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:34:11] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:34:22] hi_wikipedia: 60/1997 articles this batch, ~5911 words this batch (~6431 total ever)
+- [2026-08-16 12:34:56] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:35:00] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (273 already resolved from prior batches)
+- [2026-08-16 12:35:22] ghml102: pdftotext, ~4413 words
+- [2026-08-16 12:35:39] ghml101: pdftotext, ~2470 words
+- [2026-08-16 12:35:42] ghml103: pdftotext, ~2615 words
+- [2026-08-16 12:35:49] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:35:52] ghml105: pdftotext, ~4301 words
+- [2026-08-16 12:35:54] ghml104: pdftotext, ~4128 words
+- [2026-08-16 12:35:59] ghml106: pdftotext, ~2669 words
+- [2026-08-16 12:36:07] ghml107: pdftotext, ~2581 words
+- [2026-08-16 12:36:13] hi_wikipedia: 80/1997 articles this batch, ~6613 words this batch (~7133 total ever)
+- [2026-08-16 12:36:19] ghky106: pdftotext, ~18239 words
+- [2026-08-16 12:36:21] ghml108: pdftotext, ~5229 words
+- [2026-08-16 12:36:21] batch progress: 10 new codes attempted (9 extracted, 46645 words) this batch
+- [2026-08-16 12:36:41] hhbk1ps: OCR, ~2560 words
+- [2026-08-16 12:36:41] ghml110: pdftotext, ~5277 words
+- [2026-08-16 12:36:47] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:37:04] hhbk102: OCR, ~4341 words
+- [2026-08-16 12:37:04] ghml109: pdftotext, ~2514 words
+- [2026-08-16 12:37:07] hhbk101: OCR, ~665 words
+- [2026-08-16 12:37:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:37:47] hhbk104: OCR, ~7676 words
+- [2026-08-16 12:38:09] hi_wikipedia: 100/1997 articles this batch, ~6999 words this batch (~7519 total ever)
+- [2026-08-16 12:38:19] hhbk105: OCR, ~6068 words
+- [2026-08-16 12:38:42] hhbk106: OCR, ~4606 words
+- [2026-08-16 12:38:43] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:38:56] hhbk107: OCR, ~2624 words
+- [2026-08-16 12:38:59] hhbk108: OCR, ~336 words
+- [2026-08-16 12:38:59] batch progress: 20 new codes attempted (19 extracted, 83312 words) this batch
+- [2026-08-16 12:39:07] hhbk109: OCR, ~1610 words
+- [2026-08-16 12:39:08] hhcu1ps: pdftotext, ~5378 words
+- [2026-08-16 12:39:10] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:39:53] hhbk103: OCR, ~8746 words
+- [2026-08-16 12:39:53] hhcu101: pdftotext, ~2612 words
+- [2026-08-16 12:39:55] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:39:56] ghky101: pdftotext, ~3203 words
+- [2026-08-16 12:39:56] hhcu102: pdftotext, ~7671 words
+- [2026-08-16 12:39:59] hhcu104: pdftotext, ~5840 words
+- [2026-08-16 12:40:00] hhcu105: pdftotext, ~6847 words
+- [2026-08-16 12:40:06] hhcu108: pdftotext, ~6212 words
+- [2026-08-16 12:40:09] hhcu107: pdftotext, ~5877 words
+- [2026-08-16 12:40:09] batch progress: 30 new codes attempted (29 extracted, 137308 words) this batch
+- [2026-08-16 12:40:09] hhcu103: pdftotext, ~6534 words
+- [2026-08-16 12:40:10] hhcu109: pdftotext, ~6386 words
+- [2026-08-16 12:40:11] hi_wikipedia: 120/1997 articles this batch, ~7285 words this batch (~7805 total ever)
+- [2026-08-16 12:40:12] hhcu106: pdftotext, ~6693 words
+- [2026-08-16 12:40:16] hhcu111: pdftotext, ~8252 words
+- [2026-08-16 12:40:18] hhcu110: pdftotext, ~6164 words
+- [2026-08-16 12:40:35] hhdv1ps: OCR, ~2103 words
+- [2026-08-16 12:40:35] hhcu112: pdftotext, ~7378 words
+- [2026-08-16 12:40:35] hhcu113: pdftotext, ~8299 words
+- [2026-08-16 12:40:43] hhdv101: OCR, ~509 words
+- [2026-08-16 12:40:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:40:50] hhdv104: OCR, ~774 words
+- [2026-08-16 12:40:50] batch progress: 40 new codes attempted (39 extracted, 190400 words) this batch
+- [2026-08-16 12:41:09] hhdv102: OCR, ~2532 words
+- [2026-08-16 12:41:25] hhdv105: OCR, ~2020 words
+- [2026-08-16 12:41:38] hhdv106: OCR, ~1977 words
+- [2026-08-16 12:41:44] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:41:50] hhdv103: OCR, ~1597 words
+- [2026-08-16 12:41:54] ghky102: pdftotext, ~4060 words
+- [2026-08-16 12:42:01] hhdv107: OCR, ~732 words
+- [2026-08-16 12:42:10] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:42:17] hhdv110: OCR, ~2290 words
+- [2026-08-16 12:42:21] hi_wikipedia: 140/1997 articles this batch, ~7571 words this batch (~8091 total ever)
+- [2026-08-16 12:42:32] hhdv111: OCR, ~2388 words
+- [2026-08-16 12:42:47] hhdv113: OCR, ~1947 words
+- [2026-08-16 12:42:55] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:43:02] hhdv114: OCR, ~2007 words
+- [2026-08-16 12:43:02] batch progress: 50 new codes attempted (49 extracted, 211950 words) this batch
+- [2026-08-16 12:43:06] hhdv115: OCR, ~446 words
+- [2026-08-16 12:43:13] hhdv112: OCR, ~591 words
+- [2026-08-16 12:43:29] hhdv108: OCR, ~2151 words
+- [2026-08-16 12:43:36] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:43:41] hhdv116: OCR, ~1617 words
+- [2026-08-16 12:43:45] hhdv119: OCR, ~145 words
+- [2026-08-16 12:43:50] hhdv118: OCR, ~550 words
+- [2026-08-16 12:44:01] hhdv117: OCR, ~1334 words
+- [2026-08-16 12:44:01] batch progress: 60 new codes attempted (56 extracted, 218784 words) this batch
+- [2026-08-16 12:44:02] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:44:10] hhdv109: OCR, ~1093 words
+- [2026-08-16 12:44:14] ghky104: pdftotext, ~5356 words
+- [2026-08-16 12:44:14] batch progress: 70 new codes attempted (58 extracted, 225233 words) this batch
+- [2026-08-16 12:44:35] hhes105: pdftotext, ~5439 words
+- [2026-08-16 12:44:40] hhes101: pdftotext, ~6113 words
+- [2026-08-16 12:44:41] hhes104: pdftotext, ~9686 words
+- [2026-08-16 12:44:41] hhes103: pdftotext, ~5903 words
+- [2026-08-16 12:44:44] hhes106: pdftotext, ~6506 words
+- [2026-08-16 12:44:47] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:44:59] hhes1ps: pdftotext, ~4469 words
+- [2026-08-16 12:44:59] hhgp101: pdftotext, ~5386 words
+- [2026-08-16 12:44:59] batch progress: 80 new codes attempted (65 extracted, 268735 words) this batch
+- [2026-08-16 12:45:02] hi_wikipedia: 160/1997 articles this batch, ~7954 words this batch (~8474 total ever)
+- [2026-08-16 12:45:07] hhes102: pdftotext, ~10062 words
+- [2026-08-16 12:45:15] hhgp105: pdftotext, ~7410 words
+- [2026-08-16 12:45:16] hhgp104: pdftotext, ~6948 words
+- [2026-08-16 12:45:16] hhgp1ps: pdftotext, ~4969 words
+- [2026-08-16 12:45:22] hhgp106: pdftotext, ~4947 words
+- [2026-08-16 12:45:23] hhgp102: pdftotext, ~8576 words
+- [2026-08-16 12:45:27] hhgp107: pdftotext, ~6444 words
+- [2026-08-16 12:45:29] hhes107: pdftotext, ~7805 words
+- [2026-08-16 12:45:29] hhgp103: pdftotext, ~9303 words
+- [2026-08-16 12:45:34] hhkb1ps: pdftotext, ~6366 words
+- [2026-08-16 12:45:34] batch progress: 90 new codes attempted (75 extracted, 341565 words) this batch
+- [2026-08-16 12:45:40] hhkb102: pdftotext, ~7631 words
+- [2026-08-16 12:45:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:45:47] hhkb107: pdftotext, ~769 words
+- [2026-08-16 12:45:50] hhkb104: pdftotext, ~5591 words
+- [2026-08-16 12:45:50] hhkb106: pdftotext, ~6036 words
+- [2026-08-16 12:45:51] hhkb105: pdftotext, ~6763 words
+- [2026-08-16 12:45:52] hhkb103: pdftotext, ~5792 words
+- [2026-08-16 12:46:00] hhkr1ps: pdftotext, ~4699 words
+- [2026-08-16 12:46:01] hhkr104: pdftotext, ~2118 words
+- [2026-08-16 12:46:04] hhkr102: pdftotext, ~2728 words
+- [2026-08-16 12:46:04] hhkb101: pdftotext, ~6887 words
+- [2026-08-16 12:46:04] batch progress: 100 new codes attempted (85 extracted, 390579 words) this batch
+- [2026-08-16 12:46:07] hhkr103: pdftotext, ~5566 words
+- [2026-08-16 12:46:08] hhkr106: pdftotext, ~1674 words
+- [2026-08-16 12:46:10] hhkr105: pdftotext, ~2552 words
+- [2026-08-16 12:46:11] hhkr109: pdftotext, ~2126 words
+- [2026-08-16 12:46:12] hhkr101: pdftotext, ~4038 words
+- [2026-08-16 12:46:12] hhkr107: pdftotext, ~2304 words
+- [2026-08-16 12:46:13] hhkr108: pdftotext, ~1354 words
+- [2026-08-16 12:46:16] hhkr113: pdftotext, ~2021 words
+- [2026-08-16 12:46:17] hhkr112: pdftotext, ~2328 words
+- [2026-08-16 12:46:17] hhkr114: pdftotext, ~1790 words
+- [2026-08-16 12:46:17] batch progress: 110 new codes attempted (95 extracted, 416332 words) this batch
+- [2026-08-16 12:46:21] hhkr111: pdftotext, ~2277 words
+- [2026-08-16 12:46:23] hhkr116: pdftotext, ~1692 words
+- [2026-08-16 12:46:24] hhkr110: pdftotext, ~3001 words
+- [2026-08-16 12:46:24] hhkr118: pdftotext, ~1696 words
+- [2026-08-16 12:46:25] hhkr117: pdftotext, ~1999 words
+- [2026-08-16 12:46:25] hhkr119: pdftotext, ~1495 words
+- [2026-08-16 12:46:29] hhkr115: pdftotext, ~2520 words
+- [2026-08-16 12:46:44] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:47:11] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:47:13] hi_wikipedia: 180/1997 articles this batch, ~8511 words this batch (~9031 total ever)
+- [2026-08-16 12:47:18] hhky1ps: pdftotext, ~4773 words
+- [2026-08-16 12:47:40] hhky106: pdftotext, ~17742 words
+- [2026-08-16 12:47:56] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:48:07] hhmh1ps: OCR, ~4882 words
+- [2026-08-16 12:48:07] batch progress: 120 new codes attempted (105 extracted, 458409 words) this batch
+- [2026-08-16 12:48:28] hhmh101: OCR, ~2968 words
+- [2026-08-16 12:48:30] hhky102: pdftotext, ~3630 words
+- [2026-08-16 12:48:38] hhmh102: OCR, ~1403 words
+- [2026-08-16 12:48:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:49:00] hi_wikipedia: 200/1997 articles this batch, ~8737 words this batch (~9257 total ever)
+- [2026-08-16 12:49:03] hhmh103: OCR, ~4697 words
+- [2026-08-16 12:49:26] hhmh104: OCR, ~3993 words
+- [2026-08-16 12:49:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:49:59] hhmh105: OCR, ~6691 words
+- [2026-08-16 12:50:11] hhmh106: OCR, ~2379 words
+- [2026-08-16 12:50:14] hhky101: pdftotext, ~5185 words
+- [2026-08-16 12:50:33] hhmh108: OCR, ~3584 words
+- [2026-08-16 12:50:40] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:51:01] hhmh109: OCR, ~5586 words
+- [2026-08-16 12:51:01] batch progress: 130 new codes attempted (115 extracted, 498525 words) this batch
+- [2026-08-16 12:51:04] hhky103: pdftotext, ~5700 words
+- [2026-08-16 12:51:06] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:51:09] hhky104: pdftotext, ~8502 words
+- [2026-08-16 12:51:11] hi_wikipedia: 220/1997 articles this batch, ~9102 words this batch (~9622 total ever)
+- [2026-08-16 12:51:15] hhky105: pdftotext, ~5180 words
+- [2026-08-16 12:51:31] hhmh113: OCR, ~2969 words
+- [2026-08-16 12:51:51] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:51:52] hhmh107: OCR, ~4250 words
+- [2026-08-16 12:51:52] hhml101: pdftotext, ~1932 words
+- [2026-08-16 12:52:04] hhmh110: OCR, ~2165 words
+- [2026-08-16 12:52:31] hhmh111: OCR, ~5235 words
+- [2026-08-16 12:52:31] hhml104: pdftotext, ~4861 words
+- [2026-08-16 12:52:49] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:52:54] hhmh112: OCR, ~4755 words
+- [2026-08-16 12:52:54] batch progress: 140 new codes attempted (125 extracted, 544074 words) this batch
+- [2026-08-16 12:52:54] hhml105: pdftotext, ~3137 words
+- [2026-08-16 12:52:54] hhml102: pdftotext, ~7035 words
+- [2026-08-16 12:52:54] hhml103: pdftotext, ~1753 words
+- [2026-08-16 12:52:54] hhml106: pdftotext, ~4037 words
+- [2026-08-16 12:52:54] hhml1ps: pdftotext, ~4939 words
+- [2026-08-16 12:52:56] hhsb1ps: pdftotext, ~2594 words
+- [2026-08-16 12:53:00] hhsb102: pdftotext, ~7306 words
+- [2026-08-16 12:53:03] hhsb101: pdftotext, ~5128 words
+- [2026-08-16 12:53:04] hhsb103: pdftotext, ~2966 words
+- [2026-08-16 12:53:05] hhml107: pdftotext, ~3344 words
+- [2026-08-16 12:53:05] batch progress: 150 new codes attempted (135 extracted, 586313 words) this batch
+- [2026-08-16 12:53:05] hhml108: pdftotext, ~6427 words
+- [2026-08-16 12:53:06] hhml109: pdftotext, ~2527 words
+- [2026-08-16 12:53:07] hi_wikipedia: 240/1997 articles this batch, ~9390 words this batch (~9910 total ever)
+- [2026-08-16 12:53:08] hhsb104: pdftotext, ~5375 words
+- [2026-08-16 12:53:09] hhml110: pdftotext, ~5644 words
+- [2026-08-16 12:53:09] hhsb105: pdftotext, ~5567 words
+- [2026-08-16 12:53:38] hhsc101: OCR, ~5012 words
+- [2026-08-16 12:53:46] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:53:50] hhsc103: OCR, ~2073 words
+- [2026-08-16 12:54:10] hhsc1ps: OCR, ~3867 words
+- [2026-08-16 12:54:35] hhsc107: OCR, ~4724 words
+- [2026-08-16 12:54:44] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:55:08] hhsc108: OCR, ~6277 words
+- [2026-08-16 12:55:08] batch progress: 160 new codes attempted (145 extracted, 633806 words) this batch
+- [2026-08-16 12:55:10] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:55:27] hhsc109: OCR, ~3389 words
+- [2026-08-16 12:55:36] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:55:51] hhsc110: OCR, ~4110 words
+- [2026-08-16 12:56:03] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:56:08] hi_wikipedia: 260/1997 articles this batch, ~9678 words this batch (~10198 total ever)
+- [2026-08-16 12:56:12] hhsc111: OCR, ~4195 words
+- [2026-08-16 12:56:38] hhsc112: OCR, ~4399 words
+- [2026-08-16 12:56:48] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:57:07] hhsc113: OCR, ~5369 words
+- [2026-08-16 12:57:24] hhsk1ps: OCR, ~2471 words
+- [2026-08-16 12:57:29] hhsk101: OCR, ~653 words
+- [2026-08-16 12:57:37] hhsk102: OCR, ~873 words
+- [2026-08-16 12:57:45] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:57:45] hhsk103: OCR, ~986 words
+- [2026-08-16 12:57:52] hhsk104: OCR, ~448 words
+- [2026-08-16 12:57:52] batch progress: 170 new codes attempted (155 extracted, 660699 words) this batch
+- [2026-08-16 12:58:01] hhsk105: OCR, ~1099 words
+- [2026-08-16 12:58:03] hi_wikipedia: 280/1997 articles this batch, ~9894 words this batch (~10414 total ever)
+- [2026-08-16 12:58:12] hhsk106: OCR, ~1260 words
+- [2026-08-16 12:58:18] hhsk107: OCR, ~577 words
+- [2026-08-16 12:58:28] hhsk108: OCR, ~1179 words
+- [2026-08-16 12:58:39] hhsk109: OCR, ~1173 words
+- [2026-08-16 12:58:43] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:58:47] hhsk110: OCR, ~936 words
+- [2026-08-16 12:58:58] hhsk111: OCR, ~1354 words
+- [2026-08-16 12:59:08] hhsk112: OCR, ~1241 words
+- [2026-08-16 12:59:09] FETCH FAILED after 3 attempts: https://hi.wikipedia.org/w/api.php
+- [2026-08-16 12:59:09] hi_wikipedia: batch done -- 287 new articles, ~9966 words, 1819s, ~10486 words total ever
+- [2026-08-16 12:59:09] RUN COMPLETE: 1 sources, 287 new articles, 9966 words, 1858s elapsed, ~19312 words/hour aggregate throughput
+- [2026-08-16 12:59:09]   hi_wikipedia: 287 articles, 9966 words, 1819s
+- [2026-08-16 12:59:32] hhsc104: OCR, ~4065 words
+- [2026-08-16 12:59:57] hhsk114: OCR, ~2716 words
+- [2026-08-16 12:59:57] batch progress: 180 new codes attempted (165 extracted, 676299 words) this batch
+- [2026-08-16 12:59:57] hhss1ps: pdftotext, ~2334 words
+- [2026-08-16 13:00:18] hhsc105: OCR, ~3871 words
+- [2026-08-16 13:00:38] hhsc106: OCR, ~3698 words
+- [2026-08-16 13:00:38] hhss103: pdftotext, ~5034 words
+- [2026-08-16 13:00:46] hhsk113: OCR, ~707 words
+- [2026-08-16 13:01:10] hhsc102: OCR, ~4383 words
+- [2026-08-16 13:01:10] hhss106: pdftotext, ~5088 words
+- [2026-08-16 13:01:10] hhss105: pdftotext, ~5622 words
+- [2026-08-16 13:01:10] hhss101: pdftotext, ~3728 words
+- [2026-08-16 13:01:11] hhss104: pdftotext, ~4705 words
+- [2026-08-16 13:01:11] batch progress: 190 new codes attempted (175 extracted, 715469 words) this batch
+- [2026-08-16 13:01:11] hhss102: pdftotext, ~6572 words
+- [2026-08-16 13:01:31] hhss302: OCR, ~2818 words
+- [2026-08-16 13:01:31] hhss107: pdftotext, ~6358 words
+- [2026-08-16 13:01:31] batch progress: 200 new codes attempted (178 extracted, 731217 words) this batch
+- [2026-08-16 13:01:45] BATCH COMPLETE: 200 new codes attempted this batch (178 extracted, 731217 words), 1605s elapsed. Overall: 473/1617 codes resolved so far.
+- [2026-08-16 13:44:56] NOTE: fixed raw/clean split going forward -- ocr_pipeline.py and scraper.py now write original unfiltered text to raw/ and clean_text() output to a new clean/ tree (same filenames). Items above this line only have the cleaned version under raw/ (mislabeled); no raw counterpart recoverable for those.
+- [2026-08-16 13:45:23] ghml101: pdftotext, ~2470 words
+- [2026-08-16 13:49:13] wiki_dump: 0 pages already extracted from prior runs
+- [2026-08-16 13:49:14] wiki_dump: 200 new pages this batch (200 scanned), ~349761 words this batch, 1s elapsed
+- [2026-08-16 13:49:14] wiki_dump: 400 new pages this batch (400 scanned), ~599967 words this batch, 1s elapsed
+- [2026-08-16 13:49:15] BATCH COMPLETE: 500 new pages extracted (500 scanned this run), ~715817 words this batch, 2s elapsed. Overall: 500 pages, ~715817 words total ever.
+- [2026-08-16 13:49:42] wiki_dump: 500 pages already extracted from prior runs
+- [2026-08-16 13:49:43] wiki_dump: 200 new pages this batch (700 scanned), ~222938 words this batch, 1s elapsed
+- [2026-08-16 13:49:44] wiki_dump: 400 new pages this batch (900 scanned), ~377103 words this batch, 2s elapsed
+- [2026-08-16 13:49:45] wiki_dump: 600 new pages this batch (1100 scanned), ~587927 words this batch, 2s elapsed
+- [2026-08-16 13:49:45] wiki_dump: 800 new pages this batch (1300 scanned), ~738449 words this batch, 3s elapsed
+- [2026-08-16 13:49:46] wiki_dump: 1000 new pages this batch (1500 scanned), ~955344 words this batch, 4s elapsed
+- [2026-08-16 13:49:47] wiki_dump: 1200 new pages this batch (1700 scanned), ~1074163 words this batch, 4s elapsed
+- [2026-08-16 13:49:47] wiki_dump: 1400 new pages this batch (1900 scanned), ~1194558 words this batch, 5s elapsed
+- [2026-08-16 13:49:48] wiki_dump: 1600 new pages this batch (2100 scanned), ~1234457 words this batch, 6s elapsed
+- [2026-08-16 13:49:49] wiki_dump: 1800 new pages this batch (2300 scanned), ~1354590 words this batch, 6s elapsed
+- [2026-08-16 13:49:49] wiki_dump: 2000 new pages this batch (2500 scanned), ~1478490 words this batch, 7s elapsed
+- [2026-08-16 13:49:50] wiki_dump: 2200 new pages this batch (2700 scanned), ~1590154 words this batch, 8s elapsed
+- [2026-08-16 13:49:51] wiki_dump: 2400 new pages this batch (2900 scanned), ~1707477 words this batch, 8s elapsed
+- [2026-08-16 13:49:51] wiki_dump: 2600 new pages this batch (3100 scanned), ~1813496 words this batch, 9s elapsed
+- [2026-08-16 13:49:52] wiki_dump: 2800 new pages this batch (3300 scanned), ~1892489 words this batch, 10s elapsed
+- [2026-08-16 13:49:53] wiki_dump: 3000 new pages this batch (3500 scanned), ~1938443 words this batch, 10s elapsed
+- [2026-08-16 13:49:53] wiki_dump: 3200 new pages this batch (3700 scanned), ~2027070 words this batch, 11s elapsed
+- [2026-08-16 13:49:54] wiki_dump: 3400 new pages this batch (3900 scanned), ~2151537 words this batch, 12s elapsed
+- [2026-08-16 13:49:55] wiki_dump: 3600 new pages this batch (4100 scanned), ~2314753 words this batch, 13s elapsed
+- [2026-08-16 13:49:56] wiki_dump: 3800 new pages this batch (4300 scanned), ~2427594 words this batch, 13s elapsed
+- [2026-08-16 13:49:57] wiki_dump: 4000 new pages this batch (4500 scanned), ~2528027 words this batch, 14s elapsed
+- [2026-08-16 13:49:58] wiki_dump: 4200 new pages this batch (4700 scanned), ~2665145 words this batch, 15s elapsed
+- [2026-08-16 13:49:58] wiki_dump: 4400 new pages this batch (4900 scanned), ~2675896 words this batch, 16s elapsed
+- [2026-08-16 13:49:59] wiki_dump: 4600 new pages this batch (5100 scanned), ~2744330 words this batch, 17s elapsed
+- [2026-08-16 13:50:00] wiki_dump: 4800 new pages this batch (5300 scanned), ~2819829 words this batch, 18s elapsed
+- [2026-08-16 13:50:01] wiki_dump: 5000 new pages this batch (5500 scanned), ~2971782 words this batch, 19s elapsed
+- [2026-08-16 13:50:02] wiki_dump: 5200 new pages this batch (5700 scanned), ~3031503 words this batch, 20s elapsed
+- [2026-08-16 13:50:03] wiki_dump: 5400 new pages this batch (5900 scanned), ~3079531 words this batch, 20s elapsed
+- [2026-08-16 13:50:04] wiki_dump: 5600 new pages this batch (6100 scanned), ~3122050 words this batch, 21s elapsed
+- [2026-08-16 13:50:05] wiki_dump: 5800 new pages this batch (6300 scanned), ~3175214 words this batch, 22s elapsed
+- [2026-08-16 13:50:06] wiki_dump: 6000 new pages this batch (6500 scanned), ~3232461 words this batch, 23s elapsed
+- [2026-08-16 13:50:07] wiki_dump: 6200 new pages this batch (6700 scanned), ~3297325 words this batch, 24s elapsed
+- [2026-08-16 13:50:08] wiki_dump: 6400 new pages this batch (6900 scanned), ~3340013 words this batch, 25s elapsed
+- [2026-08-16 13:50:09] wiki_dump: 6600 new pages this batch (7100 scanned), ~3363247 words this batch, 26s elapsed
+- [2026-08-16 13:50:10] wiki_dump: 6800 new pages this batch (7300 scanned), ~3384171 words this batch, 27s elapsed
+- [2026-08-16 13:50:10] wiki_dump: 7000 new pages this batch (7500 scanned), ~3394282 words this batch, 28s elapsed
+- [2026-08-16 13:50:11] wiki_dump: 7200 new pages this batch (7700 scanned), ~3402861 words this batch, 29s elapsed
+- [2026-08-16 13:50:12] wiki_dump: 7400 new pages this batch (7900 scanned), ~3418051 words this batch, 30s elapsed
+- [2026-08-16 13:50:13] wiki_dump: 7600 new pages this batch (8100 scanned), ~3425034 words this batch, 31s elapsed
+- [2026-08-16 13:50:15] wiki_dump: 7800 new pages this batch (8300 scanned), ~3456338 words this batch, 32s elapsed
+- [2026-08-16 13:50:16] wiki_dump: 8000 new pages this batch (8500 scanned), ~3472339 words this batch, 33s elapsed
+- [2026-08-16 13:50:17] wiki_dump: 8200 new pages this batch (8700 scanned), ~3482113 words this batch, 34s elapsed
+- [2026-08-16 13:50:18] wiki_dump: 8400 new pages this batch (8900 scanned), ~3505729 words this batch, 35s elapsed
+- [2026-08-16 13:50:19] wiki_dump: 8600 new pages this batch (9100 scanned), ~3527199 words this batch, 37s elapsed
+- [2026-08-16 13:50:20] wiki_dump: 8800 new pages this batch (9300 scanned), ~3549887 words this batch, 38s elapsed
+- [2026-08-16 13:50:21] wiki_dump: 9000 new pages this batch (9500 scanned), ~3605030 words this batch, 39s elapsed
+- [2026-08-16 13:50:22] wiki_dump: 9200 new pages this batch (9700 scanned), ~3657003 words this batch, 40s elapsed
+- [2026-08-16 13:50:24] wiki_dump: 9400 new pages this batch (9900 scanned), ~3696352 words this batch, 41s elapsed
+- [2026-08-16 13:50:25] wiki_dump: 9600 new pages this batch (10100 scanned), ~3728863 words this batch, 42s elapsed
+- [2026-08-16 13:50:26] wiki_dump: 9800 new pages this batch (10300 scanned), ~3790783 words this batch, 44s elapsed
+- [2026-08-16 13:50:27] wiki_dump: 10000 new pages this batch (10500 scanned), ~3847525 words this batch, 45s elapsed
+- [2026-08-16 13:50:29] wiki_dump: 10200 new pages this batch (10700 scanned), ~3890715 words this batch, 46s elapsed
+- [2026-08-16 13:50:30] wiki_dump: 10400 new pages this batch (10900 scanned), ~3961901 words this batch, 48s elapsed
+- [2026-08-16 13:50:32] wiki_dump: 10600 new pages this batch (11100 scanned), ~4041063 words this batch, 49s elapsed
+- [2026-08-16 13:50:33] wiki_dump: 10800 new pages this batch (11300 scanned), ~4124272 words this batch, 51s elapsed
+- [2026-08-16 13:50:34] wiki_dump: 11000 new pages this batch (11500 scanned), ~4175730 words this batch, 52s elapsed
+- [2026-08-16 13:50:36] wiki_dump: 11200 new pages this batch (11700 scanned), ~4242196 words this batch, 53s elapsed
+- [2026-08-16 13:50:37] wiki_dump: 11400 new pages this batch (11900 scanned), ~4298706 words this batch, 55s elapsed
+- [2026-08-16 13:50:39] wiki_dump: 11600 new pages this batch (12100 scanned), ~4357231 words this batch, 56s elapsed
+- [2026-08-16 13:50:40] wiki_dump: 11800 new pages this batch (12300 scanned), ~4407792 words this batch, 58s elapsed
+- [2026-08-16 13:50:42] wiki_dump: 12000 new pages this batch (12500 scanned), ~4491217 words this batch, 59s elapsed
+- [2026-08-16 13:50:43] wiki_dump: 12200 new pages this batch (12700 scanned), ~4509799 words this batch, 61s elapsed
+- [2026-08-16 13:50:45] wiki_dump: 12400 new pages this batch (12900 scanned), ~4612065 words this batch, 62s elapsed
+- [2026-08-16 13:50:46] wiki_dump: 12600 new pages this batch (13100 scanned), ~4674749 words this batch, 64s elapsed
+- [2026-08-16 13:50:48] wiki_dump: 12800 new pages this batch (13300 scanned), ~4747602 words this batch, 65s elapsed
+- [2026-08-16 13:50:49] wiki_dump: 13000 new pages this batch (13500 scanned), ~4775515 words this batch, 67s elapsed
+- [2026-08-16 13:50:51] wiki_dump: 13200 new pages this batch (13700 scanned), ~4878157 words this batch, 68s elapsed
+- [2026-08-16 13:50:52] wiki_dump: 13400 new pages this batch (13900 scanned), ~4913067 words this batch, 70s elapsed
+- [2026-08-16 13:50:54] wiki_dump: 13600 new pages this batch (14100 scanned), ~4959719 words this batch, 72s elapsed
+- [2026-08-16 13:50:56] wiki_dump: 13800 new pages this batch (14300 scanned), ~4996645 words this batch, 73s elapsed
+- [2026-08-16 13:50:57] wiki_dump: 14000 new pages this batch (14500 scanned), ~5053246 words this batch, 75s elapsed
+- [2026-08-16 13:50:59] wiki_dump: 14200 new pages this batch (14700 scanned), ~5125146 words this batch, 77s elapsed
+- [2026-08-16 13:51:01] wiki_dump: 14400 new pages this batch (14900 scanned), ~5198325 words this batch, 78s elapsed
+- [2026-08-16 13:51:02] wiki_dump: 14600 new pages this batch (15100 scanned), ~5268391 words this batch, 80s elapsed
+- [2026-08-16 13:51:04] wiki_dump: 14800 new pages this batch (15300 scanned), ~5326521 words this batch, 82s elapsed
+- [2026-08-16 13:51:06] wiki_dump: 15000 new pages this batch (15500 scanned), ~5417640 words this batch, 84s elapsed
+- [2026-08-16 13:51:08] wiki_dump: 15200 new pages this batch (15700 scanned), ~5477410 words this batch, 85s elapsed
+- [2026-08-16 13:51:10] wiki_dump: 15400 new pages this batch (15900 scanned), ~5573137 words this batch, 87s elapsed
+- [2026-08-16 13:51:11] wiki_dump: 15600 new pages this batch (16100 scanned), ~5658273 words this batch, 89s elapsed
+- [2026-08-16 13:51:13] wiki_dump: 15800 new pages this batch (16300 scanned), ~5757225 words this batch, 91s elapsed
+- [2026-08-16 13:51:15] wiki_dump: 16000 new pages this batch (16500 scanned), ~5809354 words this batch, 93s elapsed
+- [2026-08-16 13:51:17] wiki_dump: 16200 new pages this batch (16700 scanned), ~5848765 words this batch, 95s elapsed
+- [2026-08-16 13:51:19] wiki_dump: 16400 new pages this batch (16900 scanned), ~5881796 words this batch, 97s elapsed
+- [2026-08-16 13:51:21] wiki_dump: 16600 new pages this batch (17100 scanned), ~5929281 words this batch, 98s elapsed
+- [2026-08-16 13:51:23] wiki_dump: 16800 new pages this batch (17300 scanned), ~5977062 words this batch, 100s elapsed
+- [2026-08-16 13:51:25] wiki_dump: 17000 new pages this batch (17500 scanned), ~6019703 words this batch, 102s elapsed
+- [2026-08-16 13:51:27] wiki_dump: 17200 new pages this batch (17700 scanned), ~6074561 words this batch, 104s elapsed
+- [2026-08-16 13:51:29] wiki_dump: 17400 new pages this batch (17900 scanned), ~6118448 words this batch, 106s elapsed
+- [2026-08-16 13:51:31] wiki_dump: 17600 new pages this batch (18100 scanned), ~6155703 words this batch, 108s elapsed
+- [2026-08-16 13:51:33] wiki_dump: 17800 new pages this batch (18300 scanned), ~6182848 words this batch, 111s elapsed
+- [2026-08-16 13:51:35] wiki_dump: 18000 new pages this batch (18500 scanned), ~6217377 words this batch, 113s elapsed
+- [2026-08-16 13:51:37] wiki_dump: 18200 new pages this batch (18700 scanned), ~6256227 words this batch, 115s elapsed
+- [2026-08-16 13:51:39] wiki_dump: 18400 new pages this batch (18900 scanned), ~6322250 words this batch, 117s elapsed
+- [2026-08-16 13:51:41] wiki_dump: 18600 new pages this batch (19100 scanned), ~6351551 words this batch, 119s elapsed
+- [2026-08-16 13:51:43] wiki_dump: 18800 new pages this batch (19300 scanned), ~6400841 words this batch, 121s elapsed
+- [2026-08-16 13:51:46] wiki_dump: 19000 new pages this batch (19500 scanned), ~6482348 words this batch, 123s elapsed
+- [2026-08-16 13:51:48] wiki_dump: 19200 new pages this batch (19700 scanned), ~6558361 words this batch, 125s elapsed
+- [2026-08-16 13:51:50] wiki_dump: 19400 new pages this batch (19900 scanned), ~6626947 words this batch, 128s elapsed
+- [2026-08-16 13:51:52] wiki_dump: 19600 new pages this batch (20100 scanned), ~6736761 words this batch, 130s elapsed
+- [2026-08-16 13:51:55] wiki_dump: 19800 new pages this batch (20300 scanned), ~6825039 words this batch, 132s elapsed
+- [2026-08-16 13:51:57] wiki_dump: 20000 new pages this batch (20500 scanned), ~6954030 words this batch, 135s elapsed
+- [2026-08-16 13:51:59] wiki_dump: 20200 new pages this batch (20700 scanned), ~7073227 words this batch, 137s elapsed
+- [2026-08-16 13:52:02] wiki_dump: 20400 new pages this batch (20900 scanned), ~7151202 words this batch, 139s elapsed
+- [2026-08-16 13:52:04] wiki_dump: 20600 new pages this batch (21100 scanned), ~7271315 words this batch, 142s elapsed
+- [2026-08-16 13:52:06] wiki_dump: 20800 new pages this batch (21300 scanned), ~7372635 words this batch, 144s elapsed
+- [2026-08-16 13:52:09] wiki_dump: 21000 new pages this batch (21500 scanned), ~7432751 words this batch, 146s elapsed
+- [2026-08-16 13:52:11] wiki_dump: 21200 new pages this batch (21700 scanned), ~7514108 words this batch, 149s elapsed
+- [2026-08-16 13:52:13] wiki_dump: 21400 new pages this batch (21900 scanned), ~7608203 words this batch, 151s elapsed
+- [2026-08-16 13:52:16] wiki_dump: 21600 new pages this batch (22100 scanned), ~7682698 words this batch, 154s elapsed
+- [2026-08-16 13:52:19] wiki_dump: 21800 new pages this batch (22300 scanned), ~7715451 words this batch, 156s elapsed
+- [2026-08-16 13:52:21] wiki_dump: 22000 new pages this batch (22500 scanned), ~7759911 words this batch, 159s elapsed
+- [2026-08-16 13:52:23] wiki_dump: 22200 new pages this batch (22700 scanned), ~7804067 words this batch, 161s elapsed
+- [2026-08-16 13:52:26] wiki_dump: 22400 new pages this batch (22900 scanned), ~7825347 words this batch, 163s elapsed
+- [2026-08-16 13:52:28] wiki_dump: 22600 new pages this batch (23100 scanned), ~7844811 words this batch, 166s elapsed
+- [2026-08-16 13:52:31] wiki_dump: 22800 new pages this batch (23300 scanned), ~7905595 words this batch, 168s elapsed
+- [2026-08-16 13:52:33] wiki_dump: 23000 new pages this batch (23500 scanned), ~7977648 words this batch, 171s elapsed
+- [2026-08-16 13:52:36] wiki_dump: 23200 new pages this batch (23700 scanned), ~8073637 words this batch, 174s elapsed
+- [2026-08-16 13:52:39] wiki_dump: 23400 new pages this batch (23900 scanned), ~8138715 words this batch, 176s elapsed
+- [2026-08-16 13:52:41] wiki_dump: 23600 new pages this batch (24100 scanned), ~8178588 words this batch, 179s elapsed
+- [2026-08-16 13:52:44] wiki_dump: 23800 new pages this batch (24300 scanned), ~8297435 words this batch, 181s elapsed
+- [2026-08-16 13:52:46] wiki_dump: 24000 new pages this batch (24500 scanned), ~8465809 words this batch, 184s elapsed
+- [2026-08-16 13:52:49] wiki_dump: 24200 new pages this batch (24700 scanned), ~8554945 words this batch, 187s elapsed
+- [2026-08-16 13:52:52] wiki_dump: 24400 new pages this batch (24900 scanned), ~8578258 words this batch, 190s elapsed
+- [2026-08-16 13:52:55] wiki_dump: 24600 new pages this batch (25100 scanned), ~8599436 words this batch, 192s elapsed
+- [2026-08-16 13:52:57] wiki_dump: 24800 new pages this batch (25300 scanned), ~8713546 words this batch, 195s elapsed
+- [2026-08-16 13:53:00] wiki_dump: 25000 new pages this batch (25500 scanned), ~8721267 words this batch, 198s elapsed
+- [2026-08-16 13:53:03] wiki_dump: 25200 new pages this batch (25700 scanned), ~8756693 words this batch, 200s elapsed
+- [2026-08-16 13:53:05] wiki_dump: 25400 new pages this batch (25900 scanned), ~8787646 words this batch, 203s elapsed
+- [2026-08-16 13:53:08] wiki_dump: 25600 new pages this batch (26100 scanned), ~8814150 words this batch, 206s elapsed
+- [2026-08-16 13:53:11] wiki_dump: 25800 new pages this batch (26300 scanned), ~8871728 words this batch, 209s elapsed
+- [2026-08-16 13:53:14] wiki_dump: 26000 new pages this batch (26500 scanned), ~8903925 words this batch, 211s elapsed
+- [2026-08-16 13:53:16] wiki_dump: 26200 new pages this batch (26700 scanned), ~8922459 words this batch, 214s elapsed
+- [2026-08-16 13:53:19] wiki_dump: 26400 new pages this batch (26900 scanned), ~8948929 words this batch, 217s elapsed
+- [2026-08-16 13:53:22] wiki_dump: 26600 new pages this batch (27100 scanned), ~8961870 words this batch, 220s elapsed
+- [2026-08-16 13:53:25] wiki_dump: 26800 new pages this batch (27300 scanned), ~8982492 words this batch, 222s elapsed
+- [2026-08-16 13:53:28] wiki_dump: 27000 new pages this batch (27500 scanned), ~9012616 words this batch, 225s elapsed
+- [2026-08-16 13:53:30] wiki_dump: 27200 new pages this batch (27700 scanned), ~9033414 words this batch, 228s elapsed
+- [2026-08-16 13:53:33] wiki_dump: 27400 new pages this batch (27900 scanned), ~9066347 words this batch, 231s elapsed
+- [2026-08-16 13:53:36] wiki_dump: 27600 new pages this batch (28100 scanned), ~9095685 words this batch, 234s elapsed
+- [2026-08-16 13:53:40] wiki_dump: 27800 new pages this batch (28300 scanned), ~9135078 words this batch, 237s elapsed
+- [2026-08-16 13:53:43] wiki_dump: 28000 new pages this batch (28500 scanned), ~9182434 words this batch, 240s elapsed
+- [2026-08-16 13:53:45] wiki_dump: 28200 new pages this batch (28700 scanned), ~9206765 words this batch, 243s elapsed
+- [2026-08-16 13:53:49] wiki_dump: 28400 new pages this batch (28900 scanned), ~9237784 words this batch, 246s elapsed
+- [2026-08-16 13:53:52] wiki_dump: 28600 new pages this batch (29100 scanned), ~9315610 words this batch, 249s elapsed
+- [2026-08-16 13:53:55] wiki_dump: 28800 new pages this batch (29300 scanned), ~9393234 words this batch, 252s elapsed
+- [2026-08-16 13:53:58] wiki_dump: 29000 new pages this batch (29500 scanned), ~9434672 words this batch, 256s elapsed
+- [2026-08-16 13:54:01] wiki_dump: 29200 new pages this batch (29700 scanned), ~9461497 words this batch, 259s elapsed
+- [2026-08-16 13:54:04] wiki_dump: 29400 new pages this batch (29900 scanned), ~9502844 words this batch, 262s elapsed
+- [2026-08-16 13:54:07] wiki_dump: 29600 new pages this batch (30100 scanned), ~9525947 words this batch, 265s elapsed
+- [2026-08-16 13:54:10] wiki_dump: 29800 new pages this batch (30300 scanned), ~9549035 words this batch, 268s elapsed
+- [2026-08-16 13:54:14] wiki_dump: 30000 new pages this batch (30500 scanned), ~9558263 words this batch, 271s elapsed
+- [2026-08-16 13:54:17] wiki_dump: 30200 new pages this batch (30700 scanned), ~9575116 words this batch, 274s elapsed
+- [2026-08-16 13:54:20] wiki_dump: 30400 new pages this batch (30900 scanned), ~9587314 words this batch, 278s elapsed
+- [2026-08-16 13:54:23] wiki_dump: 30600 new pages this batch (31100 scanned), ~9595726 words this batch, 281s elapsed
+- [2026-08-16 13:54:26] wiki_dump: 30800 new pages this batch (31300 scanned), ~9619716 words this batch, 284s elapsed
+- [2026-08-16 13:54:30] wiki_dump: 31000 new pages this batch (31500 scanned), ~9632971 words this batch, 287s elapsed
+- [2026-08-16 13:54:33] wiki_dump: 31200 new pages this batch (31700 scanned), ~9651969 words this batch, 291s elapsed
+- [2026-08-16 13:54:37] wiki_dump: 31400 new pages this batch (31900 scanned), ~9665873 words this batch, 294s elapsed
+- [2026-08-16 13:54:40] wiki_dump: 31600 new pages this batch (32100 scanned), ~9688456 words this batch, 298s elapsed
+- [2026-08-16 13:54:44] wiki_dump: 31800 new pages this batch (32300 scanned), ~9701389 words this batch, 301s elapsed
+- [2026-08-16 13:54:47] wiki_dump: 32000 new pages this batch (32500 scanned), ~9710908 words this batch, 305s elapsed
+- [2026-08-16 13:54:51] wiki_dump: 32200 new pages this batch (32700 scanned), ~9761303 words this batch, 308s elapsed
+- [2026-08-16 13:54:54] wiki_dump: 32400 new pages this batch (32900 scanned), ~9819862 words this batch, 312s elapsed
+- [2026-08-16 13:54:58] wiki_dump: 32600 new pages this batch (33100 scanned), ~9917663 words this batch, 315s elapsed
+- [2026-08-16 13:55:01] wiki_dump: 32800 new pages this batch (33300 scanned), ~9984946 words this batch, 319s elapsed
+- [2026-08-16 13:55:05] wiki_dump: 33000 new pages this batch (33500 scanned), ~10040689 words this batch, 323s elapsed
+- [2026-08-16 13:55:08] wiki_dump: 33200 new pages this batch (33700 scanned), ~10057977 words this batch, 326s elapsed
+- [2026-08-16 13:55:12] wiki_dump: 33400 new pages this batch (33900 scanned), ~10097787 words this batch, 330s elapsed
+- [2026-08-16 13:55:16] wiki_dump: 33600 new pages this batch (34100 scanned), ~10189085 words this batch, 334s elapsed
+- [2026-08-16 13:55:20] wiki_dump: 33800 new pages this batch (34300 scanned), ~10219122 words this batch, 337s elapsed
+- [2026-08-16 13:55:23] wiki_dump: 34000 new pages this batch (34500 scanned), ~10286542 words this batch, 341s elapsed
+- [2026-08-16 13:55:27] wiki_dump: 34200 new pages this batch (34700 scanned), ~10341789 words this batch, 344s elapsed
+- [2026-08-16 13:55:30] wiki_dump: 34400 new pages this batch (34900 scanned), ~10377744 words this batch, 348s elapsed
+- [2026-08-16 13:55:34] wiki_dump: 34600 new pages this batch (35100 scanned), ~10399278 words this batch, 352s elapsed
+- [2026-08-16 13:55:38] wiki_dump: 34800 new pages this batch (35300 scanned), ~10406483 words this batch, 356s elapsed
+- [2026-08-16 13:55:42] wiki_dump: 35000 new pages this batch (35500 scanned), ~10416999 words this batch, 360s elapsed
+- [2026-08-16 13:55:46] wiki_dump: 35200 new pages this batch (35700 scanned), ~10424857 words this batch, 363s elapsed
+- [2026-08-16 13:55:49] wiki_dump: 35400 new pages this batch (35900 scanned), ~10443389 words this batch, 367s elapsed
+- [2026-08-16 13:55:53] wiki_dump: 35600 new pages this batch (36100 scanned), ~10490348 words this batch, 371s elapsed
+- [2026-08-16 13:55:57] wiki_dump: 35800 new pages this batch (36300 scanned), ~10508302 words this batch, 375s elapsed
+- [2026-08-16 13:56:01] wiki_dump: 36000 new pages this batch (36500 scanned), ~10510988 words this batch, 378s elapsed
+- [2026-08-16 13:56:05] wiki_dump: 36200 new pages this batch (36700 scanned), ~10513511 words this batch, 382s elapsed
+- [2026-08-16 13:56:08] wiki_dump: 36400 new pages this batch (36900 scanned), ~10521942 words this batch, 386s elapsed
+- [2026-08-16 13:56:12] wiki_dump: 36600 new pages this batch (37100 scanned), ~10532273 words this batch, 390s elapsed
+- [2026-08-16 13:56:16] wiki_dump: 36800 new pages this batch (37300 scanned), ~10534761 words this batch, 394s elapsed
+- [2026-08-16 13:56:20] wiki_dump: 37000 new pages this batch (37500 scanned), ~10540423 words this batch, 398s elapsed
+- [2026-08-16 13:56:24] wiki_dump: 37200 new pages this batch (37700 scanned), ~10545676 words this batch, 401s elapsed
+- [2026-08-16 13:56:28] wiki_dump: 37400 new pages this batch (37900 scanned), ~10569710 words this batch, 405s elapsed
+- [2026-08-16 13:56:32] wiki_dump: 37600 new pages this batch (38100 scanned), ~10587477 words this batch, 409s elapsed
+- [2026-08-16 13:56:36] wiki_dump: 37800 new pages this batch (38300 scanned), ~10594517 words this batch, 414s elapsed
+- [2026-08-16 13:56:40] wiki_dump: 38000 new pages this batch (38500 scanned), ~10605371 words this batch, 418s elapsed
+- [2026-08-16 13:56:44] wiki_dump: 38200 new pages this batch (38700 scanned), ~10612178 words this batch, 422s elapsed
+- [2026-08-16 13:56:48] wiki_dump: 38400 new pages this batch (38900 scanned), ~10624080 words this batch, 426s elapsed
+- [2026-08-16 13:56:53] wiki_dump: 38600 new pages this batch (39100 scanned), ~10629750 words this batch, 430s elapsed
+- [2026-08-16 13:56:57] wiki_dump: 38800 new pages this batch (39300 scanned), ~10638960 words this batch, 434s elapsed
+- [2026-08-16 13:57:01] wiki_dump: 39000 new pages this batch (39500 scanned), ~10652269 words this batch, 439s elapsed
+- [2026-08-16 13:57:05] wiki_dump: 39200 new pages this batch (39700 scanned), ~10660548 words this batch, 443s elapsed
+- [2026-08-16 13:57:10] wiki_dump: 39400 new pages this batch (39900 scanned), ~10675958 words this batch, 447s elapsed
+- [2026-08-16 13:57:14] wiki_dump: 39600 new pages this batch (40100 scanned), ~10706410 words this batch, 452s elapsed
+- [2026-08-16 13:57:18] wiki_dump: 39800 new pages this batch (40300 scanned), ~10722531 words this batch, 456s elapsed
+- [2026-08-16 13:57:23] wiki_dump: 40000 new pages this batch (40500 scanned), ~10731490 words this batch, 461s elapsed
+- [2026-08-16 13:57:28] wiki_dump: 40200 new pages this batch (40700 scanned), ~10750148 words this batch, 465s elapsed
+- [2026-08-16 13:57:32] wiki_dump: 40400 new pages this batch (40900 scanned), ~10758918 words this batch, 470s elapsed
+- [2026-08-16 13:57:37] wiki_dump: 40600 new pages this batch (41100 scanned), ~10764259 words this batch, 474s elapsed
+- [2026-08-16 13:57:41] wiki_dump: 40800 new pages this batch (41300 scanned), ~10795671 words this batch, 479s elapsed
+- [2026-08-16 13:57:46] wiki_dump: 41000 new pages this batch (41500 scanned), ~10806308 words this batch, 483s elapsed
+- [2026-08-16 13:57:50] wiki_dump: 41200 new pages this batch (41700 scanned), ~10824031 words this batch, 488s elapsed
+- [2026-08-16 13:57:55] wiki_dump: 41400 new pages this batch (41900 scanned), ~10833667 words this batch, 492s elapsed
+- [2026-08-16 13:57:59] wiki_dump: 41600 new pages this batch (42100 scanned), ~10840865 words this batch, 497s elapsed
+- [2026-08-16 13:58:04] wiki_dump: 41800 new pages this batch (42300 scanned), ~10855644 words this batch, 501s elapsed
+- [2026-08-16 13:58:08] wiki_dump: 42000 new pages this batch (42500 scanned), ~10877145 words this batch, 506s elapsed
+- [2026-08-16 13:58:13] wiki_dump: 42200 new pages this batch (42700 scanned), ~10883577 words this batch, 510s elapsed
+- [2026-08-16 13:58:17] wiki_dump: 42400 new pages this batch (42900 scanned), ~10891683 words this batch, 515s elapsed
+- [2026-08-16 13:58:22] wiki_dump: 42600 new pages this batch (43100 scanned), ~10897542 words this batch, 519s elapsed
+- [2026-08-16 13:58:26] wiki_dump: 42800 new pages this batch (43300 scanned), ~10916940 words this batch, 524s elapsed
+- [2026-08-16 13:58:31] wiki_dump: 43000 new pages this batch (43500 scanned), ~10927059 words this batch, 529s elapsed
+- [2026-08-16 13:58:36] wiki_dump: 43200 new pages this batch (43700 scanned), ~10935140 words this batch, 533s elapsed
+- [2026-08-16 13:58:41] wiki_dump: 43400 new pages this batch (43900 scanned), ~10949917 words this batch, 538s elapsed
+- [2026-08-16 13:58:45] wiki_dump: 43600 new pages this batch (44100 scanned), ~10955093 words this batch, 543s elapsed
+- [2026-08-16 13:58:50] wiki_dump: 43800 new pages this batch (44300 scanned), ~10961923 words this batch, 548s elapsed
+- [2026-08-16 13:58:55] wiki_dump: 44000 new pages this batch (44500 scanned), ~10978181 words this batch, 552s elapsed
+- [2026-08-16 13:59:00] wiki_dump: 44200 new pages this batch (44700 scanned), ~10983033 words this batch, 557s elapsed
+- [2026-08-16 13:59:05] wiki_dump: 44400 new pages this batch (44900 scanned), ~10989426 words this batch, 562s elapsed
+- [2026-08-16 13:59:10] wiki_dump: 44600 new pages this batch (45100 scanned), ~10995154 words this batch, 567s elapsed
+- [2026-08-16 13:59:15] wiki_dump: 44800 new pages this batch (45300 scanned), ~11000575 words this batch, 572s elapsed
+- [2026-08-16 13:59:20] wiki_dump: 45000 new pages this batch (45500 scanned), ~11006512 words this batch, 577s elapsed
+- [2026-08-16 13:59:24] wiki_dump: 45200 new pages this batch (45700 scanned), ~11021741 words this batch, 582s elapsed
+- [2026-08-16 13:59:29] wiki_dump: 45400 new pages this batch (45900 scanned), ~11029041 words this batch, 587s elapsed
+- [2026-08-16 13:59:34] wiki_dump: 45600 new pages this batch (46100 scanned), ~11035145 words this batch, 592s elapsed
+- [2026-08-16 13:59:40] wiki_dump: 45800 new pages this batch (46300 scanned), ~11041759 words this batch, 597s elapsed
+- [2026-08-16 13:59:45] wiki_dump: 46000 new pages this batch (46500 scanned), ~11049365 words this batch, 602s elapsed
+- [2026-08-16 13:59:50] wiki_dump: 46200 new pages this batch (46700 scanned), ~11055134 words this batch, 607s elapsed
+- [2026-08-16 13:59:55] wiki_dump: 46400 new pages this batch (46900 scanned), ~11061713 words this batch, 612s elapsed
+- [2026-08-16 14:00:00] wiki_dump: 46600 new pages this batch (47100 scanned), ~11066083 words this batch, 617s elapsed
+- [2026-08-16 14:00:05] wiki_dump: 46800 new pages this batch (47300 scanned), ~11073968 words this batch, 623s elapsed
+- [2026-08-16 14:00:10] wiki_dump: 47000 new pages this batch (47500 scanned), ~11088918 words this batch, 628s elapsed
+- [2026-08-16 14:00:15] wiki_dump: 47200 new pages this batch (47700 scanned), ~11093817 words this batch, 633s elapsed
+- [2026-08-16 14:00:21] wiki_dump: 47400 new pages this batch (47900 scanned), ~11098778 words this batch, 638s elapsed
+- [2026-08-16 14:00:26] wiki_dump: 47600 new pages this batch (48100 scanned), ~11103924 words this batch, 644s elapsed
+- [2026-08-16 14:00:31] wiki_dump: 47800 new pages this batch (48300 scanned), ~11109411 words this batch, 649s elapsed
+- [2026-08-16 14:00:37] wiki_dump: 48000 new pages this batch (48500 scanned), ~11127869 words this batch, 655s elapsed
+- [2026-08-16 14:00:42] wiki_dump: 48200 new pages this batch (48700 scanned), ~11134893 words this batch, 660s elapsed
+- [2026-08-16 14:00:48] wiki_dump: 48400 new pages this batch (48900 scanned), ~11141811 words this batch, 665s elapsed
+- [2026-08-16 14:00:53] wiki_dump: 48600 new pages this batch (49100 scanned), ~11147932 words this batch, 671s elapsed
+- [2026-08-16 14:00:58] wiki_dump: 48800 new pages this batch (49300 scanned), ~11153871 words this batch, 676s elapsed
+- [2026-08-16 14:01:04] wiki_dump: 49000 new pages this batch (49500 scanned), ~11173404 words this batch, 682s elapsed
+- [2026-08-16 14:01:09] wiki_dump: 49200 new pages this batch (49700 scanned), ~11179093 words this batch, 687s elapsed
+- [2026-08-16 14:01:15] wiki_dump: 49400 new pages this batch (49900 scanned), ~11185474 words this batch, 692s elapsed
+- [2026-08-16 14:01:20] wiki_dump: 49600 new pages this batch (50100 scanned), ~11197829 words this batch, 698s elapsed
+- [2026-08-16 14:01:26] wiki_dump: 49800 new pages this batch (50300 scanned), ~11236244 words this batch, 704s elapsed
+- [2026-08-16 14:01:32] wiki_dump: 50000 new pages this batch (50500 scanned), ~11313720 words this batch, 709s elapsed
+- [2026-08-16 14:01:37] wiki_dump: 50200 new pages this batch (50700 scanned), ~11422395 words this batch, 715s elapsed
+- [2026-08-16 14:01:43] wiki_dump: 50400 new pages this batch (50900 scanned), ~11565172 words this batch, 721s elapsed
+- [2026-08-16 14:01:49] wiki_dump: 50600 new pages this batch (51100 scanned), ~11679682 words this batch, 726s elapsed
+- [2026-08-16 14:01:55] wiki_dump: 50800 new pages this batch (51300 scanned), ~11872025 words this batch, 732s elapsed
+- [2026-08-16 14:02:00] wiki_dump: 51000 new pages this batch (51500 scanned), ~11928997 words this batch, 738s elapsed
+- [2026-08-16 14:02:06] wiki_dump: 51200 new pages this batch (51700 scanned), ~12010130 words this batch, 743s elapsed
+- [2026-08-16 14:02:11] wiki_dump: 51400 new pages this batch (51900 scanned), ~12067565 words this batch, 749s elapsed
+- [2026-08-16 14:02:18] wiki_dump: 51600 new pages this batch (52100 scanned), ~12152087 words this batch, 755s elapsed
+- [2026-08-16 14:02:23] wiki_dump: 51800 new pages this batch (52300 scanned), ~12306106 words this batch, 761s elapsed
+- [2026-08-16 14:02:29] wiki_dump: 52000 new pages this batch (52500 scanned), ~12438672 words this batch, 767s elapsed
+- [2026-08-16 14:02:35] wiki_dump: 52200 new pages this batch (52700 scanned), ~12501668 words this batch, 773s elapsed
+- [2026-08-16 14:02:41] wiki_dump: 52400 new pages this batch (52900 scanned), ~12615467 words this batch, 779s elapsed
+- [2026-08-16 14:02:47] wiki_dump: 52600 new pages this batch (53100 scanned), ~12710684 words this batch, 785s elapsed
+- [2026-08-16 14:02:54] wiki_dump: 52800 new pages this batch (53300 scanned), ~12838826 words this batch, 791s elapsed
+- [2026-08-16 14:03:00] wiki_dump: 53000 new pages this batch (53500 scanned), ~12978739 words this batch, 798s elapsed
+- [2026-08-16 14:03:06] wiki_dump: 53200 new pages this batch (53700 scanned), ~13117662 words this batch, 804s elapsed
+- [2026-08-16 14:03:12] wiki_dump: 53400 new pages this batch (53900 scanned), ~13238456 words this batch, 810s elapsed
+- [2026-08-16 14:03:19] wiki_dump: 53600 new pages this batch (54100 scanned), ~13412374 words this batch, 816s elapsed
+- [2026-08-16 14:03:25] wiki_dump: 53800 new pages this batch (54300 scanned), ~13585706 words this batch, 823s elapsed
+- [2026-08-16 14:03:32] wiki_dump: 54000 new pages this batch (54500 scanned), ~13779358 words this batch, 829s elapsed
+- [2026-08-16 14:03:38] wiki_dump: 54200 new pages this batch (54700 scanned), ~13925258 words this batch, 836s elapsed
+- [2026-08-16 14:03:45] wiki_dump: 54400 new pages this batch (54900 scanned), ~14097391 words this batch, 842s elapsed
+- [2026-08-16 14:03:52] wiki_dump: 54600 new pages this batch (55100 scanned), ~14330796 words this batch, 850s elapsed
+- [2026-08-16 14:03:59] wiki_dump: 54800 new pages this batch (55300 scanned), ~14648120 words this batch, 857s elapsed
+- [2026-08-16 14:04:06] wiki_dump: 55000 new pages this batch (55500 scanned), ~14984226 words this batch, 864s elapsed
+- [2026-08-16 14:04:13] wiki_dump: 55200 new pages this batch (55700 scanned), ~15185493 words this batch, 871s elapsed
+- [2026-08-16 14:04:20] wiki_dump: 55400 new pages this batch (55900 scanned), ~15387505 words this batch, 878s elapsed
+- [2026-08-16 14:04:27] wiki_dump: 55600 new pages this batch (56100 scanned), ~15709455 words this batch, 885s elapsed
+- [2026-08-16 14:04:34] wiki_dump: 55800 new pages this batch (56300 scanned), ~15855504 words this batch, 892s elapsed
+- [2026-08-16 14:04:41] wiki_dump: 56000 new pages this batch (56500 scanned), ~16108922 words this batch, 899s elapsed
+- [2026-08-16 14:21:19] wiki_dump: 56200 new pages this batch (56700 scanned), ~16235653 words this batch, 908s elapsed
+- [2026-08-16 14:21:34] wiki_dump: 56400 new pages this batch (56900 scanned), ~16586863 words this batch, 918s elapsed
+- [2026-08-16 14:21:42] wiki_dump: 56600 new pages this batch (57100 scanned), ~16863813 words this batch, 926s elapsed
+- [2026-08-16 14:21:49] wiki_dump: 56800 new pages this batch (57300 scanned), ~17111943 words this batch, 933s elapsed
+- [2026-08-16 14:21:56] wiki_dump: 57000 new pages this batch (57500 scanned), ~17321546 words this batch, 939s elapsed
+- [2026-08-16 14:22:02] wiki_dump: 57200 new pages this batch (57700 scanned), ~17519743 words this batch, 946s elapsed
+- [2026-08-16 14:22:08] wiki_dump: 57400 new pages this batch (57900 scanned), ~17720685 words this batch, 952s elapsed
+- [2026-08-16 14:22:22] wiki_dump: 57600 new pages this batch (58100 scanned), ~17954271 words this batch, 959s elapsed
+- [2026-08-16 14:22:29] wiki_dump: 57800 new pages this batch (58300 scanned), ~18164095 words this batch, 966s elapsed
+- [2026-08-16 14:22:36] wiki_dump: 58000 new pages this batch (58500 scanned), ~18364875 words this batch, 973s elapsed
+- [2026-08-16 14:22:42] wiki_dump: 58200 new pages this batch (58700 scanned), ~18600597 words this batch, 979s elapsed
+- [2026-08-16 14:22:49] wiki_dump: 58400 new pages this batch (58900 scanned), ~18762725 words this batch, 986s elapsed
+- [2026-08-16 14:22:55] wiki_dump: 58600 new pages this batch (59100 scanned), ~18968529 words this batch, 992s elapsed
+- [2026-08-16 14:23:02] wiki_dump: 58800 new pages this batch (59300 scanned), ~19156673 words this batch, 999s elapsed
+- [2026-08-16 14:29:34] wiki_dump: 59000 new pages this batch (59500 scanned), ~19452122 words this batch, 1010s elapsed
+- [2026-08-16 14:29:43] wiki_dump: 59200 new pages this batch (59700 scanned), ~19683597 words this batch, 1019s elapsed
+- [2026-08-16 14:29:50] wiki_dump: 59400 new pages this batch (59900 scanned), ~19697726 words this batch, 1026s elapsed
+- [2026-08-16 14:29:57] wiki_dump: 59600 new pages this batch (60100 scanned), ~19727432 words this batch, 1033s elapsed
+- [2026-08-16 14:30:03] wiki_dump: 59800 new pages this batch (60300 scanned), ~19740532 words this batch, 1039s elapsed
+- [2026-08-16 14:30:10] wiki_dump: 60000 new pages this batch (60500 scanned), ~19754313 words this batch, 1046s elapsed
+- [2026-08-16 14:30:16] wiki_dump: 60200 new pages this batch (60700 scanned), ~19772648 words this batch, 1052s elapsed
+- [2026-08-16 14:30:23] wiki_dump: 60400 new pages this batch (60900 scanned), ~19796123 words this batch, 1059s elapsed
+- [2026-08-16 14:30:29] wiki_dump: 60600 new pages this batch (61100 scanned), ~19809992 words this batch, 1066s elapsed
+- [2026-08-16 14:30:37] wiki_dump: 60800 new pages this batch (61300 scanned), ~19823843 words this batch, 1073s elapsed
+- [2026-08-16 14:30:43] wiki_dump: 61000 new pages this batch (61500 scanned), ~19837702 words this batch, 1080s elapsed
+- [2026-08-16 14:30:50] wiki_dump: 61200 new pages this batch (61700 scanned), ~19851625 words this batch, 1087s elapsed
+- [2026-08-16 14:30:57] wiki_dump: 61400 new pages this batch (61900 scanned), ~19865354 words this batch, 1093s elapsed
+- [2026-08-16 14:31:04] wiki_dump: 61600 new pages this batch (62100 scanned), ~19879426 words this batch, 1101s elapsed
+- [2026-08-16 14:31:11] wiki_dump: 61800 new pages this batch (62300 scanned), ~19893581 words this batch, 1107s elapsed
+- [2026-08-16 14:31:18] wiki_dump: 62000 new pages this batch (62500 scanned), ~19908082 words this batch, 1114s elapsed
+- [2026-08-16 14:31:25] wiki_dump: 62200 new pages this batch (62700 scanned), ~19921617 words this batch, 1121s elapsed
+- [2026-08-16 14:31:32] wiki_dump: 62400 new pages this batch (62900 scanned), ~19935075 words this batch, 1129s elapsed
+- [2026-08-16 14:31:39] wiki_dump: 62600 new pages this batch (63100 scanned), ~19950542 words this batch, 1136s elapsed
+- [2026-08-16 14:31:46] wiki_dump: 62800 new pages this batch (63300 scanned), ~19964184 words this batch, 1142s elapsed
+- [2026-08-16 14:31:53] wiki_dump: 63000 new pages this batch (63500 scanned), ~19977811 words this batch, 1149s elapsed
+- [2026-08-16 14:32:00] wiki_dump: 63200 new pages this batch (63700 scanned), ~19991415 words this batch, 1156s elapsed
+- [2026-08-16 14:32:07] wiki_dump: 63400 new pages this batch (63900 scanned), ~20005479 words this batch, 1164s elapsed
+- [2026-08-16 14:32:15] wiki_dump: 63600 new pages this batch (64100 scanned), ~20019546 words this batch, 1171s elapsed
+- [2026-08-16 14:32:22] wiki_dump: 63800 new pages this batch (64300 scanned), ~20033043 words this batch, 1179s elapsed
+- [2026-08-16 14:32:30] wiki_dump: 64000 new pages this batch (64500 scanned), ~20046573 words this batch, 1186s elapsed
+- [2026-08-16 14:32:38] wiki_dump: 64200 new pages this batch (64700 scanned), ~20060070 words this batch, 1194s elapsed
+- [2026-08-16 14:32:45] wiki_dump: 64400 new pages this batch (64900 scanned), ~20073705 words this batch, 1202s elapsed
+- [2026-08-16 14:32:53] wiki_dump: 64600 new pages this batch (65100 scanned), ~20087475 words this batch, 1209s elapsed
+- [2026-08-16 14:33:00] wiki_dump: 64800 new pages this batch (65300 scanned), ~20101095 words this batch, 1216s elapsed
+- [2026-08-16 14:33:07] wiki_dump: 65000 new pages this batch (65500 scanned), ~20114826 words this batch, 1224s elapsed
+- [2026-08-16 14:33:15] wiki_dump: 65200 new pages this batch (65700 scanned), ~20128213 words this batch, 1231s elapsed
+- [2026-08-16 14:33:23] wiki_dump: 65400 new pages this batch (65900 scanned), ~20141588 words this batch, 1239s elapsed
+- [2026-08-16 14:33:30] wiki_dump: 65600 new pages this batch (66100 scanned), ~20168493 words this batch, 1247s elapsed
+- [2026-08-16 14:33:38] wiki_dump: 65800 new pages this batch (66300 scanned), ~20182290 words this batch, 1254s elapsed
+- [2026-08-16 14:33:46] wiki_dump: 66000 new pages this batch (66500 scanned), ~20196892 words this batch, 1262s elapsed
+- [2026-08-16 14:33:53] wiki_dump: 66200 new pages this batch (66700 scanned), ~20210446 words this batch, 1269s elapsed
+- [2026-08-16 14:34:00] wiki_dump: 66400 new pages this batch (66900 scanned), ~20224065 words this batch, 1277s elapsed
+- [2026-08-16 14:34:08] wiki_dump: 66600 new pages this batch (67100 scanned), ~20237629 words this batch, 1285s elapsed
+- [2026-08-16 14:34:16] wiki_dump: 66800 new pages this batch (67300 scanned), ~20250985 words this batch, 1292s elapsed
+- [2026-08-16 14:34:24] wiki_dump: 67000 new pages this batch (67500 scanned), ~20264406 words this batch, 1300s elapsed
+- [2026-08-16 14:34:31] wiki_dump: 67200 new pages this batch (67700 scanned), ~20277824 words this batch, 1307s elapsed
+- [2026-08-16 14:34:39] wiki_dump: 67400 new pages this batch (67900 scanned), ~20291568 words this batch, 1315s elapsed
+- [2026-08-16 14:34:47] wiki_dump: 67600 new pages this batch (68100 scanned), ~20305392 words this batch, 1323s elapsed
+- [2026-08-16 14:34:54] wiki_dump: 67800 new pages this batch (68300 scanned), ~20319081 words this batch, 1331s elapsed
+- [2026-08-16 14:35:02] wiki_dump: 68000 new pages this batch (68500 scanned), ~20333005 words this batch, 1338s elapsed
+- [2026-08-16 14:35:10] wiki_dump: 68200 new pages this batch (68700 scanned), ~20346600 words this batch, 1346s elapsed
+- [2026-08-16 14:35:18] wiki_dump: 68400 new pages this batch (68900 scanned), ~20360059 words this batch, 1354s elapsed
+- [2026-08-16 14:35:26] wiki_dump: 68600 new pages this batch (69100 scanned), ~20371578 words this batch, 1362s elapsed
+- [2026-08-16 14:35:34] wiki_dump: 68800 new pages this batch (69300 scanned), ~20383836 words this batch, 1370s elapsed
+- [2026-08-16 14:35:42] wiki_dump: 69000 new pages this batch (69500 scanned), ~20397300 words this batch, 1378s elapsed
+- [2026-08-16 14:35:49] wiki_dump: 69200 new pages this batch (69700 scanned), ~20407770 words this batch, 1386s elapsed
+- [2026-08-16 14:35:57] wiki_dump: 69400 new pages this batch (69900 scanned), ~20418239 words this batch, 1394s elapsed
+- [2026-08-16 14:36:06] wiki_dump: 69600 new pages this batch (70100 scanned), ~20428748 words this batch, 1402s elapsed
+- [2026-08-16 14:36:14] wiki_dump: 69800 new pages this batch (70300 scanned), ~20499701 words this batch, 1410s elapsed
+- [2026-08-16 14:36:22] wiki_dump: 70000 new pages this batch (70500 scanned), ~20702025 words this batch, 1418s elapsed
+- [2026-08-16 14:36:30] wiki_dump: 70200 new pages this batch (70700 scanned), ~20712953 words this batch, 1426s elapsed
+- [2026-08-16 14:36:39] wiki_dump: 70400 new pages this batch (70900 scanned), ~20723667 words this batch, 1435s elapsed
+- [2026-08-16 14:36:46] wiki_dump: 70600 new pages this batch (71100 scanned), ~20734410 words this batch, 1443s elapsed
+- [2026-08-16 14:36:54] wiki_dump: 70800 new pages this batch (71300 scanned), ~20745026 words this batch, 1451s elapsed
+- [2026-08-16 14:37:02] wiki_dump: 71000 new pages this batch (71500 scanned), ~20755676 words this batch, 1458s elapsed
+- [2026-08-16 14:37:10] wiki_dump: 71200 new pages this batch (71700 scanned), ~20766286 words this batch, 1466s elapsed
+- [2026-08-16 14:37:18] wiki_dump: 71400 new pages this batch (71900 scanned), ~20776920 words this batch, 1475s elapsed
+- [2026-08-16 14:37:27] wiki_dump: 71600 new pages this batch (72100 scanned), ~20825410 words this batch, 1483s elapsed
+- [2026-08-16 14:37:36] wiki_dump: 71800 new pages this batch (72300 scanned), ~20836502 words this batch, 1492s elapsed
+- [2026-08-16 14:37:44] wiki_dump: 72000 new pages this batch (72500 scanned), ~20846857 words this batch, 1501s elapsed
+- [2026-08-16 14:37:53] wiki_dump: 72200 new pages this batch (72700 scanned), ~20857199 words this batch, 1509s elapsed
+- [2026-08-16 14:38:01] wiki_dump: 72400 new pages this batch (72900 scanned), ~20870065 words this batch, 1518s elapsed
+- [2026-08-16 14:38:09] wiki_dump: 72600 new pages this batch (73100 scanned), ~20880341 words this batch, 1526s elapsed
+- [2026-08-16 14:38:18] wiki_dump: 72800 new pages this batch (73300 scanned), ~20890728 words this batch, 1534s elapsed
+- [2026-08-16 14:38:26] wiki_dump: 73000 new pages this batch (73500 scanned), ~20901036 words this batch, 1543s elapsed
+- [2026-08-16 14:38:35] wiki_dump: 73200 new pages this batch (73700 scanned), ~20911348 words this batch, 1551s elapsed
+- [2026-08-16 14:38:43] wiki_dump: 73400 new pages this batch (73900 scanned), ~20921614 words this batch, 1560s elapsed
+- [2026-08-16 14:38:52] wiki_dump: 73600 new pages this batch (74100 scanned), ~20931914 words this batch, 1568s elapsed
+- [2026-08-16 14:39:00] wiki_dump: 73800 new pages this batch (74300 scanned), ~20942168 words this batch, 1576s elapsed
+- [2026-08-16 14:39:09] wiki_dump: 74000 new pages this batch (74500 scanned), ~20952502 words this batch, 1585s elapsed
+- [2026-08-16 14:39:18] wiki_dump: 74200 new pages this batch (74700 scanned), ~20962827 words this batch, 1594s elapsed
+- [2026-08-16 14:39:26] wiki_dump: 74400 new pages this batch (74900 scanned), ~20973252 words this batch, 1603s elapsed
+- [2026-08-16 14:39:35] wiki_dump: 74600 new pages this batch (75100 scanned), ~20983596 words this batch, 1612s elapsed
+- [2026-08-16 14:39:45] wiki_dump: 74800 new pages this batch (75300 scanned), ~21076821 words this batch, 1621s elapsed
+- [2026-08-16 14:39:53] wiki_dump: 75000 new pages this batch (75500 scanned), ~21083076 words this batch, 1630s elapsed
+- [2026-08-16 14:40:03] wiki_dump: 75200 new pages this batch (75700 scanned), ~21089374 words this batch, 1639s elapsed
+- [2026-08-16 14:40:12] wiki_dump: 75400 new pages this batch (75900 scanned), ~21095706 words this batch, 1648s elapsed
+- [2026-08-16 14:40:21] wiki_dump: 75600 new pages this batch (76100 scanned), ~21102002 words this batch, 1657s elapsed
+- [2026-08-16 14:40:30] wiki_dump: 75800 new pages this batch (76300 scanned), ~21108224 words this batch, 1666s elapsed
+- [2026-08-16 14:40:39] wiki_dump: 76000 new pages this batch (76500 scanned), ~21114682 words this batch, 1675s elapsed
+- [2026-08-16 14:40:49] wiki_dump: 76200 new pages this batch (76700 scanned), ~21134198 words this batch, 1685s elapsed
+- [2026-08-16 14:40:58] wiki_dump: 76400 new pages this batch (76900 scanned), ~21283904 words this batch, 1695s elapsed
+- [2026-08-16 14:41:08] wiki_dump: 76600 new pages this batch (77100 scanned), ~21427992 words this batch, 1704s elapsed
+- [2026-08-16 14:41:17] wiki_dump: 76800 new pages this batch (77300 scanned), ~21549680 words this batch, 1713s elapsed
+- [2026-08-16 14:41:26] wiki_dump: 77000 new pages this batch (77500 scanned), ~21667478 words this batch, 1722s elapsed
+- [2026-08-16 14:41:36] wiki_dump: 77200 new pages this batch (77700 scanned), ~21749176 words this batch, 1732s elapsed
+- [2026-08-16 14:41:45] wiki_dump: 77400 new pages this batch (77900 scanned), ~21757198 words this batch, 1741s elapsed
+- [2026-08-16 14:41:54] wiki_dump: 77600 new pages this batch (78100 scanned), ~21765081 words this batch, 1751s elapsed
+- [2026-08-16 14:42:04] wiki_dump: 77800 new pages this batch (78300 scanned), ~21773019 words this batch, 1760s elapsed
+- [2026-08-16 14:42:13] wiki_dump: 78000 new pages this batch (78500 scanned), ~21781230 words this batch, 1769s elapsed
+- [2026-08-16 14:42:22] wiki_dump: 78200 new pages this batch (78700 scanned), ~21789318 words this batch, 1778s elapsed
+- [2026-08-16 14:42:31] wiki_dump: 78400 new pages this batch (78900 scanned), ~21797871 words this batch, 1787s elapsed
+- [2026-08-16 14:42:40] wiki_dump: 78600 new pages this batch (79100 scanned), ~21807917 words this batch, 1797s elapsed
+- [2026-08-16 14:42:50] wiki_dump: 78800 new pages this batch (79300 scanned), ~21817559 words this batch, 1806s elapsed
+- [2026-08-16 14:42:59] wiki_dump: 79000 new pages this batch (79500 scanned), ~21849397 words this batch, 1815s elapsed
+- [2026-08-16 14:43:08] wiki_dump: 79200 new pages this batch (79700 scanned), ~21951619 words this batch, 1825s elapsed
+- [2026-08-16 14:43:18] wiki_dump: 79400 new pages this batch (79900 scanned), ~22019251 words this batch, 1834s elapsed
+- [2026-08-16 14:43:27] wiki_dump: 79600 new pages this batch (80100 scanned), ~22108691 words this batch, 1843s elapsed
+- [2026-08-16 14:43:37] wiki_dump: 79800 new pages this batch (80300 scanned), ~22179916 words this batch, 1853s elapsed
+- [2026-08-16 14:43:46] wiki_dump: 80000 new pages this batch (80500 scanned), ~22252286 words this batch, 1863s elapsed
+- [2026-08-16 14:43:56] wiki_dump: 80200 new pages this batch (80700 scanned), ~22293985 words this batch, 1872s elapsed
+- [2026-08-16 14:44:05] wiki_dump: 80400 new pages this batch (80900 scanned), ~22365770 words this batch, 1882s elapsed
+- [2026-08-16 14:44:15] wiki_dump: 80600 new pages this batch (81100 scanned), ~22420058 words this batch, 1891s elapsed
+- [2026-08-16 14:44:25] wiki_dump: 80800 new pages this batch (81300 scanned), ~22483345 words this batch, 1901s elapsed
+- [2026-08-16 14:44:35] wiki_dump: 81000 new pages this batch (81500 scanned), ~22555860 words this batch, 1911s elapsed
+- [2026-08-16 14:44:44] wiki_dump: 81200 new pages this batch (81700 scanned), ~22623303 words this batch, 1920s elapsed
+- [2026-08-16 14:44:54] wiki_dump: 81400 new pages this batch (81900 scanned), ~22689146 words this batch, 1930s elapsed
+- [2026-08-16 14:45:04] wiki_dump: 81600 new pages this batch (82100 scanned), ~22725151 words this batch, 1940s elapsed
+- [2026-08-16 14:45:13] wiki_dump: 81800 new pages this batch (82300 scanned), ~22784023 words this batch, 1950s elapsed
+- [2026-08-16 14:45:23] wiki_dump: 82000 new pages this batch (82500 scanned), ~22844374 words this batch, 1959s elapsed
+- [2026-08-16 14:45:32] wiki_dump: 82200 new pages this batch (82700 scanned), ~22855845 words this batch, 1969s elapsed
+- [2026-08-16 14:45:42] wiki_dump: 82400 new pages this batch (82900 scanned), ~22885490 words this batch, 1978s elapsed
+- [2026-08-16 14:45:52] wiki_dump: 82600 new pages this batch (83100 scanned), ~22959329 words this batch, 1988s elapsed
+- [2026-08-16 14:46:01] wiki_dump: 82800 new pages this batch (83300 scanned), ~23020494 words this batch, 1998s elapsed
+- [2026-08-16 14:46:11] wiki_dump: 83000 new pages this batch (83500 scanned), ~23069270 words this batch, 2007s elapsed
+- [2026-08-16 14:46:20] wiki_dump: 83200 new pages this batch (83700 scanned), ~23122878 words this batch, 2017s elapsed
+- [2026-08-16 14:46:30] wiki_dump: 83400 new pages this batch (83900 scanned), ~23193078 words this batch, 2026s elapsed
+- [2026-08-16 14:46:40] wiki_dump: 83600 new pages this batch (84100 scanned), ~23257060 words this batch, 2036s elapsed
+- [2026-08-16 14:46:50] wiki_dump: 83800 new pages this batch (84300 scanned), ~23306923 words this batch, 2046s elapsed
+- [2026-08-16 14:47:00] wiki_dump: 84000 new pages this batch (84500 scanned), ~23344776 words this batch, 2056s elapsed
+- [2026-08-16 14:47:09] wiki_dump: 84200 new pages this batch (84700 scanned), ~23409340 words this batch, 2066s elapsed
+- [2026-08-16 14:47:19] wiki_dump: 84400 new pages this batch (84900 scanned), ~23464330 words this batch, 2076s elapsed
+- [2026-08-16 14:47:29] wiki_dump: 84600 new pages this batch (85100 scanned), ~23551233 words this batch, 2085s elapsed
+- [2026-08-16 14:47:39] wiki_dump: 84800 new pages this batch (85300 scanned), ~23604668 words this batch, 2095s elapsed
+- [2026-08-16 14:47:49] wiki_dump: 85000 new pages this batch (85500 scanned), ~23661510 words this batch, 2105s elapsed
+- [2026-08-16 14:47:59] wiki_dump: 85200 new pages this batch (85700 scanned), ~23712510 words this batch, 2115s elapsed
+- [2026-08-16 14:48:09] wiki_dump: 85400 new pages this batch (85900 scanned), ~23767373 words this batch, 2125s elapsed
+- [2026-08-16 14:48:19] wiki_dump: 85600 new pages this batch (86100 scanned), ~23824054 words this batch, 2135s elapsed
+- [2026-08-16 14:48:29] wiki_dump: 85800 new pages this batch (86300 scanned), ~23870014 words this batch, 2146s elapsed
+- [2026-08-16 14:48:40] wiki_dump: 86000 new pages this batch (86500 scanned), ~23925644 words this batch, 2156s elapsed
+- [2026-08-16 14:48:50] wiki_dump: 86200 new pages this batch (86700 scanned), ~23970447 words this batch, 2167s elapsed
+- [2026-08-16 14:49:01] wiki_dump: 86400 new pages this batch (86900 scanned), ~24025204 words this batch, 2177s elapsed
+- [2026-08-16 14:49:11] wiki_dump: 86600 new pages this batch (87100 scanned), ~24078995 words this batch, 2188s elapsed
+- [2026-08-16 14:49:22] wiki_dump: 86800 new pages this batch (87300 scanned), ~24121855 words this batch, 2198s elapsed
+- [2026-08-16 14:49:32] wiki_dump: 87000 new pages this batch (87500 scanned), ~24174652 words this batch, 2209s elapsed
+- [2026-08-16 14:49:43] wiki_dump: 87200 new pages this batch (87700 scanned), ~24214778 words this batch, 2219s elapsed
+- [2026-08-16 14:49:53] wiki_dump: 87400 new pages this batch (87900 scanned), ~24247292 words this batch, 2229s elapsed
+- [2026-08-16 14:50:04] wiki_dump: 87600 new pages this batch (88100 scanned), ~24286332 words this batch, 2240s elapsed
+- [2026-08-16 14:50:15] wiki_dump: 87800 new pages this batch (88300 scanned), ~24341662 words this batch, 2251s elapsed
+- [2026-08-16 14:50:25] wiki_dump: 88000 new pages this batch (88500 scanned), ~24386620 words this batch, 2262s elapsed
+- [2026-08-16 14:50:36] wiki_dump: 88200 new pages this batch (88700 scanned), ~24414227 words this batch, 2273s elapsed
+- [2026-08-16 14:50:47] wiki_dump: 88400 new pages this batch (88900 scanned), ~24446722 words this batch, 2283s elapsed
+- [2026-08-16 14:50:58] wiki_dump: 88600 new pages this batch (89100 scanned), ~24484553 words this batch, 2295s elapsed
+- [2026-08-16 14:51:09] wiki_dump: 88800 new pages this batch (89300 scanned), ~24522135 words this batch, 2306s elapsed
+- [2026-08-16 14:51:20] wiki_dump: 89000 new pages this batch (89500 scanned), ~24552065 words this batch, 2316s elapsed
+- [2026-08-16 14:51:31] wiki_dump: 89200 new pages this batch (89700 scanned), ~24583168 words this batch, 2327s elapsed
+- [2026-08-16 14:51:42] wiki_dump: 89400 new pages this batch (89900 scanned), ~24624013 words this batch, 2338s elapsed
+- [2026-08-16 14:51:53] wiki_dump: 89600 new pages this batch (90100 scanned), ~24653962 words this batch, 2349s elapsed
+- [2026-08-16 14:52:04] wiki_dump: 89800 new pages this batch (90300 scanned), ~24684331 words this batch, 2360s elapsed
+- [2026-08-16 14:52:15] wiki_dump: 90000 new pages this batch (90500 scanned), ~24719560 words this batch, 2371s elapsed
+- [2026-08-16 14:52:25] wiki_dump: 90200 new pages this batch (90700 scanned), ~24757668 words this batch, 2382s elapsed
+- [2026-08-16 14:52:37] wiki_dump: 90400 new pages this batch (90900 scanned), ~24779222 words this batch, 2393s elapsed
+- [2026-08-16 14:52:48] wiki_dump: 90600 new pages this batch (91100 scanned), ~24811260 words this batch, 2404s elapsed
+- [2026-08-16 14:52:59] wiki_dump: 90800 new pages this batch (91300 scanned), ~24844036 words this batch, 2415s elapsed
+- [2026-08-16 14:53:10] wiki_dump: 91000 new pages this batch (91500 scanned), ~24869368 words this batch, 2426s elapsed
+- [2026-08-16 14:53:21] wiki_dump: 91200 new pages this batch (91700 scanned), ~24904575 words this batch, 2437s elapsed
+- [2026-08-16 14:53:32] wiki_dump: 91400 new pages this batch (91900 scanned), ~24931775 words this batch, 2448s elapsed
+- [2026-08-16 14:53:43] wiki_dump: 91600 new pages this batch (92100 scanned), ~24955934 words this batch, 2459s elapsed
+- [2026-08-16 14:53:55] wiki_dump: 91800 new pages this batch (92300 scanned), ~24995422 words this batch, 2471s elapsed
+- [2026-08-16 14:54:06] wiki_dump: 92000 new pages this batch (92500 scanned), ~25031362 words this batch, 2482s elapsed
+- [2026-08-16 14:54:17] wiki_dump: 92200 new pages this batch (92700 scanned), ~25053835 words this batch, 2493s elapsed
+- [2026-08-16 14:54:28] wiki_dump: 92400 new pages this batch (92900 scanned), ~25098729 words this batch, 2504s elapsed
+- [2026-08-16 14:54:39] wiki_dump: 92600 new pages this batch (93100 scanned), ~25141664 words this batch, 2516s elapsed
+- [2026-08-16 14:54:51] wiki_dump: 92800 new pages this batch (93300 scanned), ~25189232 words this batch, 2527s elapsed
+- [2026-08-16 14:55:02] wiki_dump: 93000 new pages this batch (93500 scanned), ~25266094 words this batch, 2538s elapsed
+- [2026-08-16 14:55:13] wiki_dump: 93200 new pages this batch (93700 scanned), ~25366972 words this batch, 2550s elapsed
+- [2026-08-16 14:55:24] wiki_dump: 93400 new pages this batch (93900 scanned), ~25448347 words this batch, 2561s elapsed
+- [2026-08-16 14:55:35] wiki_dump: 93600 new pages this batch (94100 scanned), ~25491644 words this batch, 2572s elapsed
+- [2026-08-16 14:55:47] wiki_dump: 93800 new pages this batch (94300 scanned), ~25545075 words this batch, 2583s elapsed
+- [2026-08-16 14:55:58] wiki_dump: 94000 new pages this batch (94500 scanned), ~25615059 words this batch, 2594s elapsed
+- [2026-08-16 14:56:09] wiki_dump: 94200 new pages this batch (94700 scanned), ~25658557 words this batch, 2605s elapsed
+- [2026-08-16 14:56:20] wiki_dump: 94400 new pages this batch (94900 scanned), ~25687749 words this batch, 2617s elapsed
+- [2026-08-16 14:56:32] wiki_dump: 94600 new pages this batch (95100 scanned), ~25715960 words this batch, 2628s elapsed
+- [2026-08-16 14:56:43] wiki_dump: 94800 new pages this batch (95300 scanned), ~25766858 words this batch, 2639s elapsed
+- [2026-08-16 14:56:54] wiki_dump: 95000 new pages this batch (95500 scanned), ~25797258 words this batch, 2651s elapsed
+- [2026-08-16 14:57:06] wiki_dump: 95200 new pages this batch (95700 scanned), ~25830310 words this batch, 2662s elapsed
+- [2026-08-16 14:57:17] wiki_dump: 95400 new pages this batch (95900 scanned), ~25879011 words this batch, 2674s elapsed
+- [2026-08-16 14:57:29] wiki_dump: 95600 new pages this batch (96100 scanned), ~25902161 words this batch, 2685s elapsed
+- [2026-08-16 14:57:40] wiki_dump: 95800 new pages this batch (96300 scanned), ~25948851 words this batch, 2697s elapsed
+- [2026-08-16 14:57:52] wiki_dump: 96000 new pages this batch (96500 scanned), ~25981852 words this batch, 2708s elapsed
+- [2026-08-16 14:58:03] wiki_dump: 96200 new pages this batch (96700 scanned), ~26020571 words this batch, 2719s elapsed
+- [2026-08-16 14:58:15] wiki_dump: 96400 new pages this batch (96900 scanned), ~26058713 words this batch, 2731s elapsed
+- [2026-08-16 14:58:26] wiki_dump: 96600 new pages this batch (97100 scanned), ~26085884 words this batch, 2742s elapsed
+- [2026-08-16 14:58:37] wiki_dump: 96800 new pages this batch (97300 scanned), ~26120964 words this batch, 2754s elapsed
+- [2026-08-16 14:58:49] wiki_dump: 97000 new pages this batch (97500 scanned), ~26150906 words this batch, 2765s elapsed
+- [2026-08-16 14:59:00] wiki_dump: 97200 new pages this batch (97700 scanned), ~26184735 words this batch, 2777s elapsed
+- [2026-08-16 14:59:12] wiki_dump: 97400 new pages this batch (97900 scanned), ~26236181 words this batch, 2788s elapsed
+- [2026-08-16 14:59:23] wiki_dump: 97600 new pages this batch (98100 scanned), ~26268972 words this batch, 2799s elapsed
+- [2026-08-16 14:59:34] wiki_dump: 97800 new pages this batch (98300 scanned), ~26303428 words this batch, 2810s elapsed
+- [2026-08-16 14:59:45] wiki_dump: 98000 new pages this batch (98500 scanned), ~26311176 words this batch, 2821s elapsed
+- [2026-08-16 14:59:56] wiki_dump: 98200 new pages this batch (98700 scanned), ~26346290 words this batch, 2833s elapsed
+- [2026-08-16 15:00:08] wiki_dump: 98400 new pages this batch (98900 scanned), ~26374488 words this batch, 2844s elapsed
+- [2026-08-16 15:00:19] wiki_dump: 98600 new pages this batch (99100 scanned), ~26402122 words this batch, 2855s elapsed
+- [2026-08-16 15:00:30] wiki_dump: 98800 new pages this batch (99300 scanned), ~26430201 words this batch, 2866s elapsed
+- [2026-08-16 15:00:41] wiki_dump: 99000 new pages this batch (99500 scanned), ~26444725 words this batch, 2878s elapsed
+- [2026-08-16 15:00:53] wiki_dump: 99200 new pages this batch (99700 scanned), ~26463142 words this batch, 2889s elapsed
+- [2026-08-16 15:01:05] wiki_dump: 99400 new pages this batch (99900 scanned), ~26494959 words this batch, 2901s elapsed
+- [2026-08-16 15:01:16] wiki_dump: 99600 new pages this batch (100100 scanned), ~26519986 words this batch, 2912s elapsed
+- [2026-08-16 15:01:27] wiki_dump: 99800 new pages this batch (100300 scanned), ~26543176 words this batch, 2924s elapsed
+- [2026-08-16 15:01:39] wiki_dump: 100000 new pages this batch (100500 scanned), ~26566976 words this batch, 2935s elapsed
+- [2026-08-16 15:01:50] wiki_dump: 100200 new pages this batch (100700 scanned), ~26596961 words this batch, 2947s elapsed
+- [2026-08-16 15:02:02] wiki_dump: 100400 new pages this batch (100900 scanned), ~26631763 words this batch, 2958s elapsed
+- [2026-08-16 15:02:14] wiki_dump: 100600 new pages this batch (101100 scanned), ~26671726 words this batch, 2970s elapsed
+- [2026-08-16 15:02:25] wiki_dump: 100800 new pages this batch (101300 scanned), ~26690228 words this batch, 2982s elapsed
+- [2026-08-16 15:02:37] wiki_dump: 101000 new pages this batch (101500 scanned), ~26736775 words this batch, 2993s elapsed
+- [2026-08-16 15:02:49] wiki_dump: 101200 new pages this batch (101700 scanned), ~26783562 words this batch, 3005s elapsed
+- [2026-08-16 15:03:01] wiki_dump: 101400 new pages this batch (101900 scanned), ~26820621 words this batch, 3017s elapsed
+- [2026-08-16 15:03:13] wiki_dump: 101600 new pages this batch (102100 scanned), ~26863636 words this batch, 3029s elapsed
+- [2026-08-16 15:03:24] wiki_dump: 101800 new pages this batch (102300 scanned), ~26893055 words this batch, 3041s elapsed
+- [2026-08-16 15:03:36] wiki_dump: 102000 new pages this batch (102500 scanned), ~26928387 words this batch, 3053s elapsed
+- [2026-08-16 15:03:48] wiki_dump: 102200 new pages this batch (102700 scanned), ~26965545 words this batch, 3064s elapsed
+- [2026-08-16 15:04:01] wiki_dump: 102400 new pages this batch (102900 scanned), ~26996708 words this batch, 3077s elapsed
+- [2026-08-16 15:04:13] wiki_dump: 102600 new pages this batch (103100 scanned), ~27028738 words this batch, 3089s elapsed
+- [2026-08-16 15:04:24] wiki_dump: 102800 new pages this batch (103300 scanned), ~27042131 words this batch, 3101s elapsed
+- [2026-08-16 15:04:36] wiki_dump: 103000 new pages this batch (103500 scanned), ~27057760 words this batch, 3113s elapsed
+- [2026-08-16 15:04:48] wiki_dump: 103200 new pages this batch (103700 scanned), ~27081286 words this batch, 3125s elapsed
+- [2026-08-16 15:05:01] wiki_dump: 103400 new pages this batch (103900 scanned), ~27114703 words this batch, 3137s elapsed
+- [2026-08-16 15:05:13] wiki_dump: 103600 new pages this batch (104100 scanned), ~27150348 words this batch, 3149s elapsed
+- [2026-08-16 15:05:25] wiki_dump: 103800 new pages this batch (104300 scanned), ~27190107 words this batch, 3161s elapsed
+- [2026-08-16 15:05:37] wiki_dump: 104000 new pages this batch (104500 scanned), ~27236690 words this batch, 3173s elapsed
+- [2026-08-16 15:05:49] wiki_dump: 104200 new pages this batch (104700 scanned), ~27276620 words this batch, 3185s elapsed
+- [2026-08-16 15:06:01] wiki_dump: 104400 new pages this batch (104900 scanned), ~27310989 words this batch, 3198s elapsed
+- [2026-08-16 15:06:15] wiki_dump: 104600 new pages this batch (105100 scanned), ~27342582 words this batch, 3211s elapsed
+- [2026-08-16 15:06:27] wiki_dump: 104800 new pages this batch (105300 scanned), ~27358918 words this batch, 3223s elapsed
+- [2026-08-16 15:06:39] wiki_dump: 105000 new pages this batch (105500 scanned), ~27381268 words this batch, 3235s elapsed
+- [2026-08-16 15:06:51] wiki_dump: 105200 new pages this batch (105700 scanned), ~27415566 words this batch, 3247s elapsed
+- [2026-08-16 15:07:03] wiki_dump: 105400 new pages this batch (105900 scanned), ~27452760 words this batch, 3259s elapsed
+- [2026-08-16 15:07:15] wiki_dump: 105600 new pages this batch (106100 scanned), ~27487781 words this batch, 3271s elapsed
+- [2026-08-16 15:07:26] wiki_dump: 105800 new pages this batch (106300 scanned), ~27523885 words this batch, 3283s elapsed
+- [2026-08-16 15:07:38] wiki_dump: 106000 new pages this batch (106500 scanned), ~27569692 words this batch, 3295s elapsed
+- [2026-08-16 15:07:51] wiki_dump: 106200 new pages this batch (106700 scanned), ~27607409 words this batch, 3307s elapsed
+- [2026-08-16 15:08:04] wiki_dump: 106400 new pages this batch (106900 scanned), ~27647835 words this batch, 3320s elapsed
+- [2026-08-16 15:08:16] wiki_dump: 106600 new pages this batch (107100 scanned), ~27686557 words this batch, 3332s elapsed
+- [2026-08-16 15:08:29] wiki_dump: 106800 new pages this batch (107300 scanned), ~27710059 words this batch, 3345s elapsed
+- [2026-08-16 15:08:41] wiki_dump: 107000 new pages this batch (107500 scanned), ~27745162 words this batch, 3357s elapsed
+- [2026-08-16 15:08:54] wiki_dump: 107200 new pages this batch (107700 scanned), ~27771314 words this batch, 3370s elapsed
+- [2026-08-16 15:09:06] wiki_dump: 107400 new pages this batch (107900 scanned), ~27795290 words this batch, 3382s elapsed
+- [2026-08-16 15:09:19] wiki_dump: 107600 new pages this batch (108100 scanned), ~27828005 words this batch, 3395s elapsed
+- [2026-08-16 15:09:31] wiki_dump: 107800 new pages this batch (108300 scanned), ~27861342 words this batch, 3407s elapsed
+- [2026-08-16 15:09:44] wiki_dump: 108000 new pages this batch (108500 scanned), ~27889058 words this batch, 3420s elapsed
+- [2026-08-16 15:09:57] wiki_dump: 108200 new pages this batch (108700 scanned), ~27979580 words this batch, 3433s elapsed
+- [2026-08-16 15:10:09] wiki_dump: 108400 new pages this batch (108900 scanned), ~28020156 words this batch, 3445s elapsed
+- [2026-08-16 15:10:21] wiki_dump: 108600 new pages this batch (109100 scanned), ~28040063 words this batch, 3458s elapsed
+- [2026-08-16 15:10:34] wiki_dump: 108800 new pages this batch (109300 scanned), ~28072283 words this batch, 3470s elapsed
+- [2026-08-16 15:10:46] wiki_dump: 109000 new pages this batch (109500 scanned), ~28088536 words this batch, 3483s elapsed
+- [2026-08-16 15:11:00] wiki_dump: 109200 new pages this batch (109700 scanned), ~28119347 words this batch, 3496s elapsed
+- [2026-08-16 15:11:13] wiki_dump: 109400 new pages this batch (109900 scanned), ~28134776 words this batch, 3509s elapsed
+- [2026-08-16 15:11:26] wiki_dump: 109600 new pages this batch (110100 scanned), ~28155635 words this batch, 3522s elapsed
+- [2026-08-16 15:11:39] wiki_dump: 109800 new pages this batch (110300 scanned), ~28176429 words this batch, 3535s elapsed
+- [2026-08-16 15:11:52] wiki_dump: 110000 new pages this batch (110500 scanned), ~28192153 words this batch, 3548s elapsed
+- [2026-08-16 15:12:05] wiki_dump: 110200 new pages this batch (110700 scanned), ~28215318 words this batch, 3561s elapsed
+- [2026-08-16 15:12:18] wiki_dump: 110400 new pages this batch (110900 scanned), ~28241045 words this batch, 3574s elapsed
+- [2026-08-16 15:12:30] wiki_dump: 110600 new pages this batch (111100 scanned), ~28255187 words this batch, 3587s elapsed
+- [2026-08-16 15:12:43] wiki_dump: 110800 new pages this batch (111300 scanned), ~28273250 words this batch, 3600s elapsed
+- [2026-08-16 15:12:44] BATCH COMPLETE: 110805 new pages extracted (111305 scanned this run), ~28273686 words this batch, 3600s elapsed. Overall: 111305 pages, ~28989503 words total ever.
+- [2026-08-16 17:49:14] wiki_dump: 111305 pages already extracted from prior runs, using 11 worker processes
+- [2026-08-16 17:49:47] wiki_dump: 200 new pages this batch, ~24268 words this batch, 34s elapsed
+- [2026-08-16 17:50:04] wiki_dump: 400 new pages this batch, ~51132 words this batch, 50s elapsed
+- [2026-08-16 17:50:19] wiki_dump: 600 new pages this batch, ~81125 words this batch, 65s elapsed
+- [2026-08-16 17:50:32] wiki_dump: 800 new pages this batch, ~108551 words this batch, 79s elapsed
+- [2026-08-16 17:50:46] wiki_dump: 1000 new pages this batch, ~126849 words this batch, 92s elapsed
+- [2026-08-16 17:51:00] wiki_dump: 1200 new pages this batch, ~144078 words this batch, 106s elapsed
+- [2026-08-16 17:51:13] wiki_dump: 1400 new pages this batch, ~165931 words this batch, 120s elapsed
+- [2026-08-16 17:51:27] wiki_dump: 1600 new pages this batch, ~175378 words this batch, 133s elapsed
+- [2026-08-16 17:51:40] wiki_dump: 1800 new pages this batch, ~182341 words this batch, 147s elapsed
+- [2026-08-16 17:51:54] wiki_dump: 2000 new pages this batch, ~189703 words this batch, 160s elapsed
+- [2026-08-16 17:52:07] wiki_dump: 2200 new pages this batch, ~209980 words this batch, 173s elapsed
+- [2026-08-16 17:52:20] wiki_dump: 2400 new pages this batch, ~223657 words this batch, 187s elapsed
+- [2026-08-16 17:52:34] wiki_dump: 2600 new pages this batch, ~247346 words this batch, 200s elapsed
+- [2026-08-16 17:52:48] wiki_dump: 2800 new pages this batch, ~269196 words this batch, 214s elapsed
+- [2026-08-16 17:53:02] wiki_dump: 3000 new pages this batch, ~302157 words this batch, 228s elapsed
+- [2026-08-16 17:53:15] wiki_dump: 3200 new pages this batch, ~332826 words this batch, 242s elapsed
+- [2026-08-16 17:53:30] wiki_dump: 3400 new pages this batch, ~364685 words this batch, 256s elapsed
+- [2026-08-16 17:53:44] wiki_dump: 3600 new pages this batch, ~381773 words this batch, 270s elapsed
+- [2026-08-16 17:56:13] wiki_dump: 114919 pages already extracted from prior runs
+- [2026-08-16 17:56:44] wiki_dump: 200 new pages this batch (115119 scanned), ~26039 words this batch, 31s elapsed
+- [2026-08-16 17:56:58] wiki_dump: 400 new pages this batch (115319 scanned), ~34121 words this batch, 45s elapsed
+- [2026-08-16 17:57:11] wiki_dump: 600 new pages this batch (115519 scanned), ~42455 words this batch, 59s elapsed
+- [2026-08-16 17:57:26] wiki_dump: 800 new pages this batch (115719 scanned), ~60438 words this batch, 73s elapsed
+- [2026-08-16 17:57:40] wiki_dump: 1000 new pages this batch (115919 scanned), ~79549 words this batch, 87s elapsed
+- [2026-08-16 17:57:53] wiki_dump: 1200 new pages this batch (116119 scanned), ~91787 words this batch, 101s elapsed
+- [2026-08-16 17:58:07] wiki_dump: 1400 new pages this batch (116319 scanned), ~110920 words this batch, 114s elapsed
+- [2026-08-16 17:58:20] wiki_dump: 1600 new pages this batch (116519 scanned), ~160054 words this batch, 128s elapsed
+- [2026-08-16 17:58:34] wiki_dump: 1800 new pages this batch (116719 scanned), ~193940 words this batch, 141s elapsed
+- [2026-08-16 17:58:47] wiki_dump: 2000 new pages this batch (116919 scanned), ~221582 words this batch, 154s elapsed
+- [2026-08-16 17:59:00] wiki_dump: 2200 new pages this batch (117119 scanned), ~272243 words this batch, 168s elapsed
+- [2026-08-16 17:59:13] wiki_dump: 2400 new pages this batch (117319 scanned), ~308800 words this batch, 181s elapsed
+- [2026-08-16 17:59:27] wiki_dump: 2600 new pages this batch (117519 scanned), ~334671 words this batch, 194s elapsed
+- [2026-08-16 17:59:40] wiki_dump: 2800 new pages this batch (117719 scanned), ~365381 words this batch, 208s elapsed
+- [2026-08-16 17:59:54] wiki_dump: 3000 new pages this batch (117919 scanned), ~411627 words this batch, 221s elapsed
+- [2026-08-16 18:00:08] wiki_dump: 3200 new pages this batch (118119 scanned), ~431038 words this batch, 235s elapsed
+- [2026-08-16 18:00:21] wiki_dump: 3400 new pages this batch (118319 scanned), ~448868 words this batch, 249s elapsed
+- [2026-08-16 18:00:35] wiki_dump: 3600 new pages this batch (118519 scanned), ~485739 words this batch, 262s elapsed
+- [2026-08-16 18:00:48] wiki_dump: 3800 new pages this batch (118719 scanned), ~506945 words this batch, 276s elapsed
+- [2026-08-16 18:01:01] wiki_dump: 4000 new pages this batch (118919 scanned), ~518554 words this batch, 289s elapsed
+- [2026-08-16 18:01:15] wiki_dump: 4200 new pages this batch (119119 scanned), ~527419 words this batch, 302s elapsed
+- [2026-08-16 18:01:28] wiki_dump: 4400 new pages this batch (119319 scanned), ~537050 words this batch, 316s elapsed
+- [2026-08-16 18:01:42] wiki_dump: 4600 new pages this batch (119519 scanned), ~557606 words this batch, 329s elapsed
+- [2026-08-16 18:01:56] wiki_dump: 4800 new pages this batch (119719 scanned), ~575044 words this batch, 343s elapsed
+- [2026-08-16 18:02:09] wiki_dump: 5000 new pages this batch (119919 scanned), ~600541 words this batch, 356s elapsed
+- [2026-08-16 18:02:22] wiki_dump: 5200 new pages this batch (120119 scanned), ~609115 words this batch, 370s elapsed
+- [2026-08-16 18:02:36] wiki_dump: 5400 new pages this batch (120319 scanned), ~630742 words this batch, 384s elapsed
+- [2026-08-16 18:02:50] wiki_dump: 5600 new pages this batch (120519 scanned), ~653582 words this batch, 397s elapsed
+- [2026-08-16 18:03:04] wiki_dump: 5800 new pages this batch (120719 scanned), ~680327 words this batch, 411s elapsed
+- [2026-08-16 18:03:19] wiki_dump: 6000 new pages this batch (120919 scanned), ~691250 words this batch, 426s elapsed
+- [2026-08-16 18:03:33] wiki_dump: 6200 new pages this batch (121119 scanned), ~699526 words this batch, 441s elapsed
+- [2026-08-16 18:03:48] wiki_dump: 6400 new pages this batch (121319 scanned), ~710679 words this batch, 455s elapsed
+- [2026-08-16 18:04:02] wiki_dump: 6600 new pages this batch (121519 scanned), ~724955 words this batch, 469s elapsed
+- [2026-08-16 18:04:16] wiki_dump: 6800 new pages this batch (121719 scanned), ~749831 words this batch, 483s elapsed
+- [2026-08-16 18:04:30] wiki_dump: 7000 new pages this batch (121919 scanned), ~764179 words this batch, 497s elapsed
+- [2026-08-16 18:04:43] wiki_dump: 7200 new pages this batch (122119 scanned), ~777719 words this batch, 511s elapsed
+- [2026-08-16 18:04:57] wiki_dump: 7400 new pages this batch (122319 scanned), ~789209 words this batch, 524s elapsed
+- [2026-08-16 18:05:10] wiki_dump: 7600 new pages this batch (122519 scanned), ~810684 words this batch, 538s elapsed
+- [2026-08-16 18:05:24] wiki_dump: 7800 new pages this batch (122719 scanned), ~828483 words this batch, 551s elapsed
+- [2026-08-16 18:05:37] wiki_dump: 8000 new pages this batch (122919 scanned), ~845486 words this batch, 565s elapsed
+- [2026-08-16 18:05:51] wiki_dump: 8200 new pages this batch (123119 scanned), ~864265 words this batch, 578s elapsed
+- [2026-08-16 18:06:05] wiki_dump: 8400 new pages this batch (123319 scanned), ~878448 words this batch, 592s elapsed
+- [2026-08-16 18:06:19] wiki_dump: 8600 new pages this batch (123519 scanned), ~917769 words this batch, 607s elapsed
+- [2026-08-16 18:06:33] wiki_dump: 8800 new pages this batch (123719 scanned), ~959039 words this batch, 621s elapsed
+- [2026-08-16 18:06:47] wiki_dump: 9000 new pages this batch (123919 scanned), ~989584 words this batch, 635s elapsed
+- [2026-08-16 18:07:01] wiki_dump: 9200 new pages this batch (124119 scanned), ~1024177 words this batch, 648s elapsed
+- [2026-08-16 18:07:15] wiki_dump: 9400 new pages this batch (124319 scanned), ~1054179 words this batch, 662s elapsed
+- [2026-08-16 18:07:29] wiki_dump: 9600 new pages this batch (124519 scanned), ~1085607 words this batch, 677s elapsed
+- [2026-08-16 18:07:43] wiki_dump: 9800 new pages this batch (124719 scanned), ~1150239 words this batch, 691s elapsed
+- [2026-08-16 18:07:57] wiki_dump: 10000 new pages this batch (124919 scanned), ~1184251 words this batch, 705s elapsed
+- [2026-08-16 18:08:11] wiki_dump: 10200 new pages this batch (125119 scanned), ~1215072 words this batch, 718s elapsed
+- [2026-08-16 18:08:25] wiki_dump: 10400 new pages this batch (125319 scanned), ~1248630 words this batch, 732s elapsed
+- [2026-08-16 18:08:39] wiki_dump: 10600 new pages this batch (125519 scanned), ~1275256 words this batch, 746s elapsed
+- [2026-08-16 18:08:53] wiki_dump: 10800 new pages this batch (125719 scanned), ~1307709 words this batch, 760s elapsed
+- [2026-08-16 18:09:07] wiki_dump: 11000 new pages this batch (125919 scanned), ~1317417 words this batch, 774s elapsed
+- [2026-08-16 18:09:21] wiki_dump: 11200 new pages this batch (126119 scanned), ~1350720 words this batch, 788s elapsed
+- [2026-08-16 18:09:35] wiki_dump: 11400 new pages this batch (126319 scanned), ~1369489 words this batch, 802s elapsed
+- [2026-08-16 18:09:49] wiki_dump: 11600 new pages this batch (126519 scanned), ~1381825 words this batch, 816s elapsed
+- [2026-08-16 18:10:03] wiki_dump: 11800 new pages this batch (126719 scanned), ~1393316 words this batch, 830s elapsed
+- [2026-08-16 18:10:16] wiki_dump: 12000 new pages this batch (126919 scanned), ~1403168 words this batch, 844s elapsed
+- [2026-08-16 18:10:31] wiki_dump: 12200 new pages this batch (127119 scanned), ~1433318 words this batch, 858s elapsed
+- [2026-08-16 18:10:45] wiki_dump: 12400 new pages this batch (127319 scanned), ~1449702 words this batch, 873s elapsed
+- [2026-08-16 18:10:59] wiki_dump: 12600 new pages this batch (127519 scanned), ~1469915 words this batch, 887s elapsed
+- [2026-08-16 18:11:13] wiki_dump: 12800 new pages this batch (127719 scanned), ~1484145 words this batch, 901s elapsed
+- [2026-08-16 18:11:28] wiki_dump: 13000 new pages this batch (127919 scanned), ~1499596 words this batch, 915s elapsed
+- [2026-08-16 18:11:43] wiki_dump: 13200 new pages this batch (128119 scanned), ~1514963 words this batch, 930s elapsed
+- [2026-08-16 18:11:57] wiki_dump: 13400 new pages this batch (128319 scanned), ~1528576 words this batch, 944s elapsed
+- [2026-08-16 18:12:11] wiki_dump: 13600 new pages this batch (128519 scanned), ~1543805 words this batch, 959s elapsed
+- [2026-08-16 18:12:26] wiki_dump: 13800 new pages this batch (128719 scanned), ~1557083 words this batch, 974s elapsed
+- [2026-08-16 18:12:41] wiki_dump: 14000 new pages this batch (128919 scanned), ~1572946 words this batch, 988s elapsed
+- [2026-08-16 18:12:55] wiki_dump: 14200 new pages this batch (129119 scanned), ~1602639 words this batch, 1003s elapsed
+- [2026-08-16 18:13:10] wiki_dump: 14400 new pages this batch (129319 scanned), ~1625299 words this batch, 1017s elapsed
+- [2026-08-16 18:13:24] wiki_dump: 14600 new pages this batch (129519 scanned), ~1655721 words this batch, 1031s elapsed
+- [2026-08-16 18:13:38] wiki_dump: 14800 new pages this batch (129719 scanned), ~1677309 words this batch, 1046s elapsed
+- [2026-08-16 18:13:52] wiki_dump: 15000 new pages this batch (129919 scanned), ~1702795 words this batch, 1060s elapsed
+- [2026-08-16 18:14:07] wiki_dump: 15200 new pages this batch (130119 scanned), ~1740020 words this batch, 1074s elapsed
+- [2026-08-16 18:14:21] wiki_dump: 15400 new pages this batch (130319 scanned), ~1766903 words this batch, 1089s elapsed
+- [2026-08-16 18:14:36] wiki_dump: 15600 new pages this batch (130519 scanned), ~1801419 words this batch, 1103s elapsed
+- [2026-08-16 18:14:50] wiki_dump: 15800 new pages this batch (130719 scanned), ~1822575 words this batch, 1118s elapsed
+- [2026-08-16 18:15:05] wiki_dump: 16000 new pages this batch (130919 scanned), ~1865489 words this batch, 1133s elapsed
+- [2026-08-16 18:15:20] wiki_dump: 16200 new pages this batch (131119 scanned), ~1890664 words this batch, 1147s elapsed
+- [2026-08-16 18:15:35] wiki_dump: 16400 new pages this batch (131319 scanned), ~1924136 words this batch, 1162s elapsed
+- [2026-08-16 18:15:49] wiki_dump: 16600 new pages this batch (131519 scanned), ~1955524 words this batch, 1177s elapsed
+- [2026-08-16 18:16:04] wiki_dump: 16800 new pages this batch (131719 scanned), ~1984818 words this batch, 1191s elapsed
+- [2026-08-16 18:16:18] wiki_dump: 17000 new pages this batch (131919 scanned), ~2018932 words this batch, 1206s elapsed
+- [2026-08-16 18:16:33] wiki_dump: 17200 new pages this batch (132119 scanned), ~2064023 words this batch, 1221s elapsed
+- [2026-08-16 18:16:50] wiki_dump: 17400 new pages this batch (132319 scanned), ~2118864 words this batch, 1237s elapsed
+- [2026-08-16 18:17:06] wiki_dump: 17600 new pages this batch (132519 scanned), ~2156544 words this batch, 1253s elapsed
+- [2026-08-16 18:17:23] wiki_dump: 17800 new pages this batch (132719 scanned), ~2186255 words this batch, 1270s elapsed
+- [2026-08-16 18:17:40] wiki_dump: 18000 new pages this batch (132919 scanned), ~2215112 words this batch, 1287s elapsed
+- [2026-08-16 18:17:56] wiki_dump: 18200 new pages this batch (133119 scanned), ~2251089 words this batch, 1304s elapsed
+- [2026-08-16 18:18:13] wiki_dump: 18400 new pages this batch (133319 scanned), ~2279088 words this batch, 1320s elapsed
+- [2026-08-16 18:18:29] wiki_dump: 18600 new pages this batch (133519 scanned), ~2304775 words this batch, 1337s elapsed
+- [2026-08-16 18:18:46] wiki_dump: 18800 new pages this batch (133719 scanned), ~2341259 words this batch, 1353s elapsed
+- [2026-08-16 18:19:02] wiki_dump: 19000 new pages this batch (133919 scanned), ~2370689 words this batch, 1370s elapsed
+- [2026-08-16 18:19:19] wiki_dump: 19200 new pages this batch (134119 scanned), ~2411435 words this batch, 1387s elapsed
+- [2026-08-16 18:19:36] wiki_dump: 19400 new pages this batch (134319 scanned), ~2450531 words this batch, 1403s elapsed
+- [2026-08-16 18:19:53] wiki_dump: 19600 new pages this batch (134519 scanned), ~2484342 words this batch, 1420s elapsed
+- [2026-08-16 18:20:09] wiki_dump: 19800 new pages this batch (134719 scanned), ~2521659 words this batch, 1436s elapsed
+- [2026-08-16 18:20:25] wiki_dump: 20000 new pages this batch (134919 scanned), ~2551122 words this batch, 1452s elapsed
+- [2026-08-16 18:20:43] wiki_dump: 20200 new pages this batch (135119 scanned), ~2589854 words this batch, 1470s elapsed
+- [2026-08-16 18:20:59] wiki_dump: 20400 new pages this batch (135319 scanned), ~2622806 words this batch, 1487s elapsed
+- [2026-08-16 18:21:16] wiki_dump: 20600 new pages this batch (135519 scanned), ~2647585 words this batch, 1504s elapsed
+- [2026-08-16 18:21:33] wiki_dump: 20800 new pages this batch (135719 scanned), ~2683915 words this batch, 1520s elapsed
+- [2026-08-16 18:21:49] wiki_dump: 21000 new pages this batch (135919 scanned), ~2735917 words this batch, 1536s elapsed
+- [2026-08-16 18:22:05] wiki_dump: 21200 new pages this batch (136119 scanned), ~2786170 words this batch, 1552s elapsed
+- [2026-08-16 18:22:20] wiki_dump: 21400 new pages this batch (136319 scanned), ~2857702 words this batch, 1568s elapsed
+- [2026-08-16 18:22:36] wiki_dump: 21600 new pages this batch (136519 scanned), ~2903089 words this batch, 1584s elapsed
+- [2026-08-16 18:22:52] wiki_dump: 21800 new pages this batch (136719 scanned), ~2944967 words this batch, 1599s elapsed
+- [2026-08-16 18:23:08] wiki_dump: 22000 new pages this batch (136919 scanned), ~2980628 words this batch, 1615s elapsed
+- [2026-08-16 18:23:24] wiki_dump: 22200 new pages this batch (137119 scanned), ~3011728 words this batch, 1631s elapsed
+- [2026-08-16 18:23:39] wiki_dump: 22400 new pages this batch (137319 scanned), ~3044739 words this batch, 1647s elapsed
+- [2026-08-16 18:23:55] wiki_dump: 22600 new pages this batch (137519 scanned), ~3085318 words this batch, 1662s elapsed
+- [2026-08-16 18:24:11] wiki_dump: 22800 new pages this batch (137719 scanned), ~3133600 words this batch, 1678s elapsed
+- [2026-08-16 18:24:27] wiki_dump: 23000 new pages this batch (137919 scanned), ~3174296 words this batch, 1694s elapsed
+- [2026-08-16 18:24:43] wiki_dump: 23200 new pages this batch (138119 scanned), ~3210452 words this batch, 1710s elapsed
+- [2026-08-16 18:24:59] wiki_dump: 23400 new pages this batch (138319 scanned), ~3258509 words this batch, 1726s elapsed
+- [2026-08-16 18:25:14] wiki_dump: 23600 new pages this batch (138519 scanned), ~3278024 words this batch, 1742s elapsed
+- [2026-08-16 18:25:30] wiki_dump: 23800 new pages this batch (138719 scanned), ~3308018 words this batch, 1757s elapsed
+- [2026-08-16 18:25:46] wiki_dump: 24000 new pages this batch (138919 scanned), ~3332693 words this batch, 1773s elapsed
+- [2026-08-16 18:26:02] wiki_dump: 24200 new pages this batch (139119 scanned), ~3373259 words this batch, 1789s elapsed
+- [2026-08-16 18:26:17] wiki_dump: 24400 new pages this batch (139319 scanned), ~3414838 words this batch, 1805s elapsed
+- [2026-08-16 18:26:33] wiki_dump: 24600 new pages this batch (139519 scanned), ~3444586 words this batch, 1820s elapsed
+- [2026-08-16 18:26:49] wiki_dump: 24800 new pages this batch (139719 scanned), ~3471254 words this batch, 1836s elapsed
+- [2026-08-16 18:27:05] wiki_dump: 25000 new pages this batch (139919 scanned), ~3494517 words this batch, 1852s elapsed
+- [2026-08-16 18:27:21] wiki_dump: 25200 new pages this batch (140119 scanned), ~3523414 words this batch, 1868s elapsed
+- [2026-08-16 18:27:37] wiki_dump: 25400 new pages this batch (140319 scanned), ~3550660 words this batch, 1885s elapsed
+- [2026-08-16 18:27:54] wiki_dump: 25600 new pages this batch (140519 scanned), ~3584673 words this batch, 1901s elapsed
+- [2026-08-16 18:28:10] wiki_dump: 25800 new pages this batch (140719 scanned), ~3607814 words this batch, 1917s elapsed
+- [2026-08-16 18:28:26] wiki_dump: 26000 new pages this batch (140919 scanned), ~3635890 words this batch, 1933s elapsed
+- [2026-08-16 18:28:42] wiki_dump: 26200 new pages this batch (141119 scanned), ~3653486 words this batch, 1950s elapsed
+- [2026-08-16 18:28:58] wiki_dump: 26400 new pages this batch (141319 scanned), ~3673491 words this batch, 1966s elapsed
+- [2026-08-16 18:29:14] wiki_dump: 26600 new pages this batch (141519 scanned), ~3704894 words this batch, 1982s elapsed
+- [2026-08-16 18:29:31] wiki_dump: 26800 new pages this batch (141719 scanned), ~3730315 words this batch, 1998s elapsed
+- [2026-08-16 18:29:47] wiki_dump: 27000 new pages this batch (141919 scanned), ~3768400 words this batch, 2014s elapsed
+- [2026-08-16 18:30:03] wiki_dump: 27200 new pages this batch (142119 scanned), ~3816261 words this batch, 2031s elapsed
+- [2026-08-16 18:30:19] wiki_dump: 27400 new pages this batch (142319 scanned), ~3859510 words this batch, 2047s elapsed
+- [2026-08-16 18:30:35] wiki_dump: 27600 new pages this batch (142519 scanned), ~3900054 words this batch, 2063s elapsed
+- [2026-08-16 18:30:51] wiki_dump: 27800 new pages this batch (142719 scanned), ~3937423 words this batch, 2079s elapsed
+- [2026-08-16 18:31:07] wiki_dump: 28000 new pages this batch (142919 scanned), ~3966449 words this batch, 2095s elapsed
+- [2026-08-16 18:31:23] wiki_dump: 28200 new pages this batch (143119 scanned), ~3990358 words this batch, 2111s elapsed
+- [2026-08-16 18:31:39] wiki_dump: 28400 new pages this batch (143319 scanned), ~4005786 words this batch, 2127s elapsed
+- [2026-08-16 18:31:55] wiki_dump: 28600 new pages this batch (143519 scanned), ~4030855 words this batch, 2143s elapsed
+- [2026-08-16 18:32:11] wiki_dump: 28800 new pages this batch (143719 scanned), ~4055739 words this batch, 2159s elapsed
+- [2026-08-16 18:32:28] wiki_dump: 29000 new pages this batch (143919 scanned), ~4083414 words this batch, 2175s elapsed
+- [2026-08-16 18:32:44] wiki_dump: 29200 new pages this batch (144119 scanned), ~4113273 words this batch, 2191s elapsed
+- [2026-08-16 18:33:00] wiki_dump: 29400 new pages this batch (144319 scanned), ~4133687 words this batch, 2207s elapsed
+- [2026-08-16 18:33:16] wiki_dump: 29600 new pages this batch (144519 scanned), ~4148325 words this batch, 2224s elapsed
+- [2026-08-16 18:33:32] wiki_dump: 29800 new pages this batch (144719 scanned), ~4168036 words this batch, 2240s elapsed
+- [2026-08-16 18:33:49] wiki_dump: 30000 new pages this batch (144919 scanned), ~4192237 words this batch, 2256s elapsed
+- [2026-08-16 18:34:05] wiki_dump: 30200 new pages this batch (145119 scanned), ~4217732 words this batch, 2272s elapsed
+- [2026-08-16 18:34:22] wiki_dump: 30400 new pages this batch (145319 scanned), ~4264735 words this batch, 2289s elapsed
+- [2026-08-16 18:34:38] wiki_dump: 30600 new pages this batch (145519 scanned), ~4301061 words this batch, 2305s elapsed
+- [2026-08-16 18:34:54] wiki_dump: 30800 new pages this batch (145719 scanned), ~4334649 words this batch, 2322s elapsed
+- [2026-08-16 18:35:11] wiki_dump: 31000 new pages this batch (145919 scanned), ~4370163 words this batch, 2338s elapsed
+- [2026-08-16 18:35:27] wiki_dump: 31200 new pages this batch (146119 scanned), ~4397195 words this batch, 2355s elapsed
+- [2026-08-16 18:35:44] wiki_dump: 31400 new pages this batch (146319 scanned), ~4444131 words this batch, 2371s elapsed
+- [2026-08-16 18:36:00] wiki_dump: 31600 new pages this batch (146519 scanned), ~4473586 words this batch, 2388s elapsed
+- [2026-08-16 18:36:17] wiki_dump: 31800 new pages this batch (146719 scanned), ~4506117 words this batch, 2404s elapsed
+- [2026-08-16 18:36:33] wiki_dump: 32000 new pages this batch (146919 scanned), ~4535775 words this batch, 2421s elapsed
+- [2026-08-16 18:36:50] wiki_dump: 32200 new pages this batch (147119 scanned), ~4579605 words this batch, 2438s elapsed
+- [2026-08-16 18:37:07] wiki_dump: 32400 new pages this batch (147319 scanned), ~4626624 words this batch, 2454s elapsed
+- [2026-08-16 18:37:23] wiki_dump: 32600 new pages this batch (147519 scanned), ~4672744 words this batch, 2471s elapsed
+- [2026-08-16 18:37:40] wiki_dump: 32800 new pages this batch (147719 scanned), ~4704048 words this batch, 2487s elapsed
+- [2026-08-16 18:37:57] wiki_dump: 33000 new pages this batch (147919 scanned), ~4747882 words this batch, 2504s elapsed
+- [2026-08-16 18:38:13] wiki_dump: 33200 new pages this batch (148119 scanned), ~4778813 words this batch, 2520s elapsed
+- [2026-08-16 18:38:29] wiki_dump: 33400 new pages this batch (148319 scanned), ~4817512 words this batch, 2537s elapsed
+- [2026-08-16 18:38:46] wiki_dump: 33600 new pages this batch (148519 scanned), ~4855808 words this batch, 2554s elapsed
+- [2026-08-16 18:39:03] wiki_dump: 33800 new pages this batch (148719 scanned), ~4891668 words this batch, 2570s elapsed
+- [2026-08-16 18:39:19] wiki_dump: 34000 new pages this batch (148919 scanned), ~4934308 words this batch, 2587s elapsed
+- [2026-08-16 18:39:36] wiki_dump: 34200 new pages this batch (149119 scanned), ~4960172 words this batch, 2603s elapsed
+- [2026-08-16 18:39:53] wiki_dump: 34400 new pages this batch (149319 scanned), ~4986086 words this batch, 2620s elapsed
+- [2026-08-16 18:40:09] wiki_dump: 34600 new pages this batch (149519 scanned), ~5003318 words this batch, 2637s elapsed
+- [2026-08-16 18:40:26] wiki_dump: 34800 new pages this batch (149719 scanned), ~5023449 words this batch, 2653s elapsed
+- [2026-08-16 18:40:43] wiki_dump: 35000 new pages this batch (149919 scanned), ~5058452 words this batch, 2670s elapsed
+- [2026-08-16 18:41:00] wiki_dump: 35200 new pages this batch (150119 scanned), ~5095256 words this batch, 2687s elapsed
+- [2026-08-16 18:41:17] wiki_dump: 35400 new pages this batch (150319 scanned), ~5149116 words this batch, 2704s elapsed
+- [2026-08-16 18:41:34] wiki_dump: 35600 new pages this batch (150519 scanned), ~5184940 words this batch, 2721s elapsed
+- [2026-08-16 18:41:51] wiki_dump: 35800 new pages this batch (150719 scanned), ~5218800 words this batch, 2739s elapsed
+- [2026-08-16 18:42:08] wiki_dump: 36000 new pages this batch (150919 scanned), ~5263693 words this batch, 2756s elapsed
+- [2026-08-16 18:42:25] wiki_dump: 36200 new pages this batch (151119 scanned), ~5319077 words this batch, 2773s elapsed
+- [2026-08-16 18:42:42] wiki_dump: 36400 new pages this batch (151319 scanned), ~5387212 words this batch, 2789s elapsed
+- [2026-08-16 18:43:00] wiki_dump: 36600 new pages this batch (151519 scanned), ~5440107 words this batch, 2807s elapsed
+- [2026-08-16 18:43:17] wiki_dump: 36800 new pages this batch (151719 scanned), ~5511720 words this batch, 2824s elapsed
+- [2026-08-16 18:43:34] wiki_dump: 37000 new pages this batch (151919 scanned), ~5637020 words this batch, 2841s elapsed
+- [2026-08-16 18:43:51] wiki_dump: 37200 new pages this batch (152119 scanned), ~5675018 words this batch, 2858s elapsed
+- [2026-08-16 18:44:08] wiki_dump: 37400 new pages this batch (152319 scanned), ~5724019 words this batch, 2875s elapsed
+- [2026-08-16 18:44:25] wiki_dump: 37600 new pages this batch (152519 scanned), ~5745965 words this batch, 2893s elapsed
+- [2026-08-16 18:44:42] wiki_dump: 37800 new pages this batch (152719 scanned), ~5764740 words this batch, 2910s elapsed
+- [2026-08-16 18:45:00] wiki_dump: 38000 new pages this batch (152919 scanned), ~5786774 words this batch, 2927s elapsed
+- [2026-08-16 18:45:17] wiki_dump: 38200 new pages this batch (153119 scanned), ~5807389 words this batch, 2944s elapsed
+- [2026-08-16 18:45:34] wiki_dump: 38400 new pages this batch (153319 scanned), ~5820566 words this batch, 2962s elapsed
+- [2026-08-16 18:45:51] wiki_dump: 38600 new pages this batch (153519 scanned), ~5835763 words this batch, 2979s elapsed
+- [2026-08-16 18:46:09] wiki_dump: 38800 new pages this batch (153719 scanned), ~5845030 words this batch, 2996s elapsed
+- [2026-08-16 18:46:26] wiki_dump: 39000 new pages this batch (153919 scanned), ~5858787 words this batch, 3013s elapsed
+- [2026-08-16 18:46:43] wiki_dump: 39200 new pages this batch (154119 scanned), ~5869752 words this batch, 3031s elapsed
+- [2026-08-16 18:47:01] wiki_dump: 39400 new pages this batch (154319 scanned), ~5884505 words this batch, 3048s elapsed
+- [2026-08-16 18:47:19] wiki_dump: 39600 new pages this batch (154519 scanned), ~5900261 words this batch, 3066s elapsed
+- [2026-08-16 18:47:37] wiki_dump: 39800 new pages this batch (154719 scanned), ~5930076 words this batch, 3084s elapsed
+- [2026-08-16 18:47:55] wiki_dump: 40000 new pages this batch (154919 scanned), ~5951887 words this batch, 3102s elapsed
+- [2026-08-16 18:48:12] wiki_dump: 40200 new pages this batch (155119 scanned), ~5987811 words this batch, 3120s elapsed
+- [2026-08-16 18:48:30] wiki_dump: 40400 new pages this batch (155319 scanned), ~6000915 words this batch, 3138s elapsed
+- [2026-08-16 18:48:48] wiki_dump: 40600 new pages this batch (155519 scanned), ~6005437 words this batch, 3156s elapsed
+- [2026-08-16 18:49:07] wiki_dump: 40800 new pages this batch (155719 scanned), ~6017870 words this batch, 3174s elapsed
+- [2026-08-16 18:49:24] wiki_dump: 41000 new pages this batch (155919 scanned), ~6041595 words this batch, 3192s elapsed
+- [2026-08-16 18:49:42] wiki_dump: 41200 new pages this batch (156119 scanned), ~6063689 words this batch, 3209s elapsed
+- [2026-08-16 18:50:00] wiki_dump: 41400 new pages this batch (156319 scanned), ~6096355 words this batch, 3227s elapsed
+- [2026-08-16 18:50:18] wiki_dump: 41600 new pages this batch (156519 scanned), ~6139456 words this batch, 3246s elapsed
+- [2026-08-16 18:50:36] wiki_dump: 41800 new pages this batch (156719 scanned), ~6159441 words this batch, 3263s elapsed
+- [2026-08-16 18:50:54] wiki_dump: 42000 new pages this batch (156919 scanned), ~6174263 words this batch, 3281s elapsed
+- [2026-08-16 18:51:12] wiki_dump: 42200 new pages this batch (157119 scanned), ~6189952 words this batch, 3299s elapsed
+- [2026-08-16 18:51:29] wiki_dump: 42400 new pages this batch (157319 scanned), ~6210146 words this batch, 3317s elapsed
+- [2026-08-16 18:51:47] wiki_dump: 42600 new pages this batch (157519 scanned), ~6221152 words this batch, 3335s elapsed
+- [2026-08-16 18:52:05] wiki_dump: 42800 new pages this batch (157719 scanned), ~6242660 words this batch, 3353s elapsed
+- [2026-08-16 18:52:23] wiki_dump: 43000 new pages this batch (157919 scanned), ~6264262 words this batch, 3371s elapsed
+- [2026-08-16 18:52:41] wiki_dump: 43200 new pages this batch (158119 scanned), ~6290052 words this batch, 3389s elapsed
+- [2026-08-16 18:52:59] wiki_dump: 43400 new pages this batch (158319 scanned), ~6320124 words this batch, 3407s elapsed
+- [2026-08-16 18:53:17] wiki_dump: 43600 new pages this batch (158519 scanned), ~6357899 words this batch, 3425s elapsed
+- [2026-08-16 18:53:35] wiki_dump: 43800 new pages this batch (158719 scanned), ~6396996 words this batch, 3443s elapsed
+- [2026-08-16 18:53:55] wiki_dump: 44000 new pages this batch (158919 scanned), ~6430892 words this batch, 3462s elapsed
+- [2026-08-16 18:54:14] wiki_dump: 44200 new pages this batch (159119 scanned), ~6482924 words this batch, 3482s elapsed
+- [2026-08-16 18:54:35] wiki_dump: 44400 new pages this batch (159319 scanned), ~6557815 words this batch, 3502s elapsed
+- [2026-08-16 18:54:55] wiki_dump: 44600 new pages this batch (159519 scanned), ~6630032 words this batch, 3522s elapsed
+- [2026-08-16 18:55:14] wiki_dump: 44800 new pages this batch (159719 scanned), ~6691944 words this batch, 3542s elapsed
+- [2026-08-16 18:55:34] wiki_dump: 45000 new pages this batch (159919 scanned), ~6735266 words this batch, 3561s elapsed
+- [2026-08-16 18:55:53] wiki_dump: 45200 new pages this batch (160119 scanned), ~6770306 words this batch, 3581s elapsed
+- [2026-08-16 18:56:13] BATCH COMPLETE: 45397 new pages extracted (160316 scanned this run), ~6800987 words this batch, 3600s elapsed. Overall: 160316 pages, ~36172823 words total ever.
+- [2026-08-17 02:47:45] Starting 10 concurrent source workers: ['jagran', 'amarujala', 'bbc_hindi', 'livehindustan', 'abplive', 'prabhatkhabar', 'indiatv', 'patrika', 'zeenews', 'aajtak']
+- [2026-08-17 02:47:47] jagran: discovery found 129 URLs, 124 new
+- [2026-08-17 02:47:47] amarujala: discovery found 783 URLs, 726 new
+- [2026-08-17 02:47:47] bbc_hindi: discovery found 100 URLs, 100 new
+- [2026-08-17 02:47:48] aajtak: discovery attempt 1/3 failed, retrying
+- [2026-08-17 02:47:49] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-11.xml
+- [2026-08-17 02:47:49] livehindustan: discovery found 1000 URLs, 1000 new
+- [2026-08-17 02:47:50] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-10.xml
+- [2026-08-17 02:47:52] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-09.xml
+- [2026-08-17 02:47:52] aajtak: discovery attempt 2/3 failed, retrying
+- [2026-08-17 02:47:53] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 02:47:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-08.xml
+- [2026-08-17 02:47:55] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-07.xml
+- [2026-08-17 02:47:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-06.xml
+- [2026-08-17 02:47:57] wiki_dump: 160316 pages already extracted from prior runs
+- [2026-08-17 02:47:57] patrika: discovery found 1607 URLs, 1607 new
+- [2026-08-17 02:47:57] aajtak: discovery attempt 3/3 failed, retrying
+- [2026-08-17 02:47:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-05.xml
+- [2026-08-17 02:48:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-04.xml
+- [2026-08-17 02:48:01] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-03.xml
+- [2026-08-17 02:48:02] aajtak: discovery failed 3/3 times -- skipping this run, NOT marking as drained (0 done so far)
+- [2026-08-17 02:48:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-02.xml
+- [2026-08-17 02:48:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-01.xml
+- [2026-08-17 02:48:07] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-31.xml
+- [2026-08-17 02:48:08] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-30.xml
+- [2026-08-17 02:48:10] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-29.xml
+- [2026-08-17 02:48:11] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-28.xml
+- [2026-08-17 02:48:13] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-27.xml
+- [2026-08-17 02:48:15] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-26.xml
+- [2026-08-17 02:48:16] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-25.xml
+- [2026-08-17 02:48:18] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-24.xml
+- [2026-08-17 02:48:19] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-23.xml
+- [2026-08-17 02:48:21] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-22.xml
+- [2026-08-17 02:48:23] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-21.xml
+- [2026-08-17 02:48:24] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-20.xml
+- [2026-08-17 02:48:26] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-19.xml
+- [2026-08-17 02:48:27] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-18.xml
+- [2026-08-17 02:48:29] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-17.xml
+- [2026-08-17 02:48:30] jagran: 20/124 articles this batch, ~317 words this batch (~371 total ever)
+- [2026-08-17 02:48:30] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-16.xml
+- [2026-08-17 02:48:32] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-15.xml
+- [2026-08-17 02:48:32] livehindustan: 20/1000 articles this batch, ~17659 words this batch (~17659 total ever)
+- [2026-08-17 02:48:33] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-14.xml
+- [2026-08-17 02:48:35] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-13.xml
+- [2026-08-17 02:48:37] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-12.xml
+- [2026-08-17 02:48:38] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-11.xml
+- [2026-08-17 02:48:40] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-10.xml
+- [2026-08-17 02:48:41] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-09.xml
+- [2026-08-17 02:48:43] wiki_dump: 200 new pages this batch (160516 scanned), ~26970 words this batch, 46s elapsed
+- [2026-08-17 02:48:43] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-08.xml
+- [2026-08-17 02:48:44] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-07.xml
+- [2026-08-17 02:48:45] abplive: discovery found 11870 URLs, 11870 new
+- [2026-08-17 02:48:47] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-06.xml
+- [2026-08-17 02:48:48] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-05.xml
+- [2026-08-17 02:48:50] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-04.xml
+- [2026-08-17 02:48:51] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-03.xml
+- [2026-08-17 02:48:52] zeenews: discovery found 0 URLs, 0 new
+- [2026-08-17 02:48:52] zeenews: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 02:48:53] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-02.xml
+- [2026-08-17 02:48:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-01.xml
+- [2026-08-17 02:48:56] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-30.xml
+- [2026-08-17 02:48:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-29.xml
+- [2026-08-17 02:48:59] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-28.xml
+- [2026-08-17 02:49:01] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-27.xml
+- [2026-08-17 02:49:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-26.xml
+- [2026-08-17 02:49:04] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-25.xml
+- [2026-08-17 02:49:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-24.xml
+- [2026-08-17 02:49:07] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-23.xml
+- [2026-08-17 02:49:07] prabhatkhabar: discovery found 0 URLs, 0 new
+- [2026-08-17 02:49:07] prabhatkhabar: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 02:49:07] jagran: 40/124 articles this batch, ~645 words this batch (~699 total ever)
+- [2026-08-17 02:49:07] wiki_dump: 400 new pages this batch (160716 scanned), ~40801 words this batch, 71s elapsed
+- [2026-08-17 02:49:09] indiatv: discovery found 7938 URLs, 7938 new
+- [2026-08-17 02:49:14] livehindustan: 40/1000 articles this batch, ~36320 words this batch (~36320 total ever)
+- [2026-08-17 02:49:34] wiki_dump: 600 new pages this batch (160916 scanned), ~61674 words this batch, 97s elapsed
+- [2026-08-17 02:49:48] jagran: 60/124 articles this batch, ~1005 words this batch (~1059 total ever)
+- [2026-08-17 02:50:01] wiki_dump: 800 new pages this batch (161116 scanned), ~84438 words this batch, 124s elapsed
+- [2026-08-17 02:50:01] livehindustan: 60/1000 articles this batch, ~54782 words this batch (~54782 total ever)
+- [2026-08-17 02:50:27] jagran: 80/124 articles this batch, ~1372 words this batch (~1426 total ever)
+- [2026-08-17 02:50:28] wiki_dump: 1000 new pages this batch (161316 scanned), ~116822 words this batch, 151s elapsed
+- [2026-08-17 02:50:42] livehindustan: 80/1000 articles this batch, ~73612 words this batch (~73612 total ever)
+- [2026-08-17 02:50:55] wiki_dump: 1200 new pages this batch (161516 scanned), ~142795 words this batch, 179s elapsed
+- [2026-08-17 02:51:07] jagran: 100/124 articles this batch, ~1726 words this batch (~1780 total ever)
+- [2026-08-17 02:51:22] wiki_dump: 1400 new pages this batch (161716 scanned), ~169769 words this batch, 205s elapsed
+- [2026-08-17 02:51:30] livehindustan: 100/1000 articles this batch, ~91067 words this batch (~91067 total ever)
+- [2026-08-17 02:51:47] jagran: batch done -- 119 new articles, ~2042 words, 240s, ~2096 words total ever
+- [2026-08-17 02:51:48] wiki_dump: 1600 new pages this batch (161916 scanned), ~197087 words this batch, 231s elapsed
+- [2026-08-17 02:52:13] wiki_dump: 1800 new pages this batch (162116 scanned), ~223380 words this batch, 256s elapsed
+- [2026-08-17 02:52:23] livehindustan: 120/1000 articles this batch, ~108150 words this batch (~108150 total ever)
+- [2026-08-17 02:52:38] wiki_dump: 2000 new pages this batch (162316 scanned), ~242714 words this batch, 281s elapsed
+- [2026-08-17 02:53:01] livehindustan: 140/1000 articles this batch, ~126012 words this batch (~126012 total ever)
+- [2026-08-17 02:53:03] wiki_dump: 2200 new pages this batch (162516 scanned), ~255901 words this batch, 306s elapsed
+- [2026-08-17 02:53:28] wiki_dump: 2400 new pages this batch (162716 scanned), ~274479 words this batch, 331s elapsed
+- [2026-08-17 02:53:33] bbc_hindi: batch done -- 0 new articles, ~0 words, 346s, ~0 words total ever
+- [2026-08-17 02:53:40] livehindustan: 160/1000 articles this batch, ~143160 words this batch (~143160 total ever)
+- [2026-08-17 02:53:53] wiki_dump: 2600 new pages this batch (162916 scanned), ~300663 words this batch, 356s elapsed
+- [2026-08-17 02:54:17] wiki_dump: 2800 new pages this batch (163116 scanned), ~338580 words this batch, 380s elapsed
+- [2026-08-17 02:54:23] livehindustan: 180/1000 articles this batch, ~160913 words this batch (~160913 total ever)
+- [2026-08-17 02:54:40] wiki_dump: 3000 new pages this batch (163316 scanned), ~363685 words this batch, 404s elapsed
+- [2026-08-17 02:55:04] wiki_dump: 3200 new pages this batch (163516 scanned), ~381416 words this batch, 427s elapsed
+- [2026-08-17 02:55:21] livehindustan: 200/1000 articles this batch, ~178281 words this batch (~178281 total ever)
+- [2026-08-17 02:55:27] wiki_dump: 3400 new pages this batch (163716 scanned), ~404996 words this batch, 450s elapsed
+- [2026-08-17 02:55:51] wiki_dump: 3600 new pages this batch (163916 scanned), ~436480 words this batch, 475s elapsed
+- [2026-08-17 02:56:14] livehindustan: 220/1000 articles this batch, ~194652 words this batch (~194652 total ever)
+- [2026-08-17 02:56:15] wiki_dump: 3800 new pages this batch (164116 scanned), ~479795 words this batch, 498s elapsed
+- [2026-08-17 02:56:39] wiki_dump: 4000 new pages this batch (164316 scanned), ~524056 words this batch, 523s elapsed
+- [2026-08-17 02:56:51] livehindustan: 240/1000 articles this batch, ~212208 words this batch (~212208 total ever)
+- [2026-08-17 02:57:03] wiki_dump: 4200 new pages this batch (164516 scanned), ~572812 words this batch, 546s elapsed
+- [2026-08-17 02:57:27] wiki_dump: 4400 new pages this batch (164716 scanned), ~617218 words this batch, 570s elapsed
+- [2026-08-17 02:57:33] livehindustan: 260/1000 articles this batch, ~228715 words this batch (~228715 total ever)
+- [2026-08-17 02:57:51] wiki_dump: 4600 new pages this batch (164916 scanned), ~642944 words this batch, 594s elapsed
+- [2026-08-17 02:58:13] wiki_dump: 4800 new pages this batch (165116 scanned), ~678364 words this batch, 616s elapsed
+- [2026-08-17 02:58:18] livehindustan: 280/1000 articles this batch, ~248136 words this batch (~248136 total ever)
+- [2026-08-17 02:58:37] wiki_dump: 5000 new pages this batch (165316 scanned), ~719312 words this batch, 640s elapsed
+- [2026-08-17 02:58:56] livehindustan: 300/1000 articles this batch, ~266635 words this batch (~266635 total ever)
+- [2026-08-17 02:59:01] wiki_dump: 5200 new pages this batch (165516 scanned), ~772716 words this batch, 665s elapsed
+- [2026-08-17 02:59:25] wiki_dump: 5400 new pages this batch (165716 scanned), ~816918 words this batch, 688s elapsed
+- [2026-08-17 02:59:49] wiki_dump: 5600 new pages this batch (165916 scanned), ~862467 words this batch, 712s elapsed
+- [2026-08-17 02:59:51] livehindustan: 320/1000 articles this batch, ~285541 words this batch (~285541 total ever)
+- [2026-08-17 03:00:13] wiki_dump: 5800 new pages this batch (166116 scanned), ~885832 words this batch, 736s elapsed
+- [2026-08-17 03:00:37] wiki_dump: 6000 new pages this batch (166316 scanned), ~901840 words this batch, 761s elapsed
+- [2026-08-17 03:00:39] livehindustan: 340/1000 articles this batch, ~303112 words this batch (~303112 total ever)
+- [2026-08-17 03:01:03] wiki_dump: 6200 new pages this batch (166516 scanned), ~926035 words this batch, 786s elapsed
+- [2026-08-17 03:01:13] wiki_dump_parallel: building chunk offset table from index...
+- [2026-08-17 03:01:14] wiki_dump_parallel: 3271 independent chunks in multistream dump
+- [2026-08-17 03:01:14] wiki_dump_parallel: 0 chunks already done, 3271 pending
+- [2026-08-17 03:01:18] wiki_dump_parallel: 20 chunks / 1302 pages this batch, ~1017909 words this batch, 4s elapsed
+- [2026-08-17 03:01:21] livehindustan: 360/1000 articles this batch, ~321935 words this batch (~321935 total ever)
+- [2026-08-17 03:01:23] wiki_dump_parallel: 40 chunks / 2864 pages this batch, ~2140055 words this batch, 9s elapsed
+- [2026-08-17 03:01:25] BATCH COMPLETE: 50 chunks / 3579 pages extracted this batch, ~2681050 words this batch, 11s elapsed. Overall: 50/3271 chunks done, ~2681050 words total ever.
+- [2026-08-17 03:01:32] wiki_dump: 6400 new pages this batch (166716 scanned), ~939528 words this batch, 815s elapsed
+- [2026-08-17 03:01:56] wiki_dump: 6600 new pages this batch (166916 scanned), ~966831 words this batch, 840s elapsed
+- [2026-08-17 03:02:03] livehindustan: 380/1000 articles this batch, ~339267 words this batch (~339267 total ever)
+- [2026-08-17 03:02:51] livehindustan: 400/1000 articles this batch, ~359307 words this batch (~359307 total ever)
+- [2026-08-17 03:03:46] livehindustan: 420/1000 articles this batch, ~376732 words this batch (~376732 total ever)
+- [2026-08-17 03:04:33] livehindustan: 440/1000 articles this batch, ~396065 words this batch (~396065 total ever)
+- [2026-08-17 03:05:29] livehindustan: 460/1000 articles this batch, ~415157 words this batch (~415157 total ever)
+- [2026-08-17 03:06:19] livehindustan: 480/1000 articles this batch, ~431642 words this batch (~431642 total ever)
+- [2026-08-17 03:07:05] livehindustan: 500/1000 articles this batch, ~451387 words this batch (~451387 total ever)
+- [2026-08-17 03:07:49] livehindustan: 520/1000 articles this batch, ~469946 words this batch (~469946 total ever)
+- [2026-08-17 03:08:35] livehindustan: 540/1000 articles this batch, ~487149 words this batch (~487149 total ever)
+- [2026-08-17 03:09:15] livehindustan: 560/1000 articles this batch, ~505961 words this batch (~505961 total ever)
+- [2026-08-17 03:10:00] livehindustan: 580/1000 articles this batch, ~522643 words this batch (~522643 total ever)
+- [2026-08-17 03:10:53] livehindustan: 600/1000 articles this batch, ~540006 words this batch (~540006 total ever)
+- [2026-08-17 03:10:54] wiki_dump_parallel: building chunk offset table from index...
+- [2026-08-17 03:10:55] wiki_dump_parallel: 3271 independent chunks in multistream dump
+- [2026-08-17 03:10:55] wiki_dump_parallel: 0 chunks already done, 3271 pending
+- [2026-08-17 03:10:55] wiki_dump_parallel: 20 chunks / 1251 pages this batch, ~1248933 words this batch, 1s elapsed
+- [2026-08-17 03:10:55] wiki_dump_parallel: 40 chunks / 2778 pages this batch, ~2113342 words this batch, 1s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 60 chunks / 4348 pages this batch, ~2935528 words this batch, 1s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 80 chunks / 5951 pages this batch, ~3345539 words this batch, 1s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 100 chunks / 7666 pages this batch, ~3601810 words this batch, 1s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 120 chunks / 8990 pages this batch, ~3959062 words this batch, 1s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 140 chunks / 9615 pages this batch, ~4182032 words this batch, 1s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 160 chunks / 10894 pages this batch, ~4532752 words this batch, 2s elapsed
+- [2026-08-17 03:10:56] wiki_dump_parallel: 180 chunks / 12332 pages this batch, ~5071715 words this batch, 2s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 200 chunks / 13703 pages this batch, ~5452961 words this batch, 2s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 220 chunks / 14611 pages this batch, ~5750468 words this batch, 2s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 240 chunks / 15526 pages this batch, ~6069351 words this batch, 2s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 260 chunks / 16979 pages this batch, ~6398714 words this batch, 2s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 280 chunks / 18434 pages this batch, ~6779252 words this batch, 2s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 300 chunks / 19524 pages this batch, ~7295256 words this batch, 3s elapsed
+- [2026-08-17 03:10:57] wiki_dump_parallel: 320 chunks / 20594 pages this batch, ~7740792 words this batch, 3s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 340 chunks / 21838 pages this batch, ~8057612 words this batch, 3s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 360 chunks / 23007 pages this batch, ~8424719 words this batch, 3s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 380 chunks / 24044 pages this batch, ~8660276 words this batch, 3s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 400 chunks / 25720 pages this batch, ~9133692 words this batch, 3s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 420 chunks / 26963 pages this batch, ~9341058 words this batch, 3s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 440 chunks / 27788 pages this batch, ~9525021 words this batch, 4s elapsed
+- [2026-08-17 03:10:58] wiki_dump_parallel: 460 chunks / 28734 pages this batch, ~9732095 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 480 chunks / 30222 pages this batch, ~9855724 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 500 chunks / 31657 pages this batch, ~10042787 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 520 chunks / 32787 pages this batch, ~10352203 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 540 chunks / 34197 pages this batch, ~10596185 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 560 chunks / 35829 pages this batch, ~10734744 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 580 chunks / 37485 pages this batch, ~10824194 words this batch, 4s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 600 chunks / 39324 pages this batch, ~10922690 words this batch, 5s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 620 chunks / 41140 pages this batch, ~11068107 words this batch, 5s elapsed
+- [2026-08-17 03:10:59] wiki_dump_parallel: 640 chunks / 42968 pages this batch, ~11166232 words this batch, 5s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 660 chunks / 44910 pages this batch, ~11243758 words this batch, 5s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 680 chunks / 46865 pages this batch, ~11310002 words this batch, 5s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 700 chunks / 48715 pages this batch, ~11399480 words this batch, 5s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 720 chunks / 49901 pages this batch, ~11777328 words this batch, 5s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 740 chunks / 51019 pages this batch, ~12408687 words this batch, 5s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 760 chunks / 52026 pages this batch, ~12929176 words this batch, 6s elapsed
+- [2026-08-17 03:11:00] wiki_dump_parallel: 780 chunks / 53098 pages this batch, ~13638799 words this batch, 6s elapsed
+- [2026-08-17 03:11:01] wiki_dump_parallel: 800 chunks / 54125 pages this batch, ~14609412 words this batch, 6s elapsed
+- [2026-08-17 03:11:01] wiki_dump_parallel: 820 chunks / 54910 pages this batch, ~15624645 words this batch, 6s elapsed
+- [2026-08-17 03:11:01] wiki_dump_parallel: 840 chunks / 56011 pages this batch, ~16718279 words this batch, 7s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 860 chunks / 57165 pages this batch, ~17910589 words this batch, 7s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 880 chunks / 58365 pages this batch, ~19236678 words this batch, 7s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 900 chunks / 60093 pages this batch, ~19843764 words this batch, 7s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 920 chunks / 62093 pages this batch, ~19983581 words this batch, 7s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 940 chunks / 64093 pages this batch, ~20120632 words this batch, 8s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 960 chunks / 66090 pages this batch, ~20286454 words this batch, 8s elapsed
+- [2026-08-17 03:11:02] wiki_dump_parallel: 980 chunks / 68090 pages this batch, ~20418137 words this batch, 8s elapsed
+- [2026-08-17 03:11:03] wiki_dump_parallel: 1000 chunks / 69722 pages this batch, ~20957537 words this batch, 8s elapsed
+- [2026-08-17 03:11:03] wiki_dump_parallel: 1020 chunks / 71657 pages this batch, ~21124077 words this batch, 8s elapsed
+- [2026-08-17 03:11:03] wiki_dump_parallel: 1040 chunks / 73657 pages this batch, ~21227470 words this batch, 8s elapsed
+- [2026-08-17 03:11:15] wiki_dump_parallel: building chunk offset table from index...
+- [2026-08-17 03:11:15] wiki_dump_parallel: 3271 independent chunks in multistream dump
+- [2026-08-17 03:11:15] wiki_dump_parallel: 0 chunks already done, 3271 pending
+- [2026-08-17 03:11:16] wiki_dump_parallel: 20 chunks / 1287 pages this batch, ~1230554 words this batch, 1s elapsed
+- [2026-08-17 03:11:16] wiki_dump_parallel: 40 chunks / 2892 pages this batch, ~2064303 words this batch, 1s elapsed
+- [2026-08-17 03:11:16] wiki_dump_parallel: 60 chunks / 4424 pages this batch, ~2764369 words this batch, 1s elapsed
+- [2026-08-17 03:11:16] wiki_dump_parallel: 80 chunks / 5991 pages this batch, ~3180212 words this batch, 1s elapsed
+- [2026-08-17 03:11:16] wiki_dump_parallel: 100 chunks / 7652 pages this batch, ~3404196 words this batch, 1s elapsed
+- [2026-08-17 03:11:16] wiki_dump_parallel: 120 chunks / 9078 pages this batch, ~3653265 words this batch, 1s elapsed
+- [2026-08-17 03:11:16] wiki_dump_parallel: 140 chunks / 9556 pages this batch, ~3807552 words this batch, 1s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 160 chunks / 10914 pages this batch, ~4222299 words this batch, 1s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 180 chunks / 12373 pages this batch, ~4701978 words this batch, 2s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 200 chunks / 13638 pages this batch, ~5074078 words this batch, 2s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 220 chunks / 14656 pages this batch, ~5528098 words this batch, 2s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 240 chunks / 15566 pages this batch, ~5905180 words this batch, 2s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 260 chunks / 16944 pages this batch, ~6207652 words this batch, 2s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 280 chunks / 18415 pages this batch, ~6580918 words this batch, 2s elapsed
+- [2026-08-17 03:11:17] wiki_dump_parallel: 300 chunks / 19565 pages this batch, ~7226244 words this batch, 2s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 320 chunks / 20645 pages this batch, ~7725182 words this batch, 2s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 340 chunks / 21936 pages this batch, ~8059207 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 360 chunks / 23086 pages this batch, ~8381941 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 380 chunks / 24213 pages this batch, ~8688751 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 400 chunks / 25691 pages this batch, ~9123784 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 420 chunks / 27070 pages this batch, ~9388264 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 440 chunks / 27890 pages this batch, ~9543666 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 460 chunks / 28854 pages this batch, ~9782373 words this batch, 3s elapsed
+- [2026-08-17 03:11:18] wiki_dump_parallel: 480 chunks / 30367 pages this batch, ~9891568 words this batch, 3s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 500 chunks / 31762 pages this batch, ~10059858 words this batch, 3s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 520 chunks / 32847 pages this batch, ~10361886 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 540 chunks / 34272 pages this batch, ~10605281 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 560 chunks / 35951 pages this batch, ~10742654 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 580 chunks / 37574 pages this batch, ~10842473 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 600 chunks / 39386 pages this batch, ~10957094 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 620 chunks / 41164 pages this batch, ~11102225 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 640 chunks / 42963 pages this batch, ~11213812 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 660 chunks / 44879 pages this batch, ~11295059 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 680 chunks / 46834 pages this batch, ~11362583 words this batch, 4s elapsed
+- [2026-08-17 03:11:19] wiki_dump_parallel: 700 chunks / 48685 pages this batch, ~11452339 words this batch, 4s elapsed
+- [2026-08-17 03:11:20] wiki_dump_parallel: 720 chunks / 49922 pages this batch, ~11755273 words this batch, 5s elapsed
+- [2026-08-17 03:11:20] wiki_dump_parallel: 740 chunks / 51010 pages this batch, ~12414078 words this batch, 5s elapsed
+- [2026-08-17 03:11:20] wiki_dump_parallel: 760 chunks / 52065 pages this batch, ~12954644 words this batch, 5s elapsed
+- [2026-08-17 03:11:20] wiki_dump_parallel: 780 chunks / 53141 pages this batch, ~13695169 words this batch, 5s elapsed
+- [2026-08-17 03:11:20] wiki_dump_parallel: 800 chunks / 54189 pages this batch, ~14648490 words this batch, 5s elapsed
+- [2026-08-17 03:11:20] wiki_dump_parallel: 820 chunks / 55011 pages this batch, ~15670532 words this batch, 5s elapsed
+- [2026-08-17 03:11:21] wiki_dump_parallel: 840 chunks / 56052 pages this batch, ~16676358 words this batch, 6s elapsed
+- [2026-08-17 03:11:21] wiki_dump_parallel: 860 chunks / 57239 pages this batch, ~17969762 words this batch, 6s elapsed
+- [2026-08-17 03:11:21] wiki_dump_parallel: 880 chunks / 58475 pages this batch, ~19222439 words this batch, 6s elapsed
+- [2026-08-17 03:11:21] wiki_dump_parallel: 900 chunks / 60242 pages this batch, ~19680178 words this batch, 6s elapsed
+- [2026-08-17 03:11:21] wiki_dump_parallel: 920 chunks / 62205 pages this batch, ~19948288 words this batch, 6s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 940 chunks / 64205 pages this batch, ~20085334 words this batch, 6s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 960 chunks / 66167 pages this batch, ~20330420 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 980 chunks / 68167 pages this batch, ~20462298 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1000 chunks / 69832 pages this batch, ~20909283 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1020 chunks / 71718 pages this batch, ~21128497 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1040 chunks / 73718 pages this batch, ~21231686 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1060 chunks / 75581 pages this batch, ~21388412 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1080 chunks / 76423 pages this batch, ~21867695 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1100 chunks / 77636 pages this batch, ~21991104 words this batch, 7s elapsed
+- [2026-08-17 03:11:22] wiki_dump_parallel: 1120 chunks / 78620 pages this batch, ~22219168 words this batch, 7s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1140 chunks / 78798 pages this batch, ~22316109 words this batch, 7s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1160 chunks / 79752 pages this batch, ~22642203 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1180 chunks / 80294 pages this batch, ~22825446 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1200 chunks / 81035 pages this batch, ~23030660 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1220 chunks / 81409 pages this batch, ~23099344 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1240 chunks / 82102 pages this batch, ~23272970 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1260 chunks / 82911 pages this batch, ~23520860 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1280 chunks / 83737 pages this batch, ~23738049 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1300 chunks / 84496 pages this batch, ~23976905 words this batch, 8s elapsed
+- [2026-08-17 03:11:23] wiki_dump_parallel: 1320 chunks / 85279 pages this batch, ~24173213 words this batch, 8s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1340 chunks / 86094 pages this batch, ~24392544 words this batch, 8s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1360 chunks / 87037 pages this batch, ~24572169 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1380 chunks / 88180 pages this batch, ~24795075 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1400 chunks / 89243 pages this batch, ~24972424 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1420 chunks / 90319 pages this batch, ~25134819 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1440 chunks / 91639 pages this batch, ~25338592 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1460 chunks / 92928 pages this batch, ~25738421 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1480 chunks / 94114 pages this batch, ~26011233 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1500 chunks / 95507 pages this batch, ~26277937 words this batch, 9s elapsed
+- [2026-08-17 03:11:24] wiki_dump_parallel: 1520 chunks / 97021 pages this batch, ~26517405 words this batch, 9s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1540 chunks / 98584 pages this batch, ~26735264 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1560 chunks / 99967 pages this batch, ~26926950 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1580 chunks / 101523 pages this batch, ~27221431 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1600 chunks / 102812 pages this batch, ~27392563 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1620 chunks / 103942 pages this batch, ~27592159 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1640 chunks / 105380 pages this batch, ~27853654 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1660 chunks / 106839 pages this batch, ~28074612 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1680 chunks / 108282 pages this batch, ~28285688 words this batch, 10s elapsed
+- [2026-08-17 03:11:25] wiki_dump_parallel: 1700 chunks / 109382 pages this batch, ~28404626 words this batch, 10s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1720 chunks / 110676 pages this batch, ~28549167 words this batch, 10s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1740 chunks / 112095 pages this batch, ~28666299 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1760 chunks / 113061 pages this batch, ~28774065 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1780 chunks / 114395 pages this batch, ~28908372 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1800 chunks / 115748 pages this batch, ~29084825 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1820 chunks / 116841 pages this batch, ~29249654 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1840 chunks / 118394 pages this batch, ~29400221 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1860 chunks / 120026 pages this batch, ~29537417 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1880 chunks / 121704 pages this batch, ~29706656 words this batch, 11s elapsed
+- [2026-08-17 03:11:26] wiki_dump_parallel: 1900 chunks / 123281 pages this batch, ~29992160 words this batch, 11s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 1920 chunks / 124674 pages this batch, ~30211925 words this batch, 11s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 1940 chunks / 125963 pages this batch, ~30343050 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 1960 chunks / 127563 pages this batch, ~30468593 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 1980 chunks / 128619 pages this batch, ~30598623 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 2000 chunks / 129787 pages this batch, ~30784295 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 2020 chunks / 130935 pages this batch, ~30969018 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 2040 chunks / 132052 pages this batch, ~31179624 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 2060 chunks / 133467 pages this batch, ~31414278 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 2080 chunks / 134595 pages this batch, ~31609473 words this batch, 12s elapsed
+- [2026-08-17 03:11:27] wiki_dump_parallel: 2100 chunks / 135803 pages this batch, ~31881171 words this batch, 12s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2120 chunks / 137182 pages this batch, ~32124612 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2140 chunks / 138583 pages this batch, ~32355817 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2160 chunks / 139883 pages this batch, ~32532943 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2180 chunks / 141030 pages this batch, ~32716356 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2200 chunks / 142377 pages this batch, ~32916120 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2220 chunks / 143735 pages this batch, ~33068635 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2240 chunks / 145035 pages this batch, ~33293409 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2260 chunks / 146373 pages this batch, ~33534864 words this batch, 13s elapsed
+- [2026-08-17 03:11:28] wiki_dump_parallel: 2280 chunks / 147757 pages this batch, ~33817051 words this batch, 13s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2300 chunks / 149162 pages this batch, ~34020381 words this batch, 13s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2320 chunks / 150614 pages this batch, ~34396262 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2340 chunks / 151986 pages this batch, ~34697227 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2360 chunks / 153415 pages this batch, ~34797481 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2380 chunks / 154615 pages this batch, ~34908921 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2400 chunks / 155966 pages this batch, ~35077939 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2420 chunks / 157375 pages this batch, ~35258085 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2440 chunks / 158871 pages this batch, ~35626296 words this batch, 14s elapsed
+- [2026-08-17 03:11:29] wiki_dump_parallel: 2460 chunks / 160188 pages this batch, ~35805986 words this batch, 14s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2480 chunks / 161553 pages this batch, ~35969957 words this batch, 14s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2500 chunks / 162892 pages this batch, ~36152719 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2520 chunks / 164359 pages this batch, ~36446675 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2540 chunks / 166045 pages this batch, ~36713252 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2560 chunks / 167457 pages this batch, ~36898089 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2580 chunks / 168907 pages this batch, ~37087699 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2600 chunks / 170371 pages this batch, ~37236165 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2620 chunks / 171767 pages this batch, ~37424511 words this batch, 15s elapsed
+- [2026-08-17 03:11:30] wiki_dump_parallel: 2640 chunks / 173073 pages this batch, ~37563705 words this batch, 15s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2660 chunks / 174380 pages this batch, ~37710987 words this batch, 15s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2680 chunks / 175656 pages this batch, ~37881640 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2700 chunks / 177135 pages this batch, ~38092166 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2720 chunks / 178669 pages this batch, ~38346444 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2740 chunks / 179827 pages this batch, ~38492008 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2760 chunks / 181227 pages this batch, ~38694732 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2780 chunks / 182444 pages this batch, ~38919713 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2800 chunks / 183498 pages this batch, ~39095838 words this batch, 16s elapsed
+- [2026-08-17 03:11:31] wiki_dump_parallel: 2820 chunks / 184705 pages this batch, ~39272554 words this batch, 16s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2840 chunks / 186123 pages this batch, ~39549046 words this batch, 16s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2860 chunks / 187626 pages this batch, ~39793457 words this batch, 17s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2880 chunks / 189167 pages this batch, ~40145360 words this batch, 17s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2900 chunks / 190661 pages this batch, ~40476636 words this batch, 17s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2920 chunks / 191991 pages this batch, ~40779188 words this batch, 17s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2940 chunks / 193430 pages this batch, ~41163595 words this batch, 17s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2960 chunks / 194662 pages this batch, ~41680394 words this batch, 17s elapsed
+- [2026-08-17 03:11:32] wiki_dump_parallel: 2980 chunks / 196203 pages this batch, ~42227628 words this batch, 17s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3000 chunks / 197642 pages this batch, ~42612174 words this batch, 18s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3020 chunks / 198919 pages this batch, ~42929466 words this batch, 18s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3040 chunks / 199903 pages this batch, ~43251289 words this batch, 18s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3060 chunks / 200382 pages this batch, ~43403194 words this batch, 18s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3080 chunks / 201318 pages this batch, ~43663234 words this batch, 18s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3100 chunks / 202542 pages this batch, ~44067457 words this batch, 18s elapsed
+- [2026-08-17 03:11:33] wiki_dump_parallel: 3120 chunks / 203816 pages this batch, ~44422656 words this batch, 18s elapsed
+- [2026-08-17 03:11:34] wiki_dump_parallel: 3140 chunks / 205402 pages this batch, ~44887925 words this batch, 18s elapsed
+- [2026-08-17 03:11:34] wiki_dump_parallel: 3160 chunks / 206796 pages this batch, ~45272011 words this batch, 19s elapsed
+- [2026-08-17 03:11:34] livehindustan: 620/1000 articles this batch, ~557431 words this batch (~557431 total ever)
+- [2026-08-17 03:11:34] wiki_dump_parallel: 3180 chunks / 208252 pages this batch, ~45766453 words this batch, 19s elapsed
+- [2026-08-17 03:11:34] wiki_dump_parallel: 3200 chunks / 209558 pages this batch, ~46125239 words this batch, 19s elapsed
+- [2026-08-17 03:11:34] wiki_dump_parallel: 3220 chunks / 210902 pages this batch, ~46620110 words this batch, 19s elapsed
+- [2026-08-17 03:11:34] wiki_dump_parallel: 3240 chunks / 212493 pages this batch, ~47189326 words this batch, 19s elapsed
+- [2026-08-17 03:12:14] livehindustan: 640/1000 articles this batch, ~576483 words this batch (~576483 total ever)
+- [2026-08-17 03:12:32] wiki_dump_parallel: building chunk offset table from index...
+- [2026-08-17 03:12:32] wiki_dump_parallel: 3271 independent chunks in multistream dump
+- [2026-08-17 03:12:32] wiki_dump_parallel: 3252 chunks already done, 19 pending
+- [2026-08-17 03:12:33] BATCH COMPLETE: 19 chunks / 1194 pages extracted this batch, ~587253 words this batch, 0s elapsed. Overall: 3271/3271 chunks done, ~48130250 words total ever.
+- [2026-08-17 03:12:50] livehindustan: 660/1000 articles this batch, ~594063 words this batch (~594063 total ever)
+- [2026-08-17 03:13:26] livehindustan: 680/1000 articles this batch, ~613660 words this batch (~613660 total ever)
+- [2026-08-17 03:13:29] wiki_dump_parallel: REBUILD -- old single-threaded wiki_dump.py and the new parallel script had run concurrently, overlapping content from a race condition (parallel smoke test chunks 0-49 were 100% already in wiki_dump's done_titles). Wiped raw+clean wiki output, reset both state namespaces, reran full 3271-chunk parallel extraction clean. Final: 3271/3271 chunks done, ~48.1M words, 1 malformed chunk skipped (~100 pages, XML ParseError, logged non-fatal). Full corpus rebuilt in ~20s vs the single-threaded approach's multi-hour runs -- parallel script now the sole path forward for this source.
+- [2026-08-17 03:13:58] livehindustan: 700/1000 articles this batch, ~633049 words this batch (~633049 total ever)
+- [2026-08-17 03:14:31] livehindustan: 720/1000 articles this batch, ~652056 words this batch (~652056 total ever)
+- [2026-08-17 03:15:10] livehindustan: 740/1000 articles this batch, ~671377 words this batch (~671377 total ever)
+- [2026-08-17 03:15:25] amarujala: batch done -- 0 new articles, ~0 words, 1658s, ~0 words total ever
+- [2026-08-17 03:15:45] livehindustan: 760/1000 articles this batch, ~689022 words this batch (~689022 total ever)
+- [2026-08-17 03:16:28] livehindustan: 780/1000 articles this batch, ~709402 words this batch (~709402 total ever)
+- [2026-08-17 03:17:12] livehindustan: 800/1000 articles this batch, ~729167 words this batch (~729167 total ever)
+- [2026-08-17 03:17:54] livehindustan: 820/1000 articles this batch, ~747242 words this batch (~747242 total ever)
+- [2026-08-17 03:18:54] Starting 10 concurrent source workers: ['jagran', 'amarujala', 'bbc_hindi', 'livehindustan', 'abplive', 'prabhatkhabar', 'indiatv', 'patrika', 'zeenews', 'aajtak']
+- [2026-08-17 03:18:57] bbc_hindi: discovery found 100 URLs, 0 new
+- [2026-08-17 03:18:57] bbc_hindi: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 03:18:57] amarujala: discovery found 783 URLs, 0 new
+- [2026-08-17 03:18:57] amarujala: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 03:18:57] jagran: discovery found 129 URLs, 0 new
+- [2026-08-17 03:18:57] jagran: batch done -- 0 new articles, ~0 words, 0s, ~2096 words total ever
+- [2026-08-17 03:18:58] aajtak: discovery attempt 1/3 failed, retrying
+- [2026-08-17 03:18:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-11.xml
+- [2026-08-17 03:18:59] livehindustan: discovery found 1000 URLs, 45 new
+- [2026-08-17 03:19:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-10.xml
+- [2026-08-17 03:19:01] aajtak: discovery attempt 2/3 failed, retrying
+- [2026-08-17 03:19:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-09.xml
+- [2026-08-17 03:19:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-08.xml
+- [2026-08-17 03:19:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-07.xml
+- [2026-08-17 03:19:05] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 03:19:06] aajtak: discovery attempt 3/3 failed, retrying
+- [2026-08-17 03:19:06] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-06.xml
+- [2026-08-17 03:19:08] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-05.xml
+- [2026-08-17 03:19:10] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-04.xml
+- [2026-08-17 03:19:10] aajtak: discovery failed 3/3 times -- skipping this run, NOT marking as drained (0 done so far)
+- [2026-08-17 03:19:11] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-03.xml
+- [2026-08-17 03:19:13] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-02.xml
+- [2026-08-17 03:19:15] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-01.xml
+- [2026-08-17 03:19:17] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-31.xml
+- [2026-08-17 03:19:18] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-30.xml
+- [2026-08-17 03:19:20] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-29.xml
+- [2026-08-17 03:19:22] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-28.xml
+- [2026-08-17 03:19:23] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-27.xml
+- [2026-08-17 03:19:25] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-26.xml
+- [2026-08-17 03:19:27] patrika: discovery found 87931 URLs, 87931 new
+- [2026-08-17 03:19:27] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-25.xml
+- [2026-08-17 03:19:29] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-24.xml
+- [2026-08-17 03:19:30] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-23.xml
+- [2026-08-17 03:19:32] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-22.xml
+- [2026-08-17 03:19:34] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-21.xml
+- [2026-08-17 03:19:35] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-20.xml
+- [2026-08-17 03:19:37] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-19.xml
+- [2026-08-17 03:19:38] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-18.xml
+- [2026-08-17 03:19:40] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-17.xml
+- [2026-08-17 03:19:42] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-16.xml
+- [2026-08-17 03:19:43] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-15.xml
+- [2026-08-17 03:19:45] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-14.xml
+- [2026-08-17 03:19:47] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-13.xml
+- [2026-08-17 03:19:49] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-12.xml
+- [2026-08-17 03:19:51] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-11.xml
+- [2026-08-17 03:19:52] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-10.xml
+- [2026-08-17 03:19:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-09.xml
+- [2026-08-17 03:19:55] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-08.xml
+- [2026-08-17 03:19:56] abplive: discovery found 11870 URLs, 11870 new
+- [2026-08-17 03:19:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-07.xml
+- [2026-08-17 03:19:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-06.xml
+- [2026-08-17 03:20:00] livehindustan: 20/45 articles this batch, ~18742 words this batch (~773296 total ever)
+- [2026-08-17 03:20:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-05.xml
+- [2026-08-17 03:20:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-04.xml
+- [2026-08-17 03:20:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-03.xml
+- [2026-08-17 03:20:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-02.xml
+- [2026-08-17 03:20:06] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-01.xml
+- [2026-08-17 03:20:08] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-30.xml
+- [2026-08-17 03:20:09] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-29.xml
+- [2026-08-17 03:20:11] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-28.xml
+- [2026-08-17 03:20:13] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-27.xml
+- [2026-08-17 03:20:14] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-26.xml
+- [2026-08-17 03:20:16] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-25.xml
+- [2026-08-17 03:20:17] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-24.xml
+- [2026-08-17 03:20:17] prabhatkhabar: discovery found 0 URLs, 0 new
+- [2026-08-17 03:20:17] prabhatkhabar: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 03:20:20] livehindustan: batch done -- 29 new articles, ~27571 words, 81s, ~782125 words total ever
+- [2026-08-17 03:20:21] indiatv: discovery found 7786 URLs, 7786 new
+- [2026-08-17 03:20:30] abplive: 20/11870 articles this batch, ~9078 words this batch (~9078 total ever)
+- [2026-08-17 03:20:39] zeenews: discovery found 244711 URLs, 244711 new
+- [2026-08-17 03:20:53] indiatv: 20/7786 articles this batch, ~9010 words this batch (~9010 total ever)
+- [2026-08-17 03:21:03] abplive: 40/11870 articles this batch, ~19473 words this batch (~19473 total ever)
+- [2026-08-17 03:21:27] indiatv: 40/7786 articles this batch, ~18408 words this batch (~18408 total ever)
+- [2026-08-17 03:21:38] abplive: 60/11870 articles this batch, ~28897 words this batch (~28897 total ever)
+- [2026-08-17 03:22:00] indiatv: 60/7786 articles this batch, ~27731 words this batch (~27731 total ever)
+- [2026-08-17 03:22:11] abplive: 80/11870 articles this batch, ~37584 words this batch (~37584 total ever)
+- [2026-08-17 03:22:34] indiatv: 80/7786 articles this batch, ~37273 words this batch (~37273 total ever)
+- [2026-08-17 03:22:45] abplive: 100/11870 articles this batch, ~48448 words this batch (~48448 total ever)
+- [2026-08-17 03:23:07] indiatv: 100/7786 articles this batch, ~47571 words this batch (~47571 total ever)
+- [2026-08-17 03:23:18] abplive: 120/11870 articles this batch, ~57410 words this batch (~57410 total ever)
+- [2026-08-17 03:23:41] indiatv: 120/7786 articles this batch, ~56826 words this batch (~56826 total ever)
+- [2026-08-17 03:23:52] abplive: 140/11870 articles this batch, ~66711 words this batch (~66711 total ever)
+- [2026-08-17 03:24:15] indiatv: 140/7786 articles this batch, ~68755 words this batch (~68755 total ever)
+- [2026-08-17 03:24:27] abplive: 160/11870 articles this batch, ~76030 words this batch (~76030 total ever)
+- [2026-08-17 03:24:49] indiatv: 160/7786 articles this batch, ~79233 words this batch (~79233 total ever)
+- [2026-08-17 03:25:01] abplive: 180/11870 articles this batch, ~86911 words this batch (~86911 total ever)
+- [2026-08-17 03:25:24] indiatv: 180/7786 articles this batch, ~89282 words this batch (~89282 total ever)
+- [2026-08-17 03:25:35] abplive: 200/11870 articles this batch, ~97215 words this batch (~97215 total ever)
+- [2026-08-17 03:25:58] indiatv: 200/7786 articles this batch, ~99591 words this batch (~99591 total ever)
+- [2026-08-17 03:26:08] abplive: 220/11870 articles this batch, ~106714 words this batch (~106714 total ever)
+- [2026-08-17 03:26:33] indiatv: 220/7786 articles this batch, ~110972 words this batch (~110972 total ever)
+- [2026-08-17 03:26:46] abplive: 240/11870 articles this batch, ~116154 words this batch (~116154 total ever)
+- [2026-08-17 03:27:13] indiatv: 240/7786 articles this batch, ~123437 words this batch (~123437 total ever)
+- [2026-08-17 03:27:22] abplive: 260/11870 articles this batch, ~128196 words this batch (~128196 total ever)
+- [2026-08-17 03:27:47] indiatv: 260/7786 articles this batch, ~134622 words this batch (~134622 total ever)
+- [2026-08-17 03:27:56] abplive: 280/11870 articles this batch, ~137840 words this batch (~137840 total ever)
+- [2026-08-17 03:28:23] indiatv: 280/7786 articles this batch, ~145755 words this batch (~145755 total ever)
+- [2026-08-17 03:28:31] abplive: 300/11870 articles this batch, ~156344 words this batch (~156344 total ever)
+- [2026-08-17 03:28:59] indiatv: 300/7786 articles this batch, ~157133 words this batch (~157133 total ever)
+- [2026-08-17 03:29:07] abplive: 320/11870 articles this batch, ~167958 words this batch (~167958 total ever)
+- [2026-08-17 03:29:36] indiatv: 320/7786 articles this batch, ~169094 words this batch (~169094 total ever)
+- [2026-08-17 03:29:42] abplive: 340/11870 articles this batch, ~176638 words this batch (~176638 total ever)
+- [2026-08-17 03:30:11] indiatv: 340/7786 articles this batch, ~179772 words this batch (~179772 total ever)
+- [2026-08-17 03:30:16] abplive: 360/11870 articles this batch, ~188978 words this batch (~188978 total ever)
+- [2026-08-17 03:30:45] indiatv: 360/7786 articles this batch, ~189865 words this batch (~189865 total ever)
+- [2026-08-17 03:30:49] abplive: 380/11870 articles this batch, ~203382 words this batch (~203382 total ever)
+- [2026-08-17 03:31:19] indiatv: 380/7786 articles this batch, ~199922 words this batch (~199922 total ever)
+- [2026-08-17 03:31:23] abplive: 400/11870 articles this batch, ~212721 words this batch (~212721 total ever)
+- [2026-08-17 03:31:53] indiatv: 400/7786 articles this batch, ~209870 words this batch (~209870 total ever)
+- [2026-08-17 03:31:58] abplive: 420/11870 articles this batch, ~224291 words this batch (~224291 total ever)
+- [2026-08-17 03:32:29] indiatv: 420/7786 articles this batch, ~219874 words this batch (~219874 total ever)
+- [2026-08-17 03:32:33] abplive: 440/11870 articles this batch, ~234765 words this batch (~234765 total ever)
+- [2026-08-17 03:33:03] indiatv: 440/7786 articles this batch, ~230567 words this batch (~230567 total ever)
+- [2026-08-17 03:33:06] abplive: 460/11870 articles this batch, ~245218 words this batch (~245218 total ever)
+- [2026-08-17 03:33:36] indiatv: 460/7786 articles this batch, ~241645 words this batch (~241645 total ever)
+- [2026-08-17 03:33:39] abplive: 480/11870 articles this batch, ~254703 words this batch (~254703 total ever)
+- [2026-08-17 03:34:10] indiatv: 480/7786 articles this batch, ~252029 words this batch (~252029 total ever)
+- [2026-08-17 03:34:13] abplive: 500/11870 articles this batch, ~265998 words this batch (~265998 total ever)
+- [2026-08-17 03:34:43] indiatv: 500/7786 articles this batch, ~262428 words this batch (~262428 total ever)
+- [2026-08-17 03:34:47] abplive: 520/11870 articles this batch, ~275962 words this batch (~275962 total ever)
+- [2026-08-17 03:35:18] indiatv: 520/7786 articles this batch, ~271939 words this batch (~271939 total ever)
+- [2026-08-17 03:35:22] abplive: 540/11870 articles this batch, ~285880 words this batch (~285880 total ever)
+- [2026-08-17 03:35:52] indiatv: 540/7786 articles this batch, ~281035 words this batch (~281035 total ever)
+- [2026-08-17 03:35:55] abplive: 560/11870 articles this batch, ~295828 words this batch (~295828 total ever)
+- [2026-08-17 03:36:25] indiatv: 560/7786 articles this batch, ~290466 words this batch (~290466 total ever)
+- [2026-08-17 03:36:29] abplive: 580/11870 articles this batch, ~306088 words this batch (~306088 total ever)
+- [2026-08-17 03:36:59] indiatv: 580/7786 articles this batch, ~301232 words this batch (~301232 total ever)
+- [2026-08-17 03:37:04] abplive: 600/11870 articles this batch, ~316311 words this batch (~316311 total ever)
+- [2026-08-17 03:37:34] indiatv: 600/7786 articles this batch, ~311322 words this batch (~311322 total ever)
+- [2026-08-17 03:37:38] abplive: 620/11870 articles this batch, ~326492 words this batch (~326492 total ever)
+- [2026-08-17 03:53:23] FETCH FAILED after 3 attempts: https://www.patrika.com/hoshiarpur-news
+- [2026-08-17 03:53:23] FETCH FAILED after 3 attempts: https://www.indiatv.in/delhi/do-not-fly-kites-near-the-delhi-metro-it-can-be-fatal-dmrc-appeals-to-the-public-find-out-why-2026-08-12-1236897
+- [2026-08-17 03:53:23] FETCH FAILED after 3 attempts: https://www.abplive.com/entertainment/bollywood/awarapan-2-box-office-collection-day-1-emraan-hashmi-film-record-3rd-highest-bollywood-opening-of-2026-beat-welcome-to-the-jungle-3175177
+- [2026-08-17 03:53:27] FETCH FAILED after 3 attempts: https://www.patrika.com/jalandhar-news
+- [2026-08-17 03:53:27] FETCH FAILED after 3 attempts: https://www.indiatv.in/uttar-pradesh/up-young-man-ends-life-by-jumping-from-25th-floor-in-ghaziabad-panic-grips-the-society-2026-08-12-1236906
+- [2026-08-17 03:53:27] FETCH FAILED after 3 attempts: https://www.abplive.com/technology/this-iphone-trick-will-change-the-way-you-take-photos-tech-tips-hindi-3175143
+- [2026-08-17 03:53:32] FETCH FAILED after 3 attempts: https://www.patrika.com/ludhiana-news
+- [2026-08-17 03:53:32] FETCH FAILED after 3 attempts: https://www.indiatv.in/tech/tech-news/apple-reportedly-to-increase-price-of-old-iphone-along-with-iphone-18-pro-series-launch-2026-08-12-1236895
+- [2026-08-17 03:53:32] FETCH FAILED after 3 attempts: https://www.abplive.com/education/noida-school-screen-time-limit-guidelines-for-primary-and-upper-primary-students-3175228
+- [2026-08-17 03:53:36] FETCH FAILED after 3 attempts: https://www.patrika.com/mohali-news
+- [2026-08-17 03:53:36] FETCH FAILED after 3 attempts: https://www.indiatv.in/religion/news-aaj-amavasya-aur-surya-grahan-pitron-ke-liye-sham-ko-kare-ye-upay-dhan-praptike-banenge-yog-2026-08-12-1236902
+- [2026-08-17 03:53:36] FETCH FAILED after 3 attempts: https://www.abplive.com/auto/new-maruti-baleno-facelift-launch-date-features-changes-check-the-details-3175175
+- [2026-08-17 03:53:41] FETCH FAILED after 3 attempts: https://www.patrika.com/sangroor-news
+- [2026-08-17 03:53:41] FETCH FAILED after 3 attempts: https://www.indiatv.in/lifestyle/recipes/make-jodhpuri-mirchi-vada-for-evening-snack-it-tastes-good-with-tea-note-easy-recipe-2026-08-12-1236901
+- [2026-08-17 03:53:41] FETCH FAILED after 3 attempts: https://www.abplive.com/agriculture/pm-kisan-yojana-yojana-can-four-brothers-of-a-family-take-benefits-in-the-scheme-know-the-rules-3175192
+- [2026-08-17 03:53:42] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/karun-nair-jayant-yadav-success-is-set-up-created-by-virat-kohli-anil-kumble-rahul-dravid/313682
+- [2026-08-17 03:53:45] FETCH FAILED after 3 attempts: https://www.indiatv.in/rajasthan/sikar-pgdca-exam-mass-cheating-video-viral-vishwabharati-college-2026-08-12-1236900
+- [2026-08-17 03:53:45] FETCH FAILED after 3 attempts: https://www.patrika.com/ajmer-news
+- [2026-08-17 03:53:46] FETCH FAILED after 3 attempts: https://www.abplive.com/news/india/80th-indepedence-day-celebration-pm-narendra-modi-hoist-tricolour-at-red-fort-15th-august-2026-3175215
+- [2026-08-17 03:53:46] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/bollywood/priyanka-chopra-reveals-she-doesnt-mind-being-called-a-sex-symbol/313680
+- [2026-08-17 03:54:30] FETCH FAILED after 3 attempts: https://www.indiatv.in/punjab/patiala-pitbull-attack-couple-who-arrived-to-view-house-video-is-terrifying-2026-08-12-1236899
+- [2026-08-17 03:54:30] FETCH FAILED after 3 attempts: https://www.patrika.com/alwar-news
+- [2026-08-17 03:54:30] FETCH FAILED after 3 attempts: https://www.abplive.com/astro/horoscope/meen-rashifal-today-15-august-2026-pisces-daily-horoscope-in-hindi-3175247
+- [2026-08-17 03:54:31] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/world/under-scrutiny-trump-decides-to-dissolve-his-foundation/313677
+- [2026-08-17 03:54:38] indiatv: 620/7786 articles this batch, ~321523 words this batch (~321523 total ever)
+- [2026-08-17 03:54:43] abplive: 640/11870 articles this batch, ~335813 words this batch (~335813 total ever)
+- [2026-08-17 03:55:10] indiatv: 640/7786 articles this batch, ~331103 words this batch (~331103 total ever)
+- [2026-08-17 03:55:17] abplive: 660/11870 articles this batch, ~349318 words this batch (~349318 total ever)
+- [2026-08-17 04:10:31] FETCH FAILED after 3 attempts: https://www.abplive.com/states/bihar/prashant-kishor-will-take-oath-as-bankipur-mla-on-17-august-date-announced-3175217
+- [2026-08-17 04:10:31] FETCH FAILED after 3 attempts: https://www.indiatv.in/uttar-pradesh/double-decker-bus-carrying-pilgrims-from-bihar-to-ayodhya-fell-into-ditch-died-and-critically-injured-2026-08-12-1236857
+- [2026-08-17 04:10:31] FETCH FAILED after 3 attempts: https://www.patrika.com/pratapgarh-rajasthan-news
+- [2026-08-17 04:10:35] FETCH FAILED after 3 attempts: https://www.indiatv.in/uttar-pradesh/mathura-delhi-police-inspector-injured-encounter-while-accused-trying-to-escape-from-police-custody-yamuna-expressway-2026-08-12-1236855
+- [2026-08-17 04:10:35] FETCH FAILED after 3 attempts: https://www.abplive.com/business/fda-suspended-14-licences-of-blinkit-zepto-and-instamart-units-3175213
+- [2026-08-17 04:10:35] FETCH FAILED after 3 attempts: https://www.patrika.com/rajsamand-news
+- [2026-08-17 04:10:56] indiatv: 660/7786 articles this batch, ~340841 words this batch (~340841 total ever)
+- [2026-08-17 04:11:04] abplive: 680/11870 articles this batch, ~361466 words this batch (~361466 total ever)
+- [2026-08-17 04:11:29] indiatv: 680/7786 articles this batch, ~350479 words this batch (~350479 total ever)
+- [2026-08-17 04:11:38] abplive: 700/11870 articles this batch, ~371932 words this batch (~371932 total ever)
+- [2026-08-17 04:12:03] indiatv: 700/7786 articles this batch, ~361382 words this batch (~361382 total ever)
+- [2026-08-17 04:12:11] abplive: 720/11870 articles this batch, ~384971 words this batch (~384971 total ever)
+- [2026-08-17 04:12:35] indiatv: 720/7786 articles this batch, ~371474 words this batch (~371474 total ever)
+- [2026-08-17 04:12:43] abplive: 740/11870 articles this batch, ~397246 words this batch (~397246 total ever)
+- [2026-08-17 04:13:07] indiatv: 740/7786 articles this batch, ~382494 words this batch (~382494 total ever)
+- [2026-08-17 04:13:16] abplive: 760/11870 articles this batch, ~407187 words this batch (~407187 total ever)
+- [2026-08-17 04:13:39] indiatv: 760/7786 articles this batch, ~392889 words this batch (~392889 total ever)
+- [2026-08-17 04:13:48] abplive: 780/11870 articles this batch, ~417673 words this batch (~417673 total ever)
+- [2026-08-17 04:14:11] indiatv: 780/7786 articles this batch, ~403072 words this batch (~403072 total ever)
+- [2026-08-17 04:14:20] abplive: 800/11870 articles this batch, ~427835 words this batch (~427835 total ever)
+- [2026-08-17 04:14:44] indiatv: 800/7786 articles this batch, ~413452 words this batch (~413452 total ever)
+- [2026-08-17 04:14:52] abplive: 820/11870 articles this batch, ~438299 words this batch (~438299 total ever)
+- [2026-08-17 04:15:16] indiatv: 820/7786 articles this batch, ~423046 words this batch (~423046 total ever)
+- [2026-08-17 04:15:24] abplive: 840/11870 articles this batch, ~449514 words this batch (~449514 total ever)
+- [2026-08-17 04:15:48] indiatv: 840/7786 articles this batch, ~432250 words this batch (~432250 total ever)
+- [2026-08-17 04:15:57] abplive: 860/11870 articles this batch, ~458745 words this batch (~458745 total ever)
+- [2026-08-17 04:16:21] indiatv: 860/7786 articles this batch, ~441266 words this batch (~441266 total ever)
+- [2026-08-17 04:16:29] abplive: 880/11870 articles this batch, ~470913 words this batch (~470913 total ever)
+- [2026-08-17 04:16:53] indiatv: 880/7786 articles this batch, ~451380 words this batch (~451380 total ever)
+- [2026-08-17 04:17:01] abplive: 900/11870 articles this batch, ~481677 words this batch (~481677 total ever)
+- [2026-08-17 04:17:26] indiatv: 900/7786 articles this batch, ~462057 words this batch (~462057 total ever)
+- [2026-08-17 04:17:33] abplive: 920/11870 articles this batch, ~492628 words this batch (~492628 total ever)
+- [2026-08-17 04:17:58] indiatv: 920/7786 articles this batch, ~473919 words this batch (~473919 total ever)
+- [2026-08-17 04:18:06] abplive: 940/11870 articles this batch, ~503880 words this batch (~503880 total ever)
+- [2026-08-17 04:18:31] indiatv: 940/7786 articles this batch, ~484006 words this batch (~484006 total ever)
+- [2026-08-17 04:18:38] abplive: 960/11870 articles this batch, ~513361 words this batch (~513361 total ever)
+- [2026-08-17 04:19:03] indiatv: 960/7786 articles this batch, ~493627 words this batch (~493627 total ever)
+- [2026-08-17 04:19:10] abplive: 980/11870 articles this batch, ~524020 words this batch (~524020 total ever)
+- [2026-08-17 04:19:29] patrika: batch done -- 0 new articles, ~0 words, 3603s, ~0 words total ever
+- [2026-08-17 04:19:35] indiatv: 980/7786 articles this batch, ~502819 words this batch (~502819 total ever)
+- [2026-08-17 04:19:42] abplive: 1000/11870 articles this batch, ~534301 words this batch (~534301 total ever)
+- [2026-08-17 04:19:56] abplive: batch done -- 1009 new articles, ~538634 words, 3601s, ~538634 words total ever
+- [2026-08-17 04:20:07] indiatv: 1000/7786 articles this batch, ~512197 words this batch (~512197 total ever)
+- [2026-08-17 04:20:22] indiatv: batch done -- 1009 new articles, ~516630 words, 3601s, ~516630 words total ever
+- [2026-08-17 04:20:40] zeenews: batch done -- 0 new articles, ~0 words, 3601s, ~0 words total ever
+- [2026-08-17 04:20:40] RUN COMPLETE: 10 sources, 2047 new articles, 1082835 words, 3705s elapsed, ~1052027 words/hour aggregate throughput
+- [2026-08-17 04:20:40]   jagran: 0 articles, 0 words, 0s
+- [2026-08-17 04:20:40]   amarujala: 0 articles, 0 words, 0s
+- [2026-08-17 04:20:40]   bbc_hindi: 0 articles, 0 words, 0s
+- [2026-08-17 04:20:40]   livehindustan: 29 articles, 27571 words, 81s
+- [2026-08-17 04:20:40]   abplive: 1009 articles, 538634 words, 3601s
+- [2026-08-17 04:20:40]   prabhatkhabar: 0 articles, 0 words, 0s
+- [2026-08-17 04:20:40]   indiatv: 1009 articles, 516630 words, 3601s
+- [2026-08-17 04:20:40]   patrika: 0 articles, 0 words, 3603s
+- [2026-08-17 04:20:40]   zeenews: 0 articles, 0 words, 3601s
+- [2026-08-17 04:20:40]   aajtak: 0 articles, 0 words, 0s
+- [2026-08-17 04:46:47] Starting 5 concurrent source workers: ['abplive', 'prabhatkhabar', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-17 04:46:50] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-11.xml
+- [2026-08-17 04:46:52] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-10.xml
+- [2026-08-17 04:46:53] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-09.xml
+- [2026-08-17 04:46:55] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-08.xml
+- [2026-08-17 04:46:55] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 04:46:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-07.xml
+- [2026-08-17 04:46:58] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-06.xml
+- [2026-08-17 04:47:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-05.xml
+- [2026-08-17 04:47:01] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-04.xml
+- [2026-08-17 04:47:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-03.xml
+- [2026-08-17 04:47:04] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-02.xml
+- [2026-08-17 04:47:06] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-06-01.xml
+- [2026-08-17 04:47:07] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-31.xml
+- [2026-08-17 04:47:09] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-30.xml
+- [2026-08-17 04:47:11] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-29.xml
+- [2026-08-17 04:47:12] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-28.xml
+- [2026-08-17 04:47:14] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-27.xml
+- [2026-08-17 04:47:15] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-26.xml
+- [2026-08-17 04:47:17] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-25.xml
+- [2026-08-17 04:47:18] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-24.xml
+- [2026-08-17 04:47:20] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-23.xml
+- [2026-08-17 04:47:22] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-22.xml
+- [2026-08-17 04:47:23] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-21.xml
+- [2026-08-17 04:47:25] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-20.xml
+- [2026-08-17 04:47:26] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-19.xml
+- [2026-08-17 04:47:28] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-18.xml
+- [2026-08-17 04:47:29] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-17.xml
+- [2026-08-17 04:47:31] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-16.xml
+- [2026-08-17 04:47:32] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-15.xml
+- [2026-08-17 04:47:34] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-14.xml
+- [2026-08-17 04:47:36] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-13.xml
+- [2026-08-17 04:47:37] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-12.xml
+- [2026-08-17 04:47:39] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-11.xml
+- [2026-08-17 04:47:40] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-10.xml
+- [2026-08-17 04:47:42] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-09.xml
+- [2026-08-17 04:47:43] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-08.xml
+- [2026-08-17 04:47:45] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-07.xml
+- [2026-08-17 04:47:46] abplive: discovery found 11870 URLs, 10849 new
+- [2026-08-17 04:47:46] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-06.xml
+- [2026-08-17 04:47:48] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-05.xml
+- [2026-08-17 04:47:50] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-04.xml
+- [2026-08-17 04:47:51] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-03.xml
+- [2026-08-17 04:47:53] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-02.xml
+- [2026-08-17 04:47:54] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-05-01.xml
+- [2026-08-17 04:47:56] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-30.xml
+- [2026-08-17 04:47:57] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-29.xml
+- [2026-08-17 04:47:59] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-28.xml
+- [2026-08-17 04:48:00] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-27.xml
+- [2026-08-17 04:48:02] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-26.xml
+- [2026-08-17 04:48:03] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-25.xml
+- [2026-08-17 04:48:05] SKIP child sitemap (fetch failed): https://www.prabhatkhabar.com/sitemaps/sitemap-generic-articles-2026-04-24.xml
+- [2026-08-17 04:48:05] prabhatkhabar: discovery found 0 URLs, 0 new
+- [2026-08-17 04:48:05] prabhatkhabar: batch done -- 0 new articles, ~0 words, 0s, ~0 words total ever
+- [2026-08-17 04:48:07] indiatv: discovery found 7787 URLs, 6769 new
+- [2026-08-17 04:48:07] patrika: discovery found 18301 URLs, 17690 new
+- [2026-08-17 04:48:19] abplive: 20/10849 articles this batch, ~10647 words this batch (~549281 total ever)
+- [2026-08-17 04:48:19] zeenews: discovery found 244711 URLs, 243910 new
+- [2026-08-17 04:48:41] indiatv: 20/6769 articles this batch, ~9350 words this batch (~525980 total ever)
+- [2026-08-17 04:48:52] abplive: 40/10849 articles this batch, ~25450 words this batch (~564084 total ever)
+- [2026-08-17 04:49:13] indiatv: 40/6769 articles this batch, ~20225 words this batch (~536855 total ever)
+- [2026-08-17 04:49:25] abplive: 60/10849 articles this batch, ~33772 words this batch (~572406 total ever)
+- [2026-08-17 04:49:46] indiatv: 60/6769 articles this batch, ~31408 words this batch (~548038 total ever)
+- [2026-08-17 04:50:02] abplive: 80/10849 articles this batch, ~44071 words this batch (~582705 total ever)
+- [2026-08-17 04:50:19] indiatv: 80/6769 articles this batch, ~41760 words this batch (~558390 total ever)
+- [2026-08-17 04:50:35] abplive: 100/10849 articles this batch, ~53218 words this batch (~591852 total ever)
+- [2026-08-17 04:50:52] indiatv: 100/6769 articles this batch, ~51885 words this batch (~568515 total ever)
+- [2026-08-17 04:51:10] abplive: 120/10849 articles this batch, ~67269 words this batch (~605903 total ever)
+- [2026-08-17 04:51:25] indiatv: 120/6769 articles this batch, ~61462 words this batch (~578092 total ever)
+- [2026-08-17 04:51:43] abplive: 140/10849 articles this batch, ~77786 words this batch (~616420 total ever)
+- [2026-08-17 04:51:57] indiatv: 140/6769 articles this batch, ~70893 words this batch (~587523 total ever)
+- [2026-08-17 04:52:16] abplive: 160/10849 articles this batch, ~89265 words this batch (~627899 total ever)
+- [2026-08-17 04:52:30] indiatv: 160/6769 articles this batch, ~81591 words this batch (~598221 total ever)
+- [2026-08-17 04:52:50] abplive: 180/10849 articles this batch, ~100226 words this batch (~638860 total ever)
+- [2026-08-17 04:53:04] indiatv: 180/6769 articles this batch, ~90888 words this batch (~607518 total ever)
+- [2026-08-17 04:53:24] abplive: 200/10849 articles this batch, ~112752 words this batch (~651386 total ever)
+- [2026-08-17 04:53:38] indiatv: 200/6769 articles this batch, ~102637 words this batch (~619267 total ever)
+- [2026-08-17 04:53:57] abplive: 220/10849 articles this batch, ~123137 words this batch (~661771 total ever)
+- [2026-08-17 04:54:10] indiatv: 220/6769 articles this batch, ~113089 words this batch (~629719 total ever)
+- [2026-08-17 04:54:30] abplive: 240/10849 articles this batch, ~131839 words this batch (~670473 total ever)
+- [2026-08-17 04:54:44] indiatv: 240/6769 articles this batch, ~122826 words this batch (~639456 total ever)
+- [2026-08-17 04:55:04] abplive: 260/10849 articles this batch, ~142843 words this batch (~681477 total ever)
+- [2026-08-17 04:55:17] indiatv: 260/6769 articles this batch, ~132230 words this batch (~648860 total ever)
+- [2026-08-17 04:55:38] abplive: 280/10849 articles this batch, ~154122 words this batch (~692756 total ever)
+- [2026-08-17 04:55:50] indiatv: 280/6769 articles this batch, ~142348 words this batch (~658978 total ever)
+- [2026-08-17 04:56:12] abplive: 300/10849 articles this batch, ~164658 words this batch (~703292 total ever)
+- [2026-08-17 04:56:23] indiatv: 300/6769 articles this batch, ~152506 words this batch (~669136 total ever)
+- [2026-08-17 04:56:45] abplive: 320/10849 articles this batch, ~175014 words this batch (~713648 total ever)
+- [2026-08-17 04:56:56] indiatv: 320/6769 articles this batch, ~163167 words this batch (~679797 total ever)
+- [2026-08-17 04:57:19] abplive: 340/10849 articles this batch, ~187485 words this batch (~726119 total ever)
+- [2026-08-17 04:57:29] indiatv: 340/6769 articles this batch, ~174237 words this batch (~690867 total ever)
+- [2026-08-17 04:57:52] abplive: 360/10849 articles this batch, ~196111 words this batch (~734745 total ever)
+- [2026-08-17 04:58:01] indiatv: 360/6769 articles this batch, ~184152 words this batch (~700782 total ever)
+- [2026-08-17 04:58:26] abplive: 380/10849 articles this batch, ~206419 words this batch (~745053 total ever)
+- [2026-08-17 04:58:34] indiatv: 380/6769 articles this batch, ~194777 words this batch (~711407 total ever)
+- [2026-08-17 04:58:59] abplive: 400/10849 articles this batch, ~217043 words this batch (~755677 total ever)
+- [2026-08-17 04:59:07] indiatv: 400/6769 articles this batch, ~204391 words this batch (~721021 total ever)
+- [2026-08-17 04:59:33] abplive: 420/10849 articles this batch, ~234630 words this batch (~773264 total ever)
+- [2026-08-17 04:59:39] indiatv: 420/6769 articles this batch, ~213898 words this batch (~730528 total ever)
+- [2026-08-17 05:00:07] abplive: 440/10849 articles this batch, ~247533 words this batch (~786167 total ever)
+- [2026-08-17 05:00:12] indiatv: 440/6769 articles this batch, ~223545 words this batch (~740175 total ever)
+- [2026-08-17 05:00:41] abplive: 460/10849 articles this batch, ~256675 words this batch (~795309 total ever)
+- [2026-08-17 05:00:47] indiatv: 460/6769 articles this batch, ~233358 words this batch (~749988 total ever)
+- [2026-08-17 05:01:23] abplive: 480/10849 articles this batch, ~265987 words this batch (~804621 total ever)
+- [2026-08-17 05:01:37] indiatv: 480/6769 articles this batch, ~244788 words this batch (~761418 total ever)
+- [2026-08-17 05:02:13] abplive: 500/10849 articles this batch, ~278933 words this batch (~817567 total ever)
+- [2026-08-17 05:02:21] indiatv: 500/6769 articles this batch, ~256272 words this batch (~772902 total ever)
+- [2026-08-17 05:02:55] abplive: 520/10849 articles this batch, ~288615 words this batch (~827249 total ever)
+- [2026-08-17 05:02:59] indiatv: 520/6769 articles this batch, ~267226 words this batch (~783856 total ever)
+- [2026-08-17 05:03:29] abplive: 540/10849 articles this batch, ~297112 words this batch (~835746 total ever)
+- [2026-08-17 05:03:32] indiatv: 540/6769 articles this batch, ~277737 words this batch (~794367 total ever)
+- [2026-08-17 05:04:03] abplive: 560/10849 articles this batch, ~306315 words this batch (~844949 total ever)
+- [2026-08-17 05:04:05] indiatv: 560/6769 articles this batch, ~288107 words this batch (~804737 total ever)
+- [2026-08-17 05:04:36] abplive: 580/10849 articles this batch, ~317977 words this batch (~856611 total ever)
+- [2026-08-17 05:04:37] indiatv: 580/6769 articles this batch, ~297608 words this batch (~814238 total ever)
+- [2026-08-17 05:05:10] abplive: 600/10849 articles this batch, ~327987 words this batch (~866621 total ever)
+- [2026-08-17 05:05:10] indiatv: 600/6769 articles this batch, ~307269 words this batch (~823899 total ever)
+- [2026-08-17 05:05:43] indiatv: 620/6769 articles this batch, ~317285 words this batch (~833915 total ever)
+- [2026-08-17 05:05:43] abplive: 620/10849 articles this batch, ~338002 words this batch (~876636 total ever)
+- [2026-08-17 05:06:16] indiatv: 640/6769 articles this batch, ~326641 words this batch (~843271 total ever)
+- [2026-08-17 05:06:17] abplive: 640/10849 articles this batch, ~350479 words this batch (~889113 total ever)
+- [2026-08-17 05:06:49] indiatv: 660/6769 articles this batch, ~336391 words this batch (~853021 total ever)
+- [2026-08-17 05:06:50] abplive: 660/10849 articles this batch, ~359503 words this batch (~898137 total ever)
+- [2026-08-17 05:07:21] indiatv: 680/6769 articles this batch, ~347272 words this batch (~863902 total ever)
+- [2026-08-17 05:07:24] abplive: 680/10849 articles this batch, ~370613 words this batch (~909247 total ever)
+- [2026-08-17 05:07:54] indiatv: 700/6769 articles this batch, ~357339 words this batch (~873969 total ever)
+- [2026-08-17 05:07:58] abplive: 700/10849 articles this batch, ~382952 words this batch (~921586 total ever)
+- [2026-08-17 05:08:27] indiatv: 720/6769 articles this batch, ~366865 words this batch (~883495 total ever)
+- [2026-08-17 05:08:31] abplive: 720/10849 articles this batch, ~394155 words this batch (~932789 total ever)
+- [2026-08-17 05:09:00] indiatv: 740/6769 articles this batch, ~376207 words this batch (~892837 total ever)
+- [2026-08-17 05:09:05] abplive: 740/10849 articles this batch, ~404371 words this batch (~943005 total ever)
+- [2026-08-17 05:09:32] indiatv: 760/6769 articles this batch, ~385596 words this batch (~902226 total ever)
+- [2026-08-17 05:09:39] abplive: 760/10849 articles this batch, ~414494 words this batch (~953128 total ever)
+- [2026-08-17 05:10:05] indiatv: 780/6769 articles this batch, ~395475 words this batch (~912105 total ever)
+- [2026-08-17 05:10:14] abplive: 780/10849 articles this batch, ~424819 words this batch (~963453 total ever)
+- [2026-08-17 05:10:38] indiatv: 800/6769 articles this batch, ~404876 words this batch (~921506 total ever)
+- [2026-08-17 05:10:48] abplive: 800/10849 articles this batch, ~433762 words this batch (~972396 total ever)
+- [2026-08-17 05:11:10] indiatv: 820/6769 articles this batch, ~415442 words this batch (~932072 total ever)
+- [2026-08-17 05:11:21] abplive: 820/10849 articles this batch, ~444554 words this batch (~983188 total ever)
+- [2026-08-17 05:11:43] indiatv: 840/6769 articles this batch, ~427509 words this batch (~944139 total ever)
+- [2026-08-17 05:11:55] abplive: 840/10849 articles this batch, ~464476 words this batch (~1003110 total ever)
+- [2026-08-17 05:12:16] indiatv: 860/6769 articles this batch, ~437487 words this batch (~954117 total ever)
+- [2026-08-17 05:12:28] abplive: 860/10849 articles this batch, ~476955 words this batch (~1015589 total ever)
+- [2026-08-17 05:12:49] indiatv: 880/6769 articles this batch, ~447769 words this batch (~964399 total ever)
+- [2026-08-17 05:24:06] abplive: 880/10849 articles this batch, ~486442 words this batch (~1025076 total ever)
+- [2026-08-17 05:24:23] indiatv: 900/6769 articles this batch, ~457883 words this batch (~974513 total ever)
+- [2026-08-17 05:24:56] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-17 05:25:09] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 05:25:51] abplive: discovery found 11870 URLs, 9949 new
+- [2026-08-17 05:26:18] indiatv: discovery found 7786 URLs, 5862 new
+- [2026-08-17 05:26:23] patrika: discovery found 18301 URLs, 18301 new
+- [2026-08-17 05:26:25] abplive: 20/9949 articles this batch, ~9432 words this batch (~1042397 total ever)
+- [2026-08-17 05:26:33] zeenews: discovery found 244711 URLs, 244711 new
+- [2026-08-17 05:26:50] indiatv: 20/5862 articles this batch, ~10003 words this batch (~987414 total ever)
+- [2026-08-17 05:26:59] abplive: 40/9949 articles this batch, ~23056 words this batch (~1056021 total ever)
+- [2026-08-17 05:27:23] indiatv: 40/5862 articles this batch, ~19433 words this batch (~996844 total ever)
+- [2026-08-17 05:27:33] abplive: 60/9949 articles this batch, ~32919 words this batch (~1065884 total ever)
+- [2026-08-17 05:27:55] indiatv: 60/5862 articles this batch, ~28873 words this batch (~1006284 total ever)
+- [2026-08-17 05:28:06] abplive: 80/9949 articles this batch, ~42386 words this batch (~1075351 total ever)
+- [2026-08-17 05:28:27] indiatv: 80/5862 articles this batch, ~37915 words this batch (~1015326 total ever)
+- [2026-08-17 05:28:40] abplive: 100/9949 articles this batch, ~54118 words this batch (~1087083 total ever)
+- [2026-08-17 05:28:43] zeenews: 20/244711 articles this batch, ~6470 words this batch (~6470 total ever)
+- [2026-08-17 05:29:01] indiatv: 100/5862 articles this batch, ~48005 words this batch (~1025416 total ever)
+- [2026-08-17 05:29:13] abplive: 120/9949 articles this batch, ~65516 words this batch (~1098481 total ever)
+- [2026-08-17 05:29:23] zeenews: 40/244711 articles this batch, ~11621 words this batch (~11621 total ever)
+- [2026-08-17 05:29:35] indiatv: 120/5862 articles this batch, ~57853 words this batch (~1035264 total ever)
+- [2026-08-17 05:29:47] abplive: 140/9949 articles this batch, ~76021 words this batch (~1108986 total ever)
+- [2026-08-17 05:30:02] zeenews: 60/244711 articles this batch, ~21283 words this batch (~21283 total ever)
+- [2026-08-17 05:30:08] indiatv: 140/5862 articles this batch, ~69086 words this batch (~1046497 total ever)
+- [2026-08-17 05:30:23] abplive: 160/9949 articles this batch, ~85559 words this batch (~1118524 total ever)
+- [2026-08-17 05:30:40] zeenews: 80/244711 articles this batch, ~27290 words this batch (~27290 total ever)
+- [2026-08-17 05:30:41] indiatv: 160/5862 articles this batch, ~78808 words this batch (~1056219 total ever)
+- [2026-08-17 05:30:57] abplive: 180/9949 articles this batch, ~96346 words this batch (~1129311 total ever)
+- [2026-08-17 05:31:13] indiatv: 180/5862 articles this batch, ~88597 words this batch (~1066008 total ever)
+- [2026-08-17 05:31:17] zeenews: 100/244711 articles this batch, ~34765 words this batch (~34765 total ever)
+- [2026-08-17 05:31:31] abplive: 200/9949 articles this batch, ~106725 words this batch (~1139690 total ever)
+- [2026-08-17 05:31:47] indiatv: 200/5862 articles this batch, ~97777 words this batch (~1075188 total ever)
+- [2026-08-17 05:31:56] zeenews: 120/244711 articles this batch, ~40789 words this batch (~40789 total ever)
+- [2026-08-17 05:32:06] abplive: 220/9949 articles this batch, ~116228 words this batch (~1149193 total ever)
+- [2026-08-17 05:32:21] indiatv: 220/5862 articles this batch, ~106477 words this batch (~1083888 total ever)
+- [2026-08-17 05:32:34] zeenews: 140/244711 articles this batch, ~48126 words this batch (~48126 total ever)
+- [2026-08-17 05:32:41] abplive: 240/9949 articles this batch, ~127426 words this batch (~1160391 total ever)
+- [2026-08-17 05:32:56] indiatv: 240/5862 articles this batch, ~115360 words this batch (~1092771 total ever)
+- [2026-08-17 05:33:11] zeenews: 160/244711 articles this batch, ~54787 words this batch (~54787 total ever)
+- [2026-08-17 05:33:17] abplive: 260/9949 articles this batch, ~137371 words this batch (~1170336 total ever)
+- [2026-08-17 05:33:29] indiatv: 260/5862 articles this batch, ~126243 words this batch (~1103654 total ever)
+- [2026-08-17 05:33:49] zeenews: 180/244711 articles this batch, ~60086 words this batch (~60086 total ever)
+- [2026-08-17 05:33:52] abplive: 280/9949 articles this batch, ~147489 words this batch (~1180454 total ever)
+- [2026-08-17 05:34:03] indiatv: 280/5862 articles this batch, ~136235 words this batch (~1113646 total ever)
+- [2026-08-17 05:34:27] abplive: 300/9949 articles this batch, ~157732 words this batch (~1190697 total ever)
+- [2026-08-17 05:34:27] zeenews: 200/244711 articles this batch, ~69766 words this batch (~69766 total ever)
+- [2026-08-17 05:34:36] indiatv: 300/5862 articles this batch, ~145957 words this batch (~1123368 total ever)
+- [2026-08-17 05:35:02] abplive: 320/9949 articles this batch, ~167177 words this batch (~1200142 total ever)
+- [2026-08-17 05:35:03] zeenews: 220/244711 articles this batch, ~76099 words this batch (~76099 total ever)
+- [2026-08-17 05:35:09] indiatv: 320/5862 articles this batch, ~154713 words this batch (~1132124 total ever)
+- [2026-08-17 05:35:37] abplive: 340/9949 articles this batch, ~178591 words this batch (~1211556 total ever)
+- [2026-08-17 05:35:41] zeenews: 240/244711 articles this batch, ~83169 words this batch (~83169 total ever)
+- [2026-08-17 05:35:42] indiatv: 340/5862 articles this batch, ~164357 words this batch (~1141768 total ever)
+- [2026-08-17 05:36:10] abplive: 360/9949 articles this batch, ~197437 words this batch (~1230402 total ever)
+- [2026-08-17 05:36:15] indiatv: 360/5862 articles this batch, ~173862 words this batch (~1151273 total ever)
+- [2026-08-17 05:36:20] zeenews: 260/244711 articles this batch, ~91521 words this batch (~91521 total ever)
+- [2026-08-17 05:36:44] abplive: 380/9949 articles this batch, ~209860 words this batch (~1242825 total ever)
+- [2026-08-17 05:36:48] indiatv: 380/5862 articles this batch, ~184216 words this batch (~1161627 total ever)
+- [2026-08-17 05:36:58] zeenews: 280/244711 articles this batch, ~97421 words this batch (~97421 total ever)
+- [2026-08-17 05:37:18] abplive: 400/9949 articles this batch, ~220246 words this batch (~1253211 total ever)
+- [2026-08-17 05:37:21] indiatv: 400/5862 articles this batch, ~193480 words this batch (~1170891 total ever)
+- [2026-08-17 05:37:37] zeenews: 300/244711 articles this batch, ~103865 words this batch (~103865 total ever)
+- [2026-08-17 05:37:52] abplive: 420/9949 articles this batch, ~230744 words this batch (~1263709 total ever)
+- [2026-08-17 05:37:54] indiatv: 420/5862 articles this batch, ~202277 words this batch (~1179688 total ever)
+- [2026-08-17 05:38:14] zeenews: 320/244711 articles this batch, ~109505 words this batch (~109505 total ever)
+- [2026-08-17 05:38:26] abplive: 440/9949 articles this batch, ~239970 words this batch (~1272935 total ever)
+- [2026-08-17 05:38:26] indiatv: 440/5862 articles this batch, ~214883 words this batch (~1192294 total ever)
+- [2026-08-17 05:38:54] zeenews: 340/244711 articles this batch, ~114083 words this batch (~114083 total ever)
+- [2026-08-17 05:38:59] indiatv: 460/5862 articles this batch, ~224398 words this batch (~1201809 total ever)
+- [2026-08-17 05:38:59] abplive: 460/9949 articles this batch, ~253336 words this batch (~1286301 total ever)
+- [2026-08-17 05:39:32] indiatv: 480/5862 articles this batch, ~234424 words this batch (~1211835 total ever)
+- [2026-08-17 05:39:32] zeenews: 360/244711 articles this batch, ~119433 words this batch (~119433 total ever)
+- [2026-08-17 05:39:33] abplive: 480/9949 articles this batch, ~263608 words this batch (~1296573 total ever)
+- [2026-08-17 05:40:05] indiatv: 500/5862 articles this batch, ~245273 words this batch (~1222684 total ever)
+- [2026-08-17 05:40:07] abplive: 500/9949 articles this batch, ~272493 words this batch (~1305458 total ever)
+- [2026-08-17 05:40:10] zeenews: 380/244711 articles this batch, ~125049 words this batch (~125049 total ever)
+- [2026-08-17 05:40:37] indiatv: 520/5862 articles this batch, ~257453 words this batch (~1234864 total ever)
+- [2026-08-17 05:40:41] abplive: 520/9949 articles this batch, ~284843 words this batch (~1317808 total ever)
+- [2026-08-17 05:40:48] zeenews: 400/244711 articles this batch, ~130672 words this batch (~130672 total ever)
+- [2026-08-17 05:41:10] indiatv: 540/5862 articles this batch, ~265900 words this batch (~1243311 total ever)
+- [2026-08-17 05:41:15] abplive: 540/9949 articles this batch, ~294807 words this batch (~1327772 total ever)
+- [2026-08-17 05:41:28] zeenews: 420/244711 articles this batch, ~137186 words this batch (~137186 total ever)
+- [2026-08-17 05:41:43] indiatv: 560/5862 articles this batch, ~276391 words this batch (~1253802 total ever)
+- [2026-08-17 05:41:49] abplive: 560/9949 articles this batch, ~305068 words this batch (~1338033 total ever)
+- [2026-08-17 05:42:04] zeenews: 440/244711 articles this batch, ~142559 words this batch (~142559 total ever)
+- [2026-08-17 05:42:16] indiatv: 580/5862 articles this batch, ~286222 words this batch (~1263633 total ever)
+- [2026-08-17 05:42:23] abplive: 580/9949 articles this batch, ~316284 words this batch (~1349249 total ever)
+- [2026-08-17 05:42:44] zeenews: 460/244711 articles this batch, ~147566 words this batch (~147566 total ever)
+- [2026-08-17 05:42:49] indiatv: 600/5862 articles this batch, ~297201 words this batch (~1274612 total ever)
+- [2026-08-17 05:42:56] abplive: 600/9949 articles this batch, ~327428 words this batch (~1360393 total ever)
+- [2026-08-17 05:43:20] zeenews: 480/244711 articles this batch, ~157310 words this batch (~157310 total ever)
+- [2026-08-17 05:43:21] indiatv: 620/5862 articles this batch, ~306675 words this batch (~1284086 total ever)
+- [2026-08-17 05:43:30] abplive: 620/9949 articles this batch, ~337383 words this batch (~1370348 total ever)
+- [2026-08-17 05:43:54] indiatv: 640/5862 articles this batch, ~316835 words this batch (~1294246 total ever)
+- [2026-08-17 05:43:57] zeenews: 500/244711 articles this batch, ~163608 words this batch (~163608 total ever)
+- [2026-08-17 05:44:04] abplive: 640/9949 articles this batch, ~347835 words this batch (~1380800 total ever)
+- [2026-08-17 05:44:28] indiatv: 660/5862 articles this batch, ~327358 words this batch (~1304769 total ever)
+- [2026-08-17 05:44:34] zeenews: 520/244711 articles this batch, ~168895 words this batch (~168895 total ever)
+- [2026-08-17 05:44:38] abplive: 660/9949 articles this batch, ~357217 words this batch (~1390182 total ever)
+- [2026-08-17 05:45:00] indiatv: 680/5862 articles this batch, ~338009 words this batch (~1315420 total ever)
+- [2026-08-17 05:45:11] zeenews: 540/244711 articles this batch, ~175456 words this batch (~175456 total ever)
+- [2026-08-17 05:45:12] abplive: 680/9949 articles this batch, ~366450 words this batch (~1399415 total ever)
+- [2026-08-17 05:45:34] indiatv: 700/5862 articles this batch, ~347863 words this batch (~1325274 total ever)
+- [2026-08-17 05:45:47] zeenews: 560/244711 articles this batch, ~181663 words this batch (~181663 total ever)
+- [2026-08-17 05:45:48] abplive: 700/9949 articles this batch, ~378419 words this batch (~1411384 total ever)
+- [2026-08-17 05:46:06] indiatv: 720/5862 articles this batch, ~357918 words this batch (~1335329 total ever)
+- [2026-08-17 05:46:24] abplive: 720/9949 articles this batch, ~387436 words this batch (~1420401 total ever)
+- [2026-08-17 05:46:27] zeenews: 580/244711 articles this batch, ~188530 words this batch (~188530 total ever)
+- [2026-08-17 05:46:40] indiatv: 740/5862 articles this batch, ~367609 words this batch (~1345020 total ever)
+- [2026-08-17 05:47:01] abplive: 740/9949 articles this batch, ~397394 words this batch (~1430359 total ever)
+- [2026-08-17 05:47:03] zeenews: 600/244711 articles this batch, ~195437 words this batch (~195437 total ever)
+- [2026-08-17 05:47:12] indiatv: 760/5862 articles this batch, ~377891 words this batch (~1355302 total ever)
+- [2026-08-17 05:47:35] abplive: 760/9949 articles this batch, ~407305 words this batch (~1440270 total ever)
+- [2026-08-17 05:47:40] zeenews: 620/244711 articles this batch, ~202140 words this batch (~202140 total ever)
+- [2026-08-17 05:47:45] indiatv: 780/5862 articles this batch, ~386879 words this batch (~1364290 total ever)
+- [2026-08-17 05:48:09] abplive: 780/9949 articles this batch, ~429393 words this batch (~1462358 total ever)
+- [2026-08-17 05:48:17] zeenews: 640/244711 articles this batch, ~208971 words this batch (~208971 total ever)
+- [2026-08-17 05:48:18] indiatv: 800/5862 articles this batch, ~398417 words this batch (~1375828 total ever)
+- [2026-08-17 05:48:43] abplive: 800/9949 articles this batch, ~441073 words this batch (~1474038 total ever)
+- [2026-08-17 05:48:51] indiatv: 820/5862 articles this batch, ~408441 words this batch (~1385852 total ever)
+- [2026-08-17 05:48:55] zeenews: 660/244711 articles this batch, ~214836 words this batch (~214836 total ever)
+- [2026-08-17 05:49:17] abplive: 820/9949 articles this batch, ~450072 words this batch (~1483037 total ever)
+- [2026-08-17 05:49:24] indiatv: 840/5862 articles this batch, ~418233 words this batch (~1395644 total ever)
+- [2026-08-17 05:49:32] zeenews: 680/244711 articles this batch, ~220892 words this batch (~220892 total ever)
+- [2026-08-17 05:49:50] abplive: 840/9949 articles this batch, ~459469 words this batch (~1492434 total ever)
+- [2026-08-17 05:49:57] indiatv: 860/5862 articles this batch, ~428801 words this batch (~1406212 total ever)
+- [2026-08-17 05:50:10] zeenews: 700/244711 articles this batch, ~229567 words this batch (~229567 total ever)
+- [2026-08-17 05:50:24] abplive: 860/9949 articles this batch, ~470634 words this batch (~1503599 total ever)
+- [2026-08-17 05:50:30] indiatv: 880/5862 articles this batch, ~438718 words this batch (~1416129 total ever)
+- [2026-08-17 05:50:48] zeenews: 720/244711 articles this batch, ~236549 words this batch (~236549 total ever)
+- [2026-08-17 05:50:59] abplive: 880/9949 articles this batch, ~480209 words this batch (~1513174 total ever)
+- [2026-08-17 05:51:03] indiatv: 900/5862 articles this batch, ~449207 words this batch (~1426618 total ever)
+- [2026-08-17 05:51:25] zeenews: 740/244711 articles this batch, ~242662 words this batch (~242662 total ever)
+- [2026-08-17 05:51:33] abplive: 900/9949 articles this batch, ~491229 words this batch (~1524194 total ever)
+- [2026-08-17 05:51:36] indiatv: 920/5862 articles this batch, ~459339 words this batch (~1436750 total ever)
+- [2026-08-17 05:52:01] zeenews: 760/244711 articles this batch, ~249674 words this batch (~249674 total ever)
+- [2026-08-17 05:52:07] abplive: 920/9949 articles this batch, ~502784 words this batch (~1535749 total ever)
+- [2026-08-17 05:52:09] indiatv: 940/5862 articles this batch, ~470119 words this batch (~1447530 total ever)
+- [2026-08-17 05:52:39] zeenews: 780/244711 articles this batch, ~259263 words this batch (~259263 total ever)
+- [2026-08-17 05:52:42] abplive: 940/9949 articles this batch, ~514756 words this batch (~1547721 total ever)
+- [2026-08-17 05:52:42] indiatv: 960/5862 articles this batch, ~480100 words this batch (~1457511 total ever)
+- [2026-08-17 05:53:15] indiatv: 980/5862 articles this batch, ~489398 words this batch (~1466809 total ever)
+- [2026-08-17 05:53:16] abplive: 960/9949 articles this batch, ~525309 words this batch (~1558274 total ever)
+- [2026-08-17 05:53:16] zeenews: 800/244711 articles this batch, ~266998 words this batch (~266998 total ever)
+- [2026-08-17 05:53:48] indiatv: 1000/5862 articles this batch, ~499332 words this batch (~1476743 total ever)
+- [2026-08-17 05:53:50] abplive: 980/9949 articles this batch, ~536271 words this batch (~1569236 total ever)
+- [2026-08-17 05:53:52] zeenews: 820/244711 articles this batch, ~273694 words this batch (~273694 total ever)
+- [2026-08-17 05:54:21] indiatv: 1020/5862 articles this batch, ~509141 words this batch (~1486552 total ever)
+- [2026-08-17 05:54:25] abplive: 1000/9949 articles this batch, ~546551 words this batch (~1579516 total ever)
+- [2026-08-17 05:54:30] zeenews: 840/244711 articles this batch, ~278900 words this batch (~278900 total ever)
+- [2026-08-17 05:54:54] indiatv: 1040/5862 articles this batch, ~519306 words this batch (~1496717 total ever)
+- [2026-08-17 05:54:59] abplive: 1020/9949 articles this batch, ~556249 words this batch (~1589214 total ever)
+- [2026-08-17 05:55:10] zeenews: 860/244711 articles this batch, ~289794 words this batch (~289794 total ever)
+- [2026-08-17 05:55:27] indiatv: 1060/5862 articles this batch, ~529065 words this batch (~1506476 total ever)
+- [2026-08-17 05:55:33] abplive: 1040/9949 articles this batch, ~567052 words this batch (~1600017 total ever)
+- [2026-08-17 05:55:49] zeenews: 880/244711 articles this batch, ~298476 words this batch (~298476 total ever)
+- [2026-08-17 05:56:00] indiatv: 1080/5862 articles this batch, ~538281 words this batch (~1515692 total ever)
+- [2026-08-17 05:56:08] abplive: 1060/9949 articles this batch, ~578901 words this batch (~1611866 total ever)
+- [2026-08-17 05:56:26] zeenews: 900/244711 articles this batch, ~303666 words this batch (~303666 total ever)
+- [2026-08-17 05:56:33] indiatv: 1100/5862 articles this batch, ~547409 words this batch (~1524820 total ever)
+- [2026-08-17 05:56:43] abplive: 1080/9949 articles this batch, ~596673 words this batch (~1629638 total ever)
+- [2026-08-17 05:57:03] zeenews: 920/244711 articles this batch, ~310597 words this batch (~310597 total ever)
+- [2026-08-17 05:57:06] indiatv: 1120/5862 articles this batch, ~557722 words this batch (~1535133 total ever)
+- [2026-08-17 05:57:17] abplive: 1100/9949 articles this batch, ~608894 words this batch (~1641859 total ever)
+- [2026-08-17 05:57:39] indiatv: 1140/5862 articles this batch, ~566991 words this batch (~1544402 total ever)
+- [2026-08-17 05:57:41] zeenews: 940/244711 articles this batch, ~315928 words this batch (~315928 total ever)
+- [2026-08-17 05:57:51] abplive: 1120/9949 articles this batch, ~618359 words this batch (~1651324 total ever)
+- [2026-08-17 05:58:12] indiatv: 1160/5862 articles this batch, ~576814 words this batch (~1554225 total ever)
+- [2026-08-17 05:58:18] zeenews: 960/244711 articles this batch, ~321003 words this batch (~321003 total ever)
+- [2026-08-17 05:58:26] abplive: 1140/9949 articles this batch, ~627404 words this batch (~1660369 total ever)
+- [2026-08-17 05:58:45] indiatv: 1180/5862 articles this batch, ~585829 words this batch (~1563240 total ever)
+- [2026-08-17 05:58:56] zeenews: 980/244711 articles this batch, ~328189 words this batch (~328189 total ever)
+- [2026-08-17 05:59:01] abplive: 1160/9949 articles this batch, ~640897 words this batch (~1673862 total ever)
+- [2026-08-17 05:59:19] indiatv: 1200/5862 articles this batch, ~595298 words this batch (~1572709 total ever)
+- [2026-08-17 05:59:33] zeenews: 1000/244711 articles this batch, ~335450 words this batch (~335450 total ever)
+- [2026-08-17 05:59:36] abplive: 1180/9949 articles this batch, ~650736 words this batch (~1683701 total ever)
+- [2026-08-17 05:59:52] indiatv: 1220/5862 articles this batch, ~605885 words this batch (~1583296 total ever)
+- [2026-08-17 06:00:09] zeenews: 1020/244711 articles this batch, ~342019 words this batch (~342019 total ever)
+- [2026-08-17 06:00:10] abplive: 1200/9949 articles this batch, ~660622 words this batch (~1693587 total ever)
+- [2026-08-17 06:00:25] indiatv: 1240/5862 articles this batch, ~614643 words this batch (~1592054 total ever)
+- [2026-08-17 06:00:45] abplive: 1220/9949 articles this batch, ~669822 words this batch (~1702787 total ever)
+- [2026-08-17 06:00:46] zeenews: 1040/244711 articles this batch, ~348720 words this batch (~348720 total ever)
+- [2026-08-17 06:00:58] indiatv: 1260/5862 articles this batch, ~623791 words this batch (~1601202 total ever)
+- [2026-08-17 06:01:20] abplive: 1240/9949 articles this batch, ~679461 words this batch (~1712426 total ever)
+- [2026-08-17 06:01:24] zeenews: 1060/244711 articles this batch, ~356182 words this batch (~356182 total ever)
+- [2026-08-17 06:01:31] indiatv: 1280/5862 articles this batch, ~633262 words this batch (~1610673 total ever)
+- [2026-08-17 06:01:55] abplive: 1260/9949 articles this batch, ~690689 words this batch (~1723654 total ever)
+- [2026-08-17 06:02:00] zeenews: 1080/244711 articles this batch, ~361495 words this batch (~361495 total ever)
+- [2026-08-17 06:02:04] indiatv: 1300/5862 articles this batch, ~643114 words this batch (~1620525 total ever)
+- [2026-08-17 06:02:30] abplive: 1280/9949 articles this batch, ~705865 words this batch (~1738830 total ever)
+- [2026-08-17 06:02:38] indiatv: 1320/5862 articles this batch, ~653175 words this batch (~1630586 total ever)
+- [2026-08-17 06:02:38] zeenews: 1100/244711 articles this batch, ~367700 words this batch (~367700 total ever)
+- [2026-08-17 06:03:04] abplive: 1300/9949 articles this batch, ~715047 words this batch (~1748012 total ever)
+- [2026-08-17 06:03:11] indiatv: 1340/5862 articles this batch, ~665423 words this batch (~1642834 total ever)
+- [2026-08-17 06:03:14] zeenews: 1120/244711 articles this batch, ~374827 words this batch (~374827 total ever)
+- [2026-08-17 06:03:38] abplive: 1320/9949 articles this batch, ~725463 words this batch (~1758428 total ever)
+- [2026-08-17 06:03:44] indiatv: 1360/5862 articles this batch, ~675867 words this batch (~1653278 total ever)
+- [2026-08-17 06:03:51] zeenews: 1140/244711 articles this batch, ~380731 words this batch (~380731 total ever)
+- [2026-08-17 06:04:11] patrika: 20/18301 articles this batch, ~10698 words this batch (~10698 total ever)
+- [2026-08-17 06:04:13] abplive: 1340/9949 articles this batch, ~736280 words this batch (~1769245 total ever)
+- [2026-08-17 06:04:17] indiatv: 1380/5862 articles this batch, ~685946 words this batch (~1663357 total ever)
+- [2026-08-17 06:04:28] zeenews: 1160/244711 articles this batch, ~387175 words this batch (~387175 total ever)
+- [2026-08-17 06:04:47] abplive: 1360/9949 articles this batch, ~746072 words this batch (~1779037 total ever)
+- [2026-08-17 06:04:50] indiatv: 1400/5862 articles this batch, ~695516 words this batch (~1672927 total ever)
+- [2026-08-17 06:04:56] patrika: 40/18301 articles this batch, ~22071 words this batch (~22071 total ever)
+- [2026-08-17 06:05:05] zeenews: 1180/244711 articles this batch, ~394608 words this batch (~394608 total ever)
+- [2026-08-17 06:05:22] abplive: 1380/9949 articles this batch, ~757694 words this batch (~1790659 total ever)
+- [2026-08-17 06:05:23] indiatv: 1420/5862 articles this batch, ~705877 words this batch (~1683288 total ever)
+- [2026-08-17 06:05:41] zeenews: 1200/244711 articles this batch, ~402057 words this batch (~402057 total ever)
+- [2026-08-17 06:05:46] patrika: 60/18301 articles this batch, ~33351 words this batch (~33351 total ever)
+- [2026-08-17 06:05:55] indiatv: 1440/5862 articles this batch, ~715431 words this batch (~1692842 total ever)
+- [2026-08-17 06:05:56] abplive: 1400/9949 articles this batch, ~769752 words this batch (~1802717 total ever)
+- [2026-08-17 06:06:18] zeenews: 1220/244711 articles this batch, ~406140 words this batch (~406140 total ever)
+- [2026-08-17 06:06:28] indiatv: 1460/5862 articles this batch, ~724886 words this batch (~1702297 total ever)
+- [2026-08-17 06:06:30] abplive: 1420/9949 articles this batch, ~786450 words this batch (~1819415 total ever)
+- [2026-08-17 06:06:34] patrika: 80/18301 articles this batch, ~44677 words this batch (~44677 total ever)
+- [2026-08-17 06:06:54] zeenews: 1240/244711 articles this batch, ~413941 words this batch (~413941 total ever)
+- [2026-08-17 06:07:01] indiatv: 1480/5862 articles this batch, ~736365 words this batch (~1713776 total ever)
+- [2026-08-17 06:07:04] abplive: 1440/9949 articles this batch, ~795651 words this batch (~1828616 total ever)
+- [2026-08-17 06:07:24] patrika: 100/18301 articles this batch, ~56666 words this batch (~56666 total ever)
+- [2026-08-17 06:07:31] zeenews: 1260/244711 articles this batch, ~418663 words this batch (~418663 total ever)
+- [2026-08-17 06:07:35] indiatv: 1500/5862 articles this batch, ~746162 words this batch (~1723573 total ever)
+- [2026-08-17 06:07:40] abplive: 1460/9949 articles this batch, ~806293 words this batch (~1839258 total ever)
+- [2026-08-17 06:08:08] indiatv: 1520/5862 articles this batch, ~756482 words this batch (~1733893 total ever)
+- [2026-08-17 06:08:10] zeenews: 1280/244711 articles this batch, ~424497 words this batch (~424497 total ever)
+- [2026-08-17 06:08:15] patrika: 120/18301 articles this batch, ~68398 words this batch (~68398 total ever)
+- [2026-08-17 06:08:15] abplive: 1480/9949 articles this batch, ~823169 words this batch (~1856134 total ever)
+- [2026-08-17 06:08:41] indiatv: 1540/5862 articles this batch, ~767370 words this batch (~1744781 total ever)
+- [2026-08-17 06:08:47] zeenews: 1300/244711 articles this batch, ~432200 words this batch (~432200 total ever)
+- [2026-08-17 06:08:50] abplive: 1500/9949 articles this batch, ~832003 words this batch (~1864968 total ever)
+- [2026-08-17 06:09:06] patrika: 140/18301 articles this batch, ~79393 words this batch (~79393 total ever)
+- [2026-08-17 06:09:14] indiatv: 1560/5862 articles this batch, ~776763 words this batch (~1754174 total ever)
+- [2026-08-17 06:09:24] zeenews: 1320/244711 articles this batch, ~439103 words this batch (~439103 total ever)
+- [2026-08-17 06:09:25] abplive: 1520/9949 articles this batch, ~841576 words this batch (~1874541 total ever)
+- [2026-08-17 06:09:47] indiatv: 1580/5862 articles this batch, ~786608 words this batch (~1764019 total ever)
+- [2026-08-17 06:09:59] patrika: 160/18301 articles this batch, ~90894 words this batch (~90894 total ever)
+- [2026-08-17 06:09:59] abplive: 1540/9949 articles this batch, ~851707 words this batch (~1884672 total ever)
+- [2026-08-17 06:10:00] zeenews: 1340/244711 articles this batch, ~444345 words this batch (~444345 total ever)
+- [2026-08-17 06:10:20] indiatv: 1600/5862 articles this batch, ~797190 words this batch (~1774601 total ever)
+- [2026-08-17 06:10:34] abplive: 1560/9949 articles this batch, ~863069 words this batch (~1896034 total ever)
+- [2026-08-17 06:10:37] zeenews: 1360/244711 articles this batch, ~449431 words this batch (~449431 total ever)
+- [2026-08-17 06:10:52] patrika: 180/18301 articles this batch, ~102707 words this batch (~102707 total ever)
+- [2026-08-17 06:10:54] indiatv: 1620/5862 articles this batch, ~807332 words this batch (~1784743 total ever)
+- [2026-08-17 06:11:08] abplive: 1580/9949 articles this batch, ~872235 words this batch (~1905200 total ever)
+- [2026-08-17 06:11:14] zeenews: 1380/244711 articles this batch, ~457827 words this batch (~457827 total ever)
+- [2026-08-17 06:11:27] indiatv: 1640/5862 articles this batch, ~817455 words this batch (~1794866 total ever)
+- [2026-08-17 06:11:43] abplive: 1600/9949 articles this batch, ~881773 words this batch (~1914738 total ever)
+- [2026-08-17 06:11:43] patrika: 200/18301 articles this batch, ~116165 words this batch (~116165 total ever)
+- [2026-08-17 06:11:50] zeenews: 1400/244711 articles this batch, ~463738 words this batch (~463738 total ever)
+- [2026-08-17 06:12:02] indiatv: 1660/5862 articles this batch, ~828734 words this batch (~1806145 total ever)
+- [2026-08-17 06:12:17] abplive: 1620/9949 articles this batch, ~892641 words this batch (~1925606 total ever)
+- [2026-08-17 06:12:27] zeenews: 1420/244711 articles this batch, ~471230 words this batch (~471230 total ever)
+- [2026-08-17 06:12:31] patrika: 220/18301 articles this batch, ~127748 words this batch (~127748 total ever)
+- [2026-08-17 06:12:35] indiatv: 1680/5862 articles this batch, ~838228 words this batch (~1815639 total ever)
+- [2026-08-17 06:12:51] abplive: 1640/9949 articles this batch, ~905874 words this batch (~1938839 total ever)
+- [2026-08-17 06:13:04] zeenews: 1440/244711 articles this batch, ~477674 words this batch (~477674 total ever)
+- [2026-08-17 06:13:08] indiatv: 1700/5862 articles this batch, ~848661 words this batch (~1826072 total ever)
+- [2026-08-17 06:13:20] patrika: 240/18301 articles this batch, ~140430 words this batch (~140430 total ever)
+- [2026-08-17 06:13:26] abplive: 1660/9949 articles this batch, ~914863 words this batch (~1947828 total ever)
+- [2026-08-17 06:13:41] zeenews: 1460/244711 articles this batch, ~483878 words this batch (~483878 total ever)
+- [2026-08-17 06:13:41] indiatv: 1720/5862 articles this batch, ~858447 words this batch (~1835858 total ever)
+- [2026-08-17 06:14:00] abplive: 1680/9949 articles this batch, ~924293 words this batch (~1957258 total ever)
+- [2026-08-17 06:14:08] patrika: 260/18301 articles this batch, ~151358 words this batch (~151358 total ever)
+- [2026-08-17 06:14:14] indiatv: 1740/5862 articles this batch, ~868986 words this batch (~1846397 total ever)
+- [2026-08-17 06:14:17] zeenews: 1480/244711 articles this batch, ~490434 words this batch (~490434 total ever)
+- [2026-08-17 06:14:35] abplive: 1700/9949 articles this batch, ~934152 words this batch (~1967117 total ever)
+- [2026-08-17 06:14:47] indiatv: 1760/5862 articles this batch, ~878538 words this batch (~1855949 total ever)
+- [2026-08-17 06:14:52] zeenews: 1500/244711 articles this batch, ~496206 words this batch (~496206 total ever)
+- [2026-08-17 06:14:55] patrika: 280/18301 articles this batch, ~162970 words this batch (~162970 total ever)
+- [2026-08-17 06:15:11] abplive: 1720/9949 articles this batch, ~944663 words this batch (~1977628 total ever)
+- [2026-08-17 06:15:20] indiatv: 1780/5862 articles this batch, ~887221 words this batch (~1864632 total ever)
+- [2026-08-17 06:15:36] zeenews: 1520/244711 articles this batch, ~501430 words this batch (~501430 total ever)
+- [2026-08-17 06:15:45] abplive: 1740/9949 articles this batch, ~953528 words this batch (~1986493 total ever)
+- [2026-08-17 06:15:49] patrika: 300/18301 articles this batch, ~170685 words this batch (~170685 total ever)
+- [2026-08-17 06:15:53] indiatv: 1800/5862 articles this batch, ~896878 words this batch (~1874289 total ever)
+- [2026-08-17 06:16:18] zeenews: 1540/244711 articles this batch, ~505938 words this batch (~505938 total ever)
+- [2026-08-17 06:16:20] abplive: 1760/9949 articles this batch, ~963525 words this batch (~1996490 total ever)
+- [2026-08-17 06:16:26] indiatv: 1820/5862 articles this batch, ~906543 words this batch (~1883954 total ever)
+- [2026-08-17 06:16:46] patrika: 320/18301 articles this batch, ~175383 words this batch (~175383 total ever)
+- [2026-08-17 06:16:54] abplive: 1780/9949 articles this batch, ~973640 words this batch (~2006605 total ever)
+- [2026-08-17 06:16:57] zeenews: 1560/244711 articles this batch, ~511524 words this batch (~511524 total ever)
+- [2026-08-17 06:16:59] indiatv: 1840/5862 articles this batch, ~917082 words this batch (~1894493 total ever)
+- [2026-08-17 06:17:29] abplive: 1800/9949 articles this batch, ~984287 words this batch (~2017252 total ever)
+- [2026-08-17 06:17:34] indiatv: 1860/5862 articles this batch, ~927884 words this batch (~1905295 total ever)
+- [2026-08-17 06:17:36] zeenews: 1580/244711 articles this batch, ~517980 words this batch (~517980 total ever)
+- [2026-08-17 06:17:41] patrika: 340/18301 articles this batch, ~180175 words this batch (~180175 total ever)
+- [2026-08-17 06:18:03] abplive: 1820/9949 articles this batch, ~1002826 words this batch (~2035791 total ever)
+- [2026-08-17 06:18:07] indiatv: 1880/5862 articles this batch, ~937667 words this batch (~1915078 total ever)
+- [2026-08-17 06:18:15] zeenews: 1600/244711 articles this batch, ~524912 words this batch (~524912 total ever)
+- [2026-08-17 06:18:30] patrika: 360/18301 articles this batch, ~191150 words this batch (~191150 total ever)
+- [2026-08-17 06:18:37] abplive: 1840/9949 articles this batch, ~1011124 words this batch (~2044089 total ever)
+- [2026-08-17 06:18:40] indiatv: 1900/5862 articles this batch, ~946832 words this batch (~1924243 total ever)
+- [2026-08-17 06:18:54] zeenews: 1620/244711 articles this batch, ~531748 words this batch (~531748 total ever)
+- [2026-08-17 06:19:11] abplive: 1860/9949 articles this batch, ~1020650 words this batch (~2053615 total ever)
+- [2026-08-17 06:19:14] indiatv: 1920/5862 articles this batch, ~957274 words this batch (~1934685 total ever)
+- [2026-08-17 06:19:23] patrika: 380/18301 articles this batch, ~203721 words this batch (~203721 total ever)
+- [2026-08-17 06:19:35] zeenews: 1640/244711 articles this batch, ~537963 words this batch (~537963 total ever)
+- [2026-08-17 06:19:46] abplive: 1880/9949 articles this batch, ~1029929 words this batch (~2062894 total ever)
+- [2026-08-17 06:19:47] indiatv: 1940/5862 articles this batch, ~967037 words this batch (~1944448 total ever)
+- [2026-08-17 06:20:13] patrika: 400/18301 articles this batch, ~215609 words this batch (~215609 total ever)
+- [2026-08-17 06:20:15] zeenews: 1660/244711 articles this batch, ~544766 words this batch (~544766 total ever)
+- [2026-08-17 06:20:20] indiatv: 1960/5862 articles this batch, ~976571 words this batch (~1953982 total ever)
+- [2026-08-17 06:20:20] abplive: 1900/9949 articles this batch, ~1043173 words this batch (~2076138 total ever)
+- [2026-08-17 06:20:53] indiatv: 1980/5862 articles this batch, ~985868 words this batch (~1963279 total ever)
+- [2026-08-17 06:20:55] abplive: 1920/9949 articles this batch, ~1056570 words this batch (~2089535 total ever)
+- [2026-08-17 06:20:59] zeenews: 1680/244711 articles this batch, ~549308 words this batch (~549308 total ever)
+- [2026-08-17 06:21:06] patrika: 420/18301 articles this batch, ~227627 words this batch (~227627 total ever)
+- [2026-08-17 06:21:26] indiatv: 2000/5862 articles this batch, ~996063 words this batch (~1973474 total ever)
+- [2026-08-17 06:21:30] abplive: 1940/9949 articles this batch, ~1067645 words this batch (~2100610 total ever)
+- [2026-08-17 06:21:39] zeenews: 1700/244711 articles this batch, ~559098 words this batch (~559098 total ever)
+- [2026-08-17 06:21:59] indiatv: 2020/5862 articles this batch, ~1006763 words this batch (~1984174 total ever)
+- [2026-08-17 06:22:00] patrika: 440/18301 articles this batch, ~239488 words this batch (~239488 total ever)
+- [2026-08-17 06:22:04] abplive: 1960/9949 articles this batch, ~1077061 words this batch (~2110026 total ever)
+- [2026-08-17 06:22:20] zeenews: 1720/244711 articles this batch, ~564743 words this batch (~564743 total ever)
+- [2026-08-17 06:22:33] indiatv: 2040/5862 articles this batch, ~1016977 words this batch (~1994388 total ever)
+- [2026-08-17 06:22:38] abplive: 1980/9949 articles this batch, ~1088010 words this batch (~2120975 total ever)
+- [2026-08-17 06:22:51] patrika: 460/18301 articles this batch, ~252312 words this batch (~252312 total ever)
+- [2026-08-17 06:23:00] zeenews: 1740/244711 articles this batch, ~573558 words this batch (~573558 total ever)
+- [2026-08-17 06:23:07] indiatv: 2060/5862 articles this batch, ~1026256 words this batch (~2003667 total ever)
+- [2026-08-17 06:23:12] abplive: 2000/9949 articles this batch, ~1097900 words this batch (~2130865 total ever)
+- [2026-08-17 06:23:40] indiatv: 2080/5862 articles this batch, ~1037055 words this batch (~2014466 total ever)
+- [2026-08-17 06:23:41] zeenews: 1760/244711 articles this batch, ~577961 words this batch (~577961 total ever)
+- [2026-08-17 06:23:41] patrika: 480/18301 articles this batch, ~263591 words this batch (~263591 total ever)
+- [2026-08-17 06:23:45] abplive: 2020/9949 articles this batch, ~1107756 words this batch (~2140721 total ever)
+- [2026-08-17 06:24:13] indiatv: 2100/5862 articles this batch, ~1046506 words this batch (~2023917 total ever)
+- [2026-08-17 06:24:19] abplive: 2040/9949 articles this batch, ~1118632 words this batch (~2151597 total ever)
+- [2026-08-17 06:24:22] zeenews: 1780/244711 articles this batch, ~584788 words this batch (~584788 total ever)
+- [2026-08-17 06:24:31] patrika: 500/18301 articles this batch, ~275034 words this batch (~275034 total ever)
+- [2026-08-17 06:24:46] indiatv: 2120/5862 articles this batch, ~1056182 words this batch (~2033593 total ever)
+- [2026-08-17 06:24:53] abplive: 2060/9949 articles this batch, ~1131776 words this batch (~2164741 total ever)
+- [2026-08-17 06:25:07] zeenews: 1800/244711 articles this batch, ~592267 words this batch (~592267 total ever)
+- [2026-08-17 06:25:19] indiatv: 2140/5862 articles this batch, ~1065908 words this batch (~2043319 total ever)
+- [2026-08-17 06:25:27] abplive: 2080/9949 articles this batch, ~1141789 words this batch (~2174754 total ever)
+- [2026-08-17 06:25:28] patrika: 520/18301 articles this batch, ~287267 words this batch (~287267 total ever)
+- [2026-08-17 06:41:38] patrika: batch done -- 521 new articles, ~287766 words, 4514s, ~287766 words total ever
+- [2026-08-17 06:41:38] indiatv: batch done -- 2147 new articles, ~1068962 words, 4521s, ~2046373 words total ever
+- [2026-08-17 06:41:41] abplive: batch done -- 2082 new articles, ~1142521 words, 4551s, ~2175486 words total ever
+- [2026-08-17 06:41:44] zeenews: batch done -- 1811 new articles, ~595110 words, 4511s, ~595110 words total ever
+- [2026-08-17 06:41:44] RUN COMPLETE: 4 sources, 6561 new articles, 3094359 words, 4608s elapsed, ~2417356 words/hour aggregate throughput
+- [2026-08-17 06:41:44]   abplive: 2082 articles, 1142521 words, 4551s
+- [2026-08-17 06:41:44]   indiatv: 2147 articles, 1068962 words, 4521s
+- [2026-08-17 06:41:44]   patrika: 521 articles, 287766 words, 4514s
+- [2026-08-17 06:41:44]   zeenews: 1811 articles, 595110 words, 4511s
+- [2026-08-17 06:42:40] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-17 06:42:48] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 06:43:33] abplive: discovery found 11884 URLs, 7875 new
+- [2026-08-17 06:44:01] patrika: discovery found 18300 URLs, 16391 new
+- [2026-08-17 06:44:03] indiatv: discovery found 7793 URLs, 3719 new
+- [2026-08-17 06:44:07] abplive: 20/7875 articles this batch, ~19550 words this batch (~2195036 total ever)
+- [2026-08-17 06:44:11] zeenews: discovery found 244711 URLs, 242871 new
+- [2026-08-17 06:44:37] indiatv: 20/3719 articles this batch, ~11048 words this batch (~2057421 total ever)
+- [2026-08-17 06:44:41] abplive: 40/7875 articles this batch, ~29593 words this batch (~2205079 total ever)
+- [2026-08-17 06:44:50] patrika: 20/16391 articles this batch, ~3964 words this batch (~291730 total ever)
+- [2026-08-17 06:44:50] zeenews: 20/242871 articles this batch, ~6227 words this batch (~601337 total ever)
+- [2026-08-17 06:45:11] indiatv: 40/3719 articles this batch, ~20683 words this batch (~2067056 total ever)
+- [2026-08-17 06:45:15] abplive: 60/7875 articles this batch, ~38878 words this batch (~2214364 total ever)
+- [2026-08-17 06:45:34] zeenews: 40/242871 articles this batch, ~13457 words this batch (~608567 total ever)
+- [2026-08-17 06:45:38] patrika: 40/16391 articles this batch, ~7813 words this batch (~295579 total ever)
+- [2026-08-17 06:45:44] indiatv: 60/3719 articles this batch, ~32456 words this batch (~2078829 total ever)
+- [2026-08-17 06:45:50] abplive: 80/7875 articles this batch, ~49572 words this batch (~2225058 total ever)
+- [2026-08-17 06:46:16] zeenews: 60/242871 articles this batch, ~19139 words this batch (~614249 total ever)
+- [2026-08-17 06:46:18] indiatv: 80/3719 articles this batch, ~41486 words this batch (~2087859 total ever)
+- [2026-08-17 06:46:24] abplive: 100/7875 articles this batch, ~60157 words this batch (~2235643 total ever)
+- [2026-08-17 06:46:32] patrika: 60/16391 articles this batch, ~16182 words this batch (~303948 total ever)
+- [2026-08-17 06:46:51] indiatv: 100/3719 articles this batch, ~51267 words this batch (~2097640 total ever)
+- [2026-08-17 06:46:55] zeenews: 80/242871 articles this batch, ~27908 words this batch (~623018 total ever)
+- [2026-08-17 06:46:58] abplive: 120/7875 articles this batch, ~70240 words this batch (~2245726 total ever)
+- [2026-08-17 06:47:25] indiatv: 120/3719 articles this batch, ~60105 words this batch (~2106478 total ever)
+- [2026-08-17 06:47:27] patrika: 80/16391 articles this batch, ~29538 words this batch (~317304 total ever)
+- [2026-08-17 06:47:32] abplive: 140/7875 articles this batch, ~80592 words this batch (~2256078 total ever)
+- [2026-08-17 06:47:34] zeenews: 100/242871 articles this batch, ~33355 words this batch (~628465 total ever)
+- [2026-08-17 06:47:59] indiatv: 140/3719 articles this batch, ~69586 words this batch (~2115959 total ever)
+- [2026-08-17 06:48:05] abplive: 160/7875 articles this batch, ~91078 words this batch (~2266564 total ever)
+- [2026-08-17 06:48:13] zeenews: 120/242871 articles this batch, ~39017 words this batch (~634127 total ever)
+- [2026-08-17 06:48:18] patrika: 100/16391 articles this batch, ~41285 words this batch (~329051 total ever)
+- [2026-08-17 06:48:32] indiatv: 160/3719 articles this batch, ~79660 words this batch (~2126033 total ever)
+- [2026-08-17 06:48:39] abplive: 180/7875 articles this batch, ~109166 words this batch (~2284652 total ever)
+- [2026-08-17 06:48:51] zeenews: 140/242871 articles this batch, ~46509 words this batch (~641619 total ever)
+- [2026-08-17 06:49:06] indiatv: 180/3719 articles this batch, ~88918 words this batch (~2135291 total ever)
+- [2026-08-17 06:49:06] patrika: 120/16391 articles this batch, ~53943 words this batch (~341709 total ever)
+- [2026-08-17 06:49:13] abplive: 200/7875 articles this batch, ~118233 words this batch (~2293719 total ever)
+- [2026-08-17 06:49:32] zeenews: 160/242871 articles this batch, ~52415 words this batch (~647525 total ever)
+- [2026-08-17 06:49:39] patrika: 140/16391 articles this batch, ~67522 words this batch (~355288 total ever)
+- [2026-08-17 06:49:39] indiatv: 200/3719 articles this batch, ~98591 words this batch (~2144964 total ever)
+- [2026-08-17 06:49:46] abplive: 220/7875 articles this batch, ~126879 words this batch (~2302365 total ever)
+- [2026-08-17 06:50:12] patrika: 160/16391 articles this batch, ~78933 words this batch (~366699 total ever)
+- [2026-08-17 06:50:13] indiatv: 220/3719 articles this batch, ~108576 words this batch (~2154949 total ever)
+- [2026-08-17 06:50:19] zeenews: 180/242871 articles this batch, ~60733 words this batch (~655843 total ever)
+- [2026-08-17 06:50:19] abplive: 240/7875 articles this batch, ~136756 words this batch (~2312242 total ever)
+- [2026-08-17 06:50:44] patrika: 180/16391 articles this batch, ~90620 words this batch (~378386 total ever)
+- [2026-08-17 06:50:46] indiatv: 240/3719 articles this batch, ~118641 words this batch (~2165014 total ever)
+- [2026-08-17 06:50:53] abplive: 260/7875 articles this batch, ~145095 words this batch (~2320581 total ever)
+- [2026-08-17 06:50:59] zeenews: 200/242871 articles this batch, ~65581 words this batch (~660691 total ever)
+- [2026-08-17 06:51:20] indiatv: 260/3719 articles this batch, ~128846 words this batch (~2175219 total ever)
+- [2026-08-17 06:51:26] abplive: 280/7875 articles this batch, ~158067 words this batch (~2333553 total ever)
+- [2026-08-17 06:51:35] patrika: 200/16391 articles this batch, ~97878 words this batch (~385644 total ever)
+- [2026-08-17 06:51:39] zeenews: 220/242871 articles this batch, ~72176 words this batch (~667286 total ever)
+- [2026-08-17 06:51:53] indiatv: 280/3719 articles this batch, ~138531 words this batch (~2184904 total ever)
+- [2026-08-17 06:52:01] abplive: 300/7875 articles this batch, ~169000 words this batch (~2344486 total ever)
+- [2026-08-17 06:52:20] zeenews: 240/242871 articles this batch, ~77303 words this batch (~672413 total ever)
+- [2026-08-17 06:52:25] patrika: 220/16391 articles this batch, ~103751 words this batch (~391517 total ever)
+- [2026-08-17 06:52:27] indiatv: 300/3719 articles this batch, ~148605 words this batch (~2194978 total ever)
+- [2026-08-17 06:52:34] abplive: 320/7875 articles this batch, ~179753 words this batch (~2355239 total ever)
+- [2026-08-17 06:53:01] indiatv: 320/3719 articles this batch, ~159185 words this batch (~2205558 total ever)
+- [2026-08-17 06:53:03] zeenews: 260/242871 articles this batch, ~80689 words this batch (~675799 total ever)
+- [2026-08-17 06:53:08] abplive: 340/7875 articles this batch, ~190118 words this batch (~2365604 total ever)
+- [2026-08-17 06:53:21] patrika: 240/16391 articles this batch, ~110896 words this batch (~398662 total ever)
+- [2026-08-17 06:53:34] indiatv: 340/3719 articles this batch, ~168738 words this batch (~2215111 total ever)
+- [2026-08-17 06:53:41] abplive: 360/7875 articles this batch, ~199828 words this batch (~2375314 total ever)
+- [2026-08-17 06:53:42] zeenews: 280/242871 articles this batch, ~87017 words this batch (~682127 total ever)
+- [2026-08-17 06:54:08] indiatv: 360/3719 articles this batch, ~177862 words this batch (~2224235 total ever)
+- [2026-08-17 06:54:10] patrika: 260/16391 articles this batch, ~122857 words this batch (~410623 total ever)
+- [2026-08-17 06:54:14] abplive: 380/7875 articles this batch, ~210269 words this batch (~2385755 total ever)
+- [2026-08-17 06:54:24] zeenews: 300/242871 articles this batch, ~92013 words this batch (~687123 total ever)
+- [2026-08-17 06:54:41] indiatv: 380/3719 articles this batch, ~187377 words this batch (~2233750 total ever)
+- [2026-08-17 06:54:48] abplive: 400/7875 articles this batch, ~223575 words this batch (~2399061 total ever)
+- [2026-08-17 06:55:02] patrika: 280/16391 articles this batch, ~133992 words this batch (~421758 total ever)
+- [2026-08-17 06:55:05] zeenews: 320/242871 articles this batch, ~98979 words this batch (~694089 total ever)
+- [2026-08-17 06:55:15] indiatv: 400/3719 articles this batch, ~196408 words this batch (~2242781 total ever)
+- [2026-08-17 06:55:21] abplive: 420/7875 articles this batch, ~232428 words this batch (~2407914 total ever)
+- [2026-08-17 06:55:48] indiatv: 420/3719 articles this batch, ~207211 words this batch (~2253584 total ever)
+- [2026-08-17 06:55:49] zeenews: 340/242871 articles this batch, ~106071 words this batch (~701181 total ever)
+- [2026-08-17 06:55:55] abplive: 440/7875 articles this batch, ~242345 words this batch (~2417831 total ever)
+- [2026-08-17 06:55:59] patrika: 300/16391 articles this batch, ~144286 words this batch (~432052 total ever)
+- [2026-08-17 06:56:21] indiatv: 440/3719 articles this batch, ~216638 words this batch (~2263011 total ever)
+- [2026-08-17 06:56:28] zeenews: 360/242871 articles this batch, ~111183 words this batch (~706293 total ever)
+- [2026-08-17 06:56:29] abplive: 460/7875 articles this batch, ~252894 words this batch (~2428380 total ever)
+- [2026-08-17 06:56:44] patrika: 320/16391 articles this batch, ~157544 words this batch (~445310 total ever)
+- [2026-08-17 06:56:57] indiatv: 460/3719 articles this batch, ~226079 words this batch (~2272452 total ever)
+- [2026-08-17 06:57:02] abplive: 480/7875 articles this batch, ~262703 words this batch (~2438189 total ever)
+- [2026-08-17 06:57:10] zeenews: 380/242871 articles this batch, ~118770 words this batch (~713880 total ever)
+- [2026-08-17 06:57:30] indiatv: 480/3719 articles this batch, ~236119 words this batch (~2282492 total ever)
+- [2026-08-17 06:57:34] patrika: 340/16391 articles this batch, ~169420 words this batch (~457186 total ever)
+- [2026-08-17 06:57:35] abplive: 500/7875 articles this batch, ~272979 words this batch (~2448465 total ever)
+- [2026-08-17 06:57:49] zeenews: 400/242871 articles this batch, ~125855 words this batch (~720965 total ever)
+- [2026-08-17 06:58:04] indiatv: 500/3719 articles this batch, ~245827 words this batch (~2292200 total ever)
+- [2026-08-17 06:58:09] abplive: 520/7875 articles this batch, ~283110 words this batch (~2458596 total ever)
+- [2026-08-17 06:58:31] zeenews: 420/242871 articles this batch, ~132868 words this batch (~727978 total ever)
+- [2026-08-17 06:58:31] patrika: 360/16391 articles this batch, ~180582 words this batch (~468348 total ever)
+- [2026-08-17 06:58:37] indiatv: 520/3719 articles this batch, ~255706 words this batch (~2302079 total ever)
+- [2026-08-17 06:58:42] abplive: 540/7875 articles this batch, ~293199 words this batch (~2468685 total ever)
+- [2026-08-17 06:59:10] indiatv: 540/3719 articles this batch, ~266733 words this batch (~2313106 total ever)
+- [2026-08-17 06:59:11] zeenews: 440/242871 articles this batch, ~137083 words this batch (~732193 total ever)
+- [2026-08-17 06:59:18] abplive: 560/7875 articles this batch, ~302329 words this batch (~2477815 total ever)
+- [2026-08-17 06:59:25] patrika: 380/16391 articles this batch, ~192446 words this batch (~480212 total ever)
+- [2026-08-17 06:59:44] indiatv: 560/3719 articles this batch, ~277135 words this batch (~2323508 total ever)
+- [2026-08-17 06:59:51] zeenews: 460/242871 articles this batch, ~142453 words this batch (~737563 total ever)
+- [2026-08-17 06:59:54] abplive: 580/7875 articles this batch, ~313073 words this batch (~2488559 total ever)
+- [2026-08-17 07:00:17] indiatv: 580/3719 articles this batch, ~286432 words this batch (~2332805 total ever)
+- [2026-08-17 07:00:19] patrika: 400/16391 articles this batch, ~204717 words this batch (~492483 total ever)
+- [2026-08-17 07:00:27] abplive: 600/7875 articles this batch, ~323069 words this batch (~2498555 total ever)
+- [2026-08-17 07:00:41] zeenews: 480/242871 articles this batch, ~149366 words this batch (~744476 total ever)
+- [2026-08-17 07:00:51] indiatv: 600/3719 articles this batch, ~299569 words this batch (~2345942 total ever)
+- [2026-08-17 07:01:01] abplive: 620/7875 articles this batch, ~341299 words this batch (~2516785 total ever)
+- [2026-08-17 07:01:20] patrika: 420/16391 articles this batch, ~218312 words this batch (~506078 total ever)
+- [2026-08-17 07:01:24] zeenews: 500/242871 articles this batch, ~155241 words this batch (~750351 total ever)
+- [2026-08-17 07:01:24] indiatv: 620/3719 articles this batch, ~308904 words this batch (~2355277 total ever)
+- [2026-08-17 07:01:35] abplive: 640/7875 articles this batch, ~351917 words this batch (~2527403 total ever)
+- [2026-08-17 07:01:58] indiatv: 640/3719 articles this batch, ~318703 words this batch (~2365076 total ever)
+- [2026-08-17 07:02:06] zeenews: 520/242871 articles this batch, ~159536 words this batch (~754646 total ever)
+- [2026-08-17 07:02:09] abplive: 660/7875 articles this batch, ~360957 words this batch (~2536443 total ever)
+- [2026-08-17 07:02:12] patrika: 440/16391 articles this batch, ~229758 words this batch (~517524 total ever)
+- [2026-08-17 07:02:31] indiatv: 660/3719 articles this batch, ~328876 words this batch (~2375249 total ever)
+- [2026-08-17 07:02:42] abplive: 680/7875 articles this batch, ~370241 words this batch (~2545727 total ever)
+- [2026-08-17 07:02:45] zeenews: 540/242871 articles this batch, ~164535 words this batch (~759645 total ever)
+- [2026-08-17 07:03:04] indiatv: 680/3719 articles this batch, ~338887 words this batch (~2385260 total ever)
+- [2026-08-17 07:03:06] patrika: 460/16391 articles this batch, ~242766 words this batch (~530532 total ever)
+- [2026-08-17 07:03:16] abplive: 700/7875 articles this batch, ~380874 words this batch (~2556360 total ever)
+- [2026-08-17 07:03:27] zeenews: 560/242871 articles this batch, ~169144 words this batch (~764254 total ever)
+- [2026-08-17 07:03:38] indiatv: 700/3719 articles this batch, ~351414 words this batch (~2397787 total ever)
+- [2026-08-17 07:03:49] abplive: 720/7875 articles this batch, ~391498 words this batch (~2566984 total ever)
+- [2026-08-17 07:04:02] patrika: 480/16391 articles this batch, ~259342 words this batch (~547108 total ever)
+- [2026-08-17 07:04:10] zeenews: 580/242871 articles this batch, ~178897 words this batch (~774007 total ever)
+- [2026-08-17 07:04:11] indiatv: 720/3719 articles this batch, ~361038 words this batch (~2407411 total ever)
+- [2026-08-17 07:04:23] abplive: 740/7875 articles this batch, ~403557 words this batch (~2579043 total ever)
+- [2026-08-17 07:04:45] indiatv: 740/3719 articles this batch, ~371398 words this batch (~2417771 total ever)
+- [2026-08-17 07:04:49] zeenews: 600/242871 articles this batch, ~185506 words this batch (~780616 total ever)
+- [2026-08-17 07:04:56] patrika: 500/16391 articles this batch, ~271626 words this batch (~559392 total ever)
+- [2026-08-17 07:04:58] abplive: 760/7875 articles this batch, ~413039 words this batch (~2588525 total ever)
+- [2026-08-17 07:05:18] indiatv: 760/3719 articles this batch, ~382364 words this batch (~2428737 total ever)
+- [2026-08-17 07:05:31] abplive: 780/7875 articles this batch, ~423336 words this batch (~2598822 total ever)
+- [2026-08-17 07:05:32] zeenews: 620/242871 articles this batch, ~190215 words this batch (~785325 total ever)
+- [2026-08-17 07:05:41] patrika: 520/16391 articles this batch, ~284630 words this batch (~572396 total ever)
+- [2026-08-17 07:05:53] indiatv: 780/3719 articles this batch, ~392120 words this batch (~2438493 total ever)
+- [2026-08-17 07:06:05] abplive: 800/7875 articles this batch, ~433421 words this batch (~2608907 total ever)
+- [2026-08-17 07:06:14] zeenews: 640/242871 articles this batch, ~196821 words this batch (~791931 total ever)
+- [2026-08-17 07:06:27] indiatv: 800/3719 articles this batch, ~402029 words this batch (~2448402 total ever)
+- [2026-08-17 07:06:33] patrika: 540/16391 articles this batch, ~297554 words this batch (~585320 total ever)
+- [2026-08-17 07:06:38] abplive: 820/7875 articles this batch, ~443827 words this batch (~2619313 total ever)
+- [2026-08-17 07:06:54] zeenews: 660/242871 articles this batch, ~202883 words this batch (~797993 total ever)
+- [2026-08-17 07:07:00] indiatv: 820/3719 articles this batch, ~412513 words this batch (~2458886 total ever)
+- [2026-08-17 07:07:11] abplive: 840/7875 articles this batch, ~453896 words this batch (~2629382 total ever)
+- [2026-08-17 07:07:23] patrika: 560/16391 articles this batch, ~310065 words this batch (~597831 total ever)
+- [2026-08-17 07:07:34] indiatv: 840/3719 articles this batch, ~422220 words this batch (~2468593 total ever)
+- [2026-08-17 07:07:36] zeenews: 680/242871 articles this batch, ~214273 words this batch (~809383 total ever)
+- [2026-08-17 07:07:45] abplive: 860/7875 articles this batch, ~463093 words this batch (~2638579 total ever)
+- [2026-08-17 07:08:08] indiatv: 860/3719 articles this batch, ~433224 words this batch (~2479597 total ever)
+- [2026-08-17 07:08:17] patrika: 580/16391 articles this batch, ~321337 words this batch (~609103 total ever)
+- [2026-08-17 07:08:19] zeenews: 700/242871 articles this batch, ~220152 words this batch (~815262 total ever)
+- [2026-08-17 07:08:19] abplive: 880/7875 articles this batch, ~475199 words this batch (~2650685 total ever)
+- [2026-08-17 07:08:41] indiatv: 880/3719 articles this batch, ~443090 words this batch (~2489463 total ever)
+- [2026-08-17 07:08:53] abplive: 900/7875 articles this batch, ~484982 words this batch (~2660468 total ever)
+- [2026-08-17 07:08:57] zeenews: 720/242871 articles this batch, ~226945 words this batch (~822055 total ever)
+- [2026-08-17 07:09:10] patrika: 600/16391 articles this batch, ~333898 words this batch (~621664 total ever)
+- [2026-08-17 07:09:15] indiatv: 900/3719 articles this batch, ~452683 words this batch (~2499056 total ever)
+- [2026-08-17 07:09:27] abplive: 920/7875 articles this batch, ~494583 words this batch (~2670069 total ever)
+- [2026-08-17 07:09:39] zeenews: 740/242871 articles this batch, ~231169 words this batch (~826279 total ever)
+- [2026-08-17 07:09:48] indiatv: 920/3719 articles this batch, ~462604 words this batch (~2508977 total ever)
+- [2026-08-17 07:10:00] abplive: 940/7875 articles this batch, ~505260 words this batch (~2680746 total ever)
+- [2026-08-17 07:10:08] patrika: 620/16391 articles this batch, ~346540 words this batch (~634306 total ever)
+- [2026-08-17 07:10:22] indiatv: 940/3719 articles this batch, ~472363 words this batch (~2518736 total ever)
+- [2026-08-17 07:10:28] zeenews: 760/242871 articles this batch, ~241667 words this batch (~836777 total ever)
+- [2026-08-17 07:10:36] abplive: 960/7875 articles this batch, ~514861 words this batch (~2690347 total ever)
+- [2026-08-17 07:10:56] indiatv: 960/3719 articles this batch, ~482048 words this batch (~2528421 total ever)
+- [2026-08-17 07:11:05] patrika: 640/16391 articles this batch, ~352956 words this batch (~640722 total ever)
+- [2026-08-17 07:11:10] zeenews: 780/242871 articles this batch, ~249267 words this batch (~844377 total ever)
+- [2026-08-17 07:11:12] abplive: 980/7875 articles this batch, ~525763 words this batch (~2701249 total ever)
+- [2026-08-17 07:11:30] indiatv: 980/3719 articles this batch, ~492120 words this batch (~2538493 total ever)
+- [2026-08-17 07:11:45] abplive: 1000/7875 articles this batch, ~534981 words this batch (~2710467 total ever)
+- [2026-08-17 07:11:49] zeenews: 800/242871 articles this batch, ~255726 words this batch (~850836 total ever)
+- [2026-08-17 07:12:04] indiatv: 1000/3719 articles this batch, ~502080 words this batch (~2548453 total ever)
+- [2026-08-17 07:12:05] patrika: 660/16391 articles this batch, ~362677 words this batch (~650443 total ever)
+- [2026-08-17 07:12:18] abplive: 1020/7875 articles this batch, ~544952 words this batch (~2720438 total ever)
+- [2026-08-17 07:12:30] zeenews: 820/242871 articles this batch, ~260161 words this batch (~855271 total ever)
+- [2026-08-17 07:12:37] indiatv: 1020/3719 articles this batch, ~511415 words this batch (~2557788 total ever)
+- [2026-08-17 07:12:52] abplive: 1040/7875 articles this batch, ~555092 words this batch (~2730578 total ever)
+- [2026-08-17 07:13:03] patrika: 680/16391 articles this batch, ~371770 words this batch (~659536 total ever)
+- [2026-08-17 07:13:11] indiatv: 1040/3719 articles this batch, ~521388 words this batch (~2567761 total ever)
+- [2026-08-17 07:13:14] zeenews: 840/242871 articles this batch, ~267303 words this batch (~862413 total ever)
+- [2026-08-17 07:13:26] abplive: 1060/7875 articles this batch, ~572662 words this batch (~2748148 total ever)
+- [2026-08-17 07:13:45] indiatv: 1060/3719 articles this batch, ~532042 words this batch (~2578415 total ever)
+- [2026-08-17 07:13:54] zeenews: 860/242871 articles this batch, ~272779 words this batch (~867889 total ever)
+- [2026-08-17 07:14:00] abplive: 1080/7875 articles this batch, ~582647 words this batch (~2758133 total ever)
+- [2026-08-17 07:14:01] patrika: 700/16391 articles this batch, ~382791 words this batch (~670557 total ever)
+- [2026-08-17 07:14:18] indiatv: 1080/3719 articles this batch, ~541817 words this batch (~2588190 total ever)
+- [2026-08-17 07:14:34] abplive: 1100/7875 articles this batch, ~593125 words this batch (~2768611 total ever)
+- [2026-08-17 07:14:35] zeenews: 880/242871 articles this batch, ~277883 words this batch (~872993 total ever)
+- [2026-08-17 07:14:52] indiatv: 1100/3719 articles this batch, ~551637 words this batch (~2598010 total ever)
+- [2026-08-17 07:14:57] patrika: 720/16391 articles this batch, ~394182 words this batch (~681948 total ever)
+- [2026-08-17 07:15:08] abplive: 1120/7875 articles this batch, ~604844 words this batch (~2780330 total ever)
+- [2026-08-17 07:15:16] zeenews: 900/242871 articles this batch, ~282369 words this batch (~877479 total ever)
+- [2026-08-17 07:15:25] indiatv: 1120/3719 articles this batch, ~561146 words this batch (~2607519 total ever)
+- [2026-08-17 07:15:41] abplive: 1140/7875 articles this batch, ~616932 words this batch (~2792418 total ever)
+- [2026-08-17 07:15:55] patrika: 740/16391 articles this batch, ~405477 words this batch (~693243 total ever)
+- [2026-08-17 07:15:57] zeenews: 920/242871 articles this batch, ~288616 words this batch (~883726 total ever)
+- [2026-08-17 07:15:58] indiatv: 1140/3719 articles this batch, ~570256 words this batch (~2616629 total ever)
+- [2026-08-17 07:16:15] abplive: 1160/7875 articles this batch, ~626216 words this batch (~2801702 total ever)
+- [2026-08-17 07:16:32] indiatv: 1160/3719 articles this batch, ~579555 words this batch (~2625928 total ever)
+- [2026-08-17 07:16:37] zeenews: 940/242871 articles this batch, ~294290 words this batch (~889400 total ever)
+- [2026-08-17 07:16:48] abplive: 1180/7875 articles this batch, ~635420 words this batch (~2810906 total ever)
+- [2026-08-17 07:16:55] patrika: 760/16391 articles this batch, ~419119 words this batch (~706885 total ever)
+- [2026-08-17 07:17:06] indiatv: 1180/3719 articles this batch, ~588642 words this batch (~2635015 total ever)
+- [2026-08-17 07:17:18] zeenews: 960/242871 articles this batch, ~302133 words this batch (~897243 total ever)
+- [2026-08-17 07:17:22] abplive: 1200/7875 articles this batch, ~645909 words this batch (~2821395 total ever)
+- [2026-08-17 07:17:39] indiatv: 1200/3719 articles this batch, ~598592 words this batch (~2644965 total ever)
+- [2026-08-17 07:17:51] patrika: 780/16391 articles this batch, ~432105 words this batch (~719871 total ever)
+- [2026-08-17 07:17:56] abplive: 1220/7875 articles this batch, ~658812 words this batch (~2834298 total ever)
+- [2026-08-17 07:17:58] zeenews: 980/242871 articles this batch, ~310347 words this batch (~905457 total ever)
+- [2026-08-17 07:18:12] indiatv: 1220/3719 articles this batch, ~608009 words this batch (~2654382 total ever)
+- [2026-08-17 07:18:30] abplive: 1240/7875 articles this batch, ~670051 words this batch (~2845537 total ever)
+- [2026-08-17 07:18:39] zeenews: 1000/242871 articles this batch, ~316105 words this batch (~911215 total ever)
+- [2026-08-17 07:18:47] indiatv: 1240/3719 articles this batch, ~618252 words this batch (~2664625 total ever)
+- [2026-08-17 07:18:48] patrika: 800/16391 articles this batch, ~443886 words this batch (~731652 total ever)
+- [2026-08-17 07:19:04] abplive: 1260/7875 articles this batch, ~680182 words this batch (~2855668 total ever)
+- [2026-08-17 07:19:21] indiatv: 1260/3719 articles this batch, ~628862 words this batch (~2675235 total ever)
+- [2026-08-17 07:19:22] zeenews: 1020/242871 articles this batch, ~321903 words this batch (~917013 total ever)
+- [2026-08-17 07:19:38] abplive: 1280/7875 articles this batch, ~690278 words this batch (~2865764 total ever)
+- [2026-08-17 07:19:48] patrika: 820/16391 articles this batch, ~456625 words this batch (~744391 total ever)
+- [2026-08-17 07:19:55] indiatv: 1280/3719 articles this batch, ~638101 words this batch (~2684474 total ever)
+- [2026-08-17 07:20:06] zeenews: 1040/242871 articles this batch, ~328238 words this batch (~923348 total ever)
+- [2026-08-17 07:20:11] abplive: 1300/7875 articles this batch, ~699883 words this batch (~2875369 total ever)
+- [2026-08-17 07:20:29] indiatv: 1300/3719 articles this batch, ~648291 words this batch (~2694664 total ever)
+- [2026-08-17 07:20:41] patrika: 840/16391 articles this batch, ~468140 words this batch (~755906 total ever)
+- [2026-08-17 07:20:45] abplive: 1320/7875 articles this batch, ~710313 words this batch (~2885799 total ever)
+- [2026-08-17 07:20:52] zeenews: 1060/242871 articles this batch, ~333459 words this batch (~928569 total ever)
+- [2026-08-17 07:21:03] indiatv: 1320/3719 articles this batch, ~657811 words this batch (~2704184 total ever)
+- [2026-08-17 07:21:19] abplive: 1340/7875 articles this batch, ~719979 words this batch (~2895465 total ever)
+- [2026-08-17 07:21:34] zeenews: 1080/242871 articles this batch, ~339027 words this batch (~934137 total ever)
+- [2026-08-17 07:21:36] indiatv: 1340/3719 articles this batch, ~667297 words this batch (~2713670 total ever)
+- [2026-08-17 07:21:38] patrika: 860/16391 articles this batch, ~482605 words this batch (~770371 total ever)
+- [2026-08-17 07:21:55] abplive: 1360/7875 articles this batch, ~728007 words this batch (~2903493 total ever)
+- [2026-08-17 07:22:10] indiatv: 1360/3719 articles this batch, ~676993 words this batch (~2723366 total ever)
+- [2026-08-17 07:22:15] zeenews: 1100/242871 articles this batch, ~345433 words this batch (~940543 total ever)
+- [2026-08-17 07:22:29] abplive: 1380/7875 articles this batch, ~738330 words this batch (~2913816 total ever)
+- [2026-08-17 07:22:31] patrika: 880/16391 articles this batch, ~494363 words this batch (~782129 total ever)
+- [2026-08-17 07:22:43] indiatv: 1380/3719 articles this batch, ~686393 words this batch (~2732766 total ever)
+- [2026-08-17 07:22:54] zeenews: 1120/242871 articles this batch, ~352150 words this batch (~947260 total ever)
+- [2026-08-17 07:23:02] abplive: 1400/7875 articles this batch, ~747675 words this batch (~2923161 total ever)
+- [2026-08-17 07:23:17] indiatv: 1400/3719 articles this batch, ~696360 words this batch (~2742733 total ever)
+- [2026-08-17 07:23:23] patrika: 900/16391 articles this batch, ~507188 words this batch (~794954 total ever)
+- [2026-08-17 07:23:35] zeenews: 1140/242871 articles this batch, ~359014 words this batch (~954124 total ever)
+- [2026-08-17 07:23:36] abplive: 1420/7875 articles this batch, ~757295 words this batch (~2932781 total ever)
+- [2026-08-17 07:23:50] indiatv: 1420/3719 articles this batch, ~707148 words this batch (~2753521 total ever)
+- [2026-08-17 07:24:10] abplive: 1440/7875 articles this batch, ~767192 words this batch (~2942678 total ever)
+- [2026-08-17 07:24:17] zeenews: 1160/242871 articles this batch, ~364010 words this batch (~959120 total ever)
+- [2026-08-17 07:24:19] patrika: 920/16391 articles this batch, ~518836 words this batch (~806602 total ever)
+- [2026-08-17 07:24:24] indiatv: 1440/3719 articles this batch, ~718344 words this batch (~2764717 total ever)
+- [2026-08-17 07:24:43] abplive: 1460/7875 articles this batch, ~777221 words this batch (~2952707 total ever)
+- [2026-08-17 07:24:56] zeenews: 1180/242871 articles this batch, ~369035 words this batch (~964145 total ever)
+- [2026-08-17 07:24:57] indiatv: 1460/3719 articles this batch, ~729687 words this batch (~2776060 total ever)
+- [2026-08-17 07:25:12] patrika: 940/16391 articles this batch, ~531009 words this batch (~818775 total ever)
+- [2026-08-17 07:25:20] abplive: 1480/7875 articles this batch, ~787425 words this batch (~2962911 total ever)
+- [2026-08-17 07:25:31] indiatv: 1480/3719 articles this batch, ~740827 words this batch (~2787200 total ever)
+- [2026-08-17 07:25:42] zeenews: 1200/242871 articles this batch, ~373842 words this batch (~968952 total ever)
+- [2026-08-17 07:25:57] abplive: 1500/7875 articles this batch, ~807628 words this batch (~2983114 total ever)
+- [2026-08-17 07:26:04] patrika: 960/16391 articles this batch, ~543329 words this batch (~831095 total ever)
+- [2026-08-17 07:26:05] indiatv: 1500/3719 articles this batch, ~750529 words this batch (~2796902 total ever)
+- [2026-08-17 07:26:21] zeenews: 1220/242871 articles this batch, ~379139 words this batch (~974249 total ever)
+- [2026-08-17 07:26:31] abplive: 1520/7875 articles this batch, ~815923 words this batch (~2991409 total ever)
+- [2026-08-17 07:26:39] indiatv: 1520/3719 articles this batch, ~762791 words this batch (~2809164 total ever)
+- [2026-08-17 07:26:56] patrika: 980/16391 articles this batch, ~555924 words this batch (~843690 total ever)
+- [2026-08-17 07:27:01] zeenews: 1240/242871 articles this batch, ~384814 words this batch (~979924 total ever)
+- [2026-08-17 07:27:04] abplive: 1540/7875 articles this batch, ~824459 words this batch (~2999945 total ever)
+- [2026-08-17 07:27:12] indiatv: 1540/3719 articles this batch, ~772234 words this batch (~2818607 total ever)
+- [2026-08-17 07:27:38] abplive: 1560/7875 articles this batch, ~833356 words this batch (~3008842 total ever)
+- [2026-08-17 07:27:39] zeenews: 1260/242871 articles this batch, ~389206 words this batch (~984316 total ever)
+- [2026-08-17 07:27:46] indiatv: 1560/3719 articles this batch, ~781845 words this batch (~2828218 total ever)
+- [2026-08-17 07:27:57] patrika: 1000/16391 articles this batch, ~568732 words this batch (~856498 total ever)
+- [2026-08-17 07:28:12] abplive: 1580/7875 articles this batch, ~845430 words this batch (~3020916 total ever)
+- [2026-08-17 07:28:19] indiatv: 1580/3719 articles this batch, ~791251 words this batch (~2837624 total ever)
+- [2026-08-17 07:28:20] zeenews: 1280/242871 articles this batch, ~396032 words this batch (~991142 total ever)
+- [2026-08-17 07:28:46] abplive: 1600/7875 articles this batch, ~856456 words this batch (~3031942 total ever)
+- [2026-08-17 07:28:53] indiatv: 1600/3719 articles this batch, ~802528 words this batch (~2848901 total ever)
+- [2026-08-17 07:28:55] patrika: 1020/16391 articles this batch, ~580489 words this batch (~868255 total ever)
+- [2026-08-17 07:28:59] zeenews: 1300/242871 articles this batch, ~401741 words this batch (~996851 total ever)
+- [2026-08-17 07:29:19] abplive: 1620/7875 articles this batch, ~866802 words this batch (~3042288 total ever)
+- [2026-08-17 07:29:26] indiatv: 1620/3719 articles this batch, ~813001 words this batch (~2859374 total ever)
+- [2026-08-17 07:29:40] zeenews: 1320/242871 articles this batch, ~409139 words this batch (~1004249 total ever)
+- [2026-08-17 07:29:49] patrika: 1040/16391 articles this batch, ~588140 words this batch (~875906 total ever)
+- [2026-08-17 07:29:53] abplive: 1640/7875 articles this batch, ~876821 words this batch (~3052307 total ever)
+- [2026-08-17 07:30:00] indiatv: 1640/3719 articles this batch, ~823130 words this batch (~2869503 total ever)
+- [2026-08-17 07:30:27] abplive: 1660/7875 articles this batch, ~887068 words this batch (~3062554 total ever)
+- [2026-08-17 07:30:28] zeenews: 1340/242871 articles this batch, ~417914 words this batch (~1013024 total ever)
+- [2026-08-17 07:30:33] indiatv: 1660/3719 articles this batch, ~832351 words this batch (~2878724 total ever)
+- [2026-08-17 07:30:40] patrika: 1060/16391 articles this batch, ~593851 words this batch (~881617 total ever)
+- [2026-08-17 07:31:01] abplive: 1680/7875 articles this batch, ~898544 words this batch (~3074030 total ever)
+- [2026-08-17 07:31:07] indiatv: 1680/3719 articles this batch, ~841266 words this batch (~2887639 total ever)
+- [2026-08-17 07:31:10] zeenews: 1360/242871 articles this batch, ~424333 words this batch (~1019443 total ever)
+- [2026-08-17 07:31:35] abplive: 1700/7875 articles this batch, ~908595 words this batch (~3084081 total ever)
+- [2026-08-17 07:31:36] patrika: 1080/16391 articles this batch, ~599804 words this batch (~887570 total ever)
+- [2026-08-17 07:31:40] indiatv: 1700/3719 articles this batch, ~850899 words this batch (~2897272 total ever)
+- [2026-08-17 07:31:50] zeenews: 1380/242871 articles this batch, ~430441 words this batch (~1025551 total ever)
+- [2026-08-17 07:32:09] abplive: 1720/7875 articles this batch, ~919540 words this batch (~3095026 total ever)
+- [2026-08-17 07:32:14] indiatv: 1720/3719 articles this batch, ~861106 words this batch (~2907479 total ever)
+- [2026-08-17 07:32:30] patrika: 1100/16391 articles this batch, ~613905 words this batch (~901671 total ever)
+- [2026-08-17 07:32:31] zeenews: 1400/242871 articles this batch, ~434948 words this batch (~1030058 total ever)
+- [2026-08-17 07:32:43] abplive: 1740/7875 articles this batch, ~928921 words this batch (~3104407 total ever)
+- [2026-08-17 07:32:47] indiatv: 1740/3719 articles this batch, ~870863 words this batch (~2917236 total ever)
+- [2026-08-17 07:33:12] zeenews: 1420/242871 articles this batch, ~444486 words this batch (~1039596 total ever)
+- [2026-08-17 07:33:17] abplive: 1760/7875 articles this batch, ~941127 words this batch (~3116613 total ever)
+- [2026-08-17 07:33:21] indiatv: 1760/3719 articles this batch, ~879858 words this batch (~2926231 total ever)
+- [2026-08-17 07:33:27] patrika: 1120/16391 articles this batch, ~626107 words this batch (~913873 total ever)
+- [2026-08-17 07:33:51] abplive: 1780/7875 articles this batch, ~950523 words this batch (~3126009 total ever)
+- [2026-08-17 07:33:52] zeenews: 1440/242871 articles this batch, ~449804 words this batch (~1044914 total ever)
+- [2026-08-17 07:33:55] indiatv: 1780/3719 articles this batch, ~891273 words this batch (~2937646 total ever)
+- [2026-08-17 07:34:24] patrika: 1140/16391 articles this batch, ~638603 words this batch (~926369 total ever)
+- [2026-08-17 07:34:28] abplive: 1800/7875 articles this batch, ~961363 words this batch (~3136849 total ever)
+- [2026-08-17 07:34:28] indiatv: 1800/3719 articles this batch, ~901538 words this batch (~2947911 total ever)
+- [2026-08-17 07:34:31] zeenews: 1460/242871 articles this batch, ~454048 words this batch (~1049158 total ever)
+- [2026-08-17 07:35:01] indiatv: 1820/3719 articles this batch, ~911137 words this batch (~2957510 total ever)
+- [2026-08-17 07:35:02] abplive: 1820/7875 articles this batch, ~980233 words this batch (~3155719 total ever)
+- [2026-08-17 07:35:15] zeenews: 1480/242871 articles this batch, ~458897 words this batch (~1054007 total ever)
+- [2026-08-17 07:35:23] patrika: 1160/16391 articles this batch, ~650663 words this batch (~938429 total ever)
+- [2026-08-17 07:35:35] indiatv: 1840/3719 articles this batch, ~921661 words this batch (~2968034 total ever)
+- [2026-08-17 07:35:37] abplive: 1840/7875 articles this batch, ~990048 words this batch (~3165534 total ever)
+- [2026-08-17 07:35:55] zeenews: 1500/242871 articles this batch, ~466177 words this batch (~1061287 total ever)
+- [2026-08-17 07:36:09] indiatv: 1860/3719 articles this batch, ~932243 words this batch (~2978616 total ever)
+- [2026-08-17 07:36:11] abplive: 1860/7875 articles this batch, ~998700 words this batch (~3174186 total ever)
+- [2026-08-17 07:36:19] patrika: 1180/16391 articles this batch, ~663173 words this batch (~950939 total ever)
+- [2026-08-17 07:36:35] zeenews: 1520/242871 articles this batch, ~470755 words this batch (~1065865 total ever)
+- [2026-08-17 07:36:44] indiatv: 1880/3719 articles this batch, ~941754 words this batch (~2988127 total ever)
+- [2026-08-17 07:36:45] abplive: 1880/7875 articles this batch, ~1007557 words this batch (~3183043 total ever)
+- [2026-08-17 07:37:16] zeenews: 1540/242871 articles this batch, ~477718 words this batch (~1072828 total ever)
+- [2026-08-17 07:37:17] patrika: 1200/16391 articles this batch, ~674322 words this batch (~962088 total ever)
+- [2026-08-17 07:37:17] indiatv: 1900/3719 articles this batch, ~951708 words this batch (~2998081 total ever)
+- [2026-08-17 07:37:19] abplive: 1900/7875 articles this batch, ~1019939 words this batch (~3195425 total ever)
+- [2026-08-17 07:37:51] indiatv: 1920/3719 articles this batch, ~962292 words this batch (~3008665 total ever)
+- [2026-08-17 07:37:54] abplive: 1920/7875 articles this batch, ~1028200 words this batch (~3203686 total ever)
+- [2026-08-17 07:37:57] zeenews: 1560/242871 articles this batch, ~486894 words this batch (~1082004 total ever)
+- [2026-08-17 07:38:19] patrika: 1220/16391 articles this batch, ~686924 words this batch (~974690 total ever)
+- [2026-08-17 07:38:24] indiatv: 1940/3719 articles this batch, ~971986 words this batch (~3018359 total ever)
+- [2026-08-17 07:38:28] abplive: 1940/7875 articles this batch, ~1038868 words this batch (~3214354 total ever)
+- [2026-08-17 07:38:39] zeenews: 1580/242871 articles this batch, ~491280 words this batch (~1086390 total ever)
+- [2026-08-17 07:38:58] indiatv: 1960/3719 articles this batch, ~982004 words this batch (~3028377 total ever)
+- [2026-08-17 07:39:02] abplive: 1960/7875 articles this batch, ~1052360 words this batch (~3227846 total ever)
+- [2026-08-17 07:39:14] patrika: 1240/16391 articles this batch, ~698839 words this batch (~986605 total ever)
+- [2026-08-17 07:39:21] zeenews: 1600/242871 articles this batch, ~495508 words this batch (~1090618 total ever)
+- [2026-08-17 07:39:31] indiatv: 1980/3719 articles this batch, ~992812 words this batch (~3039185 total ever)
+- [2026-08-17 07:39:37] abplive: 1980/7875 articles this batch, ~1062754 words this batch (~3238240 total ever)
+- [2026-08-17 07:40:04] zeenews: 1620/242871 articles this batch, ~500928 words this batch (~1096038 total ever)
+- [2026-08-17 07:40:05] indiatv: 2000/3719 articles this batch, ~1003277 words this batch (~3049650 total ever)
+- [2026-08-17 07:40:08] patrika: 1260/16391 articles this batch, ~710781 words this batch (~998547 total ever)
+- [2026-08-17 07:40:11] abplive: 2000/7875 articles this batch, ~1073129 words this batch (~3248615 total ever)
+- [2026-08-17 07:40:38] indiatv: 2020/3719 articles this batch, ~1013330 words this batch (~3059703 total ever)
+- [2026-08-17 07:40:45] abplive: 2020/7875 articles this batch, ~1084605 words this batch (~3260091 total ever)
+- [2026-08-17 07:40:51] zeenews: 1640/242871 articles this batch, ~507347 words this batch (~1102457 total ever)
+- [2026-08-17 07:41:04] patrika: 1280/16391 articles this batch, ~721981 words this batch (~1009747 total ever)
+- [2026-08-17 07:41:12] indiatv: 2040/3719 articles this batch, ~1022742 words this batch (~3069115 total ever)
+- [2026-08-17 07:41:19] abplive: 2040/7875 articles this batch, ~1095234 words this batch (~3270720 total ever)
+- [2026-08-17 07:41:33] zeenews: 1660/242871 articles this batch, ~513960 words this batch (~1109070 total ever)
+- [2026-08-17 07:41:46] indiatv: 2060/3719 articles this batch, ~1031609 words this batch (~3077982 total ever)
+- [2026-08-17 07:41:53] abplive: 2060/7875 articles this batch, ~1105206 words this batch (~3280692 total ever)
+- [2026-08-17 07:57:18] indiatv: batch done -- 2068 new articles, ~1036135 words, 4395s, ~3082508 words total ever
+- [2026-08-17 07:57:19] abplive: batch done -- 2063 new articles, ~1106694 words, 4426s, ~3282180 words total ever
+- [2026-08-17 07:57:19] zeenews: batch done -- 1673 new articles, ~517240 words, 4388s, ~1112350 words total ever
+- [2026-08-17 07:57:25] patrika: batch done -- 1299 new articles, ~734180 words, 4405s, ~1021946 words total ever
+- [2026-08-17 07:57:25] RUN COMPLETE: 4 sources, 7103 new articles, 3394249 words, 4486s elapsed, ~2724164 words/hour aggregate throughput
+- [2026-08-17 07:57:25]   abplive: 2063 articles, 1106694 words, 4426s
+- [2026-08-17 07:57:25]   indiatv: 2068 articles, 1036135 words, 4395s
+- [2026-08-17 07:57:25]   patrika: 1299 articles, 734180 words, 4405s
+- [2026-08-17 07:57:25]   zeenews: 1673 articles, 517240 words, 4388s
+- [2026-08-17 08:06:30] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-17 08:06:37] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-17 08:07:28] abplive: discovery found 11916 URLs, 5834 new
+- [2026-08-17 08:07:50] patrika: discovery found 18301 URLs, 15107 new
+- [2026-08-17 08:07:53] indiatv: discovery found 7808 URLs, 1664 new
+- [2026-08-17 08:08:00] zeenews: discovery found 244711 URLs, 241197 new
+- [2026-08-17 08:08:01] abplive: 20/5834 articles this batch, ~10539 words this batch (~3292719 total ever)
+- [2026-08-17 08:08:28] indiatv: 20/1664 articles this batch, ~9741 words this batch (~3092249 total ever)
+- [2026-08-17 08:08:35] abplive: 40/5834 articles this batch, ~21452 words this batch (~3303632 total ever)
+- [2026-08-17 08:08:38] patrika: 20/15107 articles this batch, ~11357 words this batch (~1033303 total ever)
+- [2026-08-17 08:08:42] zeenews: 20/241197 articles this batch, ~3949 words this batch (~1116299 total ever)
+- [2026-08-17 08:09:02] indiatv: 40/1664 articles this batch, ~19727 words this batch (~3102235 total ever)
+- [2026-08-17 08:09:10] abplive: 60/5834 articles this batch, ~31595 words this batch (~3313775 total ever)
+- [2026-08-17 08:09:23] zeenews: 40/241197 articles this batch, ~10195 words this batch (~1122545 total ever)
+- [2026-08-17 08:09:34] patrika: 40/15107 articles this batch, ~23274 words this batch (~1045220 total ever)
+- [2026-08-17 08:09:36] indiatv: 60/1664 articles this batch, ~28842 words this batch (~3111350 total ever)
+- [2026-08-17 08:09:44] abplive: 80/5834 articles this batch, ~41628 words this batch (~3323808 total ever)
+- [2026-08-17 08:10:08] zeenews: 60/241197 articles this batch, ~17708 words this batch (~1130058 total ever)
+- [2026-08-17 08:10:10] indiatv: 80/1664 articles this batch, ~38757 words this batch (~3121265 total ever)
+- [2026-08-17 08:10:18] abplive: 100/5834 articles this batch, ~52109 words this batch (~3334289 total ever)
+- [2026-08-17 08:10:32] patrika: 60/15107 articles this batch, ~34521 words this batch (~1056467 total ever)
+- [2026-08-17 08:10:44] indiatv: 100/1664 articles this batch, ~48557 words this batch (~3131065 total ever)
+- [2026-08-17 08:10:52] zeenews: 80/241197 articles this batch, ~23246 words this batch (~1135596 total ever)
+- [2026-08-17 08:10:53] abplive: 120/5834 articles this batch, ~62699 words this batch (~3344879 total ever)
+- [2026-08-17 08:11:18] indiatv: 120/1664 articles this batch, ~57938 words this batch (~3140446 total ever)
+- [2026-08-17 08:11:26] patrika: 80/15107 articles this batch, ~45392 words this batch (~1067338 total ever)
+- [2026-08-17 08:11:27] abplive: 140/5834 articles this batch, ~81611 words this batch (~3363791 total ever)
+- [2026-08-17 08:11:32] zeenews: 100/241197 articles this batch, ~29587 words this batch (~1141937 total ever)
+- [2026-08-17 08:11:52] indiatv: 140/1664 articles this batch, ~67870 words this batch (~3150378 total ever)
+- [2026-08-17 08:12:01] abplive: 160/5834 articles this batch, ~90319 words this batch (~3372499 total ever)
+- [2026-08-17 08:12:17] zeenews: 120/241197 articles this batch, ~34381 words this batch (~1146731 total ever)
+- [2026-08-17 08:12:21] patrika: 100/15107 articles this batch, ~58071 words this batch (~1080017 total ever)
+- [2026-08-17 08:12:26] indiatv: 160/1664 articles this batch, ~77624 words this batch (~3160132 total ever)
+- [2026-08-17 08:12:36] abplive: 180/5834 articles this batch, ~99897 words this batch (~3382077 total ever)
+- [2026-08-17 08:12:57] zeenews: 140/241197 articles this batch, ~41894 words this batch (~1154244 total ever)
+- [2026-08-17 08:13:01] indiatv: 180/1664 articles this batch, ~87111 words this batch (~3169619 total ever)
+- [2026-08-17 08:13:09] abplive: 200/5834 articles this batch, ~108981 words this batch (~3391161 total ever)
+- [2026-08-17 08:13:13] patrika: 120/15107 articles this batch, ~69838 words this batch (~1091784 total ever)
+- [2026-08-17 08:13:35] indiatv: 200/1664 articles this batch, ~96563 words this batch (~3179071 total ever)
+- [2026-08-17 08:13:37] zeenews: 160/241197 articles this batch, ~48473 words this batch (~1160823 total ever)
+- [2026-08-17 08:13:43] abplive: 220/5834 articles this batch, ~118944 words this batch (~3401124 total ever)
+- [2026-08-17 08:14:08] indiatv: 220/1664 articles this batch, ~106138 words this batch (~3188646 total ever)
+- [2026-08-17 08:14:10] patrika: 140/15107 articles this batch, ~81725 words this batch (~1103671 total ever)
+- [2026-08-17 08:14:17] abplive: 240/5834 articles this batch, ~132076 words this batch (~3414256 total ever)
+- [2026-08-17 08:14:20] zeenews: 180/241197 articles this batch, ~54168 words this batch (~1166518 total ever)
+- [2026-08-17 08:14:42] indiatv: 240/1664 articles this batch, ~115150 words this batch (~3197658 total ever)
+- [2026-08-17 08:14:51] abplive: 260/5834 articles this batch, ~141539 words this batch (~3423719 total ever)
+- [2026-08-17 08:15:03] zeenews: 200/241197 articles this batch, ~63465 words this batch (~1175815 total ever)
+- [2026-08-17 08:15:06] patrika: 160/15107 articles this batch, ~88555 words this batch (~1110501 total ever)
+- [2026-08-17 08:15:15] indiatv: 260/1664 articles this batch, ~124375 words this batch (~3206883 total ever)
+- [2026-08-17 08:15:24] abplive: 280/5834 articles this batch, ~151356 words this batch (~3433536 total ever)
+- [2026-08-17 08:15:45] zeenews: 220/241197 articles this batch, ~68878 words this batch (~1181228 total ever)
+- [2026-08-17 08:15:49] indiatv: 280/1664 articles this batch, ~133870 words this batch (~3216378 total ever)
+- [2026-08-17 08:15:59] abplive: 300/5834 articles this batch, ~161321 words this batch (~3443501 total ever)
+- [2026-08-17 08:16:09] patrika: 180/15107 articles this batch, ~93610 words this batch (~1115556 total ever)
+- [2026-08-17 08:16:22] indiatv: 300/1664 articles this batch, ~142495 words this batch (~3225003 total ever)
+- [2026-08-17 08:16:28] zeenews: 240/241197 articles this batch, ~73891 words this batch (~1186241 total ever)
+- [2026-08-17 08:16:33] abplive: 320/5834 articles this batch, ~170972 words this batch (~3453152 total ever)
+- [2026-08-17 08:16:56] indiatv: 320/1664 articles this batch, ~151830 words this batch (~3234338 total ever)
+- [2026-08-17 08:17:04] patrika: 200/15107 articles this batch, ~100411 words this batch (~1122357 total ever)
+- [2026-08-17 08:17:07] abplive: 340/5834 articles this batch, ~180540 words this batch (~3462720 total ever)
+- [2026-08-17 08:17:09] zeenews: 260/241197 articles this batch, ~80844 words this batch (~1193194 total ever)
+- [2026-08-17 08:17:29] indiatv: 340/1664 articles this batch, ~164097 words this batch (~3246605 total ever)
+- [2026-08-17 08:17:41] abplive: 360/5834 articles this batch, ~189953 words this batch (~3472133 total ever)
+- [2026-08-17 08:17:49] zeenews: 280/241197 articles this batch, ~84928 words this batch (~1197278 total ever)
+- [2026-08-17 08:17:59] patrika: 220/15107 articles this batch, ~111175 words this batch (~1133121 total ever)
+- [2026-08-17 08:18:04] indiatv: 360/1664 articles this batch, ~173807 words this batch (~3256315 total ever)
+- [2026-08-17 08:18:16] abplive: 380/5834 articles this batch, ~200937 words this batch (~3483117 total ever)
+- [2026-08-17 08:18:34] zeenews: 300/241197 articles this batch, ~91843 words this batch (~1204193 total ever)
+- [2026-08-17 08:18:37] indiatv: 380/1664 articles this batch, ~182577 words this batch (~3265085 total ever)
+- [2026-08-17 08:18:50] abplive: 400/5834 articles this batch, ~212137 words this batch (~3494317 total ever)
+- [2026-08-17 08:18:57] patrika: 240/15107 articles this batch, ~122381 words this batch (~1144327 total ever)
+- [2026-08-17 08:19:11] indiatv: 400/1664 articles this batch, ~191929 words this batch (~3274437 total ever)
+- [2026-08-17 08:19:17] zeenews: 320/241197 articles this batch, ~97187 words this batch (~1209537 total ever)
+- [2026-08-17 08:19:25] abplive: 420/5834 articles this batch, ~222191 words this batch (~3504371 total ever)
+- [2026-08-17 08:19:45] indiatv: 420/1664 articles this batch, ~201484 words this batch (~3283992 total ever)
+- [2026-08-17 08:19:51] patrika: 260/15107 articles this batch, ~133604 words this batch (~1155550 total ever)
+- [2026-08-17 08:19:58] zeenews: 340/241197 articles this batch, ~104950 words this batch (~1217300 total ever)
+- [2026-08-17 08:19:59] abplive: 440/5834 articles this batch, ~231931 words this batch (~3514111 total ever)
+- [2026-08-17 08:20:20] indiatv: 440/1664 articles this batch, ~210366 words this batch (~3292874 total ever)
+- [2026-08-17 08:20:35] abplive: 460/5834 articles this batch, ~242770 words this batch (~3524950 total ever)
+- [2026-08-17 08:20:48] zeenews: 360/241197 articles this batch, ~110192 words this batch (~1222542 total ever)
+- [2026-08-17 08:20:52] patrika: 280/15107 articles this batch, ~146237 words this batch (~1168183 total ever)
+- [2026-08-17 08:20:54] indiatv: 460/1664 articles this batch, ~220012 words this batch (~3302520 total ever)
+- [2026-08-17 08:21:10] abplive: 480/5834 articles this batch, ~252675 words this batch (~3534855 total ever)
+- [2026-08-17 08:21:28] indiatv: 480/1664 articles this batch, ~229397 words this batch (~3311905 total ever)
+- [2026-08-17 08:21:29] zeenews: 380/241197 articles this batch, ~115287 words this batch (~1227637 total ever)
+- [2026-08-17 08:21:45] abplive: 500/5834 articles this batch, ~263153 words this batch (~3545333 total ever)
+- [2026-08-17 08:21:55] patrika: 300/15107 articles this batch, ~156892 words this batch (~1178838 total ever)
+- [2026-08-17 08:22:02] indiatv: 500/1664 articles this batch, ~239797 words this batch (~3322305 total ever)
+- [2026-08-17 08:22:12] zeenews: 400/241197 articles this batch, ~120385 words this batch (~1232735 total ever)
+- [2026-08-17 08:22:19] abplive: 520/5834 articles this batch, ~275170 words this batch (~3557350 total ever)
+- [2026-08-17 08:22:36] indiatv: 520/1664 articles this batch, ~250114 words this batch (~3332622 total ever)
+- [2026-08-17 08:22:52] zeenews: 420/241197 articles this batch, ~128548 words this batch (~1240898 total ever)
+- [2026-08-17 08:22:54] abplive: 540/5834 articles this batch, ~293205 words this batch (~3575385 total ever)
+- [2026-08-17 08:22:54] patrika: 320/15107 articles this batch, ~168419 words this batch (~1190365 total ever)
+- [2026-08-17 08:23:10] indiatv: 540/1664 articles this batch, ~260431 words this batch (~3342939 total ever)
+- [2026-08-17 08:23:28] abplive: 560/5834 articles this batch, ~303036 words this batch (~3585216 total ever)
+- [2026-08-17 08:23:32] zeenews: 440/241197 articles this batch, ~134192 words this batch (~1246542 total ever)
+- [2026-08-17 08:23:44] indiatv: 560/1664 articles this batch, ~269568 words this batch (~3352076 total ever)
+- [2026-08-17 08:23:50] patrika: 340/15107 articles this batch, ~179629 words this batch (~1201575 total ever)
+- [2026-08-17 08:24:02] abplive: 580/5834 articles this batch, ~314105 words this batch (~3596285 total ever)
+- [2026-08-17 08:24:13] zeenews: 460/241197 articles this batch, ~138811 words this batch (~1251161 total ever)
+- [2026-08-17 08:24:18] indiatv: 580/1664 articles this batch, ~280149 words this batch (~3362657 total ever)
+- [2026-08-17 08:24:37] abplive: 600/5834 articles this batch, ~323856 words this batch (~3606036 total ever)
+- [2026-08-17 08:24:44] patrika: 360/15107 articles this batch, ~191808 words this batch (~1213754 total ever)
+- [2026-08-17 08:24:51] indiatv: 600/1664 articles this batch, ~290742 words this batch (~3373250 total ever)
+- [2026-08-17 08:24:53] zeenews: 480/241197 articles this batch, ~143715 words this batch (~1256065 total ever)
+- [2026-08-17 08:25:11] abplive: 620/5834 articles this batch, ~336909 words this batch (~3619089 total ever)
+- [2026-08-17 08:25:25] indiatv: 620/1664 articles this batch, ~299602 words this batch (~3382110 total ever)
+- [2026-08-17 08:25:38] zeenews: 500/241197 articles this batch, ~147694 words this batch (~1260044 total ever)
+- [2026-08-17 08:25:41] patrika: 380/15107 articles this batch, ~203130 words this batch (~1225076 total ever)
+- [2026-08-17 08:25:46] abplive: 640/5834 articles this batch, ~346705 words this batch (~3628885 total ever)
+- [2026-08-17 08:25:58] indiatv: 640/1664 articles this batch, ~309206 words this batch (~3391714 total ever)
+- [2026-08-17 08:26:20] abplive: 660/5834 articles this batch, ~355353 words this batch (~3637533 total ever)
+- [2026-08-17 08:26:20] zeenews: 520/241197 articles this batch, ~154229 words this batch (~1266579 total ever)
+- [2026-08-17 08:26:34] indiatv: 660/1664 articles this batch, ~319675 words this batch (~3402183 total ever)
+- [2026-08-17 08:26:37] patrika: 400/15107 articles this batch, ~214691 words this batch (~1236637 total ever)
+- [2026-08-17 08:26:57] abplive: 680/5834 articles this batch, ~363946 words this batch (~3646126 total ever)
+- [2026-08-17 08:27:03] zeenews: 540/241197 articles this batch, ~160219 words this batch (~1272569 total ever)
+- [2026-08-17 08:27:09] indiatv: 680/1664 articles this batch, ~329485 words this batch (~3411993 total ever)
+- [2026-08-17 08:27:32] abplive: 700/5834 articles this batch, ~375752 words this batch (~3657932 total ever)
+- [2026-08-17 08:27:40] patrika: 420/15107 articles this batch, ~226012 words this batch (~1247958 total ever)
+- [2026-08-17 08:27:43] indiatv: 700/1664 articles this batch, ~339542 words this batch (~3422050 total ever)
+- [2026-08-17 08:27:44] zeenews: 560/241197 articles this batch, ~165291 words this batch (~1277641 total ever)
+- [2026-08-17 08:28:06] abplive: 720/5834 articles this batch, ~386389 words this batch (~3668569 total ever)
+- [2026-08-17 08:28:17] indiatv: 720/1664 articles this batch, ~352495 words this batch (~3435003 total ever)
+- [2026-08-17 08:28:26] zeenews: 580/241197 articles this batch, ~173340 words this batch (~1285690 total ever)
+- [2026-08-17 08:28:39] patrika: 440/15107 articles this batch, ~237528 words this batch (~1259474 total ever)
+- [2026-08-17 08:28:41] abplive: 740/5834 articles this batch, ~395258 words this batch (~3677438 total ever)
+- [2026-08-17 08:28:51] indiatv: 740/1664 articles this batch, ~361878 words this batch (~3444386 total ever)
+- [2026-08-17 08:29:07] zeenews: 600/241197 articles this batch, ~179245 words this batch (~1291595 total ever)
+- [2026-08-17 08:29:15] abplive: 760/5834 articles this batch, ~406745 words this batch (~3688925 total ever)
+- [2026-08-17 08:29:25] indiatv: 760/1664 articles this batch, ~370411 words this batch (~3452919 total ever)
+- [2026-08-17 08:29:37] patrika: 460/15107 articles this batch, ~249005 words this batch (~1270951 total ever)
+- [2026-08-17 08:29:47] zeenews: 620/241197 articles this batch, ~184739 words this batch (~1297089 total ever)
+- [2026-08-17 08:29:50] abplive: 780/5834 articles this batch, ~416534 words this batch (~3698714 total ever)
+- [2026-08-17 08:29:59] indiatv: 780/1664 articles this batch, ~379148 words this batch (~3461656 total ever)
+- [2026-08-17 08:30:24] abplive: 800/5834 articles this batch, ~426683 words this batch (~3708863 total ever)
+- [2026-08-17 08:30:32] patrika: 480/15107 articles this batch, ~260528 words this batch (~1282474 total ever)
+- [2026-08-17 08:30:32] indiatv: 800/1664 articles this batch, ~388821 words this batch (~3471329 total ever)
+- [2026-08-17 08:30:36] zeenews: 640/241197 articles this batch, ~193721 words this batch (~1306071 total ever)
+- [2026-08-17 08:30:59] abplive: 820/5834 articles this batch, ~435917 words this batch (~3718097 total ever)
+- [2026-08-17 08:31:06] indiatv: 820/1664 articles this batch, ~398734 words this batch (~3481242 total ever)
+- [2026-08-17 08:31:17] zeenews: 660/241197 articles this batch, ~198705 words this batch (~1311055 total ever)
+- [2026-08-17 08:31:29] patrika: 500/15107 articles this batch, ~272624 words this batch (~1294570 total ever)
+- [2026-08-17 08:31:36] abplive: 840/5834 articles this batch, ~445370 words this batch (~3727550 total ever)
+- [2026-08-17 08:31:40] indiatv: 840/1664 articles this batch, ~408603 words this batch (~3491111 total ever)
+- [2026-08-17 08:31:59] zeenews: 680/241197 articles this batch, ~204039 words this batch (~1316389 total ever)
+- [2026-08-17 08:32:11] abplive: 860/5834 articles this batch, ~455514 words this batch (~3737694 total ever)
+- [2026-08-17 08:32:14] indiatv: 860/1664 articles this batch, ~418992 words this batch (~3501500 total ever)
+- [2026-08-17 08:32:33] patrika: 520/15107 articles this batch, ~284195 words this batch (~1306141 total ever)
+- [2026-08-17 08:32:41] zeenews: 700/241197 articles this batch, ~210838 words this batch (~1323188 total ever)
+- [2026-08-17 08:32:45] abplive: 880/5834 articles this batch, ~465851 words this batch (~3748031 total ever)
+- [2026-08-17 08:32:48] indiatv: 880/1664 articles this batch, ~429745 words this batch (~3512253 total ever)
+- [2026-08-17 08:33:20] abplive: 900/5834 articles this batch, ~477260 words this batch (~3759440 total ever)
+- [2026-08-17 08:33:22] indiatv: 900/1664 articles this batch, ~439875 words this batch (~3522383 total ever)
+- [2026-08-17 08:33:22] zeenews: 720/241197 articles this batch, ~217421 words this batch (~1329771 total ever)
+- [2026-08-17 08:33:27] patrika: 540/15107 articles this batch, ~295986 words this batch (~1317932 total ever)
+- [2026-08-17 08:33:54] abplive: 920/5834 articles this batch, ~487506 words this batch (~3769686 total ever)
+- [2026-08-17 08:33:55] indiatv: 920/1664 articles this batch, ~449195 words this batch (~3531703 total ever)
+- [2026-08-17 08:34:03] zeenews: 740/241197 articles this batch, ~223066 words this batch (~1335416 total ever)
+- [2026-08-17 08:34:25] patrika: 560/15107 articles this batch, ~307109 words this batch (~1329055 total ever)
+- [2026-08-17 08:34:29] indiatv: 940/1664 articles this batch, ~459212 words this batch (~3541720 total ever)
+- [2026-08-17 08:34:30] abplive: 940/5834 articles this batch, ~498627 words this batch (~3780807 total ever)
+- [2026-08-17 08:34:46] zeenews: 760/241197 articles this batch, ~228156 words this batch (~1340506 total ever)
+- [2026-08-17 08:35:03] indiatv: 960/1664 articles this batch, ~470061 words this batch (~3552569 total ever)
+- [2026-08-17 08:35:05] abplive: 960/5834 articles this batch, ~517136 words this batch (~3799316 total ever)
+- [2026-08-17 08:35:22] patrika: 580/15107 articles this batch, ~315060 words this batch (~1337006 total ever)
+- [2026-08-17 08:35:32] zeenews: 780/241197 articles this batch, ~233963 words this batch (~1346313 total ever)
+- [2026-08-17 08:35:37] indiatv: 980/1664 articles this batch, ~480304 words this batch (~3562812 total ever)
+- [2026-08-17 08:35:40] abplive: 980/5834 articles this batch, ~526148 words this batch (~3808328 total ever)
+- [2026-08-17 08:36:11] indiatv: 1000/1664 articles this batch, ~489724 words this batch (~3572232 total ever)
+- [2026-08-17 08:36:15] abplive: 1000/5834 articles this batch, ~535452 words this batch (~3817632 total ever)
+- [2026-08-17 08:36:15] zeenews: 800/241197 articles this batch, ~241778 words this batch (~1354128 total ever)
+- [2026-08-17 08:36:21] patrika: 600/15107 articles this batch, ~320352 words this batch (~1342298 total ever)
+- [2026-08-17 08:36:45] indiatv: 1020/1664 articles this batch, ~498960 words this batch (~3581468 total ever)
+- [2026-08-17 08:36:49] abplive: 1020/5834 articles this batch, ~545130 words this batch (~3827310 total ever)
+- [2026-08-17 08:36:55] zeenews: 820/241197 articles this batch, ~246741 words this batch (~1359091 total ever)
+- [2026-08-17 08:37:19] indiatv: 1040/1664 articles this batch, ~508427 words this batch (~3590935 total ever)
+- [2026-08-17 08:37:23] abplive: 1040/5834 articles this batch, ~558440 words this batch (~3840620 total ever)
+- [2026-08-17 08:37:25] patrika: 620/15107 articles this batch, ~326589 words this batch (~1348535 total ever)
+- [2026-08-17 08:37:36] zeenews: 840/241197 articles this batch, ~254419 words this batch (~1366769 total ever)
+- [2026-08-17 08:37:53] indiatv: 1060/1664 articles this batch, ~519730 words this batch (~3602238 total ever)
+- [2026-08-17 08:37:58] abplive: 1060/5834 articles this batch, ~567546 words this batch (~3849726 total ever)
+- [2026-08-17 08:38:17] zeenews: 860/241197 articles this batch, ~263665 words this batch (~1376015 total ever)
+- [2026-08-17 08:38:23] patrika: 640/15107 articles this batch, ~337638 words this batch (~1359584 total ever)
+- [2026-08-17 08:38:27] indiatv: 1080/1664 articles this batch, ~529100 words this batch (~3611608 total ever)
+- [2026-08-17 08:38:35] abplive: 1080/5834 articles this batch, ~577097 words this batch (~3859277 total ever)
+- [2026-08-17 08:39:04] indiatv: 1100/1664 articles this batch, ~539880 words this batch (~3622388 total ever)
+- [2026-08-17 08:39:05] zeenews: 880/241197 articles this batch, ~268143 words this batch (~1380493 total ever)
+- [2026-08-17 08:39:11] abplive: 1100/5834 articles this batch, ~587115 words this batch (~3869295 total ever)
+- [2026-08-17 08:39:24] patrika: 660/15107 articles this batch, ~349036 words this batch (~1370982 total ever)
+- [2026-08-17 08:39:38] indiatv: 1120/1664 articles this batch, ~549871 words this batch (~3632379 total ever)
+- [2026-08-17 08:39:44] abplive: 1120/5834 articles this batch, ~596709 words this batch (~3878889 total ever)
+- [2026-08-17 08:39:46] zeenews: 900/241197 articles this batch, ~272179 words this batch (~1384529 total ever)
+- [2026-08-17 08:40:11] indiatv: 1140/1664 articles this batch, ~561596 words this batch (~3644104 total ever)
+- [2026-08-17 08:40:19] abplive: 1140/5834 articles this batch, ~606749 words this batch (~3888929 total ever)
+- [2026-08-17 08:40:21] patrika: 680/15107 articles this batch, ~362289 words this batch (~1384235 total ever)
+- [2026-08-17 08:40:35] zeenews: 920/241197 articles this batch, ~278339 words this batch (~1390689 total ever)
+- [2026-08-17 08:40:45] indiatv: 1160/1664 articles this batch, ~571094 words this batch (~3653602 total ever)
+- [2026-08-17 08:40:53] abplive: 1160/5834 articles this batch, ~616702 words this batch (~3898882 total ever)
+- [2026-08-17 08:41:19] indiatv: 1180/1664 articles this batch, ~580073 words this batch (~3662581 total ever)
+- [2026-08-17 08:41:20] zeenews: 940/241197 articles this batch, ~285556 words this batch (~1397906 total ever)
+- [2026-08-17 08:41:20] patrika: 700/15107 articles this batch, ~374293 words this batch (~1396239 total ever)
+- [2026-08-17 08:41:28] abplive: 1180/5834 articles this batch, ~626368 words this batch (~3908548 total ever)
+- [2026-08-17 08:42:24] HALT: user-directed full stop. batch6 (scraper, 4 sources) killed mid-run at ~35min of 60min cap, checkpointed per-article so no work lost -- resumes clean next launch. Cumulative state at halt: scrape 24507 urls / 11177787 words across abplive+indiatv+patrika+zeenews (+ jagran/amarujala/bbc_hindi/livehindustan drained/blocked, prabhatkhabar/aajtak still 0), wiki_dump_parallel 3271/3271 chunks / 48130250 words (done, static). OCR pipeline: idle at gate, untouched, last known 473/1617. No processes running.

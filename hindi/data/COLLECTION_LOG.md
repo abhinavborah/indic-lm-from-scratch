@@ -3551,3 +3551,9571 @@
 - [2026-08-18 00:14:27] patrika: discovery found 18502 URLs, 13687 new
 - [2026-08-18 00:14:41] abplive: 20/3729 articles this batch, ~10514 words this batch (~4389689 total ever)
 - [2026-08-18 00:14:54] zeenews: discovery found 244711 URLs, 239473 new
+- [2026-08-18 04:22:05] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-18 04:22:13] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 04:22:57] abplive: discovery found 11897 URLs, 3706 new
+- [2026-08-18 04:23:24] indiatv: discovery found 7764 URLs, 0 new
+- [2026-08-18 04:23:24] indiatv: batch done -- 0 new articles, ~0 words, 0s, ~3970024 words total ever
+- [2026-08-18 04:23:29] patrika: discovery found 18507 URLs, 13683 new
+- [2026-08-18 04:23:30] abplive: 20/3706 articles this batch, ~8245 words this batch (~4400505 total ever)
+- [2026-08-18 04:23:34] zeenews: discovery found 244711 URLs, 239471 new
+- [2026-08-18 04:24:03] abplive: 40/3706 articles this batch, ~24526 words this batch (~4416786 total ever)
+- [2026-08-18 04:24:17] zeenews: 20/239471 articles this batch, ~5347 words this batch (~1638859 total ever)
+- [2026-08-18 04:24:28] patrika: 20/13683 articles this batch, ~11145 words this batch (~1854964 total ever)
+- [2026-08-18 04:24:36] abplive: 60/3706 articles this batch, ~35241 words this batch (~4427501 total ever)
+- [2026-08-18 04:24:55] zeenews: 40/239471 articles this batch, ~10152 words this batch (~1643664 total ever)
+- [2026-08-18 04:25:08] abplive: 80/3706 articles this batch, ~45240 words this batch (~4437500 total ever)
+- [2026-08-18 04:25:27] patrika: 40/13683 articles this batch, ~22378 words this batch (~1866197 total ever)
+- [2026-08-18 04:25:37] zeenews: 60/239471 articles this batch, ~15433 words this batch (~1648945 total ever)
+- [2026-08-18 04:25:40] abplive: 100/3706 articles this batch, ~55288 words this batch (~4447548 total ever)
+- [2026-08-18 04:26:12] abplive: 120/3706 articles this batch, ~64686 words this batch (~4456946 total ever)
+- [2026-08-18 04:26:16] zeenews: 80/239471 articles this batch, ~24715 words this batch (~1658227 total ever)
+- [2026-08-18 04:26:21] patrika: 60/13683 articles this batch, ~34715 words this batch (~1878534 total ever)
+- [2026-08-18 04:26:45] abplive: 140/3706 articles this batch, ~73590 words this batch (~4465850 total ever)
+- [2026-08-18 04:26:54] zeenews: 100/239471 articles this batch, ~30286 words this batch (~1663798 total ever)
+- [2026-08-18 04:27:17] abplive: 160/3706 articles this batch, ~87903 words this batch (~4480163 total ever)
+- [2026-08-18 04:27:20] patrika: 80/13683 articles this batch, ~47209 words this batch (~1891028 total ever)
+- [2026-08-18 04:27:32] zeenews: 120/239471 articles this batch, ~35375 words this batch (~1668887 total ever)
+- [2026-08-18 04:27:49] abplive: 180/3706 articles this batch, ~98270 words this batch (~4490530 total ever)
+- [2026-08-18 04:28:13] zeenews: 140/239471 articles this batch, ~39725 words this batch (~1673237 total ever)
+- [2026-08-18 04:28:22] abplive: 200/3706 articles this batch, ~111877 words this batch (~4504137 total ever)
+- [2026-08-18 04:28:25] patrika: 100/13683 articles this batch, ~59278 words this batch (~1903097 total ever)
+- [2026-08-18 04:28:51] zeenews: 160/239471 articles this batch, ~45263 words this batch (~1678775 total ever)
+- [2026-08-18 04:28:55] abplive: 220/3706 articles this batch, ~122833 words this batch (~4515093 total ever)
+- [2026-08-18 04:29:21] patrika: 120/13683 articles this batch, ~70748 words this batch (~1914567 total ever)
+- [2026-08-18 04:29:27] abplive: 240/3706 articles this batch, ~133201 words this batch (~4525461 total ever)
+- [2026-08-18 04:29:32] zeenews: 180/239471 articles this batch, ~51330 words this batch (~1684842 total ever)
+- [2026-08-18 04:29:59] abplive: 260/3706 articles this batch, ~146062 words this batch (~4538322 total ever)
+- [2026-08-18 04:30:14] zeenews: 200/239471 articles this batch, ~57064 words this batch (~1690576 total ever)
+- [2026-08-18 04:30:15] patrika: 140/13683 articles this batch, ~82507 words this batch (~1926326 total ever)
+- [2026-08-18 04:30:32] abplive: 280/3706 articles this batch, ~157176 words this batch (~4549436 total ever)
+- [2026-08-18 04:30:59] zeenews: 220/239471 articles this batch, ~61958 words this batch (~1695470 total ever)
+- [2026-08-18 04:31:04] abplive: 300/3706 articles this batch, ~168486 words this batch (~4560746 total ever)
+- [2026-08-18 04:31:04] abplive: batch done -- 300 new articles, ~168486 words, 487s, ~4560746 words total ever
+- [2026-08-18 04:31:16] patrika: 160/13683 articles this batch, ~93913 words this batch (~1937732 total ever)
+- [2026-08-18 04:31:40] zeenews: 240/239471 articles this batch, ~67983 words this batch (~1701495 total ever)
+- [2026-08-18 04:32:21] patrika: 180/13683 articles this batch, ~105181 words this batch (~1949000 total ever)
+- [2026-08-18 04:32:22] zeenews: 260/239471 articles this batch, ~73776 words this batch (~1707288 total ever)
+- [2026-08-18 04:33:00] zeenews: 280/239471 articles this batch, ~79619 words this batch (~1713131 total ever)
+- [2026-08-18 04:33:19] patrika: 200/13683 articles this batch, ~116949 words this batch (~1960768 total ever)
+- [2026-08-18 04:33:41] zeenews: 300/239471 articles this batch, ~89807 words this batch (~1723319 total ever)
+- [2026-08-18 04:33:41] zeenews: batch done -- 300 new articles, ~89807 words, 607s, ~1723319 words total ever
+- [2026-08-18 04:34:18] patrika: 220/13683 articles this batch, ~129124 words this batch (~1972943 total ever)
+- [2026-08-18 04:35:15] patrika: 240/13683 articles this batch, ~135538 words this batch (~1979357 total ever)
+- [2026-08-18 04:36:00] patrika: 260/13683 articles this batch, ~140892 words this batch (~1984711 total ever)
+- [2026-08-18 04:36:44] patrika: 280/13683 articles this batch, ~146861 words this batch (~1990680 total ever)
+- [2026-08-18 04:37:37] patrika: 300/13683 articles this batch, ~156791 words this batch (~2000610 total ever)
+- [2026-08-18 04:37:37] patrika: batch done -- 300 new articles, ~156791 words, 848s, ~2000610 words total ever
+- [2026-08-18 04:37:37] RUN COMPLETE: 4 sources, 900 new articles, 415084 words, 932s elapsed, ~1603415 words/hour aggregate throughput
+- [2026-08-18 04:37:37]   abplive: 300 articles, 168486 words, 487s
+- [2026-08-18 04:37:37]   indiatv: 0 articles, 0 words, 0s
+- [2026-08-18 04:37:37]   patrika: 300 articles, 156791 words, 848s
+- [2026-08-18 04:37:37]   zeenews: 300 articles, 89807 words, 607s
+- [2026-08-18 04:37:52] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-18 04:38:00] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 04:38:52] abplive: discovery found 11897 URLs, 3406 new
+- [2026-08-18 04:39:10] patrika: discovery found 18508 URLs, 13384 new
+- [2026-08-18 04:39:11] indiatv: discovery found 7764 URLs, 0 new
+- [2026-08-18 04:39:11] indiatv: batch done -- 0 new articles, ~0 words, 0s, ~3970024 words total ever
+- [2026-08-18 04:39:24] abplive: 20/3406 articles this batch, ~9944 words this batch (~4570690 total ever)
+- [2026-08-18 04:39:31] zeenews: discovery found 244711 URLs, 239171 new
+- [2026-08-18 04:39:57] abplive: 40/3406 articles this batch, ~19920 words this batch (~4580666 total ever)
+- [2026-08-18 04:40:08] patrika: 20/13384 articles this batch, ~11092 words this batch (~2011702 total ever)
+- [2026-08-18 04:40:18] zeenews: 20/239171 articles this batch, ~6054 words this batch (~1729373 total ever)
+- [2026-08-18 04:40:30] abplive: 60/3406 articles this batch, ~30826 words this batch (~4591572 total ever)
+- [2026-08-18 04:41:05] abplive: 80/3406 articles this batch, ~40306 words this batch (~4601052 total ever)
+- [2026-08-18 04:41:09] zeenews: 40/239171 articles this batch, ~12697 words this batch (~1736016 total ever)
+- [2026-08-18 04:41:09] patrika: 40/13384 articles this batch, ~21398 words this batch (~2022008 total ever)
+- [2026-08-18 04:41:38] abplive: 100/3406 articles this batch, ~48793 words this batch (~4609539 total ever)
+- [2026-08-18 04:41:52] zeenews: 60/239171 articles this batch, ~18416 words this batch (~1741735 total ever)
+- [2026-08-18 04:42:03] patrika: 60/13384 articles this batch, ~32424 words this batch (~2033034 total ever)
+- [2026-08-18 04:42:10] abplive: 120/3406 articles this batch, ~58070 words this batch (~4618816 total ever)
+- [2026-08-18 04:42:38] zeenews: 80/239171 articles this batch, ~24168 words this batch (~1747487 total ever)
+- [2026-08-18 04:42:43] abplive: 140/3406 articles this batch, ~74887 words this batch (~4635633 total ever)
+- [2026-08-18 04:43:04] patrika: 80/13384 articles this batch, ~43138 words this batch (~2043748 total ever)
+- [2026-08-18 04:43:15] abplive: 160/3406 articles this batch, ~88672 words this batch (~4649418 total ever)
+- [2026-08-18 04:43:21] zeenews: 100/239171 articles this batch, ~30413 words this batch (~1753732 total ever)
+- [2026-08-18 04:43:48] abplive: 180/3406 articles this batch, ~97468 words this batch (~4658214 total ever)
+- [2026-08-18 04:44:00] patrika: 100/13384 articles this batch, ~54025 words this batch (~2054635 total ever)
+- [2026-08-18 04:44:05] zeenews: 120/239171 articles this batch, ~36423 words this batch (~1759742 total ever)
+- [2026-08-18 04:44:21] abplive: 200/3406 articles this batch, ~110323 words this batch (~4671069 total ever)
+- [2026-08-18 04:44:48] zeenews: 140/239171 articles this batch, ~43141 words this batch (~1766460 total ever)
+- [2026-08-18 04:44:53] abplive: 220/3406 articles this batch, ~119455 words this batch (~4680201 total ever)
+- [2026-08-18 04:44:58] patrika: 120/13384 articles this batch, ~64167 words this batch (~2064777 total ever)
+- [2026-08-18 04:45:25] abplive: 240/3406 articles this batch, ~128971 words this batch (~4689717 total ever)
+- [2026-08-18 04:45:35] zeenews: 160/239171 articles this batch, ~48140 words this batch (~1771459 total ever)
+- [2026-08-18 04:45:58] abplive: 260/3406 articles this batch, ~138831 words this batch (~4699577 total ever)
+- [2026-08-18 04:45:59] patrika: 140/13384 articles this batch, ~75975 words this batch (~2076585 total ever)
+- [2026-08-18 04:46:21] zeenews: 180/239171 articles this batch, ~54288 words this batch (~1777607 total ever)
+- [2026-08-18 04:46:30] abplive: 280/3406 articles this batch, ~147550 words this batch (~4708296 total ever)
+- [2026-08-18 04:47:02] patrika: 160/13384 articles this batch, ~86375 words this batch (~2086985 total ever)
+- [2026-08-18 04:47:03] abplive: 300/3406 articles this batch, ~156046 words this batch (~4716792 total ever)
+- [2026-08-18 04:47:03] abplive: batch done -- 300 new articles, ~156046 words, 491s, ~4716792 words total ever
+- [2026-08-18 04:47:04] zeenews: 200/239171 articles this batch, ~59336 words this batch (~1782655 total ever)
+- [2026-08-18 04:47:48] zeenews: 220/239171 articles this batch, ~66685 words this batch (~1790004 total ever)
+- [2026-08-18 04:48:00] patrika: 180/13384 articles this batch, ~97853 words this batch (~2098463 total ever)
+- [2026-08-18 04:48:31] zeenews: 240/239171 articles this batch, ~72143 words this batch (~1795462 total ever)
+- [2026-08-18 04:49:00] patrika: 200/13384 articles this batch, ~113273 words this batch (~2113883 total ever)
+- [2026-08-18 04:49:15] zeenews: 260/239171 articles this batch, ~78264 words this batch (~1801583 total ever)
+- [2026-08-18 04:49:52] patrika: 220/13384 articles this batch, ~125191 words this batch (~2125801 total ever)
+- [2026-08-18 04:49:58] zeenews: 280/239171 articles this batch, ~84510 words this batch (~1807829 total ever)
+- [2026-08-18 04:50:42] patrika: 240/13384 articles this batch, ~136019 words this batch (~2136629 total ever)
+- [2026-08-18 04:50:50] zeenews: 300/239171 articles this batch, ~91746 words this batch (~1815065 total ever)
+- [2026-08-18 04:50:50] zeenews: batch done -- 300 new articles, ~91746 words, 679s, ~1815065 words total ever
+- [2026-08-18 04:51:38] patrika: 260/13384 articles this batch, ~147145 words this batch (~2147755 total ever)
+- [2026-08-18 04:52:35] patrika: 280/13384 articles this batch, ~159537 words this batch (~2160147 total ever)
+- [2026-08-18 04:53:30] patrika: 300/13384 articles this batch, ~170972 words this batch (~2171582 total ever)
+- [2026-08-18 04:53:30] patrika: batch done -- 300 new articles, ~170972 words, 860s, ~2171582 words total ever
+- [2026-08-18 04:53:30] RUN COMPLETE: 4 sources, 900 new articles, 418764 words, 939s elapsed, ~1606211 words/hour aggregate throughput
+- [2026-08-18 04:53:30]   abplive: 300 articles, 156046 words, 491s
+- [2026-08-18 04:53:30]   indiatv: 0 articles, 0 words, 0s
+- [2026-08-18 04:53:30]   patrika: 300 articles, 170972 words, 860s
+- [2026-08-18 04:53:30]   zeenews: 300 articles, 91746 words, 679s
+- [2026-08-18 04:53:43] Starting 4 concurrent source workers: ['abplive', 'indiatv', 'patrika', 'zeenews']
+- [2026-08-18 04:53:49] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 04:54:46] abplive: discovery found 11897 URLs, 3105 new
+- [2026-08-18 04:55:01] patrika: discovery found 18508 URLs, 13084 new
+- [2026-08-18 04:55:02] indiatv: discovery found 7762 URLs, 0 new
+- [2026-08-18 04:55:02] indiatv: batch done -- 0 new articles, ~0 words, 0s, ~3970024 words total ever
+- [2026-08-18 04:55:08] zeenews: discovery found 244711 URLs, 238871 new
+- [2026-08-18 04:55:22] abplive: 20/3105 articles this batch, ~8839 words this batch (~4725631 total ever)
+- [2026-08-18 04:55:49] zeenews: 20/238871 articles this batch, ~7635 words this batch (~1822700 total ever)
+- [2026-08-18 04:55:55] patrika: 20/13084 articles this batch, ~11200 words this batch (~2182782 total ever)
+- [2026-08-18 04:55:58] abplive: 40/3105 articles this batch, ~18812 words this batch (~4735604 total ever)
+- [2026-08-18 04:56:31] zeenews: 40/238871 articles this batch, ~13689 words this batch (~1828754 total ever)
+- [2026-08-18 04:56:35] abplive: 60/3105 articles this batch, ~29221 words this batch (~4746013 total ever)
+- [2026-08-18 04:56:46] patrika: 40/13084 articles this batch, ~17037 words this batch (~2188619 total ever)
+- [2026-08-18 04:57:09] abplive: 80/3105 articles this batch, ~38946 words this batch (~4755738 total ever)
+- [2026-08-18 04:57:12] zeenews: 60/238871 articles this batch, ~21806 words this batch (~1836871 total ever)
+- [2026-08-18 04:57:42] patrika: 60/13084 articles this batch, ~24014 words this batch (~2195596 total ever)
+- [2026-08-18 04:57:44] abplive: 100/3105 articles this batch, ~47808 words this batch (~4764600 total ever)
+- [2026-08-18 04:57:52] zeenews: 80/238871 articles this batch, ~26962 words this batch (~1842027 total ever)
+- [2026-08-18 04:58:19] abplive: 120/3105 articles this batch, ~57915 words this batch (~4774707 total ever)
+- [2026-08-18 04:58:33] zeenews: 100/238871 articles this batch, ~32758 words this batch (~1847823 total ever)
+- [2026-08-18 04:58:36] patrika: 80/13084 articles this batch, ~33953 words this batch (~2205535 total ever)
+- [2026-08-18 04:58:54] abplive: 140/3105 articles this batch, ~68775 words this batch (~4785567 total ever)
+- [2026-08-18 04:59:11] zeenews: 120/238871 articles this batch, ~37272 words this batch (~1852337 total ever)
+- [2026-08-18 04:59:30] abplive: 160/3105 articles this batch, ~77770 words this batch (~4794562 total ever)
+- [2026-08-18 04:59:39] patrika: 100/13084 articles this batch, ~44725 words this batch (~2216307 total ever)
+- [2026-08-18 04:59:49] zeenews: 140/238871 articles this batch, ~45321 words this batch (~1860386 total ever)
+- [2026-08-18 05:00:06] abplive: 180/3105 articles this batch, ~101553 words this batch (~4818345 total ever)
+- [2026-08-18 05:00:40] zeenews: 160/238871 articles this batch, ~52131 words this batch (~1867196 total ever)
+- [2026-08-18 05:00:42] abplive: 200/3105 articles this batch, ~113024 words this batch (~4829816 total ever)
+- [2026-08-18 05:00:45] patrika: 120/13084 articles this batch, ~55162 words this batch (~2226744 total ever)
+- [2026-08-18 05:01:17] abplive: 220/3105 articles this batch, ~121090 words this batch (~4837882 total ever)
+- [2026-08-18 05:01:22] zeenews: 180/238871 articles this batch, ~57132 words this batch (~1872197 total ever)
+- [2026-08-18 05:01:43] patrika: 140/13084 articles this batch, ~65849 words this batch (~2237431 total ever)
+- [2026-08-18 05:01:53] abplive: 240/3105 articles this batch, ~130216 words this batch (~4847008 total ever)
+- [2026-08-18 05:02:02] zeenews: 200/238871 articles this batch, ~62992 words this batch (~1878057 total ever)
+- [2026-08-18 05:02:29] abplive: 260/3105 articles this batch, ~138640 words this batch (~4855432 total ever)
+- [2026-08-18 05:02:31] patrika: 160/13084 articles this batch, ~76958 words this batch (~2248540 total ever)
+- [2026-08-18 05:02:41] zeenews: 220/238871 articles this batch, ~69974 words this batch (~1885039 total ever)
+- [2026-08-18 05:03:04] abplive: 280/3105 articles this batch, ~147252 words this batch (~4864044 total ever)
+- [2026-08-18 05:03:22] zeenews: 240/238871 articles this batch, ~76778 words this batch (~1891843 total ever)
+- [2026-08-18 05:03:33] patrika: 180/13084 articles this batch, ~89885 words this batch (~2261467 total ever)
+- [2026-08-18 05:03:40] abplive: 300/3105 articles this batch, ~157912 words this batch (~4874704 total ever)
+- [2026-08-18 05:03:40] abplive: batch done -- 300 new articles, ~157912 words, 535s, ~4874704 words total ever
+- [2026-08-18 05:04:04] zeenews: 260/238871 articles this batch, ~81689 words this batch (~1896754 total ever)
+- [2026-08-18 05:04:36] patrika: 200/13084 articles this batch, ~101297 words this batch (~2272879 total ever)
+- [2026-08-18 05:04:43] zeenews: 280/238871 articles this batch, ~88594 words this batch (~1903659 total ever)
+- [2026-08-18 05:05:27] zeenews: 300/238871 articles this batch, ~94075 words this batch (~1909140 total ever)
+- [2026-08-18 05:05:27] zeenews: batch done -- 300 new articles, ~94075 words, 619s, ~1909140 words total ever
+- [2026-08-18 05:05:30] patrika: 220/13084 articles this batch, ~112528 words this batch (~2284110 total ever)
+- [2026-08-18 05:06:36] patrika: 240/13084 articles this batch, ~123876 words this batch (~2295458 total ever)
+- [2026-08-18 05:07:38] patrika: 260/13084 articles this batch, ~135811 words this batch (~2307393 total ever)
+- [2026-08-18 05:08:41] patrika: 280/13084 articles this batch, ~148153 words this batch (~2319735 total ever)
+- [2026-08-18 05:09:38] patrika: 300/13084 articles this batch, ~159688 words this batch (~2331270 total ever)
+- [2026-08-18 05:09:38] patrika: batch done -- 300 new articles, ~159688 words, 876s, ~2331270 words total ever
+- [2026-08-18 05:09:38] RUN COMPLETE: 4 sources, 900 new articles, 411675 words, 955s elapsed, ~1552529 words/hour aggregate throughput
+- [2026-08-18 05:09:38]   abplive: 300 articles, 157912 words, 535s
+- [2026-08-18 05:09:38]   indiatv: 0 articles, 0 words, 0s
+- [2026-08-18 05:09:38]   patrika: 300 articles, 159688 words, 876s
+- [2026-08-18 05:09:38]   zeenews: 300 articles, 94075 words, 619s
+- [2026-08-18 08:23:09] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (417 already resolved from prior batches)
+- [2026-08-18 08:23:13] hhsb102: pdftotext, ~7306 words
+- [2026-08-18 08:23:14] hhsb101: pdftotext, ~5128 words
+- [2026-08-18 08:23:15] hhml110: pdftotext, ~5644 words
+- [2026-08-18 08:23:15] hhsb103: pdftotext, ~2966 words
+- [2026-08-18 08:23:17] hhml109: pdftotext, ~2527 words
+- [2026-08-18 08:23:18] hhsb104: pdftotext, ~5375 words
+- [2026-08-18 08:23:18] hhsb105: pdftotext, ~5567 words
+- [2026-08-18 08:23:37] hhsc1ps: OCR, ~3867 words
+- [2026-08-18 08:24:05] hhsc101: OCR, ~5012 words
+- [2026-08-18 08:24:05] hhky106: pdftotext, ~17742 words
+- [2026-08-18 08:24:05] batch progress: 10 new codes attempted (10 extracted, 61134 words) this batch
+- [2026-08-18 08:24:17] hhsc103: OCR, ~2073 words
+- [2026-08-18 08:24:37] hhsc106: OCR, ~3698 words
+- [2026-08-18 08:25:01] hhsc102: OCR, ~4383 words
+- [2026-08-18 08:25:24] hhsc104: OCR, ~4065 words
+- [2026-08-18 08:25:43] hhsc109: OCR, ~3389 words
+- [2026-08-18 08:26:03] hhsc105: OCR, ~3871 words
+- [2026-08-18 08:26:27] hhsc110: OCR, ~4110 words
+- [2026-08-18 08:26:52] hhsc112: OCR, ~4399 words
+- [2026-08-18 08:27:22] hhsc113: OCR, ~5369 words
+- [2026-08-18 08:27:43] hhsc111: OCR, ~4195 words
+- [2026-08-18 08:27:43] batch progress: 20 new codes attempted (20 extracted, 100686 words) this batch
+- [2026-08-18 08:27:49] hhsk101: OCR, ~653 words
+- [2026-08-18 08:27:56] hhsk102: OCR, ~873 words
+- [2026-08-18 08:28:05] hhsk103: OCR, ~986 words
+- [2026-08-18 08:28:11] hhsk104: OCR, ~448 words
+- [2026-08-18 08:28:20] hhsk105: OCR, ~1099 words
+- [2026-08-18 08:28:31] hhsk106: OCR, ~1260 words
+- [2026-08-18 08:28:37] hhsk107: OCR, ~577 words
+- [2026-08-18 08:28:46] hhsk108: OCR, ~1179 words
+- [2026-08-18 08:28:58] hhsk109: OCR, ~1173 words
+- [2026-08-18 08:29:06] hhsk110: OCR, ~936 words
+- [2026-08-18 08:29:06] batch progress: 30 new codes attempted (30 extracted, 109870 words) this batch
+- [2026-08-18 08:29:17] hhsk111: OCR, ~1354 words
+- [2026-08-18 08:29:27] hhsk112: OCR, ~1241 words
+- [2026-08-18 08:29:35] hhsk113: OCR, ~707 words
+- [2026-08-18 08:29:59] hhsk114: OCR, ~2716 words
+- [2026-08-18 08:30:15] hhsk1ps: OCR, ~2471 words
+- [2026-08-18 08:30:16] hhss101: pdftotext, ~3728 words
+- [2026-08-18 08:30:40] hhsc107: OCR, ~4724 words
+- [2026-08-18 08:30:40] hhss102: pdftotext, ~6572 words
+- [2026-08-18 08:31:13] hhsc108: OCR, ~6277 words
+- [2026-08-18 08:31:13] hhss104: pdftotext, ~4705 words
+- [2026-08-18 08:31:13] batch progress: 40 new codes attempted (40 extracted, 144365 words) this batch
+- [2026-08-18 08:31:13] hhss1ps: pdftotext, ~2334 words
+- [2026-08-18 08:31:13] hhss103: pdftotext, ~5034 words
+- [2026-08-18 08:31:13] hhss105: pdftotext, ~5622 words
+- [2026-08-18 08:31:13] hhml108: pdftotext, ~6427 words
+- [2026-08-18 08:31:14] batch progress: 50 new codes attempted (44 extracted, 163782 words) this batch
+- [2026-08-18 08:31:43] hhss3ps: OCR, ~4900 words
+- [2026-08-18 08:31:43] hhss108: pdftotext, ~7585 words
+- [2026-08-18 08:31:43] hhss106: pdftotext, ~5088 words
+- [2026-08-18 08:31:43] hhss107: pdftotext, ~6358 words
+- [2026-08-18 08:31:59] hhss302: OCR, ~2818 words
+- [2026-08-18 08:32:20] hhss306: OCR, ~4580 words
+- [2026-08-18 08:32:54] hhss303: OCR, ~5709 words
+- [2026-08-18 08:33:25] hhss308: OCR, ~5615 words
+- [2026-08-18 08:33:41] hhss4ps: OCR, ~1915 words
+- [2026-08-18 08:33:41] batch progress: 60 new codes attempted (53 extracted, 208350 words) this batch
+- [2026-08-18 08:33:52] hhss401: OCR, ~1971 words
+- [2026-08-18 08:34:26] hhss402: OCR, ~4591 words
+- [2026-08-18 08:34:47] hhss403: OCR, ~3020 words
+- [2026-08-18 08:35:11] hhss304: OCR, ~4274 words
+- [2026-08-18 08:35:43] hhss301: OCR, ~5875 words
+- [2026-08-18 08:36:01] hhvs1ps: OCR, ~2761 words
+- [2026-08-18 08:36:12] hhvs101: OCR, ~2219 words
+- [2026-08-18 08:36:21] hhvs102: OCR, ~1520 words
+- [2026-08-18 08:36:24] hhvs103: OCR, ~383 words
+- [2026-08-18 08:36:26] hhvs104: OCR, ~333 words
+- [2026-08-18 08:36:26] batch progress: 70 new codes attempted (63 extracted, 235297 words) this batch
+- [2026-08-18 08:36:54] hhss305: OCR, ~5209 words
+- [2026-08-18 08:37:02] hhvs106: OCR, ~1267 words
+- [2026-08-18 08:37:06] hhvs107: OCR, ~445 words
+- [2026-08-18 08:37:11] hhvs108: OCR, ~788 words
+- [2026-08-18 08:37:23] hhvs109: OCR, ~1990 words
+- [2026-08-18 08:37:39] hhvs110: OCR, ~2757 words
+- [2026-08-18 08:37:42] hhvs111: OCR, ~452 words
+- [2026-08-18 08:38:09] hhss307: OCR, ~4541 words
+- [2026-08-18 08:38:28] hhvs112: OCR, ~3478 words
+- [2026-08-18 08:38:36] hhvs113: OCR, ~1751 words
+- [2026-08-18 08:38:36] batch progress: 80 new codes attempted (73 extracted, 257975 words) this batch
+- [2026-08-18 08:39:01] hhss404: OCR, ~3082 words
+- [2026-08-18 08:39:24] hhss405: OCR, ~3032 words
+- [2026-08-18 08:39:38] hhvs105: OCR, ~2463 words
+- [2026-08-18 08:39:38] batch progress: 90 new codes attempted (76 extracted, 266552 words) this batch
+- [2026-08-18 08:39:43] batch progress: 100 new codes attempted (76 extracted, 266552 words) this batch
+- [2026-08-18 08:39:45] batch progress: 110 new codes attempted (76 extracted, 266552 words) this batch
+- [2026-08-18 08:39:53] ihga104: pdftotext, ~7714 words
+- [2026-08-18 08:39:53] ihga102: pdftotext, ~4813 words
+- [2026-08-18 08:39:53] batch progress: 120 new codes attempted (78 extracted, 279079 words) this batch
+- [2026-08-18 08:39:53] ihga1ps: pdftotext, ~4803 words
+- [2026-08-18 08:39:55] ihga101: pdftotext, ~8021 words
+- [2026-08-18 08:39:55] ihga105: pdftotext, ~5077 words
+- [2026-08-18 08:39:57] ihga107: pdftotext, ~7247 words
+- [2026-08-18 08:39:58] ihga108: pdftotext, ~1630 words
+- [2026-08-18 08:39:58] ihga106: pdftotext, ~5592 words
+- [2026-08-18 08:39:59] ihga103: pdftotext, ~4733 words
+- [2026-08-18 08:39:59] ihga110: pdftotext, ~2049 words
+- [2026-08-18 08:40:00] batch progress: 130 new codes attempted (86 extracted, 318231 words) this batch
+- [2026-08-18 08:40:00] ihga109: pdftotext, ~2845 words
+- [2026-08-18 08:40:01] ihga111: pdftotext, ~3862 words
+- [2026-08-18 08:40:01] batch progress: 140 new codes attempted (88 extracted, 324938 words) this batch
+- [2026-08-18 08:40:02] batch progress: 150 new codes attempted (88 extracted, 324938 words) this batch
+- [2026-08-18 08:40:05] ihmh101: pdftotext, ~4133 words
+- [2026-08-18 08:40:06] ihmh102: pdftotext, ~6570 words
+- [2026-08-18 08:40:06] ihmh104: pdftotext, ~5307 words
+- [2026-08-18 08:40:06] ihga112: pdftotext, ~2991 words
+- [2026-08-18 08:40:07] ihmh103: pdftotext, ~8599 words
+- [2026-08-18 08:40:07] ihmh1ps: pdftotext, ~5434 words
+- [2026-08-18 08:40:07] batch progress: 160 new codes attempted (94 extracted, 357972 words) this batch
+- [2026-08-18 08:40:08] ihmh105: pdftotext, ~7934 words
+- [2026-08-18 08:40:09] batch progress: 170 new codes attempted (95 extracted, 365906 words) this batch
+- [2026-08-18 08:40:09] ihmh107: pdftotext, ~6427 words
+- [2026-08-18 08:40:10] ihmh108: pdftotext, ~8094 words
+- [2026-08-18 08:40:12] ihmh106: pdftotext, ~10421 words
+- [2026-08-18 08:40:16] ihsc101: pdftotext, ~4130 words
+- [2026-08-18 08:40:18] ihsc104: pdftotext, ~10892 words
+- [2026-08-18 08:40:23] ihsc105: pdftotext, ~9530 words
+- [2026-08-18 08:40:28] ihsc1ps: pdftotext, ~6297 words
+- [2026-08-18 08:40:29] ihsc108: pdftotext, ~9213 words
+- [2026-08-18 08:40:29] ihsc107: pdftotext, ~12177 words
+- [2026-08-18 08:40:30] ihsc102: pdftotext, ~9554 words
+- [2026-08-18 08:40:30] batch progress: 180 new codes attempted (105 extracted, 452641 words) this batch
+- [2026-08-18 08:40:30] ihsc106: pdftotext, ~11574 words
+- [2026-08-18 08:40:43] ihsc109: pdftotext, ~8878 words
+- [2026-08-18 08:40:45] ihsc111: pdftotext, ~10346 words
+- [2026-08-18 08:40:46] ihsc103: pdftotext, ~8930 words
+- [2026-08-18 08:40:50] ihsc110: pdftotext, ~10780 words
+- [2026-08-18 08:40:50] ihsh1ps: pdftotext, ~2323 words
+- [2026-08-18 08:40:52] ihsc113: pdftotext, ~9362 words
+- [2026-08-18 08:40:58] ihsc112: pdftotext, ~11185 words
+- [2026-08-18 08:41:03] ihsh102: pdftotext, ~1573 words
+- [2026-08-18 08:41:10] ihsh105: pdftotext, ~2160 words
+- [2026-08-18 08:41:10] batch progress: 190 new codes attempted (115 extracted, 529752 words) this batch
+- [2026-08-18 08:41:11] ihsh101: pdftotext, ~1043 words
+- [2026-08-18 08:41:18] ihsh104: pdftotext, ~1485 words
+- [2026-08-18 08:41:30] ihsh107: pdftotext, ~1753 words
+- [2026-08-18 08:41:33] ihsh108: pdftotext, ~2913 words
+- [2026-08-18 08:41:35] ihsh103: pdftotext, ~2331 words
+- [2026-08-18 08:41:42] ihsh109: pdftotext, ~1639 words
+- [2026-08-18 08:41:45] ihsh106: pdftotext, ~1371 words
+- [2026-08-18 08:41:46] ihsh112: pdftotext, ~1095 words
+- [2026-08-18 08:41:47] ihsh113: pdftotext, ~1486 words
+- [2026-08-18 08:41:50] ihsh110: pdftotext, ~1825 words
+- [2026-08-18 08:41:50] batch progress: 200 new codes attempted (125 extracted, 546693 words) this batch
+- [2026-08-18 08:41:57] BATCH COMPLETE: 200 new codes attempted this batch (125 extracted, 546693 words), 1128s elapsed. Overall: 617/1617 codes resolved so far.
+- [2026-08-18 08:42:10] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (617 already resolved from prior batches)
+- [2026-08-18 08:42:20] ihsh116: pdftotext, ~790 words
+- [2026-08-18 08:42:20] batch progress: 10 new codes attempted (1 extracted, 790 words) this batch
+- [2026-08-18 08:42:22] ihsh115: pdftotext, ~1429 words
+- [2026-08-18 08:42:23] ihsh114: pdftotext, ~1283 words
+- [2026-08-18 08:42:23] batch progress: 20 new codes attempted (3 extracted, 3502 words) this batch
+- [2026-08-18 08:42:28] ihsh111: pdftotext, ~1544 words
+- [2026-08-18 08:42:28] batch progress: 30 new codes attempted (4 extracted, 5046 words) this batch
+- [2026-08-18 08:42:29] batch progress: 40 new codes attempted (4 extracted, 5046 words) this batch
+- [2026-08-18 08:42:30] batch progress: 50 new codes attempted (4 extracted, 5046 words) this batch
+- [2026-08-18 08:42:30] batch progress: 60 new codes attempted (4 extracted, 5046 words) this batch
+- [2026-08-18 08:42:31] batch progress: 70 new codes attempted (4 extracted, 5046 words) this batch
+- [2026-08-18 08:42:39] jhkr103: OCR, ~1316 words
+- [2026-08-18 08:42:56] jhkr1ps: OCR, ~2810 words
+- [2026-08-18 08:43:16] jhks1ps: OCR, ~3215 words
+- [2026-08-18 08:43:24] jhks102: OCR, ~1391 words
+- [2026-08-18 08:43:31] jhks104: OCR, ~893 words
+- [2026-08-18 08:43:39] jhks101: OCR, ~1345 words
+- [2026-08-18 08:43:47] jhks106: OCR, ~1244 words
+- [2026-08-18 08:43:47] batch progress: 80 new codes attempted (11 extracted, 17260 words) this batch
+- [2026-08-18 08:44:00] jhkr101: OCR, ~2502 words
+- [2026-08-18 08:44:12] jhks108: OCR, ~2446 words
+- [2026-08-18 08:44:20] jhks109: OCR, ~1604 words
+- [2026-08-18 08:44:33] jhks107: OCR, ~3004 words
+- [2026-08-18 08:44:50] jhks111: OCR, ~3463 words
+- [2026-08-18 08:44:59] jhks112: OCR, ~1700 words
+- [2026-08-18 08:45:22] jhkr102: OCR, ~4846 words
+- [2026-08-18 08:45:27] jhks103: OCR, ~990 words
+- [2026-08-18 08:45:27] batch progress: 90 new codes attempted (19 extracted, 37815 words) this batch
+- [2026-08-18 08:45:34] jhks105: OCR, ~1181 words
+- [2026-08-18 08:45:52] jhmh1ps: OCR, ~3135 words
+- [2026-08-18 08:46:08] jhmh101: OCR, ~3544 words
+- [2026-08-18 08:46:26] jhmh102: OCR, ~3414 words
+- [2026-08-18 08:46:40] jhmh104: OCR, ~3385 words
+- [2026-08-18 08:47:14] jhmh105: OCR, ~7216 words
+- [2026-08-18 08:47:46] jhmh106: OCR, ~6757 words
+- [2026-08-18 08:47:46] batch progress: 100 new codes attempted (26 extracted, 66447 words) this batch
+- [2026-08-18 08:48:07] jhmh107: OCR, ~4439 words
+- [2026-08-18 08:48:35] jhmh108: OCR, ~5936 words
+- [2026-08-18 08:48:54] jhmh103: OCR, ~4263 words
+- [2026-08-18 08:49:07] jhmh110: OCR, ~2858 words
+- [2026-08-18 08:49:16] jhmh111: OCR, ~1714 words
+- [2026-08-18 08:49:32] jhmh112: OCR, ~3290 words
+- [2026-08-18 08:50:06] jhmh113: OCR, ~6464 words
+- [2026-08-18 08:50:30] jhmh114: OCR, ~5387 words
+- [2026-08-18 08:50:30] jhsc1ps: pdftotext, ~2849 words
+- [2026-08-18 08:50:48] jhks110: OCR, ~3888 words
+- [2026-08-18 08:50:48] batch progress: 110 new codes attempted (36 extracted, 107535 words) this batch
+- [2026-08-18 08:50:48] jhsc101: pdftotext, ~5378 words
+- [2026-08-18 08:50:48] jhsc102: pdftotext, ~6947 words
+- [2026-08-18 08:51:02] jhmh109: OCR, ~2865 words
+- [2026-08-18 08:51:02] jhsc106: pdftotext, ~5907 words
+- [2026-08-18 08:51:02] jhsc104: pdftotext, ~7901 words
+- [2026-08-18 08:51:02] jhsc103: pdftotext, ~7911 words
+- [2026-08-18 08:51:07] jhsc107: pdftotext, ~6642 words
+- [2026-08-18 08:51:07] jhsc110: pdftotext, ~4969 words
+- [2026-08-18 08:51:07] batch progress: 120 new codes attempted (44 extracted, 156055 words) this batch
+- [2026-08-18 08:51:10] jhsc105: pdftotext, ~9933 words
+- [2026-08-18 08:51:10] jhsc108: pdftotext, ~2931 words
+- [2026-08-18 08:51:10] jhsc109: pdftotext, ~10283 words
+- [2026-08-18 08:51:11] jhsc111: pdftotext, ~8114 words
+- [2026-08-18 08:51:22] jhsk102: OCR, ~1264 words
+- [2026-08-18 08:51:22] jhsc112: pdftotext, ~5739 words
+- [2026-08-18 08:51:22] jhsc113: pdftotext, ~3542 words
+- [2026-08-18 08:51:34] jhsk103: OCR, ~1512 words
+- [2026-08-18 08:51:46] jhsk101: OCR, ~1681 words
+- [2026-08-18 08:51:55] jhsk104: OCR, ~1398 words
+- [2026-08-18 08:51:55] batch progress: 130 new codes attempted (54 extracted, 202452 words) this batch
+- [2026-08-18 08:52:03] jhsk108: OCR, ~1000 words
+- [2026-08-18 08:52:14] jhsk107: OCR, ~1482 words
+- [2026-08-18 08:52:24] jhsk110: OCR, ~1392 words
+- [2026-08-18 08:52:33] jhsk105: OCR, ~1328 words
+- [2026-08-18 08:52:52] jhsp1ps: OCR, ~3582 words
+- [2026-08-18 08:52:57] jhsp102: OCR, ~803 words
+- [2026-08-18 08:53:04] jhsp103: OCR, ~1176 words
+- [2026-08-18 08:53:10] jhsp104: OCR, ~947 words
+- [2026-08-18 08:53:15] jhsp105: OCR, ~841 words
+- [2026-08-18 08:53:21] jhsp106: OCR, ~994 words
+- [2026-08-18 08:53:21] batch progress: 140 new codes attempted (64 extracted, 215997 words) this batch
+- [2026-08-18 08:53:31] jhsk109: OCR, ~1443 words
+- [2026-08-18 08:53:55] jhsp108: OCR, ~5190 words
+- [2026-08-18 08:54:08] jhsp109: OCR, ~2965 words
+- [2026-08-18 08:54:25] jhsp110: OCR, ~3688 words
+- [2026-08-18 08:54:45] jhsk1ps: OCR, ~3263 words
+- [2026-08-18 08:54:56] jhsp112: OCR, ~2362 words
+- [2026-08-18 08:55:07] jhsp113: OCR, ~2263 words
+- [2026-08-18 08:55:19] jhsp114: OCR, ~2234 words
+- [2026-08-18 08:55:36] jhss1ps: OCR, ~2623 words
+- [2026-08-18 08:56:02] jhss101: OCR, ~4975 words
+- [2026-08-18 08:56:02] batch progress: 150 new codes attempted (74 extracted, 247003 words) this batch
+- [2026-08-18 08:56:16] jhss102: OCR, ~2557 words
+- [2026-08-18 08:56:42] jhss103: OCR, ~4694 words
+- [2026-08-18 08:57:07] jhss104: OCR, ~4402 words
+- [2026-08-18 08:57:46] jhss105: OCR, ~6740 words
+- [2026-08-18 08:57:59] jhsk106: OCR, ~1845 words
+- [2026-08-18 08:58:29] jhss107: OCR, ~4660 words
+- [2026-08-18 08:58:52] jhss2ps: OCR, ~4257 words
+- [2026-08-18 08:59:24] jhss201: OCR, ~6499 words
+- [2026-08-18 09:00:06] jhss202: OCR, ~8590 words
+- [2026-08-18 09:00:38] jhss203: OCR, ~6592 words
+- [2026-08-18 09:00:38] batch progress: 160 new codes attempted (84 extracted, 297839 words) this batch
+- [2026-08-18 09:00:45] jhsp101: OCR, ~845 words
+- [2026-08-18 09:01:29] jhss205: OCR, ~9137 words
+- [2026-08-18 09:01:46] jhss3ps: OCR, ~2932 words
+- [2026-08-18 09:02:39] jhss301: OCR, ~9439 words
+- [2026-08-18 09:03:25] jhss302: OCR, ~9758 words
+- [2026-08-18 09:04:23] jhss303: OCR, ~12010 words
+- [2026-08-18 09:04:29] jhsp107: OCR, ~981 words
+- [2026-08-18 09:05:18] jhss305: OCR, ~9201 words
+- [2026-08-18 09:05:18] jhss4ps: pdftotext, ~3905 words
+- [2026-08-18 09:05:32] jhsp111: OCR, ~2859 words
+- [2026-08-18 09:05:32] batch progress: 170 new codes attempted (94 extracted, 358906 words) this batch
+- [2026-08-18 09:05:32] jhss401: pdftotext, ~4935 words
+- [2026-08-18 09:06:01] jhss106: OCR, ~4726 words
+- [2026-08-18 09:06:01] jhss402: pdftotext, ~6202 words
+- [2026-08-18 09:06:43] jhss204: OCR, ~7688 words
+- [2026-08-18 09:06:43] jhss405: pdftotext, ~4571 words
+- [2026-08-18 09:06:57] jhsy1ps: OCR, ~2527 words
+- [2026-08-18 09:07:30] jhsy101: OCR, ~7765 words
+- [2026-08-18 09:07:49] jhsy103: OCR, ~4232 words
+- [2026-08-18 09:07:49] jhva1ps: pdftotext, ~2177 words
+- [2026-08-18 09:08:38] jhss304: OCR, ~9602 words
+- [2026-08-18 09:08:38] batch progress: 180 new codes attempted (104 extracted, 413331 words) this batch
+- [2026-08-18 09:08:55] jhsy102: OCR, ~3816 words
+- [2026-08-18 09:08:55] jhva101: pdftotext, ~1919 words
+- [2026-08-18 09:08:55] jhva103: pdftotext, ~3906 words
+- [2026-08-18 09:08:56] jhss403: pdftotext, ~6794 words
+- [2026-08-18 09:08:56] jhva102: pdftotext, ~707 words
+- [2026-08-18 09:08:56] jhss404: pdftotext, ~6847 words
+- [2026-08-18 09:08:57] jhva104: pdftotext, ~966 words
+- [2026-08-18 09:08:58] jhva106: pdftotext, ~689 words
+- [2026-08-18 09:08:58] jhva109: pdftotext, ~1379 words
+- [2026-08-18 09:08:59] jhva105: pdftotext, ~1388 words
+- [2026-08-18 09:08:59] batch progress: 190 new codes attempted (114 extracted, 441742 words) this batch
+- [2026-08-18 09:09:00] jhva108: pdftotext, ~6382 words
+- [2026-08-18 09:09:00] jhva111: pdftotext, ~694 words
+- [2026-08-18 09:09:00] jhva107: pdftotext, ~656 words
+- [2026-08-18 09:09:02] jhva110: pdftotext, ~2417 words
+- [2026-08-18 09:09:03] jhva112: pdftotext, ~3967 words
+- [2026-08-18 09:09:16] khac1ps: OCR, ~1917 words
+- [2026-08-18 09:10:30] khac103: OCR, ~14649 words
+- [2026-08-18 09:11:04] khac101: OCR, ~7514 words
+- [2026-08-18 09:12:05] khac106: OCR, ~13277 words
+- [2026-08-18 09:13:21] khac107: OCR, ~16332 words
+- [2026-08-18 09:13:21] batch progress: 200 new codes attempted (124 extracted, 509547 words) this batch
+- [2026-08-18 09:13:21] BATCH COMPLETE: 200 new codes attempted this batch (124 extracted, 509547 words), 1872s elapsed. Overall: 817/1617 codes resolved so far.
+- [2026-08-18 14:24:14] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (817 already resolved from prior batches)
+- [2026-08-18 14:24:26] Starting 3 concurrent source workers: ['abplive', 'patrika', 'zeenews']
+- [2026-08-18 14:25:04] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 14:25:04] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 14:25:08] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/sitemaps/sitemap-2018-index.xml
+- [2026-08-18 14:25:08] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/sitemaps/sitemap-2018-index.xml
+- [2026-08-18 14:25:09] khac102: OCR, ~9014 words
+- [2026-08-18 14:25:13] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/sitemaps/sitemap-2017-index.xml
+- [2026-08-18 14:25:13] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/sitemaps/sitemap-2017-index.xml
+- [2026-08-18 14:25:17] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2016-2-sitemap.xml
+- [2026-08-18 14:25:17] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2016-2-sitemap.xml
+- [2026-08-18 14:25:22] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2016-1-sitemap.xml
+- [2026-08-18 14:25:22] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2016-1-sitemap.xml
+- [2026-08-18 14:25:27] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2015-sitemap.xml
+- [2026-08-18 14:25:27] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2015-sitemap.xml
+- [2026-08-18 14:25:31] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2014-sitemap.xml
+- [2026-08-18 14:25:31] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2014-sitemap.xml
+- [2026-08-18 14:25:36] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2013-sitemap.xml
+- [2026-08-18 14:25:36] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2013-sitemap.xml
+- [2026-08-18 14:25:40] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2012-sitemap.xml
+- [2026-08-18 14:25:40] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2012-sitemap.xml
+- [2026-08-18 14:25:45] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2011-sitemap.xml
+- [2026-08-18 14:25:45] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2011-sitemap.xml
+- [2026-08-18 14:25:49] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/sitemaps/2018-photogallery-sitemap-index.xml
+- [2026-08-18 14:25:49] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/sitemaps/2018-photogallery-sitemap-index.xml
+- [2026-08-18 14:25:54] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/sitemaps/2017-photogallery-sitemap.xml
+- [2026-08-18 14:25:54] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/sitemaps/2017-photogallery-sitemap.xml
+- [2026-08-18 14:25:58] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2016-photogallery-sitemap.xml
+- [2026-08-18 14:25:58] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2016-photogallery-sitemap.xml
+- [2026-08-18 14:25:58] abplive: discovery found 12122 URLs, 3030 new
+- [2026-08-18 14:26:03] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2015-photogallery-sitemap.xml
+- [2026-08-18 14:26:03] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2015-photogallery-sitemap.xml
+- [2026-08-18 14:26:07] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2014-photogallery-sitemap.xml
+- [2026-08-18 14:26:07] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2014-photogallery-sitemap.xml
+- [2026-08-18 14:26:12] FETCH FAILED after 3 attempts: https://zeenews.india.com/hindi/2013-photogallery-sitemap.xml
+- [2026-08-18 14:26:12] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/2013-photogallery-sitemap.xml
+- [2026-08-18 14:26:21] khac201: OCR, ~11178 words
+- [2026-08-18 14:26:33] patrika: discovery found 18505 URLs, 12946 new
+- [2026-08-18 14:26:36] abplive: 20/3030 articles this batch, ~11100 words this batch (~4885804 total ever)
+- [2026-08-18 14:26:43] kham1ps: OCR, ~2925 words
+- [2026-08-18 14:27:14] abplive: 40/3030 articles this batch, ~21477 words this batch (~4896181 total ever)
+- [2026-08-18 14:27:21] zeenews: discovery found 96082 URLs, 96059 new
+- [2026-08-18 14:27:22] patrika: 20/12946 articles this batch, ~13032 words this batch (~2344302 total ever)
+- [2026-08-18 14:27:36] khac105: OCR, ~9675 words
+- [2026-08-18 14:27:52] abplive: 60/3030 articles this batch, ~33139 words this batch (~4907843 total ever)
+- [2026-08-18 14:28:13] patrika: 40/12946 articles this batch, ~26764 words this batch (~2358034 total ever)
+- [2026-08-18 14:28:32] abplive: 80/3030 articles this batch, ~44104 words this batch (~4918808 total ever)
+- [2026-08-18 14:29:02] patrika: 60/12946 articles this batch, ~39068 words this batch (~2370338 total ever)
+- [2026-08-18 14:29:09] abplive: 100/3030 articles this batch, ~53279 words this batch (~4927983 total ever)
+- [2026-08-18 14:29:25] khac202: OCR, ~14764 words
+- [2026-08-18 14:29:44] abplive: 120/3030 articles this batch, ~64792 words this batch (~4939496 total ever)
+- [2026-08-18 14:29:53] patrika: 80/12946 articles this batch, ~51061 words this batch (~2382331 total ever)
+- [2026-08-18 14:30:20] abplive: 140/3030 articles this batch, ~75381 words this batch (~4950085 total ever)
+- [2026-08-18 14:30:24] kham103: OCR, ~7797 words
+- [2026-08-18 14:30:47] patrika: 100/12946 articles this batch, ~63841 words this batch (~2395111 total ever)
+- [2026-08-18 14:31:01] abplive: 160/3030 articles this batch, ~84104 words this batch (~4958808 total ever)
+- [2026-08-18 14:31:18] kham104: OCR, ~7593 words
+- [2026-08-18 14:31:49] abplive: 180/3030 articles this batch, ~97142 words this batch (~4971846 total ever)
+- [2026-08-18 14:31:52] patrika: 120/12946 articles this batch, ~74732 words this batch (~2406002 total ever)
+- [2026-08-18 14:32:01] kham105: OCR, ~6739 words
+- [2026-08-18 14:32:28] kham106: OCR, ~3070 words
+- [2026-08-18 14:32:28] abplive: 200/3030 articles this batch, ~106303 words this batch (~4981007 total ever)
+- [2026-08-18 14:32:46] patrika: 140/12946 articles this batch, ~86756 words this batch (~2418026 total ever)
+- [2026-08-18 14:33:14] abplive: 220/3030 articles this batch, ~117251 words this batch (~4991955 total ever)
+- [2026-08-18 14:33:20] kham102: OCR, ~8330 words
+- [2026-08-18 14:33:20] batch progress: 10 new codes attempted (10 extracted, 81085 words) this batch
+- [2026-08-18 14:33:41] kham108: OCR, ~2999 words
+- [2026-08-18 14:33:45] patrika: 160/12946 articles this batch, ~99120 words this batch (~2430390 total ever)
+- [2026-08-18 14:33:51] abplive: 240/3030 articles this batch, ~130458 words this batch (~5005162 total ever)
+- [2026-08-18 14:33:55] kham109: OCR, ~2029 words
+- [2026-08-18 14:34:11] kham107: OCR, ~2144 words
+- [2026-08-18 14:34:25] kham110: OCR, ~2306 words
+- [2026-08-18 14:34:37] abplive: 260/3030 articles this batch, ~138975 words this batch (~5013679 total ever)
+- [2026-08-18 14:34:43] kham112: OCR, ~2789 words
+- [2026-08-18 14:34:46] patrika: 180/12946 articles this batch, ~106506 words this batch (~2437776 total ever)
+- [2026-08-18 14:35:05] kham113: OCR, ~3685 words
+- [2026-08-18 14:35:21] abplive: 280/3030 articles this batch, ~147270 words this batch (~5021974 total ever)
+- [2026-08-18 14:35:44] patrika: 200/12946 articles this batch, ~111333 words this batch (~2442603 total ever)
+- [2026-08-18 14:35:49] kham114: OCR, ~5542 words
+- [2026-08-18 14:36:01] abplive: 300/3030 articles this batch, ~156278 words this batch (~5030982 total ever)
+- [2026-08-18 14:36:01] abplive: batch done -- 300 new articles, ~156278 words, 602s, ~5030982 words total ever
+- [2026-08-18 14:36:17] kham115: OCR, ~4311 words
+- [2026-08-18 14:36:57] kham116: OCR, ~5331 words
+- [2026-08-18 14:37:02] patrika: 220/12946 articles this batch, ~116624 words this batch (~2447894 total ever)
+- [2026-08-18 14:37:15] khan1ps: OCR, ~2534 words
+- [2026-08-18 14:37:15] batch progress: 20 new codes attempted (20 extracted, 114755 words) this batch
+- [2026-08-18 14:37:34] khan101: OCR, ~1784 words
+- [2026-08-18 14:38:51] khan102: OCR, ~14161 words
+- [2026-08-18 14:39:08] kham111: OCR, ~1789 words
+- [2026-08-18 14:39:15] patrika: 240/12946 articles this batch, ~128390 words this batch (~2459660 total ever)
+- [2026-08-18 14:39:27] khar1ps: OCR, ~2716 words
+- [2026-08-18 14:39:42] khar102: OCR, ~2425 words
+- [2026-08-18 14:40:02] khar103: OCR, ~3649 words
+- [2026-08-18 14:40:07] patrika: 260/12946 articles this batch, ~142222 words this batch (~2473492 total ever)
+- [2026-08-18 14:40:19] khar104: OCR, ~2930 words
+- [2026-08-18 14:40:39] khar105: OCR, ~3637 words
+- [2026-08-18 14:41:01] patrika: 280/12946 articles this batch, ~154707 words this batch (~2485977 total ever)
+- [2026-08-18 14:41:09] khar106: OCR, ~5501 words
+- [2026-08-18 14:41:26] khar107: OCR, ~2983 words
+- [2026-08-18 14:41:26] batch progress: 30 new codes attempted (30 extracted, 156330 words) this batch
+- [2026-08-18 14:41:34] khar108: OCR, ~1385 words
+- [2026-08-18 14:41:39] khar109: OCR, ~648 words
+- [2026-08-18 14:41:43] khar110: OCR, ~637 words
+- [2026-08-18 14:41:59] patrika: 300/12946 articles this batch, ~166520 words this batch (~2497790 total ever)
+- [2026-08-18 14:41:59] patrika: batch done -- 300 new articles, ~166520 words, 926s, ~2497790 words total ever
+- [2026-08-18 14:42:10] khar101: OCR, ~4807 words
+- [2026-08-18 14:42:17] khar111: OCR, ~1101 words
+- [2026-08-18 14:42:23] khar112: OCR, ~892 words
+- [2026-08-18 14:42:27] khar114: OCR, ~578 words
+- [2026-08-18 14:42:33] khar115: OCR, ~908 words
+- [2026-08-18 14:42:39] khar116: OCR, ~711 words
+- [2026-08-18 14:42:59] khat1ps: OCR, ~3445 words
+- [2026-08-18 14:42:59] batch progress: 40 new codes attempted (40 extracted, 171442 words) this batch
+- [2026-08-18 14:43:32] khat101: OCR, ~6044 words
+- [2026-08-18 14:43:50] khat102: OCR, ~3338 words
+- [2026-08-18 14:44:02] khat103: OCR, ~2215 words
+- [2026-08-18 14:44:07] khar113: OCR, ~715 words
+- [2026-08-18 14:44:18] khat105: OCR, ~1887 words
+- [2026-08-18 14:44:45] khat106: OCR, ~5172 words
+- [2026-08-18 14:45:09] khat107: OCR, ~4560 words
+- [2026-08-18 14:45:28] khat108: OCR, ~3653 words
+- [2026-08-18 14:45:35] khat109: OCR, ~849 words
+- [2026-08-18 14:45:40] khat110: OCR, ~721 words
+- [2026-08-18 14:45:40] batch progress: 50 new codes attempted (50 extracted, 200596 words) this batch
+- [2026-08-18 14:45:46] khat111: OCR, ~768 words
+- [2026-08-18 14:46:02] khat104: OCR, ~2805 words
+- [2026-08-18 14:46:08] khat113: OCR, ~831 words
+- [2026-08-18 14:46:18] khat112: OCR, ~1406 words
+- [2026-08-18 14:46:25] khat115: OCR, ~823 words
+- [2026-08-18 14:46:34] khat114: OCR, ~1339 words
+- [2026-08-18 14:47:00] khbo1ps: OCR, ~3476 words
+- [2026-08-18 14:47:19] khbo101: OCR, ~3398 words
+- [2026-08-18 14:47:50] khbo102: OCR, ~4866 words
+- [2026-08-18 14:48:18] khbo103: OCR, ~4157 words
+- [2026-08-18 14:48:18] batch progress: 60 new codes attempted (60 extracted, 224465 words) this batch
+- [2026-08-18 14:48:56] khbo104: OCR, ~5018 words
+- [2026-08-18 14:49:29] khbo105: OCR, ~4681 words
+- [2026-08-18 14:49:45] khbo106: OCR, ~2278 words
+- [2026-08-18 14:50:01] khbo107: OCR, ~2551 words
+- [2026-08-18 14:50:44] khbo108: OCR, ~6159 words
+- [2026-08-18 14:51:21] khbo109: OCR, ~5925 words
+- [2026-08-18 14:51:49] khbo110: OCR, ~4118 words
+- [2026-08-18 14:52:42] khbo111: OCR, ~8144 words
+- [2026-08-18 14:53:15] khbo112: OCR, ~4857 words
+- [2026-08-18 14:53:48] khbo113: OCR, ~5140 words
+- [2026-08-18 14:53:48] batch progress: 70 new codes attempted (70 extracted, 273336 words) this batch
+- [2026-08-18 14:54:13] khbo114: OCR, ~3918 words
+- [2026-08-18 14:54:42] khbo115: OCR, ~4989 words
+- [2026-08-18 14:55:09] khbo116: OCR, ~4007 words
+- [2026-08-18 14:55:37] khbo117: OCR, ~4050 words
+- [2026-08-18 14:55:57] khbo118: OCR, ~2865 words
+- [2026-08-18 14:56:27] khbo119: OCR, ~4334 words
+- [2026-08-18 14:56:27] khbs1ps: pdftotext, ~1752 words
+- [2026-08-18 14:56:33] khat116: OCR, ~799 words
+- [2026-08-18 14:56:33] khbs102: pdftotext, ~12606 words
+- [2026-08-18 14:57:43] kham101: OCR, ~10188 words
+- [2026-08-18 14:57:43] batch progress: 80 new codes attempted (80 extracted, 322844 words) this batch
+- [2026-08-18 14:57:43] khbs101: pdftotext, ~10793 words
+- [2026-08-18 14:57:43] khbs103: pdftotext, ~7516 words
+- [2026-08-18 14:57:43] khbs104: pdftotext, ~12581 words
+- [2026-08-18 14:59:27] khac104: OCR, ~16059 words
+- [2026-08-18 14:59:28] khbs106: pdftotext, ~7520 words
+- [2026-08-18 14:59:29] khbs105: pdftotext, ~8166 words
+- [2026-08-18 14:59:29] khbs107: pdftotext, ~6342 words
+- [2026-08-18 14:59:29] khbs108: pdftotext, ~9407 words
+- [2026-08-18 14:59:44] khac2ps: OCR, ~2106 words
+- [2026-08-18 14:59:45] khbs109: pdftotext, ~7368 words
+- [2026-08-18 14:59:45] batch progress: 90 new codes attempted (90 extracted, 410702 words) this batch
+- [2026-08-18 15:00:31] khch1ps: OCR, ~2425 words
+- [2026-08-18 15:01:47] khch103: OCR, ~11895 words
+- [2026-08-18 15:04:07] khch102: OCR, ~23764 words
+- [2026-08-18 15:05:30] khch105: OCR, ~13725 words
+- [2026-08-18 15:05:30] khbs110: pdftotext, ~12340 words
+- [2026-08-18 15:07:42] khch106: OCR, ~23583 words
+- [2026-08-18 15:07:59] khch2ps: OCR, ~2049 words
+- [2026-08-18 15:08:25] Starting 3 concurrent source workers: ['abplive', 'patrika', 'zeenews']
+- [2026-08-18 15:08:36] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-18 15:09:33] abplive: discovery found 12142 URLs, 2749 new
+- [2026-08-18 15:09:36] khch101: OCR, ~14020 words
+- [2026-08-18 15:10:01] patrika: discovery found 18563 URLs, 12804 new
+- [2026-08-18 15:10:12] abplive: 20/2749 articles this batch, ~10432 words this batch (~5041414 total ever)
+- [2026-08-18 15:10:22] zeenews: discovery found 244711 URLs, 238571 new
+- [2026-08-18 15:10:53] abplive: 40/2749 articles this batch, ~18995 words this batch (~5049977 total ever)
+- [2026-08-18 15:10:55] patrika: 20/12804 articles this batch, ~11536 words this batch (~2509326 total ever)
+- [2026-08-18 15:11:13] zeenews: 20/238571 articles this batch, ~4705 words this batch (~1913845 total ever)
+- [2026-08-18 15:11:31] khch202: OCR, ~15592 words
+- [2026-08-18 15:11:31] batch progress: 100 new codes attempted (99 extracted, 530095 words) this batch
+- [2026-08-18 15:11:47] abplive: 60/2749 articles this batch, ~27429 words this batch (~5058411 total ever)
+- [2026-08-18 15:12:06] patrika: 40/12804 articles this batch, ~22724 words this batch (~2520514 total ever)
+- [2026-08-18 15:12:16] zeenews: 40/238571 articles this batch, ~9778 words this batch (~1918918 total ever)
+- [2026-08-18 15:12:25] abplive: 80/2749 articles this batch, ~37072 words this batch (~5068054 total ever)
+- [2026-08-18 15:13:08] khch203: OCR, ~13648 words
+- [2026-08-18 15:13:24] zeenews: 60/238571 articles this batch, ~17201 words this batch (~1926341 total ever)
+- [2026-08-18 15:13:27] abplive: 100/2749 articles this batch, ~47881 words this batch (~5078863 total ever)
+- [2026-08-18 15:13:32] patrika: 60/12804 articles this batch, ~34754 words this batch (~2532544 total ever)
+- [2026-08-18 15:14:10] abplive: 120/2749 articles this batch, ~57520 words this batch (~5088502 total ever)
+- [2026-08-18 15:14:19] zeenews: 80/238571 articles this batch, ~23640 words this batch (~1932780 total ever)
+- [2026-08-18 15:14:38] patrika: 80/12804 articles this batch, ~45038 words this batch (~2542828 total ever)
+- [2026-08-18 15:14:48] abplive: 140/2749 articles this batch, ~67137 words this batch (~5098119 total ever)
+- [2026-08-18 15:14:56] khch104: OCR, ~16442 words
+- [2026-08-18 15:15:03] zeenews: 100/238571 articles this batch, ~29870 words this batch (~1939010 total ever)
+- [2026-08-18 15:15:25] abplive: 160/2749 articles this batch, ~76037 words this batch (~5107019 total ever)
+- [2026-08-18 15:15:35] patrika: 100/12804 articles this batch, ~56873 words this batch (~2554663 total ever)
+- [2026-08-18 15:15:50] zeenews: 120/238571 articles this batch, ~36480 words this batch (~1945620 total ever)
+- [2026-08-18 15:15:59] khch201: OCR, ~10199 words
+- [2026-08-18 15:15:59] batch progress: 110 new codes attempted (102 extracted, 570384 words) this batch
+- [2026-08-18 15:15:59] khbs111: pdftotext, ~13737 words
+- [2026-08-18 15:16:02] abplive: 180/2749 articles this batch, ~84897 words this batch (~5115879 total ever)
+- [2026-08-18 15:16:37] patrika: 120/12804 articles this batch, ~69169 words this batch (~2566959 total ever)
+- [2026-08-18 15:16:37] khec101: OCR, ~4544 words
+- [2026-08-18 15:16:37] batch progress: 120 new codes attempted (104 extracted, 588665 words) this batch
+- [2026-08-18 15:16:42] zeenews: 140/238571 articles this batch, ~42003 words this batch (~1951143 total ever)
+- [2026-08-18 15:16:45] abplive: 200/2749 articles this batch, ~94868 words this batch (~5125850 total ever)
+- [2026-08-18 15:17:15] khec104: OCR, ~6253 words
+- [2026-08-18 15:17:25] abplive: 220/2749 articles this batch, ~105779 words this batch (~5136761 total ever)
+- [2026-08-18 15:17:32] zeenews: 160/238571 articles this batch, ~46485 words this batch (~1955625 total ever)
+- [2026-08-18 15:17:33] patrika: 140/12804 articles this batch, ~80074 words this batch (~2577864 total ever)
+- [2026-08-18 15:17:53] khec105: OCR, ~6866 words
+- [2026-08-18 15:18:02] abplive: 240/2749 articles this batch, ~125806 words this batch (~5156788 total ever)
+- [2026-08-18 15:18:18] zeenews: 180/238571 articles this batch, ~51404 words this batch (~1960544 total ever)
+- [2026-08-18 15:18:31] khec107: OCR, ~6563 words
+- [2026-08-18 15:18:36] patrika: 160/12804 articles this batch, ~88022 words this batch (~2585812 total ever)
+- [2026-08-18 15:18:38] abplive: 260/2749 articles this batch, ~134767 words this batch (~5165749 total ever)
+- [2026-08-18 15:19:00] zeenews: 200/238571 articles this batch, ~56237 words this batch (~1965377 total ever)
+- [2026-08-18 15:19:14] abplive: 280/2749 articles this batch, ~144080 words this batch (~5175062 total ever)
+- [2026-08-18 15:19:19] khec106: OCR, ~8202 words
+- [2026-08-18 15:19:33] patrika: 180/12804 articles this batch, ~92373 words this batch (~2590163 total ever)
+- [2026-08-18 15:19:47] zeenews: 220/238571 articles this batch, ~61877 words this batch (~1971017 total ever)
+- [2026-08-18 15:19:53] abplive: 300/2749 articles this batch, ~154994 words this batch (~5185976 total ever)
+- [2026-08-18 15:20:03] khec102: OCR, ~8065 words
+- [2026-08-18 15:20:20] patrika: 200/12804 articles this batch, ~97430 words this batch (~2595220 total ever)
+- [2026-08-18 15:20:29] abplive: 320/2749 articles this batch, ~167886 words this batch (~5198868 total ever)
+- [2026-08-18 15:20:39] khec108: OCR, ~6178 words
+- [2026-08-18 15:20:43] zeenews: 240/238571 articles this batch, ~66894 words this batch (~1976034 total ever)
+- [2026-08-18 15:21:02] khec1ps: OCR, ~3389 words
+- [2026-08-18 15:21:02] batch progress: 130 new codes attempted (111 extracted, 634181 words) this batch
+- [2026-08-18 15:21:08] abplive: 340/2749 articles this batch, ~177443 words this batch (~5208425 total ever)
+- [2026-08-18 15:21:28] patrika: 220/12804 articles this batch, ~108393 words this batch (~2606183 total ever)
+- [2026-08-18 15:21:31] zeenews: 260/238571 articles this batch, ~72334 words this batch (~1981474 total ever)
+- [2026-08-18 15:21:45] abplive: 360/2749 articles this batch, ~188015 words this batch (~5218997 total ever)
+- [2026-08-18 15:21:45] khec103: OCR, ~7459 words
+- [2026-08-18 15:21:45] batch progress: 140 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:46] batch progress: 150 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:47] batch progress: 160 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:48] batch progress: 170 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:49] batch progress: 180 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:50] batch progress: 190 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:51] batch progress: 200 new codes attempted (112 extracted, 641640 words) this batch
+- [2026-08-18 15:21:58] khfa101: pdftotext, ~2922 words
+- [2026-08-18 15:22:08] khfa1ps: pdftotext, ~2746 words
+- [2026-08-18 15:22:09] khfa105: pdftotext, ~2146 words
+- [2026-08-18 15:22:09] batch progress: 210 new codes attempted (115 extracted, 649454 words) this batch
+- [2026-08-18 15:22:15] khfa107: pdftotext, ~2608 words
+- [2026-08-18 15:22:16] khfa102: pdftotext, ~2878 words
+- [2026-08-18 15:22:19] batch progress: 220 new codes attempted (117 extracted, 654940 words) this batch
+- [2026-08-18 15:22:23] zeenews: 280/238571 articles this batch, ~77836 words this batch (~1986976 total ever)
+- [2026-08-18 15:22:26] abplive: 380/2749 articles this batch, ~197540 words this batch (~5228522 total ever)
+- [2026-08-18 15:22:35] patrika: 240/12804 articles this batch, ~118739 words this batch (~2616529 total ever)
+- [2026-08-18 15:22:43] khgv101: pdftotext, ~5454 words
+- [2026-08-18 15:22:43] khfa106: pdftotext, ~10904 words
+- [2026-08-18 15:22:44] khgv1ps: pdftotext, ~7025 words
+- [2026-08-18 15:22:45] khgv102: pdftotext, ~4745 words
+- [2026-08-18 15:22:46] khgv103: pdftotext, ~7170 words
+- [2026-08-18 15:22:53] khfa108: pdftotext, ~6303 words
+- [2026-08-18 15:22:53] khgv104: pdftotext, ~3496 words
+- [2026-08-18 15:22:57] khgv105: pdftotext, ~5517 words
+- [2026-08-18 15:22:57] khgv107: pdftotext, ~2726 words
+- [2026-08-18 15:22:57] batch progress: 230 new codes attempted (126 extracted, 708280 words) this batch
+- [2026-08-18 15:23:04] khfa103: pdftotext, ~2618 words
+- [2026-08-18 15:23:05] khgv109: pdftotext, ~4257 words
+- [2026-08-18 15:23:29] abplive: 400/2749 articles this batch, ~207960 words this batch (~5238942 total ever)
+- [2026-08-18 15:23:40] khgy101: OCR, ~1557 words
+- [2026-08-18 15:23:40] khgv108: pdftotext, ~9008 words
+- [2026-08-18 15:23:41] khgv106: pdftotext, ~15997 words
+- [2026-08-18 15:23:41] khgv110: pdftotext, ~6232 words
+- [2026-08-18 15:23:42] zeenews: 300/238571 articles this batch, ~84497 words this batch (~1993637 total ever)
+- [2026-08-18 15:24:00] khgy1ps: OCR, ~2460 words
+- [2026-08-18 15:24:01] patrika: 260/12804 articles this batch, ~130447 words this batch (~2628237 total ever)
+- [2026-08-18 15:24:23] abplive: 420/2749 articles this batch, ~217233 words this batch (~5248215 total ever)
+- [2026-08-18 15:24:26] khgy102: OCR, ~3776 words
+- [2026-08-18 15:24:40] zeenews: 320/238571 articles this batch, ~91696 words this batch (~2000836 total ever)
+- [2026-08-18 15:24:55] khgy103: OCR, ~4985 words
+- [2026-08-18 15:25:04] abplive: 440/2749 articles this batch, ~227210 words this batch (~5258192 total ever)
+- [2026-08-18 15:25:07] patrika: 280/12804 articles this batch, ~142234 words this batch (~2640024 total ever)
+- [2026-08-18 15:25:12] khgy2ps: OCR, ~2158 words
+- [2026-08-18 15:25:12] batch progress: 240 new codes attempted (136 extracted, 761328 words) this batch
+- [2026-08-18 15:25:25] zeenews: 340/238571 articles this batch, ~99552 words this batch (~2008692 total ever)
+- [2026-08-18 15:25:43] abplive: 460/2749 articles this batch, ~237227 words this batch (~5268209 total ever)
+- [2026-08-18 15:26:01] khgy106: OCR, ~7992 words
+- [2026-08-18 15:26:08] patrika: 300/12804 articles this batch, ~153280 words this batch (~2651070 total ever)
+- [2026-08-18 15:26:08] zeenews: 360/238571 articles this batch, ~104038 words this batch (~2013178 total ever)
+- [2026-08-18 15:26:14] khgy202: OCR, ~2354 words
+- [2026-08-18 15:26:20] abplive: 480/2749 articles this batch, ~248317 words this batch (~5279299 total ever)
+- [2026-08-18 15:26:40] khgy203: OCR, ~4290 words
+- [2026-08-18 15:26:55] zeenews: 380/238571 articles this batch, ~113209 words this batch (~2022349 total ever)
+- [2026-08-18 15:27:01] abplive: 500/2749 articles this batch, ~259181 words this batch (~5290163 total ever)
+- [2026-08-18 15:27:08] khgy201: OCR, ~4389 words
+- [2026-08-18 15:27:11] patrika: 320/12804 articles this batch, ~164790 words this batch (~2662580 total ever)
+- [2026-08-18 15:27:42] khgy205: OCR, ~5766 words
+- [2026-08-18 15:27:43] abplive: 520/2749 articles this batch, ~269449 words this batch (~5300431 total ever)
+- [2026-08-18 15:27:45] zeenews: 400/238571 articles this batch, ~120153 words this batch (~2029293 total ever)
+- [2026-08-18 15:28:19] khgy104: OCR, ~6564 words
+- [2026-08-18 15:28:21] patrika: 340/12804 articles this batch, ~175944 words this batch (~2673734 total ever)
+- [2026-08-18 15:28:23] abplive: 540/2749 articles this batch, ~279977 words this batch (~5310959 total ever)
+- [2026-08-18 15:28:28] khgy207: OCR, ~1470 words
+- [2026-08-18 15:28:40] zeenews: 420/238571 articles this batch, ~126045 words this batch (~2035185 total ever)
+- [2026-08-18 15:28:50] khgy208: OCR, ~3714 words
+- [2026-08-18 15:29:08] abplive: 560/2749 articles this batch, ~290877 words this batch (~5321859 total ever)
+- [2026-08-18 15:29:18] khgy204: OCR, ~4351 words
+- [2026-08-18 15:29:26] zeenews: 440/238571 articles this batch, ~132610 words this batch (~2041750 total ever)
+- [2026-08-18 15:29:31] khgy210: OCR, ~2567 words
+- [2026-08-18 15:29:31] batch progress: 250 new codes attempted (146 extracted, 804785 words) this batch
+- [2026-08-18 15:29:33] patrika: 360/12804 articles this batch, ~186921 words this batch (~2684711 total ever)
+- [2026-08-18 15:29:49] abplive: 580/2749 articles this batch, ~301475 words this batch (~5332457 total ever)
+- [2026-08-18 15:29:59] khgy211: OCR, ~4938 words
+- [2026-08-18 15:30:23] khgy212: OCR, ~3522 words
+- [2026-08-18 15:30:24] zeenews: 460/238571 articles this batch, ~137927 words this batch (~2047067 total ever)
+- [2026-08-18 15:30:36] abplive: 600/2749 articles this batch, ~310903 words this batch (~5341885 total ever)
+- [2026-08-18 15:30:43] khgy213: OCR, ~3366 words
+- [2026-08-18 15:30:43] khfa104: pdftotext, ~9164 words
+- [2026-08-18 15:31:05] patrika: 380/12804 articles this batch, ~198591 words this batch (~2696381 total ever)
+- [2026-08-18 15:31:11] khgy209: OCR, ~4604 words
+- [2026-08-18 15:31:17] zeenews: 480/238571 articles this batch, ~142959 words this batch (~2052099 total ever)
+- [2026-08-18 15:31:21] abplive: 620/2749 articles this batch, ~319562 words this batch (~5350544 total ever)
+- [2026-08-18 15:32:12] khgy3ps: OCR, ~2262 words
+- [2026-08-18 15:32:23] abplive: 640/2749 articles this batch, ~338627 words this batch (~5369609 total ever)
+- [2026-08-18 15:32:26] zeenews: 500/238571 articles this batch, ~150106 words this batch (~2059246 total ever)
+- [2026-08-18 15:32:28] patrika: 400/12804 articles this batch, ~209893 words this batch (~2707683 total ever)
+- [2026-08-18 15:32:47] khgy301: OCR, ~3773 words
+- [2026-08-18 15:33:04] khgy303: OCR, ~2347 words
+- [2026-08-18 15:33:06] abplive: 660/2749 articles this batch, ~349374 words this batch (~5380356 total ever)
+- [2026-08-18 15:33:18] zeenews: 520/238571 articles this batch, ~155536 words this batch (~2064676 total ever)
+- [2026-08-18 15:33:30] khgy304: OCR, ~3812 words
+- [2026-08-18 15:33:46] khgy302: OCR, ~2507 words
+- [2026-08-18 15:33:46] batch progress: 260 new codes attempted (156 extracted, 845080 words) this batch
+- [2026-08-18 15:33:57] patrika: 420/12804 articles this batch, ~221223 words this batch (~2719013 total ever)
+- [2026-08-18 15:33:58] abplive: 680/2749 articles this batch, ~358377 words this batch (~5389359 total ever)
+- [2026-08-18 15:34:26] zeenews: 540/238571 articles this batch, ~162560 words this batch (~2071700 total ever)
+- [2026-08-18 15:34:38] khgy206: OCR, ~7926 words
+- [2026-08-18 15:34:47] abplive: 700/2749 articles this batch, ~366686 words this batch (~5397668 total ever)
+- [2026-08-18 15:34:56] khgy214: OCR, ~2696 words
+- [2026-08-18 15:35:09] patrika: 440/12804 articles this batch, ~233453 words this batch (~2731243 total ever)
+- [2026-08-18 15:35:23] zeenews: 560/238571 articles this batch, ~170824 words this batch (~2079964 total ever)
+- [2026-08-18 15:35:25] abplive: 720/2749 articles this batch, ~375131 words this batch (~5406113 total ever)
+- [2026-08-18 15:35:35] khgy305: OCR, ~4106 words
+- [2026-08-18 15:36:03] abplive: 740/2749 articles this batch, ~391141 words this batch (~5422123 total ever)
+- [2026-08-18 15:36:14] zeenews: 580/238571 articles this batch, ~176095 words this batch (~2085235 total ever)
+- [2026-08-18 15:36:21] khgy306: OCR, ~5414 words
+- [2026-08-18 15:36:21] batch progress: 270 new codes attempted (160 extracted, 865222 words) this batch
+- [2026-08-18 15:36:22] patrika: 460/12804 articles this batch, ~245194 words this batch (~2742984 total ever)
+- [2026-08-18 15:36:41] abplive: 760/2749 articles this batch, ~400240 words this batch (~5431222 total ever)
+- [2026-08-18 15:36:44] khgy105: OCR, ~3717 words
+- [2026-08-18 15:37:02] zeenews: 600/238571 articles this batch, ~182012 words this batch (~2091152 total ever)
+- [2026-08-18 15:37:09] khhe1ps: OCR, ~3430 words
+- [2026-08-18 15:37:33] abplive: 780/2749 articles this batch, ~410969 words this batch (~5441951 total ever)
+- [2026-08-18 15:37:35] patrika: 480/12804 articles this batch, ~257260 words this batch (~2755050 total ever)
+- [2026-08-18 15:37:55] khhe102: OCR, ~7639 words
+- [2026-08-18 15:38:02] zeenews: 620/238571 articles this batch, ~187695 words this batch (~2096835 total ever)
+- [2026-08-18 15:38:12] abplive: 800/2749 articles this batch, ~423527 words this batch (~5454509 total ever)
+- [2026-08-18 15:38:14] khhe104: OCR, ~2966 words
+- [2026-08-18 15:38:33] patrika: 500/12804 articles this batch, ~269654 words this batch (~2767444 total ever)
+- [2026-08-18 15:38:49] abplive: 820/2749 articles this batch, ~432170 words this batch (~5463152 total ever)
+- [2026-08-18 15:38:50] khhe105: OCR, ~6102 words
+- [2026-08-18 15:38:50] zeenews: 640/238571 articles this batch, ~193702 words this batch (~2102842 total ever)
+- [2026-08-18 15:39:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 15:39:13] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-की-प्रसिद्ध-मिठाइयाँ/मालपुआ-राजस्थान-का-प्रसिद्ध-पारंपरिक-मीठा-व्यंजन?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:13] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-पारंपरिक-भोजन/राजस्थान-के-प्रमुख-पारंपरिक-व्यंजन/केर-सांगरी-की-सब्जी-राजस्थान-का-प्रसिद्ध-पारंपरिक-व्यंजन?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:14] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/कच्छी-घोड़ी-नृत्य-राजस्थान-की-प्रसिद्ध-लोकनृत्य-परंपरा?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:14] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-की-प्रसिद्ध-मिठाइयाँ/घेवर-राजस्थान-की-प्रसिद्ध-पारंपरिक-मिठाई-और-उसका-महत्व?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:15] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-की-प्रसिद्ध-मिठाइयाँ?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:15] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-पारंपरिक-भोजन/राजस्थान-के-प्रमुख-पारंपरिक-व्यंजन/गट्टे-की-सब्जी-राजस्थान-का-प्रसिद्ध-पारंपरिक-व्यंजन-और-उसकी-विशेषताएँ?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:16] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/गवरी-राजस्थान-के-भील-समुदाय-की-ऐतिहासिक-लोकनाट्य-और-सांस्कृतिक-परंपरा?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:16] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-पारंपरिक-भोजन/राजस्थान-के-प्रमुख-पारंपरिक-व्यंजन/दाल-बाटी-चूरमा-राजस्थान-का-पारंपरिक-एवं-लोकप्रिय-व्यंजन?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:17] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-पारंपरिक-भोजन/राजस्थान-के-प्रमुख-पारंपरिक-व्यंजन?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:17] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-पारंपरिक-भोजन?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:18] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/राजस्थान-का-प्रसिद्ध-लोकनृत्य-चरी-नृत्य?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:18] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/गैर-नृत्य-राजस्थान-की-समृद्ध-सामूहिक-लोकनृत्य-परंपरा?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:19] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/राजस्थान-की-प्रसिद्ध-कठपुतली-कला-इतिहास-निर्माण-और-सांस्कृतिक-महत्व?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:19] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/कालबेलिया-नृत्य-राजस्थान-की-प्रसिद्ध-लोकनृत्य-परंपरा?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:20] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य/राजस्थान-का-प्रसिद्ध-लोकनृत्य-घूमर?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:20] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ/राजस्थान-का-प्रसिद्ध-लोकनृत्य?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:21] fetch failed https://hi.vikaspedia.in/viewcontent/education/93893e92e93e92894d92f-91c94d91e93e928/एआई-सिर्फ-चीट-कोड-नहीं-सुपरपॉवर-जानिए-कैसे-भारतीय-छात्र-परप्लेक्सिटी-चैट्गप्ट-और-नोशन-का-सही-इस्तेमाल-कर-रहे-हैं?lgn=hi: 'ascii' codec can't encode characters in position 65-67: ordinal not in range(128)
+- [2026-08-18 15:39:21] fetch failed https://hi.vikaspedia.in/viewcontent/nutrition/बाजरे-की-रोटी-और-छाछ-पारंपरिक-भोजन-का-महत्व-और-आज-की-उपयोगिता?lgn=hi: 'ascii' codec can't encode characters in position 27-31: ordinal not in range(128)
+- [2026-08-18 15:39:22] fetch failed https://hi.vikaspedia.in/viewcontent/education/राजस्थान-की-पारंपरिक-प्रथाएँ?lgn=hi: 'ascii' codec can't encode characters in position 27-34: ordinal not in range(128)
+- [2026-08-18 15:39:22] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/लोहागढ़-फोर्ट?lgn=hi: 'ascii' codec can't encode characters in position 44-50: ordinal not in range(128)
+- [2026-08-18 15:39:23] fetch failed https://hi.vikaspedia.in/viewcontent/e-governance/आधार-पर-आधारित-तत्काल-पैन?lgn=hi: 'ascii' codec can't encode characters in position 30-33: ordinal not in range(128)
+- [2026-08-18 15:39:23] fetch failed https://hi.vikaspedia.in/viewcontent/education/career-guidance/व्यावसायिक-प्रशिक्षण?lgn=hi: 'ascii' codec can't encode characters in position 43-52: ordinal not in range(128)
+- [2026-08-18 15:39:24] fetch failed https://hi.vikaspedia.in/viewcontent/e-governance/केंद्रीय-मंत्रालय/केंद्रीकृत-लोक-शिकायत-निवारण-और-मॉनीटरिंग-प्रणाली?lgn=hi: 'ascii' codec can't encode characters in position 30-37: ordinal not in range(128)
+- [2026-08-18 15:39:24] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-व्याकरण?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:25] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-worksheet/हिंदी-व्याकरण-कविता-और-काव्य-के-तत्व?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:25] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-worksheet/हिंदी-व्याकरण-विशेषण-हिंदी-worksheet-2?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:26] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-worksheet/हिंदी-व्याकरण-विशेषण?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:26] khhe106: OCR, ~5318 words
+- [2026-08-18 15:39:26] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-worksheet/हिंदी-व्याकरण-कृतीपत्रिका-सर्वनाम?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:27] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-worksheet/हिंदी-व्याकरण-विषय-लिंग-(gender)?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:27] abplive: 840/2749 articles this batch, ~445177 words this batch (~5476159 total ever)
+- [2026-08-18 15:39:27] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/हिंदी-worksheet/हिंदी-व्याकरण-संज्ञा-(नाम)?lgn=hi: 'ascii' codec can't encode characters in position 44-48: ordinal not in range(128)
+- [2026-08-18 15:39:28] fetch failed https://hi.vikaspedia.in/viewcontent/schemesall/बिहार-उद्यमाई-योजना?lgn=hi: 'ascii' codec can't encode characters in position 28-32: ordinal not in range(128)
+- [2026-08-18 15:39:28] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/आधार-ऐप-को-मजबूत-तरीके-से-अपनाया-जा-रहा-है,-जिससे-लोगों-की-सुविधा-में-सुधार-हो-रहा-है?lgn=hi: 'ascii' codec can't encode characters in position 25-28: ordinal not in range(128)
+- [2026-08-18 15:39:29] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/आधार-ऐप-मे-लोगों-के-अनुकूल-विशेषताएं?lgn=hi: 'ascii' codec can't encode characters in position 25-28: ordinal not in range(128)
+- [2026-08-18 15:39:29] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/आधार-ऐप-के-माध्यम-से-आधार-में-मुफ्त-में-ईमेल-जोड़ें-या-अपडेट-करें?lgn=hi: 'ascii' codec can't encode characters in position 25-28: ordinal not in range(128)
+- [2026-08-18 15:39:30] fetch failed https://hi.vikaspedia.in/viewcontent/health/91c940935928-915947-93892494d92f/लापरवाही-और-बिना-सलाह-दवा-लेने-के-गंभीर-परिणाम-एक-केस-स्टडी?lgn=hi: 'ascii' codec can't encode characters in position 57-64: ordinal not in range(128)
+- [2026-08-18 15:39:30] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/यू-आई-डी-ए-आई-में-पीएचडी-इंटर्नशिप?lgn=hi: 'ascii' codec can't encode characters in position 25-26: ordinal not in range(128)
+- [2026-08-18 15:39:31] fetch failed https://hi.vikaspedia.in/viewcontent/indian-silk/कच्चे-रेशम-की-श्रेणीकरण-को-समझनाः-महत्व,-तरीके-और-वैश्विक-मानक?lgn=hi: 'ascii' codec can't encode characters in position 29-33: ordinal not in range(128)
+- [2026-08-18 15:39:31] fetch failed https://hi.vikaspedia.in/viewcontent/education/childrens-corner/मेरे-स्वास्थ्य-की-दुनिया-बच्चों-के-लिए-स्वास्थ्य-जागरूकता-पुस्तिका?lgn=hi: 'ascii' codec can't encode characters in position 44-47: ordinal not in range(128)
+- [2026-08-18 15:39:32] fetch failed https://hi.vikaspedia.in/viewcontent/social-welfare/91594c936932-93593f91593e938/भारत-के-एमएसएमई-आर्थिक-विकास-और-सशक्तिकरण-का-इंजन?lgn=hi: 'ascii' codec can't encode characters in position 61-64: ordinal not in range(128)
+- [2026-08-18 15:39:32] fetch failed https://hi.vikaspedia.in/viewcontent/education/एनपीटीईएल-गेट-पोर्टल?lgn=hi: 'ascii' codec can't encode characters in position 27-35: ordinal not in range(128)
+- [2026-08-18 15:39:33] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/मशहूर-हस्तियों-द्वारा-एमबीयू-वीडियो?lgn=hi: 'ascii' codec can't encode characters in position 25-29: ordinal not in range(128)
+- [2026-08-18 15:39:33] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/माईआधार-पोर्टल-पर-परिवार-के-किसी-सदस्य-की-मृत्यु-की-रिपोर्ट-करें?lgn=hi: 'ascii' codec can't encode characters in position 25-31: ordinal not in range(128)
+- [2026-08-18 15:39:34] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/एमआधार-ऐप-जल्द-ही-बंद-हो-रहा-हैः-निर्बाध-अनुभव-के-लिए-नया-आधार-ऐप-डाउनलोड-करें?lgn=hi: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(128)
+- [2026-08-18 15:39:35] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/आधार-ऐप-ट्यूटोरियल?lgn=hi: 'ascii' codec can't encode characters in position 25-28: ordinal not in range(128)
+- [2026-08-18 15:39:35] fetch failed https://hi.vikaspedia.in/viewcontent/health/ayush/92f94b917-93593f91c94d91e93e928/योग-शारीरिक-और-मानसिक-स्वास्थ्य-के-लिए-एक-संपूर्ण-समाधान?lgn=hi: 'ascii' codec can't encode characters in position 62-64: ordinal not in range(128)
+- [2026-08-18 15:39:36] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/ऑनलाइन-दस्तावेज़-माई-आधार-पोर्टल-पर-अपलोड-करें?lgn=hi: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(128)
+- [2026-08-18 15:39:36] fetch failed https://hi.vikaspedia.in/viewcontent/women/मातृत्व-लाभ-अधिनियम,-1961?lgn=hi: 'ascii' codec can't encode characters in position 23-29: ordinal not in range(128)
+- [2026-08-18 15:39:37] fetch failed https://hi.vikaspedia.in/viewcontent/aadhaar/आधार-सेवाओं-के-लिए-शुल्क?lgn=hi: 'ascii' codec can't encode characters in position 25-28: ordinal not in range(128)
+- [2026-08-18 15:39:37] fetch failed https://hi.vikaspedia.in/viewcontent/agriculture/91593f93893e92894b902-915947-93293f90f-93093e93794d91f94d93094092f-92f94b91c92893e90f902/ऑयलसीड्स-किसान-मित्र?lgn=hi: 'ascii' codec can't encode characters in position 118-125: ordinal not in range(128)
+- [2026-08-18 15:39:38] fetch failed https://hi.vikaspedia.in/viewcontent/nutrition/दूध-में-बढ़ी-हुई-अम्लता-का-पता-लगाने-के-लिए-सरल-परीक्षण?lgn=hi: 'ascii' codec can't encode characters in position 27-29: ordinal not in range(128)
+- [2026-08-18 15:39:38] fetch failed https://hi.vikaspedia.in/viewcontent/nutrition/अखबार-में-खाना-स्वास्थ्य-के-लिए-खतरा-और-बचाव?lgn=hi: 'ascii' codec can't encode characters in position 27-31: ordinal not in range(128)
+- [2026-08-18 15:39:39] fetch failed https://hi.vikaspedia.in/viewcontent/indian-silk/केंद्रीय-रेशम-बोर्ड-बुनियादी-तसर-रेशम-कीट-बीज-संगठन-बिलासपुर?lgn=hi: 'ascii' codec can't encode characters in position 29-36: ordinal not in range(128)
+- [2026-08-18 15:39:39] patrika: 520/12804 articles this batch, ~280659 words this batch (~2778449 total ever)
+- [2026-08-18 15:39:39] fetch failed https://hi.vikaspedia.in/viewcontent/aspirational-districts/मध्य-प्रदेश/राजगढ़/अपने-जिले-काे-जानें/मध्य-प्रदेश-के-राजगढ़-में-स्थित-अद्वितीय-श्री-शनि-शीतला-माता-मंदिर-प्रकृति-और-आस्था-का-संगम?lgn=hi: 'ascii' codec can't encode characters in position 40-43: ordinal not in range(128)
+- [2026-08-18 15:39:40] fetch failed https://hi.vikaspedia.in/viewcontent/e-governance/अपने-आधार-डेटा-को-अपडेट-करें?lgn=hi: 'ascii' codec can't encode characters in position 30-33: ordinal not in range(128)
+- [2026-08-18 15:39:40] fetch failed https://hi.vikaspedia.in/viewcontent/e-governance/भारत-में-एआई-संचालित-वित्तीय-समावेशन?lgn=hi: 'ascii' codec can't encode characters in position 30-33: ordinal not in range(128)
+- [2026-08-18 15:39:41] fetch failed https://hi.vikaspedia.in/viewcontent/e-governance/92193f91c94091f932-90790292193f92f93e/ऑनलाइन-गेमिंग-नियम,-2026?lgn=hi: 'ascii' codec can't encode characters in position 68-73: ordinal not in range(128)
+- [2026-08-18 15:39:41] fetch failed https://hi.vikaspedia.in/viewcontent/women/गर्भावस्था-के-दौरान-खानपान-और-देखभाल?lgn=hi: 'ascii' codec can't encode characters in position 23-32: ordinal not in range(128)
+- [2026-08-18 15:39:42] fetch failed https://hi.vikaspedia.in/viewcontent/women/स्तनपान-कैसे-कराएँ-–-स्तनपान-की-विभिन्न-स्थितियाँ?lgn=hi: 'ascii' codec can't encode characters in position 23-29: ordinal not in range(128)
+- [2026-08-18 15:39:42] zeenews: 660/238571 articles this batch, ~203279 words this batch (~2112419 total ever)
+- [2026-08-18 15:39:42] fetch failed https://hi.vikaspedia.in/viewcontent/women/जंक-फूड-हटाओ,-हेल्दी-खाना-अपनाओ?lgn=hi: 'ascii' codec can't encode characters in position 23-25: ordinal not in range(128)
+- [2026-08-18 15:39:43] fetch failed https://hi.vikaspedia.in/viewcontent/women/संतुलित-और-पौष्टिक-आहार-स्वस्थ-जीवन-की-कुंजी?lgn=hi: 'ascii' codec can't encode characters in position 23-29: ordinal not in range(128)
+- [2026-08-18 15:39:43] fetch failed https://hi.vikaspedia.in/viewcontent/women/पोषण-अभियान-स्वस्थ-और-पौष्टिक-आहार-के-लिए-प्रभावी-मार्गदर्शिका?lgn=hi: 'ascii' codec can't encode characters in position 23-26: ordinal not in range(128)
+- [2026-08-18 15:39:44] fetch failed https://hi.vikaspedia.in/viewcontent/women/स्तनपान-कराने-वाली-माताओं-के-लिए-पोषण-और-आहार-संबंधी-दिशा-निर्देश?lgn=hi: 'ascii' codec can't encode characters in position 23-29: ordinal not in range(128)
+- [2026-08-18 15:39:44] fetch failed https://hi.vikaspedia.in/viewcontent/women/स्तनपान-शिशु-के-उत्तम-स्वास्थ्य-और-पोषण-की-सही-शुरुआत?lgn=hi: 'ascii' codec can't encode characters in position 23-29: ordinal not in range(128)
+- [2026-08-18 15:39:45] fetch failed https://hi.vikaspedia.in/viewcontent/social-welfare/भारत-की-जीआई-रजिस्ट्री/सोहराई-और-खोवर-पेंटिंग?lgn=hi: 'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)
+- [2026-08-18 15:39:45] fetch failed https://hi.vikaspedia.in/viewcontent/social-welfare/भारत-की-जीआई-रजिस्ट्री/कोंडापल्ली-बोम्मलू?lgn=hi: 'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)
+- [2026-08-18 15:39:46] fetch failed https://hi.vikaspedia.in/viewcontent/social-welfare/भारत-की-जीआई-रजिस्ट्री/मंजूषा-कला?lgn=hi: 'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)
+- [2026-08-18 15:39:46] fetch failed https://hi.vikaspedia.in/viewcontent/social-welfare/भारत-की-जीआई-रजिस्ट्री/संखेड़ा-फर्नीचर?lgn=hi: 'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)
+- [2026-08-18 15:40:06] abplive: 860/2749 articles this batch, ~454371 words this batch (~5485353 total ever)
+- [2026-08-18 15:40:35] zeenews: 680/238571 articles this batch, ~209182 words this batch (~2118322 total ever)
+- [2026-08-18 15:40:43] patrika: 540/12804 articles this batch, ~293026 words this batch (~2790816 total ever)
+- [2026-08-18 15:40:45] abplive: 880/2749 articles this batch, ~463604 words this batch (~5494586 total ever)
+- [2026-08-18 15:40:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 15:40:56] BATCH COMPLETE: 5 new URLs processed, ~3749 words this batch
+- [2026-08-18 15:41:23] zeenews: 700/238571 articles this batch, ~215839 words this batch (~2124979 total ever)
+- [2026-08-18 15:41:26] abplive: 900/2749 articles this batch, ~473457 words this batch (~5504439 total ever)
+- [2026-08-18 15:41:30] khhe107: OCR, ~16466 words
+- [2026-08-18 15:41:30] batch progress: 280 new codes attempted (167 extracted, 910860 words) this batch
+- [2026-08-18 15:41:47] patrika: 560/12804 articles this batch, ~304342 words this batch (~2802132 total ever)
+- [2026-08-18 15:41:53] khhe2ps: OCR, ~3198 words
+- [2026-08-18 15:42:07] abplive: 920/2749 articles this batch, ~485280 words this batch (~5516262 total ever)
+- [2026-08-18 15:42:42] FETCH FAILED after 3 attempts: https://www.patrika.com/banswara-news/government-agrees-to-demands-protest-suspended-20809194
+- [2026-08-18 15:42:44] khhe202: OCR, ~8074 words
+- [2026-08-18 15:42:47] FETCH FAILED after 3 attempts: https://www.patrika.com/udaipur-news/rural-residents-submit-memorandum-to-mla-opposing-land-allotment-20809192
+- [2026-08-18 15:42:51] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/the-patwari-building-is-turning-into-a-ruin-with-a-massive-pile-of-filth-in-the-premises-20809190
+- [2026-08-18 15:42:56] FETCH FAILED after 3 attempts: https://www.patrika.com/kota-news/power-outage-hits-lakheri-hospital-for-third-day-affecting-diagnostic-services-20809188
+- [2026-08-18 15:43:00] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/certificates-of-original-tribe-were-made-200-also-revenue-cases-were-settled-20809186
+- [2026-08-18 15:43:05] FETCH FAILED after 3 attempts: https://www.patrika.com/udaipur-news/diver-police-conducts-major-operation-gang-involved-in-theft-at-railway-construction-site-exposed-two-arrested-20809184
+- [2026-08-18 15:43:09] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/hunters-in-the-midst-of-a-thorny-situation-20809182
+- [2026-08-18 15:43:14] FETCH FAILED after 3 attempts: https://www.patrika.com/kota-news/emphasis-is-being-placed-on-digital-education-20809180
+- [2026-08-18 15:43:15] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/up-news-mayawati-attacks-bjp-amid-cjp-protest-and-ram-mandir-chadhava-chori-3164358
+- [2026-08-18 15:43:18] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/students-showcase-talent-in-anuvrat-creativity-contest-20809178
+- [2026-08-18 15:43:20] FETCH FAILED after 3 attempts: https://www.abplive.com/sports/cricket/vivek-razdan-exclusive-interview-why-are-indian-players-getting-injured-repeatedly-former-cricketer-explains-the-reason-3164330
+- [2026-08-18 15:43:23] FETCH FAILED after 3 attempts: https://www.patrika.com/udaipur-news/anganwadi-building-s-veranda-collapses-construction-quality-questioned-20809176
+- [2026-08-18 15:43:25] FETCH FAILED after 3 attempts: https://www.abplive.com/entertainment/television/tv-serial-spoilers-ganga-mai-ki-betiyan-anupamaa-vasudha-23-july-written-update-3164336
+- [2026-08-18 15:43:25] zeenews: 720/238571 articles this batch, ~220111 words this batch (~2129251 total ever)
+- [2026-08-18 15:43:28] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/a-soul-with-strong-emotions-never-wavers-from-the-path-of-truth-swami-anant-kumar-20809174
+- [2026-08-18 15:43:29] FETCH FAILED after 3 attempts: https://www.abplive.com/entertainment/bollywood/salman-khan-richa-chadha-and-more-celebs-extend-support-to-student-protest-here-is-what-they-said-3164309
+- [2026-08-18 15:43:32] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/true-knowledge-is-a-lamp-that-dispels-the-darkness-of-ignorance-acharya-divyeshchandra-sagar-suri-20809172
+- [2026-08-18 15:43:34] FETCH FAILED after 3 attempts: https://www.abplive.com/utility-news/india-vs-zimbabwe-t20-match-to-stream-start-23-july-on-fancode-app-harare-sports-club-3164341
+- [2026-08-18 15:43:37] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/abhishek-is-a-symbol-of-the-union-of-the-soul-and-the-supreme-soul-sadhvi-bhavyaguna-20809170
+- [2026-08-18 15:43:38] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/varanasi-italian-national-admitted-mental-hospital-after-ruckus-in-varanasi-ann-3164323
+- [2026-08-18 15:43:41] FETCH FAILED after 3 attempts: https://www.patrika.com/kota-news/flag-rally-to-be-held-in-nainwan-on-12th-20809168
+- [2026-08-18 15:43:43] FETCH FAILED after 3 attempts: https://www.abplive.com/entertainment/bollywood/isha-rikhi-shares-wedding-video-with-badshah-with-a-cryptic-note-every-storm-is-a-lesson-3164289
+- [2026-08-18 15:43:46] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/task-of-tree-planting-and-protection-entrusted-20809166
+- [2026-08-18 15:43:47] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/up-assembly-elections-2027-bjp-start-preparations-in-varanasi-gave-workers-mantra-for-victory-ann-3164326
+- [2026-08-18 15:43:50] khhe201: OCR, ~11821 words
+- [2026-08-18 15:43:50] FETCH FAILED after 3 attempts: https://www.patrika.com/jaipur-news/taking-a-pledge-to-stay-away-from-vices-learning-about-the-ill-effects-of-addiction-20809164
+- [2026-08-18 15:43:52] FETCH FAILED after 3 attempts: https://www.abplive.com/trending/husband-hugs-emotional-wife-before-holding-newborn-baby-viral-video-3164317
+- [2026-08-18 15:43:55] FETCH FAILED after 3 attempts: https://www.patrika.com/kota-news/sohan-mela-coordinator-appointed-20809162
+- [2026-08-18 15:43:56] FETCH FAILED after 3 attempts: https://www.abplive.com/states/bihar/jdu-reaction-on-pm-modi-fast-track-court-announcement-in-neet-paper-leak-case-3164331
+- [2026-08-18 15:44:01] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/uttar-pardesh-news-cm-yogi-visited-maa-pateshwari-mandir-in-balrampur-news-ann-3163983
+- [2026-08-18 15:44:05] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/uttar-pardesh-news-paper-leak-protests-minister-rajbhar-hits-back-at-sp-akhilesh-3163959
+- [2026-08-18 15:44:10] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/yogi-government-aims-to-make-uttar-pradesh-global-hub-for-electric-vehicle-manufacturing-development-3164098
+- [2026-08-18 15:44:12] zeenews: 740/238571 articles this batch, ~228018 words this batch (~2137158 total ever)
+- [2026-08-18 15:44:14] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/uttar-pardesh-news-yogi-government-transparent-policy-crackdown-on-illegal-mining-boost-3164116
+- [2026-08-18 15:44:19] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/uttar-pardesh-news-cm-yogi-review-development-works-in-gorakhpur-ann-3164171
+- [2026-08-18 15:44:23] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/up-news-ram-katha-begins-gorakhnath-temple-chief-minister-attend-programme-news-ann-3164180
+- [2026-08-18 15:44:26] khhe204: OCR, ~5685 words
+- [2026-08-18 15:44:27] patrika: 580/12804 articles this batch, ~310438 words this batch (~2808228 total ever)
+- [2026-08-18 15:44:28] FETCH FAILED after 3 attempts: https://www.abplive.com/states/up-uk/cm-yogi-news-development-in-gorakhpur-network-of-four-lane-road-flyovers-rail-over-bridge-ready-3164139
+- [2026-08-18 15:44:56] zeenews: 760/238571 articles this batch, ~234420 words this batch (~2143560 total ever)
+- [2026-08-18 15:45:00] abplive: 940/2749 articles this batch, ~493971 words this batch (~5524953 total ever)
+- [2026-08-18 15:45:15] khhe205: OCR, ~8001 words
+- [2026-08-18 15:45:28] patrika: 600/12804 articles this batch, ~316395 words this batch (~2814185 total ever)
+- [2026-08-18 15:45:43] abplive: 960/2749 articles this batch, ~504196 words this batch (~5535178 total ever)
+- [2026-08-18 15:45:45] khhs1ps: OCR, ~3465 words
+- [2026-08-18 15:45:50] zeenews: 780/238571 articles this batch, ~239017 words this batch (~2148157 total ever)
+- [2026-08-18 15:46:24] abplive: 980/2749 articles this batch, ~513591 words this batch (~5544573 total ever)
+- [2026-08-18 15:46:31] patrika: 620/12804 articles this batch, ~327672 words this batch (~2825462 total ever)
+- [2026-08-18 15:46:36] zeenews: 800/238571 articles this batch, ~244665 words this batch (~2153805 total ever)
+- [2026-08-18 15:46:59] khhs101: OCR, ~11442 words
+- [2026-08-18 15:47:00] abplive: 1000/2749 articles this batch, ~523166 words this batch (~5554148 total ever)
+- [2026-08-18 15:47:21] zeenews: 820/238571 articles this batch, ~253718 words this batch (~2162858 total ever)
+- [2026-08-18 15:47:32] patrika: 640/12804 articles this batch, ~338135 words this batch (~2835925 total ever)
+- [2026-08-18 15:47:37] abplive: 1020/2749 articles this batch, ~533409 words this batch (~5564391 total ever)
+- [2026-08-18 15:47:43] khhe103: OCR, ~6832 words
+- [2026-08-18 15:48:08] zeenews: 840/238571 articles this batch, ~260563 words this batch (~2169703 total ever)
+- [2026-08-18 15:48:14] abplive: 1040/2749 articles this batch, ~550115 words this batch (~5581097 total ever)
+- [2026-08-18 15:48:22] khhe203: OCR, ~6569 words
+- [2026-08-18 15:48:22] batch progress: 290 new codes attempted (176 extracted, 975947 words) this batch
+- [2026-08-18 15:48:40] patrika: 660/12804 articles this batch, ~349671 words this batch (~2847461 total ever)
+- [2026-08-18 15:48:53] zeenews: 860/238571 articles this batch, ~264906 words this batch (~2174046 total ever)
+- [2026-08-18 15:48:53] abplive: 1060/2749 articles this batch, ~561718 words this batch (~5592700 total ever)
+- [2026-08-18 15:49:28] khhs104: OCR, ~10356 words
+- [2026-08-18 15:49:30] abplive: 1080/2749 articles this batch, ~572075 words this batch (~5603057 total ever)
+- [2026-08-18 15:49:39] zeenews: 880/238571 articles this batch, ~271190 words this batch (~2180330 total ever)
+- [2026-08-18 15:49:41] patrika: 680/12804 articles this batch, ~361466 words this batch (~2859256 total ever)
+- [2026-08-18 15:50:08] abplive: 1100/2749 articles this batch, ~581507 words this batch (~5612489 total ever)
+- [2026-08-18 15:50:21] khhs103: OCR, ~9195 words
+- [2026-08-18 15:50:26] zeenews: 900/238571 articles this batch, ~276979 words this batch (~2186119 total ever)
+- [2026-08-18 15:50:47] patrika: 700/12804 articles this batch, ~371923 words this batch (~2869713 total ever)
+- [2026-08-18 15:50:48] abplive: 1120/2749 articles this batch, ~591046 words this batch (~5622028 total ever)
+- [2026-08-18 15:51:16] zeenews: 920/238571 articles this batch, ~284060 words this batch (~2193200 total ever)
+- [2026-08-18 15:51:30] abplive: 1140/2749 articles this batch, ~606103 words this batch (~5637085 total ever)
+- [2026-08-18 15:51:32] khhs106: OCR, ~11001 words
+- [2026-08-18 15:51:40] khhe101: OCR, ~1239 words
+- [2026-08-18 15:51:58] zeenews: 940/238571 articles this batch, ~290451 words this batch (~2199591 total ever)
+- [2026-08-18 15:52:06] patrika: 720/12804 articles this batch, ~383855 words this batch (~2881645 total ever)
+- [2026-08-18 15:52:06] abplive: 1160/2749 articles this batch, ~617053 words this batch (~5648035 total ever)
+- [2026-08-18 15:52:44] abplive: 1180/2749 articles this batch, ~626773 words this batch (~5657755 total ever)
+- [2026-08-18 15:52:46] zeenews: 960/238571 articles this batch, ~294893 words this batch (~2204033 total ever)
+- [2026-08-18 15:52:53] khhs102: OCR, ~12053 words
+- [2026-08-18 15:53:04] patrika: 740/12804 articles this batch, ~396010 words this batch (~2893800 total ever)
+- [2026-08-18 15:53:20] abplive: 1200/2749 articles this batch, ~635494 words this batch (~5666476 total ever)
+- [2026-08-18 15:53:27] zeenews: 980/238571 articles this batch, ~304894 words this batch (~2214034 total ever)
+- [2026-08-18 15:53:55] abplive: 1220/2749 articles this batch, ~644919 words this batch (~5675901 total ever)
+- [2026-08-18 15:54:08] patrika: 760/12804 articles this batch, ~407925 words this batch (~2905715 total ever)
+- [2026-08-18 15:54:09] zeenews: 1000/238571 articles this batch, ~311140 words this batch (~2220280 total ever)
+- [2026-08-18 15:54:12] khhs107: OCR, ~13705 words
+- [2026-08-18 15:54:12] batch progress: 300 new codes attempted (182 extracted, 1033496 words) this batch
+- [2026-08-18 15:54:33] abplive: 1240/2749 articles this batch, ~653943 words this batch (~5684925 total ever)
+- [2026-08-18 15:54:52] zeenews: 1020/238571 articles this batch, ~316741 words this batch (~2225881 total ever)
+- [2026-08-18 15:54:55] khhs105: OCR, ~7524 words
+- [2026-08-18 15:55:08] patrika: 780/12804 articles this batch, ~418841 words this batch (~2916631 total ever)
+- [2026-08-18 15:55:12] abplive: 1260/2749 articles this batch, ~662556 words this batch (~5693538 total ever)
+- [2026-08-18 15:55:19] khmh105: OCR, ~3356 words
+- [2026-08-18 15:55:54] zeenews: 1040/238571 articles this batch, ~321240 words this batch (~2230380 total ever)
+- [2026-08-18 15:56:05] abplive: 1280/2749 articles this batch, ~671743 words this batch (~5702725 total ever)
+- [2026-08-18 15:56:08] khmh103: OCR, ~8234 words
+- [2026-08-18 15:56:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 15:56:28] patrika: 800/12804 articles this batch, ~429454 words this batch (~2927244 total ever)
+- [2026-08-18 15:56:44] abplive: 1300/2749 articles this batch, ~682959 words this batch (~5713941 total ever)
+- [2026-08-18 15:56:44] zeenews: 1060/238571 articles this batch, ~332613 words this batch (~2241753 total ever)
+- [2026-08-18 15:56:53] khmh106: OCR, ~8180 words
+- [2026-08-18 15:56:53] batch progress: 310 new codes attempted (186 extracted, 1060790 words) this batch
+- [2026-08-18 15:56:55] vikaspedia (hi): 20 new URLs processed this batch, ~14611 words
+- [2026-08-18 15:57:20] abplive: 1320/2749 articles this batch, ~692634 words this batch (~5723616 total ever)
+- [2026-08-18 15:57:22] vikaspedia (hi): 40 new URLs processed this batch, ~22427 words
+- [2026-08-18 15:57:27] khmh102: OCR, ~6020 words
+- [2026-08-18 15:57:29] zeenews: 1080/238571 articles this batch, ~337298 words this batch (~2246438 total ever)
+- [2026-08-18 15:57:33] patrika: 820/12804 articles this batch, ~440869 words this batch (~2938659 total ever)
+- [2026-08-18 15:57:46] khmh1ps: OCR, ~2243 words
+- [2026-08-18 15:57:48] vikaspedia (hi): 60 new URLs processed this batch, ~33277 words
+- [2026-08-18 15:57:58] abplive: 1340/2749 articles this batch, ~703513 words this batch (~5734495 total ever)
+- [2026-08-18 15:58:19] zeenews: 1100/238571 articles this batch, ~342785 words this batch (~2251925 total ever)
+- [2026-08-18 15:58:27] vikaspedia (hi): 80 new URLs processed this batch, ~41407 words
+- [2026-08-18 15:58:36] patrika: 840/12804 articles this batch, ~452004 words this batch (~2949794 total ever)
+- [2026-08-18 15:58:38] khmh101: OCR, ~9760 words
+- [2026-08-18 15:58:43] abplive: 1360/2749 articles this batch, ~711002 words this batch (~5741984 total ever)
+- [2026-08-18 15:58:50] vikaspedia (hi): 100 new URLs processed this batch, ~55231 words
+- [2026-08-18 15:59:02] zeenews: 1120/238571 articles this batch, ~347165 words this batch (~2256305 total ever)
+- [2026-08-18 15:59:22] abplive: 1380/2749 articles this batch, ~719833 words this batch (~5750815 total ever)
+- [2026-08-18 15:59:22] vikaspedia (hi): 120 new URLs processed this batch, ~64733 words
+- [2026-08-18 15:59:27] khmh110: OCR, ~8037 words
+- [2026-08-18 15:59:43] patrika: 860/12804 articles this batch, ~463498 words this batch (~2961288 total ever)
+- [2026-08-18 15:59:44] khmh111: OCR, ~2898 words
+- [2026-08-18 15:59:51] zeenews: 1140/238571 articles this batch, ~352803 words this batch (~2261943 total ever)
+- [2026-08-18 16:00:01] vikaspedia (hi): 140 new URLs processed this batch, ~75398 words
+- [2026-08-18 16:00:04] abplive: 1400/2749 articles this batch, ~729256 words this batch (~5760238 total ever)
+- [2026-08-18 16:00:29] vikaspedia (hi): 160 new URLs processed this batch, ~95211 words
+- [2026-08-18 16:00:43] patrika: 880/12804 articles this batch, ~474770 words this batch (~2972560 total ever)
+- [2026-08-18 16:00:43] abplive: 1420/2749 articles this batch, ~737673 words this batch (~5768655 total ever)
+- [2026-08-18 16:00:46] zeenews: 1160/238571 articles this batch, ~358166 words this batch (~2267306 total ever)
+- [2026-08-18 16:00:49] khmh112: OCR, ~9876 words
+- [2026-08-18 16:00:53] vikaspedia (hi): 180 new URLs processed this batch, ~108748 words
+- [2026-08-18 16:01:05] khmh107: OCR, ~2354 words
+- [2026-08-18 16:01:15] vikaspedia (hi): 200 new URLs processed this batch, ~111263 words
+- [2026-08-18 16:01:21] abplive: 1440/2749 articles this batch, ~746238 words this batch (~5777220 total ever)
+- [2026-08-18 16:01:37] zeenews: 1180/238571 articles this batch, ~366154 words this batch (~2275294 total ever)
+- [2026-08-18 16:01:49] vikaspedia (hi): 220 new URLs processed this batch, ~117138 words
+- [2026-08-18 16:01:53] khmh114: OCR, ~8341 words
+- [2026-08-18 16:01:53] patrika: 900/12804 articles this batch, ~485374 words this batch (~2983164 total ever)
+- [2026-08-18 16:02:05] abplive: 1460/2749 articles this batch, ~756519 words this batch (~5787501 total ever)
+- [2026-08-18 16:02:15] vikaspedia (hi): 240 new URLs processed this batch, ~129939 words
+- [2026-08-18 16:02:27] khph1ps: OCR, ~4571 words
+- [2026-08-18 16:02:30] zeenews: 1200/238571 articles this batch, ~373026 words this batch (~2282166 total ever)
+- [2026-08-18 16:02:45] abplive: 1480/2749 articles this batch, ~765961 words this batch (~5796943 total ever)
+- [2026-08-18 16:02:56] khmh108: OCR, ~4864 words
+- [2026-08-18 16:02:56] batch progress: 320 new codes attempted (196 extracted, 1119754 words) this batch
+- [2026-08-18 16:03:00] patrika: 920/12804 articles this batch, ~496909 words this batch (~2994699 total ever)
+- [2026-08-18 16:03:03] vikaspedia (hi): 260 new URLs processed this batch, ~141235 words
+- [2026-08-18 16:03:18] zeenews: 1220/238571 articles this batch, ~377583 words this batch (~2286723 total ever)
+- [2026-08-18 16:03:23] abplive: 1500/2749 articles this batch, ~781928 words this batch (~5812910 total ever)
+- [2026-08-18 16:03:30] vikaspedia (hi): 280 new URLs processed this batch, ~149751 words
+- [2026-08-18 16:03:36] khph102: OCR, ~6997 words
+- [2026-08-18 16:03:54] patrika: 940/12804 articles this batch, ~504788 words this batch (~3002578 total ever)
+- [2026-08-18 16:03:56] vikaspedia (hi): 300 new URLs processed this batch, ~158188 words
+- [2026-08-18 16:04:00] abplive: 1520/2749 articles this batch, ~791767 words this batch (~5822749 total ever)
+- [2026-08-18 16:04:02] zeenews: 1240/238571 articles this batch, ~382359 words this batch (~2291499 total ever)
+- [2026-08-18 16:04:20] vikaspedia (hi): 320 new URLs processed this batch, ~162464 words
+- [2026-08-18 16:04:36] khph103: OCR, ~11590 words
+- [2026-08-18 16:04:38] abplive: 1540/2749 articles this batch, ~801039 words this batch (~5832021 total ever)
+- [2026-08-18 16:04:39] patrika: 960/12804 articles this batch, ~509909 words this batch (~3007699 total ever)
+- [2026-08-18 16:04:46] zeenews: 1260/238571 articles this batch, ~390237 words this batch (~2299377 total ever)
+- [2026-08-18 16:05:13] vikaspedia (hi): 340 new URLs processed this batch, ~163584 words
+- [2026-08-18 16:05:19] abplive: 1560/2749 articles this batch, ~809508 words this batch (~5840490 total ever)
+- [2026-08-18 16:05:32] patrika: 980/12804 articles this batch, ~516693 words this batch (~3014483 total ever)
+- [2026-08-18 16:05:34] zeenews: 1280/238571 articles this batch, ~396083 words this batch (~2305223 total ever)
+- [2026-08-18 16:05:46] vikaspedia (hi): 360 new URLs processed this batch, ~170726 words
+- [2026-08-18 16:05:52] khph104: OCR, ~14952 words
+- [2026-08-18 16:05:55] abplive: 1580/2749 articles this batch, ~818629 words this batch (~5849611 total ever)
+- [2026-08-18 16:06:21] zeenews: 1300/238571 articles this batch, ~405075 words this batch (~2314215 total ever)
+- [2026-08-18 16:06:21] vikaspedia (hi): 380 new URLs processed this batch, ~185710 words
+- [2026-08-18 16:06:35] abplive: 1600/2749 articles this batch, ~831198 words this batch (~5862180 total ever)
+- [2026-08-18 16:06:41] patrika: 1000/12804 articles this batch, ~526486 words this batch (~3024276 total ever)
+- [2026-08-18 16:06:58] vikaspedia (hi): 400 new URLs processed this batch, ~197862 words
+- [2026-08-18 16:06:58] khph105: OCR, ~11655 words
+- [2026-08-18 16:07:10] zeenews: 1320/238571 articles this batch, ~412210 words this batch (~2321350 total ever)
+- [2026-08-18 16:07:16] abplive: 1620/2749 articles this batch, ~840842 words this batch (~5871824 total ever)
+- [2026-08-18 16:07:27] vikaspedia (hi): 420 new URLs processed this batch, ~206590 words
+- [2026-08-18 16:07:46] patrika: 1020/12804 articles this batch, ~536829 words this batch (~3034619 total ever)
+- [2026-08-18 16:07:53] abplive: 1640/2749 articles this batch, ~849586 words this batch (~5880568 total ever)
+- [2026-08-18 16:07:55] zeenews: 1340/238571 articles this batch, ~418447 words this batch (~2327587 total ever)
+- [2026-08-18 16:08:13] vikaspedia (hi): 440 new URLs processed this batch, ~216792 words
+- [2026-08-18 16:08:29] abplive: 1660/2749 articles this batch, ~860109 words this batch (~5891091 total ever)
+- [2026-08-18 16:08:45] zeenews: 1360/238571 articles this batch, ~423995 words this batch (~2333135 total ever)
+- [2026-08-18 16:08:46] khph106: OCR, ~19561 words
+- [2026-08-18 16:08:50] vikaspedia (hi): 460 new URLs processed this batch, ~227676 words
+- [2026-08-18 16:08:54] patrika: 1040/12804 articles this batch, ~548165 words this batch (~3045955 total ever)
+- [2026-08-18 16:09:09] abplive: 1680/2749 articles this batch, ~869536 words this batch (~5900518 total ever)
+- [2026-08-18 16:09:21] vikaspedia (hi): 480 new URLs processed this batch, ~236128 words
+- [2026-08-18 16:09:31] zeenews: 1380/238571 articles this batch, ~430791 words this batch (~2339931 total ever)
+- [2026-08-18 16:09:37] khph107: OCR, ~9550 words
+- [2026-08-18 16:09:49] vikaspedia (hi): 500 new URLs processed this batch, ~247067 words
+- [2026-08-18 16:09:50] abplive: 1700/2749 articles this batch, ~878232 words this batch (~5909214 total ever)
+- [2026-08-18 16:09:57] patrika: 1060/12804 articles this batch, ~558683 words this batch (~3056473 total ever)
+- [2026-08-18 16:10:12] khph2ps: OCR, ~4770 words
+- [2026-08-18 16:10:18] zeenews: 1400/238571 articles this batch, ~438544 words this batch (~2347684 total ever)
+- [2026-08-18 16:10:18] vikaspedia (hi): 520 new URLs processed this batch, ~259616 words
+- [2026-08-18 16:10:27] abplive: 1720/2749 articles this batch, ~886397 words this batch (~5917379 total ever)
+- [2026-08-18 16:10:47] vikaspedia (hi): 540 new URLs processed this batch, ~269824 words
+- [2026-08-18 16:10:49] khph201: OCR, ~6731 words
+- [2026-08-18 16:11:03] patrika: 1080/12804 articles this batch, ~570383 words this batch (~3068173 total ever)
+- [2026-08-18 16:11:05] abplive: 1740/2749 articles this batch, ~895782 words this batch (~5926764 total ever)
+- [2026-08-18 16:11:06] zeenews: 1420/238571 articles this batch, ~443873 words this batch (~2353013 total ever)
+- [2026-08-18 16:11:15] vikaspedia (hi): 560 new URLs processed this batch, ~285667 words
+- [2026-08-18 16:11:46] abplive: 1760/2749 articles this batch, ~905483 words this batch (~5936465 total ever)
+- [2026-08-18 16:11:48] vikaspedia (hi): 580 new URLs processed this batch, ~300868 words
+- [2026-08-18 16:11:57] khph202: OCR, ~12862 words
+- [2026-08-18 16:11:57] zeenews: 1440/238571 articles this batch, ~450327 words this batch (~2359467 total ever)
+- [2026-08-18 16:12:19] fetch failed https://hi.vikaspedia.in/viewcontent/health/diseases/कोरोना-वायरस-आवश्यक-जानकारियां-और-जागरुकता/वैज्ञानिकों-द्वारा-कोविड-19-से-निपटने-के-लिए-स्व-कीटाणुनाशक-और-जैविक-रूप-से-नष्ट-होने-वाले-फेस-मास्क-विकसित?lgn=hi: <urlopen error [Errno 54] Connection reset by peer>
+- [2026-08-18 16:12:24] patrika: 1100/12804 articles this batch, ~581390 words this batch (~3079180 total ever)
+- [2026-08-18 16:12:33] abplive: 1780/2749 articles this batch, ~915227 words this batch (~5946209 total ever)
+- [2026-08-18 16:12:34] vikaspedia (hi): 600 new URLs processed this batch, ~318805 words
+- [2026-08-18 16:12:50] zeenews: 1460/238571 articles this batch, ~457669 words this batch (~2366809 total ever)
+- [2026-08-18 16:12:58] vikaspedia (hi): 620 new URLs processed this batch, ~340438 words
+- [2026-08-18 16:13:10] khph203: OCR, ~13735 words
+- [2026-08-18 16:13:10] batch progress: 330 new codes attempted (206 extracted, 1232157 words) this batch
+- [2026-08-18 16:13:13] abplive: 1800/2749 articles this batch, ~924959 words this batch (~5955941 total ever)
+- [2026-08-18 16:13:14] fetch failed https://hi.vikaspedia.in/viewcontent/education/सीसीई-प्राथमिक-स्तर-के-लिए-प्रतिमान-सामग्री/सतत-और-समग्र-मूल्यांकन-को-लागू-करने-के-लिए-कुछ-ज़रूरी-बातें?lgn=hi: <urlopen error [Errno 54] Connection reset by peer>
+- [2026-08-18 16:13:27] patrika: 1120/12804 articles this batch, ~593514 words this batch (~3091304 total ever)
+- [2026-08-18 16:13:39] zeenews: 1480/238571 articles this batch, ~464117 words this batch (~2373257 total ever)
+- [2026-08-18 16:13:48] vikaspedia (hi): 640 new URLs processed this batch, ~354732 words
+- [2026-08-18 16:13:49] abplive: 1820/2749 articles this batch, ~935577 words this batch (~5966559 total ever)
+- [2026-08-18 16:14:10] khph204: OCR, ~11210 words
+- [2026-08-18 16:14:16] vikaspedia (hi): 660 new URLs processed this batch, ~371556 words
+- [2026-08-18 16:14:22] zeenews: 1500/238571 articles this batch, ~472438 words this batch (~2381578 total ever)
+- [2026-08-18 16:14:26] abplive: 1840/2749 articles this batch, ~944938 words this batch (~5975920 total ever)
+- [2026-08-18 16:14:27] patrika: 1140/12804 articles this batch, ~605055 words this batch (~3102845 total ever)
+- [2026-08-18 16:14:42] vikaspedia (hi): 680 new URLs processed this batch, ~383456 words
+- [2026-08-18 16:14:53] khmh109: OCR, ~6883 words
+- [2026-08-18 16:15:03] abplive: 1860/2749 articles this batch, ~954976 words this batch (~5985958 total ever)
+- [2026-08-18 16:15:06] zeenews: 1520/238571 articles this batch, ~477117 words this batch (~2386257 total ever)
+- [2026-08-18 16:15:09] vikaspedia (hi): 700 new URLs processed this batch, ~393002 words
+- [2026-08-18 16:15:29] patrika: 1160/12804 articles this batch, ~616977 words this batch (~3114767 total ever)
+- [2026-08-18 16:15:33] vikaspedia (hi): 720 new URLs processed this batch, ~408816 words
+- [2026-08-18 16:15:41] abplive: 1880/2749 articles this batch, ~964012 words this batch (~5994994 total ever)
+- [2026-08-18 16:15:44] khph206: OCR, ~9017 words
+- [2026-08-18 16:15:54] zeenews: 1540/238571 articles this batch, ~484707 words this batch (~2393847 total ever)
+- [2026-08-18 16:16:03] vikaspedia (hi): 740 new URLs processed this batch, ~425836 words
+- [2026-08-18 16:16:17] abplive: 1900/2749 articles this batch, ~972893 words this batch (~6003875 total ever)
+- [2026-08-18 16:16:29] vikaspedia (hi): 760 new URLs processed this batch, ~438305 words
+- [2026-08-18 16:16:36] zeenews: 1560/238571 articles this batch, ~489895 words this batch (~2399035 total ever)
+- [2026-08-18 16:16:42] patrika: 1180/12804 articles this batch, ~627788 words this batch (~3125578 total ever)
+- [2026-08-18 16:16:54] khph207: OCR, ~12357 words
+- [2026-08-18 16:16:56] abplive: 1920/2749 articles this batch, ~989408 words this batch (~6020390 total ever)
+- [2026-08-18 16:17:04] vikaspedia (hi): 780 new URLs processed this batch, ~449205 words
+- [2026-08-18 16:17:16] khps1ps: OCR, ~2936 words
+- [2026-08-18 16:17:22] zeenews: 1580/238571 articles this batch, ~495518 words this batch (~2404658 total ever)
+- [2026-08-18 16:17:32] vikaspedia (hi): 800 new URLs processed this batch, ~456542 words
+- [2026-08-18 16:17:34] abplive: 1940/2749 articles this batch, ~1000468 words this batch (~6031450 total ever)
+- [2026-08-18 16:17:49] khps101: OCR, ~5541 words
+- [2026-08-18 16:17:56] patrika: 1200/12804 articles this batch, ~639574 words this batch (~3137364 total ever)
+- [2026-08-18 16:18:01] vikaspedia (hi): 820 new URLs processed this batch, ~473909 words
+- [2026-08-18 16:18:05] zeenews: 1600/238571 articles this batch, ~500483 words this batch (~2409623 total ever)
+- [2026-08-18 16:18:11] abplive: 1960/2749 articles this batch, ~1010758 words this batch (~6041740 total ever)
+- [2026-08-18 16:18:27] vikaspedia (hi): 840 new URLs processed this batch, ~485350 words
+- [2026-08-18 16:18:40] khph205: OCR, ~9308 words
+- [2026-08-18 16:18:48] abplive: 1980/2749 articles this batch, ~1021446 words this batch (~6052428 total ever)
+- [2026-08-18 16:18:49] zeenews: 1620/238571 articles this batch, ~505920 words this batch (~2415060 total ever)
+- [2026-08-18 16:18:53] vikaspedia (hi): 860 new URLs processed this batch, ~502007 words
+- [2026-08-18 16:18:59] patrika: 1220/12804 articles this batch, ~650556 words this batch (~3148346 total ever)
+- [2026-08-18 16:19:00] khmh104: OCR, ~2957 words
+- [2026-08-18 16:19:25] abplive: 2000/2749 articles this batch, ~1031569 words this batch (~6062551 total ever)
+- [2026-08-18 16:19:30] khps104: OCR, ~5226 words
+- [2026-08-18 16:19:34] zeenews: 1640/238571 articles this batch, ~511471 words this batch (~2420611 total ever)
+- [2026-08-18 16:19:39] vikaspedia (hi): 880 new URLs processed this batch, ~516751 words
+- [2026-08-18 16:20:00] khps105: OCR, ~4507 words
+- [2026-08-18 16:20:00] batch progress: 340 new codes attempted (216 extracted, 1302099 words) this batch
+- [2026-08-18 16:20:01] patrika: 1240/12804 articles this batch, ~661474 words this batch (~3159264 total ever)
+- [2026-08-18 16:20:01] abplive: 2020/2749 articles this batch, ~1041185 words this batch (~6072167 total ever)
+- [2026-08-18 16:20:04] vikaspedia (hi): 900 new URLs processed this batch, ~529238 words
+- [2026-08-18 16:20:25] zeenews: 1660/238571 articles this batch, ~516574 words this batch (~2425714 total ever)
+- [2026-08-18 16:20:35] vikaspedia (hi): 920 new URLs processed this batch, ~537811 words
+- [2026-08-18 16:20:41] khps106: OCR, ~6067 words
+- [2026-08-18 16:20:41] abplive: 2040/2749 articles this batch, ~1053823 words this batch (~6084805 total ever)
+- [2026-08-18 16:21:03] vikaspedia (hi): 940 new URLs processed this batch, ~545592 words
+- [2026-08-18 16:21:10] zeenews: 1680/238571 articles this batch, ~522102 words this batch (~2431242 total ever)
+- [2026-08-18 16:21:10] patrika: 1260/12804 articles this batch, ~673352 words this batch (~3171142 total ever)
+- [2026-08-18 16:21:13] khps107: OCR, ~4656 words
+- [2026-08-18 16:21:18] abplive: 2060/2749 articles this batch, ~1062627 words this batch (~6093609 total ever)
+- [2026-08-18 16:21:30] vikaspedia (hi): 960 new URLs processed this batch, ~556329 words
+- [2026-08-18 16:21:53] zeenews: 1700/238571 articles this batch, ~526787 words this batch (~2435927 total ever)
+- [2026-08-18 16:21:55] abplive: 2080/2749 articles this batch, ~1072178 words this batch (~6103160 total ever)
+- [2026-08-18 16:21:56] khps108: OCR, ~6592 words
+- [2026-08-18 16:21:59] vikaspedia (hi): 980 new URLs processed this batch, ~565400 words
+- [2026-08-18 16:22:16] patrika: 1280/12804 articles this batch, ~684027 words this batch (~3181817 total ever)
+- [2026-08-18 16:22:21] khps2ps: OCR, ~3746 words
+- [2026-08-18 16:22:25] vikaspedia (hi): 1000 new URLs processed this batch, ~573362 words
+- [2026-08-18 16:22:32] abplive: 2100/2749 articles this batch, ~1081809 words this batch (~6112791 total ever)
+- [2026-08-18 16:22:39] zeenews: 1720/238571 articles this batch, ~532373 words this batch (~2441513 total ever)
+- [2026-08-18 16:22:52] vikaspedia (hi): 1020 new URLs processed this batch, ~581214 words
+- [2026-08-18 16:23:09] abplive: 2120/2749 articles this batch, ~1093217 words this batch (~6124199 total ever)
+- [2026-08-18 16:23:11] khps201: OCR, ~7908 words
+- [2026-08-18 16:23:18] patrika: 1300/12804 articles this batch, ~695667 words this batch (~3193457 total ever)
+- [2026-08-18 16:23:21] vikaspedia (hi): 1040 new URLs processed this batch, ~597781 words
+- [2026-08-18 16:23:29] zeenews: 1740/238571 articles this batch, ~537496 words this batch (~2446636 total ever)
+- [2026-08-18 16:23:49] abplive: 2140/2749 articles this batch, ~1101979 words this batch (~6132961 total ever)
+- [2026-08-18 16:23:51] vikaspedia (hi): 1060 new URLs processed this batch, ~607972 words
+- [2026-08-18 16:23:59] khps202: OCR, ~7681 words
+- [2026-08-18 16:24:14] zeenews: 1760/238571 articles this batch, ~544752 words this batch (~2453892 total ever)
+- [2026-08-18 16:24:18] patrika: 1320/12804 articles this batch, ~707406 words this batch (~3205196 total ever)
+- [2026-08-18 16:24:18] vikaspedia (hi): 1080 new URLs processed this batch, ~618445 words
+- [2026-08-18 16:24:26] abplive: 2160/2749 articles this batch, ~1110288 words this batch (~6141270 total ever)
+- [2026-08-18 16:24:46] vikaspedia (hi): 1100 new URLs processed this batch, ~626119 words
+- [2026-08-18 16:24:57] zeenews: 1780/238571 articles this batch, ~550595 words this batch (~2459735 total ever)
+- [2026-08-18 16:24:57] khps203: OCR, ~8850 words
+- [2026-08-18 16:25:04] abplive: 2180/2749 articles this batch, ~1119029 words this batch (~6150011 total ever)
+- [2026-08-18 16:25:18] vikaspedia (hi): 1120 new URLs processed this batch, ~635964 words
+- [2026-08-18 16:25:20] patrika: 1340/12804 articles this batch, ~718789 words this batch (~3216579 total ever)
+- [2026-08-18 16:25:40] khps204: OCR, ~6639 words
+- [2026-08-18 16:25:40] abplive: 2200/2749 articles this batch, ~1129090 words this batch (~6160072 total ever)
+- [2026-08-18 16:25:43] vikaspedia (hi): 1140 new URLs processed this batch, ~643145 words
+- [2026-08-18 16:25:44] zeenews: 1800/238571 articles this batch, ~557002 words this batch (~2466142 total ever)
+- [2026-08-18 16:26:15] vikaspedia (hi): 1160 new URLs processed this batch, ~648242 words
+- [2026-08-18 16:26:20] abplive: 2220/2749 articles this batch, ~1138684 words this batch (~6169666 total ever)
+- [2026-08-18 16:26:20] patrika: 1360/12804 articles this batch, ~724149 words this batch (~3221939 total ever)
+- [2026-08-18 16:26:25] khps205: OCR, ~6753 words
+- [2026-08-18 16:26:34] zeenews: 1820/238571 articles this batch, ~562820 words this batch (~2471960 total ever)
+- [2026-08-18 16:26:48] vikaspedia (hi): 1180 new URLs processed this batch, ~653860 words
+- [2026-08-18 16:26:58] abplive: 2240/2749 articles this batch, ~1148046 words this batch (~6179028 total ever)
+- [2026-08-18 16:27:13] khmh113: OCR, ~7008 words
+- [2026-08-18 16:27:13] batch progress: 350 new codes attempted (226 extracted, 1367999 words) this batch
+- [2026-08-18 16:27:20] vikaspedia (hi): 1200 new URLs processed this batch, ~659998 words
+- [2026-08-18 16:27:23] zeenews: 1840/238571 articles this batch, ~571082 words this batch (~2480222 total ever)
+- [2026-08-18 16:27:25] patrika: 1380/12804 articles this batch, ~730010 words this batch (~3227800 total ever)
+- [2026-08-18 16:27:39] abplive: 2260/2749 articles this batch, ~1156451 words this batch (~6187433 total ever)
+- [2026-08-18 16:27:52] vikaspedia (hi): 1220 new URLs processed this batch, ~668337 words
+- [2026-08-18 16:28:01] khps207: OCR, ~7295 words
+- [2026-08-18 16:28:10] zeenews: 1860/238571 articles this batch, ~576403 words this batch (~2485543 total ever)
+- [2026-08-18 16:28:18] abplive: 2280/2749 articles this batch, ~1165589 words this batch (~6196571 total ever)
+- [2026-08-18 16:28:18] vikaspedia (hi): 1240 new URLs processed this batch, ~676709 words
+- [2026-08-18 16:28:26] patrika: 1400/12804 articles this batch, ~737256 words this batch (~3235046 total ever)
+- [2026-08-18 16:28:43] khps208: OCR, ~6448 words
+- [2026-08-18 16:28:47] vikaspedia (hi): 1260 new URLs processed this batch, ~686200 words
+- [2026-08-18 16:28:54] zeenews: 1880/238571 articles this batch, ~581268 words this batch (~2490408 total ever)
+- [2026-08-18 16:28:56] abplive: 2300/2749 articles this batch, ~1174622 words this batch (~6205604 total ever)
+- [2026-08-18 16:29:16] vikaspedia (hi): 1280 new URLs processed this batch, ~696168 words
+- [2026-08-18 16:29:26] patrika: 1420/12804 articles this batch, ~748799 words this batch (~3246589 total ever)
+- [2026-08-18 16:29:28] khps209: OCR, ~7701 words
+- [2026-08-18 16:29:36] abplive: 2320/2749 articles this batch, ~1182931 words this batch (~6213913 total ever)
+- [2026-08-18 16:29:43] zeenews: 1900/238571 articles this batch, ~588396 words this batch (~2497536 total ever)
+- [2026-08-18 16:29:48] vikaspedia (hi): 1300 new URLs processed this batch, ~705947 words
+- [2026-08-18 16:30:12] khps210: OCR, ~8267 words
+- [2026-08-18 16:30:13] vikaspedia (hi): 1320 new URLs processed this batch, ~720206 words
+- [2026-08-18 16:30:15] abplive: 2340/2749 articles this batch, ~1191326 words this batch (~6222308 total ever)
+- [2026-08-18 16:30:30] zeenews: 1920/238571 articles this batch, ~594441 words this batch (~2503581 total ever)
+- [2026-08-18 16:30:30] patrika: 1440/12804 articles this batch, ~759981 words this batch (~3257771 total ever)
+- [2026-08-18 16:30:34] khpy1ps: OCR, ~3965 words
+- [2026-08-18 16:30:57] abplive: 2360/2749 articles this batch, ~1201091 words this batch (~6232073 total ever)
+- [2026-08-18 16:31:06] vikaspedia (hi): 1340 new URLs processed this batch, ~733662 words
+- [2026-08-18 16:31:24] khpy101: OCR, ~10703 words
+- [2026-08-18 16:31:25] zeenews: 1940/238571 articles this batch, ~599204 words this batch (~2508344 total ever)
+- [2026-08-18 16:31:32] vikaspedia (hi): 1360 new URLs processed this batch, ~747479 words
+- [2026-08-18 16:31:34] abplive: 2380/2749 articles this batch, ~1218821 words this batch (~6249803 total ever)
+- [2026-08-18 16:31:43] patrika: 1460/12804 articles this batch, ~771820 words this batch (~3269610 total ever)
+- [2026-08-18 16:32:02] vikaspedia (hi): 1380 new URLs processed this batch, ~761811 words
+- [2026-08-18 16:32:11] abplive: 2400/2749 articles this batch, ~1229719 words this batch (~6260701 total ever)
+- [2026-08-18 16:32:11] zeenews: 1960/238571 articles this batch, ~606677 words this batch (~2515817 total ever)
+- [2026-08-18 16:32:24] khpy102: OCR, ~13426 words
+- [2026-08-18 16:32:29] vikaspedia (hi): 1400 new URLs processed this batch, ~778102 words
+- [2026-08-18 16:32:48] patrika: 1480/12804 articles this batch, ~784081 words this batch (~3281871 total ever)
+- [2026-08-18 16:32:51] abplive: 2420/2749 articles this batch, ~1239637 words this batch (~6270619 total ever)
+- [2026-08-18 16:32:55] zeenews: 1980/238571 articles this batch, ~612944 words this batch (~2522084 total ever)
+- [2026-08-18 16:33:00] vikaspedia (hi): 1420 new URLs processed this batch, ~794050 words
+- [2026-08-18 16:33:26] khpy103: OCR, ~14400 words
+- [2026-08-18 16:33:31] vikaspedia (hi): 1440 new URLs processed this batch, ~806428 words
+- [2026-08-18 16:33:31] abplive: 2440/2749 articles this batch, ~1248201 words this batch (~6279183 total ever)
+- [2026-08-18 16:33:39] zeenews: 2000/238571 articles this batch, ~618903 words this batch (~2528043 total ever)
+- [2026-08-18 16:33:55] patrika: 1500/12804 articles this batch, ~795203 words this batch (~3292993 total ever)
+- [2026-08-18 16:33:56] vikaspedia (hi): 1460 new URLs processed this batch, ~823119 words
+- [2026-08-18 16:34:08] abplive: 2460/2749 articles this batch, ~1257630 words this batch (~6288612 total ever)
+- [2026-08-18 16:34:11] khpy104: OCR, ~10052 words
+- [2026-08-18 16:34:26] vikaspedia (hi): 1480 new URLs processed this batch, ~837525 words
+- [2026-08-18 16:34:28] zeenews: 2020/238571 articles this batch, ~624403 words this batch (~2533543 total ever)
+- [2026-08-18 16:34:45] abplive: 2480/2749 articles this batch, ~1267031 words this batch (~6298013 total ever)
+- [2026-08-18 16:34:51] vikaspedia (hi): 1500 new URLs processed this batch, ~854091 words
+- [2026-08-18 16:35:03] khpy105: OCR, ~11742 words
+- [2026-08-18 16:35:03] batch progress: 360 new codes attempted (236 extracted, 1461998 words) this batch
+- [2026-08-18 16:35:04] patrika: 1520/12804 articles this batch, ~805714 words this batch (~3303504 total ever)
+- [2026-08-18 16:35:11] zeenews: 2040/238571 articles this batch, ~630684 words this batch (~2539824 total ever)
+- [2026-08-18 16:35:18] vikaspedia (hi): 1520 new URLs processed this batch, ~868032 words
+- [2026-08-18 16:35:21] abplive: 2500/2749 articles this batch, ~1275797 words this batch (~6306779 total ever)
+- [2026-08-18 16:35:35] khph101: OCR, ~7423 words
+- [2026-08-18 16:35:45] vikaspedia (hi): 1540 new URLs processed this batch, ~882756 words
+- [2026-08-18 16:35:53] zeenews: 2060/238571 articles this batch, ~637126 words this batch (~2546266 total ever)
+- [2026-08-18 16:35:58] abplive: 2520/2749 articles this batch, ~1285339 words this batch (~6316321 total ever)
+- [2026-08-18 16:36:15] patrika: 1540/12804 articles this batch, ~818250 words this batch (~3316040 total ever)
+- [2026-08-18 16:36:20] khpy107: OCR, ~10265 words
+- [2026-08-18 16:36:30] vikaspedia (hi): 1560 new URLs processed this batch, ~903729 words
+- [2026-08-18 16:36:36] abplive: 2540/2749 articles this batch, ~1293569 words this batch (~6324551 total ever)
+- [2026-08-18 16:36:40] zeenews: 2080/238571 articles this batch, ~642282 words this batch (~2551422 total ever)
+- [2026-08-18 16:36:51] khpy108: OCR, ~6687 words
+- [2026-08-18 16:36:53] vikaspedia (hi): 1580 new URLs processed this batch, ~915313 words
+- [2026-08-18 16:37:16] abplive: 2560/2749 articles this batch, ~1303176 words this batch (~6334158 total ever)
+- [2026-08-18 16:37:32] patrika: 1560/12804 articles this batch, ~829727 words this batch (~3327517 total ever)
+- [2026-08-18 16:37:34] vikaspedia (hi): 1600 new URLs processed this batch, ~923164 words
+- [2026-08-18 16:37:38] zeenews: 2100/238571 articles this batch, ~650179 words this batch (~2559319 total ever)
+- [2026-08-18 16:37:40] khsk1ps: OCR, ~9178 words
+- [2026-08-18 16:38:00] abplive: 2580/2749 articles this batch, ~1315028 words this batch (~6346010 total ever)
+- [2026-08-18 16:38:05] vikaspedia (hi): 1620 new URLs processed this batch, ~932053 words
+- [2026-08-18 16:38:07] khps102: OCR, ~5728 words
+- [2026-08-18 16:38:11] khsk102: OCR, ~702 words
+- [2026-08-18 16:38:25] zeenews: 2120/238571 articles this batch, ~655282 words this batch (~2564422 total ever)
+- [2026-08-18 16:38:33] vikaspedia (hi): 1640 new URLs processed this batch, ~940593 words
+- [2026-08-18 16:38:36] patrika: 1580/12804 articles this batch, ~841624 words this batch (~3339414 total ever)
+- [2026-08-18 16:38:38] abplive: 2600/2749 articles this batch, ~1324986 words this batch (~6355968 total ever)
+- [2026-08-18 16:38:47] khps103: OCR, ~7357 words
+- [2026-08-18 16:38:53] khsk103: OCR, ~812 words
+- [2026-08-18 16:39:09] vikaspedia (hi): 1660 new URLs processed this batch, ~943285 words
+- [2026-08-18 16:39:16] zeenews: 2140/238571 articles this batch, ~660582 words this batch (~2569722 total ever)
+- [2026-08-18 16:39:18] abplive: 2620/2749 articles this batch, ~1334052 words this batch (~6365034 total ever)
+- [2026-08-18 16:39:35] vikaspedia (hi): 1680 new URLs processed this batch, ~949633 words
+- [2026-08-18 16:39:36] khps206: OCR, ~7704 words
+- [2026-08-18 16:39:38] patrika: 1600/12804 articles this batch, ~853633 words this batch (~3351423 total ever)
+- [2026-08-18 16:39:42] khsk106: OCR, ~729 words
+- [2026-08-18 16:39:42] batch progress: 370 new codes attempted (246 extracted, 1518583 words) this batch
+- [2026-08-18 16:39:50] khsk105: OCR, ~1099 words
+- [2026-08-18 16:39:55] abplive: 2640/2749 articles this batch, ~1343373 words this batch (~6374355 total ever)
+- [2026-08-18 16:39:56] khsk108: OCR, ~837 words
+- [2026-08-18 16:40:00] zeenews: 2160/238571 articles this batch, ~666838 words this batch (~2575978 total ever)
+- [2026-08-18 16:40:01] vikaspedia (hi): 1700 new URLs processed this batch, ~953261 words
+- [2026-08-18 16:40:03] khsk109: OCR, ~1082 words
+- [2026-08-18 16:40:09] khsk110: OCR, ~973 words
+- [2026-08-18 16:40:20] khsk111: OCR, ~1673 words
+- [2026-08-18 16:40:36] abplive: 2660/2749 articles this batch, ~1354256 words this batch (~6385238 total ever)
+- [2026-08-18 16:40:38] vikaspedia (hi): 1720 new URLs processed this batch, ~959399 words
+- [2026-08-18 16:40:40] patrika: 1620/12804 articles this batch, ~864781 words this batch (~3362571 total ever)
+- [2026-08-18 16:40:53] zeenews: 2180/238571 articles this batch, ~672587 words this batch (~2581727 total ever)
+- [2026-08-18 16:41:04] vikaspedia (hi): 1740 new URLs processed this batch, ~965602 words
+- [2026-08-18 16:41:11] khsk2ps: OCR, ~9966 words
+- [2026-08-18 16:41:14] abplive: 2680/2749 articles this batch, ~1363500 words this batch (~6394482 total ever)
+- [2026-08-18 16:41:17] khsk201: OCR, ~842 words
+- [2026-08-18 16:41:34] vikaspedia (hi): 1760 new URLs processed this batch, ~967620 words
+- [2026-08-18 16:41:41] zeenews: 2200/238571 articles this batch, ~677856 words this batch (~2586996 total ever)
+- [2026-08-18 16:41:46] patrika: 1640/12804 articles this batch, ~875426 words this batch (~3373216 total ever)
+- [2026-08-18 16:41:51] abplive: 2700/2749 articles this batch, ~1380276 words this batch (~6411258 total ever)
+- [2026-08-18 16:41:53] khpy106: OCR, ~8430 words
+- [2026-08-18 16:41:58] khsk203: OCR, ~753 words
+- [2026-08-18 16:42:04] khsk204: OCR, ~882 words
+- [2026-08-18 16:42:04] batch progress: 380 new codes attempted (256 extracted, 1545120 words) this batch
+- [2026-08-18 16:42:11] khsk202: OCR, ~1037 words
+- [2026-08-18 16:42:17] khsk206: OCR, ~883 words
+- [2026-08-18 16:42:18] vikaspedia (hi): 1780 new URLs processed this batch, ~971670 words
+- [2026-08-18 16:42:22] khsk205: OCR, ~736 words
+- [2026-08-18 16:42:28] khsk207: OCR, ~911 words
+- [2026-08-18 16:42:29] abplive: 2720/2749 articles this batch, ~1392558 words this batch (~6423540 total ever)
+- [2026-08-18 16:42:31] abplive: batch done -- 2721 new articles, ~1392804 words, 5578s, ~6423786 words total ever
+- [2026-08-18 16:42:32] khsk209: OCR, ~544 words
+- [2026-08-18 16:42:37] zeenews: 2220/238571 articles this batch, ~683362 words this batch (~2592502 total ever)
+- [2026-08-18 16:42:41] khsk210: OCR, ~1201 words
+- [2026-08-18 16:42:48] vikaspedia (hi): 1800 new URLs processed this batch, ~976889 words
+- [2026-08-18 16:42:51] patrika: 1660/12804 articles this batch, ~887302 words this batch (~3385092 total ever)
+- [2026-08-18 16:42:58] khsk211: OCR, ~2612 words
+- [2026-08-18 16:43:14] vikaspedia (hi): 1820 new URLs processed this batch, ~983366 words
+- [2026-08-18 16:43:22] zeenews: 2240/238571 articles this batch, ~690099 words this batch (~2599239 total ever)
+- [2026-08-18 16:43:38] vikaspedia (hi): 1840 new URLs processed this batch, ~986292 words
+- [2026-08-18 16:43:57] patrika: 1680/12804 articles this batch, ~900558 words this batch (~3398348 total ever)
+- [2026-08-18 16:44:06] vikaspedia (hi): 1860 new URLs processed this batch, ~989761 words
+- [2026-08-18 16:44:11] zeenews: 2260/238571 articles this batch, ~694768 words this batch (~2603908 total ever)
+- [2026-08-18 16:44:31] vikaspedia (hi): 1880 new URLs processed this batch, ~991881 words
+- [2026-08-18 16:44:45] khsr1ps: OCR, ~4648 words
+- [2026-08-18 16:44:58] zeenews: 2280/238571 articles this batch, ~700403 words this batch (~2609543 total ever)
+- [2026-08-18 16:45:04] patrika: 1700/12804 articles this batch, ~913098 words this batch (~3410888 total ever)
+- [2026-08-18 16:45:12] vikaspedia (hi): 1900 new URLs processed this batch, ~994203 words
+- [2026-08-18 16:45:46] zeenews: 2300/238571 articles this batch, ~707629 words this batch (~2616769 total ever)
+- [2026-08-18 16:45:50] vikaspedia (hi): 1920 new URLs processed this batch, ~994342 words
+- [2026-08-18 16:46:07] patrika: 1720/12804 articles this batch, ~924588 words this batch (~3422378 total ever)
+- [2026-08-18 16:46:12] khsr101: OCR, ~9329 words
+- [2026-08-18 16:46:24] vikaspedia (hi): 1940 new URLs processed this batch, ~995587 words
+- [2026-08-18 16:46:36] zeenews: 2320/238571 articles this batch, ~713161 words this batch (~2622301 total ever)
+- [2026-08-18 16:46:55] vikaspedia (hi): 1960 new URLs processed this batch, ~998510 words
+- [2026-08-18 16:46:56] patrika: 1740/12804 articles this batch, ~932233 words this batch (~3430023 total ever)
+- [2026-08-18 16:47:21] zeenews: 2340/238571 articles this batch, ~719089 words this batch (~2628229 total ever)
+- [2026-08-18 16:47:39] vikaspedia (hi): 1980 new URLs processed this batch, ~1001228 words
+- [2026-08-18 16:47:43] patrika: 1760/12804 articles this batch, ~937649 words this batch (~3435439 total ever)
+- [2026-08-18 16:48:02] zeenews: 2360/238571 articles this batch, ~724879 words this batch (~2634019 total ever)
+- [2026-08-18 16:48:15] vikaspedia (hi): 2000 new URLs processed this batch, ~1004196 words
+- [2026-08-18 16:48:43] patrika: 1780/12804 articles this batch, ~945038 words this batch (~3442828 total ever)
+- [2026-08-18 16:48:46] zeenews: 2380/238571 articles this batch, ~730755 words this batch (~2639895 total ever)
+- [2026-08-18 16:48:47] vikaspedia (hi): 2020 new URLs processed this batch, ~1007691 words
+- [2026-08-18 16:48:59] khsr102: OCR, ~20306 words
+- [2026-08-18 16:48:59] batch progress: 390 new codes attempted (266 extracted, 1587327 words) this batch
+- [2026-08-18 16:49:05] khsk101: OCR, ~988 words
+- [2026-08-18 16:49:11] khsk104: OCR, ~848 words
+- [2026-08-18 16:49:18] khsk107: OCR, ~1137 words
+- [2026-08-18 16:49:30] khsk208: OCR, ~1729 words
+- [2026-08-18 16:49:30] vikaspedia (hi): 2040 new URLs processed this batch, ~1009872 words
+- [2026-08-18 16:49:39] zeenews: 2400/238571 articles this batch, ~734871 words this batch (~2644011 total ever)
+- [2026-08-18 16:49:56] patrika: 1800/12804 articles this batch, ~957880 words this batch (~3455670 total ever)
+- [2026-08-18 16:50:02] vikaspedia (hi): 2060 new URLs processed this batch, ~1013416 words
+- [2026-08-18 16:50:28] vikaspedia (hi): 2080 new URLs processed this batch, ~1018944 words
+- [2026-08-18 16:50:32] zeenews: 2420/238571 articles this batch, ~741769 words this batch (~2650909 total ever)
+- [2026-08-18 16:51:02] vikaspedia (hi): 2100 new URLs processed this batch, ~1030528 words
+- [2026-08-18 16:51:03] patrika: 1820/12804 articles this batch, ~968287 words this batch (~3466077 total ever)
+- [2026-08-18 16:51:21] zeenews: 2440/238571 articles this batch, ~747811 words this batch (~2656951 total ever)
+- [2026-08-18 16:51:30] vikaspedia (hi): 2120 new URLs processed this batch, ~1035380 words
+- [2026-08-18 16:51:58] vikaspedia (hi): 2140 new URLs processed this batch, ~1039196 words
+- [2026-08-18 16:52:06] zeenews: 2460/238571 articles this batch, ~754102 words this batch (~2663242 total ever)
+- [2026-08-18 16:52:09] patrika: 1840/12804 articles this batch, ~978994 words this batch (~3476784 total ever)
+- [2026-08-18 16:52:41] vikaspedia (hi): 2160 new URLs processed this batch, ~1041699 words
+- [2026-08-18 16:52:47] zeenews: 2480/238571 articles this batch, ~765435 words this batch (~2674575 total ever)
+- [2026-08-18 16:53:05] vikaspedia (hi): 2180 new URLs processed this batch, ~1042383 words
+- [2026-08-18 16:53:11] patrika: 1860/12804 articles this batch, ~990021 words this batch (~3487811 total ever)
+- [2026-08-18 16:53:17] khsr103: OCR, ~28014 words
+- [2026-08-18 16:53:29] zeenews: 2500/238571 articles this batch, ~770671 words this batch (~2679811 total ever)
+- [2026-08-18 16:53:30] vikaspedia (hi): 2200 new URLs processed this batch, ~1042680 words
+- [2026-08-18 16:53:56] vikaspedia (hi): 2220 new URLs processed this batch, ~1047460 words
+- [2026-08-18 16:54:10] patrika: 1880/12804 articles this batch, ~1001383 words this batch (~3499173 total ever)
+- [2026-08-18 16:54:14] zeenews: 2520/238571 articles this batch, ~775555 words this batch (~2684695 total ever)
+- [2026-08-18 16:54:47] vikaspedia (hi): 2240 new URLs processed this batch, ~1051491 words
+- [2026-08-18 16:55:13] zeenews: 2540/238571 articles this batch, ~781461 words this batch (~2690601 total ever)
+- [2026-08-18 16:55:15] vikaspedia (hi): 2260 new URLs processed this batch, ~1056520 words
+- [2026-08-18 16:55:31] patrika: 1900/12804 articles this batch, ~1012459 words this batch (~3510249 total ever)
+- [2026-08-18 16:55:39] vikaspedia (hi): 2280 new URLs processed this batch, ~1057639 words
+- [2026-08-18 16:55:56] zeenews: 2560/238571 articles this batch, ~786195 words this batch (~2695335 total ever)
+- [2026-08-18 16:56:00] khsr104: OCR, ~18241 words
+- [2026-08-18 16:56:05] vikaspedia (hi): 2300 new URLs processed this batch, ~1059664 words
+- [2026-08-18 16:56:33] patrika: 1920/12804 articles this batch, ~1023366 words this batch (~3521156 total ever)
+- [2026-08-18 16:56:34] vikaspedia (hi): 2320 new URLs processed this batch, ~1068771 words
+- [2026-08-18 16:56:41] zeenews: 2580/238571 articles this batch, ~791176 words this batch (~2700316 total ever)
+- [2026-08-18 16:57:04] vikaspedia (hi): 2340 new URLs processed this batch, ~1071107 words
+- [2026-08-18 16:57:25] zeenews: 2600/238571 articles this batch, ~796801 words this batch (~2705941 total ever)
+- [2026-08-18 16:57:29] vikaspedia (hi): 2360 new URLs processed this batch, ~1074606 words
+- [2026-08-18 16:57:41] patrika: 1940/12804 articles this batch, ~1034794 words this batch (~3532584 total ever)
+- [2026-08-18 16:58:12] zeenews: 2620/238571 articles this batch, ~804959 words this batch (~2714099 total ever)
+- [2026-08-18 16:58:12] vikaspedia (hi): 2380 new URLs processed this batch, ~1075038 words
+- [2026-08-18 16:58:25] khsr203: OCR, ~15238 words
+- [2026-08-18 16:58:37] vikaspedia (hi): 2400 new URLs processed this batch, ~1077952 words
+- [2026-08-18 16:58:42] patrika: 1960/12804 articles this batch, ~1046075 words this batch (~3543865 total ever)
+- [2026-08-18 16:58:54] zeenews: 2640/238571 articles this batch, ~810501 words this batch (~2719641 total ever)
+- [2026-08-18 16:59:06] vikaspedia (hi): 2420 new URLs processed this batch, ~1080496 words
+- [2026-08-18 16:59:16] khsr2ps: OCR, ~4593 words
+- [2026-08-18 16:59:38] vikaspedia (hi): 2440 new URLs processed this batch, ~1089689 words
+- [2026-08-18 16:59:42] zeenews: 2660/238571 articles this batch, ~819580 words this batch (~2728720 total ever)
+- [2026-08-18 16:59:48] patrika: 1980/12804 articles this batch, ~1058076 words this batch (~3555866 total ever)
+- [2026-08-18 17:00:04] vikaspedia (hi): 2460 new URLs processed this batch, ~1100463 words
+- [2026-08-18 17:00:31] zeenews: 2680/238571 articles this batch, ~826245 words this batch (~2735385 total ever)
+- [2026-08-18 17:00:31] vikaspedia (hi): 2480 new URLs processed this batch, ~1114163 words
+- [2026-08-18 17:00:49] patrika: 2000/12804 articles this batch, ~1069781 words this batch (~3567571 total ever)
+- [2026-08-18 17:00:57] vikaspedia (hi): 2500 new URLs processed this batch, ~1126840 words
+- [2026-08-18 17:01:17] zeenews: 2700/238571 articles this batch, ~831077 words this batch (~2740217 total ever)
+- [2026-08-18 17:01:22] vikaspedia (hi): 2520 new URLs processed this batch, ~1139635 words
+- [2026-08-18 17:01:48] vikaspedia (hi): 2540 new URLs processed this batch, ~1146759 words
+- [2026-08-18 17:01:51] patrika: 2020/12804 articles this batch, ~1080939 words this batch (~3578729 total ever)
+- [2026-08-18 17:01:59] zeenews: 2720/238571 articles this batch, ~836082 words this batch (~2745222 total ever)
+- [2026-08-18 17:02:11] vikaspedia (hi): 2560 new URLs processed this batch, ~1147651 words
+- [2026-08-18 17:02:35] vikaspedia (hi): 2580 new URLs processed this batch, ~1150856 words
+- [2026-08-18 17:02:43] zeenews: 2740/238571 articles this batch, ~841479 words this batch (~2750619 total ever)
+- [2026-08-18 17:02:53] patrika: 2040/12804 articles this batch, ~1092002 words this batch (~3589792 total ever)
+- [2026-08-18 17:03:01] vikaspedia (hi): 2600 new URLs processed this batch, ~1161358 words
+- [2026-08-18 17:03:25] zeenews: 2760/238571 articles this batch, ~847220 words this batch (~2756360 total ever)
+- [2026-08-18 17:03:25] vikaspedia (hi): 2620 new URLs processed this batch, ~1184763 words
+- [2026-08-18 17:03:25] khsr201: OCR, ~27186 words
+- [2026-08-18 17:03:56] patrika: 2060/12804 articles this batch, ~1104261 words this batch (~3602051 total ever)
+- [2026-08-18 17:04:07] vikaspedia (hi): 2640 new URLs processed this batch, ~1195327 words
+- [2026-08-18 17:04:08] zeenews: 2780/238571 articles this batch, ~853290 words this batch (~2762430 total ever)
+- [2026-08-18 17:04:36] vikaspedia (hi): 2660 new URLs processed this batch, ~1211794 words
+- [2026-08-18 17:04:52] patrika: 2080/12804 articles this batch, ~1115819 words this batch (~3613609 total ever)
+- [2026-08-18 17:04:53] zeenews: 2800/238571 articles this batch, ~860492 words this batch (~2769632 total ever)
+- [2026-08-18 17:05:03] vikaspedia (hi): 2680 new URLs processed this batch, ~1226182 words
+- [2026-08-18 17:05:27] vikaspedia (hi): 2700 new URLs processed this batch, ~1247558 words
+- [2026-08-18 17:05:37] zeenews: 2820/238571 articles this batch, ~869093 words this batch (~2778233 total ever)
+- [2026-08-18 17:05:52] patrika: 2100/12804 articles this batch, ~1126804 words this batch (~3624594 total ever)
+- [2026-08-18 17:05:53] vikaspedia (hi): 2720 new URLs processed this batch, ~1257566 words
+- [2026-08-18 17:06:18] vikaspedia (hi): 2740 new URLs processed this batch, ~1298727 words
+- [2026-08-18 17:06:19] zeenews: 2840/238571 articles this batch, ~875283 words this batch (~2784423 total ever)
+- [2026-08-18 17:06:44] vikaspedia (hi): 2760 new URLs processed this batch, ~1332694 words
+- [2026-08-18 17:06:51] patrika: 2120/12804 articles this batch, ~1135247 words this batch (~3633037 total ever)
+- [2026-08-18 17:07:03] zeenews: 2860/238571 articles this batch, ~879700 words this batch (~2788840 total ever)
+- [2026-08-18 17:07:07] vikaspedia (hi): 2780 new URLs processed this batch, ~1356012 words
+- [2026-08-18 17:07:10] khsr202: OCR, ~19069 words
+- [2026-08-18 17:07:10] batch progress: 400 new codes attempted (276 extracted, 1704370 words) this batch
+- [2026-08-18 17:07:21] khst1ps: OCR, ~1798 words
+- [2026-08-18 17:07:35] vikaspedia (hi): 2800 new URLs processed this batch, ~1408212 words
+- [2026-08-18 17:07:46] zeenews: 2880/238571 articles this batch, ~885285 words this batch (~2794425 total ever)
+- [2026-08-18 17:07:50] patrika: 2140/12804 articles this batch, ~1140612 words this batch (~3638402 total ever)
+- [2026-08-18 17:07:53] khst104: OCR, ~6229 words
+- [2026-08-18 17:08:01] vikaspedia (hi): 2820 new URLs processed this batch, ~1465541 words
+- [2026-08-18 17:08:23] vikaspedia (hi): 2840 new URLs processed this batch, ~1510653 words
+- [2026-08-18 17:08:31] zeenews: 2900/238571 articles this batch, ~890469 words this batch (~2799609 total ever)
+- [2026-08-18 17:08:45] patrika: 2160/12804 articles this batch, ~1148177 words this batch (~3645967 total ever)
+- [2026-08-18 17:08:49] vikaspedia (hi): 2860 new URLs processed this batch, ~1543607 words
+- [2026-08-18 17:09:11] zeenews: 2920/238571 articles this batch, ~896494 words this batch (~2805634 total ever)
+- [2026-08-18 17:09:16] vikaspedia (hi): 2880 new URLs processed this batch, ~1604341 words
+- [2026-08-18 17:09:36] khsr204: OCR, ~8949 words
+- [2026-08-18 17:09:43] patrika: 2180/12804 articles this batch, ~1158225 words this batch (~3656015 total ever)
+- [2026-08-18 17:09:43] vikaspedia (hi): 2900 new URLs processed this batch, ~1647687 words
+- [2026-08-18 17:09:51] zeenews: 2940/238571 articles this batch, ~902982 words this batch (~2812122 total ever)
+- [2026-08-18 17:10:02] khst106: OCR, ~5490 words
+- [2026-08-18 17:10:09] vikaspedia (hi): 2920 new URLs processed this batch, ~1674228 words
+- [2026-08-18 17:10:27] khst107: OCR, ~5215 words
+- [2026-08-18 17:10:33] vikaspedia (hi): 2940 new URLs processed this batch, ~1703285 words
+- [2026-08-18 17:10:41] zeenews: 2960/238571 articles this batch, ~908366 words this batch (~2817506 total ever)
+- [2026-08-18 17:10:46] patrika: 2200/12804 articles this batch, ~1168606 words this batch (~3666396 total ever)
+- [2026-08-18 17:10:54] khst108: OCR, ~3936 words
+- [2026-08-18 17:10:59] vikaspedia (hi): 2960 new URLs processed this batch, ~1771272 words
+- [2026-08-18 17:11:08] khsy1ps: OCR, ~2265 words
+- [2026-08-18 17:11:22] vikaspedia (hi): 2980 new URLs processed this batch, ~1785446 words
+- [2026-08-18 17:11:27] zeenews: 2980/238571 articles this batch, ~914644 words this batch (~2823784 total ever)
+- [2026-08-18 17:11:33] khst102: OCR, ~5540 words
+- [2026-08-18 17:11:48] vikaspedia (hi): 3000 new URLs processed this batch, ~1799115 words
+- [2026-08-18 17:11:52] patrika: 2220/12804 articles this batch, ~1179627 words this batch (~3677417 total ever)
+- [2026-08-18 17:12:04] khst103: OCR, ~6633 words
+- [2026-08-18 17:12:10] zeenews: 3000/238571 articles this batch, ~922394 words this batch (~2831534 total ever)
+- [2026-08-18 17:12:12] vikaspedia (hi): 3020 new URLs processed this batch, ~1813544 words
+- [2026-08-18 17:12:35] vikaspedia (hi): 3040 new URLs processed this batch, ~1861487 words
+- [2026-08-18 17:12:49] khsy103: OCR, ~8387 words
+- [2026-08-18 17:12:49] batch progress: 410 new codes attempted (286 extracted, 1758812 words) this batch
+- [2026-08-18 17:12:50] patrika: 2240/12804 articles this batch, ~1190738 words this batch (~3688528 total ever)
+- [2026-08-18 17:12:51] zeenews: 3020/238571 articles this batch, ~929306 words this batch (~2838446 total ever)
+- [2026-08-18 17:12:58] vikaspedia (hi): 3060 new URLs processed this batch, ~1893474 words
+- [2026-08-18 17:13:24] vikaspedia (hi): 3080 new URLs processed this batch, ~1948785 words
+- [2026-08-18 17:13:29] khsy104: OCR, ~8189 words
+- [2026-08-18 17:13:34] zeenews: 3040/238571 articles this batch, ~934252 words this batch (~2843392 total ever)
+- [2026-08-18 17:13:46] patrika: 2260/12804 articles this batch, ~1202013 words this batch (~3699803 total ever)
+- [2026-08-18 17:13:46] vikaspedia (hi): 3100 new URLs processed this batch, ~2009897 words
+- [2026-08-18 17:14:10] vikaspedia (hi): 3120 new URLs processed this batch, ~2034376 words
+- [2026-08-18 17:14:15] zeenews: 3060/238571 articles this batch, ~939535 words this batch (~2848675 total ever)
+- [2026-08-18 17:14:16] khsy105: OCR, ~10260 words
+- [2026-08-18 17:14:34] vikaspedia (hi): 3140 new URLs processed this batch, ~2051313 words
+- [2026-08-18 17:14:50] patrika: 2280/12804 articles this batch, ~1213299 words this batch (~3711089 total ever)
+- [2026-08-18 17:14:51] khsy102: OCR, ~7154 words
+- [2026-08-18 17:14:56] zeenews: 3080/238571 articles this batch, ~946357 words this batch (~2855497 total ever)
+- [2026-08-18 17:15:07] khsy2ps: OCR, ~2694 words
+- [2026-08-18 17:15:13] vikaspedia (hi): 3160 new URLs processed this batch, ~2088248 words
+- [2026-08-18 17:15:36] vikaspedia (hi): 3180 new URLs processed this batch, ~2125766 words
+- [2026-08-18 17:15:41] zeenews: 3100/238571 articles this batch, ~951779 words this batch (~2860919 total ever)
+- [2026-08-18 17:15:49] patrika: 2300/12804 articles this batch, ~1224850 words this batch (~3722640 total ever)
+- [2026-08-18 17:16:01] vikaspedia (hi): 3200 new URLs processed this batch, ~2142438 words
+- [2026-08-18 17:16:02] khsy202: OCR, ~10839 words
+- [2026-08-18 17:16:23] vikaspedia (hi): 3220 new URLs processed this batch, ~2174681 words
+- [2026-08-18 17:16:24] zeenews: 3120/238571 articles this batch, ~956318 words this batch (~2865458 total ever)
+- [2026-08-18 17:16:41] khsy201: OCR, ~7824 words
+- [2026-08-18 17:16:50] vikaspedia (hi): 3240 new URLs processed this batch, ~2228902 words
+- [2026-08-18 17:16:51] patrika: 2320/12804 articles this batch, ~1236097 words this batch (~3733887 total ever)
+- [2026-08-18 17:17:08] zeenews: 3140/238571 articles this batch, ~963171 words this batch (~2872311 total ever)
+- [2026-08-18 17:17:13] vikaspedia (hi): 3260 new URLs processed this batch, ~2263004 words
+- [2026-08-18 17:17:18] khsy204: OCR, ~7796 words
+- [2026-08-18 17:17:36] vikaspedia (hi): 3280 new URLs processed this batch, ~2294442 words
+- [2026-08-18 17:17:50] zeenews: 3160/238571 articles this batch, ~968828 words this batch (~2877968 total ever)
+- [2026-08-18 17:17:50] patrika: 2340/12804 articles this batch, ~1246937 words this batch (~3744727 total ever)
+- [2026-08-18 17:18:00] vikaspedia (hi): 3300 new URLs processed this batch, ~2317174 words
+- [2026-08-18 17:18:06] khsy101: OCR, ~9068 words
+- [2026-08-18 17:18:06] khtp1ps: pdftotext, ~5967 words
+- [2026-08-18 17:18:24] vikaspedia (hi): 3320 new URLs processed this batch, ~2337703 words
+- [2026-08-18 17:18:32] zeenews: 3180/238571 articles this batch, ~973450 words this batch (~2882590 total ever)
+- [2026-08-18 17:18:37] khsy203: OCR, ~6081 words
+- [2026-08-18 17:18:37] batch progress: 420 new codes attempted (296 extracted, 1834684 words) this batch
+- [2026-08-18 17:18:37] khtp101: pdftotext, ~4414 words
+- [2026-08-18 17:18:47] vikaspedia (hi): 3340 new URLs processed this batch, ~2359494 words
+- [2026-08-18 17:18:53] khst101: OCR, ~3533 words
+- [2026-08-18 17:18:54] patrika: 2360/12804 articles this batch, ~1259047 words this batch (~3756837 total ever)
+- [2026-08-18 17:19:12] vikaspedia (hi): 3360 new URLs processed this batch, ~2366429 words
+- [2026-08-18 17:19:14] zeenews: 3200/238571 articles this batch, ~978991 words this batch (~2888131 total ever)
+- [2026-08-18 17:19:20] khst105: OCR, ~5286 words
+- [2026-08-18 17:19:20] khtp105: pdftotext, ~5342 words
+- [2026-08-18 17:19:37] vikaspedia (hi): 3380 new URLs processed this batch, ~2386049 words
+- [2026-08-18 17:19:55] patrika: 2380/12804 articles this batch, ~1270926 words this batch (~3768716 total ever)
+- [2026-08-18 17:19:56] zeenews: 3220/238571 articles this batch, ~984307 words this batch (~2893447 total ever)
+- [2026-08-18 17:20:02] vikaspedia (hi): 3400 new URLs processed this batch, ~2390558 words
+- [2026-08-18 17:20:04] khsy205: OCR, ~9017 words
+- [2026-08-18 17:20:04] khtp106: pdftotext, ~5730 words
+- [2026-08-18 17:20:04] khtp102: pdftotext, ~2397 words
+- [2026-08-18 17:20:04] khtp103: pdftotext, ~1999 words
+- [2026-08-18 17:20:05] khtp104: pdftotext, ~3620 words
+- [2026-08-18 17:20:05] khtp107: pdftotext, ~4647 words
+- [2026-08-18 17:20:05] batch progress: 430 new codes attempted (306 extracted, 1880669 words) this batch
+- [2026-08-18 17:20:20] khvt1ps: OCR, ~2397 words
+- [2026-08-18 17:20:25] vikaspedia (hi): 3420 new URLs processed this batch, ~2436748 words
+- [2026-08-18 17:20:45] zeenews: 3240/238571 articles this batch, ~989439 words this batch (~2898579 total ever)
+- [2026-08-18 17:20:56] patrika: 2400/12804 articles this batch, ~1281609 words this batch (~3779399 total ever)
+- [2026-08-18 17:21:05] vikaspedia (hi): 3440 new URLs processed this batch, ~2481335 words
+- [2026-08-18 17:21:16] khvt103: OCR, ~13241 words
+- [2026-08-18 17:21:26] khvt101: OCR, ~2275 words
+- [2026-08-18 17:21:30] vikaspedia (hi): 3460 new URLs processed this batch, ~2515231 words
+- [2026-08-18 17:21:30] zeenews: 3260/238571 articles this batch, ~995417 words this batch (~2904557 total ever)
+- [2026-08-18 17:21:37] lhac1ps: OCR, ~1578 words
+- [2026-08-18 17:21:52] khvt104: OCR, ~2825 words
+- [2026-08-18 17:21:56] vikaspedia (hi): 3480 new URLs processed this batch, ~2537108 words
+- [2026-08-18 17:22:01] patrika: 2420/12804 articles this batch, ~1293350 words this batch (~3791140 total ever)
+- [2026-08-18 17:22:18] zeenews: 3280/238571 articles this batch, ~1001414 words this batch (~2910554 total ever)
+- [2026-08-18 17:22:21] vikaspedia (hi): 3500 new URLs processed this batch, ~2573446 words
+- [2026-08-18 17:22:49] vikaspedia (hi): 3520 new URLs processed this batch, ~2590535 words
+- [2026-08-18 17:23:04] patrika: 2440/12804 articles this batch, ~1305964 words this batch (~3803754 total ever)
+- [2026-08-18 17:23:07] zeenews: 3300/238571 articles this batch, ~1006103 words this batch (~2915243 total ever)
+- [2026-08-18 17:23:17] vikaspedia (hi): 3540 new URLs processed this batch, ~2610939 words
+- [2026-08-18 17:23:20] lhac102: OCR, ~18314 words
+- [2026-08-18 17:23:43] vikaspedia (hi): 3560 new URLs processed this batch, ~2643391 words
+- [2026-08-18 17:23:49] zeenews: 3320/238571 articles this batch, ~1024164 words this batch (~2933304 total ever)
+- [2026-08-18 17:24:02] patrika: 2460/12804 articles this batch, ~1317779 words this batch (~3815569 total ever)
+- [2026-08-18 17:24:07] vikaspedia (hi): 3580 new URLs processed this batch, ~2659831 words
+- [2026-08-18 17:24:32] vikaspedia (hi): 3600 new URLs processed this batch, ~2693743 words
+- [2026-08-18 17:24:34] zeenews: 3340/238571 articles this batch, ~1030036 words this batch (~2939176 total ever)
+- [2026-08-18 17:24:35] lhac103: OCR, ~14492 words
+- [2026-08-18 17:24:35] khtp108: pdftotext, ~3078 words
+- [2026-08-18 17:24:59] vikaspedia (hi): 3620 new URLs processed this batch, ~2702915 words
+- [2026-08-18 17:25:04] patrika: 2480/12804 articles this batch, ~1329834 words this batch (~3827624 total ever)
+- [2026-08-18 17:25:20] zeenews: 3360/238571 articles this batch, ~1033861 words this batch (~2943001 total ever)
+- [2026-08-18 17:25:24] vikaspedia (hi): 3640 new URLs processed this batch, ~2747661 words
+- [2026-08-18 17:25:34] lhac104: OCR, ~11281 words
+- [2026-08-18 17:25:49] vikaspedia (hi): 3660 new URLs processed this batch, ~2771443 words
+- [2026-08-18 17:26:14] zeenews: 3380/238571 articles this batch, ~1039206 words this batch (~2948346 total ever)
+- [2026-08-18 17:26:15] patrika: 2500/12804 articles this batch, ~1341602 words this batch (~3839392 total ever)
+- [2026-08-18 17:26:37] vikaspedia (hi): 3680 new URLs processed this batch, ~2797725 words
+- [2026-08-18 17:26:56] zeenews: 3400/238571 articles this batch, ~1045100 words this batch (~2954240 total ever)
+- [2026-08-18 17:27:03] vikaspedia (hi): 3700 new URLs processed this batch, ~2823756 words
+- [2026-08-18 17:27:13] patrika: 2520/12804 articles this batch, ~1349377 words this batch (~3847167 total ever)
+- [2026-08-18 17:27:26] lhac201: OCR, ~23883 words
+- [2026-08-18 17:27:26] batch progress: 440 new codes attempted (316 extracted, 1974033 words) this batch
+- [2026-08-18 17:27:27] vikaspedia (hi): 3720 new URLs processed this batch, ~2857143 words
+- [2026-08-18 17:27:41] zeenews: 3420/238571 articles this batch, ~1050189 words this batch (~2959329 total ever)
+- [2026-08-18 17:27:52] vikaspedia (hi): 3740 new URLs processed this batch, ~2877781 words
+- [2026-08-18 17:28:13] patrika: 2540/12804 articles this batch, ~1354672 words this batch (~3852462 total ever)
+- [2026-08-18 17:28:16] vikaspedia (hi): 3760 new URLs processed this batch, ~2893368 words
+- [2026-08-18 17:28:25] zeenews: 3440/238571 articles this batch, ~1055964 words this batch (~2965104 total ever)
+- [2026-08-18 17:28:28] lhac202: OCR, ~12596 words
+- [2026-08-18 17:28:39] vikaspedia (hi): 3780 new URLs processed this batch, ~2916787 words
+- [2026-08-18 17:29:03] vikaspedia (hi): 3800 new URLs processed this batch, ~2953503 words
+- [2026-08-18 17:29:08] lhac203: OCR, ~7672 words
+- [2026-08-18 17:29:10] zeenews: 3460/238571 articles this batch, ~1061443 words this batch (~2970583 total ever)
+- [2026-08-18 17:29:19] patrika: 2560/12804 articles this batch, ~1361751 words this batch (~3859541 total ever)
+- [2026-08-18 17:29:28] vikaspedia (hi): 3820 new URLs processed this batch, ~2991571 words
+- [2026-08-18 17:29:51] vikaspedia (hi): 3840 new URLs processed this batch, ~3017941 words
+- [2026-08-18 17:29:53] zeenews: 3480/238571 articles this batch, ~1067314 words this batch (~2976454 total ever)
+- [2026-08-18 17:30:15] lhac204: OCR, ~13284 words
+- [2026-08-18 17:30:18] patrika: 2580/12804 articles this batch, ~1372491 words this batch (~3870281 total ever)
+- [2026-08-18 17:30:18] vikaspedia (hi): 3860 new URLs processed this batch, ~3042567 words
+- [2026-08-18 17:30:45] vikaspedia (hi): 3880 new URLs processed this batch, ~3073235 words
+- [2026-08-18 17:30:46] zeenews: 3500/238571 articles this batch, ~1073359 words this batch (~2982499 total ever)
+- [2026-08-18 17:31:11] vikaspedia (hi): 3900 new URLs processed this batch, ~3101690 words
+- [2026-08-18 17:31:12] patrika: 2600/12804 articles this batch, ~1383857 words this batch (~3881647 total ever)
+- [2026-08-18 17:31:21] lhac205: OCR, ~12405 words
+- [2026-08-18 17:31:31] zeenews: 3520/238571 articles this batch, ~1078561 words this batch (~2987701 total ever)
+- [2026-08-18 17:31:33] lhac2ps: OCR, ~1978 words
+- [2026-08-18 17:31:36] vikaspedia (hi): 3920 new URLs processed this batch, ~3141989 words
+- [2026-08-18 17:31:48] khvt102: OCR, ~3106 words
+- [2026-08-18 17:31:50] khvt105: OCR, ~252 words
+- [2026-08-18 17:31:50] batch progress: 450 new codes attempted (323 extracted, 2025326 words) this batch
+- [2026-08-18 17:32:07] vikaspedia (hi): 3940 new URLs processed this batch, ~3169106 words
+- [2026-08-18 17:32:10] patrika: 2620/12804 articles this batch, ~1394167 words this batch (~3891957 total ever)
+- [2026-08-18 17:32:15] zeenews: 3540/238571 articles this batch, ~1083946 words this batch (~2993086 total ever)
+- [2026-08-18 17:32:29] vikaspedia (hi): 3960 new URLs processed this batch, ~3194768 words
+- [2026-08-18 17:32:51] vikaspedia (hi): 3980 new URLs processed this batch, ~3220099 words
+- [2026-08-18 17:32:57] zeenews: 3560/238571 articles this batch, ~1088734 words this batch (~2997874 total ever)
+- [2026-08-18 17:33:09] lhac101: OCR, ~17508 words
+- [2026-08-18 17:33:10] patrika: 2640/12804 articles this batch, ~1406777 words this batch (~3904567 total ever)
+- [2026-08-18 17:33:10] batch progress: 460 new codes attempted (324 extracted, 2042834 words) this batch
+- [2026-08-18 17:33:15] vikaspedia (hi): 4000 new URLs processed this batch, ~3237842 words
+- [2026-08-18 17:33:29] lhan102: OCR, ~3147 words
+- [2026-08-18 17:33:40] vikaspedia (hi): 4020 new URLs processed this batch, ~3271943 words
+- [2026-08-18 17:33:41] zeenews: 3580/238571 articles this batch, ~1094390 words this batch (~3003530 total ever)
+- [2026-08-18 17:33:47] lhan103: OCR, ~3360 words
+- [2026-08-18 17:34:04] patrika: 2660/12804 articles this batch, ~1417506 words this batch (~3915296 total ever)
+- [2026-08-18 17:34:06] vikaspedia (hi): 4040 new URLs processed this batch, ~3322949 words
+- [2026-08-18 17:34:07] lhan101: OCR, ~3787 words
+- [2026-08-18 17:34:16] lhar101: OCR, ~1308 words
+- [2026-08-18 17:34:16] batch progress: 470 new codes attempted (328 extracted, 2054436 words) this batch
+- [2026-08-18 17:34:23] lhar103: OCR, ~1129 words
+- [2026-08-18 17:34:25] zeenews: 3600/238571 articles this batch, ~1100002 words this batch (~3009142 total ever)
+- [2026-08-18 17:34:34] vikaspedia (hi): 4060 new URLs processed this batch, ~3346063 words
+- [2026-08-18 17:34:38] lhan1ps: OCR, ~2485 words
+- [2026-08-18 17:34:55] lhar1ps: OCR, ~2770 words
+- [2026-08-18 17:34:58] vikaspedia (hi): 4080 new URLs processed this batch, ~3386445 words
+- [2026-08-18 17:34:58] patrika: 2680/12804 articles this batch, ~1428587 words this batch (~3926377 total ever)
+- [2026-08-18 17:35:01] lhar105: OCR, ~846 words
+- [2026-08-18 17:35:14] zeenews: 3620/238571 articles this batch, ~1107133 words this batch (~3016273 total ever)
+- [2026-08-18 17:35:14] lhar107: OCR, ~2297 words
+- [2026-08-18 17:35:20] lhar108: OCR, ~832 words
+- [2026-08-18 17:35:26] lhar109: OCR, ~802 words
+- [2026-08-18 17:35:30] vikaspedia (hi): 4100 new URLs processed this batch, ~3418072 words
+- [2026-08-18 17:35:33] lhar104: OCR, ~1156 words
+- [2026-08-18 17:35:54] lhar111: OCR, ~4460 words
+- [2026-08-18 17:35:55] vikaspedia (hi): 4120 new URLs processed this batch, ~3434138 words
+- [2026-08-18 17:35:56] patrika: 2700/12804 articles this batch, ~1440151 words this batch (~3937941 total ever)
+- [2026-08-18 17:36:03] zeenews: 3640/238571 articles this batch, ~1112840 words this batch (~3021980 total ever)
+- [2026-08-18 17:36:07] lhar112: OCR, ~2643 words
+- [2026-08-18 17:36:07] batch progress: 480 new codes attempted (338 extracted, 2073856 words) this batch
+- [2026-08-18 17:36:20] vikaspedia (hi): 4140 new URLs processed this batch, ~3449217 words
+- [2026-08-18 17:36:35] lhar110: OCR, ~5848 words
+- [2026-08-18 17:36:42] lhar106: OCR, ~1191 words
+- [2026-08-18 17:36:45] vikaspedia (hi): 4160 new URLs processed this batch, ~3492471 words
+- [2026-08-18 17:36:46] zeenews: 3660/238571 articles this batch, ~1117714 words this batch (~3026854 total ever)
+- [2026-08-18 17:36:49] patrika: 2720/12804 articles this batch, ~1451024 words this batch (~3948814 total ever)
+- [2026-08-18 17:36:55] lhar115: OCR, ~2597 words
+- [2026-08-18 17:37:06] vikaspedia (hi): 4180 new URLs processed this batch, ~3515477 words
+- [2026-08-18 17:37:18] lhat1ps: OCR, ~3260 words
+- [2026-08-18 17:37:27] lhat101: OCR, ~1262 words
+- [2026-08-18 17:37:30] zeenews: 3680/238571 articles this batch, ~1125176 words this batch (~3034316 total ever)
+- [2026-08-18 17:37:36] lhat102: OCR, ~1118 words
+- [2026-08-18 17:37:37] vikaspedia (hi): 4200 new URLs processed this batch, ~3543898 words
+- [2026-08-18 17:37:43] patrika: 2740/12804 articles this batch, ~1462489 words this batch (~3960279 total ever)
+- [2026-08-18 17:37:44] lhat103: OCR, ~1215 words
+- [2026-08-18 17:37:51] lhar102: OCR, ~971 words
+- [2026-08-18 17:38:00] lhat106: OCR, ~1336 words
+- [2026-08-18 17:38:00] batch progress: 490 new codes attempted (347 extracted, 2092654 words) this batch
+- [2026-08-18 17:38:07] vikaspedia (hi): 4220 new URLs processed this batch, ~3578215 words
+- [2026-08-18 17:38:09] lhat107: OCR, ~1190 words
+- [2026-08-18 17:38:12] zeenews: 3700/238571 articles this batch, ~1130614 words this batch (~3039754 total ever)
+- [2026-08-18 17:38:17] lhat108: OCR, ~1003 words
+- [2026-08-18 17:38:22] lhat109: OCR, ~646 words
+- [2026-08-18 17:38:30] lhat105: OCR, ~1188 words
+- [2026-08-18 17:38:34] vikaspedia (hi): 4240 new URLs processed this batch, ~3609448 words
+- [2026-08-18 17:38:43] patrika: 2760/12804 articles this batch, ~1474294 words this batch (~3972084 total ever)
+- [2026-08-18 17:38:45] lhat111: OCR, ~2342 words
+- [2026-08-18 17:38:54] zeenews: 3720/238571 articles this batch, ~1135864 words this batch (~3045004 total ever)
+- [2026-08-18 17:38:58] vikaspedia (hi): 4260 new URLs processed this batch, ~3632741 words
+- [2026-08-18 17:39:07] lhat112: OCR, ~3488 words
+- [2026-08-18 17:39:22] vikaspedia (hi): 4280 new URLs processed this batch, ~3650760 words
+- [2026-08-18 17:39:23] lhat110: OCR, ~2316 words
+- [2026-08-18 17:39:38] zeenews: 3740/238571 articles this batch, ~1142293 words this batch (~3051433 total ever)
+- [2026-08-18 17:39:39] lhat114: OCR, ~2512 words
+- [2026-08-18 17:39:41] patrika: 2780/12804 articles this batch, ~1486086 words this batch (~3983876 total ever)
+- [2026-08-18 17:39:47] vikaspedia (hi): 4300 new URLs processed this batch, ~3670692 words
+- [2026-08-18 17:39:54] lhat115: OCR, ~2238 words
+- [2026-08-18 17:40:14] vikaspedia (hi): 4320 new URLs processed this batch, ~3688705 words
+- [2026-08-18 17:40:19] lhat116: OCR, ~4665 words
+- [2026-08-18 17:40:19] batch progress: 500 new codes attempted (357 extracted, 2114242 words) this batch
+- [2026-08-18 17:40:28] zeenews: 3760/238571 articles this batch, ~1149652 words this batch (~3058792 total ever)
+- [2026-08-18 17:40:40] lhat117: OCR, ~3722 words
+- [2026-08-18 17:40:40] vikaspedia (hi): 4340 new URLs processed this batch, ~3722461 words
+- [2026-08-18 17:40:42] patrika: 2800/12804 articles this batch, ~1497828 words this batch (~3995618 total ever)
+- [2026-08-18 17:41:01] lhat113: OCR, ~3647 words
+- [2026-08-18 17:41:05] vikaspedia (hi): 4360 new URLs processed this batch, ~3745105 words
+- [2026-08-18 17:41:14] zeenews: 3780/238571 articles this batch, ~1155634 words this batch (~3064774 total ever)
+- [2026-08-18 17:41:21] lhar113: OCR, ~3720 words
+- [2026-08-18 17:41:30] vikaspedia (hi): 4380 new URLs processed this batch, ~3770283 words
+- [2026-08-18 17:41:37] lhar114: OCR, ~3303 words
+- [2026-08-18 17:41:38] patrika: 2820/12804 articles this batch, ~1509143 words this batch (~4006933 total ever)
+- [2026-08-18 17:41:53] vikaspedia (hi): 4400 new URLs processed this batch, ~3798605 words
+- [2026-08-18 17:41:55] zeenews: 3800/238571 articles this batch, ~1161390 words this batch (~3070530 total ever)
+- [2026-08-18 17:42:17] vikaspedia (hi): 4420 new URLs processed this batch, ~3813901 words
+- [2026-08-18 17:42:29] lhbo101: OCR, ~9373 words
+- [2026-08-18 17:42:30] patrika: 2840/12804 articles this batch, ~1520291 words this batch (~4018081 total ever)
+- [2026-08-18 17:42:36] zeenews: 3820/238571 articles this batch, ~1165137 words this batch (~3074277 total ever)
+- [2026-08-18 17:42:39] vikaspedia (hi): 4440 new URLs processed this batch, ~3836943 words
+- [2026-08-18 17:43:04] lhbo102: OCR, ~6227 words
+- [2026-08-18 17:43:06] vikaspedia (hi): 4460 new URLs processed this batch, ~3867232 words
+- [2026-08-18 17:43:16] patrika: 2860/12804 articles this batch, ~1531374 words this batch (~4029164 total ever)
+- [2026-08-18 17:43:17] zeenews: 3840/238571 articles this batch, ~1172140 words this batch (~3081280 total ever)
+- [2026-08-18 17:43:44] vikaspedia (hi): 4480 new URLs processed this batch, ~3894822 words
+- [2026-08-18 17:43:58] zeenews: 3860/238571 articles this batch, ~1178256 words this batch (~3087396 total ever)
+- [2026-08-18 17:44:05] lhbo104: OCR, ~11251 words
+- [2026-08-18 17:44:05] batch progress: 510 new codes attempted (364 extracted, 2155485 words) this batch
+- [2026-08-18 17:44:07] patrika: 2880/12804 articles this batch, ~1542162 words this batch (~4039952 total ever)
+- [2026-08-18 17:44:20] vikaspedia (hi): 4500 new URLs processed this batch, ~3910789 words
+- [2026-08-18 17:44:48] zeenews: 3880/238571 articles this batch, ~1184998 words this batch (~3094138 total ever)
+- [2026-08-18 17:44:49] vikaspedia (hi): 4520 new URLs processed this batch, ~3947122 words
+- [2026-08-18 17:45:03] patrika: 2900/12804 articles this batch, ~1553196 words this batch (~4050986 total ever)
+- [2026-08-18 17:45:12] lhbo105: OCR, ~12263 words
+- [2026-08-18 17:45:16] vikaspedia (hi): 4540 new URLs processed this batch, ~4003392 words
+- [2026-08-18 17:45:31] zeenews: 3900/238571 articles this batch, ~1189299 words this batch (~3098439 total ever)
+- [2026-08-18 17:45:41] vikaspedia (hi): 4560 new URLs processed this batch, ~4033727 words
+- [2026-08-18 17:45:45] lhbo106: OCR, ~5813 words
+- [2026-08-18 17:45:56] patrika: 2920/12804 articles this batch, ~1565275 words this batch (~4063065 total ever)
+- [2026-08-18 17:46:05] vikaspedia (hi): 4580 new URLs processed this batch, ~4064595 words
+- [2026-08-18 17:46:15] zeenews: 3920/238571 articles this batch, ~1194164 words this batch (~3103304 total ever)
+- [2026-08-18 17:46:33] vikaspedia (hi): 4600 new URLs processed this batch, ~4093545 words
+- [2026-08-18 17:46:35] lhbo107: OCR, ~9548 words
+- [2026-08-18 17:46:45] lhat104: OCR, ~1291 words
+- [2026-08-18 17:46:55] patrika: 2940/12804 articles this batch, ~1573619 words this batch (~4071409 total ever)
+- [2026-08-18 17:46:58] zeenews: 3940/238571 articles this batch, ~1200858 words this batch (~3109998 total ever)
+- [2026-08-18 17:46:58] vikaspedia (hi): 4620 new URLs processed this batch, ~4113113 words
+- [2026-08-18 17:47:17] lhbo109: OCR, ~5751 words
+- [2026-08-18 17:47:25] vikaspedia (hi): 4640 new URLs processed this batch, ~4152691 words
+- [2026-08-18 17:47:40] zeenews: 3960/238571 articles this batch, ~1207646 words this batch (~3116786 total ever)
+- [2026-08-18 17:47:50] vikaspedia (hi): 4660 new URLs processed this batch, ~4191832 words
+- [2026-08-18 17:47:51] lhbo111: OCR, ~6672 words
+- [2026-08-18 17:47:51] patrika: 2960/12804 articles this batch, ~1578632 words this batch (~4076422 total ever)
+- [2026-08-18 17:48:15] vikaspedia (hi): 4680 new URLs processed this batch, ~4203065 words
+- [2026-08-18 17:48:17] lhbo108: OCR, ~4939 words
+- [2026-08-18 17:48:27] zeenews: 3980/238571 articles this batch, ~1214067 words this batch (~3123207 total ever)
+- [2026-08-18 17:48:39] lhbo112: OCR, ~4033 words
+- [2026-08-18 17:48:48] patrika: 2980/12804 articles this batch, ~1584077 words this batch (~4081867 total ever)
+- [2026-08-18 17:48:51] lhbs1ps: OCR, ~1923 words
+- [2026-08-18 17:48:51] batch progress: 520 new codes attempted (373 extracted, 2207718 words) this batch
+- [2026-08-18 17:48:52] vikaspedia (hi): 4700 new URLs processed this batch, ~4224896 words
+- [2026-08-18 17:49:11] zeenews: 4000/238571 articles this batch, ~1221075 words this batch (~3130215 total ever)
+- [2026-08-18 17:49:17] vikaspedia (hi): 4720 new URLs processed this batch, ~4264885 words
+- [2026-08-18 17:49:41] lhbs101: OCR, ~10593 words
+- [2026-08-18 17:49:44] vikaspedia (hi): 4740 new URLs processed this batch, ~4306639 words
+- [2026-08-18 17:49:46] patrika: 3000/12804 articles this batch, ~1594402 words this batch (~4092192 total ever)
+- [2026-08-18 17:49:54] zeenews: 4020/238571 articles this batch, ~1226696 words this batch (~3135836 total ever)
+- [2026-08-18 17:50:09] vikaspedia (hi): 4760 new URLs processed this batch, ~4325889 words
+- [2026-08-18 17:50:40] vikaspedia (hi): 4780 new URLs processed this batch, ~4364649 words
+- [2026-08-18 17:50:43] zeenews: 4040/238571 articles this batch, ~1232912 words this batch (~3142052 total ever)
+- [2026-08-18 17:50:45] patrika: 3020/12804 articles this batch, ~1606142 words this batch (~4103932 total ever)
+- [2026-08-18 17:50:51] lhbs102: OCR, ~14231 words
+- [2026-08-18 17:51:06] vikaspedia (hi): 4800 new URLs processed this batch, ~4394095 words
+- [2026-08-18 17:51:24] zeenews: 4060/238571 articles this batch, ~1237915 words this batch (~3147055 total ever)
+- [2026-08-18 17:51:28] lhbs103: OCR, ~7411 words
+- [2026-08-18 17:51:31] dli_books dli.ernet.473790: ~90270 words
+- [2026-08-18 17:51:33] vikaspedia (hi): 4820 new URLs processed this batch, ~4459441 words
+- [2026-08-18 17:51:37] dli_books jai-sharada-mata-sankalp-sharda-mata-trust-jammu: ~1820 words
+- [2026-08-18 17:51:39] patrika: 3040/12804 articles this batch, ~1617268 words this batch (~4115058 total ever)
+- [2026-08-18 17:51:45] dli_books dli.ernet.473205: ~19109 words
+- [2026-08-18 17:51:53] dli_books in.ernet.dli.2015.401787: ~129999 words
+- [2026-08-18 17:52:00] vikaspedia (hi): 4840 new URLs processed this batch, ~4489994 words
+- [2026-08-18 17:52:02] dli_books in.ernet.dli.2015.319667: ~76692 words
+- [2026-08-18 17:52:02] dli_books BATCH COMPLETE: 5 new items processed, ~317890 words this batch
+- [2026-08-18 17:52:03] lhbs104: OCR, ~7304 words
+- [2026-08-18 17:52:08] zeenews: 4080/238571 articles this batch, ~1248432 words this batch (~3157572 total ever)
+- [2026-08-18 17:52:22] lhbo1ps: OCR, ~3357 words
+- [2026-08-18 17:52:26] vikaspedia (hi): 4860 new URLs processed this batch, ~4508391 words
+- [2026-08-18 17:52:31] patrika: 3060/12804 articles this batch, ~1628140 words this batch (~4125930 total ever)
+- [2026-08-18 17:52:33] dli_books in.ernet.dli.2015.428411: ~253160 words
+- [2026-08-18 17:52:47] dli_books in.ernet.dli.2015.538803: ~173579 words
+- [2026-08-18 17:52:51] zeenews: 4100/238571 articles this batch, ~1254737 words this batch (~3163877 total ever)
+- [2026-08-18 17:52:55] dli_books in.ernet.dli.2015.349003: ~68466 words
+- [2026-08-18 17:52:55] vikaspedia (hi): 4880 new URLs processed this batch, ~4536084 words
+- [2026-08-18 17:53:01] dli_books in.ernet.dli.2015.525551: ~28184 words
+- [2026-08-18 17:53:13] dli_books dli.ernet.526002: ~67320 words
+- [2026-08-18 17:53:20] vikaspedia (hi): 4900 new URLs processed this batch, ~4551321 words
+- [2026-08-18 17:53:22] dli_books in.ernet.dli.2015.402369: ~119727 words
+- [2026-08-18 17:53:24] patrika: 3080/12804 articles this batch, ~1639527 words this batch (~4137317 total ever)
+- [2026-08-18 17:53:25] lhbs106: OCR, ~13139 words
+- [2026-08-18 17:53:29] dli_books in.ernet.dli.2015.308926: ~31328 words
+- [2026-08-18 17:53:35] zeenews: 4120/238571 articles this batch, ~1259269 words this batch (~3168409 total ever)
+- [2026-08-18 17:53:35] dli_books in.ernet.dli.2015.475406: ~54630 words
+- [2026-08-18 17:53:43] dli_books dli.ernet.288519: ~194870 words
+- [2026-08-18 17:53:47] vikaspedia (hi): 4920 new URLs processed this batch, ~4576792 words
+- [2026-08-18 17:53:51] dli_books dli.ernet.288534: ~186638 words
+- [2026-08-18 17:54:01] dli_books dli.ernet.288540: ~348570 words
+- [2026-08-18 17:54:09] dli_books dli.ernet.288541: ~115091 words
+- [2026-08-18 17:54:11] vikaspedia (hi): 4940 new URLs processed this batch, ~4600970 words
+- [2026-08-18 17:54:17] dli_books dli.ernet.288560: ~218487 words
+- [2026-08-18 17:54:19] zeenews: 4140/238571 articles this batch, ~1268252 words this batch (~3177392 total ever)
+- [2026-08-18 17:54:20] patrika: 3100/12804 articles this batch, ~1651590 words this batch (~4149380 total ever)
+- [2026-08-18 17:54:26] dli_books dli.ernet.288562: ~233362 words
+- [2026-08-18 17:54:33] lhbs107: OCR, ~13604 words
+- [2026-08-18 17:54:36] dli_books dli.ernet.288452: ~91372 words
+- [2026-08-18 17:54:51] fetch failed https://archive.org/download/dli.ernet.288458/288458-Production%20Engineering_djvu.txt: <urlopen error [Errno 54] Connection reset by peer>
+- [2026-08-18 17:54:54] lhbs108: OCR, ~4281 words
+- [2026-08-18 17:55:10] dli_books dli.ernet.288474: ~105106 words
+- [2026-08-18 17:55:20] lhbo103: OCR, ~5280 words
+- [2026-08-18 17:55:20] lhbs201: pdftotext, ~12748 words
+- [2026-08-18 17:55:20] batch progress: 530 new codes attempted (383 extracted, 2299666 words) this batch
+- [2026-08-18 17:55:20] lhbs2ps: pdftotext, ~1913 words
+- [2026-08-18 17:55:20] vikaspedia (hi): 4960 new URLs processed this batch, ~4630567 words
+- [2026-08-18 17:55:21] zeenews: 4160/238571 articles this batch, ~1273353 words this batch (~3182493 total ever)
+- [2026-08-18 17:55:25] dli_books dli.ernet.288490: ~123438 words
+- [2026-08-18 17:55:32] patrika: 3120/12804 articles this batch, ~1662095 words this batch (~4159885 total ever)
+- [2026-08-18 17:55:33] dli_books dli.ernet.426558: ~297729 words
+- [2026-08-18 17:55:41] dli_books dli.ernet.426638: ~99000 words
+- [2026-08-18 17:55:44] lhbo110: OCR, ~4536 words
+- [2026-08-18 17:55:44] vikaspedia (hi): 4980 new URLs processed this batch, ~4648498 words
+- [2026-08-18 17:55:49] dli_books dli.ernet.427965: ~135133 words
+- [2026-08-18 17:55:55] dli_books dli.ernet.425914: ~70890 words
+- [2026-08-18 17:56:03] dli_books dli.ernet.425939: ~25328 words
+- [2026-08-18 17:56:04] zeenews: 4180/238571 articles this batch, ~1278926 words this batch (~3188066 total ever)
+- [2026-08-18 17:56:05] lhch1ps: OCR, ~3340 words
+- [2026-08-18 17:56:05] lhbs203: pdftotext, ~5477 words
+- [2026-08-18 17:56:09] dli_books dli.ernet.425964: ~74048 words
+- [2026-08-18 17:56:11] vikaspedia (hi): 5000 new URLs processed this batch, ~4667583 words
+- [2026-08-18 17:56:22] dli_books dli.ernet.426063: ~159683 words
+- [2026-08-18 17:56:30] dli_books dli.ernet.426080: ~70643 words
+- [2026-08-18 17:56:34] patrika: 3140/12804 articles this batch, ~1673377 words this batch (~4171167 total ever)
+- [2026-08-18 17:56:36] dli_books dli.ernet.426088: ~64908 words
+- [2026-08-18 17:56:37] vikaspedia (hi): 5020 new URLs processed this batch, ~4682837 words
+- [2026-08-18 17:56:45] dli_books dli.ernet.426103: ~31460 words
+- [2026-08-18 17:56:47] zeenews: 4200/238571 articles this batch, ~1287146 words this batch (~3196286 total ever)
+- [2026-08-18 17:56:52] dli_books dli.ernet.426122: ~104790 words
+- [2026-08-18 17:56:58] dli_books dli.ernet.426171: ~11064 words
+- [2026-08-18 17:57:03] vikaspedia (hi): 5040 new URLs processed this batch, ~4727256 words
+- [2026-08-18 17:57:05] lhch101: OCR, ~12454 words
+- [2026-08-18 17:57:07] dli_books dli.ernet.429063: ~67454 words
+- [2026-08-18 17:57:19] dli_books dli.ernet.429212: ~64929 words
+- [2026-08-18 17:57:31] patrika: 3160/12804 articles this batch, ~1684798 words this batch (~4182588 total ever)
+- [2026-08-18 17:57:32] fetch failed https://hi.vikaspedia.in/viewcontent/agriculture/crop-production/91593e93094d92f92a94d93092393e93293f92f94b902-91593e-938902915941932/90592893e91c/91a93e935932?lgn=hi: <urlopen error [Errno 54] Connection reset by peer>
+- [2026-08-18 17:57:33] fetch failed https://archive.org/download/dli.ernet.428440/428440-Sarvoudaya%20Yatra%20Ac%201053_djvu.txt: <urlopen error [Errno 54] Connection reset by peer>
+- [2026-08-18 17:57:36] zeenews: 4220/238571 articles this batch, ~1292530 words this batch (~3201670 total ever)
+- [2026-08-18 17:57:39] vikaspedia (hi): 5060 new URLs processed this batch, ~4764395 words
+- [2026-08-18 17:57:41] dli_books dli.ernet.429399: ~289467 words
+- [2026-08-18 17:57:48] dli_books dli.ernet.429430: ~44326 words
+- [2026-08-18 17:57:56] dli_books dli.ernet.429442: ~126969 words
+- [2026-08-18 17:58:01] dli_books dli.ernet.427702: ~38557 words
+- [2026-08-18 17:58:05] vikaspedia (hi): 5080 new URLs processed this batch, ~4790941 words
+- [2026-08-18 17:58:07] lhch102: OCR, ~12066 words
+- [2026-08-18 17:58:08] dli_books dli.ernet.427755: ~61018 words
+- [2026-08-18 17:58:15] dli_books dli.ernet.427804: ~37394 words
+- [2026-08-18 17:58:20] zeenews: 4240/238571 articles this batch, ~1297565 words this batch (~3206705 total ever)
+- [2026-08-18 17:58:24] patrika: 3180/12804 articles this batch, ~1696225 words this batch (~4194015 total ever)
+- [2026-08-18 17:58:25] dli_books dli.ernet.429303: ~24954 words
+- [2026-08-18 17:58:32] vikaspedia (hi): 5100 new URLs processed this batch, ~4836005 words
+- [2026-08-18 17:58:33] dli_books dli.ernet.429373: ~100638 words
+- [2026-08-18 17:58:42] dli_books dli.ernet.426921: ~204845 words
+- [2026-08-18 17:58:51] dli_books dli.ernet.426964: ~303022 words
+- [2026-08-18 17:59:00] vikaspedia (hi): 5120 new URLs processed this batch, ~4864132 words
+- [2026-08-18 17:59:01] dli_books dli.ernet.426966: ~78240 words
+- [2026-08-18 17:59:06] zeenews: 4260/238571 articles this batch, ~1302123 words this batch (~3211263 total ever)
+- [2026-08-18 17:59:09] dli_books dli.ernet.427037: ~150309 words
+- [2026-08-18 17:59:11] lhch104: OCR, ~12676 words
+- [2026-08-18 17:59:23] patrika: 3200/12804 articles this batch, ~1706977 words this batch (~4204767 total ever)
+- [2026-08-18 17:59:26] vikaspedia (hi): 5140 new URLs processed this batch, ~4890324 words
+- [2026-08-18 17:59:49] zeenews: 4280/238571 articles this batch, ~1307523 words this batch (~3216663 total ever)
+- [2026-08-18 18:00:00] vikaspedia (hi): 5160 new URLs processed this batch, ~4920689 words
+- [2026-08-18 18:00:05] lhch105: OCR, ~9728 words
+- [2026-08-18 18:00:17] patrika: 3220/12804 articles this batch, ~1718731 words this batch (~4216521 total ever)
+- [2026-08-18 18:00:24] lhch2ps: OCR, ~3022 words
+- [2026-08-18 18:00:24] lhbs202: pdftotext, ~19089 words
+- [2026-08-18 18:00:24] batch progress: 540 new codes attempted (393 extracted, 2383967 words) this batch
+- [2026-08-18 18:00:27] dli_books dli.ernet.447222: ~90226 words
+- [2026-08-18 18:00:34] dli_books dli.ernet.447226: ~46428 words
+- [2026-08-18 18:00:35] zeenews: 4300/238571 articles this batch, ~1313989 words this batch (~3223129 total ever)
+- [2026-08-18 18:00:43] vikaspedia (hi): 5180 new URLs processed this batch, ~4954061 words
+- [2026-08-18 18:00:45] dli_books dli.ernet.447276: ~96535 words
+- [2026-08-18 18:00:49] lhbo113: OCR, ~4984 words
+- [2026-08-18 18:00:55] dli_books dli.ernet.445952: ~212432 words
+- [2026-08-18 18:01:01] dli_books dli.ernet.440881: ~34765 words
+- [2026-08-18 18:01:07] vikaspedia (hi): 5200 new URLs processed this batch, ~4993174 words
+- [2026-08-18 18:01:08] dli_books dli.ernet.440923: ~156081 words
+- [2026-08-18 18:01:14] patrika: 3240/12804 articles this batch, ~1730119 words this batch (~4227909 total ever)
+- [2026-08-18 18:01:15] dli_books dli.ernet.440953: ~104194 words
+- [2026-08-18 18:01:19] zeenews: 4320/238571 articles this batch, ~1324913 words this batch (~3234053 total ever)
+- [2026-08-18 18:01:27] dli_books dli.ernet.447345: ~33925 words
+- [2026-08-18 18:01:36] vikaspedia (hi): 5220 new URLs processed this batch, ~5007485 words
+- [2026-08-18 18:01:43] dli_books dli.ernet.447346: ~150660 words
+- [2026-08-18 18:01:51] lhch203: OCR, ~9667 words
+- [2026-08-18 18:02:07] zeenews: 4340/238571 articles this batch, ~1329386 words this batch (~3238526 total ever)
+- [2026-08-18 18:02:10] dli_books dli.ernet.441519: ~187159 words
+- [2026-08-18 18:02:15] vikaspedia (hi): 5240 new URLs processed this batch, ~5023723 words
+- [2026-08-18 18:02:18] patrika: 3260/12804 articles this batch, ~1740781 words this batch (~4238571 total ever)
+- [2026-08-18 18:02:25] dli_books dli.ernet.441547: ~78726 words
+- [2026-08-18 18:02:36] dli_books dli.ernet.427230: ~134958 words
+- [2026-08-18 18:02:43] dli_books dli.ernet.427243: ~126570 words
+- [2026-08-18 18:02:46] vikaspedia (hi): 5260 new URLs processed this batch, ~5037399 words
+- [2026-08-18 18:02:52] lhch202: OCR, ~9713 words
+- [2026-08-18 18:02:56] zeenews: 4360/238571 articles this batch, ~1333845 words this batch (~3242985 total ever)
+- [2026-08-18 18:02:56] dli_books dli.ernet.427309: ~138226 words
+- [2026-08-18 18:03:02] dli_books dli.ernet.427350: ~2471 words
+- [2026-08-18 18:03:16] patrika: 3280/12804 articles this batch, ~1751246 words this batch (~4249036 total ever)
+- [2026-08-18 18:03:18] vikaspedia (hi): 5280 new URLs processed this batch, ~5079986 words
+- [2026-08-18 18:03:18] dli_books dli.ernet.429555: ~73945 words
+- [2026-08-18 18:03:25] dli_books dli.ernet.429571: ~108180 words
+- [2026-08-18 18:03:33] lhch204: OCR, ~6718 words
+- [2026-08-18 18:03:38] dli_books dli.ernet.429666: ~141062 words
+- [2026-08-18 18:03:40] zeenews: 4380/238571 articles this batch, ~1338913 words this batch (~3248053 total ever)
+- [2026-08-18 18:03:48] vikaspedia (hi): 5300 new URLs processed this batch, ~5094030 words
+- [2026-08-18 18:03:49] dli_books dli.ernet.426233: ~190447 words
+- [2026-08-18 18:03:49] lhec1ps: OCR, ~2084 words
+- [2026-08-18 18:04:01] dli_books dli.ernet.426242: ~182804 words
+- [2026-08-18 18:04:07] dli_books dli.ernet.476807: ~41542 words
+- [2026-08-18 18:04:10] lhec101: OCR, ~3887 words
+- [2026-08-18 18:04:10] patrika: 3300/12804 articles this batch, ~1762838 words this batch (~4260628 total ever)
+- [2026-08-18 18:04:13] dli_books dli.ernet.476826: ~13619 words
+- [2026-08-18 18:04:17] vikaspedia (hi): 5320 new URLs processed this batch, ~5178672 words
+- [2026-08-18 18:04:22] dli_books dli.ernet.476879: ~37294 words
+- [2026-08-18 18:04:24] zeenews: 4400/238571 articles this batch, ~1344244 words this batch (~3253384 total ever)
+- [2026-08-18 18:04:29] dli_books dli.ernet.476913: ~27390 words
+- [2026-08-18 18:04:38] dli_books dli.ernet.476931: ~130263 words
+- [2026-08-18 18:04:44] dli_books dli.ernet.444690: ~157072 words
+- [2026-08-18 18:04:51] dli_books dli.ernet.444956: ~80842 words
+- [2026-08-18 18:04:51] vikaspedia (hi): 5340 new URLs processed this batch, ~5240753 words
+- [2026-08-18 18:04:57] dli_books dli.ernet.445362: ~54006 words
+- [2026-08-18 18:05:09] patrika: 3320/12804 articles this batch, ~1774093 words this batch (~4271883 total ever)
+- [2026-08-18 18:05:11] dli_books dli.ernet.445420: ~145969 words
+- [2026-08-18 18:05:13] zeenews: 4420/238571 articles this batch, ~1349575 words this batch (~3258715 total ever)
+- [2026-08-18 18:05:19] dli_books dli.ernet.445455: ~204140 words
+- [2026-08-18 18:05:22] vikaspedia (hi): 5360 new URLs processed this batch, ~5287075 words
+- [2026-08-18 18:05:24] lhec102: OCR, ~14561 words
+- [2026-08-18 18:05:27] dli_books dli.ernet.445536: ~327238 words
+- [2026-08-18 18:05:33] dli_books dli.ernet.446955: ~19713 words
+- [2026-08-18 18:05:38] dli_books dli.ernet.446972: ~53885 words
+- [2026-08-18 18:05:48] dli_books in.ernet.dli.2015.309903: ~270281 words
+- [2026-08-18 18:05:55] dli_books in.ernet.dli.2015.446823: ~39915 words
+- [2026-08-18 18:05:55] zeenews: 4440/238571 articles this batch, ~1356006 words this batch (~3265146 total ever)
+- [2026-08-18 18:06:01] patrika: 3340/12804 articles this batch, ~1782363 words this batch (~4280153 total ever)
+- [2026-08-18 18:06:02] vikaspedia (hi): 5380 new URLs processed this batch, ~5316026 words
+- [2026-08-18 18:06:07] lhec103: OCR, ~8221 words
+- [2026-08-18 18:06:29] vikaspedia (hi): 5400 new URLs processed this batch, ~5341513 words
+- [2026-08-18 18:06:39] zeenews: 4460/238571 articles this batch, ~1362016 words this batch (~3271156 total ever)
+- [2026-08-18 18:06:51] patrika: 3360/12804 articles this batch, ~1787621 words this batch (~4285411 total ever)
+- [2026-08-18 18:06:51] lhch205: OCR, ~8314 words
+- [2026-08-18 18:06:55] vikaspedia (hi): 5420 new URLs processed this batch, ~5384394 words
+- [2026-08-18 18:07:16] dli_books in.ernet.dli.2015.481864: ~16 words
+- [2026-08-18 18:07:20] zeenews: 4480/238571 articles this batch, ~1368449 words this batch (~3277589 total ever)
+- [2026-08-18 18:07:23] vikaspedia (hi): 5440 new URLs processed this batch, ~5428634 words
+- [2026-08-18 18:07:25] dli_books in.gov.ignca.6678: ~116610 words
+- [2026-08-18 18:07:32] dli_books in.gov.ignca.71566: ~173548 words
+- [2026-08-18 18:07:42] patrika: 3380/12804 articles this batch, ~1793797 words this batch (~4291587 total ever)
+- [2026-08-18 18:07:50] vikaspedia (hi): 5460 new URLs processed this batch, ~5461577 words
+- [2026-08-18 18:07:55] dli_books in.ernet.dli.2015.269013: ~46501 words
+- [2026-08-18 18:07:59] lhch201: OCR, ~11120 words
+- [2026-08-18 18:07:59] batch progress: 550 new codes attempted (403 extracted, 2463236 words) this batch
+- [2026-08-18 18:08:05] zeenews: 4500/238571 articles this batch, ~1373779 words this batch (~3282919 total ever)
+- [2026-08-18 18:08:10] dli_books dli.ernet.288458: ~99291 words
+- [2026-08-18 18:08:20] vikaspedia (hi): 5480 new URLs processed this batch, ~5519103 words
+- [2026-08-18 18:08:21] dli_books dli.ernet.428440: ~55106 words
+- [2026-08-18 18:08:34] patrika: 3400/12804 articles this batch, ~1804853 words this batch (~4302643 total ever)
+- [2026-08-18 18:08:38] lhec106: OCR, ~7506 words
+- [2026-08-18 18:08:50] zeenews: 4520/238571 articles this batch, ~1378663 words this batch (~3287803 total ever)
+- [2026-08-18 18:08:52] vikaspedia (hi): 5500 new URLs processed this batch, ~5564783 words
+- [2026-08-18 18:08:54] lhec2ps: OCR, ~2316 words
+- [2026-08-18 18:09:14] lhec201: OCR, ~3911 words
+- [2026-08-18 18:09:23] vikaspedia (hi): 5520 new URLs processed this batch, ~5607558 words
+- [2026-08-18 18:09:34] zeenews: 4540/238571 articles this batch, ~1384937 words this batch (~3294077 total ever)
+- [2026-08-18 18:09:35] patrika: 3420/12804 articles this batch, ~1815906 words this batch (~4313696 total ever)
+- [2026-08-18 18:09:50] vikaspedia (hi): 5540 new URLs processed this batch, ~5639940 words
+- [2026-08-18 18:10:05] lhec105: OCR, ~9690 words
+- [2026-08-18 18:10:16] vikaspedia (hi): 5560 new URLs processed this batch, ~5673617 words
+- [2026-08-18 18:10:27] zeenews: 4560/238571 articles this batch, ~1390604 words this batch (~3299744 total ever)
+- [2026-08-18 18:10:29] patrika: 3440/12804 articles this batch, ~1827208 words this batch (~4324998 total ever)
+- [2026-08-18 18:10:41] vikaspedia (hi): 5580 new URLs processed this batch, ~5683443 words
+- [2026-08-18 18:10:51] lhec203: OCR, ~8365 words
+- [2026-08-18 18:11:08] vikaspedia (hi): 5600 new URLs processed this batch, ~5755753 words
+- [2026-08-18 18:11:12] zeenews: 4580/238571 articles this batch, ~1396026 words this batch (~3305166 total ever)
+- [2026-08-18 18:11:23] patrika: 3460/12804 articles this batch, ~1838115 words this batch (~4335905 total ever)
+- [2026-08-18 18:11:36] lhec204: OCR, ~8339 words
+- [2026-08-18 18:11:47] vikaspedia (hi): 5620 new URLs processed this batch, ~5774115 words
+- [2026-08-18 18:11:54] zeenews: 4600/238571 articles this batch, ~1403096 words this batch (~3312236 total ever)
+- [2026-08-18 18:12:13] vikaspedia (hi): 5640 new URLs processed this batch, ~5827902 words
+- [2026-08-18 18:12:21] lhec205: OCR, ~8549 words
+- [2026-08-18 18:12:23] patrika: 3480/12804 articles this batch, ~1851054 words this batch (~4348844 total ever)
+- [2026-08-18 18:12:38] vikaspedia (hi): 5660 new URLs processed this batch, ~5850426 words
+- [2026-08-18 18:12:38] zeenews: 4620/238571 articles this batch, ~1408651 words this batch (~3317791 total ever)
+- [2026-08-18 18:13:03] vikaspedia (hi): 5680 new URLs processed this batch, ~5896298 words
+- [2026-08-18 18:13:15] lhbs105: OCR, ~10915 words
+- [2026-08-18 18:13:15] batch progress: 560 new codes attempted (411 extracted, 2522827 words) this batch
+- [2026-08-18 18:13:20] patrika: 3500/12804 articles this batch, ~1862876 words this batch (~4360666 total ever)
+- [2026-08-18 18:13:21] zeenews: 4640/238571 articles this batch, ~1414626 words this batch (~3323766 total ever)
+- [2026-08-18 18:13:31] vikaspedia (hi): 5700 new URLs processed this batch, ~5953926 words
+- [2026-08-18 18:13:58] vikaspedia (hi): 5720 new URLs processed this batch, ~5988548 words
+- [2026-08-18 18:14:04] lhch103: OCR, ~9238 words
+- [2026-08-18 18:14:06] zeenews: 4660/238571 articles this batch, ~1419731 words this batch (~3328871 total ever)
+- [2026-08-18 18:14:12] patrika: 3520/12804 articles this batch, ~1873922 words this batch (~4371712 total ever)
+- [2026-08-18 18:14:20] vikaspedia (hi): 5740 new URLs processed this batch, ~6015824 words
+- [2026-08-18 18:14:35] lhec104: OCR, ~5659 words
+- [2026-08-18 18:14:46] vikaspedia (hi): 5760 new URLs processed this batch, ~6038229 words
+- [2026-08-18 18:14:49] zeenews: 4680/238571 articles this batch, ~1425398 words this batch (~3334538 total ever)
+- [2026-08-18 18:15:05] patrika: 3540/12804 articles this batch, ~1886097 words this batch (~4383887 total ever)
+- [2026-08-18 18:15:18] vikaspedia (hi): 5780 new URLs processed this batch, ~6051438 words
+- [2026-08-18 18:15:43] zeenews: 4700/238571 articles this batch, ~1430766 words this batch (~3339906 total ever)
+- [2026-08-18 18:15:46] lhec202: OCR, ~13377 words
+- [2026-08-18 18:15:46] batch progress: 570 new codes attempted (414 extracted, 2551101 words) this batch
+- [2026-08-18 18:15:47] batch progress: 580 new codes attempted (414 extracted, 2551101 words) this batch
+- [2026-08-18 18:15:48] batch progress: 590 new codes attempted (414 extracted, 2551101 words) this batch
+- [2026-08-18 18:15:49] batch progress: 600 new codes attempted (414 extracted, 2551101 words) this batch
+- [2026-08-18 18:15:50] batch progress: 610 new codes attempted (414 extracted, 2551101 words) this batch
+- [2026-08-18 18:15:54] lhfa101: pdftotext, ~2691 words
+- [2026-08-18 18:15:54] lhfa1ps: pdftotext, ~2025 words
+- [2026-08-18 18:15:55] vikaspedia (hi): 5800 new URLs processed this batch, ~6126348 words
+- [2026-08-18 18:15:58] lhfa106: pdftotext, ~3801 words
+- [2026-08-18 18:16:02] lhfa104: pdftotext, ~2999 words
+- [2026-08-18 18:16:02] lhfa107: pdftotext, ~8489 words
+- [2026-08-18 18:16:02] lhfa103: pdftotext, ~5977 words
+- [2026-08-18 18:16:02] lhfa105: pdftotext, ~5058 words
+- [2026-08-18 18:16:02] batch progress: 620 new codes attempted (421 extracted, 2582141 words) this batch
+- [2026-08-18 18:16:06] patrika: 3560/12804 articles this batch, ~1898509 words this batch (~4396299 total ever)
+- [2026-08-18 18:16:23] vikaspedia (hi): 5820 new URLs processed this batch, ~6167570 words
+- [2026-08-18 18:16:24] lhgy103: OCR, ~3743 words
+- [2026-08-18 18:16:25] zeenews: 4720/238571 articles this batch, ~1436731 words this batch (~3345871 total ever)
+- [2026-08-18 18:16:37] lhgy102: OCR, ~2619 words
+- [2026-08-18 18:16:37] lhfa102: pdftotext, ~6925 words
+- [2026-08-18 18:16:50] vikaspedia (hi): 5840 new URLs processed this batch, ~6199715 words
+- [2026-08-18 18:16:52] lhgy1ps: OCR, ~2138 words
+- [2026-08-18 18:16:52] lhfa108: pdftotext, ~5727 words
+- [2026-08-18 18:16:59] patrika: 3580/12804 articles this batch, ~1910790 words this batch (~4408580 total ever)
+- [2026-08-18 18:17:07] zeenews: 4740/238571 articles this batch, ~1441841 words this batch (~3350981 total ever)
+- [2026-08-18 18:17:12] lhgy106: OCR, ~3952 words
+- [2026-08-18 18:17:31] lhgy105: OCR, ~3382 words
+- [2026-08-18 18:17:31] vikaspedia (hi): 5860 new URLs processed this batch, ~6235540 words
+- [2026-08-18 18:17:46] lhgy2ps: OCR, ~2271 words
+- [2026-08-18 18:17:50] zeenews: 4760/238571 articles this batch, ~1449712 words this batch (~3358852 total ever)
+- [2026-08-18 18:17:55] patrika: 3600/12804 articles this batch, ~1922238 words this batch (~4420028 total ever)
+- [2026-08-18 18:17:56] vikaspedia (hi): 5880 new URLs processed this batch, ~6266468 words
+- [2026-08-18 18:18:14] lhgy201: OCR, ~5129 words
+- [2026-08-18 18:18:20] vikaspedia (hi): 5900 new URLs processed this batch, ~6290002 words
+- [2026-08-18 18:18:26] lhgy202: OCR, ~2343 words
+- [2026-08-18 18:18:26] batch progress: 630 new codes attempted (431 extracted, 2620370 words) this batch
+- [2026-08-18 18:18:37] zeenews: 4780/238571 articles this batch, ~1456277 words this batch (~3365417 total ever)
+- [2026-08-18 18:18:44] vikaspedia (hi): 5920 new URLs processed this batch, ~6313121 words
+- [2026-08-18 18:18:47] patrika: 3620/12804 articles this batch, ~1935309 words this batch (~4433099 total ever)
+- [2026-08-18 18:18:52] lhgy104: OCR, ~4478 words
+- [2026-08-18 18:19:12] lhgy108: OCR, ~3663 words
+- [2026-08-18 18:19:12] vikaspedia (hi): 5940 new URLs processed this batch, ~6329542 words
+- [2026-08-18 18:19:18] zeenews: 4800/238571 articles this batch, ~1463363 words this batch (~3372503 total ever)
+- [2026-08-18 18:19:38] lhgy205: OCR, ~4713 words
+- [2026-08-18 18:19:50] patrika: 3640/12804 articles this batch, ~1946404 words this batch (~4444194 total ever)
+- [2026-08-18 18:19:57] vikaspedia (hi): 5960 new URLs processed this batch, ~6370235 words
+- [2026-08-18 18:19:57] lhgy206: OCR, ~3632 words
+- [2026-08-18 18:20:16] zeenews: 4820/238571 articles this batch, ~1468724 words this batch (~3377864 total ever)
+- [2026-08-18 18:20:25] vikaspedia (hi): 5980 new URLs processed this batch, ~6404883 words
+- [2026-08-18 18:20:38] lhgy203: OCR, ~7696 words
+- [2026-08-18 18:20:51] patrika: 3660/12804 articles this batch, ~1957593 words this batch (~4455383 total ever)
+- [2026-08-18 18:20:52] vikaspedia (hi): 6000 new URLs processed this batch, ~6427991 words
+- [2026-08-18 18:21:00] lhgy207: OCR, ~4274 words
+- [2026-08-18 18:21:04] zeenews: 4840/238571 articles this batch, ~1473383 words this batch (~3382523 total ever)
+- [2026-08-18 18:21:22] vikaspedia (hi): 6020 new URLs processed this batch, ~6455746 words
+- [2026-08-18 18:21:39] lhgy107: OCR, ~7296 words
+- [2026-08-18 18:21:47] zeenews: 4860/238571 articles this batch, ~1478663 words this batch (~3387803 total ever)
+- [2026-08-18 18:21:48] vikaspedia (hi): 6040 new URLs processed this batch, ~6476074 words
+- [2026-08-18 18:21:50] patrika: 3680/12804 articles this batch, ~1969405 words this batch (~4467195 total ever)
+- [2026-08-18 18:21:53] lhgy3ps: OCR, ~1927 words
+- [2026-08-18 18:22:12] vikaspedia (hi): 6060 new URLs processed this batch, ~6504254 words
+- [2026-08-18 18:22:22] lhgy301: OCR, ~4704 words
+- [2026-08-18 18:22:24] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=2800&output=json: <urlopen error timed out>
+- [2026-08-18 18:22:24] dli_books: reached end of search results
+- [2026-08-18 18:22:24] dli_books BATCH COMPLETE: 95 new items processed, ~9534161 words this batch
+- [2026-08-18 18:22:28] zeenews: 4880/238571 articles this batch, ~1483822 words this batch (~3392962 total ever)
+- [2026-08-18 18:22:35] patrika: 3700/12804 articles this batch, ~1975477 words this batch (~4473267 total ever)
+- [2026-08-18 18:22:38] vikaspedia (hi): 6080 new URLs processed this batch, ~6523844 words
+- [2026-08-18 18:22:41] lhgy302: OCR, ~2686 words
+- [2026-08-18 18:22:41] batch progress: 640 new codes attempted (441 extracted, 2665439 words) this batch
+- [2026-08-18 18:22:59] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=2800&output=json: <urlopen error timed out>
+- [2026-08-18 18:22:59] dli_books: reached end of search results
+- [2026-08-18 18:22:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 18:23:09] vikaspedia (hi): 6100 new URLs processed this batch, ~6537250 words
+- [2026-08-18 18:23:11] zeenews: 4900/238571 articles this batch, ~1490643 words this batch (~3399783 total ever)
+- [2026-08-18 18:23:29] patrika: 3720/12804 articles this batch, ~1980668 words this batch (~4478458 total ever)
+- [2026-08-18 18:23:31] lhgy303: OCR, ~6795 words
+- [2026-08-18 18:23:35] vikaspedia (hi): 6120 new URLs processed this batch, ~6547461 words
+- [2026-08-18 18:23:35] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=2800&output=json: The read operation timed out
+- [2026-08-18 18:23:35] dli_books: reached end of search results
+- [2026-08-18 18:23:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 18:23:49] lhgy208: OCR, ~3145 words
+- [2026-08-18 18:23:54] zeenews: 4920/238571 articles this batch, ~1496610 words this batch (~3405750 total ever)
+- [2026-08-18 18:24:00] vikaspedia (hi): 6140 new URLs processed this batch, ~6568363 words
+- [2026-08-18 18:24:04] lhgy101: OCR, ~3032 words
+- [2026-08-18 18:24:11] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=2800&output=json: <urlopen error timed out>
+- [2026-08-18 18:24:11] dli_books: reached end of search results
+- [2026-08-18 18:24:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 18:24:23] patrika: 3740/12804 articles this batch, ~1987110 words this batch (~4484900 total ever)
+- [2026-08-18 18:24:27] vikaspedia (hi): 6160 new URLs processed this batch, ~6597154 words
+- [2026-08-18 18:24:37] zeenews: 4940/238571 articles this batch, ~1502652 words this batch (~3411792 total ever)
+- [2026-08-18 18:24:46] lhgy304: OCR, ~6609 words
+- [2026-08-18 18:24:46] BATCH COMPLETE: 645 new codes attempted this batch (445 extracted, 2685020 words), 14431s elapsed. Overall: 1462/1617 codes resolved so far.
+- [2026-08-18 18:24:55] vikaspedia (hi): 6180 new URLs processed this batch, ~6614770 words
+- [2026-08-18 18:25:19] vikaspedia (hi): 6200 new URLs processed this batch, ~6628894 words
+- [2026-08-18 18:25:21] patrika: 3760/12804 articles this batch, ~1997845 words this batch (~4495635 total ever)
+- [2026-08-18 18:25:21] zeenews: 4960/238571 articles this batch, ~1507962 words this batch (~3417102 total ever)
+- [2026-08-18 18:25:44] vikaspedia (hi): 6220 new URLs processed this batch, ~6651566 words
+- [2026-08-18 18:26:06] zeenews: 4980/238571 articles this batch, ~1515152 words this batch (~3424292 total ever)
+- [2026-08-18 18:26:11] patrika: 3780/12804 articles this batch, ~2008401 words this batch (~4506191 total ever)
+- [2026-08-18 18:26:14] vikaspedia (hi): 6240 new URLs processed this batch, ~6667013 words
+- [2026-08-18 18:26:27] fetch failed https://archive.org/download/in.ernet.dli.2015.349268/2015.349268.Japan-Darpan_djvu.txt: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+- [2026-08-18 18:26:38] vikaspedia (hi): 6260 new URLs processed this batch, ~6694977 words
+- [2026-08-18 18:26:48] zeenews: 5000/238571 articles this batch, ~1522332 words this batch (~3431472 total ever)
+- [2026-08-18 18:27:01] vikaspedia (hi): 6280 new URLs processed this batch, ~6717858 words
+- [2026-08-18 18:27:06] patrika: 3800/12804 articles this batch, ~2020576 words this batch (~4518366 total ever)
+- [2026-08-18 18:27:27] vikaspedia (hi): 6300 new URLs processed this batch, ~6743098 words
+- [2026-08-18 18:27:29] fetch failed https://archive.org/metadata/in.ernet.dli.2015.349742: The read operation timed out
+- [2026-08-18 18:27:32] zeenews: 5020/238571 articles this batch, ~1527598 words this batch (~3436738 total ever)
+- [2026-08-18 18:27:54] vikaspedia (hi): 6320 new URLs processed this batch, ~6760345 words
+- [2026-08-18 18:28:00] patrika: 3820/12804 articles this batch, ~2030662 words this batch (~4528452 total ever)
+- [2026-08-18 18:28:18] zeenews: 5040/238571 articles this batch, ~1534012 words this batch (~3443152 total ever)
+- [2026-08-18 18:28:21] fetch failed https://archive.org/metadata/in.ernet.dli.2015.288461: The read operation timed out
+- [2026-08-18 18:28:24] fetch failed https://archive.org/metadata/in.ernet.dli.2015.308612: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+- [2026-08-18 18:28:37] vikaspedia (hi): 6340 new URLs processed this batch, ~6779864 words
+- [2026-08-18 18:28:54] patrika: 3840/12804 articles this batch, ~2041936 words this batch (~4539726 total ever)
+- [2026-08-18 18:28:55] fetch failed https://archive.org/metadata/in.ernet.dli.2015.403946: <urlopen error timed out>
+- [2026-08-18 18:29:04] zeenews: 5060/238571 articles this batch, ~1539319 words this batch (~3448459 total ever)
+- [2026-08-18 18:29:11] vikaspedia (hi): 6360 new URLs processed this batch, ~6797757 words
+- [2026-08-18 18:29:18] fetch failed https://archive.org/metadata/in.ernet.dli.2015.541091: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+- [2026-08-18 18:29:38] vikaspedia (hi): 6380 new URLs processed this batch, ~6813202 words
+- [2026-08-18 18:29:51] zeenews: 5080/238571 articles this batch, ~1544981 words this batch (~3454121 total ever)
+- [2026-08-18 18:29:57] patrika: 3860/12804 articles this batch, ~2052757 words this batch (~4550547 total ever)
+- [2026-08-18 18:30:04] vikaspedia (hi): 6400 new URLs processed this batch, ~6827319 words
+- [2026-08-18 18:30:10] fetch failed https://archive.org/metadata/in.ernet.dli.2015.404430: The read operation timed out
+- [2026-08-18 18:30:28] vikaspedia (hi): 6420 new URLs processed this batch, ~6843290 words
+- [2026-08-18 18:30:36] zeenews: 5100/238571 articles this batch, ~1550673 words this batch (~3459813 total ever)
+- [2026-08-18 18:30:41] fetch failed https://archive.org/download/in.ernet.dli.2015.343484/2015.343484.Arthrvaved-shatakam_djvu.txt: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+- [2026-08-18 18:30:53] patrika: 3880/12804 articles this batch, ~2062797 words this batch (~4560587 total ever)
+- [2026-08-18 18:30:54] vikaspedia (hi): 6440 new URLs processed this batch, ~6867251 words
+- [2026-08-18 18:31:22] vikaspedia (hi): 6460 new URLs processed this batch, ~6895535 words
+- [2026-08-18 18:31:22] zeenews: 5120/238571 articles this batch, ~1556430 words this batch (~3465570 total ever)
+- [2026-08-18 18:31:38] dli_books in.ernet.dli.2015.430415: ~41652 words
+- [2026-08-18 18:31:49] vikaspedia (hi): 6480 new URLs processed this batch, ~6935875 words
+- [2026-08-18 18:31:52] patrika: 3900/12804 articles this batch, ~2073957 words this batch (~4571747 total ever)
+- [2026-08-18 18:32:07] zeenews: 5140/238571 articles this batch, ~1563853 words this batch (~3472993 total ever)
+- [2026-08-18 18:32:18] vikaspedia (hi): 6500 new URLs processed this batch, ~7066535 words
+- [2026-08-18 18:32:47] vikaspedia (hi): 6520 new URLs processed this batch, ~7088879 words
+- [2026-08-18 18:32:50] zeenews: 5160/238571 articles this batch, ~1568329 words this batch (~3477469 total ever)
+- [2026-08-18 18:32:54] patrika: 3920/12804 articles this batch, ~2084919 words this batch (~4582709 total ever)
+- [2026-08-18 18:32:55] fetch failed https://archive.org/download/in.ernet.dli.2015.309095/2015.309095.Shri-Lad_djvu.txt: The read operation timed out
+- [2026-08-18 18:33:15] vikaspedia (hi): 6540 new URLs processed this batch, ~7110565 words
+- [2026-08-18 18:33:36] zeenews: 5180/238571 articles this batch, ~1574798 words this batch (~3483938 total ever)
+- [2026-08-18 18:33:46] vikaspedia (hi): 6560 new URLs processed this batch, ~7170245 words
+- [2026-08-18 18:33:48] patrika: 3940/12804 articles this batch, ~2096756 words this batch (~4594546 total ever)
+- [2026-08-18 18:33:51] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=3000&output=json: The read operation timed out
+- [2026-08-18 18:33:51] dli_books: reached end of search results
+- [2026-08-18 18:33:51] dli_books BATCH COMPLETE: 7 new items processed, ~41652 words this batch
+- [2026-08-18 18:34:19] zeenews: 5200/238571 articles this batch, ~1580694 words this batch (~3489834 total ever)
+- [2026-08-18 18:34:35] vikaspedia (hi): 6580 new URLs processed this batch, ~7183681 words
+- [2026-08-18 18:34:50] patrika: 3960/12804 articles this batch, ~2108042 words this batch (~4605832 total ever)
+- [2026-08-18 18:35:00] dli_books in.ernet.dli.2015.349268: ~104812 words
+- [2026-08-18 18:35:01] vikaspedia (hi): 6600 new URLs processed this batch, ~7225641 words
+- [2026-08-18 18:35:11] zeenews: 5220/238571 articles this batch, ~1587240 words this batch (~3496380 total ever)
+- [2026-08-18 18:35:25] dli_books in.ernet.dli.2015.343484: ~21873 words
+- [2026-08-18 18:35:25] vikaspedia (hi): 6620 new URLs processed this batch, ~7238186 words
+- [2026-08-18 18:35:30] fetch failed https://archive.org/download/in.ernet.dli.2015.309095/2015.309095.Shri-Lad_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 18:35:40] patrika: 3980/12804 articles this batch, ~2119430 words this batch (~4617220 total ever)
+- [2026-08-18 18:35:50] vikaspedia (hi): 6640 new URLs processed this batch, ~7304086 words
+- [2026-08-18 18:35:53] zeenews: 5240/238571 articles this batch, ~1596045 words this batch (~3505185 total ever)
+- [2026-08-18 18:36:09] dli_books in.ernet.dli.2015.309095: ~110732 words
+- [2026-08-18 18:36:15] vikaspedia (hi): 6660 new URLs processed this batch, ~7344143 words
+- [2026-08-18 18:36:23] dli_books dli.language.1196: ~58506 words
+- [2026-08-18 18:36:37] patrika: 4000/12804 articles this batch, ~2130475 words this batch (~4628265 total ever)
+- [2026-08-18 18:36:40] zeenews: 5260/238571 articles this batch, ~1603393 words this batch (~3512533 total ever)
+- [2026-08-18 18:36:48] vikaspedia (hi): 6680 new URLs processed this batch, ~7353663 words
+- [2026-08-18 18:37:14] vikaspedia (hi): 6700 new URLs processed this batch, ~7364475 words
+- [2026-08-18 18:37:24] zeenews: 5280/238571 articles this batch, ~1610677 words this batch (~3519817 total ever)
+- [2026-08-18 18:37:34] patrika: 4020/12804 articles this batch, ~2141458 words this batch (~4639248 total ever)
+- [2026-08-18 18:37:42] vikaspedia (hi): 6720 new URLs processed this batch, ~7396995 words
+- [2026-08-18 18:38:05] vikaspedia (hi): 6740 new URLs processed this batch, ~7413319 words
+- [2026-08-18 18:38:05] zeenews: 5300/238571 articles this batch, ~1615553 words this batch (~3524693 total ever)
+- [2026-08-18 18:38:27] vikaspedia (hi): 6760 new URLs processed this batch, ~7426439 words
+- [2026-08-18 18:38:33] patrika: 4040/12804 articles this batch, ~2153448 words this batch (~4651238 total ever)
+- [2026-08-18 18:38:45] zeenews: 5320/238571 articles this batch, ~1621472 words this batch (~3530612 total ever)
+- [2026-08-18 18:38:49] vikaspedia (hi): 6780 new URLs processed this batch, ~7450178 words
+- [2026-08-18 18:39:20] vikaspedia (hi): 6800 new URLs processed this batch, ~7501969 words
+- [2026-08-18 18:39:21] patrika: 4060/12804 articles this batch, ~2166217 words this batch (~4664007 total ever)
+- [2026-08-18 18:39:30] zeenews: 5340/238571 articles this batch, ~1626707 words this batch (~3535847 total ever)
+- [2026-08-18 18:39:52] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=3600&output=json: <urlopen error timed out>
+- [2026-08-18 18:39:52] dli_books: reached end of search results
+- [2026-08-18 18:39:52] dli_books BATCH COMPLETE: 4 new items processed, ~295923 words this batch
+- [2026-08-18 18:39:58] vikaspedia (hi): 6820 new URLs processed this batch, ~7502096 words
+- [2026-08-18 18:40:05] BATCH COMPLETE: 6825 new URLs processed, ~7504838 words this batch
+- [2026-08-18 18:40:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:13] patrika: 4080/12804 articles this batch, ~2177612 words this batch (~4675402 total ever)
+- [2026-08-18 18:40:16] BATCH COMPLETE: 3 new URLs processed, ~6596 words this batch
+- [2026-08-18 18:40:18] zeenews: 5360/238571 articles this batch, ~1632774 words this batch (~3541914 total ever)
+- [2026-08-18 18:40:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:40:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:40:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:40:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:40:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:40:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:40:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:03] zeenews: 5380/238571 articles this batch, ~1638416 words this batch (~3547556 total ever)
+- [2026-08-18 18:41:08] patrika: 4100/12804 articles this batch, ~2189796 words this batch (~4687586 total ever)
+- [2026-08-18 18:41:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:43] zeenews: 5400/238571 articles this batch, ~1644345 words this batch (~3553485 total ever)
+- [2026-08-18 18:41:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:41:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:41:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:05] patrika: 4120/12804 articles this batch, ~2198732 words this batch (~4696522 total ever)
+- [2026-08-18 18:42:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:26] zeenews: 5420/238571 articles this batch, ~1649737 words this batch (~3558877 total ever)
+- [2026-08-18 18:42:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:42:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:42:58] patrika: 4140/12804 articles this batch, ~2203803 words this batch (~4701593 total ever)
+- [2026-08-18 18:43:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:10] zeenews: 5440/238571 articles this batch, ~1655237 words this batch (~3564377 total ever)
+- [2026-08-18 18:43:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:45] fetch failed https://archive.org/advancedsearch.php?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fl%5B%5D=identifier&rows=100&start=4100&output=json: <urlopen error timed out>
+- [2026-08-18 18:43:45] dli_books: reached end of search results
+- [2026-08-18 18:43:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 18:43:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:52] zeenews: 5460/238571 articles this batch, ~1660299 words this batch (~3569439 total ever)
+- [2026-08-18 18:43:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:43:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:43:56] patrika: 4160/12804 articles this batch, ~2209783 words this batch (~4707573 total ever)
+- [2026-08-18 18:44:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:44:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:44:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:44:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:44:34] zeenews: 5480/238571 articles this batch, ~1667648 words this batch (~3576788 total ever)
+- [2026-08-18 18:44:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:44:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:44:43] patrika: 4180/12804 articles this batch, ~2219162 words this batch (~4716952 total ever)
+- [2026-08-18 18:44:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:44:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:10] NCERT Hindi catalog: 1617 chapter/prelim codes across 153 books (1462 already resolved from prior batches)
+- [2026-08-18 18:45:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:20] zeenews: 5500/238571 articles this batch, ~1673692 words this batch (~3582832 total ever)
+- [2026-08-18 18:45:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:43] patrika: 4200/12804 articles this batch, ~2229234 words this batch (~4727024 total ever)
+- [2026-08-18 18:45:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:45:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:45:56] lhgy204: OCR, ~5479 words
+- [2026-08-18 18:46:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:46:05] zeenews: 5520/238571 articles this batch, ~1680042 words this batch (~3589182 total ever)
+- [2026-08-18 18:46:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:46:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:46:21] lhhs1ps: OCR, ~3929 words
+- [2026-08-18 18:46:21] batch progress: 10 new codes attempted (2 extracted, 9408 words) this batch
+- [2026-08-18 18:46:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:46:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:46:48] lhgy209: OCR, ~5286 words
+- [2026-08-18 18:46:49] patrika: 4220/12804 articles this batch, ~2239434 words this batch (~4737224 total ever)
+- [2026-08-18 18:46:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:46:50] zeenews: 5540/238571 articles this batch, ~1685113 words this batch (~3594253 total ever)
+- [2026-08-18 18:46:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:46:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:37] zeenews: 5560/238571 articles this batch, ~1691916 words this batch (~3601056 total ever)
+- [2026-08-18 18:47:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:47] patrika: 4240/12804 articles this batch, ~2250291 words this batch (~4748081 total ever)
+- [2026-08-18 18:47:48] lhhs104: OCR, ~9738 words
+- [2026-08-18 18:47:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:47:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:47:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:22] zeenews: 5580/238571 articles this batch, ~1698505 words this batch (~3607645 total ever)
+- [2026-08-18 18:48:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:45] patrika: 4260/12804 articles this batch, ~2261041 words this batch (~4758831 total ever)
+- [2026-08-18 18:48:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:49] lhhs101: OCR, ~10498 words
+- [2026-08-18 18:48:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:48:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:48:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:05] zeenews: 5600/238571 articles this batch, ~1703450 words this batch (~3612590 total ever)
+- [2026-08-18 18:49:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:44] patrika: 4280/12804 articles this batch, ~2271635 words this batch (~4769425 total ever)
+- [2026-08-18 18:49:46] lhhs103: OCR, ~11163 words
+- [2026-08-18 18:49:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:49:48] zeenews: 5620/238571 articles this batch, ~1707944 words this batch (~3617084 total ever)
+- [2026-08-18 18:49:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:49:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:39] lhhs102: OCR, ~9554 words
+- [2026-08-18 18:50:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:50:42] patrika: 4300/12804 articles this batch, ~2282244 words this batch (~4780034 total ever)
+- [2026-08-18 18:50:42] zeenews: 5640/238571 articles this batch, ~1716286 words this batch (~3625426 total ever)
+- [2026-08-18 18:50:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:50:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:28] zeenews: 5660/238571 articles this batch, ~1722382 words this batch (~3631522 total ever)
+- [2026-08-18 18:51:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:32] lhhs201: OCR, ~10383 words
+- [2026-08-18 18:51:34] dli_books dli.ernet.473491: ~28269 words
+- [2026-08-18 18:51:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:43] patrika: 4320/12804 articles this batch, ~2294261 words this batch (~4792051 total ever)
+- [2026-08-18 18:51:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:51:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:51:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:08] fetch failed https://archive.org/download/dli.language.1114/dli.language.1114_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 18:52:10] zeenews: 5680/238571 articles this batch, ~1728129 words this batch (~3637269 total ever)
+- [2026-08-18 18:52:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:32] lhhs204: OCR, ~11473 words
+- [2026-08-18 18:52:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:39] fetch failed https://archive.org/download/dli.ministry.17664/ignca-r321-rb_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 18:52:40] patrika: 4340/12804 articles this batch, ~2305951 words this batch (~4803741 total ever)
+- [2026-08-18 18:52:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:52] zeenews: 5700/238571 articles this batch, ~1733535 words this batch (~3642675 total ever)
+- [2026-08-18 18:52:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:52:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:52:59] lhhs3ps: OCR, ~3711 words
+- [2026-08-18 18:53:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:29] fetch failed https://archive.org/metadata/in.ernet.dli.2015.483089: <urlopen error _ssl.c:1064: The handshake operation timed out>
+- [2026-08-18 18:53:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:39] zeenews: 5720/238571 articles this batch, ~1739585 words this batch (~3648725 total ever)
+- [2026-08-18 18:53:39] patrika: 4360/12804 articles this batch, ~2317067 words this batch (~4814857 total ever)
+- [2026-08-18 18:53:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:53:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:53:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:08] fetch failed https://archive.org/download/in.ernet.dli.2015.404644/2015.404644.Sarnath-Ka_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 18:54:10] lhhs301: OCR, ~13736 words
+- [2026-08-18 18:54:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:20] dli_books in.ernet.dli.2015.262827: ~89180 words
+- [2026-08-18 18:54:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:23] zeenews: 5740/238571 articles this batch, ~1745437 words this batch (~3654577 total ever)
+- [2026-08-18 18:54:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:31] fetch failed https://archive.org/download/sahitya-aur-visthapan-sandarbh-kashmir-bhushan-lal-kaul/Sahitya%20Aur%20Visthapan%20Sandarbh%20Kashmir%20-%20Bhushan%20Lal%20Kaul_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 18:54:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:40] patrika: 4380/12804 articles this batch, ~2327934 words this batch (~4825724 total ever)
+- [2026-08-18 18:54:42] dli_books vivah-sanskar-vidhi-kashmiri-kritya-durgalal-sharma-raj-purohit-mattoo: ~57127 words
+- [2026-08-18 18:54:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:49] dli_books in.ernet.dli.2015.489834: ~33776 words
+- [2026-08-18 18:54:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:54:55] dli_books in.ernet.dli.2015.381042: ~10 words
+- [2026-08-18 18:54:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:54:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:07] zeenews: 5760/238571 articles this batch, ~1750127 words this batch (~3659267 total ever)
+- [2026-08-18 18:55:08] dli_books in.ernet.dli.2015.444182: ~817303 words
+- [2026-08-18 18:55:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:11] lhhs302: OCR, ~11518 words
+- [2026-08-18 18:55:11] batch progress: 20 new codes attempted (12 extracted, 106468 words) this batch
+- [2026-08-18 18:55:15] dli_books dli.language.1205: ~31932 words
+- [2026-08-18 18:55:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:23] dli_books in.ernet.dli.2015.262826: ~67740 words
+- [2026-08-18 18:55:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:29] dli_books om-hyanze-vanvun-pushkar-nath-raina: ~38260 words
+- [2026-08-18 18:55:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:37] dli_books shri-bhatt-khand-kavya-prithvi-nath-madhup: ~7481 words
+- [2026-08-18 18:55:39] patrika: 4400/12804 articles this batch, ~2338855 words this batch (~4836645 total ever)
+- [2026-08-18 18:55:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:47] dli_books in.ernet.dli.2015.483001: ~92653 words
+- [2026-08-18 18:55:48] zeenews: 5780/238571 articles this batch, ~1755816 words this batch (~3664956 total ever)
+- [2026-08-18 18:55:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:55:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:55:58] dli_books dli.language.0839: ~4292 words
+- [2026-08-18 18:56:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:05] dli_books dli.ernet.476809: ~78274 words
+- [2026-08-18 18:56:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:13] dli_books in.ernet.dli.2015.476845: ~83807 words
+- [2026-08-18 18:56:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:21] dli_books in.ernet.dli.2015.403018: ~120640 words
+- [2026-08-18 18:56:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:28] dli_books randomly-around-kashmir-dr.-r.-l.-bhat: ~54177 words
+- [2026-08-18 18:56:31] zeenews: 5800/238571 articles this batch, ~1761515 words this batch (~3670655 total ever)
+- [2026-08-18 18:56:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:35] dli_books in.ernet.dli.2015.476846: ~90453 words
+- [2026-08-18 18:56:36] patrika: 4420/12804 articles this batch, ~2349870 words this batch (~4847660 total ever)
+- [2026-08-18 18:56:36] lhhs303: OCR, ~13380 words
+- [2026-08-18 18:56:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:43] dli_books in.ernet.dli.2015.307395: ~3572 words
+- [2026-08-18 18:56:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:56:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:56:56] dli_books in.ernet.dli.2015.445856: ~41388 words
+- [2026-08-18 18:57:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:11] dli_books in.ernet.dli.2015.400815: ~186852 words
+- [2026-08-18 18:57:14] zeenews: 5820/238571 articles this batch, ~1767528 words this batch (~3676668 total ever)
+- [2026-08-18 18:57:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:18] dli_books in.ernet.dli.2015.484030: ~53589 words
+- [2026-08-18 18:57:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:23] dli_books in.ernet.dli.2015.377507: ~22 words
+- [2026-08-18 18:57:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:31] dli_books in.ernet.dli.2015.480609: ~92273 words
+- [2026-08-18 18:57:33] patrika: 4440/12804 articles this batch, ~2360897 words this batch (~4858687 total ever)
+- [2026-08-18 18:57:37] lhhs304: OCR, ~11459 words
+- [2026-08-18 18:57:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:45] dli_books in.ernet.dli.2015.444093: ~128918 words
+- [2026-08-18 18:57:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:57:55] dli_books in.ernet.dli.2015.489895: ~249209 words
+- [2026-08-18 18:57:56] zeenews: 5840/238571 articles this batch, ~1773539 words this batch (~3682679 total ever)
+- [2026-08-18 18:57:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:57:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:04] dli_books in.ernet.dli.2015.342618: ~69725 words
+- [2026-08-18 18:58:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:13] dli_books in.ernet.dli.2015.343779: ~51052 words
+- [2026-08-18 18:58:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:20] dli_books in.ernet.dli.2015.349910: ~52882 words
+- [2026-08-18 18:58:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:26] lhhs203: OCR, ~7755 words
+- [2026-08-18 18:58:27] batch progress: 30 new codes attempted (15 extracted, 139062 words) this batch
+- [2026-08-18 18:58:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:31] dli_books in.ernet.dli.2015.346171: ~57834 words
+- [2026-08-18 18:58:35] patrika: 4460/12804 articles this batch, ~2372997 words this batch (~4870787 total ever)
+- [2026-08-18 18:58:36] zeenews: 5860/238571 articles this batch, ~1778227 words this batch (~3687367 total ever)
+- [2026-08-18 18:58:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:38] dli_books in.ernet.dli.2015.401810: ~46536 words
+- [2026-08-18 18:58:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:45] dli_books in.ernet.dli.2015.346376: ~158469 words
+- [2026-08-18 18:58:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:52] dli_books in.ernet.dli.2015.349278: ~188141 words
+- [2026-08-18 18:58:52] lhhs2ps: OCR, ~3741 words
+- [2026-08-18 18:58:53] batch progress: 40 new codes attempted (16 extracted, 142803 words) this batch
+- [2026-08-18 18:58:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:58:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:58:59] dli_books in.ernet.dli.2015.307842: ~18635 words
+- [2026-08-18 18:59:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:07] dli_books in.ernet.dli.2015.538772: ~186655 words
+- [2026-08-18 18:59:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:19] zeenews: 5880/238571 articles this batch, ~1783268 words this batch (~3692408 total ever)
+- [2026-08-18 18:59:19] dli_books in.ernet.dli.2015.381194: ~51 words
+- [2026-08-18 18:59:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:25] dli_books in.ernet.dli.2015.482467: ~64150 words
+- [2026-08-18 18:59:30] patrika: 4480/12804 articles this batch, ~2385775 words this batch (~4883565 total ever)
+- [2026-08-18 18:59:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:32] dli_books in.ernet.dli.2015.341755: ~57520 words
+- [2026-08-18 18:59:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:38] dli_books in.ernet.dli.2015.308120: ~74787 words
+- [2026-08-18 18:59:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:44] dli_books in.ernet.dli.2015.482575: ~25884 words
+- [2026-08-18 18:59:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 18:59:52] dli_books in.ernet.dli.2015.478419: ~29245 words
+- [2026-08-18 18:59:53] lhhs202: OCR, ~10946 words
+- [2026-08-18 18:59:54] batch progress: 50 new codes attempted (17 extracted, 153749 words) this batch
+- [2026-08-18 18:59:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 18:59:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:01] dli_books in.ernet.dli.2015.409741: ~40725 words
+- [2026-08-18 19:00:01] zeenews: 5900/238571 articles this batch, ~1789648 words this batch (~3698788 total ever)
+- [2026-08-18 19:00:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:08] dli_books in.ernet.dli.2015.403580: ~101232 words
+- [2026-08-18 19:00:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:14] lhmh1ps: OCR, ~2910 words
+- [2026-08-18 19:00:14] dli_books in.ernet.dli.2015.345811: ~109712 words
+- [2026-08-18 19:00:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:20] dli_books in.ernet.dli.2015.319899: ~14192 words
+- [2026-08-18 19:00:25] patrika: 4500/12804 articles this batch, ~2397103 words this batch (~4894893 total ever)
+- [2026-08-18 19:00:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:28] dli_books in.ernet.dli.2015.319956: ~34548 words
+- [2026-08-18 19:00:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:35] dli_books in.ernet.dli.2015.428087: ~80472 words
+- [2026-08-18 19:00:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:41] dli_books in.ernet.dli.2015.429124: ~61289 words
+- [2026-08-18 19:00:45] lhmh101: OCR, ~7571 words
+- [2026-08-18 19:00:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:49] dli_books in.ernet.dli.2015.401507: ~194613 words
+- [2026-08-18 19:00:51] zeenews: 5920/238571 articles this batch, ~1794361 words this batch (~3703501 total ever)
+- [2026-08-18 19:00:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:00:55] dli_books in.ernet.dli.2015.401499: ~68724 words
+- [2026-08-18 19:00:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:00:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:03] dli_books in.ernet.dli.2015.445737: ~132326 words
+- [2026-08-18 19:01:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:09] dli_books in.ernet.dli.2015.429655: ~48325 words
+- [2026-08-18 19:01:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:15] dli_books in.ernet.dli.2015.377587: ~0 words
+- [2026-08-18 19:01:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:21] patrika: 4520/12804 articles this batch, ~2408533 words this batch (~4906323 total ever)
+- [2026-08-18 19:01:22] dli_books in.ernet.dli.2015.472716: ~223091 words
+- [2026-08-18 19:01:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:34] zeenews: 5940/238571 articles this batch, ~1799165 words this batch (~3708305 total ever)
+- [2026-08-18 19:01:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:40] lhmh106: OCR, ~12240 words
+- [2026-08-18 19:01:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:52] dli_books in.ernet.dli.2015.427533: ~62597 words
+- [2026-08-18 19:01:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:01:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:01:58] lhmh2ps: OCR, ~3042 words
+- [2026-08-18 19:01:58] dli_books in.ernet.dli.2015.525892: ~16307 words
+- [2026-08-18 19:02:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:09] dli_books in.ernet.dli.2015.440892: ~190137 words
+- [2026-08-18 19:02:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:14] patrika: 4540/12804 articles this batch, ~2419126 words this batch (~4916916 total ever)
+- [2026-08-18 19:02:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:19] zeenews: 5960/238571 articles this batch, ~1806750 words this batch (~3715890 total ever)
+- [2026-08-18 19:02:19] dli_books in.ernet.dli.2015.346089: ~254324 words
+- [2026-08-18 19:02:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:34] dli_books in.ernet.dli.2015.341945: ~442128 words
+- [2026-08-18 19:02:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:44] dli_books in.ernet.dli.2015.350008: ~351840 words
+- [2026-08-18 19:02:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:02:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:02:56] dli_books in.ernet.dli.2015.268961: ~74573 words
+- [2026-08-18 19:02:57] lhmh105: OCR, ~12198 words
+- [2026-08-18 19:02:57] batch progress: 60 new codes attempted (22 extracted, 191710 words) this batch
+- [2026-08-18 19:03:01] zeenews: 5980/238571 articles this batch, ~1812507 words this batch (~3721647 total ever)
+- [2026-08-18 19:03:04] patrika: 4560/12804 articles this batch, ~2425768 words this batch (~4923558 total ever)
+- [2026-08-18 19:03:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:08] lhmh202: OCR, ~1912 words
+- [2026-08-18 19:03:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:11] dli_books in.ernet.dli.2015.320424: ~242181 words
+- [2026-08-18 19:03:16] fetch failed https://archive.org/download/in.ernet.dli.2015.441879/2015.441879.Naya-Chakrasar_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 19:03:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:24] dli_books in.ernet.dli.2015.444994: ~45048 words
+- [2026-08-18 19:03:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:31] dli_books in.ernet.dli.2015.428223: ~34718 words
+- [2026-08-18 19:03:36] dli_books in.ernet.dli.2015.377661: ~64 words
+- [2026-08-18 19:03:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:43] zeenews: 6000/238571 articles this batch, ~1817842 words this batch (~3726982 total ever)
+- [2026-08-18 19:03:43] dli_books in.ernet.dli.2015.271983: ~59464 words
+- [2026-08-18 19:03:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:03:54] dli_books in.ernet.dli.2015.428196: ~11022 words
+- [2026-08-18 19:03:55] lhmh203: OCR, ~8652 words
+- [2026-08-18 19:03:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:03:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:03] patrika: 4580/12804 articles this batch, ~2433019 words this batch (~4930809 total ever)
+- [2026-08-18 19:04:04] dli_books in.ernet.dli.2015.480688: ~161924 words
+- [2026-08-18 19:04:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:10] dli_books in.ernet.dli.2015.309291: ~32132 words
+- [2026-08-18 19:04:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:18] dli_books dli.ernet.430253: ~241955 words
+- [2026-08-18 19:04:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:24] zeenews: 6020/238571 articles this batch, ~1822748 words this batch (~3731888 total ever)
+- [2026-08-18 19:04:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:27] dli_books in.ernet.dli.2015.429452: ~213838 words
+- [2026-08-18 19:04:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:34] dli_books in.ernet.dli.2015.343463: ~136786 words
+- [2026-08-18 19:04:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:43] dli_books in.ernet.dli.2015.404353: ~28178 words
+- [2026-08-18 19:04:44] lhmh204: OCR, ~9792 words
+- [2026-08-18 19:04:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:04:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:04:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:05:01] patrika: 4600/12804 articles this batch, ~2441013 words this batch (~4938803 total ever)
+- [2026-08-18 19:05:06] lhmh205: OCR, ~4136 words
+- [2026-08-18 19:05:18] dli_books in.ernet.dli.2015.540570: ~71482 words
+- [2026-08-18 19:05:21] zeenews: 6040/238571 articles this batch, ~1828146 words this batch (~3737286 total ever)
+- [2026-08-18 19:05:23] lhmh206: OCR, ~3560 words
+- [2026-08-18 19:05:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:05:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:05:55] dli_books in.ernet.dli.2015.343727: ~406899 words
+- [2026-08-18 19:06:00] lhmh104: OCR, ~6374 words
+- [2026-08-18 19:06:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:12] dli_books in.ernet.dli.2015.402782: ~66269 words
+- [2026-08-18 19:06:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:16] zeenews: 6060/238571 articles this batch, ~1833758 words this batch (~3742898 total ever)
+- [2026-08-18 19:06:16] patrika: 4620/12804 articles this batch, ~2452695 words this batch (~4950485 total ever)
+- [2026-08-18 19:06:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:21] dli_books in.ernet.dli.2015.464287: ~158963 words
+- [2026-08-18 19:06:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:31] dli_books in.ernet.dli.2015.347234: ~59022 words
+- [2026-08-18 19:06:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:45] dli_books in.ernet.dli.2015.400231: ~211747 words
+- [2026-08-18 19:06:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:49] lhmh207: OCR, ~10836 words
+- [2026-08-18 19:06:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:06:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:06:55] dli_books in.ernet.dli.2015.341417: ~90215 words
+- [2026-08-18 19:06:58] zeenews: 6080/238571 articles this batch, ~1840532 words this batch (~3749672 total ever)
+- [2026-08-18 19:07:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:03] dli_books in.ernet.dli.2015.320368: ~41411 words
+- [2026-08-18 19:07:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:10] dli_books in.ernet.dli.2015.347178: ~9918 words
+- [2026-08-18 19:07:10] lhmh102: OCR, ~4061 words
+- [2026-08-18 19:07:11] patrika: 4640/12804 articles this batch, ~2463584 words this batch (~4961374 total ever)
+- [2026-08-18 19:07:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:16] dli_books in.ernet.dli.2015.428870: ~22624 words
+- [2026-08-18 19:07:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:21] dli_books in.ernet.dli.2015.379899: ~7 words
+- [2026-08-18 19:07:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:33] dli_books in.ernet.dli.2015.464119: ~338594 words
+- [2026-08-18 19:07:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:40] zeenews: 6100/238571 articles this batch, ~1845875 words this batch (~3755015 total ever)
+- [2026-08-18 19:07:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:07:42] dli_books in.ernet.dli.2015.480037: ~54163 words
+- [2026-08-18 19:07:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:07:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:08:06] patrika: 4660/12804 articles this batch, ~2474900 words this batch (~4972690 total ever)
+- [2026-08-18 19:08:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:08:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:08:32] dli_books in.ernet.dli.2015.445539: ~217554 words
+- [2026-08-18 19:08:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:08:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:08:40] dli_books in.ernet.dli.2015.340911: ~19525 words
+- [2026-08-18 19:08:40] zeenews: 6120/238571 articles this batch, ~1851840 words this batch (~3760980 total ever)
+- [2026-08-18 19:08:40] lhph101: OCR, ~20340 words
+- [2026-08-18 19:08:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:08:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:08:47] dli_books in.ernet.dli.2015.540374: ~25988 words
+- [2026-08-18 19:08:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:08:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:08:56] dli_books in.ernet.dli.2015.479753: ~239158 words
+- [2026-08-18 19:09:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:09:04] dli_books in.ernet.dli.2015.346302: ~101904 words
+- [2026-08-18 19:09:09] patrika: 4680/12804 articles this batch, ~2485992 words this batch (~4983782 total ever)
+- [2026-08-18 19:09:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:09:11] dli_books in.ernet.dli.2015.525414: ~53540 words
+- [2026-08-18 19:09:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:09:20] dli_books in.ernet.dli.2015.483204: ~62897 words
+- [2026-08-18 19:09:26] zeenews: 6140/238571 articles this batch, ~1859471 words this batch (~3768611 total ever)
+- [2026-08-18 19:09:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:09:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:09:36] dli_books dli.language.1114: ~96749 words
+- [2026-08-18 19:09:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:09:43] dli_books in.ernet.dli.2015.404644: ~42089 words
+- [2026-08-18 19:09:52] dli_books sahitya-aur-visthapan-sandarbh-kashmir-bhushan-lal-kaul: ~42732 words
+- [2026-08-18 19:09:53] lhph102: OCR, ~15321 words
+- [2026-08-18 19:09:53] batch progress: 70 new codes attempted (32 extracted, 276694 words) this batch
+- [2026-08-18 19:09:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:09:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:10:06] dli_books in.ernet.dli.2015.483217: ~98683 words
+- [2026-08-18 19:10:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:10:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:10:11] patrika: 4700/12804 articles this batch, ~2497547 words this batch (~4995337 total ever)
+- [2026-08-18 19:10:18] zeenews: 6160/238571 articles this batch, ~1865884 words this batch (~3775024 total ever)
+- [2026-08-18 19:10:27] dli_books in.ernet.dli.2015.262941: ~67740 words
+- [2026-08-18 19:10:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:10:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:10:36] dli_books in.gov.ignca.279: ~0 words
+- [2026-08-18 19:10:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:10:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:10:44] dli_books vani-vitsata-ki-kashmiri-lok-geet-prithvi-nath-madhup: ~15721 words
+- [2026-08-18 19:10:52] lhph104: OCR, ~12820 words
+- [2026-08-18 19:10:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:10:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:10:57] dli_books dli.ministry.17664: ~28044 words
+- [2026-08-18 19:11:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:04] dli_books gyan-prakash-kashmiri-kamala-raina: ~19841 words
+- [2026-08-18 19:11:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:15] dli_books dli.language.0693: ~219834 words
+- [2026-08-18 19:11:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:18] patrika: 4720/12804 articles this batch, ~2508497 words this batch (~5006287 total ever)
+- [2026-08-18 19:11:19] zeenews: 6180/238571 articles this batch, ~1870514 words this batch (~3779654 total ever)
+- [2026-08-18 19:11:21] dli_books in.ernet.dli.2015.308659: ~38977 words
+- [2026-08-18 19:11:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:25] lhph105: OCR, ~6934 words
+- [2026-08-18 19:11:29] dli_books in.ernet.dli.2015.349068: ~87855 words
+- [2026-08-18 19:11:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:33] dli_books in.ernet.dli.2015.483076: ~18 words
+- [2026-08-18 19:11:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:46] dli_books in.ernet.dli.2015.308105: ~112727 words
+- [2026-08-18 19:11:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:11:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:11:58] dli_books in.ernet.dli.2015.342394: ~220544 words
+- [2026-08-18 19:12:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:12:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:12:06] zeenews: 6200/238571 articles this batch, ~1876593 words this batch (~3785733 total ever)
+- [2026-08-18 19:12:07] dli_books in.ernet.dli.2015.307178: ~6173 words
+- [2026-08-18 19:12:08] lhph106: OCR, ~8847 words
+- [2026-08-18 19:12:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:12:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:12:11] patrika: 4740/12804 articles this batch, ~2519739 words this batch (~5017529 total ever)
+- [2026-08-18 19:12:15] dli_books in.ernet.dli.2015.401266: ~177385 words
+- [2026-08-18 19:12:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:12:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:12:20] dli_books in.ernet.dli.2015.481072: ~30466 words
+- [2026-08-18 19:12:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:12:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:12:30] dli_books in.ernet.dli.2015.539158: ~54669 words
+- [2026-08-18 19:12:41] dli_books in.ernet.dli.2015.343723: ~24973 words
+- [2026-08-18 19:12:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:12:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:12:50] zeenews: 6220/238571 articles this batch, ~1882304 words this batch (~3791444 total ever)
+- [2026-08-18 19:12:51] lhph107: OCR, ~9294 words
+- [2026-08-18 19:12:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:12:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:12:54] dli_books in.ernet.dli.2015.269396: ~79376 words
+- [2026-08-18 19:13:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:13:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:13:17] patrika: 4760/12804 articles this batch, ~2531399 words this batch (~5029189 total ever)
+- [2026-08-18 19:13:21] lhph108: OCR, ~6575 words
+- [2026-08-18 19:13:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:13:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:13:24] dli_books in.ernet.dli.2015.403641: ~172540 words
+- [2026-08-18 19:13:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:13:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:13:34] dli_books in.ernet.dli.2015.377866: ~2 words
+- [2026-08-18 19:13:41] lhph2ps: OCR, ~3394 words
+- [2026-08-18 19:13:43] dli_books in.ernet.dli.2015.480354: ~74458 words
+- [2026-08-18 19:13:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:13:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:13:43] zeenews: 6240/238571 articles this batch, ~1885547 words this batch (~3794687 total ever)
+- [2026-08-18 19:13:49] dli_books in.ernet.dli.2015.401315: ~50676 words
+- [2026-08-18 19:13:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:13:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:13:55] dli_books in.ernet.dli.2015.380461: ~0 words
+- [2026-08-18 19:14:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:14:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:14:13] patrika: 4780/12804 articles this batch, ~2543025 words this batch (~5040815 total ever)
+- [2026-08-18 19:14:18] dli_books in.ernet.dli.2015.493883: ~171338 words
+- [2026-08-18 19:14:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:14:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:14:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:14:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:14:34] dli_books in.ernet.dli.2015.442414: ~78999 words
+- [2026-08-18 19:14:35] zeenews: 6260/238571 articles this batch, ~1890580 words this batch (~3799720 total ever)
+- [2026-08-18 19:14:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:14:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:14:42] lhph201: OCR, ~12856 words
+- [2026-08-18 19:14:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:14:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:14:53] dli_books in.ernet.dli.2015.493929: ~92978 words
+- [2026-08-18 19:14:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:14:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:15:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:08] dli_books in.ernet.dli.2015.482018: ~39425 words
+- [2026-08-18 19:15:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:15:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:15] patrika: 4800/12804 articles this batch, ~2553499 words this batch (~5051289 total ever)
+- [2026-08-18 19:15:18] dli_books dli.ernet.525468: ~39501 words
+- [2026-08-18 19:15:18] lhph202: OCR, ~7771 words
+- [2026-08-18 19:15:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:15:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:21] zeenews: 6280/238571 articles this batch, ~1895395 words this batch (~3804535 total ever)
+- [2026-08-18 19:15:25] dli_books in.ernet.dli.2015.378089: ~4 words
+- [2026-08-18 19:15:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:15:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:15:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:49] dli_books in.ernet.dli.2015.402804: ~353210 words
+- [2026-08-18 19:15:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:15:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:15:54] lhph203: OCR, ~7449 words
+- [2026-08-18 19:16:01] dli_books dli.ernet.241864: ~154623 words
+- [2026-08-18 19:16:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:16:08] zeenews: 6300/238571 articles this batch, ~1901502 words this batch (~3810642 total ever)
+- [2026-08-18 19:16:13] patrika: 4820/12804 articles this batch, ~2564376 words this batch (~5062166 total ever)
+- [2026-08-18 19:16:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:16:17] dli_books in.ernet.dli.2015.445555: ~205408 words
+- [2026-08-18 19:16:23] dli_books dli.ernet.473417: ~21428 words
+- [2026-08-18 19:16:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:16:28] lhph204: OCR, ~7144 words
+- [2026-08-18 19:16:28] batch progress: 80 new codes attempted (42 extracted, 359778 words) this batch
+- [2026-08-18 19:16:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:16:38] dli_books in.ernet.dli.2015.545630: ~55486 words
+- [2026-08-18 19:16:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:16:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:16:53] dli_books in.ernet.dli.2015.430266: ~328373 words
+- [2026-08-18 19:16:57] zeenews: 6320/238571 articles this batch, ~1908284 words this batch (~3817424 total ever)
+- [2026-08-18 19:16:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:16:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:03] lhph205: OCR, ~7646 words
+- [2026-08-18 19:17:03] dli_books in.ernet.dli.2015.480747: ~60126 words
+- [2026-08-18 19:17:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:17:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:12] patrika: 4840/12804 articles this batch, ~2575349 words this batch (~5073139 total ever)
+- [2026-08-18 19:17:13] dli_books in.ernet.dli.2015.400514: ~198126 words
+- [2026-08-18 19:17:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:17:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:21] dli_books in.ernet.dli.2015.378568: ~10 words
+- [2026-08-18 19:17:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:17:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:27] dli_books in.ernet.dli.2015.346329: ~51281 words
+- [2026-08-18 19:17:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:17:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:37] dli_books in.ernet.dli.2015.479686: ~175944 words
+- [2026-08-18 19:17:39] zeenews: 6340/238571 articles this batch, ~1913552 words this batch (~3822692 total ever)
+- [2026-08-18 19:17:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:17:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:43] dli_books in.ernet.dli.2015.347965: ~51082 words
+- [2026-08-18 19:17:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:17:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:17:48] lhph206: OCR, ~9625 words
+- [2026-08-18 19:17:53] dli_books dli.ernet.426701: ~12533 words
+- [2026-08-18 19:18:06] dli_books dli.ernet.428410: ~188812 words
+- [2026-08-18 19:18:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:18:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:18:11] patrika: 4860/12804 articles this batch, ~2587412 words this batch (~5085202 total ever)
+- [2026-08-18 19:18:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:18:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:18:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:18:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:18:26] zeenews: 6360/238571 articles this batch, ~1920001 words this batch (~3829141 total ever)
+- [2026-08-18 19:18:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:18:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:18:38] lhmh103: OCR, ~9448 words
+- [2026-08-18 19:18:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:18:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:18:48] dli_books dli.csl.7752: ~0 words
+- [2026-08-18 19:18:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:18:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:00] dli_books dli.ernet.473048: ~24337 words
+- [2026-08-18 19:19:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:06] patrika: 4880/12804 articles this batch, ~2597857 words this batch (~5095647 total ever)
+- [2026-08-18 19:19:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:10] dli_books dli.ernet.473063: ~44669 words
+- [2026-08-18 19:19:15] zeenews: 6380/238571 articles this batch, ~1927989 words this batch (~3837129 total ever)
+- [2026-08-18 19:19:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:18] dli_books dli.ernet.473070: ~16905 words
+- [2026-08-18 19:19:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:26] dli_books dli.ernet.473080: ~15905 words
+- [2026-08-18 19:19:33] dli_books dli.ernet.473103: ~51079 words
+- [2026-08-18 19:19:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:41] dli_books dli.ernet.473122: ~19568 words
+- [2026-08-18 19:19:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:49] dli_books dli.ernet.473338: ~43096 words
+- [2026-08-18 19:19:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:19:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:19:57] zeenews: 6400/238571 articles this batch, ~1933844 words this batch (~3842984 total ever)
+- [2026-08-18 19:19:57] dli_books dli.ernet.473355: ~19180 words
+- [2026-08-18 19:19:58] patrika: 4900/12804 articles this batch, ~2608524 words this batch (~5106314 total ever)
+- [2026-08-18 19:20:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:02] lhmh201: OCR, ~14885 words
+- [2026-08-18 19:20:06] dli_books dli.ernet.473389: ~6669 words
+- [2026-08-18 19:20:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:16] dli_books dli.ernet.473461: ~30595 words
+- [2026-08-18 19:20:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:22] dli_books dli.ernet.473242: ~19831 words
+- [2026-08-18 19:20:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:31] dli_books dli.ernet.473258: ~25889 words
+- [2026-08-18 19:20:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:35] lhps102: OCR, ~5604 words
+- [2026-08-18 19:20:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:41] dli_books dli.ernet.473309: ~182187 words
+- [2026-08-18 19:20:46] zeenews: 6420/238571 articles this batch, ~1940074 words this batch (~3849214 total ever)
+- [2026-08-18 19:20:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:20:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:20:50] dli_books dli.ernet.473310: ~226629 words
+- [2026-08-18 19:20:58] patrika: 4920/12804 articles this batch, ~2618583 words this batch (~5116373 total ever)
+- [2026-08-18 19:20:58] lhph1ps: OCR, ~3994 words
+- [2026-08-18 19:21:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:21:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:21:37] lhps104: OCR, ~6901 words
+- [2026-08-18 19:21:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:21:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:21:47] dli_books dli.ernet.473599: ~524470 words
+- [2026-08-18 19:21:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:21:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:21:55] dli_books dli.ernet.473934: ~48613 words
+- [2026-08-18 19:21:56] zeenews: 6440/238571 articles this batch, ~1946097 words this batch (~3855237 total ever)
+- [2026-08-18 19:21:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:21:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:07] patrika: 4940/12804 articles this batch, ~2625973 words this batch (~5123763 total ever)
+- [2026-08-18 19:22:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:26] lhph103: OCR, ~10642 words
+- [2026-08-18 19:22:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:40] zeenews: 6460/238571 articles this batch, ~1951791 words this batch (~3860931 total ever)
+- [2026-08-18 19:22:41] dli_books dli.ernet.473795: ~36346 words
+- [2026-08-18 19:22:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:22:51] dli_books dli.ernet.473725: ~15549 words
+- [2026-08-18 19:22:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:22:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:01] patrika: 4960/12804 articles this batch, ~2630966 words this batch (~5128756 total ever)
+- [2026-08-18 19:23:02] dli_books dli.ernet.473870: ~4318 words
+- [2026-08-18 19:23:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:23:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:08] lhps106: OCR, ~7758 words
+- [2026-08-18 19:23:09] dli_books dli.ernet.473893: ~65018 words
+- [2026-08-18 19:23:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:23:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:15] dli_books dli.ernet.473149: ~30937 words
+- [2026-08-18 19:23:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:23:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:29] zeenews: 6480/238571 articles this batch, ~1958894 words this batch (~3868034 total ever)
+- [2026-08-18 19:23:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:23:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:35] dli_books dli.ernet.473154: ~617748 words
+- [2026-08-18 19:23:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:23:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:47] lhps105: OCR, ~7559 words
+- [2026-08-18 19:23:47] batch progress: 90 new codes attempted (52 extracted, 443840 words) this batch
+- [2026-08-18 19:23:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:23:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:23:57] dli_books dli.ernet.473171: ~75566 words
+- [2026-08-18 19:23:58] patrika: 4980/12804 articles this batch, ~2639678 words this batch (~5137468 total ever)
+- [2026-08-18 19:24:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:24:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:24:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:24:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:24:09] dli_books dli.ernet.473174: ~84934 words
+- [2026-08-18 19:24:15] lhps2ps: OCR, ~4698 words
+- [2026-08-18 19:24:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:24:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:24:17] dli_books dli.ernet.475231: ~185020 words
+- [2026-08-18 19:24:18] zeenews: 6500/238571 articles this batch, ~1964185 words this batch (~3873325 total ever)
+- [2026-08-18 19:24:43] fetch failed https://archive.org/download/dli.ernet.475080/475080-Sankshhipt%20Jain%20Dharm%20Prakaash_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 19:24:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:24:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:07] patrika: 5000/12804 articles this batch, ~2651131 words this batch (~5148921 total ever)
+- [2026-08-18 19:25:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:20] zeenews: 6520/238571 articles this batch, ~1970489 words this batch (~3879629 total ever)
+- [2026-08-18 19:25:22] dli_books dli.ernet.475124: ~58235 words
+- [2026-08-18 19:25:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:26] lhps201: OCR, ~8409 words
+- [2026-08-18 19:25:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:48] dli_books dli.ernet.475645: ~40078 words
+- [2026-08-18 19:25:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:25:58] patrika: 5020/12804 articles this batch, ~2661986 words this batch (~5159776 total ever)
+- [2026-08-18 19:25:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:25:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:26:00] dli_books dli.ernet.475501: ~408107 words
+- [2026-08-18 19:26:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:26:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:26:05] zeenews: 6540/238571 articles this batch, ~1978566 words this batch (~3887706 total ever)
+- [2026-08-18 19:26:12] lhps202: OCR, ~6981 words
+- [2026-08-18 19:26:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:26:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:26:30] dli_books dli.ernet.475502: ~372239 words
+- [2026-08-18 19:26:35] lhps203: OCR, ~3877 words
+- [2026-08-18 19:26:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:26:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:26:57] dli_books dli.ernet.476507: ~16929 words
+- [2026-08-18 19:27:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:07] dli_books dli.ernet.476519: ~22498 words
+- [2026-08-18 19:27:09] zeenews: 6560/238571 articles this batch, ~1984479 words this batch (~3893619 total ever)
+- [2026-08-18 19:27:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:14] dli_books dli.ernet.476545: ~22031 words
+- [2026-08-18 19:27:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:16] lhps107: OCR, ~5490 words
+- [2026-08-18 19:27:19] patrika: 5040/12804 articles this batch, ~2672991 words this batch (~5170781 total ever)
+- [2026-08-18 19:27:20] dli_books dli.ernet.476736: ~22936 words
+- [2026-08-18 19:27:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:26] dli_books dli.ernet.476778: ~37946 words
+- [2026-08-18 19:27:32] dli_books dli.ernet.476720: ~18981 words
+- [2026-08-18 19:27:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:43] dli_books dli.ernet.476852: ~15128 words
+- [2026-08-18 19:27:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:52] dli_books dli.ernet.441621: ~16934 words
+- [2026-08-18 19:27:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:27:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:27:54] zeenews: 6580/238571 articles this batch, ~1990285 words this batch (~3899425 total ever)
+- [2026-08-18 19:28:01] lhps205: OCR, ~6618 words
+- [2026-08-18 19:28:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:28:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:28:11] dli_books dli.ernet.476885: ~124948 words
+- [2026-08-18 19:28:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:28:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:28:19] dli_books dli.ernet.476911: ~83006 words
+- [2026-08-18 19:28:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:28:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:28:29] dli_books dli.ernet.476935: ~96093 words
+- [2026-08-18 19:28:30] patrika: 5060/12804 articles this batch, ~2684138 words this batch (~5181928 total ever)
+- [2026-08-18 19:28:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:28:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:28:42] dli_books dli.ernet.441277: ~22885 words
+- [2026-08-18 19:28:48] lhps206: OCR, ~6594 words
+- [2026-08-18 19:28:51] dli_books dli.ernet.445620: ~17231 words
+- [2026-08-18 19:28:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:28:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:28:52] zeenews: 6600/238571 articles this batch, ~1995845 words this batch (~3904985 total ever)
+- [2026-08-18 19:28:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:28:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:04] dli_books dli.ernet.445696: ~276094 words
+- [2026-08-18 19:29:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:29:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:29:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:16] dli_books dli.ernet.445112: ~28491 words
+- [2026-08-18 19:29:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:29:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:29] dli_books dli.ernet.476031: ~69611 words
+- [2026-08-18 19:29:30] patrika: 5080/12804 articles this batch, ~2695943 words this batch (~5193733 total ever)
+- [2026-08-18 19:29:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:29:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:37] zeenews: 6620/238571 articles this batch, ~2001607 words this batch (~3910747 total ever)
+- [2026-08-18 19:29:41] dli_books dli.ernet.476038: ~169998 words
+- [2026-08-18 19:29:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:29:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:29:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:29:54] dli_books dli.ernet.476063: ~50312 words
+- [2026-08-18 19:30:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:30:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:30:02] dli_books dli.ernet.446965: ~33255 words
+- [2026-08-18 19:30:05] lhps207: OCR, ~10063 words
+- [2026-08-18 19:30:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:30:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:30:16] dli_books dli.ernet.447007: ~31554 words
+- [2026-08-18 19:30:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:30:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:30:25] dli_books dli.ernet.447019: ~116189 words
+- [2026-08-18 19:30:28] zeenews: 6640/238571 articles this batch, ~2011356 words this batch (~3920496 total ever)
+- [2026-08-18 19:30:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:30:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:30:33] patrika: 5100/12804 articles this batch, ~2707244 words this batch (~5205034 total ever)
+- [2026-08-18 19:30:33] dli_books dli.ernet.447022: ~22089 words
+- [2026-08-18 19:30:44] dli_books dli.ernet.447240: ~111730 words
+- [2026-08-18 19:30:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:30:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:30:50] fetch failed https://archive.org/download/dli.ernet.447277/447277-%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AD%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%3A_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 19:30:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:30:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:30:55] lhps208: OCR, ~6760 words
+- [2026-08-18 19:31:06] dli_books dli.ernet.447285: ~97637 words
+- [2026-08-18 19:31:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:31:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:31:17] lhpy1ps: OCR, ~3871 words
+- [2026-08-18 19:31:17] batch progress: 100 new codes attempted (62 extracted, 507201 words) this batch
+- [2026-08-18 19:31:21] zeenews: 6660/238571 articles this batch, ~2016756 words this batch (~3925896 total ever)
+- [2026-08-18 19:31:24] dli_books dli.ernet.447290: ~32981 words
+- [2026-08-18 19:31:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:31:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:31:33] dli_books dli.ernet.260034: ~76115 words
+- [2026-08-18 19:31:42] patrika: 5120/12804 articles this batch, ~2720379 words this batch (~5218169 total ever)
+- [2026-08-18 19:31:44] dli_books dli.ernet.445276: ~148942 words
+- [2026-08-18 19:31:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:31:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:31:56] dli_books dli.ernet.426649: ~89505 words
+- [2026-08-18 19:31:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:31:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:32:09] dli_books dli.ernet.445493: ~49495 words
+- [2026-08-18 19:32:12] zeenews: 6680/238571 articles this batch, ~2021597 words this batch (~3930737 total ever)
+- [2026-08-18 19:32:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:32:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:32:16] dli_books dli.ernet.445532: ~40183 words
+- [2026-08-18 19:32:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:32:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:32:22] lhpy101: OCR, ~13736 words
+- [2026-08-18 19:32:26] dli_books dli.ernet.445546: ~131898 words
+- [2026-08-18 19:32:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:32:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:32:40] patrika: 5140/12804 articles this batch, ~2732085 words this batch (~5229875 total ever)
+- [2026-08-18 19:32:43] lhps1ps: OCR, ~3803 words
+- [2026-08-18 19:32:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:32:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:32:47] dli_books dli.ernet.445584: ~180777 words
+- [2026-08-18 19:32:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:32:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:32:56] dli_books dli.ernet.426707: ~20664 words
+- [2026-08-18 19:32:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:32:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:33:00] zeenews: 6700/238571 articles this batch, ~2026265 words this batch (~3935405 total ever)
+- [2026-08-18 19:33:02] dli_books dli.ernet.426754: ~18734 words
+- [2026-08-18 19:33:12] dli_books dli.ernet.426438: ~20626 words
+- [2026-08-18 19:33:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:33:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:33:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:33:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:33:24] dli_books dli.ernet.426439: ~268831 words
+- [2026-08-18 19:33:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:33:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:33:32] dli_books dli.ernet.426502: ~29764 words
+- [2026-08-18 19:33:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:33:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:33:36] patrika: 5160/12804 articles this batch, ~2743685 words this batch (~5241475 total ever)
+- [2026-08-18 19:33:38] lhpy103: OCR, ~11746 words
+- [2026-08-18 19:33:40] dli_books dli.ernet.447053: ~65093 words
+- [2026-08-18 19:33:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:33:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:33:47] zeenews: 6720/238571 articles this batch, ~2031227 words this batch (~3940367 total ever)
+- [2026-08-18 19:33:49] dli_books dli.ernet.447561: ~82370 words
+- [2026-08-18 19:33:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:33:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:03] dli_books dli.ernet.447654: ~71425 words
+- [2026-08-18 19:34:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:17] dli_books dli.ernet.429876: ~258322 words
+- [2026-08-18 19:34:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:28] dli_books dli.ernet.428579: ~64873 words
+- [2026-08-18 19:34:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:33] patrika: 5180/12804 articles this batch, ~2755413 words this batch (~5253203 total ever)
+- [2026-08-18 19:34:33] lhpy104: OCR, ~11589 words
+- [2026-08-18 19:34:34] zeenews: 6740/238571 articles this batch, ~2038410 words this batch (~3947550 total ever)
+- [2026-08-18 19:34:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:42] dli_books dli.ernet.428594: ~111964 words
+- [2026-08-18 19:34:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:34:50] dli_books dli.ernet.428680: ~176901 words
+- [2026-08-18 19:34:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:34:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:02] dli_books dli.ernet.473525: ~174411 words
+- [2026-08-18 19:35:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:09] dli_books dli.ernet.474165: ~106954 words
+- [2026-08-18 19:35:12] lhpy105: OCR, ~7906 words
+- [2026-08-18 19:35:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:17] dli_books dli.ernet.474049: ~64408 words
+- [2026-08-18 19:35:20] zeenews: 6760/238571 articles this batch, ~2043830 words this batch (~3952970 total ever)
+- [2026-08-18 19:35:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:23] patrika: 5200/12804 articles this batch, ~2766822 words this batch (~5264612 total ever)
+- [2026-08-18 19:35:28] dli_books dli.ernet.475533: ~422169 words
+- [2026-08-18 19:35:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:49] dli_books dli.ernet.475598: ~87644 words
+- [2026-08-18 19:35:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:35:52] lhpy106: OCR, ~8639 words
+- [2026-08-18 19:35:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:35:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:00] dli_books dli.ernet.476468: ~96606 words
+- [2026-08-18 19:36:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:07] dli_books dli.ernet.476611: ~12589 words
+- [2026-08-18 19:36:08] zeenews: 6780/238571 articles this batch, ~2050491 words this batch (~3959631 total ever)
+- [2026-08-18 19:36:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:16] patrika: 5220/12804 articles this batch, ~2778238 words this batch (~5276028 total ever)
+- [2026-08-18 19:36:20] dli_books dli.ernet.476638: ~140602 words
+- [2026-08-18 19:36:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:22] lhpy107: OCR, ~6502 words
+- [2026-08-18 19:36:26] dli_books dli.ernet.525305: ~34692 words
+- [2026-08-18 19:36:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:31] dli_books dli.ernet.525545: ~98809 words
+- [2026-08-18 19:36:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:37] dli_books dli.ernet.525557: ~49110 words
+- [2026-08-18 19:36:43] dli_books dli.ernet.525848: ~29275 words
+- [2026-08-18 19:36:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:51] dli_books dli.ernet.525864: ~37711 words
+- [2026-08-18 19:36:53] zeenews: 6800/238571 articles this batch, ~2055529 words this batch (~3964669 total ever)
+- [2026-08-18 19:36:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:36:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:36:56] lhps101: OCR, ~6544 words
+- [2026-08-18 19:37:01] lhsk101: OCR, ~654 words
+- [2026-08-18 19:37:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:04] dli_books dli.ernet.472661: ~10142 words
+- [2026-08-18 19:37:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:08] patrika: 5240/12804 articles this batch, ~2789394 words this batch (~5287184 total ever)
+- [2026-08-18 19:37:13] lhsk102: OCR, ~1407 words
+- [2026-08-18 19:37:13] batch progress: 110 new codes attempted (72 extracted, 579727 words) this batch
+- [2026-08-18 19:37:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:20] dli_books in.ernet.dli.2015.483212: ~86965 words
+- [2026-08-18 19:37:21] lhsk103: OCR, ~1043 words
+- [2026-08-18 19:37:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:32] lhsk104: OCR, ~1379 words
+- [2026-08-18 19:37:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:38] dli_books in.ernet.dli.2015.404534: ~300197 words
+- [2026-08-18 19:37:39] lhsk105: OCR, ~845 words
+- [2026-08-18 19:37:40] zeenews: 6820/238571 articles this batch, ~2062205 words this batch (~3971345 total ever)
+- [2026-08-18 19:37:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:37:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:37:50] lhsk106: OCR, ~1322 words
+- [2026-08-18 19:37:52] dli_books dli.ernet.241827: ~49337 words
+- [2026-08-18 19:37:59] lhsk107: OCR, ~1011 words
+- [2026-08-18 19:37:59] patrika: 5260/12804 articles this batch, ~2800222 words this batch (~5298012 total ever)
+- [2026-08-18 19:38:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:38:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:38:02] dli_books dli.ernet.241832: ~62279 words
+- [2026-08-18 19:38:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:38:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:38:10] lhsk108: OCR, ~1452 words
+- [2026-08-18 19:38:12] dli_books dli.ernet.243058: ~53229 words
+- [2026-08-18 19:38:18] lhsk109: OCR, ~895 words
+- [2026-08-18 19:38:28] lhsk110: OCR, ~1207 words
+- [2026-08-18 19:38:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:38:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:38:36] zeenews: 6840/238571 articles this batch, ~2068753 words this batch (~3977893 total ever)
+- [2026-08-18 19:38:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:38:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:38:51] dli_books dli.ernet.243065: ~105332 words
+- [2026-08-18 19:39:02] dli_books dli.ernet.243070: ~81248 words
+- [2026-08-18 19:39:03] patrika: 5280/12804 articles this batch, ~2811855 words this batch (~5309645 total ever)
+- [2026-08-18 19:39:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:05] lhps103: OCR, ~7042 words
+- [2026-08-18 19:39:12] dli_books dli.ernet.243098: ~65995 words
+- [2026-08-18 19:39:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:20] dli_books dli.ernet.243132: ~93036 words
+- [2026-08-18 19:39:25] zeenews: 6860/238571 articles this batch, ~2074087 words this batch (~3983227 total ever)
+- [2026-08-18 19:39:27] dli_books dli.ernet.243160: ~72650 words
+- [2026-08-18 19:39:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:29] lhsk2ps: OCR, ~3953 words
+- [2026-08-18 19:39:29] batch progress: 120 new codes attempted (82 extracted, 599876 words) this batch
+- [2026-08-18 19:39:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:35] dli_books dli.ernet.243164: ~28611 words
+- [2026-08-18 19:39:42] dli_books dli.ernet.241740: ~24001 words
+- [2026-08-18 19:39:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:47] lhsk202: OCR, ~2471 words
+- [2026-08-18 19:39:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:49] dli_books dli.ernet.241747: ~23311 words
+- [2026-08-18 19:39:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:39:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:39:57] patrika: 5300/12804 articles this batch, ~2822880 words this batch (~5320670 total ever)
+- [2026-08-18 19:40:00] dli_books dli.ernet.241749: ~117862 words
+- [2026-08-18 19:40:01] lhsk203: OCR, ~1760 words
+- [2026-08-18 19:40:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:40:08] zeenews: 6880/238571 articles this batch, ~2079637 words this batch (~3988777 total ever)
+- [2026-08-18 19:40:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:40:12] dli_books dli.ernet.241764: ~19459 words
+- [2026-08-18 19:40:12] lhsk204: OCR, ~1320 words
+- [2026-08-18 19:40:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:40:22] dli_books dli.ernet.241716: ~111153 words
+- [2026-08-18 19:40:25] lhsk205: OCR, ~1551 words
+- [2026-08-18 19:40:30] dli_books dli.ernet.243222: ~26776 words
+- [2026-08-18 19:40:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:40:34] lhsk206: OCR, ~1158 words
+- [2026-08-18 19:40:37] dli_books dli.ernet.243239: ~19404 words
+- [2026-08-18 19:40:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:40:43] lhsk207: OCR, ~1088 words
+- [2026-08-18 19:40:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:40:49] dli_books dli.ernet.243240: ~45122 words
+- [2026-08-18 19:40:53] lhsk208: OCR, ~1298 words
+- [2026-08-18 19:40:54] zeenews: 6900/238571 articles this batch, ~2085401 words this batch (~3994541 total ever)
+- [2026-08-18 19:40:56] patrika: 5320/12804 articles this batch, ~2834104 words this batch (~5331894 total ever)
+- [2026-08-18 19:40:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:40:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:41:00] dli_books dli.ernet.243256: ~27039 words
+- [2026-08-18 19:41:01] lhsk209: OCR, ~873 words
+- [2026-08-18 19:41:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:41:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:41:09] dli_books dli.ernet.288439: ~78851 words
+- [2026-08-18 19:41:10] lhsk210: OCR, ~1074 words
+- [2026-08-18 19:41:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:41:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:41:17] dli_books dli.ernet.288548: ~107447 words
+- [2026-08-18 19:41:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:41:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:41:23] dli_books dli.ernet.287223: ~74361 words
+- [2026-08-18 19:41:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:41:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:41:30] lhsk211: OCR, ~3018 words
+- [2026-08-18 19:41:30] batch progress: 130 new codes attempted (92 extracted, 615487 words) this batch
+- [2026-08-18 19:41:30] lhsy1ps: pdftotext, ~3532 words
+- [2026-08-18 19:41:39] zeenews: 6920/238571 articles this batch, ~2091723 words this batch (~4000863 total ever)
+- [2026-08-18 19:41:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:41:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:41:49] dli_books dli.ernet.287076: ~116334 words
+- [2026-08-18 19:41:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:41:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:42:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:42:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:42:06] patrika: 5340/12804 articles this batch, ~2840473 words this batch (~5338263 total ever)
+- [2026-08-18 19:42:06] dli_books dli.ernet.287091: ~60402 words
+- [2026-08-18 19:42:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:42:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:42:17] dli_books dli.language.0011: ~0 words
+- [2026-08-18 19:42:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:42:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:42:25] dli_books dli.language.0940: ~56556 words
+- [2026-08-18 19:42:26] zeenews: 6940/238571 articles this batch, ~2096314 words this batch (~4005454 total ever)
+- [2026-08-18 19:42:26] lhps204: OCR, ~6841 words
+- [2026-08-18 19:42:26] lhsy101: pdftotext, ~1871 words
+- [2026-08-18 19:42:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:42:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:42:37] dli_books dli.language.1373: ~48883 words
+- [2026-08-18 19:42:47] dli_books dli.language.2235: ~0 words
+- [2026-08-18 19:42:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:42:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:10] dli_books dli.language.2253: ~14238 words
+- [2026-08-18 19:43:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:16] patrika: 5360/12804 articles this batch, ~2845428 words this batch (~5343218 total ever)
+- [2026-08-18 19:43:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:25] dli_books dli.ministry.10883: ~191999 words
+- [2026-08-18 19:43:27] zeenews: 6960/238571 articles this batch, ~2103860 words this batch (~4013000 total ever)
+- [2026-08-18 19:43:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:31] dli_books dli.ministry.22954: ~760 words
+- [2026-08-18 19:43:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:42] dli_books dli.ernet.476520: ~16907 words
+- [2026-08-18 19:43:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:45] lhpy102: OCR, ~17241 words
+- [2026-08-18 19:43:45] lhsy104: pdftotext, ~6981 words
+- [2026-08-18 19:43:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:43:57] dli_books dli.ernet.476726: ~95984 words
+- [2026-08-18 19:43:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:43:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:44:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:05] dli_books dli.ernet.476769: ~69924 words
+- [2026-08-18 19:44:06] lhsk1ps: OCR, ~3522 words
+- [2026-08-18 19:44:06] lhsy106: pdftotext, ~10359 words
+- [2026-08-18 19:44:11] patrika: 5380/12804 articles this batch, ~2853481 words this batch (~5351271 total ever)
+- [2026-08-18 19:44:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:44:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:13] zeenews: 6980/238571 articles this batch, ~2110070 words this batch (~4019210 total ever)
+- [2026-08-18 19:44:14] dli_books dli.ernet.476647: ~34478 words
+- [2026-08-18 19:44:17] lhsk201: OCR, ~1589 words
+- [2026-08-18 19:44:17] lhsy2ps: pdftotext, ~2470 words
+- [2026-08-18 19:44:17] lhsy102: pdftotext, ~11818 words
+- [2026-08-18 19:44:17] batch progress: 140 new codes attempted (102 extracted, 681711 words) this batch
+- [2026-08-18 19:44:17] lhsy103: pdftotext, ~8463 words
+- [2026-08-18 19:44:18] lhsy105: pdftotext, ~13213 words
+- [2026-08-18 19:44:18] lhsy107: pdftotext, ~3939 words
+- [2026-08-18 19:44:19] lhsy201: pdftotext, ~5684 words
+- [2026-08-18 19:44:24] lhsy207: pdftotext, ~9137 words
+- [2026-08-18 19:44:25] lhsy205: pdftotext, ~5954 words
+- [2026-08-18 19:44:25] dli_books dli.ernet.476683: ~28659 words
+- [2026-08-18 19:44:27] lhsy204: pdftotext, ~7355 words
+- [2026-08-18 19:44:29] lhsy203: pdftotext, ~3654 words
+- [2026-08-18 19:44:30] lhsy206: pdftotext, ~8115 words
+- [2026-08-18 19:44:33] lhsy208: pdftotext, ~8257 words
+- [2026-08-18 19:44:33] batch progress: 150 new codes attempted (112 extracted, 755482 words) this batch
+- [2026-08-18 19:44:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:44:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:35] fetch failed https://archive.org/download/dli.ernet.476706/476706-Rasayan-vigyan%20Bhag-ii%20%20%20Kaksha-xi-xii_djvu.txt: HTTP Error 500: Internal Server Error
+- [2026-08-18 19:44:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:44:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:47] dli_books dli.ernet.441542: ~110126 words
+- [2026-08-18 19:44:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:44:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:44:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:44:58] dli_books dli.ernet.441545: ~104676 words
+- [2026-08-18 19:45:02] lhvt103: OCR, ~5149 words
+- [2026-08-18 19:45:02] lhsy202: pdftotext, ~6924 words
+- [2026-08-18 19:45:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:45:06] zeenews: 7000/238571 articles this batch, ~2115606 words this batch (~4024746 total ever)
+- [2026-08-18 19:45:09] patrika: 5400/12804 articles this batch, ~2864667 words this batch (~5362457 total ever)
+- [2026-08-18 19:45:09] dli_books dli.ernet.441338: ~450668 words
+- [2026-08-18 19:45:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:45:19] dli_books dli.ernet.441366: ~76132 words
+- [2026-08-18 19:45:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:45:34] lhvt101: OCR, ~6728 words
+- [2026-08-18 19:45:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:45:37] dli_books dli.ernet.446007: ~194499 words
+- [2026-08-18 19:45:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:45:45] dli_books dli.ernet.476016: ~113245 words
+- [2026-08-18 19:45:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:45:51] zeenews: 7020/238571 articles this batch, ~2122753 words this batch (~4031893 total ever)
+- [2026-08-18 19:45:54] lhvt102: OCR, ~3846 words
+- [2026-08-18 19:45:54] dli_books dli.ernet.493511: ~26731 words
+- [2026-08-18 19:45:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:45:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:05] dli_books dli.ernet.493607: ~132333 words
+- [2026-08-18 19:46:06] patrika: 5420/12804 articles this batch, ~2875957 words this batch (~5373747 total ever)
+- [2026-08-18 19:46:09] lhvt1ps: OCR, ~2368 words
+- [2026-08-18 19:46:09] BATCH COMPLETE: 155 new codes attempted this batch (117 extracted, 780497 words), 3659s elapsed. Overall: 1617/1617 codes resolved so far.
+- [2026-08-18 19:46:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:16] dli_books dli.ernet.446949: ~71222 words
+- [2026-08-18 19:46:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:27] dli_books dli.ernet.446952: ~97500 words
+- [2026-08-18 19:46:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:34] zeenews: 7040/238571 articles this batch, ~2130471 words this batch (~4039611 total ever)
+- [2026-08-18 19:46:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:40] dli_books dli.ernet.447004: ~87613 words
+- [2026-08-18 19:46:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:46:50] dli_books dli.ernet.447241: ~202483 words
+- [2026-08-18 19:46:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:46:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:47:01] dli_books dli.ernet.447254: ~82972 words
+- [2026-08-18 19:47:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:47:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:47:07] patrika: 5440/12804 articles this batch, ~2886790 words this batch (~5384580 total ever)
+- [2026-08-18 19:47:11] dli_books dli.ernet.447275: ~62865 words
+- [2026-08-18 19:47:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:47:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:47:17] zeenews: 7060/238571 articles this batch, ~2137389 words this batch (~4046529 total ever)
+- [2026-08-18 19:47:25] dli_books dli.language.1362: ~0 words
+- [2026-08-18 19:47:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:47:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:47:39] dli_books dli.ministry.03415: ~3386 words
+- [2026-08-18 19:47:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:47:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:47:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:47:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:47:52] dli_books dli.ernet.424233: ~131844 words
+- [2026-08-18 19:47:58] dli_books dli.ernet.424309: ~31908 words
+- [2026-08-18 19:47:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:47:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:03] patrika: 5460/12804 articles this batch, ~2898447 words this batch (~5396237 total ever)
+- [2026-08-18 19:48:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:07] dli_books dli.ernet.445113: ~54720 words
+- [2026-08-18 19:48:08] zeenews: 7080/238571 articles this batch, ~2143404 words this batch (~4052544 total ever)
+- [2026-08-18 19:48:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:20] dli_books dli.ernet.445206: ~285038 words
+- [2026-08-18 19:48:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:29] dli_books dli.ernet.445348: ~318048 words
+- [2026-08-18 19:48:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:41] dli_books dli.ernet.445363: ~26670 words
+- [2026-08-18 19:48:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:51] dli_books dli.ernet.445451: ~68891 words
+- [2026-08-18 19:48:53] zeenews: 7100/238571 articles this batch, ~2148849 words this batch (~4057989 total ever)
+- [2026-08-18 19:48:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:48:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:48:59] patrika: 5480/12804 articles this batch, ~2910318 words this batch (~5408108 total ever)
+- [2026-08-18 19:49:03] dli_books dli.ernet.445479: ~76714 words
+- [2026-08-18 19:49:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:09] dli_books dli.ernet.426702: ~12148 words
+- [2026-08-18 19:49:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:39] zeenews: 7120/238571 articles this batch, ~2153685 words this batch (~4062825 total ever)
+- [2026-08-18 19:49:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:49:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:49:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:00] patrika: 5500/12804 articles this batch, ~2921281 words this batch (~5419071 total ever)
+- [2026-08-18 19:50:10] dli_books dli.ernet.447316: ~103989 words
+- [2026-08-18 19:50:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:50:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:50:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:25] zeenews: 7140/238571 articles this batch, ~2158546 words this batch (~4067686 total ever)
+- [2026-08-18 19:50:27] dli_books dli.ernet.447331: ~77140 words
+- [2026-08-18 19:50:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:50:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:33] dli_books dli.ernet.447344: ~49095 words
+- [2026-08-18 19:50:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:50:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:50:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:49] dli_books dli.ernet.447054: ~317139 words
+- [2026-08-18 19:50:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:50:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:50:56] patrika: 5520/12804 articles this batch, ~2932558 words this batch (~5430348 total ever)
+- [2026-08-18 19:51:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:51:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:51:07] dli_books dli.ernet.428483: ~473619 words
+- [2026-08-18 19:51:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:51:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:51:14] zeenews: 7160/238571 articles this batch, ~2163008 words this batch (~4072148 total ever)
+- [2026-08-18 19:51:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:51:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:51:18] dli_books dli.ernet.447476: ~16929 words
+- [2026-08-18 19:51:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:51:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:51:28] dli_books dli.ernet.447494: ~45889 words
+- [2026-08-18 19:51:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:51:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:51:46] dli_books dli.ernet.428564: ~363351 words
+- [2026-08-18 19:51:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:51:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:51:55] dli_books dli.ernet.428576: ~35185 words
+- [2026-08-18 19:51:57] patrika: 5540/12804 articles this batch, ~2952568 words this batch (~5450358 total ever)
+- [2026-08-18 19:52:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:01] zeenews: 7180/238571 articles this batch, ~2167799 words this batch (~4076939 total ever)
+- [2026-08-18 19:52:02] dli_books dli.ernet.429967: ~32823 words
+- [2026-08-18 19:52:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:34] dli_books dli.ernet.429968: ~78781 words
+- [2026-08-18 19:52:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:47] dli_books dli.ernet.381308: ~57288 words
+- [2026-08-18 19:52:48] zeenews: 7200/238571 articles this batch, ~2173354 words this batch (~4082494 total ever)
+- [2026-08-18 19:52:48] patrika: 5560/12804 articles this batch, ~2964057 words this batch (~5461847 total ever)
+- [2026-08-18 19:52:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:52:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:52:58] dli_books dli.ernet.425968: ~108251 words
+- [2026-08-18 19:53:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:53:07] dli_books dli.ernet.425803: ~11804 words
+- [2026-08-18 19:53:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:53:16] dli_books dli.ernet.425875: ~48174 words
+- [2026-08-18 19:53:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:53:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:53:26] dli_books dli.ernet.425877: ~79238 words
+- [2026-08-18 19:53:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:53:33] zeenews: 7220/238571 articles this batch, ~2178523 words this batch (~4087663 total ever)
+- [2026-08-18 19:53:38] dli_books dli.ernet.426237: ~85708 words
+- [2026-08-18 19:53:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:53:40] patrika: 5580/12804 articles this batch, ~2976456 words this batch (~5474246 total ever)
+- [2026-08-18 19:53:47] dli_books dli.ernet.426309: ~351297 words
+- [2026-08-18 19:53:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:53:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:00] dli_books dli.ernet.426326: ~86896 words
+- [2026-08-18 19:54:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:11] dli_books dli.ernet.427157: ~235085 words
+- [2026-08-18 19:54:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:17] zeenews: 7240/238571 articles this batch, ~2184696 words this batch (~4093836 total ever)
+- [2026-08-18 19:54:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:23] dli_books dli.ernet.427177: ~62329 words
+- [2026-08-18 19:54:34] dli_books dli.ernet.427194: ~24500 words
+- [2026-08-18 19:54:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:39] patrika: 5600/12804 articles this batch, ~2987593 words this batch (~5485383 total ever)
+- [2026-08-18 19:54:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:45] dli_books dli.ernet.427195: ~51945 words
+- [2026-08-18 19:54:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:54:53] dli_books dli.ernet.427196: ~22577 words
+- [2026-08-18 19:54:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:54:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:06] zeenews: 7260/238571 articles this batch, ~2189440 words this batch (~4098580 total ever)
+- [2026-08-18 19:55:07] dli_books dli.ernet.427245: ~281923 words
+- [2026-08-18 19:55:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:13] dli_books dli.ernet.427572: ~140852 words
+- [2026-08-18 19:55:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:21] dli_books dli.ernet.427610: ~41379 words
+- [2026-08-18 19:55:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:30] dli_books dli.ernet.427914: ~39418 words
+- [2026-08-18 19:55:31] patrika: 5620/12804 articles this batch, ~2998537 words this batch (~5496327 total ever)
+- [2026-08-18 19:55:42] dli_books dli.ernet.427949: ~40836 words
+- [2026-08-18 19:55:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:55:52] zeenews: 7280/238571 articles this batch, ~2195603 words this batch (~4104743 total ever)
+- [2026-08-18 19:55:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:55:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:56:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:56:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:56:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:56:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:56:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:56:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:56:29] patrika: 5640/12804 articles this batch, ~3010361 words this batch (~5508151 total ever)
+- [2026-08-18 19:56:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:56:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:56:40] zeenews: 7300/238571 articles this batch, ~2200621 words this batch (~4109761 total ever)
+- [2026-08-18 19:56:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:56:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:56:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:56:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:20] patrika: 5660/12804 articles this batch, ~3021804 words this batch (~5519594 total ever)
+- [2026-08-18 19:57:26] zeenews: 7320/238571 articles this batch, ~2204885 words this batch (~4114025 total ever)
+- [2026-08-18 19:57:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:57:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:57:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:10] zeenews: 7340/238571 articles this batch, ~2211358 words this batch (~4120498 total ever)
+- [2026-08-18 19:58:11] patrika: 5680/12804 articles this batch, ~3033651 words this batch (~5531441 total ever)
+- [2026-08-18 19:58:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:58:53] zeenews: 7360/238571 articles this batch, ~2216716 words this batch (~4125856 total ever)
+- [2026-08-18 19:58:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:58:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:19] patrika: 5700/12804 articles this batch, ~3045260 words this batch (~5543050 total ever)
+- [2026-08-18 19:59:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:35] zeenews: 7380/238571 articles this batch, ~2220825 words this batch (~4129965 total ever)
+- [2026-08-18 19:59:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 19:59:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 19:59:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:18] patrika: 5720/12804 articles this batch, ~3055790 words this batch (~5553580 total ever)
+- [2026-08-18 20:00:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:24] zeenews: 7400/238571 articles this batch, ~2225612 words this batch (~4134752 total ever)
+- [2026-08-18 20:00:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:00:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:00:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:06] zeenews: 7420/238571 articles this batch, ~2230955 words this batch (~4140095 total ever)
+- [2026-08-18 20:01:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:13] patrika: 5740/12804 articles this batch, ~3060862 words this batch (~5558652 total ever)
+- [2026-08-18 20:01:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:01:49] zeenews: 7440/238571 articles this batch, ~2236395 words this batch (~4145535 total ever)
+- [2026-08-18 20:01:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:01:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:10] patrika: 5760/12804 articles this batch, ~3066748 words this batch (~5564538 total ever)
+- [2026-08-18 20:02:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:34] zeenews: 7460/238571 articles this batch, ~2241275 words this batch (~4150415 total ever)
+- [2026-08-18 20:02:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:02:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:02:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:03:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:10] patrika: 5780/12804 articles this batch, ~3077720 words this batch (~5575510 total ever)
+- [2026-08-18 20:03:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:03:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:15] zeenews: 7480/238571 articles this batch, ~2245523 words this batch (~4154663 total ever)
+- [2026-08-18 20:03:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:03:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:03:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:03:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:03:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:03:59] zeenews: 7500/238571 articles this batch, ~2250477 words this batch (~4159617 total ever)
+- [2026-08-18 20:04:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:04:10] patrika: 5800/12804 articles this batch, ~3088243 words this batch (~5586033 total ever)
+- [2026-08-18 20:04:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:04:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:04:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:04:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:04:47] zeenews: 7520/238571 articles this batch, ~2255649 words this batch (~4164789 total ever)
+- [2026-08-18 20:04:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:04:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:04:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:06] patrika: 5820/12804 articles this batch, ~3100268 words this batch (~5598058 total ever)
+- [2026-08-18 20:05:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:38] zeenews: 7540/238571 articles this batch, ~2260965 words this batch (~4170105 total ever)
+- [2026-08-18 20:05:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:05:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:05:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:05] patrika: 5840/12804 articles this batch, ~3113373 words this batch (~5611163 total ever)
+- [2026-08-18 20:06:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:24] zeenews: 7560/238571 articles this batch, ~2266431 words this batch (~4175571 total ever)
+- [2026-08-18 20:06:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:06:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:06:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:04] patrika: 5860/12804 articles this batch, ~3124772 words this batch (~5622562 total ever)
+- [2026-08-18 20:07:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:10] zeenews: 7580/238571 articles this batch, ~2272324 words this batch (~4181464 total ever)
+- [2026-08-18 20:07:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:07:56] zeenews: 7600/238571 articles this batch, ~2277850 words this batch (~4186990 total ever)
+- [2026-08-18 20:07:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:07:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:02] patrika: 5880/12804 articles this batch, ~3136202 words this batch (~5633992 total ever)
+- [2026-08-18 20:08:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:43] zeenews: 7620/238571 articles this batch, ~2283164 words this batch (~4192304 total ever)
+- [2026-08-18 20:08:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:08:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:08:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:09:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:09:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:09:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:09:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:09:22] patrika: 5900/12804 articles this batch, ~3146697 words this batch (~5644487 total ever)
+- [2026-08-18 20:09:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:09:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:09:29] zeenews: 7640/238571 articles this batch, ~2288053 words this batch (~4197193 total ever)
+- [2026-08-18 20:09:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:09:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:09:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:09:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:09:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:09:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:10:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:10:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:10:32] zeenews: 7660/238571 articles this batch, ~2292481 words this batch (~4201621 total ever)
+- [2026-08-18 20:10:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:10:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:10:42] patrika: 5920/12804 articles this batch, ~3158649 words this batch (~5656439 total ever)
+- [2026-08-18 20:12:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:12:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:12:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:12:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:12:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:12:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:12:21] zeenews: 7680/238571 articles this batch, ~2297915 words this batch (~4207055 total ever)
+- [2026-08-18 20:12:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:12:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:12:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:12:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:12:33] patrika: 5940/12804 articles this batch, ~3169748 words this batch (~5667538 total ever)
+- [2026-08-18 20:12:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:12:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:13] zeenews: 7700/238571 articles this batch, ~2302241 words this batch (~4211381 total ever)
+- [2026-08-18 20:13:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:43] patrika: 5960/12804 articles this batch, ~3181106 words this batch (~5678896 total ever)
+- [2026-08-18 20:13:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:13:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:13:59] zeenews: 7720/238571 articles this batch, ~2307037 words this batch (~4216177 total ever)
+- [2026-08-18 20:14:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:41] patrika: 5980/12804 articles this batch, ~3192225 words this batch (~5690015 total ever)
+- [2026-08-18 20:14:45] zeenews: 7740/238571 articles this batch, ~2312311 words this batch (~4221451 total ever)
+- [2026-08-18 20:14:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:14:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:14:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:32] zeenews: 7760/238571 articles this batch, ~2318761 words this batch (~4227901 total ever)
+- [2026-08-18 20:15:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:44] patrika: 6000/12804 articles this batch, ~3203827 words this batch (~5701617 total ever)
+- [2026-08-18 20:15:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:15:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:15:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:13] zeenews: 7780/238571 articles this batch, ~2324485 words this batch (~4233625 total ever)
+- [2026-08-18 20:16:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:41] patrika: 6020/12804 articles this batch, ~3214794 words this batch (~5712584 total ever)
+- [2026-08-18 20:16:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:16:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:16:57] zeenews: 7800/238571 articles this batch, ~2330265 words this batch (~4239405 total ever)
+- [2026-08-18 20:17:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:40] patrika: 6040/12804 articles this batch, ~3225613 words this batch (~5723403 total ever)
+- [2026-08-18 20:17:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:43] zeenews: 7820/238571 articles this batch, ~2337286 words this batch (~4246426 total ever)
+- [2026-08-18 20:17:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:17:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:17:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:18:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:18:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:18:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:18:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:18:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:18:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:18:36] zeenews: 7840/238571 articles this batch, ~2342875 words this batch (~4252015 total ever)
+- [2026-08-18 20:18:37] patrika: 6060/12804 articles this batch, ~3237132 words this batch (~5734922 total ever)
+- [2026-08-18 20:18:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:18:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:18:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:18:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:18:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:18:55] dli_books: reached end of search results
+- [2026-08-18 20:18:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:18:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:18:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:01] dli_books: reached end of search results
+- [2026-08-18 20:19:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:07] dli_books: reached end of search results
+- [2026-08-18 20:19:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:14] dli_books: reached end of search results
+- [2026-08-18 20:19:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:20] dli_books: reached end of search results
+- [2026-08-18 20:19:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:22] zeenews: 7860/238571 articles this batch, ~2347272 words this batch (~4256412 total ever)
+- [2026-08-18 20:19:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:26] dli_books: reached end of search results
+- [2026-08-18 20:19:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:32] dli_books: reached end of search results
+- [2026-08-18 20:19:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:38] dli_books: reached end of search results
+- [2026-08-18 20:19:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:38] patrika: 6080/12804 articles this batch, ~3248752 words this batch (~5746542 total ever)
+- [2026-08-18 20:19:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:44] dli_books: reached end of search results
+- [2026-08-18 20:19:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:19:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:50] dli_books: reached end of search results
+- [2026-08-18 20:19:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:19:56] dli_books: reached end of search results
+- [2026-08-18 20:19:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:19:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:19:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:02] dli_books: reached end of search results
+- [2026-08-18 20:20:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:04] zeenews: 7880/238571 articles this batch, ~2351714 words this batch (~4260854 total ever)
+- [2026-08-18 20:20:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:08] dli_books: reached end of search results
+- [2026-08-18 20:20:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:14] dli_books: reached end of search results
+- [2026-08-18 20:20:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:20] dli_books: reached end of search results
+- [2026-08-18 20:20:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:27] dli_books: reached end of search results
+- [2026-08-18 20:20:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:33] dli_books: reached end of search results
+- [2026-08-18 20:20:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:33] patrika: 6100/12804 articles this batch, ~3260640 words this batch (~5758430 total ever)
+- [2026-08-18 20:20:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:39] dli_books: reached end of search results
+- [2026-08-18 20:20:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:46] dli_books: reached end of search results
+- [2026-08-18 20:20:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:50] zeenews: 7900/238571 articles this batch, ~2357039 words this batch (~4266179 total ever)
+- [2026-08-18 20:20:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:52] dli_books: reached end of search results
+- [2026-08-18 20:20:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:20:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:20:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:20:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:20:57] dli_books: reached end of search results
+- [2026-08-18 20:20:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:04] dli_books: reached end of search results
+- [2026-08-18 20:21:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:10] dli_books: reached end of search results
+- [2026-08-18 20:21:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:17] dli_books: reached end of search results
+- [2026-08-18 20:21:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:19] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:19] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:22] dli_books: reached end of search results
+- [2026-08-18 20:21:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:27] patrika: 6120/12804 articles this batch, ~3268053 words this batch (~5765843 total ever)
+- [2026-08-18 20:21:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:29] dli_books: reached end of search results
+- [2026-08-18 20:21:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:34] zeenews: 7920/238571 articles this batch, ~2361330 words this batch (~4270470 total ever)
+- [2026-08-18 20:21:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:35] dli_books: reached end of search results
+- [2026-08-18 20:21:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:41] dli_books: reached end of search results
+- [2026-08-18 20:21:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:47] dli_books: reached end of search results
+- [2026-08-18 20:21:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:53] dli_books: reached end of search results
+- [2026-08-18 20:21:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:21:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:21:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:21:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:21:59] dli_books: reached end of search results
+- [2026-08-18 20:21:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:05] dli_books: reached end of search results
+- [2026-08-18 20:22:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:11] dli_books: reached end of search results
+- [2026-08-18 20:22:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:17] dli_books: reached end of search results
+- [2026-08-18 20:22:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:19] zeenews: 7940/238571 articles this batch, ~2367575 words this batch (~4276715 total ever)
+- [2026-08-18 20:22:21] patrika: 6140/12804 articles this batch, ~3273715 words this batch (~5771505 total ever)
+- [2026-08-18 20:22:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:23] dli_books: reached end of search results
+- [2026-08-18 20:22:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:29] dli_books: reached end of search results
+- [2026-08-18 20:22:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:35] dli_books: reached end of search results
+- [2026-08-18 20:22:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:41] dli_books: reached end of search results
+- [2026-08-18 20:22:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:47] dli_books: reached end of search results
+- [2026-08-18 20:22:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:53] dli_books: reached end of search results
+- [2026-08-18 20:22:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:22:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:22:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:22:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:22:59] dli_books: reached end of search results
+- [2026-08-18 20:22:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:01] zeenews: 7960/238571 articles this batch, ~2372939 words this batch (~4282079 total ever)
+- [2026-08-18 20:23:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:05] dli_books: reached end of search results
+- [2026-08-18 20:23:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:11] dli_books: reached end of search results
+- [2026-08-18 20:23:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:17] dli_books: reached end of search results
+- [2026-08-18 20:23:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:19] patrika: 6160/12804 articles this batch, ~3279034 words this batch (~5776824 total ever)
+- [2026-08-18 20:23:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:24] dli_books: reached end of search results
+- [2026-08-18 20:23:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:30] dli_books: reached end of search results
+- [2026-08-18 20:23:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:36] dli_books: reached end of search results
+- [2026-08-18 20:23:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:42] dli_books: reached end of search results
+- [2026-08-18 20:23:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:23:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:23:46] zeenews: 7980/238571 articles this batch, ~2378682 words this batch (~4287822 total ever)
+- [2026-08-18 20:23:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:49] dli_books: reached end of search results
+- [2026-08-18 20:23:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:23:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:23:56] dli_books: reached end of search results
+- [2026-08-18 20:23:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:24:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:24:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:02] dli_books: reached end of search results
+- [2026-08-18 20:24:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:09] dli_books: reached end of search results
+- [2026-08-18 20:24:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:16] dli_books: reached end of search results
+- [2026-08-18 20:24:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:24:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:24:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:23] dli_books: reached end of search results
+- [2026-08-18 20:24:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:25] patrika: 6180/12804 articles this batch, ~3288964 words this batch (~5786754 total ever)
+- [2026-08-18 20:24:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:24:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:24:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:30] dli_books: reached end of search results
+- [2026-08-18 20:24:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:36] dli_books: reached end of search results
+- [2026-08-18 20:24:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:37] zeenews: 8000/238571 articles this batch, ~2383913 words this batch (~4293053 total ever)
+- [2026-08-18 20:24:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:24:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:24:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:43] dli_books: reached end of search results
+- [2026-08-18 20:24:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:50] dli_books: reached end of search results
+- [2026-08-18 20:24:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:24:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:24:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:24:56] dli_books: reached end of search results
+- [2026-08-18 20:24:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:24:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:24:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:02] dli_books: reached end of search results
+- [2026-08-18 20:25:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:08] dli_books: reached end of search results
+- [2026-08-18 20:25:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:14] dli_books: reached end of search results
+- [2026-08-18 20:25:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:20] dli_books: reached end of search results
+- [2026-08-18 20:25:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:23] zeenews: 8020/238571 articles this batch, ~2389358 words this batch (~4298498 total ever)
+- [2026-08-18 20:25:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:26] dli_books: reached end of search results
+- [2026-08-18 20:25:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:27] patrika: 6200/12804 articles this batch, ~3300742 words this batch (~5798532 total ever)
+- [2026-08-18 20:25:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:32] dli_books: reached end of search results
+- [2026-08-18 20:25:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:38] dli_books: reached end of search results
+- [2026-08-18 20:25:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:44] dli_books: reached end of search results
+- [2026-08-18 20:25:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:50] dli_books: reached end of search results
+- [2026-08-18 20:25:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:25:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:25:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:25:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:25:56] dli_books: reached end of search results
+- [2026-08-18 20:25:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:02] dli_books: reached end of search results
+- [2026-08-18 20:26:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:08] zeenews: 8040/238571 articles this batch, ~2393705 words this batch (~4302845 total ever)
+- [2026-08-18 20:26:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:08] dli_books: reached end of search results
+- [2026-08-18 20:26:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:16] dli_books: reached end of search results
+- [2026-08-18 20:26:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:22] dli_books: reached end of search results
+- [2026-08-18 20:26:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:25] patrika: 6220/12804 articles this batch, ~3312643 words this batch (~5810433 total ever)
+- [2026-08-18 20:26:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:28] dli_books: reached end of search results
+- [2026-08-18 20:26:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:34] dli_books: reached end of search results
+- [2026-08-18 20:26:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:40] dli_books: reached end of search results
+- [2026-08-18 20:26:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:46] dli_books: reached end of search results
+- [2026-08-18 20:26:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:52] dli_books: reached end of search results
+- [2026-08-18 20:26:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:26:54] zeenews: 8060/238571 articles this batch, ~2401036 words this batch (~4310176 total ever)
+- [2026-08-18 20:26:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:26:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:26:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:26:59] dli_books: reached end of search results
+- [2026-08-18 20:26:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:04] dli_books: reached end of search results
+- [2026-08-18 20:27:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:10] dli_books: reached end of search results
+- [2026-08-18 20:27:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:16] dli_books: reached end of search results
+- [2026-08-18 20:27:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:18] patrika: 6240/12804 articles this batch, ~3323657 words this batch (~5821447 total ever)
+- [2026-08-18 20:27:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:22] dli_books: reached end of search results
+- [2026-08-18 20:27:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:28] dli_books: reached end of search results
+- [2026-08-18 20:27:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:35] dli_books: reached end of search results
+- [2026-08-18 20:27:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:37] zeenews: 8080/238571 articles this batch, ~2408107 words this batch (~4317247 total ever)
+- [2026-08-18 20:27:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:41] dli_books: reached end of search results
+- [2026-08-18 20:27:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:47] dli_books: reached end of search results
+- [2026-08-18 20:27:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:27:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:53] dli_books: reached end of search results
+- [2026-08-18 20:27:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:27:59] dli_books: reached end of search results
+- [2026-08-18 20:27:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:27:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:27:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:05] dli_books: reached end of search results
+- [2026-08-18 20:28:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:11] dli_books: reached end of search results
+- [2026-08-18 20:28:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:16] patrika: 6260/12804 articles this batch, ~3335282 words this batch (~5833072 total ever)
+- [2026-08-18 20:28:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:17] dli_books: reached end of search results
+- [2026-08-18 20:28:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:18] zeenews: 8100/238571 articles this batch, ~2412856 words this batch (~4321996 total ever)
+- [2026-08-18 20:28:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:23] dli_books: reached end of search results
+- [2026-08-18 20:28:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:29] dli_books: reached end of search results
+- [2026-08-18 20:28:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:35] dli_books: reached end of search results
+- [2026-08-18 20:28:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:41] dli_books: reached end of search results
+- [2026-08-18 20:28:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:47] dli_books: reached end of search results
+- [2026-08-18 20:28:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:53] dli_books: reached end of search results
+- [2026-08-18 20:28:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:28:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:28:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:28:58] zeenews: 8120/238571 articles this batch, ~2417631 words this batch (~4326771 total ever)
+- [2026-08-18 20:28:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:28:59] dli_books: reached end of search results
+- [2026-08-18 20:28:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:05] dli_books: reached end of search results
+- [2026-08-18 20:29:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:11] dli_books: reached end of search results
+- [2026-08-18 20:29:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:12] patrika: 6280/12804 articles this batch, ~3345790 words this batch (~5843580 total ever)
+- [2026-08-18 20:29:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:17] dli_books: reached end of search results
+- [2026-08-18 20:29:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:23] dli_books: reached end of search results
+- [2026-08-18 20:29:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:29] dli_books: reached end of search results
+- [2026-08-18 20:29:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:35] dli_books: reached end of search results
+- [2026-08-18 20:29:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:39] zeenews: 8140/238571 articles this batch, ~2423388 words this batch (~4332528 total ever)
+- [2026-08-18 20:29:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:41] dli_books: reached end of search results
+- [2026-08-18 20:29:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:47] dli_books: reached end of search results
+- [2026-08-18 20:29:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:53] dli_books: reached end of search results
+- [2026-08-18 20:29:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:29:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:29:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:29:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:29:59] dli_books: reached end of search results
+- [2026-08-18 20:29:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:03] patrika: 6300/12804 articles this batch, ~3357807 words this batch (~5855597 total ever)
+- [2026-08-18 20:30:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:05] dli_books: reached end of search results
+- [2026-08-18 20:30:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:11] dli_books: reached end of search results
+- [2026-08-18 20:30:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:17] dli_books: reached end of search results
+- [2026-08-18 20:30:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:24] dli_books: reached end of search results
+- [2026-08-18 20:30:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:27] zeenews: 8160/238571 articles this batch, ~2428879 words this batch (~4338019 total ever)
+- [2026-08-18 20:30:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:30] dli_books: reached end of search results
+- [2026-08-18 20:30:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:36] dli_books: reached end of search results
+- [2026-08-18 20:30:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:42] dli_books: reached end of search results
+- [2026-08-18 20:30:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:48] dli_books: reached end of search results
+- [2026-08-18 20:30:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:30:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:30:54] dli_books: reached end of search results
+- [2026-08-18 20:30:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:30:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:30:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:00] dli_books: reached end of search results
+- [2026-08-18 20:31:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:00] patrika: 6320/12804 articles this batch, ~3375990 words this batch (~5873780 total ever)
+- [2026-08-18 20:31:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:07] dli_books: reached end of search results
+- [2026-08-18 20:31:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:13] dli_books: reached end of search results
+- [2026-08-18 20:31:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:13] zeenews: 8180/238571 articles this batch, ~2433163 words this batch (~4342303 total ever)
+- [2026-08-18 20:31:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:19] dli_books: reached end of search results
+- [2026-08-18 20:31:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:24] dli_books: reached end of search results
+- [2026-08-18 20:31:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:30] dli_books: reached end of search results
+- [2026-08-18 20:31:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:36] dli_books: reached end of search results
+- [2026-08-18 20:31:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:42] dli_books: reached end of search results
+- [2026-08-18 20:31:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:48] dli_books: reached end of search results
+- [2026-08-18 20:31:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:54] zeenews: 8200/238571 articles this batch, ~2438943 words this batch (~4348083 total ever)
+- [2026-08-18 20:31:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:31:54] dli_books: reached end of search results
+- [2026-08-18 20:31:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:31:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:31:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:31:56] patrika: 6340/12804 articles this batch, ~3387231 words this batch (~5885021 total ever)
+- [2026-08-18 20:32:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:01] dli_books: reached end of search results
+- [2026-08-18 20:32:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:06] dli_books: reached end of search results
+- [2026-08-18 20:32:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:12] dli_books: reached end of search results
+- [2026-08-18 20:32:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:19] dli_books: reached end of search results
+- [2026-08-18 20:32:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:24] dli_books: reached end of search results
+- [2026-08-18 20:32:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:30] dli_books: reached end of search results
+- [2026-08-18 20:32:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:36] zeenews: 8220/238571 articles this batch, ~2444684 words this batch (~4353824 total ever)
+- [2026-08-18 20:32:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:36] dli_books: reached end of search results
+- [2026-08-18 20:32:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:42] dli_books: reached end of search results
+- [2026-08-18 20:32:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:32:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:48] dli_books: reached end of search results
+- [2026-08-18 20:32:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:53] patrika: 6360/12804 articles this batch, ~3397917 words this batch (~5895707 total ever)
+- [2026-08-18 20:32:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:32:55] dli_books: reached end of search results
+- [2026-08-18 20:32:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:32:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:32:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:01] dli_books: reached end of search results
+- [2026-08-18 20:33:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:06] dli_books: reached end of search results
+- [2026-08-18 20:33:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:12] dli_books: reached end of search results
+- [2026-08-18 20:33:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:18] dli_books: reached end of search results
+- [2026-08-18 20:33:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:22] zeenews: 8240/238571 articles this batch, ~2452405 words this batch (~4361545 total ever)
+- [2026-08-18 20:33:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:24] dli_books: reached end of search results
+- [2026-08-18 20:33:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:30] dli_books: reached end of search results
+- [2026-08-18 20:33:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:36] dli_books: reached end of search results
+- [2026-08-18 20:33:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:42] dli_books: reached end of search results
+- [2026-08-18 20:33:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:48] patrika: 6380/12804 articles this batch, ~3408855 words this batch (~5906645 total ever)
+- [2026-08-18 20:33:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:49] dli_books: reached end of search results
+- [2026-08-18 20:33:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:33:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:33:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:33:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:33:55] dli_books: reached end of search results
+- [2026-08-18 20:33:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:02] dli_books: reached end of search results
+- [2026-08-18 20:34:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:08] zeenews: 8260/238571 articles this batch, ~2458290 words this batch (~4367430 total ever)
+- [2026-08-18 20:34:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:08] dli_books: reached end of search results
+- [2026-08-18 20:34:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:14] dli_books: reached end of search results
+- [2026-08-18 20:34:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:20] dli_books: reached end of search results
+- [2026-08-18 20:34:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:26] dli_books: reached end of search results
+- [2026-08-18 20:34:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:32] dli_books: reached end of search results
+- [2026-08-18 20:34:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:38] dli_books: reached end of search results
+- [2026-08-18 20:34:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:38] patrika: 6400/12804 articles this batch, ~3420047 words this batch (~5917837 total ever)
+- [2026-08-18 20:34:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:44] dli_books: reached end of search results
+- [2026-08-18 20:34:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:49] zeenews: 8280/238571 articles this batch, ~2462986 words this batch (~4372126 total ever)
+- [2026-08-18 20:34:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:50] dli_books: reached end of search results
+- [2026-08-18 20:34:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:34:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:34:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:34:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:34:56] dli_books: reached end of search results
+- [2026-08-18 20:34:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:02] dli_books: reached end of search results
+- [2026-08-18 20:35:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:08] dli_books: reached end of search results
+- [2026-08-18 20:35:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:14] dli_books: reached end of search results
+- [2026-08-18 20:35:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:20] dli_books: reached end of search results
+- [2026-08-18 20:35:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:26] dli_books: reached end of search results
+- [2026-08-18 20:35:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:32] patrika: 6420/12804 articles this batch, ~3430912 words this batch (~5928702 total ever)
+- [2026-08-18 20:35:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:32] dli_books: reached end of search results
+- [2026-08-18 20:35:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:34] zeenews: 8300/238571 articles this batch, ~2467630 words this batch (~4376770 total ever)
+- [2026-08-18 20:35:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:39] dli_books: reached end of search results
+- [2026-08-18 20:35:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:45] dli_books: reached end of search results
+- [2026-08-18 20:35:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:51] dli_books: reached end of search results
+- [2026-08-18 20:35:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:35:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:35:57] dli_books: reached end of search results
+- [2026-08-18 20:35:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:35:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:35:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:02] dli_books: reached end of search results
+- [2026-08-18 20:36:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:08] dli_books: reached end of search results
+- [2026-08-18 20:36:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:14] dli_books: reached end of search results
+- [2026-08-18 20:36:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:15] zeenews: 8320/238571 articles this batch, ~2472234 words this batch (~4381374 total ever)
+- [2026-08-18 20:36:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:20] dli_books: reached end of search results
+- [2026-08-18 20:36:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:24] patrika: 6440/12804 articles this batch, ~3442071 words this batch (~5939861 total ever)
+- [2026-08-18 20:36:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:26] dli_books: reached end of search results
+- [2026-08-18 20:36:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:32] dli_books: reached end of search results
+- [2026-08-18 20:36:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:38] dli_books: reached end of search results
+- [2026-08-18 20:36:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:44] dli_books: reached end of search results
+- [2026-08-18 20:36:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:50] dli_books: reached end of search results
+- [2026-08-18 20:36:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:36:56] zeenews: 8340/238571 articles this batch, ~2477786 words this batch (~4386926 total ever)
+- [2026-08-18 20:36:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:36:56] dli_books: reached end of search results
+- [2026-08-18 20:36:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:36:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:36:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:02] dli_books: reached end of search results
+- [2026-08-18 20:37:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:08] dli_books: reached end of search results
+- [2026-08-18 20:37:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:14] dli_books: reached end of search results
+- [2026-08-18 20:37:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:15] patrika: 6460/12804 articles this batch, ~3453319 words this batch (~5951109 total ever)
+- [2026-08-18 20:37:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:20] dli_books: reached end of search results
+- [2026-08-18 20:37:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:26] dli_books: reached end of search results
+- [2026-08-18 20:37:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:32] dli_books: reached end of search results
+- [2026-08-18 20:37:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:37] zeenews: 8360/238571 articles this batch, ~2482480 words this batch (~4391620 total ever)
+- [2026-08-18 20:37:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:38] dli_books: reached end of search results
+- [2026-08-18 20:37:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:46] dli_books: reached end of search results
+- [2026-08-18 20:37:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:52] dli_books: reached end of search results
+- [2026-08-18 20:37:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:37:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:37:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:37:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:37:58] dli_books: reached end of search results
+- [2026-08-18 20:37:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:04] dli_books: reached end of search results
+- [2026-08-18 20:38:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:10] dli_books: reached end of search results
+- [2026-08-18 20:38:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:12] patrika: 6480/12804 articles this batch, ~3464485 words this batch (~5962275 total ever)
+- [2026-08-18 20:38:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:16] dli_books: reached end of search results
+- [2026-08-18 20:38:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:18] zeenews: 8380/238571 articles this batch, ~2486727 words this batch (~4395867 total ever)
+- [2026-08-18 20:38:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:21] dli_books: reached end of search results
+- [2026-08-18 20:38:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:27] dli_books: reached end of search results
+- [2026-08-18 20:38:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:34] dli_books: reached end of search results
+- [2026-08-18 20:38:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:38] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:38] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:39] dli_books: reached end of search results
+- [2026-08-18 20:38:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:46] dli_books: reached end of search results
+- [2026-08-18 20:38:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:52] dli_books: reached end of search results
+- [2026-08-18 20:38:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:38:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:38:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:38:58] zeenews: 8400/238571 articles this batch, ~2491531 words this batch (~4400671 total ever)
+- [2026-08-18 20:38:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:38:58] dli_books: reached end of search results
+- [2026-08-18 20:38:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:39:00] patrika: 6500/12804 articles this batch, ~3476416 words this batch (~5974206 total ever)
+- [2026-08-18 20:39:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:39:04] dli_books: reached end of search results
+- [2026-08-18 20:39:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:39:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:20] fetch failed https://archive.org/services/search/v1/scrape?q=collection%3Adigitallibraryindia+AND+language%3A%28hin%29&fields=identifier&sorts=identifier&count=100&cursor=10000: HTTP Error 400: Bad Request
+- [2026-08-18 20:39:20] dli_books: reached end of search results
+- [2026-08-18 20:39:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:39:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:32] dli_books YMOK_ram-charit-manas-gita-press-gorakhpur: ~387385 words
+- [2026-08-18 20:39:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:38] zeenews: 8420/238571 articles this batch, ~2496518 words this batch (~4405658 total ever)
+- [2026-08-18 20:39:38] dli_books a-secular-agenda-arun-shourie: ~113779 words
+- [2026-08-18 20:39:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:44] dli_books adya-shakti-ka-divya-sthal-uma-nagari-sanjeevani-sharada-kendra-dr.-maharaj-krishna-bharat: ~11516 words
+- [2026-08-18 20:39:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:50] dli_books amar-katha-tote-wali-pustak-sansar-jammu: ~14112 words
+- [2026-08-18 20:39:56] dli_books amarnath-the-shrine-celestial-j.-n.-ganhar: ~5763 words
+- [2026-08-18 20:39:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:39:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:39:57] patrika: 6520/12804 articles this batch, ~3485743 words this batch (~5983533 total ever)
+- [2026-08-18 20:40:02] dli_books amarnath-yatra-guide-amar-katha-vivaran-sahit-acharya-shivnath-rai-ji-taskin: ~13099 words
+- [2026-08-18 20:40:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:17] dli_books amrit-lahari-shri-sharika-devi-stotra-sangrah-prachin-ashtami-mandal-amrit-kund-srinagar: ~11928 words
+- [2026-08-18 20:40:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:25] dli_books analysing-foreign-policy-an-introduction-to-some-conceptual-problems-roy-e-jones: ~60652 words
+- [2026-08-18 20:40:27] dli_books analysing-foreign-policy-an-introduction-to-some-conceptual-problems-roy-e-jones: ~60652 words
+- [2026-08-18 20:40:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:32] zeenews: 8440/238571 articles this batch, ~2501688 words this batch (~4410828 total ever)
+- [2026-08-18 20:40:34] dli_books anand-gayatri-katha-mahatma-anand-swami-saraswati: ~37004 words
+- [2026-08-18 20:40:36] dli_books anand-gayatri-katha-mahatma-anand-swami-saraswati: ~37004 words
+- [2026-08-18 20:40:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:46] dli_books ashirvad-shatakam-of-vanchhanath-mahakavi-kamakoti-koshasthan: ~30013 words
+- [2026-08-18 20:40:46] dli_books ashirvad-shatakam-of-vanchhanath-mahakavi-kamakoti-koshasthan: ~30013 words
+- [2026-08-18 20:40:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:54] dli_books avaozon-ke-arth-dina-nath-nadim: ~30219 words
+- [2026-08-18 20:40:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:40:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:40:55] patrika: 6540/12804 articles this batch, ~3497272 words this batch (~5995062 total ever)
+- [2026-08-18 20:40:59] dli_books avaozon-ke-arth-dina-nath-nadim: ~30219 words
+- [2026-08-18 20:41:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:01] dli_books bhagavat-gita-shridhari-tika-1901-nirnay-sagar-press: ~44455 words
+- [2026-08-18 20:41:04] dli_books bhagavat-gita-shridhari-tika-1901-nirnay-sagar-press: ~44455 words
+- [2026-08-18 20:41:04] dli_books BATCH COMPLETE: 5 new items processed, ~202343 words this batch
+- [2026-08-18 20:41:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:11] dli_books bhagwan-gopinath-ji-of-kashmir-vol-2-prof.-kashi-nath-dhar: ~62089 words
+- [2026-08-18 20:41:13] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:13] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:16] zeenews: 8460/238571 articles this batch, ~2508224 words this batch (~4417364 total ever)
+- [2026-08-18 20:41:18] dli_books bhaskar-prakash-swami-shri-aftab: ~5204 words
+- [2026-08-18 20:41:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:27] dli_books bhaskar-prakash-vol-2-swami-shri-aftab: ~12843 words
+- [2026-08-18 20:41:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:49] patrika: 6560/12804 articles this batch, ~3507444 words this batch (~6005234 total ever)
+- [2026-08-18 20:41:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:41:58] zeenews: 8480/238571 articles this batch, ~2514054 words this batch (~4423194 total ever)
+- [2026-08-18 20:41:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:41:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:20] dli_books bhav-posh-mal-part-i-kashmiri-bhajan-sangrah-kuldeep-thussu-pamposh: ~16161 words
+- [2026-08-18 20:42:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:25] dli_books bhavana-krama-dvitiya-of-charya-kamal-sheel-tibetal-original-and-hindi-translation-roshan-lal-negi: ~18443 words
+- [2026-08-18 20:42:29] dli_books bhavani-sahasranama-stavaraj-durga-lal-sharma-raj-purohit-kishtavad: ~10886 words
+- [2026-08-18 20:42:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:34] dli_books birds-of-kashmir-1956-samsar-chand-koul: ~26898 words
+- [2026-08-18 20:42:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:38] dli_books chhaya-motilal-kyemu: ~17940 words
+- [2026-08-18 20:42:40] zeenews: 8500/238571 articles this batch, ~2519427 words this batch (~4428567 total ever)
+- [2026-08-18 20:42:40] patrika: 6580/12804 articles this batch, ~3518178 words this batch (~6015968 total ever)
+- [2026-08-18 20:42:42] dli_books chinar-ke-aansu-sunita-raina: ~12645 words
+- [2026-08-18 20:42:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:47] dli_books collection-of-hindi-poems-anon: ~31242 words
+- [2026-08-18 20:42:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:42:51] dli_books devi-shri-sharika-108-namavali-makhan-lal-kukilu: ~1215 words
+- [2026-08-18 20:42:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:42:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:20] zeenews: 8520/238571 articles this batch, ~2526494 words this batch (~4435634 total ever)
+- [2026-08-18 20:43:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:36] patrika: 6600/12804 articles this batch, ~3528678 words this batch (~6026468 total ever)
+- [2026-08-18 20:43:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:43:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:43:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:01] zeenews: 8540/238571 articles this batch, ~2532258 words this batch (~4441398 total ever)
+- [2026-08-18 20:44:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:24] patrika: 6620/12804 articles this batch, ~3540946 words this batch (~6038736 total ever)
+- [2026-08-18 20:44:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:42] zeenews: 8560/238571 articles this batch, ~2536294 words this batch (~4445434 total ever)
+- [2026-08-18 20:44:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:44:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:44:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:20] patrika: 6640/12804 articles this batch, ~3551733 words this batch (~6049523 total ever)
+- [2026-08-18 20:45:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:28] zeenews: 8580/238571 articles this batch, ~2541347 words this batch (~4450487 total ever)
+- [2026-08-18 20:45:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:45:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:45:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:09] zeenews: 8600/238571 articles this batch, ~2546578 words this batch (~4455718 total ever)
+- [2026-08-18 20:46:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:15] patrika: 6660/12804 articles this batch, ~3563301 words this batch (~6061091 total ever)
+- [2026-08-18 20:46:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:46:50] zeenews: 8620/238571 articles this batch, ~2554341 words this batch (~4463481 total ever)
+- [2026-08-18 20:46:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:46:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:01] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:01] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:09] patrika: 6680/12804 articles this batch, ~3574680 words this batch (~6072470 total ever)
+- [2026-08-18 20:47:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:27] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:27] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:32] zeenews: 8640/238571 articles this batch, ~2561756 words this batch (~4470896 total ever)
+- [2026-08-18 20:47:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:46] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:46] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:47:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:47:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:07] patrika: 6700/12804 articles this batch, ~3585237 words this batch (~6083027 total ever)
+- [2026-08-18 20:48:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:12] zeenews: 8660/238571 articles this batch, ~2567023 words this batch (~4476163 total ever)
+- [2026-08-18 20:48:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:43] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:43] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:49] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:49] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:48:55] zeenews: 8680/238571 articles this batch, ~2571615 words this batch (~4480755 total ever)
+- [2026-08-18 20:48:55] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:48:55] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:01] patrika: 6720/12804 articles this batch, ~3596025 words this batch (~6093815 total ever)
+- [2026-08-18 20:49:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:08] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:08] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:38] zeenews: 8700/238571 articles this batch, ~2579741 words this batch (~4488881 total ever)
+- [2026-08-18 20:49:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:49:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:49:55] patrika: 6740/12804 articles this batch, ~3607633 words this batch (~6105423 total ever)
+- [2026-08-18 20:50:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:24] zeenews: 8720/238571 articles this batch, ~2584954 words this batch (~4494094 total ever)
+- [2026-08-18 20:50:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:33] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:33] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:49] patrika: 6760/12804 articles this batch, ~3618592 words this batch (~6116382 total ever)
+- [2026-08-18 20:50:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:50:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:50:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:08] zeenews: 8740/238571 articles this batch, ~2589822 words this batch (~4498962 total ever)
+- [2026-08-18 20:51:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:23] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:23] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:48] patrika: 6780/12804 articles this batch, ~3630687 words this batch (~6128477 total ever)
+- [2026-08-18 20:51:48] zeenews: 8760/238571 articles this batch, ~2595150 words this batch (~4504290 total ever)
+- [2026-08-18 20:51:48] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:48] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:51:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:51:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:02] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:02] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:09] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:09] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:15] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:15] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:29] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:29] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:30] zeenews: 8780/238571 articles this batch, ~2600968 words this batch (~4510108 total ever)
+- [2026-08-18 20:52:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:45] patrika: 6800/12804 articles this batch, ~3642968 words this batch (~6140758 total ever)
+- [2026-08-18 20:52:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:52:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:52:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:14] zeenews: 8800/238571 articles this batch, ~2605823 words this batch (~4514963 total ever)
+- [2026-08-18 20:53:21] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:21] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:34] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:34] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:39] patrika: 6820/12804 articles this batch, ~3654709 words this batch (~6152499 total ever)
+- [2026-08-18 20:53:40] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:40] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:53] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:53] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:53:55] zeenews: 8820/238571 articles this batch, ~2611594 words this batch (~4520734 total ever)
+- [2026-08-18 20:53:59] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:53:59] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:06] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:06] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:12] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:12] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:25] patrika: 6840/12804 articles this batch, ~3665912 words this batch (~6163702 total ever)
+- [2026-08-18 20:54:30] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:30] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:36] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:36] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:38] zeenews: 8840/238571 articles this batch, ~2617865 words this batch (~4527005 total ever)
+- [2026-08-18 20:54:42] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:42] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:50] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:50] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:54:56] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:54:56] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:03] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:03] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:16] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:16] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:21] patrika: 6860/12804 articles this batch, ~3678958 words this batch (~6176748 total ever)
+- [2026-08-18 20:55:22] zeenews: 8860/238571 articles this batch, ~2623220 words this batch (~4532360 total ever)
+- [2026-08-18 20:55:22] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:22] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:28] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:28] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:35] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:35] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:41] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:41] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:47] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:47] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:55:54] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:55:54] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:00] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:00] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:03] zeenews: 8880/238571 articles this batch, ~2628178 words this batch (~4537318 total ever)
+- [2026-08-18 20:56:07] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:07] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:14] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:14] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:17] patrika: 6880/12804 articles this batch, ~3690612 words this batch (~6188402 total ever)
+- [2026-08-18 20:56:20] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:20] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:26] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:26] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:32] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:32] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:39] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:39] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:45] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:45] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:45] zeenews: 8900/238571 articles this batch, ~2633166 words this batch (~4542306 total ever)
+- [2026-08-18 20:56:51] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:51] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:56:57] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:56:57] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:04] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:04] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:09] patrika: 6900/12804 articles this batch, ~3702269 words this batch (~6200059 total ever)
+- [2026-08-18 20:57:10] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:10] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:17] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:17] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:24] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:24] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:28] zeenews: 8920/238571 articles this batch, ~2638294 words this batch (~4547434 total ever)
+- [2026-08-18 20:57:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:37] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:37] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:44] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:44] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:57:46] dli_books: reached end of search results
+- [2026-08-18 20:57:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:57:52] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:52] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:57:52] dli_books: reached end of search results
+- [2026-08-18 20:57:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:57:58] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:57:58] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:57:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:57:58] dli_books: reached end of search results
+- [2026-08-18 20:57:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:04] dli_books: reached end of search results
+- [2026-08-18 20:58:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:05] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:58:05] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:58:08] patrika: 6920/12804 articles this batch, ~3711220 words this batch (~6209010 total ever)
+- [2026-08-18 20:58:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:10] dli_books: reached end of search results
+- [2026-08-18 20:58:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:11] zeenews: 8940/238571 articles this batch, ~2645679 words this batch (~4554819 total ever)
+- [2026-08-18 20:58:11] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:58:11] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:58:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:17] dli_books: reached end of search results
+- [2026-08-18 20:58:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:18] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:58:18] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:58:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:23] dli_books: reached end of search results
+- [2026-08-18 20:58:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:25] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:58:25] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:58:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:29] dli_books: reached end of search results
+- [2026-08-18 20:58:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:31] vikaspedia (hi): 6829 URLs in sitemap
+- [2026-08-18 20:58:31] BATCH COMPLETE: 0 new URLs processed, ~0 words this batch
+- [2026-08-18 20:58:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:36] dli_books: reached end of search results
+- [2026-08-18 20:58:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:45] dli_books: reached end of search results
+- [2026-08-18 20:58:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:51] dli_books: reached end of search results
+- [2026-08-18 20:58:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:58:53] zeenews: 8960/238571 articles this batch, ~2649724 words this batch (~4558864 total ever)
+- [2026-08-18 20:58:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:58:57] dli_books: reached end of search results
+- [2026-08-18 20:58:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:03] dli_books: reached end of search results
+- [2026-08-18 20:59:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:05] patrika: 6940/12804 articles this batch, ~3722789 words this batch (~6220579 total ever)
+- [2026-08-18 20:59:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:09] dli_books: reached end of search results
+- [2026-08-18 20:59:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:15] dli_books: reached end of search results
+- [2026-08-18 20:59:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:21] dli_books: reached end of search results
+- [2026-08-18 20:59:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:27] dli_books: reached end of search results
+- [2026-08-18 20:59:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:33] dli_books: reached end of search results
+- [2026-08-18 20:59:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:35] zeenews: 8980/238571 articles this batch, ~2653925 words this batch (~4563065 total ever)
+- [2026-08-18 20:59:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:39] dli_books: reached end of search results
+- [2026-08-18 20:59:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:45] dli_books: reached end of search results
+- [2026-08-18 20:59:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:51] dli_books: reached end of search results
+- [2026-08-18 20:59:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 20:59:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 20:59:57] dli_books: reached end of search results
+- [2026-08-18 20:59:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:02] patrika: 6960/12804 articles this batch, ~3733485 words this batch (~6231275 total ever)
+- [2026-08-18 21:00:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:03] dli_books: reached end of search results
+- [2026-08-18 21:00:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:12] dli_books: reached end of search results
+- [2026-08-18 21:00:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:18] dli_books: reached end of search results
+- [2026-08-18 21:00:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:24] dli_books: reached end of search results
+- [2026-08-18 21:00:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:24] zeenews: 9000/238571 articles this batch, ~2660087 words this batch (~4569227 total ever)
+- [2026-08-18 21:00:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:30] dli_books: reached end of search results
+- [2026-08-18 21:00:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:37] dli_books: reached end of search results
+- [2026-08-18 21:00:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:48] dli_books: reached end of search results
+- [2026-08-18 21:00:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:00:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:00:55] dli_books: reached end of search results
+- [2026-08-18 21:00:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:01] dli_books: reached end of search results
+- [2026-08-18 21:01:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:06] patrika: 6980/12804 articles this batch, ~3744426 words this batch (~6242216 total ever)
+- [2026-08-18 21:01:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:07] dli_books: reached end of search results
+- [2026-08-18 21:01:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:13] dli_books: reached end of search results
+- [2026-08-18 21:01:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:16] zeenews: 9020/238571 articles this batch, ~2667111 words this batch (~4576251 total ever)
+- [2026-08-18 21:01:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:19] dli_books: reached end of search results
+- [2026-08-18 21:01:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:26] dli_books: reached end of search results
+- [2026-08-18 21:01:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:32] dli_books: reached end of search results
+- [2026-08-18 21:01:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:38] dli_books: reached end of search results
+- [2026-08-18 21:01:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:45] dli_books: reached end of search results
+- [2026-08-18 21:01:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:51] dli_books: reached end of search results
+- [2026-08-18 21:01:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:01:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:01:57] dli_books: reached end of search results
+- [2026-08-18 21:01:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:04] dli_books: reached end of search results
+- [2026-08-18 21:02:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:04] zeenews: 9040/238571 articles this batch, ~2672960 words this batch (~4582100 total ever)
+- [2026-08-18 21:02:07] patrika: 7000/12804 articles this batch, ~3756700 words this batch (~6254490 total ever)
+- [2026-08-18 21:02:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:10] dli_books: reached end of search results
+- [2026-08-18 21:02:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:16] dli_books: reached end of search results
+- [2026-08-18 21:02:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:22] dli_books: reached end of search results
+- [2026-08-18 21:02:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:28] dli_books: reached end of search results
+- [2026-08-18 21:02:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:34] dli_books: reached end of search results
+- [2026-08-18 21:02:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:40] dli_books: reached end of search results
+- [2026-08-18 21:02:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:46] zeenews: 9060/238571 articles this batch, ~2677902 words this batch (~4587042 total ever)
+- [2026-08-18 21:02:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:46] dli_books: reached end of search results
+- [2026-08-18 21:02:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:52] dli_books: reached end of search results
+- [2026-08-18 21:02:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:02:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:02:59] dli_books: reached end of search results
+- [2026-08-18 21:02:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:04] patrika: 7020/12804 articles this batch, ~3767549 words this batch (~6265339 total ever)
+- [2026-08-18 21:03:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:05] dli_books: reached end of search results
+- [2026-08-18 21:03:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:11] dli_books: reached end of search results
+- [2026-08-18 21:03:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:17] dli_books: reached end of search results
+- [2026-08-18 21:03:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:23] dli_books: reached end of search results
+- [2026-08-18 21:03:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:29] dli_books: reached end of search results
+- [2026-08-18 21:03:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:31] zeenews: 9080/238571 articles this batch, ~2684264 words this batch (~4593404 total ever)
+- [2026-08-18 21:03:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:36] dli_books: reached end of search results
+- [2026-08-18 21:03:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:42] dli_books: reached end of search results
+- [2026-08-18 21:03:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:48] dli_books: reached end of search results
+- [2026-08-18 21:03:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:03:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:03:54] dli_books: reached end of search results
+- [2026-08-18 21:03:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:00] dli_books: reached end of search results
+- [2026-08-18 21:04:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:01] patrika: 7040/12804 articles this batch, ~3779647 words this batch (~6277437 total ever)
+- [2026-08-18 21:04:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:06] dli_books: reached end of search results
+- [2026-08-18 21:04:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:12] dli_books: reached end of search results
+- [2026-08-18 21:04:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:14] zeenews: 9100/238571 articles this batch, ~2689504 words this batch (~4598644 total ever)
+- [2026-08-18 21:04:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:18] dli_books: reached end of search results
+- [2026-08-18 21:04:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:24] dli_books: reached end of search results
+- [2026-08-18 21:04:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:30] dli_books: reached end of search results
+- [2026-08-18 21:04:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:36] dli_books: reached end of search results
+- [2026-08-18 21:04:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:42] dli_books: reached end of search results
+- [2026-08-18 21:04:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:48] dli_books: reached end of search results
+- [2026-08-18 21:04:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:04:54] dli_books: reached end of search results
+- [2026-08-18 21:04:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:04:57] zeenews: 9120/238571 articles this batch, ~2695338 words this batch (~4604478 total ever)
+- [2026-08-18 21:05:00] patrika: 7060/12804 articles this batch, ~3789957 words this batch (~6287747 total ever)
+- [2026-08-18 21:05:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:00] dli_books: reached end of search results
+- [2026-08-18 21:05:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:06] dli_books: reached end of search results
+- [2026-08-18 21:05:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:13] dli_books: reached end of search results
+- [2026-08-18 21:05:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:19] dli_books: reached end of search results
+- [2026-08-18 21:05:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:25] dli_books: reached end of search results
+- [2026-08-18 21:05:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:31] dli_books: reached end of search results
+- [2026-08-18 21:05:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:37] dli_books: reached end of search results
+- [2026-08-18 21:05:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:41] zeenews: 9140/238571 articles this batch, ~2700159 words this batch (~4609299 total ever)
+- [2026-08-18 21:05:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:43] dli_books: reached end of search results
+- [2026-08-18 21:05:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:49] dli_books: reached end of search results
+- [2026-08-18 21:05:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:05:55] dli_books: reached end of search results
+- [2026-08-18 21:05:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:05:58] patrika: 7080/12804 articles this batch, ~3800854 words this batch (~6298644 total ever)
+- [2026-08-18 21:06:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:01] dli_books: reached end of search results
+- [2026-08-18 21:06:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:07] dli_books: reached end of search results
+- [2026-08-18 21:06:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:13] dli_books: reached end of search results
+- [2026-08-18 21:06:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:19] dli_books: reached end of search results
+- [2026-08-18 21:06:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:21] zeenews: 9160/238571 articles this batch, ~2710835 words this batch (~4619975 total ever)
+- [2026-08-18 21:06:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:25] dli_books: reached end of search results
+- [2026-08-18 21:06:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:32] dli_books: reached end of search results
+- [2026-08-18 21:06:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:39] dli_books: reached end of search results
+- [2026-08-18 21:06:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:47] dli_books: reached end of search results
+- [2026-08-18 21:06:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:52] dli_books: reached end of search results
+- [2026-08-18 21:06:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:06:57] patrika: 7100/12804 articles this batch, ~3811692 words this batch (~6309482 total ever)
+- [2026-08-18 21:06:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:06:58] dli_books: reached end of search results
+- [2026-08-18 21:06:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:04] zeenews: 9180/238571 articles this batch, ~2716447 words this batch (~4625587 total ever)
+- [2026-08-18 21:07:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:04] dli_books: reached end of search results
+- [2026-08-18 21:07:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:11] dli_books: reached end of search results
+- [2026-08-18 21:07:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:16] dli_books: reached end of search results
+- [2026-08-18 21:07:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:23] dli_books: reached end of search results
+- [2026-08-18 21:07:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:29] dli_books: reached end of search results
+- [2026-08-18 21:07:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:35] dli_books: reached end of search results
+- [2026-08-18 21:07:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:42] dli_books: reached end of search results
+- [2026-08-18 21:07:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:48] dli_books: reached end of search results
+- [2026-08-18 21:07:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:07:49] zeenews: 9200/238571 articles this batch, ~2721640 words this batch (~4630780 total ever)
+- [2026-08-18 21:07:52] patrika: 7120/12804 articles this batch, ~3822030 words this batch (~6319820 total ever)
+- [2026-08-18 21:07:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:07:54] dli_books: reached end of search results
+- [2026-08-18 21:07:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:00] dli_books: reached end of search results
+- [2026-08-18 21:08:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:07] dli_books: reached end of search results
+- [2026-08-18 21:08:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:13] dli_books: reached end of search results
+- [2026-08-18 21:08:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:19] dli_books: reached end of search results
+- [2026-08-18 21:08:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:28] dli_books: reached end of search results
+- [2026-08-18 21:08:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:33] zeenews: 9220/238571 articles this batch, ~2727737 words this batch (~4636877 total ever)
+- [2026-08-18 21:08:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:34] dli_books: reached end of search results
+- [2026-08-18 21:08:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:40] dli_books: reached end of search results
+- [2026-08-18 21:08:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:46] dli_books: reached end of search results
+- [2026-08-18 21:08:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:48] patrika: 7140/12804 articles this batch, ~3833870 words this batch (~6331660 total ever)
+- [2026-08-18 21:08:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:52] dli_books: reached end of search results
+- [2026-08-18 21:08:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:08:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:08:58] dli_books: reached end of search results
+- [2026-08-18 21:08:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:04] dli_books: reached end of search results
+- [2026-08-18 21:09:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:10] dli_books: reached end of search results
+- [2026-08-18 21:09:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:15] zeenews: 9240/238571 articles this batch, ~2731661 words this batch (~4640801 total ever)
+- [2026-08-18 21:09:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:16] dli_books: reached end of search results
+- [2026-08-18 21:09:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:22] dli_books: reached end of search results
+- [2026-08-18 21:09:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:28] dli_books: reached end of search results
+- [2026-08-18 21:09:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:34] dli_books: reached end of search results
+- [2026-08-18 21:09:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:38] patrika: 7160/12804 articles this batch, ~3844720 words this batch (~6342510 total ever)
+- [2026-08-18 21:09:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:40] dli_books: reached end of search results
+- [2026-08-18 21:09:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:46] dli_books: reached end of search results
+- [2026-08-18 21:09:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:52] dli_books: reached end of search results
+- [2026-08-18 21:09:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:09:56] zeenews: 9260/238571 articles this batch, ~2738104 words this batch (~4647244 total ever)
+- [2026-08-18 21:09:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:09:59] dli_books: reached end of search results
+- [2026-08-18 21:09:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:05] dli_books: reached end of search results
+- [2026-08-18 21:10:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:11] dli_books: reached end of search results
+- [2026-08-18 21:10:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:17] dli_books: reached end of search results
+- [2026-08-18 21:10:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:23] dli_books: reached end of search results
+- [2026-08-18 21:10:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:24] patrika: 7180/12804 articles this batch, ~3855648 words this batch (~6353438 total ever)
+- [2026-08-18 21:10:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:29] dli_books: reached end of search results
+- [2026-08-18 21:10:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:35] dli_books: reached end of search results
+- [2026-08-18 21:10:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:41] dli_books: reached end of search results
+- [2026-08-18 21:10:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:43] zeenews: 9280/238571 articles this batch, ~2743575 words this batch (~4652715 total ever)
+- [2026-08-18 21:10:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:47] dli_books: reached end of search results
+- [2026-08-18 21:10:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:53] dli_books: reached end of search results
+- [2026-08-18 21:10:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:10:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:10:59] dli_books: reached end of search results
+- [2026-08-18 21:10:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:05] dli_books: reached end of search results
+- [2026-08-18 21:11:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:11] dli_books: reached end of search results
+- [2026-08-18 21:11:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:17] dli_books: reached end of search results
+- [2026-08-18 21:11:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:22] patrika: 7200/12804 articles this batch, ~3866919 words this batch (~6364709 total ever)
+- [2026-08-18 21:11:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:25] dli_books: reached end of search results
+- [2026-08-18 21:11:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:25] zeenews: 9300/238571 articles this batch, ~2749062 words this batch (~4658202 total ever)
+- [2026-08-18 21:11:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:30] dli_books: reached end of search results
+- [2026-08-18 21:11:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:37] dli_books: reached end of search results
+- [2026-08-18 21:11:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:42] dli_books: reached end of search results
+- [2026-08-18 21:11:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:48] dli_books: reached end of search results
+- [2026-08-18 21:11:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:11:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:11:54] dli_books: reached end of search results
+- [2026-08-18 21:11:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:00] dli_books: reached end of search results
+- [2026-08-18 21:12:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:06] zeenews: 9320/238571 articles this batch, ~2757301 words this batch (~4666441 total ever)
+- [2026-08-18 21:12:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:06] dli_books: reached end of search results
+- [2026-08-18 21:12:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:12] dli_books: reached end of search results
+- [2026-08-18 21:12:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:18] dli_books: reached end of search results
+- [2026-08-18 21:12:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:22] patrika: 7220/12804 articles this batch, ~3878868 words this batch (~6376658 total ever)
+- [2026-08-18 21:12:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:24] dli_books: reached end of search results
+- [2026-08-18 21:12:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:30] dli_books: reached end of search results
+- [2026-08-18 21:12:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:36] dli_books: reached end of search results
+- [2026-08-18 21:12:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:42] dli_books: reached end of search results
+- [2026-08-18 21:12:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:47] zeenews: 9340/238571 articles this batch, ~2763031 words this batch (~4672171 total ever)
+- [2026-08-18 21:12:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:48] dli_books: reached end of search results
+- [2026-08-18 21:12:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:12:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:12:54] dli_books: reached end of search results
+- [2026-08-18 21:12:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:00] dli_books: reached end of search results
+- [2026-08-18 21:13:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:07] dli_books: reached end of search results
+- [2026-08-18 21:13:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:13] dli_books: reached end of search results
+- [2026-08-18 21:13:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:19] patrika: 7240/12804 articles this batch, ~3891450 words this batch (~6389240 total ever)
+- [2026-08-18 21:13:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:20] dli_books: reached end of search results
+- [2026-08-18 21:13:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:26] dli_books: reached end of search results
+- [2026-08-18 21:13:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:28] zeenews: 9360/238571 articles this batch, ~2769669 words this batch (~4678809 total ever)
+- [2026-08-18 21:13:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:32] dli_books: reached end of search results
+- [2026-08-18 21:13:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:38] dli_books: reached end of search results
+- [2026-08-18 21:13:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:45] dli_books: reached end of search results
+- [2026-08-18 21:13:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:51] dli_books: reached end of search results
+- [2026-08-18 21:13:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:13:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:13:57] dli_books: reached end of search results
+- [2026-08-18 21:13:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:03] dli_books: reached end of search results
+- [2026-08-18 21:14:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:09] zeenews: 9380/238571 articles this batch, ~2775243 words this batch (~4684383 total ever)
+- [2026-08-18 21:14:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:09] dli_books: reached end of search results
+- [2026-08-18 21:14:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:13] patrika: 7260/12804 articles this batch, ~3902651 words this batch (~6400441 total ever)
+- [2026-08-18 21:14:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:15] dli_books: reached end of search results
+- [2026-08-18 21:14:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:21] dli_books: reached end of search results
+- [2026-08-18 21:14:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:27] dli_books: reached end of search results
+- [2026-08-18 21:14:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:33] dli_books: reached end of search results
+- [2026-08-18 21:14:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:40] dli_books: reached end of search results
+- [2026-08-18 21:14:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:46] dli_books: reached end of search results
+- [2026-08-18 21:14:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:49] zeenews: 9400/238571 articles this batch, ~2782750 words this batch (~4691890 total ever)
+- [2026-08-18 21:14:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:52] dli_books: reached end of search results
+- [2026-08-18 21:14:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:14:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:14:58] dli_books: reached end of search results
+- [2026-08-18 21:14:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:04] dli_books: reached end of search results
+- [2026-08-18 21:15:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:06] patrika: 7280/12804 articles this batch, ~3914588 words this batch (~6412378 total ever)
+- [2026-08-18 21:15:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:10] dli_books: reached end of search results
+- [2026-08-18 21:15:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:18] dli_books: reached end of search results
+- [2026-08-18 21:15:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:24] dli_books: reached end of search results
+- [2026-08-18 21:15:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:30] dli_books: reached end of search results
+- [2026-08-18 21:15:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:34] zeenews: 9420/238571 articles this batch, ~2786999 words this batch (~4696139 total ever)
+- [2026-08-18 21:15:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:36] dli_books: reached end of search results
+- [2026-08-18 21:15:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:42] dli_books: reached end of search results
+- [2026-08-18 21:15:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:15:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:15:49] dli_books: reached end of search results
+- [2026-08-18 21:15:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:00] patrika: 7300/12804 articles this batch, ~3927014 words this batch (~6424804 total ever)
+- [2026-08-18 21:16:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:00] dli_books: reached end of search results
+- [2026-08-18 21:16:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:06] dli_books: reached end of search results
+- [2026-08-18 21:16:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:13] dli_books: reached end of search results
+- [2026-08-18 21:16:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:17] zeenews: 9440/238571 articles this batch, ~2792374 words this batch (~4701514 total ever)
+- [2026-08-18 21:16:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:23] dli_books: reached end of search results
+- [2026-08-18 21:16:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:29] dli_books: reached end of search results
+- [2026-08-18 21:16:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:35] dli_books: reached end of search results
+- [2026-08-18 21:16:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:41] dli_books: reached end of search results
+- [2026-08-18 21:16:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:47] dli_books: reached end of search results
+- [2026-08-18 21:16:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:51] patrika: 7320/12804 articles this batch, ~3936476 words this batch (~6434266 total ever)
+- [2026-08-18 21:16:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:53] dli_books: reached end of search results
+- [2026-08-18 21:16:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:16:58] zeenews: 9460/238571 articles this batch, ~2796993 words this batch (~4706133 total ever)
+- [2026-08-18 21:16:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:16:59] dli_books: reached end of search results
+- [2026-08-18 21:16:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:05] dli_books: reached end of search results
+- [2026-08-18 21:17:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:11] dli_books: reached end of search results
+- [2026-08-18 21:17:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:19] dli_books: reached end of search results
+- [2026-08-18 21:17:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:27] dli_books: reached end of search results
+- [2026-08-18 21:17:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:33] dli_books: reached end of search results
+- [2026-08-18 21:17:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:39] zeenews: 9480/238571 articles this batch, ~2802819 words this batch (~4711959 total ever)
+- [2026-08-18 21:17:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:40] dli_books: reached end of search results
+- [2026-08-18 21:17:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:46] patrika: 7340/12804 articles this batch, ~3947064 words this batch (~6444854 total ever)
+- [2026-08-18 21:17:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:46] dli_books: reached end of search results
+- [2026-08-18 21:17:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:52] dli_books: reached end of search results
+- [2026-08-18 21:17:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:17:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:17:58] dli_books: reached end of search results
+- [2026-08-18 21:17:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:08] dli_books: reached end of search results
+- [2026-08-18 21:18:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:14] dli_books: reached end of search results
+- [2026-08-18 21:18:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:20] dli_books: reached end of search results
+- [2026-08-18 21:18:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:21] zeenews: 9500/238571 articles this batch, ~2807665 words this batch (~4716805 total ever)
+- [2026-08-18 21:18:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:26] dli_books: reached end of search results
+- [2026-08-18 21:18:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:32] dli_books: reached end of search results
+- [2026-08-18 21:18:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:40] dli_books: reached end of search results
+- [2026-08-18 21:18:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:46] dli_books: reached end of search results
+- [2026-08-18 21:18:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:46] patrika: 7360/12804 articles this batch, ~3957588 words this batch (~6455378 total ever)
+- [2026-08-18 21:18:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:52] dli_books: reached end of search results
+- [2026-08-18 21:18:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:18:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:18:58] dli_books: reached end of search results
+- [2026-08-18 21:18:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:04] dli_books: reached end of search results
+- [2026-08-18 21:19:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:04] zeenews: 9520/238571 articles this batch, ~2813752 words this batch (~4722892 total ever)
+- [2026-08-18 21:19:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:10] dli_books: reached end of search results
+- [2026-08-18 21:19:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:16] dli_books: reached end of search results
+- [2026-08-18 21:19:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:22] dli_books: reached end of search results
+- [2026-08-18 21:19:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:29] dli_books: reached end of search results
+- [2026-08-18 21:19:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:35] dli_books: reached end of search results
+- [2026-08-18 21:19:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:41] dli_books: reached end of search results
+- [2026-08-18 21:19:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:44] patrika: 7380/12804 articles this batch, ~3969048 words this batch (~6466838 total ever)
+- [2026-08-18 21:19:46] zeenews: 9540/238571 articles this batch, ~2818653 words this batch (~4727793 total ever)
+- [2026-08-18 21:19:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:47] dli_books: reached end of search results
+- [2026-08-18 21:19:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:19:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:19:54] dli_books: reached end of search results
+- [2026-08-18 21:19:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:00] dli_books: reached end of search results
+- [2026-08-18 21:20:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:08] dli_books: reached end of search results
+- [2026-08-18 21:20:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:14] dli_books: reached end of search results
+- [2026-08-18 21:20:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:20] dli_books: reached end of search results
+- [2026-08-18 21:20:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:26] dli_books: reached end of search results
+- [2026-08-18 21:20:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:32] dli_books: reached end of search results
+- [2026-08-18 21:20:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:33] patrika: 7400/12804 articles this batch, ~3980267 words this batch (~6478057 total ever)
+- [2026-08-18 21:20:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:38] dli_books: reached end of search results
+- [2026-08-18 21:20:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:39] zeenews: 9560/238571 articles this batch, ~2826575 words this batch (~4735715 total ever)
+- [2026-08-18 21:20:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:44] dli_books: reached end of search results
+- [2026-08-18 21:20:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:50] dli_books: reached end of search results
+- [2026-08-18 21:20:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:20:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:20:56] dli_books: reached end of search results
+- [2026-08-18 21:20:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:02] dli_books: reached end of search results
+- [2026-08-18 21:21:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:10] dli_books: reached end of search results
+- [2026-08-18 21:21:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:16] dli_books: reached end of search results
+- [2026-08-18 21:21:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:19] zeenews: 9580/238571 articles this batch, ~2831965 words this batch (~4741105 total ever)
+- [2026-08-18 21:21:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:22] dli_books: reached end of search results
+- [2026-08-18 21:21:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:23] patrika: 7420/12804 articles this batch, ~3991984 words this batch (~6489774 total ever)
+- [2026-08-18 21:21:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:28] dli_books: reached end of search results
+- [2026-08-18 21:21:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:34] dli_books: reached end of search results
+- [2026-08-18 21:21:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:40] dli_books: reached end of search results
+- [2026-08-18 21:21:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:48] dli_books: reached end of search results
+- [2026-08-18 21:21:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:21:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:21:55] dli_books: reached end of search results
+- [2026-08-18 21:21:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:01] zeenews: 9600/238571 articles this batch, ~2838948 words this batch (~4748088 total ever)
+- [2026-08-18 21:22:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:01] dli_books: reached end of search results
+- [2026-08-18 21:22:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:08] dli_books: reached end of search results
+- [2026-08-18 21:22:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:13] patrika: 7440/12804 articles this batch, ~4003341 words this batch (~6501131 total ever)
+- [2026-08-18 21:22:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:17] dli_books: reached end of search results
+- [2026-08-18 21:22:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:27] dli_books: reached end of search results
+- [2026-08-18 21:22:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:34] dli_books: reached end of search results
+- [2026-08-18 21:22:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:42] dli_books: reached end of search results
+- [2026-08-18 21:22:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:43] zeenews: 9620/238571 articles this batch, ~2843495 words this batch (~4752635 total ever)
+- [2026-08-18 21:22:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:50] dli_books: reached end of search results
+- [2026-08-18 21:22:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:22:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:22:58] dli_books: reached end of search results
+- [2026-08-18 21:22:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:07] dli_books: reached end of search results
+- [2026-08-18 21:23:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:09] patrika: 7460/12804 articles this batch, ~4015498 words this batch (~6513288 total ever)
+- [2026-08-18 21:23:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:15] dli_books: reached end of search results
+- [2026-08-18 21:23:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:22] dli_books: reached end of search results
+- [2026-08-18 21:23:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:27] zeenews: 9640/238571 articles this batch, ~2848482 words this batch (~4757622 total ever)
+- [2026-08-18 21:23:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:29] dli_books: reached end of search results
+- [2026-08-18 21:23:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:38] dli_books: reached end of search results
+- [2026-08-18 21:23:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:45] dli_books: reached end of search results
+- [2026-08-18 21:23:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:51] dli_books: reached end of search results
+- [2026-08-18 21:23:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:23:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:23:58] dli_books: reached end of search results
+- [2026-08-18 21:23:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:05] patrika: 7480/12804 articles this batch, ~4027045 words this batch (~6524835 total ever)
+- [2026-08-18 21:24:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:05] dli_books: reached end of search results
+- [2026-08-18 21:24:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:10] zeenews: 9660/238571 articles this batch, ~2852627 words this batch (~4761767 total ever)
+- [2026-08-18 21:24:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:12] dli_books: reached end of search results
+- [2026-08-18 21:24:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:19] dli_books: reached end of search results
+- [2026-08-18 21:24:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:26] dli_books: reached end of search results
+- [2026-08-18 21:24:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:33] dli_books: reached end of search results
+- [2026-08-18 21:24:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:41] dli_books: reached end of search results
+- [2026-08-18 21:24:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:48] dli_books: reached end of search results
+- [2026-08-18 21:24:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:51] zeenews: 9680/238571 articles this batch, ~2858689 words this batch (~4767829 total ever)
+- [2026-08-18 21:24:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:24:56] dli_books: reached end of search results
+- [2026-08-18 21:24:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:24:58] patrika: 7500/12804 articles this batch, ~4037977 words this batch (~6535767 total ever)
+- [2026-08-18 21:25:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:06] dli_books: reached end of search results
+- [2026-08-18 21:25:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:16] dli_books: reached end of search results
+- [2026-08-18 21:25:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:23] dli_books: reached end of search results
+- [2026-08-18 21:25:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:30] dli_books: reached end of search results
+- [2026-08-18 21:25:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:32] zeenews: 9700/238571 articles this batch, ~2863382 words this batch (~4772522 total ever)
+- [2026-08-18 21:25:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:37] dli_books: reached end of search results
+- [2026-08-18 21:25:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:44] dli_books: reached end of search results
+- [2026-08-18 21:25:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:45] patrika: 7520/12804 articles this batch, ~4049749 words this batch (~6547539 total ever)
+- [2026-08-18 21:25:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:51] dli_books: reached end of search results
+- [2026-08-18 21:25:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:25:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:25:57] dli_books: reached end of search results
+- [2026-08-18 21:25:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:03] dli_books: reached end of search results
+- [2026-08-18 21:26:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:09] dli_books: reached end of search results
+- [2026-08-18 21:26:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:12] zeenews: 9720/238571 articles this batch, ~2868358 words this batch (~4777498 total ever)
+- [2026-08-18 21:26:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:16] dli_books: reached end of search results
+- [2026-08-18 21:26:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:23] dli_books: reached end of search results
+- [2026-08-18 21:26:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:29] dli_books: reached end of search results
+- [2026-08-18 21:26:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:36] dli_books: reached end of search results
+- [2026-08-18 21:26:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:42] dli_books: reached end of search results
+- [2026-08-18 21:26:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:43] patrika: 7540/12804 articles this batch, ~4061235 words this batch (~6559025 total ever)
+- [2026-08-18 21:26:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:48] dli_books: reached end of search results
+- [2026-08-18 21:26:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:26:53] zeenews: 9740/238571 articles this batch, ~2872559 words this batch (~4781699 total ever)
+- [2026-08-18 21:26:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:26:54] dli_books: reached end of search results
+- [2026-08-18 21:26:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:01] dli_books: reached end of search results
+- [2026-08-18 21:27:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:07] dli_books: reached end of search results
+- [2026-08-18 21:27:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:13] dli_books: reached end of search results
+- [2026-08-18 21:27:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:19] dli_books: reached end of search results
+- [2026-08-18 21:27:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:25] dli_books: reached end of search results
+- [2026-08-18 21:27:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:32] dli_books: reached end of search results
+- [2026-08-18 21:27:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:32] zeenews: 9760/238571 articles this batch, ~2880058 words this batch (~4789198 total ever)
+- [2026-08-18 21:27:38] patrika: 7560/12804 articles this batch, ~4072392 words this batch (~6570182 total ever)
+- [2026-08-18 21:27:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:40] dli_books: reached end of search results
+- [2026-08-18 21:27:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:50] dli_books: reached end of search results
+- [2026-08-18 21:27:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:27:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:27:56] dli_books: reached end of search results
+- [2026-08-18 21:27:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:02] dli_books: reached end of search results
+- [2026-08-18 21:28:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:08] dli_books: reached end of search results
+- [2026-08-18 21:28:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:14] dli_books: reached end of search results
+- [2026-08-18 21:28:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:16] zeenews: 9780/238571 articles this batch, ~2885082 words this batch (~4794222 total ever)
+- [2026-08-18 21:28:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:21] dli_books: reached end of search results
+- [2026-08-18 21:28:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:26] patrika: 7580/12804 articles this batch, ~4084329 words this batch (~6582119 total ever)
+- [2026-08-18 21:28:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:27] dli_books: reached end of search results
+- [2026-08-18 21:28:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:34] dli_books: reached end of search results
+- [2026-08-18 21:28:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:40] dli_books: reached end of search results
+- [2026-08-18 21:28:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:46] dli_books: reached end of search results
+- [2026-08-18 21:28:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:53] dli_books: reached end of search results
+- [2026-08-18 21:28:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:28:58] zeenews: 9800/238571 articles this batch, ~2890443 words this batch (~4799583 total ever)
+- [2026-08-18 21:28:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:28:59] dli_books: reached end of search results
+- [2026-08-18 21:28:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:05] dli_books: reached end of search results
+- [2026-08-18 21:29:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:11] dli_books: reached end of search results
+- [2026-08-18 21:29:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:17] dli_books: reached end of search results
+- [2026-08-18 21:29:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:19] patrika: 7600/12804 articles this batch, ~4096858 words this batch (~6594648 total ever)
+- [2026-08-18 21:29:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:23] dli_books: reached end of search results
+- [2026-08-18 21:29:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:29] dli_books: reached end of search results
+- [2026-08-18 21:29:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:35] dli_books: reached end of search results
+- [2026-08-18 21:29:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:37] zeenews: 9820/238571 articles this batch, ~2895255 words this batch (~4804395 total ever)
+- [2026-08-18 21:29:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:41] dli_books: reached end of search results
+- [2026-08-18 21:29:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:48] dli_books: reached end of search results
+- [2026-08-18 21:29:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:29:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:29:54] dli_books: reached end of search results
+- [2026-08-18 21:29:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:01] dli_books: reached end of search results
+- [2026-08-18 21:30:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:07] dli_books: reached end of search results
+- [2026-08-18 21:30:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:13] dli_books: reached end of search results
+- [2026-08-18 21:30:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:14] patrika: 7620/12804 articles this batch, ~4108914 words this batch (~6606704 total ever)
+- [2026-08-18 21:30:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:19] dli_books: reached end of search results
+- [2026-08-18 21:30:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:24] zeenews: 9840/238571 articles this batch, ~2902100 words this batch (~4811240 total ever)
+- [2026-08-18 21:30:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:25] dli_books: reached end of search results
+- [2026-08-18 21:30:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:31] dli_books: reached end of search results
+- [2026-08-18 21:30:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:37] dli_books: reached end of search results
+- [2026-08-18 21:30:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:44] dli_books: reached end of search results
+- [2026-08-18 21:30:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:50] dli_books: reached end of search results
+- [2026-08-18 21:30:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:30:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:30:57] dli_books: reached end of search results
+- [2026-08-18 21:30:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:03] dli_books: reached end of search results
+- [2026-08-18 21:31:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:07] zeenews: 9860/238571 articles this batch, ~2906707 words this batch (~4815847 total ever)
+- [2026-08-18 21:31:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:09] dli_books: reached end of search results
+- [2026-08-18 21:31:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:15] dli_books: reached end of search results
+- [2026-08-18 21:31:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:16] patrika: 7640/12804 articles this batch, ~4121359 words this batch (~6619149 total ever)
+- [2026-08-18 21:31:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:21] dli_books: reached end of search results
+- [2026-08-18 21:31:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:28] dli_books: reached end of search results
+- [2026-08-18 21:31:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:34] dli_books: reached end of search results
+- [2026-08-18 21:31:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:40] dli_books: reached end of search results
+- [2026-08-18 21:31:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:46] dli_books: reached end of search results
+- [2026-08-18 21:31:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:50] zeenews: 9880/238571 articles this batch, ~2911316 words this batch (~4820456 total ever)
+- [2026-08-18 21:31:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:52] dli_books: reached end of search results
+- [2026-08-18 21:31:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:31:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:31:58] dli_books: reached end of search results
+- [2026-08-18 21:31:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:04] dli_books: reached end of search results
+- [2026-08-18 21:32:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:10] dli_books: reached end of search results
+- [2026-08-18 21:32:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:16] dli_books: reached end of search results
+- [2026-08-18 21:32:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:19] patrika: 7660/12804 articles this batch, ~4131656 words this batch (~6629446 total ever)
+- [2026-08-18 21:32:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:23] dli_books: reached end of search results
+- [2026-08-18 21:32:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:29] dli_books: reached end of search results
+- [2026-08-18 21:32:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:35] dli_books: reached end of search results
+- [2026-08-18 21:32:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:36] zeenews: 9900/238571 articles this batch, ~2916239 words this batch (~4825379 total ever)
+- [2026-08-18 21:32:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:41] dli_books: reached end of search results
+- [2026-08-18 21:32:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:48] dli_books: reached end of search results
+- [2026-08-18 21:32:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:32:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:32:54] dli_books: reached end of search results
+- [2026-08-18 21:32:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:00] dli_books: reached end of search results
+- [2026-08-18 21:33:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:06] dli_books: reached end of search results
+- [2026-08-18 21:33:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:12] dli_books: reached end of search results
+- [2026-08-18 21:33:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:16] zeenews: 9920/238571 articles this batch, ~2922427 words this batch (~4831567 total ever)
+- [2026-08-18 21:33:18] patrika: 7680/12804 articles this batch, ~4142350 words this batch (~6640140 total ever)
+- [2026-08-18 21:33:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:19] dli_books: reached end of search results
+- [2026-08-18 21:33:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:26] dli_books: reached end of search results
+- [2026-08-18 21:33:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:33] dli_books: reached end of search results
+- [2026-08-18 21:33:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:41] dli_books: reached end of search results
+- [2026-08-18 21:33:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:33:49] dli_books: reached end of search results
+- [2026-08-18 21:33:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:33:56] zeenews: 9940/238571 articles this batch, ~2927393 words this batch (~4836533 total ever)
+- [2026-08-18 21:34:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:07] dli_books: reached end of search results
+- [2026-08-18 21:34:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:13] patrika: 7700/12804 articles this batch, ~4153890 words this batch (~6651680 total ever)
+- [2026-08-18 21:34:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:13] dli_books: reached end of search results
+- [2026-08-18 21:34:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:20] dli_books: reached end of search results
+- [2026-08-18 21:34:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:26] dli_books: reached end of search results
+- [2026-08-18 21:34:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:33] dli_books: reached end of search results
+- [2026-08-18 21:34:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:36] zeenews: 9960/238571 articles this batch, ~2934360 words this batch (~4843500 total ever)
+- [2026-08-18 21:34:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:40] dli_books: reached end of search results
+- [2026-08-18 21:34:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:46] dli_books: reached end of search results
+- [2026-08-18 21:34:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:34:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:34:53] dli_books: reached end of search results
+- [2026-08-18 21:34:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:00] dli_books: reached end of search results
+- [2026-08-18 21:35:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:01] patrika: 7720/12804 articles this batch, ~4164664 words this batch (~6662454 total ever)
+- [2026-08-18 21:35:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:06] dli_books: reached end of search results
+- [2026-08-18 21:35:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:13] dli_books: reached end of search results
+- [2026-08-18 21:35:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:19] dli_books: reached end of search results
+- [2026-08-18 21:35:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:21] zeenews: 9980/238571 articles this batch, ~2938657 words this batch (~4847797 total ever)
+- [2026-08-18 21:35:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:26] dli_books: reached end of search results
+- [2026-08-18 21:35:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:33] dli_books: reached end of search results
+- [2026-08-18 21:35:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:39] dli_books: reached end of search results
+- [2026-08-18 21:35:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:45] dli_books: reached end of search results
+- [2026-08-18 21:35:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:51] dli_books: reached end of search results
+- [2026-08-18 21:35:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:35:56] patrika: 7740/12804 articles this batch, ~4176362 words this batch (~6674152 total ever)
+- [2026-08-18 21:35:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:35:57] dli_books: reached end of search results
+- [2026-08-18 21:35:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:02] zeenews: 10000/238571 articles this batch, ~2946853 words this batch (~4855993 total ever)
+- [2026-08-18 21:36:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:04] dli_books: reached end of search results
+- [2026-08-18 21:36:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:11] dli_books: reached end of search results
+- [2026-08-18 21:36:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:17] dli_books: reached end of search results
+- [2026-08-18 21:36:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:23] dli_books: reached end of search results
+- [2026-08-18 21:36:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:30] dli_books: reached end of search results
+- [2026-08-18 21:36:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:36] dli_books: reached end of search results
+- [2026-08-18 21:36:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:43] dli_books: reached end of search results
+- [2026-08-18 21:36:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:46] zeenews: 10020/238571 articles this batch, ~2953378 words this batch (~4862518 total ever)
+- [2026-08-18 21:36:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:50] dli_books: reached end of search results
+- [2026-08-18 21:36:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:36:52] patrika: 7760/12804 articles this batch, ~4187256 words this batch (~6685046 total ever)
+- [2026-08-18 21:36:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:36:57] dli_books: reached end of search results
+- [2026-08-18 21:36:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:04] dli_books: reached end of search results
+- [2026-08-18 21:37:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:11] dli_books: reached end of search results
+- [2026-08-18 21:37:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:18] dli_books: reached end of search results
+- [2026-08-18 21:37:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:27] dli_books: reached end of search results
+- [2026-08-18 21:37:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:29] zeenews: 10040/238571 articles this batch, ~2958512 words this batch (~4867652 total ever)
+- [2026-08-18 21:37:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:36] dli_books: reached end of search results
+- [2026-08-18 21:37:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:49] dli_books: reached end of search results
+- [2026-08-18 21:37:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:37:51] patrika: 7780/12804 articles this batch, ~4198460 words this batch (~6696250 total ever)
+- [2026-08-18 21:37:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:37:55] dli_books: reached end of search results
+- [2026-08-18 21:37:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:01] dli_books: reached end of search results
+- [2026-08-18 21:38:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:09] dli_books: reached end of search results
+- [2026-08-18 21:38:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:11] zeenews: 10060/238571 articles this batch, ~2964308 words this batch (~4873448 total ever)
+- [2026-08-18 21:38:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:17] dli_books: reached end of search results
+- [2026-08-18 21:38:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:25] dli_books: reached end of search results
+- [2026-08-18 21:38:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:32] dli_books: reached end of search results
+- [2026-08-18 21:38:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:39] dli_books: reached end of search results
+- [2026-08-18 21:38:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:40] patrika: 7800/12804 articles this batch, ~4209734 words this batch (~6707524 total ever)
+- [2026-08-18 21:38:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:48] dli_books: reached end of search results
+- [2026-08-18 21:38:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:38:52] zeenews: 10080/238571 articles this batch, ~2976256 words this batch (~4885396 total ever)
+- [2026-08-18 21:38:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:38:54] dli_books: reached end of search results
+- [2026-08-18 21:38:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:00] dli_books: reached end of search results
+- [2026-08-18 21:39:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:07] dli_books: reached end of search results
+- [2026-08-18 21:39:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:13] dli_books: reached end of search results
+- [2026-08-18 21:39:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:19] dli_books: reached end of search results
+- [2026-08-18 21:39:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:25] dli_books: reached end of search results
+- [2026-08-18 21:39:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:31] dli_books: reached end of search results
+- [2026-08-18 21:39:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:36] patrika: 7820/12804 articles this batch, ~4221603 words this batch (~6719393 total ever)
+- [2026-08-18 21:39:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:37] dli_books: reached end of search results
+- [2026-08-18 21:39:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:39] zeenews: 10100/238571 articles this batch, ~2980590 words this batch (~4889730 total ever)
+- [2026-08-18 21:39:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:43] dli_books: reached end of search results
+- [2026-08-18 21:39:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:50] dli_books: reached end of search results
+- [2026-08-18 21:39:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:39:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:39:57] dli_books: reached end of search results
+- [2026-08-18 21:39:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:04] dli_books: reached end of search results
+- [2026-08-18 21:40:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:11] dli_books: reached end of search results
+- [2026-08-18 21:40:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:18] dli_books: reached end of search results
+- [2026-08-18 21:40:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:22] zeenews: 10120/238571 articles this batch, ~2984322 words this batch (~4893462 total ever)
+- [2026-08-18 21:40:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:24] dli_books: reached end of search results
+- [2026-08-18 21:40:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:27] patrika: 7840/12804 articles this batch, ~4233397 words this batch (~6731187 total ever)
+- [2026-08-18 21:40:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:32] dli_books: reached end of search results
+- [2026-08-18 21:40:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:39] dli_books: reached end of search results
+- [2026-08-18 21:40:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:48] dli_books: reached end of search results
+- [2026-08-18 21:40:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:40:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:40:56] dli_books: reached end of search results
+- [2026-08-18 21:40:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:02] zeenews: 10140/238571 articles this batch, ~2990252 words this batch (~4899392 total ever)
+- [2026-08-18 21:41:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:03] dli_books: reached end of search results
+- [2026-08-18 21:41:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:10] dli_books: reached end of search results
+- [2026-08-18 21:41:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:17] dli_books: reached end of search results
+- [2026-08-18 21:41:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:24] patrika: 7860/12804 articles this batch, ~4245034 words this batch (~6742824 total ever)
+- [2026-08-18 21:41:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:25] dli_books: reached end of search results
+- [2026-08-18 21:41:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:31] dli_books: reached end of search results
+- [2026-08-18 21:41:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:38] dli_books: reached end of search results
+- [2026-08-18 21:41:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:43] zeenews: 10160/238571 articles this batch, ~2995169 words this batch (~4904309 total ever)
+- [2026-08-18 21:41:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:45] dli_books: reached end of search results
+- [2026-08-18 21:41:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:52] dli_books: reached end of search results
+- [2026-08-18 21:41:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:41:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:41:59] dli_books: reached end of search results
+- [2026-08-18 21:41:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:08] dli_books: reached end of search results
+- [2026-08-18 21:42:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:14] dli_books: reached end of search results
+- [2026-08-18 21:42:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:20] patrika: 7880/12804 articles this batch, ~4256774 words this batch (~6754564 total ever)
+- [2026-08-18 21:42:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:26] dli_books: reached end of search results
+- [2026-08-18 21:42:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:28] zeenews: 10180/238571 articles this batch, ~3000437 words this batch (~4909577 total ever)
+- [2026-08-18 21:42:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:35] dli_books: reached end of search results
+- [2026-08-18 21:42:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:42] dli_books: reached end of search results
+- [2026-08-18 21:42:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:48] dli_books: reached end of search results
+- [2026-08-18 21:42:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:42:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:42:55] dli_books: reached end of search results
+- [2026-08-18 21:42:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:02] dli_books: reached end of search results
+- [2026-08-18 21:43:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:10] dli_books: reached end of search results
+- [2026-08-18 21:43:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:10] zeenews: 10200/238571 articles this batch, ~3005603 words this batch (~4914743 total ever)
+- [2026-08-18 21:43:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:15] dli_books: reached end of search results
+- [2026-08-18 21:43:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:17] patrika: 7900/12804 articles this batch, ~4268925 words this batch (~6766715 total ever)
+- [2026-08-18 21:43:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:24] dli_books: reached end of search results
+- [2026-08-18 21:43:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:31] dli_books: reached end of search results
+- [2026-08-18 21:43:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:39] dli_books: reached end of search results
+- [2026-08-18 21:43:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:45] dli_books: reached end of search results
+- [2026-08-18 21:43:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:51] dli_books: reached end of search results
+- [2026-08-18 21:43:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:43:52] zeenews: 10220/238571 articles this batch, ~3010240 words this batch (~4919380 total ever)
+- [2026-08-18 21:43:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:43:57] dli_books: reached end of search results
+- [2026-08-18 21:43:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:03] dli_books: reached end of search results
+- [2026-08-18 21:44:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:10] dli_books: reached end of search results
+- [2026-08-18 21:44:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:15] patrika: 7920/12804 articles this batch, ~4281005 words this batch (~6778795 total ever)
+- [2026-08-18 21:44:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:16] dli_books: reached end of search results
+- [2026-08-18 21:44:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:22] dli_books: reached end of search results
+- [2026-08-18 21:44:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:28] dli_books: reached end of search results
+- [2026-08-18 21:44:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:33] zeenews: 10240/238571 articles this batch, ~3014081 words this batch (~4923221 total ever)
+- [2026-08-18 21:44:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:34] dli_books: reached end of search results
+- [2026-08-18 21:44:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:40] dli_books: reached end of search results
+- [2026-08-18 21:44:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:46] dli_books: reached end of search results
+- [2026-08-18 21:44:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:52] dli_books: reached end of search results
+- [2026-08-18 21:44:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:44:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:44:58] dli_books: reached end of search results
+- [2026-08-18 21:44:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:05] dli_books: reached end of search results
+- [2026-08-18 21:45:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:07] patrika: 7940/12804 articles this batch, ~4293688 words this batch (~6791478 total ever)
+- [2026-08-18 21:45:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:11] dli_books: reached end of search results
+- [2026-08-18 21:45:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:17] dli_books: reached end of search results
+- [2026-08-18 21:45:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:17] zeenews: 10260/238571 articles this batch, ~3020640 words this batch (~4929780 total ever)
+- [2026-08-18 21:45:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:23] dli_books: reached end of search results
+- [2026-08-18 21:45:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:29] dli_books: reached end of search results
+- [2026-08-18 21:45:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:35] dli_books: reached end of search results
+- [2026-08-18 21:45:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:41] dli_books: reached end of search results
+- [2026-08-18 21:45:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:47] dli_books: reached end of search results
+- [2026-08-18 21:45:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:45:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:45:54] dli_books: reached end of search results
+- [2026-08-18 21:45:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:00] patrika: 7960/12804 articles this batch, ~4304624 words this batch (~6802414 total ever)
+- [2026-08-18 21:46:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:00] dli_books: reached end of search results
+- [2026-08-18 21:46:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:01] zeenews: 10280/238571 articles this batch, ~3028650 words this batch (~4937790 total ever)
+- [2026-08-18 21:46:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:06] dli_books: reached end of search results
+- [2026-08-18 21:46:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:12] dli_books: reached end of search results
+- [2026-08-18 21:46:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:18] dli_books: reached end of search results
+- [2026-08-18 21:46:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:24] dli_books: reached end of search results
+- [2026-08-18 21:46:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:30] dli_books: reached end of search results
+- [2026-08-18 21:46:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:36] dli_books: reached end of search results
+- [2026-08-18 21:46:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:43] dli_books: reached end of search results
+- [2026-08-18 21:46:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:44] zeenews: 10300/238571 articles this batch, ~3038260 words this batch (~4947400 total ever)
+- [2026-08-18 21:46:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:49] dli_books: reached end of search results
+- [2026-08-18 21:46:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:46:53] patrika: 7980/12804 articles this batch, ~4315968 words this batch (~6813758 total ever)
+- [2026-08-18 21:46:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:46:54] dli_books: reached end of search results
+- [2026-08-18 21:46:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:01] dli_books: reached end of search results
+- [2026-08-18 21:47:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:07] dli_books: reached end of search results
+- [2026-08-18 21:47:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:15] dli_books: reached end of search results
+- [2026-08-18 21:47:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:22] dli_books: reached end of search results
+- [2026-08-18 21:47:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:27] zeenews: 10320/238571 articles this batch, ~3042695 words this batch (~4951835 total ever)
+- [2026-08-18 21:47:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:28] dli_books: reached end of search results
+- [2026-08-18 21:47:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:34] dli_books: reached end of search results
+- [2026-08-18 21:47:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:41] dli_books: reached end of search results
+- [2026-08-18 21:47:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:47] dli_books: reached end of search results
+- [2026-08-18 21:47:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:47:52] patrika: 8000/12804 articles this batch, ~4326257 words this batch (~6824047 total ever)
+- [2026-08-18 21:47:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:47:53] dli_books: reached end of search results
+- [2026-08-18 21:47:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:00] dli_books: reached end of search results
+- [2026-08-18 21:48:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:09] dli_books: reached end of search results
+- [2026-08-18 21:48:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:10] zeenews: 10340/238571 articles this batch, ~3050164 words this batch (~4959304 total ever)
+- [2026-08-18 21:48:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:15] dli_books: reached end of search results
+- [2026-08-18 21:48:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:21] dli_books: reached end of search results
+- [2026-08-18 21:48:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:27] dli_books: reached end of search results
+- [2026-08-18 21:48:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:33] dli_books: reached end of search results
+- [2026-08-18 21:48:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:39] dli_books: reached end of search results
+- [2026-08-18 21:48:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:45] dli_books: reached end of search results
+- [2026-08-18 21:48:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:50] patrika: 8020/12804 articles this batch, ~4337102 words this batch (~6834892 total ever)
+- [2026-08-18 21:48:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:51] dli_books: reached end of search results
+- [2026-08-18 21:48:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:48:53] zeenews: 10360/238571 articles this batch, ~3057324 words this batch (~4966464 total ever)
+- [2026-08-18 21:48:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:48:57] dli_books: reached end of search results
+- [2026-08-18 21:48:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:04] dli_books: reached end of search results
+- [2026-08-18 21:49:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:10] dli_books: reached end of search results
+- [2026-08-18 21:49:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:16] dli_books: reached end of search results
+- [2026-08-18 21:49:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:22] dli_books: reached end of search results
+- [2026-08-18 21:49:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:28] dli_books: reached end of search results
+- [2026-08-18 21:49:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:34] dli_books: reached end of search results
+- [2026-08-18 21:49:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:34] zeenews: 10380/238571 articles this batch, ~3062705 words this batch (~4971845 total ever)
+- [2026-08-18 21:49:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:41] dli_books: reached end of search results
+- [2026-08-18 21:49:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:47] dli_books: reached end of search results
+- [2026-08-18 21:49:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:49] patrika: 8040/12804 articles this batch, ~4348945 words this batch (~6846735 total ever)
+- [2026-08-18 21:49:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:53] dli_books: reached end of search results
+- [2026-08-18 21:49:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:49:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:49:59] dli_books: reached end of search results
+- [2026-08-18 21:49:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:05] dli_books: reached end of search results
+- [2026-08-18 21:50:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:11] dli_books: reached end of search results
+- [2026-08-18 21:50:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:17] dli_books: reached end of search results
+- [2026-08-18 21:50:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:23] dli_books: reached end of search results
+- [2026-08-18 21:50:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:25] zeenews: 10400/238571 articles this batch, ~3070290 words this batch (~4979430 total ever)
+- [2026-08-18 21:50:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:29] dli_books: reached end of search results
+- [2026-08-18 21:50:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:36] dli_books: reached end of search results
+- [2026-08-18 21:50:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:42] dli_books: reached end of search results
+- [2026-08-18 21:50:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:46] patrika: 8060/12804 articles this batch, ~4360973 words this batch (~6858763 total ever)
+- [2026-08-18 21:50:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:48] dli_books: reached end of search results
+- [2026-08-18 21:50:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:50:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:50:54] dli_books: reached end of search results
+- [2026-08-18 21:50:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:01] dli_books: reached end of search results
+- [2026-08-18 21:51:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:07] dli_books: reached end of search results
+- [2026-08-18 21:51:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:07] zeenews: 10420/238571 articles this batch, ~3077840 words this batch (~4986980 total ever)
+- [2026-08-18 21:51:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:12] dli_books: reached end of search results
+- [2026-08-18 21:51:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:19] dli_books: reached end of search results
+- [2026-08-18 21:51:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:25] dli_books: reached end of search results
+- [2026-08-18 21:51:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:31] dli_books: reached end of search results
+- [2026-08-18 21:51:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:37] dli_books: reached end of search results
+- [2026-08-18 21:51:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:39] patrika: 8080/12804 articles this batch, ~4373571 words this batch (~6871361 total ever)
+- [2026-08-18 21:51:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:43] dli_books: reached end of search results
+- [2026-08-18 21:51:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:49] dli_books: reached end of search results
+- [2026-08-18 21:51:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:51:49] zeenews: 10440/238571 articles this batch, ~3083876 words this batch (~4993016 total ever)
+- [2026-08-18 21:51:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:51:55] dli_books: reached end of search results
+- [2026-08-18 21:51:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:01] dli_books: reached end of search results
+- [2026-08-18 21:52:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:08] dli_books: reached end of search results
+- [2026-08-18 21:52:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:14] dli_books: reached end of search results
+- [2026-08-18 21:52:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:20] dli_books: reached end of search results
+- [2026-08-18 21:52:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:26] dli_books: reached end of search results
+- [2026-08-18 21:52:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:30] zeenews: 10460/238571 articles this batch, ~3087448 words this batch (~4996588 total ever)
+- [2026-08-18 21:52:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:32] dli_books: reached end of search results
+- [2026-08-18 21:52:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:36] patrika: 8100/12804 articles this batch, ~4385072 words this batch (~6882862 total ever)
+- [2026-08-18 21:52:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:38] dli_books: reached end of search results
+- [2026-08-18 21:52:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:45] dli_books: reached end of search results
+- [2026-08-18 21:52:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:51] dli_books: reached end of search results
+- [2026-08-18 21:52:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:52:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:52:57] dli_books: reached end of search results
+- [2026-08-18 21:52:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:03] dli_books: reached end of search results
+- [2026-08-18 21:53:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:09] dli_books: reached end of search results
+- [2026-08-18 21:53:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:13] zeenews: 10480/238571 articles this batch, ~3092832 words this batch (~5001972 total ever)
+- [2026-08-18 21:53:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:16] dli_books: reached end of search results
+- [2026-08-18 21:53:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:22] dli_books: reached end of search results
+- [2026-08-18 21:53:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:28] dli_books: reached end of search results
+- [2026-08-18 21:53:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:34] dli_books: reached end of search results
+- [2026-08-18 21:53:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:36] patrika: 8120/12804 articles this batch, ~4395539 words this batch (~6893329 total ever)
+- [2026-08-18 21:53:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:41] dli_books: reached end of search results
+- [2026-08-18 21:53:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:47] dli_books: reached end of search results
+- [2026-08-18 21:53:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:53] dli_books: reached end of search results
+- [2026-08-18 21:53:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:53:55] zeenews: 10500/238571 articles this batch, ~3098185 words this batch (~5007325 total ever)
+- [2026-08-18 21:53:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:53:59] dli_books: reached end of search results
+- [2026-08-18 21:53:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:05] dli_books: reached end of search results
+- [2026-08-18 21:54:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:11] dli_books: reached end of search results
+- [2026-08-18 21:54:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:17] dli_books: reached end of search results
+- [2026-08-18 21:54:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:23] dli_books: reached end of search results
+- [2026-08-18 21:54:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:27] patrika: 8140/12804 articles this batch, ~4407686 words this batch (~6905476 total ever)
+- [2026-08-18 21:54:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:29] dli_books: reached end of search results
+- [2026-08-18 21:54:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:35] dli_books: reached end of search results
+- [2026-08-18 21:54:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:38] zeenews: 10520/238571 articles this batch, ~3102715 words this batch (~5011855 total ever)
+- [2026-08-18 21:54:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:42] dli_books: reached end of search results
+- [2026-08-18 21:54:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:48] dli_books: reached end of search results
+- [2026-08-18 21:54:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:54:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:54:54] dli_books: reached end of search results
+- [2026-08-18 21:54:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:00] dli_books: reached end of search results
+- [2026-08-18 21:55:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:06] dli_books: reached end of search results
+- [2026-08-18 21:55:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:12] dli_books: reached end of search results
+- [2026-08-18 21:55:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:18] dli_books: reached end of search results
+- [2026-08-18 21:55:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:23] zeenews: 10540/238571 articles this batch, ~3111503 words this batch (~5020643 total ever)
+- [2026-08-18 21:55:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:24] dli_books: reached end of search results
+- [2026-08-18 21:55:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:24] patrika: 8160/12804 articles this batch, ~4419621 words this batch (~6917411 total ever)
+- [2026-08-18 21:55:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:30] dli_books: reached end of search results
+- [2026-08-18 21:55:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:36] dli_books: reached end of search results
+- [2026-08-18 21:55:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:42] dli_books: reached end of search results
+- [2026-08-18 21:55:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:48] dli_books: reached end of search results
+- [2026-08-18 21:55:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:55:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:55:54] dli_books: reached end of search results
+- [2026-08-18 21:55:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:00] dli_books: reached end of search results
+- [2026-08-18 21:56:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:04] zeenews: 10560/238571 articles this batch, ~3115818 words this batch (~5024958 total ever)
+- [2026-08-18 21:56:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:06] dli_books: reached end of search results
+- [2026-08-18 21:56:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:12] dli_books: reached end of search results
+- [2026-08-18 21:56:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:16] patrika: 8180/12804 articles this batch, ~4430972 words this batch (~6928762 total ever)
+- [2026-08-18 21:56:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:19] dli_books: reached end of search results
+- [2026-08-18 21:56:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:26] dli_books: reached end of search results
+- [2026-08-18 21:56:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:32] dli_books: reached end of search results
+- [2026-08-18 21:56:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:37] dli_books: reached end of search results
+- [2026-08-18 21:56:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:43] dli_books: reached end of search results
+- [2026-08-18 21:56:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:48] zeenews: 10580/238571 articles this batch, ~3121305 words this batch (~5030445 total ever)
+- [2026-08-18 21:56:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:49] dli_books: reached end of search results
+- [2026-08-18 21:56:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:56:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:56:55] dli_books: reached end of search results
+- [2026-08-18 21:56:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:01] dli_books: reached end of search results
+- [2026-08-18 21:57:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:07] dli_books: reached end of search results
+- [2026-08-18 21:57:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:14] dli_books: reached end of search results
+- [2026-08-18 21:57:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:20] dli_books: reached end of search results
+- [2026-08-18 21:57:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:24] patrika: 8200/12804 articles this batch, ~4443124 words this batch (~6940914 total ever)
+- [2026-08-18 21:57:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:26] dli_books: reached end of search results
+- [2026-08-18 21:57:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:30] zeenews: 10600/238571 articles this batch, ~3127141 words this batch (~5036281 total ever)
+- [2026-08-18 21:57:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:32] dli_books: reached end of search results
+- [2026-08-18 21:57:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:38] dli_books: reached end of search results
+- [2026-08-18 21:57:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:44] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:44] dli_books: reached end of search results
+- [2026-08-18 21:57:44] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:50] dli_books: reached end of search results
+- [2026-08-18 21:57:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:57:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:57:56] dli_books: reached end of search results
+- [2026-08-18 21:57:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:02] dli_books: reached end of search results
+- [2026-08-18 21:58:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:08] dli_books: reached end of search results
+- [2026-08-18 21:58:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:10] zeenews: 10620/238571 articles this batch, ~3133531 words this batch (~5042671 total ever)
+- [2026-08-18 21:58:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:14] dli_books: reached end of search results
+- [2026-08-18 21:58:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:19] patrika: 8220/12804 articles this batch, ~4455044 words this batch (~6952834 total ever)
+- [2026-08-18 21:58:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:20] dli_books: reached end of search results
+- [2026-08-18 21:58:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:27] dli_books: reached end of search results
+- [2026-08-18 21:58:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:33] dli_books: reached end of search results
+- [2026-08-18 21:58:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:39] dli_books: reached end of search results
+- [2026-08-18 21:58:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:45] dli_books: reached end of search results
+- [2026-08-18 21:58:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:58:53] dli_books: reached end of search results
+- [2026-08-18 21:58:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:58:53] zeenews: 10640/238571 articles this batch, ~3139740 words this batch (~5048880 total ever)
+- [2026-08-18 21:59:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:01] dli_books: reached end of search results
+- [2026-08-18 21:59:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:07] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:07] dli_books: reached end of search results
+- [2026-08-18 21:59:07] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:13] dli_books: reached end of search results
+- [2026-08-18 21:59:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:14] patrika: 8240/12804 articles this batch, ~4466675 words this batch (~6964465 total ever)
+- [2026-08-18 21:59:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:19] dli_books: reached end of search results
+- [2026-08-18 21:59:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:25] dli_books: reached end of search results
+- [2026-08-18 21:59:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:31] dli_books: reached end of search results
+- [2026-08-18 21:59:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:37] dli_books: reached end of search results
+- [2026-08-18 21:59:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:39] zeenews: 10660/238571 articles this batch, ~3145553 words this batch (~5054693 total ever)
+- [2026-08-18 21:59:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:45] dli_books: reached end of search results
+- [2026-08-18 21:59:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:51] dli_books: reached end of search results
+- [2026-08-18 21:59:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 21:59:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 21:59:57] dli_books: reached end of search results
+- [2026-08-18 21:59:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:03] dli_books: reached end of search results
+- [2026-08-18 22:00:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:10] dli_books: reached end of search results
+- [2026-08-18 22:00:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:11] patrika: 8260/12804 articles this batch, ~4478028 words this batch (~6975818 total ever)
+- [2026-08-18 22:00:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:16] dli_books: reached end of search results
+- [2026-08-18 22:00:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:23] dli_books: reached end of search results
+- [2026-08-18 22:00:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:24] zeenews: 10680/238571 articles this batch, ~3152018 words this batch (~5061158 total ever)
+- [2026-08-18 22:00:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:31] dli_books: reached end of search results
+- [2026-08-18 22:00:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:40] dli_books: reached end of search results
+- [2026-08-18 22:00:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:48] dli_books: reached end of search results
+- [2026-08-18 22:00:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:00:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:00:56] dli_books: reached end of search results
+- [2026-08-18 22:00:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:01:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:01:05] dli_books: reached end of search results
+- [2026-08-18 22:01:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:01:07] patrika: 8280/12804 articles this batch, ~4489369 words this batch (~6987159 total ever)
+- [2026-08-18 22:01:10] zeenews: 10700/238571 articles this batch, ~3156866 words this batch (~5066006 total ever)
+- [2026-08-18 22:01:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:01:14] dli_books: reached end of search results
+- [2026-08-18 22:01:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:01:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:01:25] dli_books: reached end of search results
+- [2026-08-18 22:01:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:01:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:01:36] dli_books: reached end of search results
+- [2026-08-18 22:01:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:01:57] zeenews: 10720/238571 articles this batch, ~3161199 words this batch (~5070339 total ever)
+- [2026-08-18 22:02:01] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:01] dli_books: reached end of search results
+- [2026-08-18 22:02:01] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:02:08] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:08] dli_books: reached end of search results
+- [2026-08-18 22:02:08] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:02:08] patrika: 8300/12804 articles this batch, ~4501584 words this batch (~6999374 total ever)
+- [2026-08-18 22:02:32] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:32] dli_books: reached end of search results
+- [2026-08-18 22:02:32] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:02:38] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:38] dli_books: reached end of search results
+- [2026-08-18 22:02:38] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:02:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:46] dli_books: reached end of search results
+- [2026-08-18 22:02:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:02:46] zeenews: 10740/238571 articles this batch, ~3168532 words this batch (~5077672 total ever)
+- [2026-08-18 22:02:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:53] dli_books: reached end of search results
+- [2026-08-18 22:02:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:02:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:02:59] dli_books: reached end of search results
+- [2026-08-18 22:02:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:05] dli_books: reached end of search results
+- [2026-08-18 22:03:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:09] patrika: 8320/12804 articles this batch, ~4513491 words this batch (~7011281 total ever)
+- [2026-08-18 22:03:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:11] dli_books: reached end of search results
+- [2026-08-18 22:03:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:17] dli_books: reached end of search results
+- [2026-08-18 22:03:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:23] dli_books: reached end of search results
+- [2026-08-18 22:03:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:29] zeenews: 10760/238571 articles this batch, ~3174929 words this batch (~5084069 total ever)
+- [2026-08-18 22:03:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:29] dli_books: reached end of search results
+- [2026-08-18 22:03:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:35] dli_books: reached end of search results
+- [2026-08-18 22:03:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:41] dli_books: reached end of search results
+- [2026-08-18 22:03:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:47] dli_books: reached end of search results
+- [2026-08-18 22:03:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:53] dli_books: reached end of search results
+- [2026-08-18 22:03:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:03:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:03:59] dli_books: reached end of search results
+- [2026-08-18 22:03:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:04] patrika: 8340/12804 articles this batch, ~4524024 words this batch (~7021814 total ever)
+- [2026-08-18 22:04:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:05] dli_books: reached end of search results
+- [2026-08-18 22:04:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:11] zeenews: 10780/238571 articles this batch, ~3179467 words this batch (~5088607 total ever)
+- [2026-08-18 22:04:11] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:11] dli_books: reached end of search results
+- [2026-08-18 22:04:11] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:17] dli_books: reached end of search results
+- [2026-08-18 22:04:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:23] dli_books: reached end of search results
+- [2026-08-18 22:04:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:29] dli_books: reached end of search results
+- [2026-08-18 22:04:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:35] dli_books: reached end of search results
+- [2026-08-18 22:04:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:41] dli_books: reached end of search results
+- [2026-08-18 22:04:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:47] dli_books: reached end of search results
+- [2026-08-18 22:04:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:52] patrika: 8360/12804 articles this batch, ~4535924 words this batch (~7033714 total ever)
+- [2026-08-18 22:04:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:53] dli_books: reached end of search results
+- [2026-08-18 22:04:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:04:53] zeenews: 10800/238571 articles this batch, ~3184180 words this batch (~5093320 total ever)
+- [2026-08-18 22:04:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:04:59] dli_books: reached end of search results
+- [2026-08-18 22:04:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:05] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:05] dli_books: reached end of search results
+- [2026-08-18 22:05:05] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:12] dli_books: reached end of search results
+- [2026-08-18 22:05:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:18] dli_books: reached end of search results
+- [2026-08-18 22:05:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:24] dli_books: reached end of search results
+- [2026-08-18 22:05:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:30] dli_books: reached end of search results
+- [2026-08-18 22:05:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:37] dli_books: reached end of search results
+- [2026-08-18 22:05:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:43] dli_books: reached end of search results
+- [2026-08-18 22:05:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:44] patrika: 8380/12804 articles this batch, ~4548045 words this batch (~7045835 total ever)
+- [2026-08-18 22:05:45] zeenews: 10820/238571 articles this batch, ~3190213 words this batch (~5099353 total ever)
+- [2026-08-18 22:05:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:52] dli_books: reached end of search results
+- [2026-08-18 22:05:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:05:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:05:58] dli_books: reached end of search results
+- [2026-08-18 22:05:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:04] dli_books: reached end of search results
+- [2026-08-18 22:06:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:10] dli_books: reached end of search results
+- [2026-08-18 22:06:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:16] dli_books: reached end of search results
+- [2026-08-18 22:06:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:23] dli_books: reached end of search results
+- [2026-08-18 22:06:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:29] dli_books: reached end of search results
+- [2026-08-18 22:06:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:30] zeenews: 10840/238571 articles this batch, ~3195104 words this batch (~5104244 total ever)
+- [2026-08-18 22:06:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:35] dli_books: reached end of search results
+- [2026-08-18 22:06:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:42] dli_books: reached end of search results
+- [2026-08-18 22:06:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:50] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:50] dli_books: reached end of search results
+- [2026-08-18 22:06:50] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:06:51] patrika: 8400/12804 articles this batch, ~4557184 words this batch (~7054974 total ever)
+- [2026-08-18 22:06:56] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:06:56] dli_books: reached end of search results
+- [2026-08-18 22:06:56] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:02] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:02] dli_books: reached end of search results
+- [2026-08-18 22:07:02] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:09] dli_books: reached end of search results
+- [2026-08-18 22:07:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:15] dli_books: reached end of search results
+- [2026-08-18 22:07:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:19] zeenews: 10860/238571 articles this batch, ~3200315 words this batch (~5109455 total ever)
+- [2026-08-18 22:07:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:21] dli_books: reached end of search results
+- [2026-08-18 22:07:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:27] dli_books: reached end of search results
+- [2026-08-18 22:07:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:35] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:35] dli_books: reached end of search results
+- [2026-08-18 22:07:35] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:41] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:41] dli_books: reached end of search results
+- [2026-08-18 22:07:41] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:47] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:47] dli_books: reached end of search results
+- [2026-08-18 22:07:47] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:48] patrika: 8420/12804 articles this batch, ~4567230 words this batch (~7065020 total ever)
+- [2026-08-18 22:07:53] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:53] dli_books: reached end of search results
+- [2026-08-18 22:07:53] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:07:59] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:07:59] dli_books: reached end of search results
+- [2026-08-18 22:07:59] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:02] zeenews: 10880/238571 articles this batch, ~3206964 words this batch (~5116104 total ever)
+- [2026-08-18 22:08:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:06] dli_books: reached end of search results
+- [2026-08-18 22:08:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:13] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:13] dli_books: reached end of search results
+- [2026-08-18 22:08:13] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:19] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:19] dli_books: reached end of search results
+- [2026-08-18 22:08:19] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:24] dli_books: reached end of search results
+- [2026-08-18 22:08:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:33] dli_books: reached end of search results
+- [2026-08-18 22:08:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:39] dli_books: reached end of search results
+- [2026-08-18 22:08:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:44] patrika: 8440/12804 articles this batch, ~4578723 words this batch (~7076513 total ever)
+- [2026-08-18 22:08:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:45] dli_books: reached end of search results
+- [2026-08-18 22:08:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:46] zeenews: 10900/238571 articles this batch, ~3212051 words this batch (~5121191 total ever)
+- [2026-08-18 22:08:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:51] dli_books: reached end of search results
+- [2026-08-18 22:08:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:08:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:08:57] dli_books: reached end of search results
+- [2026-08-18 22:08:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:03] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:03] dli_books: reached end of search results
+- [2026-08-18 22:09:03] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:09] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:09] dli_books: reached end of search results
+- [2026-08-18 22:09:09] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:15] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:15] dli_books: reached end of search results
+- [2026-08-18 22:09:15] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:21] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:21] dli_books: reached end of search results
+- [2026-08-18 22:09:21] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:27] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:27] dli_books: reached end of search results
+- [2026-08-18 22:09:27] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:30] zeenews: 10920/238571 articles this batch, ~3218045 words this batch (~5127185 total ever)
+- [2026-08-18 22:09:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:33] dli_books: reached end of search results
+- [2026-08-18 22:09:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:33] patrika: 8460/12804 articles this batch, ~4589804 words this batch (~7087594 total ever)
+- [2026-08-18 22:09:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:39] dli_books: reached end of search results
+- [2026-08-18 22:09:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:45] dli_books: reached end of search results
+- [2026-08-18 22:09:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:51] dli_books: reached end of search results
+- [2026-08-18 22:09:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:09:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:09:57] dli_books: reached end of search results
+- [2026-08-18 22:09:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:04] dli_books: reached end of search results
+- [2026-08-18 22:10:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:14] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:14] dli_books: reached end of search results
+- [2026-08-18 22:10:14] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:20] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:20] dli_books: reached end of search results
+- [2026-08-18 22:10:20] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:22] zeenews: 10940/238571 articles this batch, ~3225875 words this batch (~5135015 total ever)
+- [2026-08-18 22:10:26] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:26] dli_books: reached end of search results
+- [2026-08-18 22:10:26] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:27] patrika: 8480/12804 articles this batch, ~4601997 words this batch (~7099787 total ever)
+- [2026-08-18 22:10:33] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:33] dli_books: reached end of search results
+- [2026-08-18 22:10:33] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:39] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:39] dli_books: reached end of search results
+- [2026-08-18 22:10:39] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:45] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:45] dli_books: reached end of search results
+- [2026-08-18 22:10:45] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:51] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:51] dli_books: reached end of search results
+- [2026-08-18 22:10:51] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:10:57] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:10:57] dli_books: reached end of search results
+- [2026-08-18 22:10:57] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:04] dli_books: reached end of search results
+- [2026-08-18 22:11:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:06] zeenews: 10960/238571 articles this batch, ~3230127 words this batch (~5139267 total ever)
+- [2026-08-18 22:11:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:10] dli_books: reached end of search results
+- [2026-08-18 22:11:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:17] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:17] dli_books: reached end of search results
+- [2026-08-18 22:11:17] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:23] patrika: 8500/12804 articles this batch, ~4613371 words this batch (~7111161 total ever)
+- [2026-08-18 22:11:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:23] dli_books: reached end of search results
+- [2026-08-18 22:11:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:29] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:29] dli_books: reached end of search results
+- [2026-08-18 22:11:29] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:36] dli_books: reached end of search results
+- [2026-08-18 22:11:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:42] dli_books: reached end of search results
+- [2026-08-18 22:11:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:50] zeenews: 10980/238571 articles this batch, ~3235767 words this batch (~5144907 total ever)
+- [2026-08-18 22:11:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:52] dli_books: reached end of search results
+- [2026-08-18 22:11:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:11:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:11:58] dli_books: reached end of search results
+- [2026-08-18 22:11:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:04] dli_books: reached end of search results
+- [2026-08-18 22:12:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:10] dli_books: reached end of search results
+- [2026-08-18 22:12:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:16] dli_books: reached end of search results
+- [2026-08-18 22:12:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:22] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:22] dli_books: reached end of search results
+- [2026-08-18 22:12:22] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:23] patrika: 8520/12804 articles this batch, ~4624394 words this batch (~7122184 total ever)
+- [2026-08-18 22:12:28] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:28] dli_books: reached end of search results
+- [2026-08-18 22:12:28] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:34] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:34] dli_books: reached end of search results
+- [2026-08-18 22:12:34] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:36] zeenews: 11000/238571 articles this batch, ~3240265 words this batch (~5149405 total ever)
+- [2026-08-18 22:12:40] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:40] dli_books: reached end of search results
+- [2026-08-18 22:12:40] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:46] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:46] dli_books: reached end of search results
+- [2026-08-18 22:12:46] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:52] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:52] dli_books: reached end of search results
+- [2026-08-18 22:12:52] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:12:58] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:12:58] dli_books: reached end of search results
+- [2026-08-18 22:12:58] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:04] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:04] dli_books: reached end of search results
+- [2026-08-18 22:13:04] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:10] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:10] dli_books: reached end of search results
+- [2026-08-18 22:13:10] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:13] patrika: 8540/12804 articles this batch, ~4636408 words this batch (~7134198 total ever)
+- [2026-08-18 22:13:16] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:16] dli_books: reached end of search results
+- [2026-08-18 22:13:16] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:22] zeenews: 11020/238571 articles this batch, ~3246531 words this batch (~5155671 total ever)
+- [2026-08-18 22:13:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:24] dli_books: reached end of search results
+- [2026-08-18 22:13:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:30] dli_books: reached end of search results
+- [2026-08-18 22:13:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:36] dli_books: reached end of search results
+- [2026-08-18 22:13:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:42] dli_books: reached end of search results
+- [2026-08-18 22:13:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:48] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:48] dli_books: reached end of search results
+- [2026-08-18 22:13:48] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:13:54] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:13:54] dli_books: reached end of search results
+- [2026-08-18 22:13:54] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:00] dli_books: reached end of search results
+- [2026-08-18 22:14:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:04] zeenews: 11040/238571 articles this batch, ~3252017 words this batch (~5161157 total ever)
+- [2026-08-18 22:14:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:06] dli_books: reached end of search results
+- [2026-08-18 22:14:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:12] patrika: 8560/12804 articles this batch, ~4648086 words this batch (~7145876 total ever)
+- [2026-08-18 22:14:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:12] dli_books: reached end of search results
+- [2026-08-18 22:14:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:18] dli_books: reached end of search results
+- [2026-08-18 22:14:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:24] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:24] dli_books: reached end of search results
+- [2026-08-18 22:14:24] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:30] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:30] dli_books: reached end of search results
+- [2026-08-18 22:14:30] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:36] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:36] dli_books: reached end of search results
+- [2026-08-18 22:14:36] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:42] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:42] dli_books: reached end of search results
+- [2026-08-18 22:14:42] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:46] zeenews: 11060/238571 articles this batch, ~3257042 words this batch (~5166182 total ever)
+- [2026-08-18 22:14:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:49] dli_books: reached end of search results
+- [2026-08-18 22:14:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:14:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:14:55] dli_books: reached end of search results
+- [2026-08-18 22:14:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:00] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:00] dli_books: reached end of search results
+- [2026-08-18 22:15:00] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:06] patrika: 8580/12804 articles this batch, ~4660410 words this batch (~7158200 total ever)
+- [2026-08-18 22:15:06] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:06] dli_books: reached end of search results
+- [2026-08-18 22:15:06] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:12] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:12] dli_books: reached end of search results
+- [2026-08-18 22:15:12] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:18] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:18] dli_books: reached end of search results
+- [2026-08-18 22:15:18] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:25] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:25] dli_books: reached end of search results
+- [2026-08-18 22:15:25] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:31] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:31] dli_books: reached end of search results
+- [2026-08-18 22:15:31] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:36] zeenews: 11080/238571 articles this batch, ~3264526 words this batch (~5173666 total ever)
+- [2026-08-18 22:15:37] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:37] dli_books: reached end of search results
+- [2026-08-18 22:15:37] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:43] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:43] dli_books: reached end of search results
+- [2026-08-18 22:15:43] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:49] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:49] dli_books: reached end of search results
+- [2026-08-18 22:15:49] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:55] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:15:55] dli_books: reached end of search results
+- [2026-08-18 22:15:55] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:15:58] patrika: 8600/12804 articles this batch, ~4670576 words this batch (~7168366 total ever)
+- [2026-08-18 22:16:22] zeenews: 11100/238571 articles this batch, ~3273791 words this batch (~5182931 total ever)
+- [2026-08-18 22:16:50] patrika: 8620/12804 articles this batch, ~4681945 words this batch (~7179735 total ever)
+- [2026-08-18 22:17:12] zeenews: 11120/238571 articles this batch, ~3278751 words this batch (~5187891 total ever)
+- [2026-08-18 22:17:48] patrika: 8640/12804 articles this batch, ~4693219 words this batch (~7191009 total ever)
+- [2026-08-18 22:17:54] zeenews: 11140/238571 articles this batch, ~3282764 words this batch (~5191904 total ever)
+- [2026-08-18 22:18:36] zeenews: 11160/238571 articles this batch, ~3287942 words this batch (~5197082 total ever)
+- [2026-08-18 22:18:43] patrika: 8660/12804 articles this batch, ~4704779 words this batch (~7202569 total ever)
+- [2026-08-18 22:19:20] zeenews: 11180/238571 articles this batch, ~3293413 words this batch (~5202553 total ever)
+- [2026-08-18 22:19:39] patrika: 8680/12804 articles this batch, ~4716384 words this batch (~7214174 total ever)
+- [2026-08-18 22:20:02] zeenews: 11200/238571 articles this batch, ~3298464 words this batch (~5207604 total ever)
+- [2026-08-18 22:20:34] patrika: 8700/12804 articles this batch, ~4727025 words this batch (~7224815 total ever)
+- [2026-08-18 22:20:53] zeenews: 11220/238571 articles this batch, ~3304766 words this batch (~5213906 total ever)
+- [2026-08-18 22:21:35] patrika: 8720/12804 articles this batch, ~4738150 words this batch (~7235940 total ever)
+- [2026-08-18 22:21:38] zeenews: 11240/238571 articles this batch, ~3309392 words this batch (~5218532 total ever)
+- [2026-08-18 22:22:24] zeenews: 11260/238571 articles this batch, ~3315941 words this batch (~5225081 total ever)
+- [2026-08-18 22:22:33] patrika: 8740/12804 articles this batch, ~4749556 words this batch (~7247346 total ever)
+- [2026-08-18 22:23:12] zeenews: 11280/238571 articles this batch, ~3321499 words this batch (~5230639 total ever)
+- [2026-08-18 22:23:28] patrika: 8760/12804 articles this batch, ~4761766 words this batch (~7259556 total ever)
+- [2026-08-18 22:23:56] zeenews: 11300/238571 articles this batch, ~3326136 words this batch (~5235276 total ever)
+- [2026-08-18 22:24:23] patrika: 8780/12804 articles this batch, ~4772596 words this batch (~7270386 total ever)
+- [2026-08-18 22:24:43] zeenews: 11320/238571 articles this batch, ~3333037 words this batch (~5242177 total ever)
+- [2026-08-18 22:25:21] patrika: 8800/12804 articles this batch, ~4783389 words this batch (~7281179 total ever)
+- [2026-08-18 22:25:33] zeenews: 11340/238571 articles this batch, ~3337761 words this batch (~5246901 total ever)
+- [2026-08-18 22:26:16] zeenews: 11360/238571 articles this batch, ~3342698 words this batch (~5251838 total ever)
+- [2026-08-18 22:26:21] patrika: 8820/12804 articles this batch, ~4794775 words this batch (~7292565 total ever)
+- [2026-08-18 22:26:59] zeenews: 11380/238571 articles this batch, ~3349572 words this batch (~5258712 total ever)
+- [2026-08-18 22:27:20] patrika: 8840/12804 articles this batch, ~4806062 words this batch (~7303852 total ever)
+- [2026-08-18 22:27:45] zeenews: 11400/238571 articles this batch, ~3354819 words this batch (~5263959 total ever)
+- [2026-08-18 22:28:13] patrika: 8860/12804 articles this batch, ~4817583 words this batch (~7315373 total ever)
+- [2026-08-18 22:28:28] zeenews: 11420/238571 articles this batch, ~3358938 words this batch (~5268078 total ever)
+- [2026-08-18 22:29:13] patrika: 8880/12804 articles this batch, ~4829349 words this batch (~7327139 total ever)
+- [2026-08-18 22:29:14] zeenews: 11440/238571 articles this batch, ~3366416 words this batch (~5275556 total ever)
+- [2026-08-18 22:29:55] zeenews: 11460/238571 articles this batch, ~3371163 words this batch (~5280303 total ever)
+- [2026-08-18 22:30:06] patrika: 8900/12804 articles this batch, ~4839684 words this batch (~7337474 total ever)
+- [2026-08-18 22:30:23] discover_identifiers: malformed search response at start=10000: 'response'
+- [2026-08-18 22:30:23] dli_books: hit archive.org's advancedsearch.php 10,000-result pagination cap at start=10000 -- collection has more items but this method cannot reach them
+- [2026-08-18 22:30:23] dli_books BATCH COMPLETE: 0 new items processed, ~0 words this batch
+- [2026-08-18 22:30:46] zeenews: 11480/238571 articles this batch, ~3375770 words this batch (~5284910 total ever)
+- [2026-08-18 22:31:05] patrika: 8920/12804 articles this batch, ~4851718 words this batch (~7349508 total ever)
+- [2026-08-18 22:31:29] zeenews: 11500/238571 articles this batch, ~3381319 words this batch (~5290459 total ever)
+- [2026-08-18 22:32:11] zeenews: 11520/238571 articles this batch, ~3387196 words this batch (~5296336 total ever)
+- [2026-08-18 22:32:13] patrika: 8940/12804 articles this batch, ~4862387 words this batch (~7360177 total ever)
+- [2026-08-18 22:32:54] zeenews: 11540/238571 articles this batch, ~3392240 words this batch (~5301380 total ever)
+- [2026-08-18 22:33:15] patrika: 8960/12804 articles this batch, ~4873292 words this batch (~7371082 total ever)
+- [2026-08-18 22:33:39] zeenews: 11560/238571 articles this batch, ~3397916 words this batch (~5307056 total ever)
+- [2026-08-18 22:34:09] patrika: 8980/12804 articles this batch, ~4884813 words this batch (~7382603 total ever)
+- [2026-08-18 22:34:25] zeenews: 11580/238571 articles this batch, ~3403790 words this batch (~5312930 total ever)
+- [2026-08-18 22:35:02] patrika: 9000/12804 articles this batch, ~4895911 words this batch (~7393701 total ever)
+- [2026-08-18 22:35:08] zeenews: 11600/238571 articles this batch, ~3408089 words this batch (~5317229 total ever)
+- [2026-08-18 22:35:55] zeenews: 11620/238571 articles this batch, ~3412336 words this batch (~5321476 total ever)
+- [2026-08-18 22:35:55] patrika: 9020/12804 articles this batch, ~4906937 words this batch (~7404727 total ever)
+- [2026-08-18 22:36:39] zeenews: 11640/238571 articles this batch, ~3419021 words this batch (~5328161 total ever)
+- [2026-08-18 22:37:15] patrika: 9040/12804 articles this batch, ~4917757 words this batch (~7415547 total ever)
+- [2026-08-18 22:37:22] zeenews: 11660/238571 articles this batch, ~3424129 words this batch (~5333269 total ever)
+- [2026-08-18 22:38:07] zeenews: 11680/238571 articles this batch, ~3430030 words this batch (~5339170 total ever)
+- [2026-08-18 22:38:17] patrika: 9060/12804 articles this batch, ~4929283 words this batch (~7427073 total ever)
+- [2026-08-18 22:38:49] zeenews: 11700/238571 articles this batch, ~3436738 words this batch (~5345878 total ever)
+- [2026-08-18 22:39:09] patrika: 9080/12804 articles this batch, ~4940348 words this batch (~7438138 total ever)
+- [2026-08-18 22:39:36] zeenews: 11720/238571 articles this batch, ~3445195 words this batch (~5354335 total ever)
+- [2026-08-18 22:40:09] patrika: 9100/12804 articles this batch, ~4952304 words this batch (~7450094 total ever)
+- [2026-08-18 22:40:24] zeenews: 11740/238571 articles this batch, ~3450927 words this batch (~5360067 total ever)
+- [2026-08-18 22:41:01] patrika: 9120/12804 articles this batch, ~4963735 words this batch (~7461525 total ever)
+- [2026-08-18 22:41:07] zeenews: 11760/238571 articles this batch, ~3455815 words this batch (~5364955 total ever)
+- [2026-08-18 22:41:49] zeenews: 11780/238571 articles this batch, ~3461203 words this batch (~5370343 total ever)
+- [2026-08-18 22:42:02] patrika: 9140/12804 articles this batch, ~4975288 words this batch (~7473078 total ever)
+- [2026-08-18 22:42:30] zeenews: 11800/238571 articles this batch, ~3467350 words this batch (~5376490 total ever)
+- [2026-08-18 22:42:53] patrika: 9160/12804 articles this batch, ~4986348 words this batch (~7484138 total ever)
+- [2026-08-18 22:43:13] zeenews: 11820/238571 articles this batch, ~3472569 words this batch (~5381709 total ever)
+- [2026-08-18 22:43:54] zeenews: 11840/238571 articles this batch, ~3477087 words this batch (~5386227 total ever)
+- [2026-08-18 22:43:58] patrika: 9180/12804 articles this batch, ~4997370 words this batch (~7495160 total ever)
+- [2026-08-18 22:44:41] zeenews: 11860/238571 articles this batch, ~3484241 words this batch (~5393381 total ever)
+- [2026-08-18 22:44:56] patrika: 9200/12804 articles this batch, ~5008155 words this batch (~7505945 total ever)
+- [2026-08-18 22:45:27] zeenews: 11880/238571 articles this batch, ~3488905 words this batch (~5398045 total ever)
+- [2026-08-18 22:45:55] patrika: 9220/12804 articles this batch, ~5018532 words this batch (~7516322 total ever)
+- [2026-08-18 22:46:12] zeenews: 11900/238571 articles this batch, ~3493332 words this batch (~5402472 total ever)
+- [2026-08-18 22:46:48] patrika: 9240/12804 articles this batch, ~5029948 words this batch (~7527738 total ever)
+- [2026-08-18 22:46:54] zeenews: 11920/238571 articles this batch, ~3497754 words this batch (~5406894 total ever)
+- [2026-08-18 22:47:36] zeenews: 11940/238571 articles this batch, ~3503549 words this batch (~5412689 total ever)
+- [2026-08-18 22:47:54] patrika: 9260/12804 articles this batch, ~5041283 words this batch (~7539073 total ever)
+- [2026-08-18 22:48:19] zeenews: 11960/238571 articles this batch, ~3508552 words this batch (~5417692 total ever)
+- [2026-08-18 22:48:49] patrika: 9280/12804 articles this batch, ~5053131 words this batch (~7550921 total ever)
+- [2026-08-18 22:49:03] zeenews: 11980/238571 articles this batch, ~3513575 words this batch (~5422715 total ever)
+- [2026-08-18 22:49:45] zeenews: 12000/238571 articles this batch, ~3518114 words this batch (~5427254 total ever)
+- [2026-08-18 22:49:47] patrika: 9300/12804 articles this batch, ~5063976 words this batch (~7561766 total ever)
+- [2026-08-18 22:50:34] zeenews: 12020/238571 articles this batch, ~3523105 words this batch (~5432245 total ever)
+- [2026-08-18 22:50:44] patrika: 9320/12804 articles this batch, ~5074576 words this batch (~7572366 total ever)
+- [2026-08-18 22:51:16] zeenews: 12040/238571 articles this batch, ~3528473 words this batch (~5437613 total ever)
+- [2026-08-18 22:51:41] patrika: 9340/12804 articles this batch, ~5086617 words this batch (~7584407 total ever)
+- [2026-08-18 22:51:58] zeenews: 12060/238571 articles this batch, ~3534713 words this batch (~5443853 total ever)
+- [2026-08-18 22:52:36] patrika: 9360/12804 articles this batch, ~5097794 words this batch (~7595584 total ever)
+- [2026-08-18 22:52:42] zeenews: 12080/238571 articles this batch, ~3539627 words this batch (~5448767 total ever)
+- [2026-08-18 22:53:24] zeenews: 12100/238571 articles this batch, ~3544388 words this batch (~5453528 total ever)
+- [2026-08-18 22:53:31] patrika: 9380/12804 articles this batch, ~5108336 words this batch (~7606126 total ever)
+- [2026-08-18 22:54:07] zeenews: 12120/238571 articles this batch, ~3548586 words this batch (~5457726 total ever)
+- [2026-08-18 22:54:32] patrika: 9400/12804 articles this batch, ~5118871 words this batch (~7616661 total ever)
+- [2026-08-18 22:54:49] zeenews: 12140/238571 articles this batch, ~3554268 words this batch (~5463408 total ever)
+- [2026-08-18 22:55:30] patrika: 9420/12804 articles this batch, ~5130442 words this batch (~7628232 total ever)
+- [2026-08-18 22:55:39] zeenews: 12160/238571 articles this batch, ~3559417 words this batch (~5468557 total ever)
+- [2026-08-18 22:56:31] zeenews: 12180/238571 articles this batch, ~3564839 words this batch (~5473979 total ever)
+- [2026-08-18 22:56:35] patrika: 9440/12804 articles this batch, ~5142763 words this batch (~7640553 total ever)
+- [2026-08-18 22:57:21] zeenews: 12200/238571 articles this batch, ~3570458 words this batch (~5479598 total ever)
+- [2026-08-18 22:57:39] patrika: 9460/12804 articles this batch, ~5154660 words this batch (~7652450 total ever)
+- [2026-08-18 22:58:05] zeenews: 12220/238571 articles this batch, ~3575884 words this batch (~5485024 total ever)
+- [2026-08-18 22:58:35] patrika: 9480/12804 articles this batch, ~5165549 words this batch (~7663339 total ever)
+- [2026-08-18 22:58:47] zeenews: 12240/238571 articles this batch, ~3582385 words this batch (~5491525 total ever)
+- [2026-08-18 22:59:27] patrika: 9500/12804 articles this batch, ~5177142 words this batch (~7674932 total ever)
+- [2026-08-18 22:59:30] zeenews: 12260/238571 articles this batch, ~3587964 words this batch (~5497104 total ever)
+- [2026-08-18 23:00:23] patrika: 9520/12804 articles this batch, ~5188122 words this batch (~7685912 total ever)
+- [2026-08-18 23:00:28] zeenews: 12280/238571 articles this batch, ~3593477 words this batch (~5502617 total ever)
+- [2026-08-18 23:01:17] zeenews: 12300/238571 articles this batch, ~3600445 words this batch (~5509585 total ever)
+- [2026-08-18 23:01:22] patrika: 9540/12804 articles this batch, ~5199877 words this batch (~7697667 total ever)
+- [2026-08-18 23:01:58] zeenews: 12320/238571 articles this batch, ~3605059 words this batch (~5514199 total ever)
+- [2026-08-18 23:02:26] patrika: 9560/12804 articles this batch, ~5210673 words this batch (~7708463 total ever)
+- [2026-08-18 23:02:49] zeenews: 12340/238571 articles this batch, ~3612322 words this batch (~5521462 total ever)
+- [2026-08-18 23:03:22] patrika: 9580/12804 articles this batch, ~5221191 words this batch (~7718981 total ever)
+- [2026-08-18 23:03:31] zeenews: 12360/238571 articles this batch, ~3617209 words this batch (~5526349 total ever)
+- [2026-08-18 23:04:13] patrika: 9600/12804 articles this batch, ~5231791 words this batch (~7729581 total ever)
+- [2026-08-18 23:04:13] zeenews: 12380/238571 articles this batch, ~3623896 words this batch (~5533036 total ever)
+- [2026-08-18 23:04:55] zeenews: 12400/238571 articles this batch, ~3629756 words this batch (~5538896 total ever)
+- [2026-08-18 23:05:13] patrika: 9620/12804 articles this batch, ~5242825 words this batch (~7740615 total ever)
+- [2026-08-18 23:05:40] zeenews: 12420/238571 articles this batch, ~3636097 words this batch (~5545237 total ever)
+- [2026-08-18 23:06:16] patrika: 9640/12804 articles this batch, ~5253861 words this batch (~7751651 total ever)
+- [2026-08-18 23:06:24] zeenews: 12440/238571 articles this batch, ~3642206 words this batch (~5551346 total ever)
+- [2026-08-18 23:07:09] patrika: 9660/12804 articles this batch, ~5265853 words this batch (~7763643 total ever)
+- [2026-08-18 23:07:12] zeenews: 12460/238571 articles this batch, ~3648423 words this batch (~5557563 total ever)
+- [2026-08-18 23:07:54] zeenews: 12480/238571 articles this batch, ~3653195 words this batch (~5562335 total ever)
+- [2026-08-18 23:08:05] patrika: 9680/12804 articles this batch, ~5276060 words this batch (~7773850 total ever)
+- [2026-08-18 23:08:38] zeenews: 12500/238571 articles this batch, ~3660193 words this batch (~5569333 total ever)
+- [2026-08-18 23:08:57] patrika: 9700/12804 articles this batch, ~5286920 words this batch (~7784710 total ever)
+- [2026-08-18 23:09:21] zeenews: 12520/238571 articles this batch, ~3665645 words this batch (~5574785 total ever)
+- [2026-08-18 23:09:54] patrika: 9720/12804 articles this batch, ~5303543 words this batch (~7801333 total ever)
+- [2026-08-18 23:10:05] zeenews: 12540/238571 articles this batch, ~3672134 words this batch (~5581274 total ever)
+- [2026-08-18 23:10:53] zeenews: 12560/238571 articles this batch, ~3677810 words this batch (~5586950 total ever)
+- [2026-08-18 23:10:55] patrika: 9740/12804 articles this batch, ~5314155 words this batch (~7811945 total ever)
+- [2026-08-18 23:11:38] zeenews: 12580/238571 articles this batch, ~3682162 words this batch (~5591302 total ever)
+- [2026-08-18 23:11:55] patrika: 9760/12804 articles this batch, ~5325361 words this batch (~7823151 total ever)
+- [2026-08-18 23:12:23] zeenews: 12600/238571 articles this batch, ~3686849 words this batch (~5595989 total ever)
+- [2026-08-18 23:12:57] patrika: 9780/12804 articles this batch, ~5336498 words this batch (~7834288 total ever)
+- [2026-08-18 23:13:08] zeenews: 12620/238571 articles this batch, ~3692228 words this batch (~5601368 total ever)
+- [2026-08-18 23:13:52] zeenews: 12640/238571 articles this batch, ~3697326 words this batch (~5606466 total ever)
+- [2026-08-18 23:13:57] patrika: 9800/12804 articles this batch, ~5348554 words this batch (~7846344 total ever)
+- [2026-08-18 23:14:36] zeenews: 12660/238571 articles this batch, ~3702627 words this batch (~5611767 total ever)
+- [2026-08-18 23:15:05] patrika: 9820/12804 articles this batch, ~5359179 words this batch (~7856969 total ever)
+- [2026-08-18 23:15:28] zeenews: 12680/238571 articles this batch, ~3706898 words this batch (~5616038 total ever)
+- [2026-08-18 23:16:05] patrika: 9840/12804 articles this batch, ~5371723 words this batch (~7869513 total ever)
+- [2026-08-18 23:16:12] zeenews: 12700/238571 articles this batch, ~3712284 words this batch (~5621424 total ever)
+- [2026-08-18 23:16:54] zeenews: 12720/238571 articles this batch, ~3717548 words this batch (~5626688 total ever)
+- [2026-08-18 23:17:05] patrika: 9860/12804 articles this batch, ~5382388 words this batch (~7880178 total ever)
+- [2026-08-18 23:17:36] zeenews: 12740/238571 articles this batch, ~3723610 words this batch (~5632750 total ever)
+- [2026-08-18 23:18:01] patrika: 9880/12804 articles this batch, ~5394135 words this batch (~7891925 total ever)
+- [2026-08-18 23:18:17] zeenews: 12760/238571 articles this batch, ~3729280 words this batch (~5638420 total ever)
+- [2026-08-18 23:18:58] patrika: 9900/12804 articles this batch, ~5406679 words this batch (~7904469 total ever)
+- [2026-08-18 23:18:59] zeenews: 12780/238571 articles this batch, ~3735999 words this batch (~5645139 total ever)
+- [2026-08-18 23:19:41] zeenews: 12800/238571 articles this batch, ~3742171 words this batch (~5651311 total ever)
+- [2026-08-18 23:19:54] patrika: 9920/12804 articles this batch, ~5417460 words this batch (~7915250 total ever)
+- [2026-08-18 23:20:31] zeenews: 12820/238571 articles this batch, ~3747147 words this batch (~5656287 total ever)
+- [2026-08-18 23:20:45] patrika: 9940/12804 articles this batch, ~5429706 words this batch (~7927496 total ever)
+- [2026-08-18 23:21:12] zeenews: 12840/238571 articles this batch, ~3753603 words this batch (~5662743 total ever)
+- [2026-08-18 23:21:51] patrika: 9960/12804 articles this batch, ~5441160 words this batch (~7938950 total ever)
+- [2026-08-18 23:21:53] zeenews: 12860/238571 articles this batch, ~3761674 words this batch (~5670814 total ever)
+- [2026-08-18 23:22:35] zeenews: 12880/238571 articles this batch, ~3767923 words this batch (~5677063 total ever)
+- [2026-08-18 23:22:47] patrika: 9980/12804 articles this batch, ~5453119 words this batch (~7950909 total ever)
+- [2026-08-18 23:23:15] zeenews: 12900/238571 articles this batch, ~3774121 words this batch (~5683261 total ever)
+- [2026-08-18 23:23:41] patrika: 10000/12804 articles this batch, ~5464733 words this batch (~7962523 total ever)
+- [2026-08-18 23:24:00] zeenews: 12920/238571 articles this batch, ~3781474 words this batch (~5690614 total ever)
+- [2026-08-18 23:24:43] zeenews: 12940/238571 articles this batch, ~3789270 words this batch (~5698410 total ever)
+- [2026-08-18 23:24:44] patrika: 10020/12804 articles this batch, ~5475324 words this batch (~7973114 total ever)
+- [2026-08-18 23:25:24] zeenews: 12960/238571 articles this batch, ~3795658 words this batch (~5704798 total ever)
+- [2026-08-18 23:25:43] patrika: 10040/12804 articles this batch, ~5488041 words this batch (~7985831 total ever)
+- [2026-08-18 23:26:04] zeenews: 12980/238571 articles this batch, ~3799762 words this batch (~5708902 total ever)
+- [2026-08-18 23:26:50] patrika: 10060/12804 articles this batch, ~5499442 words this batch (~7997232 total ever)
+- [2026-08-18 23:26:54] zeenews: 13000/238571 articles this batch, ~3808770 words this batch (~5717910 total ever)
+- [2026-08-18 23:27:35] zeenews: 13020/238571 articles this batch, ~3815226 words this batch (~5724366 total ever)
+- [2026-08-18 23:27:49] patrika: 10080/12804 articles this batch, ~5510374 words this batch (~8008164 total ever)
+- [2026-08-18 23:28:16] zeenews: 13040/238571 articles this batch, ~3821190 words this batch (~5730330 total ever)
+- [2026-08-18 23:28:48] patrika: 10100/12804 articles this batch, ~5522470 words this batch (~8020260 total ever)
+- [2026-08-18 23:29:00] zeenews: 13060/238571 articles this batch, ~3827115 words this batch (~5736255 total ever)
+- [2026-08-18 23:29:42] zeenews: 13080/238571 articles this batch, ~3832315 words this batch (~5741455 total ever)
+- [2026-08-18 23:29:42] patrika: 10120/12804 articles this batch, ~5533504 words this batch (~8031294 total ever)
+- [2026-08-18 23:30:35] zeenews: 13100/238571 articles this batch, ~3839484 words this batch (~5748624 total ever)
+- [2026-08-18 23:30:44] patrika: 10140/12804 articles this batch, ~5544343 words this batch (~8042133 total ever)
+- [2026-08-18 23:31:18] zeenews: 13120/238571 articles this batch, ~3845672 words this batch (~5754812 total ever)
+- [2026-08-18 23:31:39] patrika: 10160/12804 articles this batch, ~5556516 words this batch (~8054306 total ever)
+- [2026-08-18 23:32:02] zeenews: 13140/238571 articles this batch, ~3849286 words this batch (~5758426 total ever)
+- [2026-08-18 23:32:37] patrika: 10180/12804 articles this batch, ~5568192 words this batch (~8065982 total ever)
+- [2026-08-18 23:32:44] zeenews: 13160/238571 articles this batch, ~3855010 words this batch (~5764150 total ever)
+- [2026-08-18 23:33:32] zeenews: 13180/238571 articles this batch, ~3860606 words this batch (~5769746 total ever)
+- [2026-08-18 23:33:41] patrika: 10200/12804 articles this batch, ~5578809 words this batch (~8076599 total ever)
+- [2026-08-18 23:34:14] zeenews: 13200/238571 articles this batch, ~3866336 words this batch (~5775476 total ever)
+- [2026-08-18 23:34:40] patrika: 10220/12804 articles this batch, ~5589281 words this batch (~8087071 total ever)
+- [2026-08-18 23:35:00] zeenews: 13220/238571 articles this batch, ~3871041 words this batch (~5780181 total ever)
+- [2026-08-18 23:35:39] patrika: 10240/12804 articles this batch, ~5599091 words this batch (~8096881 total ever)
+- [2026-08-18 23:35:46] zeenews: 13240/238571 articles this batch, ~3875482 words this batch (~5784622 total ever)
+- [2026-08-18 23:36:30] zeenews: 13260/238571 articles this batch, ~3883990 words this batch (~5793130 total ever)
+- [2026-08-18 23:36:37] patrika: 10260/12804 articles this batch, ~5610676 words this batch (~8108466 total ever)
+- [2026-08-18 23:37:11] zeenews: 13280/238571 articles this batch, ~3890866 words this batch (~5800006 total ever)
+- [2026-08-18 23:37:34] patrika: 10280/12804 articles this batch, ~5621688 words this batch (~8119478 total ever)
+- [2026-08-18 23:37:52] zeenews: 13300/238571 articles this batch, ~3895783 words this batch (~5804923 total ever)
+- [2026-08-18 23:38:34] patrika: 10300/12804 articles this batch, ~5632707 words this batch (~8130497 total ever)
+- [2026-08-18 23:38:35] zeenews: 13320/238571 articles this batch, ~3901641 words this batch (~5810781 total ever)
+- [2026-08-18 23:39:19] zeenews: 13340/238571 articles this batch, ~3907154 words this batch (~5816294 total ever)
+- [2026-08-18 23:39:27] patrika: 10320/12804 articles this batch, ~5644769 words this batch (~8142559 total ever)
+- [2026-08-18 23:40:00] zeenews: 13360/238571 articles this batch, ~3914352 words this batch (~5823492 total ever)
+- [2026-08-18 23:40:24] patrika: 10340/12804 articles this batch, ~5656360 words this batch (~8154150 total ever)
+- [2026-08-18 23:40:55] zeenews: 13380/238571 articles this batch, ~3919136 words this batch (~5828276 total ever)
+- [2026-08-18 23:41:26] patrika: 10360/12804 articles this batch, ~5668865 words this batch (~8166655 total ever)
+- [2026-08-18 23:41:38] zeenews: 13400/238571 articles this batch, ~3924034 words this batch (~5833174 total ever)
+- [2026-08-18 23:42:21] zeenews: 13420/238571 articles this batch, ~3930433 words this batch (~5839573 total ever)
+- [2026-08-18 23:42:25] patrika: 10380/12804 articles this batch, ~5681289 words this batch (~8179079 total ever)
+- [2026-08-18 23:43:02] zeenews: 13440/238571 articles this batch, ~3935915 words this batch (~5845055 total ever)
+- [2026-08-18 23:43:18] patrika: 10400/12804 articles this batch, ~5693035 words this batch (~8190825 total ever)
+- [2026-08-18 23:43:43] zeenews: 13460/238571 articles this batch, ~3942460 words this batch (~5851600 total ever)
+- [2026-08-18 23:44:19] patrika: 10420/12804 articles this batch, ~5703969 words this batch (~8201759 total ever)
+- [2026-08-18 23:44:27] zeenews: 13480/238571 articles this batch, ~3947887 words this batch (~5857027 total ever)
+- [2026-08-18 23:45:13] zeenews: 13500/238571 articles this batch, ~3953031 words this batch (~5862171 total ever)
+- [2026-08-18 23:45:18] patrika: 10440/12804 articles this batch, ~5715332 words this batch (~8213122 total ever)
+- [2026-08-18 23:45:54] zeenews: 13520/238571 articles this batch, ~3960263 words this batch (~5869403 total ever)
+- [2026-08-18 23:46:18] patrika: 10460/12804 articles this batch, ~5727720 words this batch (~8225510 total ever)
+- [2026-08-18 23:46:35] zeenews: 13540/238571 articles this batch, ~3966994 words this batch (~5876134 total ever)
+- [2026-08-18 23:47:22] zeenews: 13560/238571 articles this batch, ~3971518 words this batch (~5880658 total ever)
+- [2026-08-18 23:47:28] patrika: 10480/12804 articles this batch, ~5739562 words this batch (~8237352 total ever)
+- [2026-08-18 23:48:07] zeenews: 13580/238571 articles this batch, ~3975729 words this batch (~5884869 total ever)
+- [2026-08-18 23:48:29] patrika: 10500/12804 articles this batch, ~5750966 words this batch (~8248756 total ever)
+- [2026-08-18 23:48:52] zeenews: 13600/238571 articles this batch, ~3985231 words this batch (~5894371 total ever)
+- [2026-08-18 23:49:25] patrika: 10520/12804 articles this batch, ~5762334 words this batch (~8260124 total ever)
+- [2026-08-18 23:49:34] zeenews: 13620/238571 articles this batch, ~3991506 words this batch (~5900646 total ever)
+- [2026-08-18 23:51:30] patrika: 10540/12804 articles this batch, ~5773910 words this batch (~8271700 total ever)
+- [2026-08-18 23:51:36] zeenews: 13640/238571 articles this batch, ~3995812 words this batch (~5904952 total ever)
+- [2026-08-18 23:52:23] zeenews: 13660/238571 articles this batch, ~4000577 words this batch (~5909717 total ever)
+- [2026-08-18 23:53:38] FETCH FAILED after 3 attempts: https://www.patrika.com/world-news/pakistan-army-killed-75-insurgents-in-balochistan-20737826
+- [2026-08-18 23:53:40] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/sushma-swaraj-sartaj-aziz-meet-at-saarc-foreign-ministers-meeting-in-nepal/286216
+- [2026-08-18 23:53:45] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/business/petrol-price-hiked-by-rs-3-07/litre-diesel-by-rs-1-90/litre/286201
+- [2026-08-18 23:53:49] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/maharashtra/maharashtra-aimim-mla-waris-pathan-suspended-from-assembly-for-not-saying-bharat-mata-ki-jai/286197
+- [2026-08-18 23:53:54] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/t20-world-cup-west-indies-win-the-match-against-england-by-6-wicket/286213
+- [2026-08-18 23:53:58] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/saina-sindhu-praneeth-reach-pre-quarterfinals-of-swiss-open/286215
+- [2026-08-18 23:54:03] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/world/india-118th-on-happiness-index-denmark-happiest-country/286214
+- [2026-08-18 23:54:07] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/smriti-iranis-degree-row-court-asks-ec-du-to-bring-records/286212
+- [2026-08-18 23:54:12] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/bihar-jharkhand/viral-video-case-the-jail-superintendent-suspended-for-obscene-gestures/286211
+- [2026-08-18 23:54:16] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/mines-and-minerals-bill-passed-by-lok-sabha/286210
+- [2026-08-18 23:54:21] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/up-uttarakhand/maneka-gandhi-demands-bjp-mla%E2%80%99s-expulsion-for-attack-on-horse/286209
+- [2026-08-18 23:54:25] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/maharashtra/chhagan-bhujbal-had-tried-to-sent-bal-thackeray-to-jail-shiv-sena/286183
+- [2026-08-18 23:54:30] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/delhi-haryana/jat-agitation-leaders-threaten-to-resume-protest/286208
+- [2026-08-18 23:54:34] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/rss-advocated-dialogue-with-pakistan-to-continue/286207
+- [2026-08-18 23:54:39] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/pm-modi-lacks-clear-vision-on-foreign-policy-rahul-gandhi/286203
+- [2026-08-18 23:54:43] FETCH FAILED after 3 attempts: https://www.patrika.com/udaipur-news/udaipur-marble-trader-dies-after-stone-falls-from-under-construction-building-20737825
+- [2026-08-18 23:54:44] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/world/rescuers-female-suicide-bombers-kill-24-at-nigerian-mosque/286205
+- [2026-08-18 23:54:48] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/world/pakistani-court-lifts-travel-ban-on-musharraf/286204
+- [2026-08-18 23:54:54] patrika: 10560/12804 articles this batch, ~5782330 words this batch (~8280120 total ever)
+- [2026-08-18 23:55:22] zeenews: 13680/238571 articles this batch, ~4006776 words this batch (~5915916 total ever)
+- [2026-08-18 23:55:47] patrika: 10580/12804 articles this batch, ~5793160 words this batch (~8290950 total ever)
+- [2026-08-18 23:56:06] zeenews: 13700/238571 articles this batch, ~4012394 words this batch (~5921534 total ever)
+- [2026-08-18 23:56:45] patrika: 10600/12804 articles this batch, ~5803867 words this batch (~8301657 total ever)
+- [2026-08-18 23:56:48] zeenews: 13720/238571 articles this batch, ~4017192 words this batch (~5926332 total ever)
+- [2026-08-18 23:57:29] zeenews: 13740/238571 articles this batch, ~4022305 words this batch (~5931445 total ever)
+- [2026-08-18 23:57:41] patrika: 10620/12804 articles this batch, ~5815695 words this batch (~8313485 total ever)
+- [2026-08-18 23:58:10] zeenews: 13760/238571 articles this batch, ~4027049 words this batch (~5936189 total ever)
+- [2026-08-18 23:58:27] patrika: 10640/12804 articles this batch, ~5826510 words this batch (~8324300 total ever)
+- [2026-08-18 23:58:50] zeenews: 13780/238571 articles this batch, ~4032747 words this batch (~5941887 total ever)
+- [2026-08-18 23:59:26] patrika: 10660/12804 articles this batch, ~5836895 words this batch (~8334685 total ever)
+- [2026-08-18 23:59:31] zeenews: 13800/238571 articles this batch, ~4037080 words this batch (~5946220 total ever)
+- [2026-08-19 00:00:14] zeenews: 13820/238571 articles this batch, ~4043744 words this batch (~5952884 total ever)
+- [2026-08-19 00:00:21] patrika: 10680/12804 articles this batch, ~5847905 words this batch (~8345695 total ever)
+- [2026-08-19 00:01:03] zeenews: 13840/238571 articles this batch, ~4049281 words this batch (~5958421 total ever)
+- [2026-08-19 00:01:24] patrika: 10700/12804 articles this batch, ~5858442 words this batch (~8356232 total ever)
+- [2026-08-19 00:01:46] zeenews: 13860/238571 articles this batch, ~4056348 words this batch (~5965488 total ever)
+- [2026-08-19 00:02:22] patrika: 10720/12804 articles this batch, ~5869426 words this batch (~8367216 total ever)
+- [2026-08-19 00:02:26] zeenews: 13880/238571 articles this batch, ~4061025 words this batch (~5970165 total ever)
+- [2026-08-19 00:03:08] zeenews: 13900/238571 articles this batch, ~4066410 words this batch (~5975550 total ever)
+- [2026-08-19 00:03:12] patrika: 10740/12804 articles this batch, ~5882019 words this batch (~8379809 total ever)
+- [2026-08-19 00:03:51] zeenews: 13920/238571 articles this batch, ~4070822 words this batch (~5979962 total ever)
+- [2026-08-19 00:04:03] patrika: 10760/12804 articles this batch, ~5893180 words this batch (~8390970 total ever)
+- [2026-08-19 00:04:34] zeenews: 13940/238571 articles this batch, ~4075345 words this batch (~5984485 total ever)
+- [2026-08-19 00:04:57] patrika: 10780/12804 articles this batch, ~5904415 words this batch (~8402205 total ever)
+- [2026-08-19 00:05:16] zeenews: 13960/238571 articles this batch, ~4082454 words this batch (~5991594 total ever)
+- [2026-08-19 00:05:55] patrika: 10800/12804 articles this batch, ~5914603 words this batch (~8412393 total ever)
+- [2026-08-19 00:05:56] zeenews: 13980/238571 articles this batch, ~4087350 words this batch (~5996490 total ever)
+- [2026-08-19 00:06:36] zeenews: 14000/238571 articles this batch, ~4092473 words this batch (~6001613 total ever)
+- [2026-08-19 00:06:52] patrika: 10820/12804 articles this batch, ~5925411 words this batch (~8423201 total ever)
+- [2026-08-19 00:07:16] zeenews: 14020/238571 articles this batch, ~4098421 words this batch (~6007561 total ever)
+- [2026-08-19 00:07:54] patrika: 10840/12804 articles this batch, ~5937255 words this batch (~8435045 total ever)
+- [2026-08-19 00:08:00] zeenews: 14040/238571 articles this batch, ~4103915 words this batch (~6013055 total ever)
+- [2026-08-19 00:08:46] zeenews: 14060/238571 articles this batch, ~4108751 words this batch (~6017891 total ever)
+- [2026-08-19 00:08:58] patrika: 10860/12804 articles this batch, ~5948542 words this batch (~8446332 total ever)
+- [2026-08-19 00:09:27] zeenews: 14080/238571 articles this batch, ~4117060 words this batch (~6026200 total ever)
+- [2026-08-19 00:09:51] patrika: 10880/12804 articles this batch, ~5960085 words this batch (~8457875 total ever)
+- [2026-08-19 00:10:19] zeenews: 14100/238571 articles this batch, ~4122747 words this batch (~6031887 total ever)
+- [2026-08-19 00:10:43] patrika: 10900/12804 articles this batch, ~5970426 words this batch (~8468216 total ever)
+- [2026-08-19 00:11:00] zeenews: 14120/238571 articles this batch, ~4129375 words this batch (~6038515 total ever)
+- [2026-08-19 00:11:43] zeenews: 14140/238571 articles this batch, ~4135291 words this batch (~6044431 total ever)
+- [2026-08-19 00:11:47] patrika: 10920/12804 articles this batch, ~5981592 words this batch (~8479382 total ever)
+- [2026-08-19 00:12:27] zeenews: 14160/238571 articles this batch, ~4140860 words this batch (~6050000 total ever)
+- [2026-08-19 00:12:45] patrika: 10940/12804 articles this batch, ~5992512 words this batch (~8490302 total ever)
+- [2026-08-19 00:13:09] zeenews: 14180/238571 articles this batch, ~4145832 words this batch (~6054972 total ever)
+- [2026-08-19 00:13:43] patrika: 10960/12804 articles this batch, ~6003920 words this batch (~8501710 total ever)
+- [2026-08-19 00:13:49] zeenews: 14200/238571 articles this batch, ~4151222 words this batch (~6060362 total ever)
+- [2026-08-19 00:14:31] zeenews: 14220/238571 articles this batch, ~4155514 words this batch (~6064654 total ever)
+- [2026-08-19 00:14:40] patrika: 10980/12804 articles this batch, ~6015197 words this batch (~8512987 total ever)
+- [2026-08-19 00:15:13] zeenews: 14240/238571 articles this batch, ~4160662 words this batch (~6069802 total ever)
+- [2026-08-19 00:15:33] patrika: 11000/12804 articles this batch, ~6025654 words this batch (~8523444 total ever)
+- [2026-08-19 00:15:53] zeenews: 14260/238571 articles this batch, ~4165864 words this batch (~6075004 total ever)
+- [2026-08-19 00:16:27] patrika: 11020/12804 articles this batch, ~6037290 words this batch (~8535080 total ever)
+- [2026-08-19 00:16:35] zeenews: 14280/238571 articles this batch, ~4170391 words this batch (~6079531 total ever)
+- [2026-08-19 00:17:16] zeenews: 14300/238571 articles this batch, ~4175101 words this batch (~6084241 total ever)
+- [2026-08-19 00:17:24] patrika: 11040/12804 articles this batch, ~6048581 words this batch (~8546371 total ever)
+- [2026-08-19 00:17:59] zeenews: 14320/238571 articles this batch, ~4179799 words this batch (~6088939 total ever)
+- [2026-08-19 00:18:21] patrika: 11060/12804 articles this batch, ~6062074 words this batch (~8559864 total ever)
+- [2026-08-19 00:18:40] zeenews: 14340/238571 articles this batch, ~4185135 words this batch (~6094275 total ever)
+- [2026-08-19 00:19:39] patrika: 11080/12804 articles this batch, ~6073414 words this batch (~8571204 total ever)
+- [2026-08-19 00:20:04] zeenews: 14360/238571 articles this batch, ~4190469 words this batch (~6099609 total ever)
+- [2026-08-19 00:20:31] patrika: 11100/12804 articles this batch, ~6085128 words this batch (~8582918 total ever)
+- [2026-08-19 00:20:49] zeenews: 14380/238571 articles this batch, ~4196646 words this batch (~6105786 total ever)
+- [2026-08-19 00:21:27] patrika: 11120/12804 articles this batch, ~6097781 words this batch (~8595571 total ever)
+- [2026-08-19 00:21:28] zeenews: 14400/238571 articles this batch, ~4202985 words this batch (~6112125 total ever)
+- [2026-08-19 00:22:08] zeenews: 14420/238571 articles this batch, ~4209018 words this batch (~6118158 total ever)
+- [2026-08-19 00:22:21] patrika: 11140/12804 articles this batch, ~6108873 words this batch (~8606663 total ever)
+- [2026-08-19 00:22:48] zeenews: 14440/238571 articles this batch, ~4213400 words this batch (~6122540 total ever)
+- [2026-08-19 00:23:11] patrika: 11160/12804 articles this batch, ~6120429 words this batch (~8618219 total ever)
+- [2026-08-19 00:23:30] zeenews: 14460/238571 articles this batch, ~4218437 words this batch (~6127577 total ever)
+- [2026-08-19 00:24:05] patrika: 11180/12804 articles this batch, ~6132892 words this batch (~8630682 total ever)
+- [2026-08-19 00:24:10] zeenews: 14480/238571 articles this batch, ~4223934 words this batch (~6133074 total ever)
+- [2026-08-19 00:24:48] zeenews: 14500/238571 articles this batch, ~4231559 words this batch (~6140699 total ever)
+- [2026-08-19 00:24:59] patrika: 11200/12804 articles this batch, ~6144512 words this batch (~8642302 total ever)
+- [2026-08-19 00:25:27] zeenews: 14520/238571 articles this batch, ~4237479 words this batch (~6146619 total ever)
+- [2026-08-19 00:25:59] patrika: 11220/12804 articles this batch, ~6156324 words this batch (~8654114 total ever)
+- [2026-08-19 00:26:06] zeenews: 14540/238571 articles this batch, ~4244317 words this batch (~6153457 total ever)
+- [2026-08-19 00:26:45] zeenews: 14560/238571 articles this batch, ~4249304 words this batch (~6158444 total ever)
+- [2026-08-19 00:26:57] patrika: 11240/12804 articles this batch, ~6168429 words this batch (~8666219 total ever)
+- [2026-08-19 00:27:24] zeenews: 14580/238571 articles this batch, ~4255432 words this batch (~6164572 total ever)
+- [2026-08-19 00:27:54] patrika: 11260/12804 articles this batch, ~6178998 words this batch (~8676788 total ever)
+- [2026-08-19 00:28:03] zeenews: 14600/238571 articles this batch, ~4261617 words this batch (~6170757 total ever)
+- [2026-08-19 00:28:42] zeenews: 14620/238571 articles this batch, ~4266209 words this batch (~6175349 total ever)
+- [2026-08-19 00:28:50] patrika: 11280/12804 articles this batch, ~6191020 words this batch (~8688810 total ever)
+- [2026-08-19 00:29:20] zeenews: 14640/238571 articles this batch, ~4271166 words this batch (~6180306 total ever)
+- [2026-08-19 00:29:43] patrika: 11300/12804 articles this batch, ~6201729 words this batch (~8699519 total ever)
+- [2026-08-19 00:30:02] zeenews: 14660/238571 articles this batch, ~4278223 words this batch (~6187363 total ever)
+- [2026-08-19 00:30:38] patrika: 11320/12804 articles this batch, ~6211756 words this batch (~8709546 total ever)
+- [2026-08-19 00:30:48] zeenews: 14680/238571 articles this batch, ~4283932 words this batch (~6193072 total ever)
+- [2026-08-19 00:31:28] zeenews: 14700/238571 articles this batch, ~4289939 words this batch (~6199079 total ever)
+- [2026-08-19 00:31:38] patrika: 11340/12804 articles this batch, ~6223086 words this batch (~8720876 total ever)
+- [2026-08-19 00:32:09] zeenews: 14720/238571 articles this batch, ~4295402 words this batch (~6204542 total ever)
+- [2026-08-19 00:32:43] patrika: 11360/12804 articles this batch, ~6233720 words this batch (~8731510 total ever)
+- [2026-08-19 00:32:48] zeenews: 14740/238571 articles this batch, ~4300691 words this batch (~6209831 total ever)
+- [2026-08-19 00:33:26] zeenews: 14760/238571 articles this batch, ~4305292 words this batch (~6214432 total ever)
+- [2026-08-19 00:33:41] patrika: 11380/12804 articles this batch, ~6246081 words this batch (~8743871 total ever)
+- [2026-08-19 00:34:08] zeenews: 14780/238571 articles this batch, ~4310639 words this batch (~6219779 total ever)
+- [2026-08-19 00:34:35] patrika: 11400/12804 articles this batch, ~6257797 words this batch (~8755587 total ever)
+- [2026-08-19 00:34:48] zeenews: 14800/238571 articles this batch, ~4315127 words this batch (~6224267 total ever)
+- [2026-08-19 00:35:31] patrika: 11420/12804 articles this batch, ~6269252 words this batch (~8767042 total ever)
+- [2026-08-19 00:35:32] zeenews: 14820/238571 articles this batch, ~4323944 words this batch (~6233084 total ever)
+- [2026-08-19 00:36:14] zeenews: 14840/238571 articles this batch, ~4329615 words this batch (~6238755 total ever)
+- [2026-08-19 00:36:24] patrika: 11440/12804 articles this batch, ~6281331 words this batch (~8779121 total ever)
+- [2026-08-19 00:36:52] zeenews: 14860/238571 articles this batch, ~4335839 words this batch (~6244979 total ever)
+- [2026-08-19 00:37:18] patrika: 11460/12804 articles this batch, ~6292544 words this batch (~8790334 total ever)
+- [2026-08-19 00:38:13] zeenews: 14880/238571 articles this batch, ~4342137 words this batch (~6251277 total ever)
+- [2026-08-19 00:38:35] patrika: 11480/12804 articles this batch, ~6303666 words this batch (~8801456 total ever)
+- [2026-08-19 00:38:52] zeenews: 14900/238571 articles this batch, ~4347496 words this batch (~6256636 total ever)
+- [2026-08-19 00:39:31] patrika: 11500/12804 articles this batch, ~6314095 words this batch (~8811885 total ever)
+- [2026-08-19 00:39:34] zeenews: 14920/238571 articles this batch, ~4354523 words this batch (~6263663 total ever)
+- [2026-08-19 00:40:16] zeenews: 14940/238571 articles this batch, ~4361251 words this batch (~6270391 total ever)
+- [2026-08-19 00:40:27] patrika: 11520/12804 articles this batch, ~6325496 words this batch (~8823286 total ever)
+- [2026-08-19 00:40:58] zeenews: 14960/238571 articles this batch, ~4369966 words this batch (~6279106 total ever)
+- [2026-08-19 00:41:22] patrika: 11540/12804 articles this batch, ~6337904 words this batch (~8835694 total ever)
+- [2026-08-19 00:41:39] zeenews: 14980/238571 articles this batch, ~4375133 words this batch (~6284273 total ever)
+- [2026-08-19 00:42:19] patrika: 11560/12804 articles this batch, ~6349528 words this batch (~8847318 total ever)
+- [2026-08-19 00:42:21] zeenews: 15000/238571 articles this batch, ~4381431 words this batch (~6290571 total ever)
+- [2026-08-19 00:43:01] zeenews: 15020/238571 articles this batch, ~4386936 words this batch (~6296076 total ever)
+- [2026-08-19 00:43:19] patrika: 11580/12804 articles this batch, ~6360731 words this batch (~8858521 total ever)
+- [2026-08-19 00:43:41] zeenews: 15040/238571 articles this batch, ~4395221 words this batch (~6304361 total ever)
+- [2026-08-19 00:44:18] patrika: 11600/12804 articles this batch, ~6372756 words this batch (~8870546 total ever)
+- [2026-08-19 00:44:20] zeenews: 15060/238571 articles this batch, ~4401953 words this batch (~6311093 total ever)
+- [2026-08-19 00:45:01] zeenews: 15080/238571 articles this batch, ~4408861 words this batch (~6318001 total ever)
+- [2026-08-19 00:45:13] patrika: 11620/12804 articles this batch, ~6383626 words this batch (~8881416 total ever)
+- [2026-08-19 00:45:45] zeenews: 15100/238571 articles this batch, ~4413555 words this batch (~6322695 total ever)
+- [2026-08-19 00:46:09] patrika: 11640/12804 articles this batch, ~6393874 words this batch (~8891664 total ever)
+- [2026-08-19 00:46:26] zeenews: 15120/238571 articles this batch, ~4421170 words this batch (~6330310 total ever)
+- [2026-08-19 00:47:06] patrika: 11660/12804 articles this batch, ~6403333 words this batch (~8901123 total ever)
+- [2026-08-19 00:47:06] zeenews: 15140/238571 articles this batch, ~4426372 words this batch (~6335512 total ever)
+- [2026-08-19 00:47:46] zeenews: 15160/238571 articles this batch, ~4431334 words this batch (~6340474 total ever)
+- [2026-08-19 00:48:01] patrika: 11680/12804 articles this batch, ~6414697 words this batch (~8912487 total ever)
+- [2026-08-19 00:48:25] zeenews: 15180/238571 articles this batch, ~4438064 words this batch (~6347204 total ever)
+- [2026-08-19 00:48:56] patrika: 11700/12804 articles this batch, ~6425423 words this batch (~8923213 total ever)
+- [2026-08-19 00:49:06] zeenews: 15200/238571 articles this batch, ~4443603 words this batch (~6352743 total ever)
+- [2026-08-19 00:49:46] zeenews: 15220/238571 articles this batch, ~4448333 words this batch (~6357473 total ever)
+- [2026-08-19 00:49:47] patrika: 11720/12804 articles this batch, ~6436008 words this batch (~8933798 total ever)
+- [2026-08-19 00:50:36] zeenews: 15240/238571 articles this batch, ~4452920 words this batch (~6362060 total ever)
+- [2026-08-19 00:50:45] patrika: 11740/12804 articles this batch, ~6447796 words this batch (~8945586 total ever)
+- [2026-08-19 00:51:15] zeenews: 15260/238571 articles this batch, ~4458700 words this batch (~6367840 total ever)
+- [2026-08-19 00:51:41] patrika: 11760/12804 articles this batch, ~6459365 words this batch (~8957155 total ever)
+- [2026-08-19 00:51:54] zeenews: 15280/238571 articles this batch, ~4465570 words this batch (~6374710 total ever)
+- [2026-08-19 00:52:33] patrika: 11780/12804 articles this batch, ~6470758 words this batch (~8968548 total ever)
+- [2026-08-19 00:52:37] zeenews: 15300/238571 articles this batch, ~4470726 words this batch (~6379866 total ever)
+- [2026-08-19 00:53:20] zeenews: 15320/238571 articles this batch, ~4476655 words this batch (~6385795 total ever)
+- [2026-08-19 00:53:33] patrika: 11800/12804 articles this batch, ~6481213 words this batch (~8979003 total ever)
+- [2026-08-19 00:53:59] zeenews: 15340/238571 articles this batch, ~4481793 words this batch (~6390933 total ever)
+- [2026-08-19 00:54:25] patrika: 11820/12804 articles this batch, ~6492154 words this batch (~8989944 total ever)
+- [2026-08-19 00:54:40] zeenews: 15360/238571 articles this batch, ~4488170 words this batch (~6397310 total ever)
+- [2026-08-19 00:55:21] zeenews: 15380/238571 articles this batch, ~4493478 words this batch (~6402618 total ever)
+- [2026-08-19 00:55:21] patrika: 11840/12804 articles this batch, ~6504775 words this batch (~9002565 total ever)
+- [2026-08-19 00:56:02] zeenews: 15400/238571 articles this batch, ~4498404 words this batch (~6407544 total ever)
+- [2026-08-19 00:56:14] patrika: 11860/12804 articles this batch, ~6517447 words this batch (~9015237 total ever)
+- [2026-08-19 00:56:42] zeenews: 15420/238571 articles this batch, ~4502541 words this batch (~6411681 total ever)
+- [2026-08-19 00:57:09] patrika: 11880/12804 articles this batch, ~6528362 words this batch (~9026152 total ever)
+- [2026-08-19 00:57:23] zeenews: 15440/238571 articles this batch, ~4507356 words this batch (~6416496 total ever)
+- [2026-08-19 00:57:59] patrika: 11900/12804 articles this batch, ~6540608 words this batch (~9038398 total ever)
+- [2026-08-19 00:58:05] zeenews: 15460/238571 articles this batch, ~4512518 words this batch (~6421658 total ever)
+- [2026-08-19 00:58:45] zeenews: 15480/238571 articles this batch, ~4519242 words this batch (~6428382 total ever)
+- [2026-08-19 00:58:55] patrika: 11920/12804 articles this batch, ~6552047 words this batch (~9049837 total ever)
+- [2026-08-19 00:59:26] zeenews: 15500/238571 articles this batch, ~4525381 words this batch (~6434521 total ever)
+- [2026-08-19 00:59:58] patrika: 11940/12804 articles this batch, ~6564369 words this batch (~9062159 total ever)
+- [2026-08-19 01:00:19] zeenews: 15520/238571 articles this batch, ~4533314 words this batch (~6442454 total ever)
+- [2026-08-19 01:00:51] patrika: 11960/12804 articles this batch, ~6576383 words this batch (~9074173 total ever)
+- [2026-08-19 01:01:05] zeenews: 15540/238571 articles this batch, ~4538226 words this batch (~6447366 total ever)
+- [2026-08-19 01:01:42] patrika: 11980/12804 articles this batch, ~6587955 words this batch (~9085745 total ever)
+- [2026-08-19 01:01:44] zeenews: 15560/238571 articles this batch, ~4542099 words this batch (~6451239 total ever)
+- [2026-08-19 01:02:24] zeenews: 15580/238571 articles this batch, ~4547593 words this batch (~6456733 total ever)
+- [2026-08-19 01:02:33] patrika: 12000/12804 articles this batch, ~6599134 words this batch (~9096924 total ever)
+- [2026-08-19 01:03:06] zeenews: 15600/238571 articles this batch, ~4552904 words this batch (~6462044 total ever)
+- [2026-08-19 01:03:30] patrika: 12020/12804 articles this batch, ~6611595 words this batch (~9109385 total ever)
+- [2026-08-19 01:03:45] zeenews: 15620/238571 articles this batch, ~4558125 words this batch (~6467265 total ever)
+- [2026-08-19 01:04:23] patrika: 12040/12804 articles this batch, ~6624354 words this batch (~9122144 total ever)
+- [2026-08-19 01:04:25] zeenews: 15640/238571 articles this batch, ~4565274 words this batch (~6474414 total ever)
+- [2026-08-19 01:05:06] zeenews: 15660/238571 articles this batch, ~4570603 words this batch (~6479743 total ever)
+- [2026-08-19 01:05:16] patrika: 12060/12804 articles this batch, ~6635084 words this batch (~9132874 total ever)
+- [2026-08-19 01:05:49] zeenews: 15680/238571 articles this batch, ~4575152 words this batch (~6484292 total ever)
+- [2026-08-19 01:06:11] patrika: 12080/12804 articles this batch, ~6646641 words this batch (~9144431 total ever)
+- [2026-08-19 01:06:30] zeenews: 15700/238571 articles this batch, ~4583959 words this batch (~6493099 total ever)
+- [2026-08-19 01:07:06] patrika: 12100/12804 articles this batch, ~6658488 words this batch (~9156278 total ever)
+- [2026-08-19 01:07:10] zeenews: 15720/238571 articles this batch, ~4589599 words this batch (~6498739 total ever)
+- [2026-08-19 01:07:49] zeenews: 15740/238571 articles this batch, ~4593985 words this batch (~6503125 total ever)
+- [2026-08-19 01:08:03] patrika: 12120/12804 articles this batch, ~6670145 words this batch (~9167935 total ever)
+- [2026-08-19 01:08:31] zeenews: 15760/238571 articles this batch, ~4601336 words this batch (~6510476 total ever)
+- [2026-08-19 01:08:52] patrika: 12140/12804 articles this batch, ~6680733 words this batch (~9178523 total ever)
+- [2026-08-19 01:09:10] zeenews: 15780/238571 articles this batch, ~4607725 words this batch (~6516865 total ever)
+- [2026-08-19 01:09:43] patrika: 12160/12804 articles this batch, ~6691873 words this batch (~9189663 total ever)
+- [2026-08-19 01:09:49] zeenews: 15800/238571 articles this batch, ~4613220 words this batch (~6522360 total ever)
+- [2026-08-19 01:10:32] patrika: 12180/12804 articles this batch, ~6704329 words this batch (~9202119 total ever)
+- [2026-08-19 01:10:34] zeenews: 15820/238571 articles this batch, ~4619905 words this batch (~6529045 total ever)
+- [2026-08-19 01:11:17] zeenews: 15840/238571 articles this batch, ~4626887 words this batch (~6536027 total ever)
+- [2026-08-19 01:11:27] patrika: 12200/12804 articles this batch, ~6715730 words this batch (~9213520 total ever)
+- [2026-08-19 01:11:56] zeenews: 15860/238571 articles this batch, ~4631985 words this batch (~6541125 total ever)
+- [2026-08-19 01:12:25] patrika: 12220/12804 articles this batch, ~6727987 words this batch (~9225777 total ever)
+- [2026-08-19 01:12:35] zeenews: 15880/238571 articles this batch, ~4636791 words this batch (~6545931 total ever)
+- [2026-08-19 01:13:14] zeenews: 15900/238571 articles this batch, ~4640713 words this batch (~6549853 total ever)
+- [2026-08-19 01:13:20] patrika: 12240/12804 articles this batch, ~6739863 words this batch (~9237653 total ever)
+- [2026-08-19 01:13:53] zeenews: 15920/238571 articles this batch, ~4646571 words this batch (~6555711 total ever)
+- [2026-08-19 01:14:14] patrika: 12260/12804 articles this batch, ~6756060 words this batch (~9253850 total ever)
+- [2026-08-19 01:14:33] zeenews: 15940/238571 articles this batch, ~4653167 words this batch (~6562307 total ever)
+- [2026-08-19 01:15:04] patrika: 12280/12804 articles this batch, ~6767909 words this batch (~9265699 total ever)
+- [2026-08-19 01:15:17] zeenews: 15960/238571 articles this batch, ~4657902 words this batch (~6567042 total ever)
+- [2026-08-19 01:15:57] zeenews: 15980/238571 articles this batch, ~4663061 words this batch (~6572201 total ever)
+- [2026-08-19 01:16:01] patrika: 12300/12804 articles this batch, ~6780261 words this batch (~9278051 total ever)
+- [2026-08-19 01:16:38] zeenews: 16000/238571 articles this batch, ~4669453 words this batch (~6578593 total ever)
+- [2026-08-19 01:17:02] patrika: 12320/12804 articles this batch, ~6790910 words this batch (~9288700 total ever)
+- [2026-08-19 01:17:20] zeenews: 16020/238571 articles this batch, ~4675307 words this batch (~6584447 total ever)
+- [2026-08-19 01:17:59] patrika: 12340/12804 articles this batch, ~6802753 words this batch (~9300543 total ever)
+- [2026-08-19 01:18:00] zeenews: 16040/238571 articles this batch, ~4681984 words this batch (~6591124 total ever)
+- [2026-08-19 01:18:40] zeenews: 16060/238571 articles this batch, ~4689818 words this batch (~6598958 total ever)
+- [2026-08-19 01:19:01] patrika: 12360/12804 articles this batch, ~6814031 words this batch (~9311821 total ever)
+- [2026-08-19 01:19:20] zeenews: 16080/238571 articles this batch, ~4695672 words this batch (~6604812 total ever)
+- [2026-08-19 01:19:53] patrika: 12380/12804 articles this batch, ~6826308 words this batch (~9324098 total ever)
+- [2026-08-19 01:19:59] zeenews: 16100/238571 articles this batch, ~4701974 words this batch (~6611114 total ever)
+- [2026-08-19 01:20:45] patrika: 12400/12804 articles this batch, ~6839037 words this batch (~9336827 total ever)
+- [2026-08-19 01:20:45] zeenews: 16120/238571 articles this batch, ~4706749 words this batch (~6615889 total ever)
+- [2026-08-19 01:21:26] zeenews: 16140/238571 articles this batch, ~4711608 words this batch (~6620748 total ever)
+- [2026-08-19 01:21:44] patrika: 12420/12804 articles this batch, ~6851922 words this batch (~9349712 total ever)
+- [2026-08-19 01:22:10] zeenews: 16160/238571 articles this batch, ~4719832 words this batch (~6628972 total ever)
+- [2026-08-19 01:22:35] patrika: 12440/12804 articles this batch, ~6862845 words this batch (~9360635 total ever)
+- [2026-08-19 01:22:50] zeenews: 16180/238571 articles this batch, ~4725625 words this batch (~6634765 total ever)
+- [2026-08-19 01:23:30] patrika: 12460/12804 articles this batch, ~6875049 words this batch (~9372839 total ever)
+- [2026-08-19 01:23:32] zeenews: 16200/238571 articles this batch, ~4730307 words this batch (~6639447 total ever)
+- [2026-08-19 01:24:12] zeenews: 16220/238571 articles this batch, ~4735347 words this batch (~6644487 total ever)
+- [2026-08-19 01:24:29] patrika: 12480/12804 articles this batch, ~6886004 words this batch (~9383794 total ever)
+- [2026-08-19 01:24:52] zeenews: 16240/238571 articles this batch, ~4742660 words this batch (~6651800 total ever)
+- [2026-08-19 01:25:21] patrika: 12500/12804 articles this batch, ~6896585 words this batch (~9394375 total ever)
+- [2026-08-19 01:25:33] zeenews: 16260/238571 articles this batch, ~4748227 words this batch (~6657367 total ever)
+- [2026-08-19 01:26:12] zeenews: 16280/238571 articles this batch, ~4751563 words this batch (~6660703 total ever)
+- [2026-08-19 01:26:18] patrika: 12520/12804 articles this batch, ~6907952 words this batch (~9405742 total ever)
+- [2026-08-19 01:26:51] zeenews: 16300/238571 articles this batch, ~4760624 words this batch (~6669764 total ever)
+- [2026-08-19 01:27:14] patrika: 12540/12804 articles this batch, ~6919157 words this batch (~9416947 total ever)
+- [2026-08-19 01:27:31] zeenews: 16320/238571 articles this batch, ~4765295 words this batch (~6674435 total ever)
+- [2026-08-19 01:28:11] zeenews: 16340/238571 articles this batch, ~4770449 words this batch (~6679589 total ever)
+- [2026-08-19 01:28:12] patrika: 12560/12804 articles this batch, ~6929889 words this batch (~9427679 total ever)
+- [2026-08-19 01:28:51] zeenews: 16360/238571 articles this batch, ~4775290 words this batch (~6684430 total ever)
+- [2026-08-19 01:29:12] patrika: 12580/12804 articles this batch, ~6941375 words this batch (~9439165 total ever)
+- [2026-08-19 01:29:31] zeenews: 16380/238571 articles this batch, ~4781074 words this batch (~6690214 total ever)
+- [2026-08-19 01:30:03] patrika: 12600/12804 articles this batch, ~6952576 words this batch (~9450366 total ever)
+- [2026-08-19 01:30:10] zeenews: 16400/238571 articles this batch, ~4785792 words this batch (~6694932 total ever)
+- [2026-08-19 01:30:56] zeenews: 16420/238571 articles this batch, ~4792032 words this batch (~6701172 total ever)
+- [2026-08-19 01:31:03] patrika: 12620/12804 articles this batch, ~6962804 words this batch (~9460594 total ever)
+- [2026-08-19 01:31:37] zeenews: 16440/238571 articles this batch, ~4799437 words this batch (~6708577 total ever)
+- [2026-08-19 01:32:00] patrika: 12640/12804 articles this batch, ~6973964 words this batch (~9471754 total ever)
+- [2026-08-19 01:32:17] zeenews: 16460/238571 articles this batch, ~4803582 words this batch (~6712722 total ever)
+- [2026-08-19 01:32:54] patrika: 12660/12804 articles this batch, ~6984759 words this batch (~9482549 total ever)
+- [2026-08-19 01:32:57] zeenews: 16480/238571 articles this batch, ~4809274 words this batch (~6718414 total ever)
+- [2026-08-19 01:33:35] zeenews: 16500/238571 articles this batch, ~4812844 words this batch (~6721984 total ever)
+- [2026-08-19 01:33:45] patrika: 12680/12804 articles this batch, ~6997430 words this batch (~9495220 total ever)
+- [2026-08-19 01:34:14] zeenews: 16520/238571 articles this batch, ~4818618 words this batch (~6727758 total ever)
+- [2026-08-19 01:34:39] patrika: 12700/12804 articles this batch, ~7009214 words this batch (~9507004 total ever)
+- [2026-08-19 01:34:54] zeenews: 16540/238571 articles this batch, ~4823864 words this batch (~6733004 total ever)
+- [2026-08-19 01:35:35] zeenews: 16560/238571 articles this batch, ~4829054 words this batch (~6738194 total ever)
+- [2026-08-19 01:35:40] patrika: 12720/12804 articles this batch, ~7020079 words this batch (~9517869 total ever)
+- [2026-08-19 01:36:16] zeenews: 16580/238571 articles this batch, ~4834377 words this batch (~6743517 total ever)
+- [2026-08-19 01:36:35] patrika: 12740/12804 articles this batch, ~7031369 words this batch (~9529159 total ever)
+- [2026-08-19 01:36:55] zeenews: 16600/238571 articles this batch, ~4840552 words this batch (~6749692 total ever)
+- [2026-08-19 01:37:02] patrika: batch done -- 12750 new articles, ~7037240 words, 37621s, ~9535030 words total ever
+- [2026-08-19 01:37:36] zeenews: 16620/238571 articles this batch, ~4845028 words this batch (~6754168 total ever)
+- [2026-08-19 01:38:18] zeenews: 16640/238571 articles this batch, ~4850850 words this batch (~6759990 total ever)
+- [2026-08-19 01:38:56] zeenews: 16660/238571 articles this batch, ~4857455 words this batch (~6766595 total ever)
+- [2026-08-19 01:39:35] zeenews: 16680/238571 articles this batch, ~4863110 words this batch (~6772250 total ever)
+- [2026-08-19 01:40:17] zeenews: 16700/238571 articles this batch, ~4869565 words this batch (~6778705 total ever)
+- [2026-08-19 01:40:59] zeenews: batch done -- 0 new articles, ~0 words, 40419s, ~1909140 words total ever
+- [2026-08-19 01:41:00] RUN COMPLETE: 3 sources, 600 new articles, 322798 words, 40593s elapsed, ~28627 words/hour aggregate throughput
+- [2026-08-19 01:41:00]   abplive: 300 articles, 156278 words, 602s
+- [2026-08-19 01:41:00]   patrika: 300 articles, 166520 words, 926s
+- [2026-08-19 01:41:00]   zeenews: 0 articles, 0 words, 40419s
+- [2026-08-19 02:03:34] Starting 3 concurrent source workers: ['abplive', 'patrika', 'zeenews']
+- [2026-08-19 02:03:45] SKIP child sitemap (fetch failed): https://zeenews.india.com/hindi/news-sitemap.xml
+- [2026-08-19 02:04:26] abplive: discovery found 11974 URLs, 189 new
+- [2026-08-19 02:05:01] abplive: 20/189 articles this batch, ~9628 words this batch (~6433414 total ever)
+- [2026-08-19 02:05:05] patrika: discovery found 18735 URLs, 381 new
+- [2026-08-19 02:05:25] zeenews: discovery found 244711 URLs, 221852 new
+- [2026-08-19 02:05:35] abplive: 40/189 articles this batch, ~20716 words this batch (~6444502 total ever)
+- [2026-08-19 02:06:09] abplive: 60/189 articles this batch, ~30960 words this batch (~6454746 total ever)
+- [2026-08-19 02:06:19] patrika: 20/381 articles this batch, ~10808 words this batch (~9545838 total ever)
+- [2026-08-19 02:06:43] abplive: 80/189 articles this batch, ~41169 words this batch (~6464955 total ever)
+- [2026-08-19 02:07:15] patrika: 40/381 articles this batch, ~22600 words this batch (~9557630 total ever)
+- [2026-08-19 02:07:17] abplive: 100/189 articles this batch, ~52756 words this batch (~6476542 total ever)
+- [2026-08-19 02:07:50] abplive: 120/189 articles this batch, ~62873 words this batch (~6486659 total ever)
+- [2026-08-19 02:08:13] patrika: 60/381 articles this batch, ~33513 words this batch (~9568543 total ever)
+- [2026-08-19 02:08:24] abplive: 140/189 articles this batch, ~73871 words this batch (~6497657 total ever)
+- [2026-08-19 02:08:58] abplive: 160/189 articles this batch, ~83791 words this batch (~6507577 total ever)
+- [2026-08-19 02:09:08] patrika: 80/381 articles this batch, ~45075 words this batch (~9580105 total ever)
+- [2026-08-19 02:09:24] zeenews: 20/221852 articles this batch, ~6244 words this batch (~6791834 total ever)
+- [2026-08-19 02:09:32] abplive: 180/189 articles this batch, ~95114 words this batch (~6518900 total ever)
+- [2026-08-19 02:09:47] abplive: batch done -- 189 new articles, ~99672 words, 321s, ~6523458 words total ever
+- [2026-08-19 02:10:07] zeenews: 40/221852 articles this batch, ~11053 words this batch (~6796643 total ever)
+- [2026-08-19 02:10:12] patrika: 100/381 articles this batch, ~56940 words this batch (~9591970 total ever)
+- [2026-08-19 02:10:54] zeenews: 60/221852 articles this batch, ~15216 words this batch (~6800806 total ever)
+- [2026-08-19 02:11:06] patrika: 120/381 articles this batch, ~69816 words this batch (~9604846 total ever)
+- [2026-08-19 02:11:38] zeenews: 80/221852 articles this batch, ~21198 words this batch (~6806788 total ever)
+- [2026-08-19 02:11:49] patrika: 140/381 articles this batch, ~81030 words this batch (~9616060 total ever)
+- [2026-08-19 02:12:21] zeenews: 100/221852 articles this batch, ~28162 words this batch (~6813752 total ever)
+- [2026-08-19 02:12:30] patrika: 160/381 articles this batch, ~93682 words this batch (~9628712 total ever)
+- [2026-08-19 02:13:06] zeenews: 120/221852 articles this batch, ~36604 words this batch (~6822194 total ever)
+- [2026-08-19 02:13:13] patrika: 180/381 articles this batch, ~105612 words this batch (~9640642 total ever)
+- [2026-08-19 02:13:50] zeenews: 140/221852 articles this batch, ~41680 words this batch (~6827270 total ever)
+- [2026-08-19 02:14:07] patrika: 200/381 articles this batch, ~116718 words this batch (~9651748 total ever)
+- [2026-08-19 02:14:33] zeenews: 160/221852 articles this batch, ~47242 words this batch (~6832832 total ever)
+- [2026-08-19 02:14:58] patrika: 220/381 articles this batch, ~128155 words this batch (~9663185 total ever)
+- [2026-08-19 02:15:24] zeenews: 180/221852 articles this batch, ~52343 words this batch (~6837933 total ever)
+- [2026-08-19 02:15:57] patrika: 240/381 articles this batch, ~139263 words this batch (~9674293 total ever)
+- [2026-08-19 02:16:09] zeenews: 200/221852 articles this batch, ~57872 words this batch (~6843462 total ever)
+- [2026-08-19 02:16:53] zeenews: 220/221852 articles this batch, ~63121 words this batch (~6848711 total ever)
+- [2026-08-19 02:16:55] patrika: 260/381 articles this batch, ~151075 words this batch (~9686105 total ever)
+- [2026-08-19 02:17:40] zeenews: 240/221852 articles this batch, ~68022 words this batch (~6853612 total ever)
+- [2026-08-19 02:17:52] patrika: 280/381 articles this batch, ~162702 words this batch (~9697732 total ever)
+- [2026-08-19 02:18:23] zeenews: 260/221852 articles this batch, ~75731 words this batch (~6861321 total ever)
+- [2026-08-19 02:18:51] patrika: 300/381 articles this batch, ~175392 words this batch (~9710422 total ever)
+- [2026-08-19 02:19:06] zeenews: 280/221852 articles this batch, ~80375 words this batch (~6865965 total ever)
+- [2026-08-19 02:19:44] patrika: 320/381 articles this batch, ~187107 words this batch (~9722137 total ever)
+- [2026-08-19 02:19:55] zeenews: 300/221852 articles this batch, ~85979 words this batch (~6871569 total ever)
+- [2026-08-19 02:20:37] patrika: 340/381 articles this batch, ~199745 words this batch (~9734775 total ever)
+- [2026-08-19 02:20:54] zeenews: 320/221852 articles this batch, ~92149 words this batch (~6877739 total ever)
+- [2026-08-19 02:21:33] patrika: 360/381 articles this batch, ~207964 words this batch (~9742994 total ever)
+- [2026-08-19 02:21:46] zeenews: 340/221852 articles this batch, ~98124 words this batch (~6883714 total ever)
+- [2026-08-19 02:22:16] patrika: batch done -- 370 new articles, ~210826 words, 1031s, ~9745856 words total ever
+- [2026-08-19 02:22:49] zeenews: 360/221852 articles this batch, ~102170 words this batch (~6887760 total ever)
+- [2026-08-19 02:23:43] zeenews: 380/221852 articles this batch, ~108406 words this batch (~6893996 total ever)
+- [2026-08-19 02:25:02] zeenews: 400/221852 articles this batch, ~114201 words this batch (~6899791 total ever)
+- [2026-08-19 02:26:00] zeenews: 420/221852 articles this batch, ~119609 words this batch (~6905199 total ever)
+- [2026-08-19 02:26:55] zeenews: 440/221852 articles this batch, ~125676 words this batch (~6911266 total ever)
+- [2026-08-19 02:27:42] zeenews: 460/221852 articles this batch, ~134771 words this batch (~6920361 total ever)
+- [2026-08-19 02:28:27] zeenews: 480/221852 articles this batch, ~140029 words this batch (~6925619 total ever)
+- [2026-08-19 02:29:14] zeenews: 500/221852 articles this batch, ~144438 words this batch (~6930028 total ever)
+- [2026-08-19 02:29:56] zeenews: 520/221852 articles this batch, ~150278 words this batch (~6935868 total ever)
+- [2026-08-19 02:30:45] zeenews: 540/221852 articles this batch, ~157097 words this batch (~6942687 total ever)
+- [2026-08-19 02:31:30] zeenews: 560/221852 articles this batch, ~164669 words this batch (~6950259 total ever)
+- [2026-08-19 02:32:16] zeenews: 580/221852 articles this batch, ~169575 words this batch (~6955165 total ever)
+- [2026-08-19 02:32:59] zeenews: 600/221852 articles this batch, ~174380 words this batch (~6959970 total ever)
+- [2026-08-19 02:33:43] zeenews: 620/221852 articles this batch, ~179946 words this batch (~6965536 total ever)
+- [2026-08-19 02:34:27] zeenews: 640/221852 articles this batch, ~186069 words this batch (~6971659 total ever)
+- [2026-08-19 02:35:09] zeenews: 660/221852 articles this batch, ~191968 words this batch (~6977558 total ever)
+- [2026-08-19 02:35:53] zeenews: 680/221852 articles this batch, ~198292 words this batch (~6983882 total ever)
+- [2026-08-19 02:36:57] zeenews: 700/221852 articles this batch, ~204639 words this batch (~6990229 total ever)
+- [2026-08-19 02:37:41] zeenews: 720/221852 articles this batch, ~208757 words this batch (~6994347 total ever)
+- [2026-08-19 02:38:23] zeenews: 740/221852 articles this batch, ~214894 words this batch (~7000484 total ever)
+- [2026-08-19 02:39:04] zeenews: 760/221852 articles this batch, ~219920 words this batch (~7005510 total ever)
+- [2026-08-19 02:39:48] zeenews: 780/221852 articles this batch, ~225164 words this batch (~7010754 total ever)
+- [2026-08-19 02:40:37] zeenews: 800/221852 articles this batch, ~230302 words this batch (~7015892 total ever)
+- [2026-08-19 02:41:25] zeenews: 820/221852 articles this batch, ~237858 words this batch (~7023448 total ever)
+- [2026-08-19 02:42:13] zeenews: 840/221852 articles this batch, ~242001 words this batch (~7027591 total ever)
+- [2026-08-19 02:42:59] zeenews: 860/221852 articles this batch, ~246016 words this batch (~7031606 total ever)
+- [2026-08-19 02:43:45] zeenews: 880/221852 articles this batch, ~252248 words this batch (~7037838 total ever)
+- [2026-08-19 02:44:29] zeenews: 900/221852 articles this batch, ~257043 words this batch (~7042633 total ever)
+- [2026-08-19 02:45:13] zeenews: 920/221852 articles this batch, ~261587 words this batch (~7047177 total ever)
+- [2026-08-19 02:45:57] zeenews: 940/221852 articles this batch, ~266103 words this batch (~7051693 total ever)
+- [2026-08-19 02:46:42] zeenews: 960/221852 articles this batch, ~272513 words this batch (~7058103 total ever)
+- [2026-08-19 02:47:29] zeenews: 980/221852 articles this batch, ~277401 words this batch (~7062991 total ever)
+- [2026-08-19 02:48:14] zeenews: 1000/221852 articles this batch, ~282834 words this batch (~7068424 total ever)
+- [2026-08-19 02:48:58] zeenews: 1020/221852 articles this batch, ~286936 words this batch (~7072526 total ever)
+- [2026-08-19 02:49:45] zeenews: 1040/221852 articles this batch, ~293858 words this batch (~7079448 total ever)
+- [2026-08-19 02:50:36] zeenews: 1060/221852 articles this batch, ~298869 words this batch (~7084459 total ever)
+- [2026-08-19 02:51:23] zeenews: 1080/221852 articles this batch, ~303709 words this batch (~7089299 total ever)
+- [2026-08-19 02:52:14] zeenews: 1100/221852 articles this batch, ~310422 words this batch (~7096012 total ever)
+- [2026-08-19 02:52:59] zeenews: 1120/221852 articles this batch, ~314931 words this batch (~7100521 total ever)
+- [2026-08-19 02:53:50] zeenews: 1140/221852 articles this batch, ~321606 words this batch (~7107196 total ever)
+- [2026-08-19 02:54:36] zeenews: 1160/221852 articles this batch, ~327721 words this batch (~7113311 total ever)
+- [2026-08-19 02:55:30] zeenews: 1180/221852 articles this batch, ~333718 words this batch (~7119308 total ever)
+- [2026-08-19 02:56:16] zeenews: 1200/221852 articles this batch, ~338508 words this batch (~7124098 total ever)
+- [2026-08-19 02:56:58] zeenews: 1220/221852 articles this batch, ~343461 words this batch (~7129051 total ever)
+- [2026-08-19 02:57:42] zeenews: 1240/221852 articles this batch, ~348177 words this batch (~7133767 total ever)
+- [2026-08-19 02:58:31] zeenews: 1260/221852 articles this batch, ~354003 words this batch (~7139593 total ever)
+- [2026-08-19 02:59:20] zeenews: 1280/221852 articles this batch, ~359601 words this batch (~7145191 total ever)
+- [2026-08-19 03:00:05] zeenews: 1300/221852 articles this batch, ~364414 words this batch (~7150004 total ever)
+- [2026-08-19 03:00:56] zeenews: 1320/221852 articles this batch, ~370190 words this batch (~7155780 total ever)
+- [2026-08-19 03:01:45] zeenews: 1340/221852 articles this batch, ~375560 words this batch (~7161150 total ever)
+- [2026-08-19 03:02:34] zeenews: 1360/221852 articles this batch, ~380526 words this batch (~7166116 total ever)
+- [2026-08-19 03:03:17] zeenews: 1380/221852 articles this batch, ~387514 words this batch (~7173104 total ever)
+- [2026-08-19 03:04:04] zeenews: 1400/221852 articles this batch, ~393844 words this batch (~7179434 total ever)
+- [2026-08-19 03:04:50] zeenews: 1420/221852 articles this batch, ~399158 words this batch (~7184748 total ever)
+- [2026-08-19 03:05:40] zeenews: 1440/221852 articles this batch, ~404044 words this batch (~7189634 total ever)
+- [2026-08-19 03:06:27] zeenews: 1460/221852 articles this batch, ~412244 words this batch (~7197834 total ever)
+- [2026-08-19 03:07:17] zeenews: 1480/221852 articles this batch, ~416541 words this batch (~7202131 total ever)
+- [2026-08-19 03:08:03] zeenews: 1500/221852 articles this batch, ~420439 words this batch (~7206029 total ever)
+- [2026-08-19 03:08:47] zeenews: 1520/221852 articles this batch, ~425240 words this batch (~7210830 total ever)
+- [2026-08-19 03:09:33] zeenews: 1540/221852 articles this batch, ~430149 words this batch (~7215739 total ever)
+- [2026-08-19 03:10:27] zeenews: 1560/221852 articles this batch, ~435305 words this batch (~7220895 total ever)
+- [2026-08-19 03:12:18] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/involve-public-to-martyrs-day-celebration-central-govt-says-state-govt/280574
+- [2026-08-19 03:12:22] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/no-magic-wand-for-sino-indian-border-issue-former-diplomat/280573
+- [2026-08-19 03:12:27] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/pakistani-cricketer-umar-akmal-banned-from-first-nz-t20-due-to-misconduct/280561
+- [2026-08-19 03:12:31] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/world/russian-doctor-punch-patient-who-goes-on-to-die/280568
+- [2026-08-19 03:12:36] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/bollywood/millions-of-peshwa-records-await-to-be-read-purandare/280569
+- [2026-08-19 03:12:40] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/delhi-haryana/beggars-ragpickers-to-manage-public-toilets-in-delhi/280566
+- [2026-08-19 03:12:45] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/dispose-of-corruption-complaints-expeditiously-cvc/280565
+- [2026-08-19 03:12:49] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/bollywood/sarika-proud-of-daughters-shruti-aksharas-work/280563
+- [2026-08-19 03:12:54] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/delhi-haryana/premium-bus-service-with-higher-fares-for-elite-class-in-delhi-soon/280562
+- [2026-08-19 03:12:58] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/two-kashmiri-youths-detained-near-air-force-station/280559
+- [2026-08-19 03:13:03] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/vk-singh-rubbishes-manish-tewaris-troop-movement-claim/280557
+- [2026-08-19 03:13:07] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/bollywood/raghu-and-i-are-each-others-support-system-sugandha/280558
+- [2026-08-19 03:13:12] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/bollywood/juhi-enthusiasm-behind-shabana-azmi-doing-%E2%80%98chalk-n-duster%E2%80%99/280554
+- [2026-08-19 03:13:16] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/bollywood/sonakshi-sinha-was-surprised-by-haseenas-script/280556
+- [2026-08-19 03:13:21] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/ipl-bbl-will-kill-tests-says-fica-ceo/280555
+- [2026-08-19 03:13:25] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/india/delhi-haryana/many-women-following-odd-even-rule-despite-reliefe/280553
+- [2026-08-19 03:13:30] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/world/pathankot-attack-john-kerry-calls-up-sharif-pak-officials-want-concrete-evidence/280542
+- [2026-08-19 03:13:49] zeenews: 1580/221852 articles this batch, ~441081 words this batch (~7226671 total ever)
+- [2026-08-19 03:14:33] zeenews: 1600/221852 articles this batch, ~447120 words this batch (~7232710 total ever)
+- [2026-08-19 03:15:24] zeenews: 1620/221852 articles this batch, ~452386 words this batch (~7237976 total ever)
+- [2026-08-19 03:16:10] zeenews: 1640/221852 articles this batch, ~456387 words this batch (~7241977 total ever)
+- [2026-08-19 03:16:51] zeenews: 1660/221852 articles this batch, ~462746 words this batch (~7248336 total ever)
+- [2026-08-19 03:17:35] zeenews: 1680/221852 articles this batch, ~467755 words this batch (~7253345 total ever)
+- [2026-08-19 03:18:19] zeenews: 1700/221852 articles this batch, ~472664 words this batch (~7258254 total ever)
+- [2026-08-19 03:19:04] zeenews: 1720/221852 articles this batch, ~479524 words this batch (~7265114 total ever)
+- [2026-08-19 03:19:47] zeenews: 1740/221852 articles this batch, ~483833 words this batch (~7269423 total ever)
+- [2026-08-19 03:20:35] zeenews: 1760/221852 articles this batch, ~488534 words this batch (~7274124 total ever)
+- [2026-08-19 03:21:19] zeenews: 1780/221852 articles this batch, ~494930 words this batch (~7280520 total ever)
+- [2026-08-19 03:22:04] zeenews: 1800/221852 articles this batch, ~503086 words this batch (~7288676 total ever)
+- [2026-08-19 03:22:47] zeenews: 1820/221852 articles this batch, ~507314 words this batch (~7292904 total ever)
+- [2026-08-19 03:23:29] zeenews: 1840/221852 articles this batch, ~511225 words this batch (~7296815 total ever)
+- [2026-08-19 03:24:11] zeenews: 1860/221852 articles this batch, ~519155 words this batch (~7304745 total ever)
+- [2026-08-19 03:24:52] zeenews: 1880/221852 articles this batch, ~524308 words this batch (~7309898 total ever)
+- [2026-08-19 03:25:36] zeenews: 1900/221852 articles this batch, ~529751 words this batch (~7315341 total ever)
+- [2026-08-19 03:26:18] zeenews: 1920/221852 articles this batch, ~537677 words this batch (~7323267 total ever)
+- [2026-08-19 03:27:00] zeenews: 1940/221852 articles this batch, ~543238 words this batch (~7328828 total ever)
+- [2026-08-19 03:27:41] zeenews: 1960/221852 articles this batch, ~548193 words this batch (~7333783 total ever)
+- [2026-08-19 03:28:26] zeenews: 1980/221852 articles this batch, ~553057 words this batch (~7338647 total ever)
+- [2026-08-19 03:29:08] zeenews: 2000/221852 articles this batch, ~557482 words this batch (~7343072 total ever)
+- [2026-08-19 03:29:49] zeenews: 2020/221852 articles this batch, ~562682 words this batch (~7348272 total ever)
+- [2026-08-19 03:30:36] zeenews: 2040/221852 articles this batch, ~569236 words this batch (~7354826 total ever)
+- [2026-08-19 03:31:18] zeenews: 2060/221852 articles this batch, ~574154 words this batch (~7359744 total ever)
+- [2026-08-19 03:31:58] zeenews: 2080/221852 articles this batch, ~578671 words this batch (~7364261 total ever)
+- [2026-08-19 03:32:43] zeenews: 2100/221852 articles this batch, ~583227 words this batch (~7368817 total ever)
+- [2026-08-19 03:33:26] zeenews: 2120/221852 articles this batch, ~590396 words this batch (~7375986 total ever)
+- [2026-08-19 03:34:13] zeenews: 2140/221852 articles this batch, ~594528 words this batch (~7380118 total ever)
+- [2026-08-19 03:34:57] zeenews: 2160/221852 articles this batch, ~599737 words this batch (~7385327 total ever)
+- [2026-08-19 03:35:38] zeenews: 2180/221852 articles this batch, ~605800 words this batch (~7391390 total ever)
+- [2026-08-19 03:36:21] zeenews: 2200/221852 articles this batch, ~611359 words this batch (~7396949 total ever)
+- [2026-08-19 03:37:04] zeenews: 2220/221852 articles this batch, ~618315 words this batch (~7403905 total ever)
+- [2026-08-19 03:37:45] zeenews: 2240/221852 articles this batch, ~622923 words this batch (~7408513 total ever)
+- [2026-08-19 03:38:28] zeenews: 2260/221852 articles this batch, ~628383 words this batch (~7413973 total ever)
+- [2026-08-19 03:39:08] zeenews: 2280/221852 articles this batch, ~633621 words this batch (~7419211 total ever)
+- [2026-08-19 03:39:48] zeenews: 2300/221852 articles this batch, ~638801 words this batch (~7424391 total ever)
+- [2026-08-19 03:40:42] zeenews: 2320/221852 articles this batch, ~643596 words this batch (~7429186 total ever)
+- [2026-08-19 03:41:25] zeenews: 2340/221852 articles this batch, ~650511 words this batch (~7436101 total ever)
+- [2026-08-19 03:42:10] zeenews: 2360/221852 articles this batch, ~655676 words this batch (~7441266 total ever)
+- [2026-08-19 03:42:52] zeenews: 2380/221852 articles this batch, ~660413 words this batch (~7446003 total ever)
+- [2026-08-19 03:43:35] zeenews: 2400/221852 articles this batch, ~664614 words this batch (~7450204 total ever)
+- [2026-08-19 03:44:16] zeenews: 2420/221852 articles this batch, ~669820 words this batch (~7455410 total ever)
+- [2026-08-19 03:44:59] zeenews: 2440/221852 articles this batch, ~676350 words this batch (~7461940 total ever)
+- [2026-08-19 03:45:47] zeenews: 2460/221852 articles this batch, ~684142 words this batch (~7469732 total ever)
+- [2026-08-19 03:46:30] zeenews: 2480/221852 articles this batch, ~692216 words this batch (~7477806 total ever)
+- [2026-08-19 03:47:11] zeenews: 2500/221852 articles this batch, ~698008 words this batch (~7483598 total ever)
+- [2026-08-19 03:47:52] zeenews: 2520/221852 articles this batch, ~706791 words this batch (~7492381 total ever)
+- [2026-08-19 03:48:35] zeenews: 2540/221852 articles this batch, ~711498 words this batch (~7497088 total ever)
+- [2026-08-19 03:49:16] zeenews: 2560/221852 articles this batch, ~715923 words this batch (~7501513 total ever)
+- [2026-08-19 03:50:05] zeenews: 2580/221852 articles this batch, ~722441 words this batch (~7508031 total ever)
+- [2026-08-19 03:50:51] zeenews: 2600/221852 articles this batch, ~727918 words this batch (~7513508 total ever)
+- [2026-08-19 03:51:41] zeenews: 2620/221852 articles this batch, ~731461 words this batch (~7517051 total ever)
+- [2026-08-19 03:52:22] zeenews: 2640/221852 articles this batch, ~736371 words this batch (~7521961 total ever)
+- [2026-08-19 03:53:07] zeenews: 2660/221852 articles this batch, ~741484 words this batch (~7527074 total ever)
+- [2026-08-19 03:53:49] zeenews: 2680/221852 articles this batch, ~745862 words this batch (~7531452 total ever)
+- [2026-08-19 03:54:33] zeenews: 2700/221852 articles this batch, ~751216 words this batch (~7536806 total ever)
+- [2026-08-19 03:55:17] zeenews: 2720/221852 articles this batch, ~756537 words this batch (~7542127 total ever)
+- [2026-08-19 03:55:58] zeenews: 2740/221852 articles this batch, ~760893 words this batch (~7546483 total ever)
+- [2026-08-19 03:56:38] zeenews: 2760/221852 articles this batch, ~766809 words this batch (~7552399 total ever)
+- [2026-08-19 03:57:19] zeenews: 2780/221852 articles this batch, ~772663 words this batch (~7558253 total ever)
+- [2026-08-19 03:58:06] zeenews: 2800/221852 articles this batch, ~778731 words this batch (~7564321 total ever)
+- [2026-08-19 03:58:47] zeenews: 2820/221852 articles this batch, ~783063 words this batch (~7568653 total ever)
+- [2026-08-19 03:59:28] zeenews: 2840/221852 articles this batch, ~787598 words this batch (~7573188 total ever)
+- [2026-08-19 04:00:12] zeenews: 2860/221852 articles this batch, ~794640 words this batch (~7580230 total ever)
+- [2026-08-19 04:00:57] zeenews: 2880/221852 articles this batch, ~801342 words this batch (~7586932 total ever)
+- [2026-08-19 04:01:39] zeenews: 2900/221852 articles this batch, ~809668 words this batch (~7595258 total ever)
+- [2026-08-19 04:02:24] zeenews: 2920/221852 articles this batch, ~813795 words this batch (~7599385 total ever)
+- [2026-08-19 04:03:03] zeenews: 2940/221852 articles this batch, ~820087 words this batch (~7605677 total ever)
+- [2026-08-19 04:04:31] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/misbah-disappointed-with-decision-on-india-pakistan-bilateral-series/278885
+- [2026-08-19 04:06:05] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/being-out-of-team-was-worst-period-of-life-yuvraj-singh/278883
+- [2026-08-19 04:07:40] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/players-should-know-who-their-leader-is-patil-on-dhoni/278829
+- [2026-08-19 04:09:14] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/ddca-corruption-row-sehwag-gambhir-back-under-fire-jaitley/278849
+- [2026-08-19 04:10:49] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/sports/vijender-punches-huseinov-like-storm/278870
+- [2026-08-19 04:12:23] FETCH FAILED after 3 attempts: http://zeenews.india.com/hindi/entertainment/comedy-night-with-kapil-to-stop-telecast-soon/278882
+- [2026-08-19 04:13:47] zeenews: 2960/221852 articles this batch, ~825783 words this batch (~7611373 total ever)
+- [2026-08-19 04:14:26] zeenews: 2980/221852 articles this batch, ~835742 words this batch (~7621332 total ever)
+- [2026-08-19 04:15:07] zeenews: 3000/221852 articles this batch, ~844227 words this batch (~7629817 total ever)
+- [2026-08-19 04:15:48] zeenews: 3020/221852 articles this batch, ~853876 words this batch (~7639466 total ever)
+- [2026-08-19 04:16:28] zeenews: 3040/221852 articles this batch, ~857706 words this batch (~7643296 total ever)
+- [2026-08-19 04:17:08] zeenews: 3060/221852 articles this batch, ~865013 words this batch (~7650603 total ever)
+- [2026-08-19 04:17:47] zeenews: 3080/221852 articles this batch, ~872025 words this batch (~7657615 total ever)
+- [2026-08-19 04:18:29] zeenews: 3100/221852 articles this batch, ~876817 words this batch (~7662407 total ever)
+- [2026-08-19 04:19:10] zeenews: 3120/221852 articles this batch, ~886337 words this batch (~7671927 total ever)
+- [2026-08-19 04:19:52] zeenews: 3140/221852 articles this batch, ~891623 words this batch (~7677213 total ever)
+- [2026-08-19 04:20:35] zeenews: 3160/221852 articles this batch, ~896489 words this batch (~7682079 total ever)
+- [2026-08-19 04:21:17] zeenews: 3180/221852 articles this batch, ~902176 words this batch (~7687766 total ever)
+- [2026-08-19 04:21:57] zeenews: 3200/221852 articles this batch, ~907245 words this batch (~7692835 total ever)
+- [2026-08-19 04:22:36] zeenews: 3220/221852 articles this batch, ~913454 words this batch (~7699044 total ever)
+- [2026-08-19 04:23:22] zeenews: 3240/221852 articles this batch, ~919174 words this batch (~7704764 total ever)
+- [2026-08-19 04:24:03] zeenews: 3260/221852 articles this batch, ~925003 words this batch (~7710593 total ever)
+- [2026-08-19 04:24:43] zeenews: 3280/221852 articles this batch, ~932396 words this batch (~7717986 total ever)
+- [2026-08-19 04:25:26] zeenews: 3300/221852 articles this batch, ~938223 words this batch (~7723813 total ever)
+- [2026-08-19 04:26:07] zeenews: 3320/221852 articles this batch, ~944076 words this batch (~7729666 total ever)
+- [2026-08-19 04:26:45] zeenews: 3340/221852 articles this batch, ~951039 words this batch (~7736629 total ever)
+- [2026-08-19 04:27:27] zeenews: 3360/221852 articles this batch, ~954826 words this batch (~7740416 total ever)
+- [2026-08-19 04:28:10] zeenews: 3380/221852 articles this batch, ~960582 words this batch (~7746172 total ever)
+- [2026-08-19 04:28:50] zeenews: 3400/221852 articles this batch, ~964307 words this batch (~7749897 total ever)
+- [2026-08-19 04:29:30] zeenews: 3420/221852 articles this batch, ~968367 words this batch (~7753957 total ever)
+- [2026-08-19 04:30:12] zeenews: 3440/221852 articles this batch, ~973138 words this batch (~7758728 total ever)
+- [2026-08-19 04:30:54] zeenews: 3460/221852 articles this batch, ~977945 words this batch (~7763535 total ever)
+- [2026-08-19 04:31:32] zeenews: 3480/221852 articles this batch, ~984064 words this batch (~7769654 total ever)
+- [2026-08-19 04:32:13] zeenews: 3500/221852 articles this batch, ~990229 words this batch (~7775819 total ever)
+- [2026-08-19 04:32:52] zeenews: 3520/221852 articles this batch, ~995052 words this batch (~7780642 total ever)
+- [2026-08-19 04:33:30] zeenews: 3540/221852 articles this batch, ~999170 words this batch (~7784760 total ever)
+- [2026-08-19 04:34:08] zeenews: 3560/221852 articles this batch, ~1006570 words this batch (~7792160 total ever)
+- [2026-08-19 04:34:47] zeenews: 3580/221852 articles this batch, ~1011766 words this batch (~7797356 total ever)
+- [2026-08-19 04:35:30] zeenews: 3600/221852 articles this batch, ~1017186 words this batch (~7802776 total ever)
+- [2026-08-19 04:36:09] zeenews: 3620/221852 articles this batch, ~1021702 words this batch (~7807292 total ever)
+- [2026-08-19 04:36:46] zeenews: 3640/221852 articles this batch, ~1026988 words this batch (~7812578 total ever)
+- [2026-08-19 04:37:26] zeenews: 3660/221852 articles this batch, ~1031371 words this batch (~7816961 total ever)
+- [2026-08-19 04:38:07] zeenews: 3680/221852 articles this batch, ~1036912 words this batch (~7822502 total ever)
+- [2026-08-19 04:38:47] zeenews: 3700/221852 articles this batch, ~1042396 words this batch (~7827986 total ever)
+- [2026-08-19 04:39:25] zeenews: 3720/221852 articles this batch, ~1046779 words this batch (~7832369 total ever)
+- [2026-08-19 04:40:13] zeenews: 3740/221852 articles this batch, ~1053136 words this batch (~7838726 total ever)
+- [2026-08-19 04:40:55] zeenews: 3760/221852 articles this batch, ~1057217 words this batch (~7842807 total ever)
+- [2026-08-19 04:41:33] zeenews: 3780/221852 articles this batch, ~1064443 words this batch (~7850033 total ever)
+- [2026-08-19 04:42:13] zeenews: 3800/221852 articles this batch, ~1070112 words this batch (~7855702 total ever)
+- [2026-08-19 04:42:52] zeenews: 3820/221852 articles this batch, ~1075305 words this batch (~7860895 total ever)
+- [2026-08-19 04:43:31] zeenews: 3840/221852 articles this batch, ~1080809 words this batch (~7866399 total ever)
+- [2026-08-19 04:44:13] zeenews: 3860/221852 articles this batch, ~1088134 words this batch (~7873724 total ever)
+- [2026-08-19 04:44:51] zeenews: 3880/221852 articles this batch, ~1094236 words this batch (~7879826 total ever)
+- [2026-08-19 04:45:34] zeenews: 3900/221852 articles this batch, ~1099219 words this batch (~7884809 total ever)
+- [2026-08-19 04:46:13] zeenews: 3920/221852 articles this batch, ~1106081 words this batch (~7891671 total ever)
+- [2026-08-19 04:46:52] zeenews: 3940/221852 articles this batch, ~1110703 words this batch (~7896293 total ever)
+- [2026-08-19 04:47:32] zeenews: 3960/221852 articles this batch, ~1115627 words this batch (~7901217 total ever)
+- [2026-08-19 04:48:14] zeenews: 3980/221852 articles this batch, ~1121456 words this batch (~7907046 total ever)
+- [2026-08-19 04:48:53] zeenews: 4000/221852 articles this batch, ~1126653 words this batch (~7912243 total ever)
+- [2026-08-19 04:49:34] zeenews: 4020/221852 articles this batch, ~1132516 words this batch (~7918106 total ever)
+- [2026-08-19 04:50:15] zeenews: 4040/221852 articles this batch, ~1137692 words this batch (~7923282 total ever)
+- [2026-08-19 04:50:55] zeenews: 4060/221852 articles this batch, ~1143904 words this batch (~7929494 total ever)
+- [2026-08-19 04:51:35] zeenews: 4080/221852 articles this batch, ~1149606 words this batch (~7935196 total ever)
+- [2026-08-19 04:52:17] zeenews: 4100/221852 articles this batch, ~1155554 words this batch (~7941144 total ever)
+- [2026-08-19 04:52:55] zeenews: 4120/221852 articles this batch, ~1159553 words this batch (~7945143 total ever)
+- [2026-08-19 04:53:34] zeenews: 4140/221852 articles this batch, ~1165368 words this batch (~7950958 total ever)
+- [2026-08-19 04:54:14] zeenews: 4160/221852 articles this batch, ~1172711 words this batch (~7958301 total ever)
+- [2026-08-19 04:54:53] zeenews: 4180/221852 articles this batch, ~1177060 words this batch (~7962650 total ever)
+- [2026-08-19 04:55:32] zeenews: 4200/221852 articles this batch, ~1182095 words this batch (~7967685 total ever)
+- [2026-08-19 04:56:12] zeenews: 4220/221852 articles this batch, ~1187558 words this batch (~7973148 total ever)
+- [2026-08-19 04:56:51] zeenews: 4240/221852 articles this batch, ~1193562 words this batch (~7979152 total ever)
+- [2026-08-19 04:57:31] zeenews: 4260/221852 articles this batch, ~1197845 words this batch (~7983435 total ever)
+- [2026-08-19 04:58:14] zeenews: 4280/221852 articles this batch, ~1203384 words this batch (~7988974 total ever)
+- [2026-08-19 04:58:53] zeenews: 4300/221852 articles this batch, ~1209005 words this batch (~7994595 total ever)
+- [2026-08-19 04:59:35] zeenews: 4320/221852 articles this batch, ~1215514 words this batch (~8001104 total ever)
+- [2026-08-19 05:00:24] zeenews: 4340/221852 articles this batch, ~1221282 words this batch (~8006872 total ever)
+- [2026-08-19 05:01:04] zeenews: 4360/221852 articles this batch, ~1227359 words this batch (~8012949 total ever)
+- [2026-08-19 05:01:43] zeenews: 4380/221852 articles this batch, ~1233601 words this batch (~8019191 total ever)
+- [2026-08-19 05:02:21] zeenews: 4400/221852 articles this batch, ~1238978 words this batch (~8024568 total ever)
+- [2026-08-19 05:03:01] zeenews: 4420/221852 articles this batch, ~1244234 words this batch (~8029824 total ever)
+- [2026-08-19 05:03:42] zeenews: 4440/221852 articles this batch, ~1250325 words this batch (~8035915 total ever)
+- [2026-08-19 05:04:23] zeenews: 4460/221852 articles this batch, ~1257106 words this batch (~8042696 total ever)
+- [2026-08-19 05:05:03] zeenews: 4480/221852 articles this batch, ~1267013 words this batch (~8052603 total ever)
+- [2026-08-19 05:05:42] zeenews: 4500/221852 articles this batch, ~1270710 words this batch (~8056300 total ever)
+- [2026-08-19 05:06:24] zeenews: 4520/221852 articles this batch, ~1274879 words this batch (~8060469 total ever)
+- [2026-08-19 05:07:03] zeenews: 4540/221852 articles this batch, ~1280225 words this batch (~8065815 total ever)
+- [2026-08-19 05:07:42] zeenews: 4560/221852 articles this batch, ~1284725 words this batch (~8070315 total ever)
+- [2026-08-19 05:08:22] zeenews: 4580/221852 articles this batch, ~1290695 words this batch (~8076285 total ever)
+- [2026-08-19 05:09:01] zeenews: 4600/221852 articles this batch, ~1296067 words this batch (~8081657 total ever)
+- [2026-08-19 05:09:41] zeenews: 4620/221852 articles this batch, ~1300675 words this batch (~8086265 total ever)
+- [2026-08-19 05:10:26] zeenews: 4640/221852 articles this batch, ~1304819 words this batch (~8090409 total ever)
+- [2026-08-19 05:11:10] zeenews: 4660/221852 articles this batch, ~1312104 words this batch (~8097694 total ever)
+- [2026-08-19 05:11:48] zeenews: 4680/221852 articles this batch, ~1316200 words this batch (~8101790 total ever)
+- [2026-08-19 05:12:26] zeenews: 4700/221852 articles this batch, ~1322252 words this batch (~8107842 total ever)
+- [2026-08-19 05:13:04] zeenews: 4720/221852 articles this batch, ~1328682 words this batch (~8114272 total ever)
+- [2026-08-19 05:13:43] zeenews: 4740/221852 articles this batch, ~1335256 words this batch (~8120846 total ever)
+- [2026-08-19 05:14:25] zeenews: 4760/221852 articles this batch, ~1342183 words this batch (~8127773 total ever)
+- [2026-08-19 05:15:07] zeenews: 4780/221852 articles this batch, ~1346886 words this batch (~8132476 total ever)
+- [2026-08-19 05:15:45] zeenews: 4800/221852 articles this batch, ~1352005 words this batch (~8137595 total ever)
+- [2026-08-19 05:16:26] zeenews: 4820/221852 articles this batch, ~1356308 words this batch (~8141898 total ever)
+- [2026-08-19 05:17:05] zeenews: 4840/221852 articles this batch, ~1359946 words this batch (~8145536 total ever)
+- [2026-08-19 05:17:43] zeenews: 4860/221852 articles this batch, ~1365557 words this batch (~8151147 total ever)
+- [2026-08-19 05:18:27] zeenews: 4880/221852 articles this batch, ~1370703 words this batch (~8156293 total ever)
+- [2026-08-19 05:19:07] zeenews: 4900/221852 articles this batch, ~1376368 words this batch (~8161958 total ever)
+- [2026-08-19 05:19:47] zeenews: 4920/221852 articles this batch, ~1381629 words this batch (~8167219 total ever)
+- [2026-08-19 05:20:30] zeenews: 4940/221852 articles this batch, ~1387737 words this batch (~8173327 total ever)
+- [2026-08-19 05:21:10] zeenews: 4960/221852 articles this batch, ~1392666 words this batch (~8178256 total ever)
+- [2026-08-19 05:21:50] zeenews: 4980/221852 articles this batch, ~1398472 words this batch (~8184062 total ever)
+- [2026-08-19 05:22:30] zeenews: 5000/221852 articles this batch, ~1404039 words this batch (~8189629 total ever)
+- [2026-08-19 05:23:08] zeenews: 5020/221852 articles this batch, ~1409617 words this batch (~8195207 total ever)
+- [2026-08-19 05:23:47] zeenews: 5040/221852 articles this batch, ~1416147 words this batch (~8201737 total ever)
+- [2026-08-19 05:24:29] zeenews: 5060/221852 articles this batch, ~1421317 words this batch (~8206907 total ever)
+- [2026-08-19 05:25:13] zeenews: 5080/221852 articles this batch, ~1425972 words this batch (~8211562 total ever)
+- [2026-08-19 05:25:57] zeenews: 5100/221852 articles this batch, ~1432503 words this batch (~8218093 total ever)
+- [2026-08-19 05:26:37] zeenews: 5120/221852 articles this batch, ~1436280 words this batch (~8221870 total ever)
+- [2026-08-19 05:27:17] zeenews: 5140/221852 articles this batch, ~1442015 words this batch (~8227605 total ever)
+- [2026-08-19 05:27:58] zeenews: 5160/221852 articles this batch, ~1446496 words this batch (~8232086 total ever)
+- [2026-08-19 05:28:38] zeenews: 5180/221852 articles this batch, ~1451098 words this batch (~8236688 total ever)
+- [2026-08-19 05:29:17] zeenews: 5200/221852 articles this batch, ~1460169 words this batch (~8245759 total ever)
+- [2026-08-19 05:29:56] zeenews: 5220/221852 articles this batch, ~1465257 words this batch (~8250847 total ever)
+- [2026-08-19 05:30:40] zeenews: 5240/221852 articles this batch, ~1470215 words this batch (~8255805 total ever)
+- [2026-08-19 05:31:19] zeenews: 5260/221852 articles this batch, ~1478524 words this batch (~8264114 total ever)
+- [2026-08-19 05:31:59] zeenews: 5280/221852 articles this batch, ~1485417 words this batch (~8271007 total ever)
+- [2026-08-19 05:32:39] zeenews: 5300/221852 articles this batch, ~1490123 words this batch (~8275713 total ever)
+- [2026-08-19 05:33:20] zeenews: 5320/221852 articles this batch, ~1494749 words this batch (~8280339 total ever)
+- [2026-08-19 05:33:59] zeenews: 5340/221852 articles this batch, ~1503042 words this batch (~8288632 total ever)
+- [2026-08-19 05:34:38] zeenews: 5360/221852 articles this batch, ~1508487 words this batch (~8294077 total ever)
+- [2026-08-19 05:35:18] zeenews: 5380/221852 articles this batch, ~1512837 words this batch (~8298427 total ever)
+- [2026-08-19 05:35:58] zeenews: 5400/221852 articles this batch, ~1517276 words this batch (~8302866 total ever)
+- [2026-08-19 05:36:38] zeenews: 5420/221852 articles this batch, ~1522582 words this batch (~8308172 total ever)
+- [2026-08-19 05:37:18] zeenews: 5440/221852 articles this batch, ~1527792 words this batch (~8313382 total ever)
+- [2026-08-19 05:38:00] zeenews: 5460/221852 articles this batch, ~1534175 words this batch (~8319765 total ever)
+- [2026-08-19 05:38:45] zeenews: 5480/221852 articles this batch, ~1540210 words this batch (~8325800 total ever)
+- [2026-08-19 05:39:27] zeenews: 5500/221852 articles this batch, ~1547167 words this batch (~8332757 total ever)
+- [2026-08-19 05:40:16] zeenews: 5520/221852 articles this batch, ~1552403 words this batch (~8337993 total ever)
+- [2026-08-19 05:40:59] zeenews: 5540/221852 articles this batch, ~1561119 words this batch (~8346709 total ever)
+- [2026-08-19 05:41:39] zeenews: 5560/221852 articles this batch, ~1566551 words this batch (~8352141 total ever)
+- [2026-08-19 05:42:23] zeenews: 5580/221852 articles this batch, ~1571762 words this batch (~8357352 total ever)
+- [2026-08-19 05:43:05] zeenews: 5600/221852 articles this batch, ~1576869 words this batch (~8362459 total ever)
+- [2026-08-19 05:43:43] zeenews: 5620/221852 articles this batch, ~1584203 words this batch (~8369793 total ever)
+- [2026-08-19 05:44:26] zeenews: 5640/221852 articles this batch, ~1590536 words this batch (~8376126 total ever)
+- [2026-08-19 05:45:12] zeenews: 5660/221852 articles this batch, ~1595732 words this batch (~8381322 total ever)
+- [2026-08-19 05:45:53] zeenews: 5680/221852 articles this batch, ~1601161 words this batch (~8386751 total ever)
+- [2026-08-19 05:46:33] zeenews: 5700/221852 articles this batch, ~1605727 words this batch (~8391317 total ever)
+- [2026-08-19 05:47:13] zeenews: 5720/221852 articles this batch, ~1622523 words this batch (~8408113 total ever)
+- [2026-08-19 05:47:53] zeenews: 5740/221852 articles this batch, ~1628132 words this batch (~8413722 total ever)
+- [2026-08-19 05:48:33] zeenews: 5760/221852 articles this batch, ~1633626 words this batch (~8419216 total ever)
+- [2026-08-19 05:49:13] zeenews: 5780/221852 articles this batch, ~1639976 words this batch (~8425566 total ever)
+- [2026-08-19 05:49:52] zeenews: 5800/221852 articles this batch, ~1644747 words this batch (~8430337 total ever)
+- [2026-08-19 05:50:41] zeenews: 5820/221852 articles this batch, ~1652483 words this batch (~8438073 total ever)
+- [2026-08-19 05:51:22] zeenews: 5840/221852 articles this batch, ~1657101 words this batch (~8442691 total ever)
+- [2026-08-19 05:52:06] zeenews: 5860/221852 articles this batch, ~1662564 words this batch (~8448154 total ever)
+- [2026-08-19 05:52:45] zeenews: 5880/221852 articles this batch, ~1672157 words this batch (~8457747 total ever)
+- [2026-08-19 05:53:27] zeenews: 5900/221852 articles this batch, ~1677237 words this batch (~8462827 total ever)
+- [2026-08-19 05:54:07] zeenews: 5920/221852 articles this batch, ~1683160 words this batch (~8468750 total ever)
+- [2026-08-19 05:54:48] zeenews: 5940/221852 articles this batch, ~1691229 words this batch (~8476819 total ever)
+- [2026-08-19 05:55:30] zeenews: 5960/221852 articles this batch, ~1695009 words this batch (~8480599 total ever)
+- [2026-08-19 05:56:10] zeenews: 5980/221852 articles this batch, ~1700623 words this batch (~8486213 total ever)
+- [2026-08-19 05:56:49] zeenews: 6000/221852 articles this batch, ~1707390 words this batch (~8492980 total ever)
+- [2026-08-19 05:57:30] zeenews: 6020/221852 articles this batch, ~1712275 words this batch (~8497865 total ever)
+- [2026-08-19 05:58:12] zeenews: 6040/221852 articles this batch, ~1716870 words this batch (~8502460 total ever)
+- [2026-08-19 05:58:52] zeenews: 6060/221852 articles this batch, ~1721901 words this batch (~8507491 total ever)
+- [2026-08-19 05:59:32] zeenews: 6080/221852 articles this batch, ~1727967 words this batch (~8513557 total ever)
+- [2026-08-19 06:00:16] zeenews: 6100/221852 articles this batch, ~1733521 words this batch (~8519111 total ever)
+- [2026-08-19 06:00:59] zeenews: 6120/221852 articles this batch, ~1740577 words this batch (~8526167 total ever)
+- [2026-08-19 06:01:39] zeenews: 6140/221852 articles this batch, ~1746656 words this batch (~8532246 total ever)
+- [2026-08-19 06:02:19] zeenews: 6160/221852 articles this batch, ~1752293 words this batch (~8537883 total ever)
+- [2026-08-19 06:02:58] zeenews: 6180/221852 articles this batch, ~1756111 words this batch (~8541701 total ever)
+- [2026-08-19 06:03:37] zeenews: 6200/221852 articles this batch, ~1761385 words this batch (~8546975 total ever)
+- [2026-08-19 06:04:16] zeenews: 6220/221852 articles this batch, ~1766193 words this batch (~8551783 total ever)
+- [2026-08-19 06:04:56] zeenews: 6240/221852 articles this batch, ~1771263 words this batch (~8556853 total ever)
+- [2026-08-19 06:05:40] zeenews: 6260/221852 articles this batch, ~1775721 words this batch (~8561311 total ever)
+- [2026-08-19 06:06:19] zeenews: 6280/221852 articles this batch, ~1781097 words this batch (~8566687 total ever)
+- [2026-08-19 06:06:57] zeenews: 6300/221852 articles this batch, ~1787270 words this batch (~8572860 total ever)
+- [2026-08-19 06:07:40] zeenews: 6320/221852 articles this batch, ~1793308 words this batch (~8578898 total ever)
+- [2026-08-19 06:08:21] zeenews: 6340/221852 articles this batch, ~1797750 words this batch (~8583340 total ever)
+- [2026-08-19 06:09:02] zeenews: 6360/221852 articles this batch, ~1802402 words this batch (~8587992 total ever)
+- [2026-08-19 06:09:43] zeenews: 6380/221852 articles this batch, ~1809541 words this batch (~8595131 total ever)
+- [2026-08-19 06:10:27] zeenews: 6400/221852 articles this batch, ~1815189 words this batch (~8600779 total ever)
+- [2026-08-19 06:11:06] zeenews: 6420/221852 articles this batch, ~1820704 words this batch (~8606294 total ever)
+- [2026-08-19 06:11:45] zeenews: 6440/221852 articles this batch, ~1825533 words this batch (~8611123 total ever)
+- [2026-08-19 06:12:25] zeenews: 6460/221852 articles this batch, ~1830055 words this batch (~8615645 total ever)
+- [2026-08-19 06:13:04] zeenews: 6480/221852 articles this batch, ~1835394 words this batch (~8620984 total ever)
+- [2026-08-19 06:13:45] zeenews: 6500/221852 articles this batch, ~1841097 words this batch (~8626687 total ever)
+- [2026-08-19 06:14:24] zeenews: 6520/221852 articles this batch, ~1846708 words this batch (~8632298 total ever)
+- [2026-08-19 06:15:04] zeenews: 6540/221852 articles this batch, ~1853183 words this batch (~8638773 total ever)
+- [2026-08-19 06:15:44] zeenews: 6560/221852 articles this batch, ~1858855 words this batch (~8644445 total ever)
+- [2026-08-19 06:16:29] zeenews: 6580/221852 articles this batch, ~1864119 words this batch (~8649709 total ever)
+- [2026-08-19 06:17:08] zeenews: 6600/221852 articles this batch, ~1870791 words this batch (~8656381 total ever)
+- [2026-08-19 06:17:49] zeenews: 6620/221852 articles this batch, ~1876381 words this batch (~8661971 total ever)
+- [2026-08-19 06:18:28] zeenews: 6640/221852 articles this batch, ~1882675 words this batch (~8668265 total ever)
+- [2026-08-19 06:19:11] zeenews: 6660/221852 articles this batch, ~1887635 words this batch (~8673225 total ever)
+- [2026-08-19 06:19:50] zeenews: 6680/221852 articles this batch, ~1892621 words this batch (~8678211 total ever)
+- [2026-08-19 06:20:39] zeenews: 6700/221852 articles this batch, ~1897712 words this batch (~8683302 total ever)
+- [2026-08-19 06:21:18] zeenews: 6720/221852 articles this batch, ~1903332 words this batch (~8688922 total ever)
+- [2026-08-19 06:21:57] zeenews: 6740/221852 articles this batch, ~1907202 words this batch (~8692792 total ever)
+- [2026-08-19 06:22:40] zeenews: 6760/221852 articles this batch, ~1913798 words this batch (~8699388 total ever)
+- [2026-08-19 06:23:19] zeenews: 6780/221852 articles this batch, ~1920287 words this batch (~8705877 total ever)
+- [2026-08-19 06:23:59] zeenews: 6800/221852 articles this batch, ~1926245 words this batch (~8711835 total ever)
+- [2026-08-19 06:24:40] zeenews: 6820/221852 articles this batch, ~1930853 words this batch (~8716443 total ever)
+- [2026-08-19 06:25:23] zeenews: 6840/221852 articles this batch, ~1935245 words this batch (~8720835 total ever)
+- [2026-08-19 06:26:06] zeenews: 6860/221852 articles this batch, ~1942790 words this batch (~8728380 total ever)
+- [2026-08-19 06:26:45] zeenews: 6880/221852 articles this batch, ~1948213 words this batch (~8733803 total ever)
+- [2026-08-19 06:27:25] zeenews: 6900/221852 articles this batch, ~1953900 words this batch (~8739490 total ever)
+- [2026-08-19 06:28:04] zeenews: 6920/221852 articles this batch, ~1960954 words this batch (~8746544 total ever)
+- [2026-08-19 06:28:45] zeenews: 6940/221852 articles this batch, ~1967040 words this batch (~8752630 total ever)
+- [2026-08-19 06:29:24] zeenews: 6960/221852 articles this batch, ~1973237 words this batch (~8758827 total ever)
+- [2026-08-19 06:30:04] zeenews: 6980/221852 articles this batch, ~1978974 words this batch (~8764564 total ever)
+- [2026-08-19 06:30:51] zeenews: 7000/221852 articles this batch, ~1984018 words this batch (~8769608 total ever)
+- [2026-08-19 06:31:30] zeenews: 7020/221852 articles this batch, ~1989200 words this batch (~8774790 total ever)
+- [2026-08-19 06:32:09] zeenews: 7040/221852 articles this batch, ~1994101 words this batch (~8779691 total ever)
+- [2026-08-19 06:32:50] zeenews: 7060/221852 articles this batch, ~2003979 words this batch (~8789569 total ever)
+- [2026-08-19 06:33:31] zeenews: 7080/221852 articles this batch, ~2009897 words this batch (~8795487 total ever)
+- [2026-08-19 06:34:14] zeenews: 7100/221852 articles this batch, ~2017565 words this batch (~8803155 total ever)
+- [2026-08-19 06:34:54] zeenews: 7120/221852 articles this batch, ~2022011 words this batch (~8807601 total ever)
+- [2026-08-19 06:35:37] zeenews: 7140/221852 articles this batch, ~2027714 words this batch (~8813304 total ever)
+- [2026-08-19 06:36:17] zeenews: 7160/221852 articles this batch, ~2033236 words this batch (~8818826 total ever)
+- [2026-08-19 06:36:58] zeenews: 7180/221852 articles this batch, ~2038323 words this batch (~8823913 total ever)
+- [2026-08-19 06:37:38] zeenews: 7200/221852 articles this batch, ~2044010 words this batch (~8829600 total ever)
+- [2026-08-19 06:38:21] zeenews: 7220/221852 articles this batch, ~2052818 words this batch (~8838408 total ever)
+- [2026-08-19 06:38:59] zeenews: 7240/221852 articles this batch, ~2057777 words this batch (~8843367 total ever)
+- [2026-08-19 06:39:42] zeenews: 7260/221852 articles this batch, ~2064846 words this batch (~8850436 total ever)
+- [2026-08-19 06:40:25] zeenews: 7280/221852 articles this batch, ~2071542 words this batch (~8857132 total ever)
+- [2026-08-19 06:41:09] zeenews: 7300/221852 articles this batch, ~2077113 words this batch (~8862703 total ever)
+- [2026-08-19 06:41:48] zeenews: 7320/221852 articles this batch, ~2082539 words this batch (~8868129 total ever)
+- [2026-08-19 06:42:29] zeenews: 7340/221852 articles this batch, ~2087261 words this batch (~8872851 total ever)
+- [2026-08-19 06:43:10] zeenews: 7360/221852 articles this batch, ~2095449 words this batch (~8881039 total ever)
+- [2026-08-19 06:43:50] zeenews: 7380/221852 articles this batch, ~2100326 words this batch (~8885916 total ever)
+- [2026-08-19 06:44:31] zeenews: 7400/221852 articles this batch, ~2106139 words this batch (~8891729 total ever)
+- [2026-08-19 06:45:13] zeenews: 7420/221852 articles this batch, ~2113241 words this batch (~8898831 total ever)
+- [2026-08-19 06:45:54] zeenews: 7440/221852 articles this batch, ~2118062 words this batch (~8903652 total ever)
+- [2026-08-19 06:46:37] zeenews: 7460/221852 articles this batch, ~2123594 words this batch (~8909184 total ever)
+- [2026-08-19 06:47:18] zeenews: 7480/221852 articles this batch, ~2129120 words this batch (~8914710 total ever)
+- [2026-08-19 06:48:00] zeenews: 7500/221852 articles this batch, ~2134901 words this batch (~8920491 total ever)
+- [2026-08-19 06:48:41] zeenews: 7520/221852 articles this batch, ~2141886 words this batch (~8927476 total ever)
+- [2026-08-19 06:49:20] zeenews: 7540/221852 articles this batch, ~2146978 words this batch (~8932568 total ever)
+- [2026-08-19 06:50:03] zeenews: 7560/221852 articles this batch, ~2152948 words this batch (~8938538 total ever)
+- [2026-08-19 06:50:45] zeenews: 7580/221852 articles this batch, ~2158652 words this batch (~8944242 total ever)
+- [2026-08-19 06:51:27] zeenews: 7600/221852 articles this batch, ~2163619 words this batch (~8949209 total ever)
+- [2026-08-19 06:52:08] zeenews: 7620/221852 articles this batch, ~2168881 words this batch (~8954471 total ever)
+- [2026-08-19 06:52:48] zeenews: 7640/221852 articles this batch, ~2173416 words this batch (~8959006 total ever)
+- [2026-08-19 06:53:28] zeenews: 7660/221852 articles this batch, ~2178169 words this batch (~8963759 total ever)
+- [2026-08-19 06:54:08] zeenews: 7680/221852 articles this batch, ~2183521 words this batch (~8969111 total ever)
+- [2026-08-19 06:54:50] zeenews: 7700/221852 articles this batch, ~2189883 words this batch (~8975473 total ever)
+- [2026-08-19 06:55:31] zeenews: 7720/221852 articles this batch, ~2195091 words this batch (~8980681 total ever)
+- [2026-08-19 06:56:11] zeenews: 7740/221852 articles this batch, ~2200656 words this batch (~8986246 total ever)
+- [2026-08-19 06:56:52] zeenews: 7760/221852 articles this batch, ~2206114 words this batch (~8991704 total ever)
+- [2026-08-19 06:57:35] zeenews: 7780/221852 articles this batch, ~2212150 words this batch (~8997740 total ever)
+- [2026-08-19 06:58:15] zeenews: 7800/221852 articles this batch, ~2219735 words this batch (~9005325 total ever)
+- [2026-08-19 06:58:56] zeenews: 7820/221852 articles this batch, ~2225787 words this batch (~9011377 total ever)
+- [2026-08-19 06:59:37] zeenews: 7840/221852 articles this batch, ~2231123 words this batch (~9016713 total ever)
+- [2026-08-19 07:00:19] zeenews: 7860/221852 articles this batch, ~2236795 words this batch (~9022385 total ever)
+- [2026-08-19 07:01:00] zeenews: 7880/221852 articles this batch, ~2241790 words this batch (~9027380 total ever)
+- [2026-08-19 07:01:44] zeenews: 7900/221852 articles this batch, ~2246185 words this batch (~9031775 total ever)
+- [2026-08-19 07:02:27] zeenews: 7920/221852 articles this batch, ~2251440 words this batch (~9037030 total ever)
+- [2026-08-19 07:03:08] zeenews: 7940/221852 articles this batch, ~2257864 words this batch (~9043454 total ever)
+- [2026-08-19 07:03:48] zeenews: 7960/221852 articles this batch, ~2262340 words this batch (~9047930 total ever)
+- [2026-08-19 07:04:27] zeenews: 7980/221852 articles this batch, ~2267028 words this batch (~9052618 total ever)
+- [2026-08-19 07:05:08] zeenews: 8000/221852 articles this batch, ~2274177 words this batch (~9059767 total ever)
+- [2026-08-19 07:05:47] zeenews: 8020/221852 articles this batch, ~2279833 words this batch (~9065423 total ever)
+- [2026-08-19 07:06:28] zeenews: 8040/221852 articles this batch, ~2285503 words this batch (~9071093 total ever)
+- [2026-08-19 07:07:08] zeenews: 8060/221852 articles this batch, ~2289983 words this batch (~9075573 total ever)
+- [2026-08-19 07:07:50] zeenews: 8080/221852 articles this batch, ~2295528 words this batch (~9081118 total ever)
+- [2026-08-19 07:08:33] zeenews: 8100/221852 articles this batch, ~2300793 words this batch (~9086383 total ever)
+- [2026-08-19 07:09:16] zeenews: 8120/221852 articles this batch, ~2306525 words this batch (~9092115 total ever)
+- [2026-08-19 07:09:56] zeenews: 8140/221852 articles this batch, ~2311403 words this batch (~9096993 total ever)
+- [2026-08-19 07:10:42] zeenews: 8160/221852 articles this batch, ~2317141 words this batch (~9102731 total ever)
+- [2026-08-19 07:11:26] zeenews: 8180/221852 articles this batch, ~2323428 words this batch (~9109018 total ever)
+- [2026-08-19 07:12:08] zeenews: 8200/221852 articles this batch, ~2328924 words this batch (~9114514 total ever)
+- [2026-08-19 07:12:47] zeenews: 8220/221852 articles this batch, ~2333833 words this batch (~9119423 total ever)
+- [2026-08-19 07:13:26] zeenews: 8240/221852 articles this batch, ~2339027 words this batch (~9124617 total ever)
+- [2026-08-19 07:14:08] zeenews: 8260/221852 articles this batch, ~2344044 words this batch (~9129634 total ever)
+- [2026-08-19 07:14:48] zeenews: 8280/221852 articles this batch, ~2347982 words this batch (~9133572 total ever)
+- [2026-08-19 07:15:30] zeenews: 8300/221852 articles this batch, ~2353664 words this batch (~9139254 total ever)
+- [2026-08-19 07:16:12] zeenews: 8320/221852 articles this batch, ~2359243 words this batch (~9144833 total ever)
+- [2026-08-19 07:16:53] zeenews: 8340/221852 articles this batch, ~2364775 words this batch (~9150365 total ever)
+- [2026-08-19 07:17:33] zeenews: 8360/221852 articles this batch, ~2369972 words this batch (~9155562 total ever)
+- [2026-08-19 07:18:15] zeenews: 8380/221852 articles this batch, ~2375986 words this batch (~9161576 total ever)
+- [2026-08-19 07:18:55] zeenews: 8400/221852 articles this batch, ~2382140 words this batch (~9167730 total ever)
+- [2026-08-19 07:19:35] zeenews: 8420/221852 articles this batch, ~2386807 words this batch (~9172397 total ever)
+- [2026-08-19 07:20:18] zeenews: 8440/221852 articles this batch, ~2394057 words this batch (~9179647 total ever)
+- [2026-08-19 07:20:57] zeenews: 8460/221852 articles this batch, ~2398301 words this batch (~9183891 total ever)
+- [2026-08-19 07:21:39] zeenews: 8480/221852 articles this batch, ~2404320 words this batch (~9189910 total ever)
+- [2026-08-19 07:22:17] zeenews: 8500/221852 articles this batch, ~2409527 words this batch (~9195117 total ever)
+- [2026-08-19 07:22:57] zeenews: 8520/221852 articles this batch, ~2416957 words this batch (~9202547 total ever)
+- [2026-08-19 07:23:36] zeenews: 8540/221852 articles this batch, ~2424045 words this batch (~9209635 total ever)
+- [2026-08-19 07:24:19] zeenews: 8560/221852 articles this batch, ~2430580 words this batch (~9216170 total ever)
+- [2026-08-19 07:24:58] zeenews: 8580/221852 articles this batch, ~2437321 words this batch (~9222911 total ever)
+- [2026-08-19 07:25:37] zeenews: 8600/221852 articles this batch, ~2441987 words this batch (~9227577 total ever)
+- [2026-08-19 07:26:17] zeenews: 8620/221852 articles this batch, ~2447833 words this batch (~9233423 total ever)
+- [2026-08-19 07:26:58] zeenews: 8640/221852 articles this batch, ~2453709 words this batch (~9239299 total ever)
+- [2026-08-19 07:27:38] zeenews: 8660/221852 articles this batch, ~2458339 words this batch (~9243929 total ever)
+- [2026-08-19 07:28:19] zeenews: 8680/221852 articles this batch, ~2465579 words this batch (~9251169 total ever)
+- [2026-08-19 07:28:59] zeenews: 8700/221852 articles this batch, ~2471482 words this batch (~9257072 total ever)
+- [2026-08-19 07:29:41] zeenews: 8720/221852 articles this batch, ~2477681 words this batch (~9263271 total ever)
+- [2026-08-19 07:30:26] zeenews: 8740/221852 articles this batch, ~2484568 words this batch (~9270158 total ever)
+- [2026-08-19 07:31:06] zeenews: 8760/221852 articles this batch, ~2490923 words this batch (~9276513 total ever)
+- [2026-08-19 07:31:45] zeenews: 8780/221852 articles this batch, ~2496866 words this batch (~9282456 total ever)
+- [2026-08-19 07:32:25] zeenews: 8800/221852 articles this batch, ~2502397 words this batch (~9287987 total ever)
+- [2026-08-19 07:33:05] zeenews: 8820/221852 articles this batch, ~2507264 words this batch (~9292854 total ever)
+- [2026-08-19 07:33:45] zeenews: 8840/221852 articles this batch, ~2513678 words this batch (~9299268 total ever)
+- [2026-08-19 07:34:26] zeenews: 8860/221852 articles this batch, ~2518135 words this batch (~9303725 total ever)
+- [2026-08-19 07:35:09] zeenews: 8880/221852 articles this batch, ~2522789 words this batch (~9308379 total ever)
+- [2026-08-19 07:35:49] zeenews: 8900/221852 articles this batch, ~2528673 words this batch (~9314263 total ever)
+- [2026-08-19 07:36:28] zeenews: 8920/221852 articles this batch, ~2533623 words this batch (~9319213 total ever)
+- [2026-08-19 07:37:12] zeenews: 8940/221852 articles this batch, ~2540028 words this batch (~9325618 total ever)
+- [2026-08-19 07:37:53] zeenews: 8960/221852 articles this batch, ~2545391 words this batch (~9330981 total ever)
+- [2026-08-19 07:38:38] zeenews: 8980/221852 articles this batch, ~2551419 words this batch (~9337009 total ever)
+- [2026-08-19 07:39:19] zeenews: 9000/221852 articles this batch, ~2557047 words this batch (~9342637 total ever)
+- [2026-08-19 07:39:59] zeenews: 9020/221852 articles this batch, ~2564076 words this batch (~9349666 total ever)
+- [2026-08-19 07:40:45] zeenews: 9040/221852 articles this batch, ~2569192 words this batch (~9354782 total ever)
+- [2026-08-19 07:41:26] zeenews: 9060/221852 articles this batch, ~2575677 words this batch (~9361267 total ever)
+- [2026-08-19 07:42:09] zeenews: 9080/221852 articles this batch, ~2581583 words this batch (~9367173 total ever)
+- [2026-08-19 07:42:50] zeenews: 9100/221852 articles this batch, ~2588361 words this batch (~9373951 total ever)
+- [2026-08-19 07:43:30] zeenews: 9120/221852 articles this batch, ~2594644 words this batch (~9380234 total ever)
+- [2026-08-19 07:44:10] zeenews: 9140/221852 articles this batch, ~2600580 words this batch (~9386170 total ever)
+- [2026-08-19 07:44:50] zeenews: 9160/221852 articles this batch, ~2606938 words this batch (~9392528 total ever)
+- [2026-08-19 07:45:34] zeenews: 9180/221852 articles this batch, ~2612616 words this batch (~9398206 total ever)
+- [2026-08-19 07:46:15] zeenews: 9200/221852 articles this batch, ~2619223 words this batch (~9404813 total ever)
+- [2026-08-19 07:46:57] zeenews: 9220/221852 articles this batch, ~2625571 words this batch (~9411161 total ever)
+- [2026-08-19 07:47:37] zeenews: 9240/221852 articles this batch, ~2630994 words this batch (~9416584 total ever)
+- [2026-08-19 07:48:20] zeenews: 9260/221852 articles this batch, ~2638152 words this batch (~9423742 total ever)
+- [2026-08-19 07:48:59] zeenews: 9280/221852 articles this batch, ~2643400 words this batch (~9428990 total ever)
+- [2026-08-19 07:49:41] zeenews: 9300/221852 articles this batch, ~2648342 words this batch (~9433932 total ever)
+- [2026-08-19 07:50:24] zeenews: 9320/221852 articles this batch, ~2653229 words this batch (~9438819 total ever)
+- [2026-08-19 07:51:04] zeenews: 9340/221852 articles this batch, ~2658958 words this batch (~9444548 total ever)
+- [2026-08-19 07:51:43] zeenews: 9360/221852 articles this batch, ~2663537 words this batch (~9449127 total ever)
+- [2026-08-19 07:52:24] zeenews: 9380/221852 articles this batch, ~2669311 words this batch (~9454901 total ever)
+- [2026-08-19 07:53:04] zeenews: 9400/221852 articles this batch, ~2675173 words this batch (~9460763 total ever)
+- [2026-08-19 07:53:44] zeenews: 9420/221852 articles this batch, ~2681096 words this batch (~9466686 total ever)
+- [2026-08-19 07:54:30] zeenews: 9440/221852 articles this batch, ~2686441 words this batch (~9472031 total ever)
+- [2026-08-19 07:55:13] zeenews: 9460/221852 articles this batch, ~2691476 words this batch (~9477066 total ever)
+- [2026-08-19 07:55:57] zeenews: 9480/221852 articles this batch, ~2696704 words this batch (~9482294 total ever)
+- [2026-08-19 07:56:40] zeenews: 9500/221852 articles this batch, ~2703512 words this batch (~9489102 total ever)
+- [2026-08-19 07:57:24] zeenews: 9520/221852 articles this batch, ~2709221 words this batch (~9494811 total ever)
+- [2026-08-19 07:58:07] zeenews: 9540/221852 articles this batch, ~2713704 words this batch (~9499294 total ever)
+- [2026-08-19 07:58:47] zeenews: 9560/221852 articles this batch, ~2718746 words this batch (~9504336 total ever)
+- [2026-08-19 07:59:30] zeenews: 9580/221852 articles this batch, ~2726002 words this batch (~9511592 total ever)
+- [2026-08-19 08:00:16] zeenews: 9600/221852 articles this batch, ~2732273 words this batch (~9517863 total ever)
+- [2026-08-19 08:01:01] zeenews: 9620/221852 articles this batch, ~2739217 words this batch (~9524807 total ever)
+- [2026-08-19 08:01:43] zeenews: 9640/221852 articles this batch, ~2745779 words this batch (~9531369 total ever)
+- [2026-08-19 08:02:26] zeenews: 9660/221852 articles this batch, ~2753014 words this batch (~9538604 total ever)
+- [2026-08-19 08:03:07] zeenews: 9680/221852 articles this batch, ~2760193 words this batch (~9545783 total ever)
+- [2026-08-19 08:03:46] zeenews: 9700/221852 articles this batch, ~2765575 words this batch (~9551165 total ever)
+- [2026-08-19 08:04:30] zeenews: 9720/221852 articles this batch, ~2771445 words this batch (~9557035 total ever)
+- [2026-08-19 08:05:11] zeenews: 9740/221852 articles this batch, ~2776791 words this batch (~9562381 total ever)
+- [2026-08-19 08:05:50] zeenews: 9760/221852 articles this batch, ~2782916 words this batch (~9568506 total ever)
+- [2026-08-19 08:06:31] zeenews: 9780/221852 articles this batch, ~2789130 words this batch (~9574720 total ever)
+- [2026-08-19 08:07:11] zeenews: 9800/221852 articles this batch, ~2795649 words this batch (~9581239 total ever)
+- [2026-08-19 08:07:51] zeenews: 9820/221852 articles this batch, ~2800690 words this batch (~9586280 total ever)
+- [2026-08-19 08:08:31] zeenews: 9840/221852 articles this batch, ~2806148 words this batch (~9591738 total ever)
+- [2026-08-19 08:09:11] zeenews: 9860/221852 articles this batch, ~2811501 words this batch (~9597091 total ever)
+- [2026-08-19 08:09:52] zeenews: 9880/221852 articles this batch, ~2818493 words this batch (~9604083 total ever)
+- [2026-08-19 08:10:41] zeenews: 9900/221852 articles this batch, ~2823617 words this batch (~9609207 total ever)
+- [2026-08-19 08:11:21] zeenews: 9920/221852 articles this batch, ~2829299 words this batch (~9614889 total ever)
+- [2026-08-19 08:12:06] zeenews: 9940/221852 articles this batch, ~2833980 words this batch (~9619570 total ever)
+- [2026-08-19 08:12:45] zeenews: 9960/221852 articles this batch, ~2838919 words this batch (~9624509 total ever)
+- [2026-08-19 08:13:28] zeenews: 9980/221852 articles this batch, ~2843042 words this batch (~9628632 total ever)
+- [2026-08-19 08:14:12] zeenews: 10000/221852 articles this batch, ~2848631 words this batch (~9634221 total ever)
+- [2026-08-19 08:14:54] zeenews: 10020/221852 articles this batch, ~2854047 words this batch (~9639637 total ever)
+- [2026-08-19 08:15:41] zeenews: 10040/221852 articles this batch, ~2860844 words this batch (~9646434 total ever)
+- [2026-08-19 08:16:26] zeenews: 10060/221852 articles this batch, ~2866336 words this batch (~9651926 total ever)
+- [2026-08-19 08:17:08] zeenews: 10080/221852 articles this batch, ~2871350 words this batch (~9656940 total ever)
+- [2026-08-19 08:17:50] zeenews: 10100/221852 articles this batch, ~2877213 words this batch (~9662803 total ever)
+- [2026-08-19 08:18:35] zeenews: 10120/221852 articles this batch, ~2881930 words this batch (~9667520 total ever)
+- [2026-08-19 08:19:16] zeenews: 10140/221852 articles this batch, ~2887362 words this batch (~9672952 total ever)
+- [2026-08-19 08:19:57] zeenews: 10160/221852 articles this batch, ~2892626 words this batch (~9678216 total ever)
+- [2026-08-19 08:20:44] zeenews: 10180/221852 articles this batch, ~2897489 words this batch (~9683079 total ever)
+- [2026-08-19 08:21:28] zeenews: 10200/221852 articles this batch, ~2902588 words this batch (~9688178 total ever)
+- [2026-08-19 08:22:09] zeenews: 10220/221852 articles this batch, ~2908036 words this batch (~9693626 total ever)
+- [2026-08-19 08:22:53] zeenews: 10240/221852 articles this batch, ~2913713 words this batch (~9699303 total ever)
+- [2026-08-19 08:23:38] zeenews: 10260/221852 articles this batch, ~2918493 words this batch (~9704083 total ever)
+- [2026-08-19 08:24:20] zeenews: 10280/221852 articles this batch, ~2924103 words this batch (~9709693 total ever)
+- [2026-08-19 08:25:03] zeenews: 10300/221852 articles this batch, ~2930803 words this batch (~9716393 total ever)
+- [2026-08-19 08:25:44] zeenews: 10320/221852 articles this batch, ~2936183 words this batch (~9721773 total ever)
+- [2026-08-19 08:26:27] zeenews: 10340/221852 articles this batch, ~2940915 words this batch (~9726505 total ever)
+- [2026-08-19 08:27:08] zeenews: 10360/221852 articles this batch, ~2948026 words this batch (~9733616 total ever)
+- [2026-08-19 08:27:48] zeenews: 10380/221852 articles this batch, ~2953510 words this batch (~9739100 total ever)
+- [2026-08-19 08:28:30] zeenews: 10400/221852 articles this batch, ~2959857 words this batch (~9745447 total ever)
+- [2026-08-19 08:29:09] zeenews: 10420/221852 articles this batch, ~2964934 words this batch (~9750524 total ever)
+- [2026-08-19 08:29:51] zeenews: 10440/221852 articles this batch, ~2972056 words this batch (~9757646 total ever)
+- [2026-08-19 08:30:38] zeenews: 10460/221852 articles this batch, ~2977734 words this batch (~9763324 total ever)
+- [2026-08-19 08:31:19] zeenews: 10480/221852 articles this batch, ~2983350 words this batch (~9768940 total ever)
+- [2026-08-19 08:32:01] zeenews: 10500/221852 articles this batch, ~2988989 words this batch (~9774579 total ever)
+- [2026-08-19 08:32:44] zeenews: 10520/221852 articles this batch, ~2995190 words this batch (~9780780 total ever)
+- [2026-08-19 08:33:25] zeenews: 10540/221852 articles this batch, ~3001398 words this batch (~9786988 total ever)
+- [2026-08-19 08:34:05] zeenews: 10560/221852 articles this batch, ~3007333 words this batch (~9792923 total ever)
+- [2026-08-19 08:34:47] zeenews: 10580/221852 articles this batch, ~3012819 words this batch (~9798409 total ever)
+- [2026-08-19 08:35:29] zeenews: 10600/221852 articles this batch, ~3018774 words this batch (~9804364 total ever)
+- [2026-08-19 08:36:16] zeenews: 10620/221852 articles this batch, ~3026194 words this batch (~9811784 total ever)
+- [2026-08-19 08:36:56] zeenews: 10640/221852 articles this batch, ~3031394 words this batch (~9816984 total ever)
+- [2026-08-19 08:37:40] zeenews: 10660/221852 articles this batch, ~3037174 words this batch (~9822764 total ever)
+- [2026-08-19 08:38:22] zeenews: 10680/221852 articles this batch, ~3042301 words this batch (~9827891 total ever)
+- [2026-08-19 08:39:02] zeenews: 10700/221852 articles this batch, ~3047249 words this batch (~9832839 total ever)
+- [2026-08-19 08:39:44] zeenews: 10720/221852 articles this batch, ~3052892 words this batch (~9838482 total ever)
+- [2026-08-19 08:40:27] zeenews: 10740/221852 articles this batch, ~3059666 words this batch (~9845256 total ever)
+- [2026-08-19 08:41:11] zeenews: 10760/221852 articles this batch, ~3066389 words this batch (~9851979 total ever)
+- [2026-08-19 08:41:52] zeenews: 10780/221852 articles this batch, ~3072182 words this batch (~9857772 total ever)
+- [2026-08-19 08:42:34] zeenews: 10800/221852 articles this batch, ~3078478 words this batch (~9864068 total ever)
+- [2026-08-19 08:43:14] zeenews: 10820/221852 articles this batch, ~3083466 words this batch (~9869056 total ever)
+- [2026-08-19 08:43:56] zeenews: 10840/221852 articles this batch, ~3089836 words this batch (~9875426 total ever)
+- [2026-08-19 08:44:39] zeenews: 10860/221852 articles this batch, ~3095321 words this batch (~9880911 total ever)
+- [2026-08-19 08:45:27] zeenews: 10880/221852 articles this batch, ~3101696 words this batch (~9887286 total ever)
+- [2026-08-19 08:46:12] zeenews: 10900/221852 articles this batch, ~3106904 words this batch (~9892494 total ever)
+- [2026-08-19 08:46:54] zeenews: 10920/221852 articles this batch, ~3112168 words this batch (~9897758 total ever)
+- [2026-08-19 08:47:38] zeenews: 10940/221852 articles this batch, ~3117582 words this batch (~9903172 total ever)
+- [2026-08-19 08:48:25] zeenews: 10960/221852 articles this batch, ~3122950 words this batch (~9908540 total ever)
+- [2026-08-19 08:49:05] zeenews: 10980/221852 articles this batch, ~3128489 words this batch (~9914079 total ever)
+- [2026-08-19 08:49:47] zeenews: 11000/221852 articles this batch, ~3134577 words this batch (~9920167 total ever)
+- [2026-08-19 08:50:32] zeenews: 11020/221852 articles this batch, ~3141447 words this batch (~9927037 total ever)
+- [2026-08-19 08:51:14] zeenews: 11040/221852 articles this batch, ~3146206 words this batch (~9931796 total ever)
+- [2026-08-19 08:51:55] zeenews: 11060/221852 articles this batch, ~3153417 words this batch (~9939007 total ever)
+- [2026-08-19 08:52:41] zeenews: 11080/221852 articles this batch, ~3159555 words this batch (~9945145 total ever)
+- [2026-08-19 08:53:24] zeenews: 11100/221852 articles this batch, ~3165847 words this batch (~9951437 total ever)
+- [2026-08-19 08:54:09] zeenews: 11120/221852 articles this batch, ~3171860 words this batch (~9957450 total ever)
+- [2026-08-19 08:54:49] zeenews: 11140/221852 articles this batch, ~3176705 words this batch (~9962295 total ever)
+- [2026-08-19 08:55:34] zeenews: 11160/221852 articles this batch, ~3182173 words this batch (~9967763 total ever)
+- [2026-08-19 08:56:16] zeenews: 11180/221852 articles this batch, ~3188284 words this batch (~9973874 total ever)
+- [2026-08-19 08:56:57] zeenews: 11200/221852 articles this batch, ~3192672 words this batch (~9978262 total ever)
+- [2026-08-19 08:57:39] zeenews: 11220/221852 articles this batch, ~3199915 words this batch (~9985505 total ever)
+- [2026-08-19 08:58:20] zeenews: 11240/221852 articles this batch, ~3206881 words this batch (~9992471 total ever)
+- [2026-08-19 08:59:00] zeenews: 11260/221852 articles this batch, ~3211647 words this batch (~9997237 total ever)
+- [2026-08-19 08:59:41] zeenews: 11280/221852 articles this batch, ~3218593 words this batch (~10004183 total ever)
+- [2026-08-19 09:00:33] zeenews: 11300/221852 articles this batch, ~3224506 words this batch (~10010096 total ever)
+- [2026-08-19 09:01:15] zeenews: 11320/221852 articles this batch, ~3230123 words this batch (~10015713 total ever)
+- [2026-08-19 09:01:57] zeenews: 11340/221852 articles this batch, ~3235398 words this batch (~10020988 total ever)
+- [2026-08-19 09:02:41] zeenews: 11360/221852 articles this batch, ~3240657 words this batch (~10026247 total ever)
+- [2026-08-19 09:03:24] zeenews: 11380/221852 articles this batch, ~3247155 words this batch (~10032745 total ever)
+- [2026-08-19 09:04:07] zeenews: 11400/221852 articles this batch, ~3255998 words this batch (~10041588 total ever)
+- [2026-08-19 09:04:47] zeenews: 11420/221852 articles this batch, ~3262446 words this batch (~10048036 total ever)
+- [2026-08-19 09:05:28] zeenews: 11440/221852 articles this batch, ~3269642 words this batch (~10055232 total ever)
+- [2026-08-19 09:06:10] zeenews: 11460/221852 articles this batch, ~3275808 words this batch (~10061398 total ever)
+- [2026-08-19 09:06:52] zeenews: 11480/221852 articles this batch, ~3280966 words this batch (~10066556 total ever)
+- [2026-08-19 09:07:34] zeenews: 11500/221852 articles this batch, ~3286795 words this batch (~10072385 total ever)
+- [2026-08-19 09:08:17] zeenews: 11520/221852 articles this batch, ~3292495 words this batch (~10078085 total ever)
+- [2026-08-19 09:08:59] zeenews: 11540/221852 articles this batch, ~3297789 words this batch (~10083379 total ever)
+- [2026-08-19 09:09:39] zeenews: 11560/221852 articles this batch, ~3304307 words this batch (~10089897 total ever)
+- [2026-08-19 09:10:27] zeenews: 11580/221852 articles this batch, ~3310752 words this batch (~10096342 total ever)
+- [2026-08-19 09:11:10] zeenews: 11600/221852 articles this batch, ~3315530 words this batch (~10101120 total ever)
+- [2026-08-19 09:11:50] zeenews: 11620/221852 articles this batch, ~3321024 words this batch (~10106614 total ever)
+- [2026-08-19 09:12:31] zeenews: 11640/221852 articles this batch, ~3327293 words this batch (~10112883 total ever)
+- [2026-08-19 09:13:12] zeenews: 11660/221852 articles this batch, ~3333818 words this batch (~10119408 total ever)
+- [2026-08-19 09:13:51] zeenews: 11680/221852 articles this batch, ~3339991 words this batch (~10125581 total ever)
+- [2026-08-19 09:14:32] zeenews: 11700/221852 articles this batch, ~3345236 words this batch (~10130826 total ever)
+- [2026-08-19 09:15:18] zeenews: 11720/221852 articles this batch, ~3350613 words this batch (~10136203 total ever)
+- [2026-08-19 09:16:03] zeenews: 11740/221852 articles this batch, ~3355796 words this batch (~10141386 total ever)
+- [2026-08-19 09:16:44] zeenews: 11760/221852 articles this batch, ~3361857 words this batch (~10147447 total ever)
+- [2026-08-19 09:17:28] zeenews: 11780/221852 articles this batch, ~3368003 words this batch (~10153593 total ever)
+- [2026-08-19 09:18:12] zeenews: 11800/221852 articles this batch, ~3372372 words this batch (~10157962 total ever)
+- [2026-08-19 09:18:55] zeenews: 11820/221852 articles this batch, ~3377549 words this batch (~10163139 total ever)
+- [2026-08-19 09:19:39] zeenews: 11840/221852 articles this batch, ~3384493 words this batch (~10170083 total ever)
+- [2026-08-19 09:20:24] zeenews: 11860/221852 articles this batch, ~3390339 words this batch (~10175929 total ever)
+- [2026-08-19 09:21:12] zeenews: 11880/221852 articles this batch, ~3397425 words this batch (~10183015 total ever)
+- [2026-08-19 09:21:54] zeenews: 11900/221852 articles this batch, ~3403113 words this batch (~10188703 total ever)
+- [2026-08-19 09:22:39] zeenews: 11920/221852 articles this batch, ~3408413 words this batch (~10194003 total ever)
+- [2026-08-19 09:23:28] zeenews: 11940/221852 articles this batch, ~3413678 words this batch (~10199268 total ever)
+- [2026-08-19 09:24:09] zeenews: 11960/221852 articles this batch, ~3420731 words this batch (~10206321 total ever)
+- [2026-08-19 09:24:51] zeenews: 11980/221852 articles this batch, ~3426760 words this batch (~10212350 total ever)
+- [2026-08-19 09:25:33] zeenews: 12000/221852 articles this batch, ~3432741 words this batch (~10218331 total ever)
+- [2026-08-19 09:26:14] zeenews: 12020/221852 articles this batch, ~3438152 words this batch (~10223742 total ever)
+- [2026-08-19 09:26:54] zeenews: 12040/221852 articles this batch, ~3442609 words this batch (~10228199 total ever)
+- [2026-08-19 09:27:36] zeenews: 12060/221852 articles this batch, ~3448258 words this batch (~10233848 total ever)
+- [2026-08-19 09:28:17] zeenews: 12080/221852 articles this batch, ~3453168 words this batch (~10238758 total ever)
+- [2026-08-19 09:28:59] zeenews: 12100/221852 articles this batch, ~3458356 words this batch (~10243946 total ever)
+- [2026-08-19 09:29:43] zeenews: 12120/221852 articles this batch, ~3465542 words this batch (~10251132 total ever)
+- [2026-08-19 09:30:28] zeenews: 12140/221852 articles this batch, ~3472124 words this batch (~10257714 total ever)
+- [2026-08-19 09:31:12] zeenews: 12160/221852 articles this batch, ~3478155 words this batch (~10263745 total ever)
+- [2026-08-19 09:31:53] zeenews: 12180/221852 articles this batch, ~3483540 words this batch (~10269130 total ever)
+- [2026-08-19 09:32:34] zeenews: 12200/221852 articles this batch, ~3489262 words this batch (~10274852 total ever)
+- [2026-08-19 09:33:15] zeenews: 12220/221852 articles this batch, ~3494191 words this batch (~10279781 total ever)
+- [2026-08-19 09:33:58] zeenews: 12240/221852 articles this batch, ~3501198 words this batch (~10286788 total ever)
+- [2026-08-19 09:34:40] zeenews: 12260/221852 articles this batch, ~3507375 words this batch (~10292965 total ever)
+- [2026-08-19 09:35:24] zeenews: 12280/221852 articles this batch, ~3514409 words this batch (~10299999 total ever)
+- [2026-08-19 09:36:06] zeenews: 12300/221852 articles this batch, ~3520904 words this batch (~10306494 total ever)
+- [2026-08-19 09:36:48] zeenews: 12320/221852 articles this batch, ~3528042 words this batch (~10313632 total ever)
+- [2026-08-19 09:37:29] zeenews: 12340/221852 articles this batch, ~3535122 words this batch (~10320712 total ever)
+- [2026-08-19 09:38:14] zeenews: 12360/221852 articles this batch, ~3541040 words this batch (~10326630 total ever)
+- [2026-08-19 09:38:56] zeenews: 12380/221852 articles this batch, ~3546623 words this batch (~10332213 total ever)
+- [2026-08-19 09:39:42] zeenews: 12400/221852 articles this batch, ~3552239 words this batch (~10337829 total ever)
+- [2026-08-19 09:40:31] zeenews: 12420/221852 articles this batch, ~3558751 words this batch (~10344341 total ever)
+- [2026-08-19 09:41:13] zeenews: 12440/221852 articles this batch, ~3563481 words this batch (~10349071 total ever)
+- [2026-08-19 09:41:54] zeenews: 12460/221852 articles this batch, ~3570766 words this batch (~10356356 total ever)
+- [2026-08-19 09:42:37] zeenews: 12480/221852 articles this batch, ~3577593 words this batch (~10363183 total ever)
+- [2026-08-19 09:43:18] zeenews: 12500/221852 articles this batch, ~3584409 words this batch (~10369999 total ever)
+- [2026-08-19 09:43:59] zeenews: 12520/221852 articles this batch, ~3588884 words this batch (~10374474 total ever)
+- [2026-08-19 09:44:41] zeenews: 12540/221852 articles this batch, ~3594660 words this batch (~10380250 total ever)
+- [2026-08-19 09:45:24] zeenews: 12560/221852 articles this batch, ~3601776 words this batch (~10387366 total ever)
+- [2026-08-19 09:46:06] zeenews: 12580/221852 articles this batch, ~3607166 words this batch (~10392756 total ever)
+- [2026-08-19 09:46:48] zeenews: 12600/221852 articles this batch, ~3612021 words this batch (~10397611 total ever)
+- [2026-08-19 09:47:30] zeenews: 12620/221852 articles this batch, ~3617352 words this batch (~10402942 total ever)
+- [2026-08-19 09:48:12] zeenews: 12640/221852 articles this batch, ~3623687 words this batch (~10409277 total ever)
+- [2026-08-19 09:48:55] zeenews: 12660/221852 articles this batch, ~3629520 words this batch (~10415110 total ever)
+- [2026-08-19 09:49:38] zeenews: 12680/221852 articles this batch, ~3634891 words this batch (~10420481 total ever)
+- [2026-08-19 09:50:24] zeenews: 12700/221852 articles this batch, ~3641569 words this batch (~10427159 total ever)
+- [2026-08-19 09:51:07] zeenews: 12720/221852 articles this batch, ~3647154 words this batch (~10432744 total ever)
+- [2026-08-19 09:51:49] zeenews: 12740/221852 articles this batch, ~3653228 words this batch (~10438818 total ever)
+- [2026-08-19 09:52:35] zeenews: 12760/221852 articles this batch, ~3659239 words this batch (~10444829 total ever)
+- [2026-08-19 09:53:18] zeenews: 12780/221852 articles this batch, ~3664063 words this batch (~10449653 total ever)
+- [2026-08-19 09:54:00] zeenews: 12800/221852 articles this batch, ~3667983 words this batch (~10453573 total ever)
+- [2026-08-19 09:54:45] zeenews: 12820/221852 articles this batch, ~3673723 words this batch (~10459313 total ever)
+- [2026-08-19 09:55:31] zeenews: 12840/221852 articles this batch, ~3679177 words this batch (~10464767 total ever)
+- [2026-08-19 09:56:16] zeenews: 12860/221852 articles this batch, ~3684574 words this batch (~10470164 total ever)
+- [2026-08-19 09:56:58] zeenews: 12880/221852 articles this batch, ~3688851 words this batch (~10474441 total ever)
+- [2026-08-19 09:57:43] zeenews: 12900/221852 articles this batch, ~3693870 words this batch (~10479460 total ever)
+- [2026-08-19 09:58:25] zeenews: 12920/221852 articles this batch, ~3699731 words this batch (~10485321 total ever)
+- [2026-08-19 09:59:06] zeenews: 12940/221852 articles this batch, ~3706788 words this batch (~10492378 total ever)
+- [2026-08-19 09:59:48] zeenews: 12960/221852 articles this batch, ~3711962 words this batch (~10497552 total ever)
+- [2026-08-19 10:00:40] zeenews: 12980/221852 articles this batch, ~3718484 words this batch (~10504074 total ever)
+- [2026-08-19 10:01:24] zeenews: 13000/221852 articles this batch, ~3723079 words this batch (~10508669 total ever)
+- [2026-08-19 10:02:07] zeenews: 13020/221852 articles this batch, ~3729729 words this batch (~10515319 total ever)
+- [2026-08-19 10:02:49] zeenews: 13040/221852 articles this batch, ~3737121 words this batch (~10522711 total ever)
+- [2026-08-19 10:03:33] zeenews: 13060/221852 articles this batch, ~3743109 words this batch (~10528699 total ever)
+- [2026-08-19 10:04:16] zeenews: 13080/221852 articles this batch, ~3749557 words this batch (~10535147 total ever)
+- [2026-08-19 10:04:59] zeenews: 13100/221852 articles this batch, ~3754944 words this batch (~10540534 total ever)
+- [2026-08-19 10:05:43] zeenews: 13120/221852 articles this batch, ~3760971 words this batch (~10546561 total ever)
+- [2026-08-19 10:06:31] zeenews: 13140/221852 articles this batch, ~3765805 words this batch (~10551395 total ever)
+- [2026-08-19 10:07:13] zeenews: 13160/221852 articles this batch, ~3770674 words this batch (~10556264 total ever)
+- [2026-08-19 10:07:55] zeenews: 13180/221852 articles this batch, ~3778432 words this batch (~10564022 total ever)
+- [2026-08-19 10:08:37] zeenews: 13200/221852 articles this batch, ~3783230 words this batch (~10568820 total ever)
+- [2026-08-19 10:09:19] zeenews: 13220/221852 articles this batch, ~3788957 words this batch (~10574547 total ever)
+- [2026-08-19 10:10:02] zeenews: 13240/221852 articles this batch, ~3793492 words this batch (~10579082 total ever)
+- [2026-08-19 10:10:50] zeenews: 13260/221852 articles this batch, ~3799701 words this batch (~10585291 total ever)
+- [2026-08-19 10:11:32] zeenews: 13280/221852 articles this batch, ~3804854 words this batch (~10590444 total ever)
+- [2026-08-19 10:12:18] zeenews: 13300/221852 articles this batch, ~3811037 words this batch (~10596627 total ever)
+- [2026-08-19 10:12:59] zeenews: 13320/221852 articles this batch, ~3816683 words this batch (~10602273 total ever)
+- [2026-08-19 10:13:44] zeenews: 13340/221852 articles this batch, ~3822775 words this batch (~10608365 total ever)
+- [2026-08-19 10:14:27] zeenews: 13360/221852 articles this batch, ~3829201 words this batch (~10614791 total ever)
+- [2026-08-19 10:15:10] zeenews: 13380/221852 articles this batch, ~3836142 words this batch (~10621732 total ever)
+- [2026-08-19 10:15:55] zeenews: 13400/221852 articles this batch, ~3842287 words this batch (~10627877 total ever)
+- [2026-08-19 10:16:43] zeenews: 13420/221852 articles this batch, ~3848614 words this batch (~10634204 total ever)
+- [2026-08-19 10:17:25] zeenews: 13440/221852 articles this batch, ~3854472 words this batch (~10640062 total ever)
+- [2026-08-19 10:18:07] zeenews: 13460/221852 articles this batch, ~3859425 words this batch (~10645015 total ever)
+- [2026-08-19 10:18:50] zeenews: 13480/221852 articles this batch, ~3866033 words this batch (~10651623 total ever)
+- [2026-08-19 10:19:33] zeenews: 13500/221852 articles this batch, ~3872235 words this batch (~10657825 total ever)
+- [2026-08-19 10:20:17] zeenews: 13520/221852 articles this batch, ~3878103 words this batch (~10663693 total ever)
+- [2026-08-19 10:21:05] zeenews: 13540/221852 articles this batch, ~3885270 words this batch (~10670860 total ever)
+- [2026-08-19 10:21:50] zeenews: 13560/221852 articles this batch, ~3890861 words this batch (~10676451 total ever)
+- [2026-08-19 10:22:35] zeenews: 13580/221852 articles this batch, ~3897280 words this batch (~10682870 total ever)
+- [2026-08-19 10:23:19] zeenews: 13600/221852 articles this batch, ~3903755 words this batch (~10689345 total ever)
+- [2026-08-19 10:24:05] zeenews: 13620/221852 articles this batch, ~3909211 words this batch (~10694801 total ever)
+- [2026-08-19 10:24:48] zeenews: 13640/221852 articles this batch, ~3914686 words this batch (~10700276 total ever)
+- [2026-08-19 10:25:37] zeenews: 13660/221852 articles this batch, ~3921209 words this batch (~10706799 total ever)
+- [2026-08-19 10:26:27] zeenews: 13680/221852 articles this batch, ~3928100 words this batch (~10713690 total ever)
+- [2026-08-19 10:27:14] zeenews: 13700/221852 articles this batch, ~3934699 words this batch (~10720289 total ever)
+- [2026-08-19 10:27:56] zeenews: 13720/221852 articles this batch, ~3939950 words this batch (~10725540 total ever)
+- [2026-08-19 10:28:40] zeenews: 13740/221852 articles this batch, ~3945803 words this batch (~10731393 total ever)
+- [2026-08-19 10:29:23] zeenews: 13760/221852 articles this batch, ~3950292 words this batch (~10735882 total ever)
+- [2026-08-19 10:30:09] zeenews: 13780/221852 articles this batch, ~3955882 words this batch (~10741472 total ever)
+- [2026-08-19 10:30:58] zeenews: 13800/221852 articles this batch, ~3962841 words this batch (~10748431 total ever)
+- [2026-08-19 10:31:41] zeenews: 13820/221852 articles this batch, ~3967440 words this batch (~10753030 total ever)
+- [2026-08-19 10:32:23] zeenews: 13840/221852 articles this batch, ~3973177 words this batch (~10758767 total ever)
+- [2026-08-19 10:33:07] zeenews: 13860/221852 articles this batch, ~3978945 words this batch (~10764535 total ever)
+- [2026-08-19 10:33:49] zeenews: 13880/221852 articles this batch, ~3984659 words this batch (~10770249 total ever)
+- [2026-08-19 10:34:34] zeenews: 13900/221852 articles this batch, ~3990837 words this batch (~10776427 total ever)
+- [2026-08-19 10:35:20] zeenews: 13920/221852 articles this batch, ~3998878 words this batch (~10784468 total ever)
+- [2026-08-19 10:36:04] zeenews: 13940/221852 articles this batch, ~4003395 words this batch (~10788985 total ever)
+- [2026-08-19 10:36:48] zeenews: 13960/221852 articles this batch, ~4009391 words this batch (~10794981 total ever)
+- [2026-08-19 10:37:34] zeenews: 13980/221852 articles this batch, ~4014473 words this batch (~10800063 total ever)
+- [2026-08-19 10:38:21] zeenews: 14000/221852 articles this batch, ~4020507 words this batch (~10806097 total ever)
+- [2026-08-19 10:39:07] zeenews: 14020/221852 articles this batch, ~4025865 words this batch (~10811455 total ever)
+- [2026-08-19 10:39:52] zeenews: 14040/221852 articles this batch, ~4032626 words this batch (~10818216 total ever)
+- [2026-08-19 10:40:47] zeenews: 14060/221852 articles this batch, ~4037662 words this batch (~10823252 total ever)
+- [2026-08-19 10:41:36] zeenews: 14080/221852 articles this batch, ~4043921 words this batch (~10829511 total ever)
+- [2026-08-19 10:42:25] zeenews: 14100/221852 articles this batch, ~4049923 words this batch (~10835513 total ever)
+- [2026-08-19 10:43:12] zeenews: 14120/221852 articles this batch, ~4055184 words this batch (~10840774 total ever)
+- [2026-08-19 10:43:59] zeenews: 14140/221852 articles this batch, ~4061899 words this batch (~10847489 total ever)
+- [2026-08-19 10:44:46] zeenews: 14160/221852 articles this batch, ~4066520 words this batch (~10852110 total ever)
+- [2026-08-19 10:45:39] zeenews: 14180/221852 articles this batch, ~4072328 words this batch (~10857918 total ever)
+- [2026-08-19 10:46:28] zeenews: 14200/221852 articles this batch, ~4076846 words this batch (~10862436 total ever)
+- [2026-08-19 10:47:14] zeenews: 14220/221852 articles this batch, ~4081402 words this batch (~10866992 total ever)
+- [2026-08-19 10:47:59] zeenews: 14240/221852 articles this batch, ~4086993 words this batch (~10872583 total ever)
+- [2026-08-19 10:48:47] zeenews: 14260/221852 articles this batch, ~4093731 words this batch (~10879321 total ever)
+- [2026-08-19 10:49:39] zeenews: 14280/221852 articles this batch, ~4098671 words this batch (~10884261 total ever)
+- [2026-08-19 10:50:35] zeenews: 14300/221852 articles this batch, ~4105224 words this batch (~10890814 total ever)
+- [2026-08-19 10:51:25] zeenews: 14320/221852 articles this batch, ~4110459 words this batch (~10896049 total ever)
+- [2026-08-19 10:52:12] zeenews: 14340/221852 articles this batch, ~4116618 words this batch (~10902208 total ever)
+- [2026-08-19 10:52:57] zeenews: 14360/221852 articles this batch, ~4121877 words this batch (~10907467 total ever)
+- [2026-08-19 10:53:46] zeenews: 14380/221852 articles this batch, ~4127215 words this batch (~10912805 total ever)
+- [2026-08-19 10:54:31] zeenews: 14400/221852 articles this batch, ~4132267 words this batch (~10917857 total ever)
+- [2026-08-19 10:55:20] zeenews: 14420/221852 articles this batch, ~4137259 words this batch (~10922849 total ever)
+- [2026-08-19 10:56:03] zeenews: 14440/221852 articles this batch, ~4141761 words this batch (~10927351 total ever)
+- [2026-08-19 10:56:46] zeenews: 14460/221852 articles this batch, ~4147523 words this batch (~10933113 total ever)
+- [2026-08-19 10:57:27] zeenews: 14480/221852 articles this batch, ~4153105 words this batch (~10938695 total ever)
+- [2026-08-19 10:58:10] zeenews: 14500/221852 articles this batch, ~4158584 words this batch (~10944174 total ever)
+- [2026-08-19 10:58:52] zeenews: 14520/221852 articles this batch, ~4166012 words this batch (~10951602 total ever)
+- [2026-08-19 10:59:36] zeenews: 14540/221852 articles this batch, ~4171568 words this batch (~10957158 total ever)
+- [2026-08-19 11:00:20] zeenews: 14560/221852 articles this batch, ~4175720 words this batch (~10961310 total ever)
+- [2026-08-19 11:01:07] zeenews: 14580/221852 articles this batch, ~4182089 words this batch (~10967679 total ever)
+- [2026-08-19 11:01:51] zeenews: 14600/221852 articles this batch, ~4188202 words this batch (~10973792 total ever)
+- [2026-08-19 11:02:38] zeenews: 14620/221852 articles this batch, ~4194547 words this batch (~10980137 total ever)
+- [2026-08-19 11:03:23] zeenews: 14640/221852 articles this batch, ~4200010 words this batch (~10985600 total ever)
+- [2026-08-19 11:04:10] zeenews: 14660/221852 articles this batch, ~4206216 words this batch (~10991806 total ever)
+- [2026-08-19 11:04:56] zeenews: 14680/221852 articles this batch, ~4211640 words this batch (~10997230 total ever)
+- [2026-08-19 11:05:44] zeenews: 14700/221852 articles this batch, ~4217701 words this batch (~11003291 total ever)
+- [2026-08-19 11:06:30] zeenews: 14720/221852 articles this batch, ~4225149 words this batch (~11010739 total ever)
+- [2026-08-19 11:07:14] zeenews: 14740/221852 articles this batch, ~4230259 words this batch (~11015849 total ever)
+- [2026-08-19 11:07:58] zeenews: 14760/221852 articles this batch, ~4234924 words this batch (~11020514 total ever)
+- [2026-08-19 11:08:45] zeenews: 14780/221852 articles this batch, ~4241912 words this batch (~11027502 total ever)
+- [2026-08-19 11:09:31] zeenews: 14800/221852 articles this batch, ~4248536 words this batch (~11034126 total ever)
+- [2026-08-19 11:10:18] zeenews: 14820/221852 articles this batch, ~4254284 words this batch (~11039874 total ever)
+- [2026-08-19 11:11:05] zeenews: 14840/221852 articles this batch, ~4259934 words this batch (~11045524 total ever)
+- [2026-08-19 11:11:50] zeenews: 14860/221852 articles this batch, ~4264640 words this batch (~11050230 total ever)
+- [2026-08-19 11:12:36] zeenews: 14880/221852 articles this batch, ~4269473 words this batch (~11055063 total ever)
+- [2026-08-19 11:13:18] zeenews: 14900/221852 articles this batch, ~4274448 words this batch (~11060038 total ever)
+- [2026-08-19 11:13:59] zeenews: 14920/221852 articles this batch, ~4279685 words this batch (~11065275 total ever)
+- [2026-08-19 11:14:42] zeenews: 14940/221852 articles this batch, ~4285976 words this batch (~11071566 total ever)
+- [2026-08-19 11:15:25] zeenews: 14960/221852 articles this batch, ~4291762 words this batch (~11077352 total ever)
+- [2026-08-19 11:16:10] zeenews: 14980/221852 articles this batch, ~4296481 words this batch (~11082071 total ever)
+- [2026-08-19 11:16:57] zeenews: 15000/221852 articles this batch, ~4301849 words this batch (~11087439 total ever)
+- [2026-08-19 11:17:44] zeenews: 15020/221852 articles this batch, ~4308074 words this batch (~11093664 total ever)
+- [2026-08-19 11:18:29] zeenews: 15040/221852 articles this batch, ~4315391 words this batch (~11100981 total ever)
+- [2026-08-19 11:19:16] zeenews: 15060/221852 articles this batch, ~4320762 words this batch (~11106352 total ever)
+- [2026-08-19 11:20:03] zeenews: 15080/221852 articles this batch, ~4326097 words this batch (~11111687 total ever)
+- [2026-08-19 11:20:54] zeenews: 15100/221852 articles this batch, ~4332107 words this batch (~11117697 total ever)
+- [2026-08-19 11:21:41] zeenews: 15120/221852 articles this batch, ~4338833 words this batch (~11124423 total ever)
+- [2026-08-19 11:22:28] zeenews: 15140/221852 articles this batch, ~4343969 words this batch (~11129559 total ever)
+- [2026-08-19 11:23:14] zeenews: 15160/221852 articles this batch, ~4349489 words this batch (~11135079 total ever)
+- [2026-08-19 11:23:57] zeenews: 15180/221852 articles this batch, ~4353581 words this batch (~11139171 total ever)
+- [2026-08-19 11:24:41] zeenews: 15200/221852 articles this batch, ~4357817 words this batch (~11143407 total ever)
+- [2026-08-19 11:25:27] zeenews: 15220/221852 articles this batch, ~4363996 words this batch (~11149586 total ever)
+- [2026-08-19 11:26:15] zeenews: 15240/221852 articles this batch, ~4371193 words this batch (~11156783 total ever)
+- [2026-08-19 11:27:02] zeenews: 15260/221852 articles this batch, ~4376963 words this batch (~11162553 total ever)
+- [2026-08-19 11:27:47] zeenews: 15280/221852 articles this batch, ~4381836 words this batch (~11167426 total ever)
+- [2026-08-19 11:28:32] zeenews: 15300/221852 articles this batch, ~4387009 words this batch (~11172599 total ever)
+- [2026-08-19 11:29:15] zeenews: 15320/221852 articles this batch, ~4391931 words this batch (~11177521 total ever)
+- [2026-08-19 11:29:58] zeenews: 15340/221852 articles this batch, ~4396920 words this batch (~11182510 total ever)
+- [2026-08-19 11:30:48] zeenews: 15360/221852 articles this batch, ~4402462 words this batch (~11188052 total ever)
+- [2026-08-19 11:31:33] zeenews: 15380/221852 articles this batch, ~4408046 words this batch (~11193636 total ever)
+- [2026-08-19 11:32:20] zeenews: 15400/221852 articles this batch, ~4412836 words this batch (~11198426 total ever)
+- [2026-08-19 11:33:06] zeenews: 15420/221852 articles this batch, ~4419259 words this batch (~11204849 total ever)
+- [2026-08-19 11:33:49] zeenews: 15440/221852 articles this batch, ~4423165 words this batch (~11208755 total ever)
+- [2026-08-19 11:34:34] zeenews: 15460/221852 articles this batch, ~4429415 words this batch (~11215005 total ever)
+- [2026-08-19 11:35:18] zeenews: 15480/221852 articles this batch, ~4434623 words this batch (~11220213 total ever)
+- [2026-08-19 11:36:08] zeenews: 15500/221852 articles this batch, ~4440583 words this batch (~11226173 total ever)
+- [2026-08-19 11:36:53] zeenews: 15520/221852 articles this batch, ~4447717 words this batch (~11233307 total ever)
+- [2026-08-19 11:37:37] zeenews: 15540/221852 articles this batch, ~4454405 words this batch (~11239995 total ever)
+- [2026-08-19 11:38:24] zeenews: 15560/221852 articles this batch, ~4460267 words this batch (~11245857 total ever)
+- [2026-08-19 11:39:07] zeenews: 15580/221852 articles this batch, ~4466448 words this batch (~11252038 total ever)
+- [2026-08-19 11:39:52] zeenews: 15600/221852 articles this batch, ~4472150 words this batch (~11257740 total ever)
+- [2026-08-19 11:40:42] zeenews: 15620/221852 articles this batch, ~4477432 words this batch (~11263022 total ever)
+- [2026-08-19 11:41:28] zeenews: 15640/221852 articles this batch, ~4483303 words this batch (~11268893 total ever)
+- [2026-08-19 11:42:13] zeenews: 15660/221852 articles this batch, ~4489952 words this batch (~11275542 total ever)
+- [2026-08-19 11:42:56] zeenews: 15680/221852 articles this batch, ~4496664 words this batch (~11282254 total ever)
+- [2026-08-19 11:43:42] zeenews: 15700/221852 articles this batch, ~4501226 words this batch (~11286816 total ever)
+- [2026-08-19 11:44:27] zeenews: 15720/221852 articles this batch, ~4508423 words this batch (~11294013 total ever)
+- [2026-08-19 11:45:14] zeenews: 15740/221852 articles this batch, ~4513167 words this batch (~11298757 total ever)
+- [2026-08-19 11:45:59] zeenews: 15760/221852 articles this batch, ~4519184 words this batch (~11304774 total ever)
+- [2026-08-19 11:46:43] zeenews: 15780/221852 articles this batch, ~4524567 words this batch (~11310157 total ever)
+- [2026-08-19 11:47:29] zeenews: 15800/221852 articles this batch, ~4531954 words this batch (~11317544 total ever)
+- [2026-08-19 11:48:19] zeenews: 15820/221852 articles this batch, ~4538472 words this batch (~11324062 total ever)
+- [2026-08-19 11:49:02] zeenews: 15840/221852 articles this batch, ~4544108 words this batch (~11329698 total ever)
+- [2026-08-19 11:49:50] zeenews: 15860/221852 articles this batch, ~4548882 words this batch (~11334472 total ever)
+- [2026-08-19 11:50:39] zeenews: 15880/221852 articles this batch, ~4554990 words this batch (~11340580 total ever)
+- [2026-08-19 11:51:27] zeenews: 15900/221852 articles this batch, ~4560111 words this batch (~11345701 total ever)
+- [2026-08-19 11:52:12] zeenews: 15920/221852 articles this batch, ~4565894 words this batch (~11351484 total ever)
+- [2026-08-19 11:52:55] zeenews: 15940/221852 articles this batch, ~4571613 words this batch (~11357203 total ever)
+- [2026-08-19 11:53:41] zeenews: 15960/221852 articles this batch, ~4577739 words this batch (~11363329 total ever)
+- [2026-08-19 11:54:27] zeenews: 15980/221852 articles this batch, ~4583534 words this batch (~11369124 total ever)
+- [2026-08-19 11:55:19] zeenews: 16000/221852 articles this batch, ~4589758 words this batch (~11375348 total ever)
+- [2026-08-19 11:56:21] zeenews: 16020/221852 articles this batch, ~4595374 words this batch (~11380964 total ever)
+- [2026-08-19 11:57:10] zeenews: 16040/221852 articles this batch, ~4600518 words this batch (~11386108 total ever)
+- [2026-08-19 11:57:57] zeenews: 16060/221852 articles this batch, ~4607398 words this batch (~11392988 total ever)
+- [2026-08-19 11:58:46] zeenews: 16080/221852 articles this batch, ~4612737 words this batch (~11398327 total ever)
+- [2026-08-19 11:59:38] zeenews: 16100/221852 articles this batch, ~4618400 words this batch (~11403990 total ever)
+- [2026-08-19 12:00:26] zeenews: 16120/221852 articles this batch, ~4625015 words this batch (~11410605 total ever)
+- [2026-08-19 12:01:14] zeenews: 16140/221852 articles this batch, ~4629552 words this batch (~11415142 total ever)
+- [2026-08-19 12:01:59] zeenews: 16160/221852 articles this batch, ~4636411 words this batch (~11422001 total ever)
+- [2026-08-19 12:02:49] zeenews: 16180/221852 articles this batch, ~4640981 words this batch (~11426571 total ever)
+- [2026-08-19 12:03:36] zeenews: 16200/221852 articles this batch, ~4646448 words this batch (~11432038 total ever)
+- [2026-08-19 12:04:26] zeenews: 16220/221852 articles this batch, ~4650657 words this batch (~11436247 total ever)
+- [2026-08-19 12:05:13] zeenews: 16240/221852 articles this batch, ~4656860 words this batch (~11442450 total ever)
+- [2026-08-19 12:06:04] zeenews: 16260/221852 articles this batch, ~4661328 words this batch (~11446918 total ever)
+- [2026-08-19 12:06:52] zeenews: 16280/221852 articles this batch, ~4667098 words this batch (~11452688 total ever)
+- [2026-08-19 12:07:43] zeenews: 16300/221852 articles this batch, ~4671212 words this batch (~11456802 total ever)
+- [2026-08-19 12:08:34] zeenews: 16320/221852 articles this batch, ~4675402 words this batch (~11460992 total ever)
+- [2026-08-19 12:09:21] zeenews: 16340/221852 articles this batch, ~4680527 words this batch (~11466117 total ever)
+- [2026-08-19 12:10:12] zeenews: 16360/221852 articles this batch, ~4686066 words this batch (~11471656 total ever)
+- [2026-08-19 12:11:01] zeenews: 16380/221852 articles this batch, ~4691487 words this batch (~11477077 total ever)
+- [2026-08-19 12:11:50] zeenews: 16400/221852 articles this batch, ~4695627 words this batch (~11481217 total ever)
+- [2026-08-19 12:12:37] zeenews: 16420/221852 articles this batch, ~4700949 words this batch (~11486539 total ever)
+- [2026-08-19 12:13:26] zeenews: 16440/221852 articles this batch, ~4707623 words this batch (~11493213 total ever)
+- [2026-08-19 12:14:11] zeenews: 16460/221852 articles this batch, ~4713616 words this batch (~11499206 total ever)
+- [2026-08-19 12:14:58] zeenews: 16480/221852 articles this batch, ~4718905 words this batch (~11504495 total ever)
+- [2026-08-19 12:15:45] zeenews: 16500/221852 articles this batch, ~4723146 words this batch (~11508736 total ever)
+- [2026-08-19 12:16:38] zeenews: 16520/221852 articles this batch, ~4730924 words this batch (~11516514 total ever)
+- [2026-08-19 12:17:27] zeenews: 16540/221852 articles this batch, ~4734961 words this batch (~11520551 total ever)
+- [2026-08-19 12:18:14] zeenews: 16560/221852 articles this batch, ~4740380 words this batch (~11525970 total ever)
+- [2026-08-19 12:19:05] zeenews: 16580/221852 articles this batch, ~4744957 words this batch (~11530547 total ever)
+- [2026-08-19 12:19:51] zeenews: 16600/221852 articles this batch, ~4749421 words this batch (~11535011 total ever)
+- [2026-08-19 12:20:49] zeenews: 16620/221852 articles this batch, ~4753851 words this batch (~11539441 total ever)
+- [2026-08-19 12:21:39] zeenews: 16640/221852 articles this batch, ~4758478 words this batch (~11544068 total ever)
+- [2026-08-19 12:22:29] zeenews: 16660/221852 articles this batch, ~4763845 words this batch (~11549435 total ever)
+- [2026-08-19 12:23:18] zeenews: 16680/221852 articles this batch, ~4770484 words this batch (~11556074 total ever)
+- [2026-08-19 12:24:12] zeenews: 16700/221852 articles this batch, ~4776044 words this batch (~11561634 total ever)
+- [2026-08-19 12:25:08] zeenews: 16720/221852 articles this batch, ~4782075 words this batch (~11567665 total ever)
+- [2026-08-19 12:25:55] zeenews: 16740/221852 articles this batch, ~4789434 words this batch (~11575024 total ever)
+- [2026-08-19 12:26:46] zeenews: 16760/221852 articles this batch, ~4795040 words this batch (~11580630 total ever)
+- [2026-08-19 12:27:38] zeenews: 16780/221852 articles this batch, ~4800684 words this batch (~11586274 total ever)
+- [2026-08-19 12:28:27] zeenews: 16800/221852 articles this batch, ~4807072 words this batch (~11592662 total ever)
+- [2026-08-19 12:29:20] zeenews: 16820/221852 articles this batch, ~4812337 words this batch (~11597927 total ever)
+- [2026-08-19 12:30:14] zeenews: 16840/221852 articles this batch, ~4817787 words this batch (~11603377 total ever)
+- [2026-08-19 12:31:08] zeenews: 16860/221852 articles this batch, ~4821510 words this batch (~11607100 total ever)
+- [2026-08-19 12:31:56] zeenews: 16880/221852 articles this batch, ~4827759 words this batch (~11613349 total ever)
+- [2026-08-19 12:32:48] zeenews: 16900/221852 articles this batch, ~4833238 words this batch (~11618828 total ever)
+- [2026-08-19 12:33:35] zeenews: 16920/221852 articles this batch, ~4837789 words this batch (~11623379 total ever)
+- [2026-08-19 12:34:36] zeenews: 16940/221852 articles this batch, ~4843413 words this batch (~11629003 total ever)
+- [2026-08-19 12:35:29] zeenews: 16960/221852 articles this batch, ~4851089 words this batch (~11636679 total ever)
+- [2026-08-19 12:36:19] zeenews: 16980/221852 articles this batch, ~4857211 words this batch (~11642801 total ever)
+- [2026-08-19 12:37:05] zeenews: 17000/221852 articles this batch, ~4861786 words this batch (~11647376 total ever)
+- [2026-08-19 12:37:56] zeenews: 17020/221852 articles this batch, ~4869353 words this batch (~11654943 total ever)
+- [2026-08-19 12:38:44] zeenews: 17040/221852 articles this batch, ~4874328 words this batch (~11659918 total ever)
+- [2026-08-19 12:39:50] zeenews: 17060/221852 articles this batch, ~4881515 words this batch (~11667105 total ever)
+- [2026-08-19 12:41:41] zeenews: 17080/221852 articles this batch, ~4887883 words this batch (~11673473 total ever)
+- [2026-08-19 12:42:42] zeenews: 17100/221852 articles this batch, ~4893057 words this batch (~11678647 total ever)
+- [2026-08-19 12:43:32] zeenews: 17120/221852 articles this batch, ~4898688 words this batch (~11684278 total ever)
+- [2026-08-19 12:44:34] zeenews: 17140/221852 articles this batch, ~4905518 words this batch (~11691108 total ever)
+- [2026-08-19 12:45:27] zeenews: 17160/221852 articles this batch, ~4911118 words this batch (~11696708 total ever)
+- [2026-08-19 12:46:23] zeenews: 17180/221852 articles this batch, ~4916868 words this batch (~11702458 total ever)
+- [2026-08-19 12:47:24] zeenews: 17200/221852 articles this batch, ~4921908 words this batch (~11707498 total ever)
+- [2026-08-19 12:48:19] zeenews: 17220/221852 articles this batch, ~4926792 words this batch (~11712382 total ever)
+- [2026-08-19 12:49:09] zeenews: 17240/221852 articles this batch, ~4931007 words this batch (~11716597 total ever)
+- [2026-08-19 12:50:07] zeenews: 17260/221852 articles this batch, ~4935998 words this batch (~11721588 total ever)
+- [2026-08-19 12:51:30] zeenews: 17280/221852 articles this batch, ~4942232 words this batch (~11727822 total ever)
+- [2026-08-19 12:52:21] zeenews: 17300/221852 articles this batch, ~4948855 words this batch (~11734445 total ever)
+- [2026-08-19 12:53:14] zeenews: 17320/221852 articles this batch, ~4954395 words this batch (~11739985 total ever)
+- [2026-08-19 12:54:09] zeenews: 17340/221852 articles this batch, ~4961081 words this batch (~11746671 total ever)
+- [2026-08-19 12:55:09] zeenews: 17360/221852 articles this batch, ~4965947 words this batch (~11751537 total ever)
+- [2026-08-19 12:56:00] zeenews: 17380/221852 articles this batch, ~4971639 words this batch (~11757229 total ever)
+- [2026-08-19 12:56:48] zeenews: 17400/221852 articles this batch, ~4977034 words this batch (~11762624 total ever)
+- [2026-08-19 12:57:39] zeenews: 17420/221852 articles this batch, ~4981962 words this batch (~11767552 total ever)
+- [2026-08-19 12:58:34] zeenews: 17440/221852 articles this batch, ~4989071 words this batch (~11774661 total ever)
+- [2026-08-19 12:59:27] zeenews: 17460/221852 articles this batch, ~4994375 words this batch (~11779965 total ever)
+- [2026-08-19 13:00:34] zeenews: 17480/221852 articles this batch, ~5000735 words this batch (~11786325 total ever)
+- [2026-08-19 13:01:29] zeenews: 17500/221852 articles this batch, ~5005361 words this batch (~11790951 total ever)
+- [2026-08-19 13:02:30] zeenews: 17520/221852 articles this batch, ~5010551 words this batch (~11796141 total ever)
+- [2026-08-19 13:03:39] zeenews: 17540/221852 articles this batch, ~5015372 words this batch (~11800962 total ever)
+- [2026-08-19 13:04:35] zeenews: 17560/221852 articles this batch, ~5020925 words this batch (~11806515 total ever)
+- [2026-08-19 13:05:32] zeenews: 17580/221852 articles this batch, ~5026334 words this batch (~11811924 total ever)
+- [2026-08-19 13:06:28] zeenews: 17600/221852 articles this batch, ~5032460 words this batch (~11818050 total ever)
+- [2026-08-19 13:07:26] zeenews: 17620/221852 articles this batch, ~5041195 words this batch (~11826785 total ever)
+- [2026-08-19 13:08:17] zeenews: 17640/221852 articles this batch, ~5046373 words this batch (~11831963 total ever)
+- [2026-08-19 13:09:08] zeenews: 17660/221852 articles this batch, ~5053705 words this batch (~11839295 total ever)
+- [2026-08-19 13:10:03] zeenews: 17680/221852 articles this batch, ~5058706 words this batch (~11844296 total ever)
+- [2026-08-19 13:11:02] zeenews: 17700/221852 articles this batch, ~5064113 words this batch (~11849703 total ever)
+- [2026-08-19 13:11:48] zeenews: 17720/221852 articles this batch, ~5072238 words this batch (~11857828 total ever)
+- [2026-08-19 13:12:41] zeenews: 17740/221852 articles this batch, ~5079029 words this batch (~11864619 total ever)
+- [2026-08-19 13:13:39] zeenews: 17760/221852 articles this batch, ~5086082 words this batch (~11871672 total ever)
+- [2026-08-19 13:14:34] zeenews: 17780/221852 articles this batch, ~5094154 words this batch (~11879744 total ever)
+- [2026-08-19 13:15:30] zeenews: 17800/221852 articles this batch, ~5099139 words this batch (~11884729 total ever)
+- [2026-08-19 13:16:18] zeenews: 17820/221852 articles this batch, ~5105030 words this batch (~11890620 total ever)
+- [2026-08-19 13:17:08] zeenews: 17840/221852 articles this batch, ~5112050 words this batch (~11897640 total ever)
+- [2026-08-19 13:17:57] zeenews: 17860/221852 articles this batch, ~5117788 words this batch (~11903378 total ever)
+- [2026-08-19 13:18:48] zeenews: 17880/221852 articles this batch, ~5122947 words this batch (~11908537 total ever)
+- [2026-08-19 13:19:41] zeenews: 17900/221852 articles this batch, ~5129365 words this batch (~11914955 total ever)
+- [2026-08-19 13:20:31] zeenews: 17920/221852 articles this batch, ~5134455 words this batch (~11920045 total ever)
+- [2026-08-19 13:21:19] zeenews: 17940/221852 articles this batch, ~5139449 words this batch (~11925039 total ever)
+- [2026-08-19 13:22:10] zeenews: 17960/221852 articles this batch, ~5144628 words this batch (~11930218 total ever)
+- [2026-08-19 13:23:01] zeenews: 17980/221852 articles this batch, ~5151872 words this batch (~11937462 total ever)
+- [2026-08-19 13:23:54] zeenews: 18000/221852 articles this batch, ~5157181 words this batch (~11942771 total ever)
+- [2026-08-19 13:24:39] zeenews: 18020/221852 articles this batch, ~5162115 words this batch (~11947705 total ever)
+- [2026-08-19 13:25:33] zeenews: 18040/221852 articles this batch, ~5166728 words this batch (~11952318 total ever)
+- [2026-08-19 13:26:18] zeenews: 18060/221852 articles this batch, ~5172901 words this batch (~11958491 total ever)
+- [2026-08-19 13:27:10] zeenews: 18080/221852 articles this batch, ~5178510 words this batch (~11964100 total ever)
+- [2026-08-19 13:27:58] zeenews: 18100/221852 articles this batch, ~5182800 words this batch (~11968390 total ever)
+- [2026-08-19 13:28:46] zeenews: 18120/221852 articles this batch, ~5188165 words this batch (~11973755 total ever)
+- [2026-08-19 13:29:33] zeenews: 18140/221852 articles this batch, ~5193868 words this batch (~11979458 total ever)

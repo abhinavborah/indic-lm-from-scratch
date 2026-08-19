@@ -21,31 +21,36 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
 
 ## Hindi
 
-_Last updated: 2026-08-17 23:37:31_
+_Last updated: 2026-08-19 12:41:47_
 
-- **Real tokens (kept):** 492,318,773 / 500,000,000 target (98.5%)
-  - Manual (ocr + scrape): 61,305,212 (12.5%)
-  - Downloaded (sangraha): 431,013,561 (87.5%)
+- **Real tokens (kept):** 565,974,997 / 500,000,000 target (113.2%)
+  - Manual (ocr + scrape): 134,961,436 (23.8%)
+  - Downloaded (sangraha): 431,013,561 (76.2%)
     - of which from `unverified` (automated perplexity-filtered, **not** human-verified -- lower-confidence tier): 266
-  - Manual quota (>=20% of 500,000,000 = 100,000,000): NOT MET (61,305,212 so far)
+  - Manual quota (>=20% of 500,000,000 = 100,000,000): MET (134,961,436 so far)
 
-- **Filtering:** 1,365,711 segments scanned across 123 files.
+- **Filtering:** 1,425,976 segments scanned across 5,993 files.
   - Dropped for script impurity / fully word-stripped (clean_text.py -- NFC normalize, strip embedded Latin words, drop non-Devanagari-majority lines): 108 segments, 37,482 rough tokens
-  - Dropped as exact duplicates: 111,017 segments, 32,893,574 rough tokens
+  - Dropped as exact duplicates: 111,301 segments, 33,133,609 rough tokens
 
 ## Assamese
 
-_Last updated: 2026-08-18 01:09:20_
+_Last updated: 2026-08-19 16:43:46_
 
-- **Real tokens (kept):** 192,725,169 / 500,000,000 target (38.5%)
-  - Manual (ocr + scrape): 14,573,069 (7.6%)
-  - Downloaded (sangraha): 178,152,100 (92.4%)
+- **Real tokens (kept):** 286,543,906 / 500,000,000 target (57.3%) -- rough whitespace count, see spec-corrected estimate below
+  - Manual (ocr + scrape): 40,385,896 (14.1%)
+  - Downloaded (sangraha): 246,158,010 (85.9%)
     - of which from `unverified` (automated perplexity-filtered, **not** human-verified -- lower-confidence tier): 7,948,050
-  - Manual quota (>=20% of 500,000,000 = 100,000,000): NOT MET (14,573,069 so far)
+  - Manual quota (>=20% of 500,000,000 = 100,000,000): NOT MET (40,385,896 so far)
 
-- **Filtering:** 1,998,481 segments scanned across 66 files.
-  - Dropped for script impurity / fully word-stripped (text_clean.py -- strip embedded Latin words, drop non-Bengali-Assamese-block-majority lines): 18,035 segments, 9,880,999 rough tokens
-  - Dropped as suspected Bengali-not-Assamese (ৰ/ৱ heuristic, scrape+sangraha only -- see caveat below): 9,778 segments, 175,734 rough tokens
-  - Dropped as exact duplicates: 14,947 segments, 4,752,100 rough tokens
+- **Spec-corrected estimate (real BPE tokens, per line 121's "after tokenization"):** measured fertility 1.4398 real tokens per rough word (32k-vocab SentencePiece BPE, own corpus sample, held-out eval -- see constant comment above for method). Applying it:
+  - Total: ~412,565,916 / 500,000,000 target (82.5%)
+  - Manual: ~58,147,613 / 100,000,000 floor (58.1%)
+  - This is a snapshot, not final -- the real tokenizer isn't trained yet and vocab size isn't chosen (spec's own fertility/UNK-rate sweep is still open). Re-measure once it is.
+
+- **Filtering:** 3,793,248 segments scanned across 10,341 files.
+  - Dropped for script impurity / fully word-stripped (text_clean.py -- strip embedded Latin words, drop non-Bengali-Assamese-block-majority lines): 23,685 segments, 9,975,282 rough tokens
+  - Dropped as suspected Bengali-not-Assamese (ৰ/ৱ heuristic, scrape+sangraha only -- see caveat below): 10,519 segments, 182,230 rough tokens
+  - Dropped as exact duplicates: 116,343 segments, 12,788,075 rough tokens
 
 **Note on the ৰ/ৱ heuristic:** this is a frequency heuristic, not a real language-ID classifier -- two letters' frequency is a weak signal on its own. A lightweight tool like `langid.py`, fastText `lid.176`, or `cld3` would do a properly calibrated job; not added now, just flagging it as a future option. It's skipped entirely for the ocr/ source since the OCR pipeline's Bengali-to-Assamese correction pass already force-converts every Bengali "র" to "ৰ", which would make this check trivially pass on anything.

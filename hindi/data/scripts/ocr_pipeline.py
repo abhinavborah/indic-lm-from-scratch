@@ -104,7 +104,16 @@ def download_pdf(code, tmp_dir, stop_event=None):
         except subprocess.TimeoutExpired:
             continue
         http_code = r.stdout.strip()
+        if r.returncode != 0 or http_code == "000":
+            # connection-level failure (reset/refused/DNS/TLS) -- no real HTTP
+            # response came back, so this is exactly the transient case the
+            # retry loop exists for; retry against the deadline instead of
+            # giving up on the first blip.
+            time.sleep(DOWNLOAD_RETRY_BACKOFF_S)
+            continue
         if http_code not in ("200", "206"):
+            # real HTTP status (404 etc) -- the server answered, code doesn't
+            # exist; fail fast, don't burn the retry deadline on a dead code.
             out_path.unlink(missing_ok=True)
             return None
         if out_path.exists() and _looks_complete(out_path):

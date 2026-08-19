@@ -154,13 +154,18 @@ def discover_urls(sitemap_url):
 
 
 def scrape_article(url, content_selector):
+    """Returns None on a transient fetch failure (network/timeout -- retry
+    later, never mark done), "" when the page loaded but the selector found
+    no article container (confirmed non-article page -- permanent skip), or
+    the extracted text otherwise. Distinct from `fetch`'s own None, which
+    means "no bytes came back at all"."""
     raw = fetch(url)
     if raw is None:
         return None
     soup = BeautifulSoup(raw, "html.parser")
     container = soup.select_one(content_selector)
     if container is None:
-        return None
+        return ""
     return container.get_text(separator="\n", strip=True)
 
 
@@ -198,7 +203,9 @@ def process_source(source, scrape_state, state_lock, max_articles, max_seconds):
             text = scrape_article(url, source["content_selector"])
             with state_lock:
                 if text is None:
-                    entry["done_urls"].append(url)  # permanent skip, don't retry a dead/unparseable page
+                    continue  # transient fetch failure -- leave off done_urls, retry next run
+                if not text:
+                    entry["done_urls"].append(url)  # confirmed non-article page -- permanent skip
                     state_io.save_namespace(STATE_FILE, NAMESPACE, scrape_state)
                     continue
 

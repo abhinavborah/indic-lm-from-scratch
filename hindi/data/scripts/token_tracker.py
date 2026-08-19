@@ -52,6 +52,7 @@ TARGET_TOKENS = 500_000_000
 # unaffected -- the downloader always wrote true raw text, cleaning has
 # always happened here at count-time via clean_text().
 SOURCES = [("clean/ocr", "manual"), ("clean/scrape", "manual"),
+           ("clean/vikaspedia", "manual"), ("clean/dli_books", "manual"),
            ("raw/sangraha", "downloaded")]
 
 TOKEN_RE = re.compile(r"\S+")

@@ -20,8 +20,10 @@ state_io's flock-protected read-modify-write -- safe to run concurrently.
 """
 
 import subprocess
+import threading
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
@@ -40,10 +42,22 @@ NAMESPACE = "scrape"
 USER_AGENT = "Mozilla/5.0 (compatible; lma-individual-project-research-bot)"
 REQUEST_DELAY_S = 1.5
 MAX_RETRIES = 3
-MAX_CHILD_SITEMAPS = 50
+MAX_CHILD_SITEMAPS = 1500  # sentinelassam's sitemap.xml alone lists 1,346 daily
+                            # child sitemaps (one per publishing day since ~2018);
+                            # the old 50-document cap silently missed all but the
+                            # most recent ~50 days for any site with that many
+                            # children, including niyomiyabarta -- raising it also
+                            # widens niyomiyabarta's own reachable backlog, not
+                            # just unlocking this new source.
 LOG_EVERY_N_ARTICLES = 20
-BATCH_MAX_ARTICLES = 2000
-BATCH_MAX_SECONDS = 3600
+BATCH_MAX_ARTICLES = 1_000_000  # effectively uncapped -- run until new_urls is exhausted
+BATCH_MAX_SECONDS = 86400       # 24h safety net, not a real pacing cap anymore
+# These are small news sites, not CDN-backed archives -- unlike archive.org,
+# a burst of connections risks tripping a basic rate-limiter/WAF. Kept
+# deliberately low (vs. e.g. archive_broad_download.py's 4): each worker
+# still waits REQUEST_DELAY_S between its own requests, so this multiplies
+# throughput a few times over without a sudden spike in concurrent hits.
+WORKERS_PER_SOURCE = 3
 
 # as.wikipedia.org is handled by wiki_dump_extract.py (dump-based, not live
 # scraping here) -- see that script for why.
@@ -57,6 +71,19 @@ SOURCES = [
         "name": "asomiyapratidin",
         "sitemap": "https://asomiyapratidin.in/news-sitemap.xml",
         "content_selector": "article",
+    },
+    {
+        "name": "sentinelassam",
+        "sitemap": "https://assamese.sentinelassam.com/sitemap.xml",
+        # Modern React app, CSS-module hashed classnames (e.g.
+        # "text-story-m_story-content-inner-wrapper__s3KPp") -- matched by
+        # stable prefix via [class*=], not the volatile hash suffix. Two
+        # elements share that prefix per page: the real text body, and an
+        # empty hero-image caption wrapper (extra "hero-image" class) --
+        # :not() excludes the latter. Verified against a live article
+        # (World Environment Day piece, 05 Jun 2026): real Assamese prose,
+        # not boilerplate.
+        "content_selector": 'div[class*="text-story-m_story-content-inner-wrapper"]:not([class*="hero-image"])',
     },
 ]
 
@@ -135,13 +162,18 @@ def discover_urls(sitemap_url):
 
 
 def scrape_article(url, content_selector):
+    """Returns None on a transient fetch failure (network/timeout -- retry
+    later, never mark done), "" when the page loaded but the selector found
+    no article container (confirmed non-article page -- permanent skip), or
+    the extracted text otherwise. Distinct from `fetch`'s own None, which
+    means "no bytes came back at all"."""
     raw = fetch(url)
     if raw is None:
         return None
     soup = BeautifulSoup(raw, "html.parser")
     container = soup.select_one(content_selector)
     if container is None:
-        return None
+        return ""
     return container.get_text(separator="\n", strip=True)
 
 
@@ -181,45 +213,63 @@ def process_source(source, scrape_state):
     processed_this_run = 0
     batch_start = time.time()
     hit_batch_cap = False
+    # fetch_item_text() (the network call) runs fully concurrently across
+    # WORKERS_PER_SOURCE threads -- that's the slow part worth parallelizing.
+    # Everything that touches the shared raw_f/clean_f file handles or the
+    # entry dict is serialized under this lock so writes never interleave;
+    # the lock is only ever held for fast in-memory/disk-append work, so it
+    # doesn't erase the concurrency gain from the network calls above it.
+    write_lock = threading.Lock()
+
     with raw_path.open("a", encoding="utf-8") as raw_f, \
          clean_path.open("a", encoding="utf-8") as clean_f:
-        for url in new_urls:
-            if processed_this_run >= BATCH_MAX_ARTICLES or time.time() - batch_start >= BATCH_MAX_SECONDS:
-                hit_batch_cap = True
-                break
+
+        def handle_one(url):
+            nonlocal processed_this_run, hit_batch_cap
+            if hit_batch_cap:
+                return
 
             text = fetch_item_text(source, url)
             if text is None:
-                entry["done_urls"].append(url)  # permanent skip, don't retry a dead/unparseable page
+                return  # transient fetch failure -- leave off done_urls, retry next run
+
+            with write_lock:
+                if not text:
+                    entry["done_urls"].append(url)  # confirmed non-article page -- permanent skip
+                    state_io.save_namespace(STATE_FILE, NAMESPACE, scrape_state)
+                    return
+
+                raw_f.write(text + "\n\n")
+                raw_f.flush()
+
+                cleaned, dropped = clean_text(text)
+                if cleaned and not is_likely_assamese(cleaned):
+                    log(f"SUSPECT-LANGUAGE (low ৰ/ৱ frequency, likely Bengali not Assamese): {url}")
+                    entry["suspect_language"] += 1
+                    cleaned = ""  # excluded from the clean corpus, but URL still marked done below
+
+                if cleaned:
+                    clean_f.write(cleaned + "\n\n")
+                    clean_f.flush()
+
+                entry["done_urls"].append(url)
+                entry["total_words"] += len(cleaned.split())
+                entry["dropped_lines"] += dropped
+                # ponytail: full state file rewritten every article (O(n) per
+                # save) -- fine up to tens of thousands of URLs; if it becomes
+                # the bottleneck, switch done_urls to an append-only JSONL log.
                 state_io.save_namespace(STATE_FILE, NAMESPACE, scrape_state)
-                continue
 
-            raw_f.write(text + "\n\n")
-            raw_f.flush()
+                processed_this_run += 1
+                if processed_this_run % LOG_EVERY_N_ARTICLES == 0:
+                    log(f"{name}: {processed_this_run}/{len(new_urls)} articles this run, "
+                        f"~{entry['total_words']} words total so far, "
+                        f"{entry['dropped_lines']} non-Assamese lines dropped so far")
+                if time.time() - batch_start >= BATCH_MAX_SECONDS:
+                    hit_batch_cap = True
 
-            cleaned, dropped = clean_text(text)
-            if cleaned and not is_likely_assamese(cleaned):
-                log(f"SUSPECT-LANGUAGE (low ৰ/ৱ frequency, likely Bengali not Assamese): {url}")
-                entry["suspect_language"] += 1
-                cleaned = ""  # excluded from the clean corpus, but URL still marked done below
-
-            if cleaned:
-                clean_f.write(cleaned + "\n\n")
-                clean_f.flush()
-
-            entry["done_urls"].append(url)
-            entry["total_words"] += len(cleaned.split())
-            entry["dropped_lines"] += dropped
-            # ponytail: full state file rewritten every article (O(n) per
-            # save) -- fine up to tens of thousands of URLs; if it becomes
-            # the bottleneck, switch done_urls to an append-only JSONL log.
-            state_io.save_namespace(STATE_FILE, NAMESPACE, scrape_state)
-
-            processed_this_run += 1
-            if processed_this_run % LOG_EVERY_N_ARTICLES == 0:
-                log(f"{name}: {processed_this_run}/{len(new_urls)} articles this run, "
-                    f"~{entry['total_words']} words total so far, "
-                    f"{entry['dropped_lines']} non-Assamese lines dropped so far")
+        with ThreadPoolExecutor(max_workers=WORKERS_PER_SOURCE) as executor:
+            list(executor.map(handle_one, new_urls))
 
     remaining = len(new_urls) - processed_this_run
     if hit_batch_cap:

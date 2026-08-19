@@ -57,13 +57,28 @@ REPO_ROOT = DATA_DIR.parents[1]                     # repo root
 REPORT_PATH = REPO_ROOT / "report" / "token_progress.md"
 
 TARGET_TOKENS = 500_000_000
+# Spec targets tokens "after tokenization" (real BPE), not rough whitespace
+# words -- measured once, empirically: trained a 32k-vocab SentencePiece BPE
+# model on a 42M-char representative sample of this corpus (all 5 sources,
+# proportionally), held out 10% for eval. Result: 609,704 whitespace words
+# encoded to 877,858 real BPE tokens = 1.4398 tokens/word. Vocab size isn't
+# finalized yet (see spec's fertility/UNK-rate sweep, not done), so this is
+# a snapshot at one plausible vocab size, not the final number -- re-measure
+# once the real tokenizer is trained and drop this constant.
+MEASURED_BPE_FERTILITY = 1.4398
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (assamese-data's fix -- raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
 # unaffected -- the downloader always wrote true raw text, cleaning has
 # always happened here at count-time via clean_text().
 SOURCES = [("clean/ocr", "manual"), ("clean/scrape", "manual"),
-           ("raw/sangraha", "downloaded"), ("raw/mwirelabs", "downloaded")]
+           ("clean/vikaspedia", "manual"), ("clean/dipr", "manual"),
+           ("clean/jibonorshongram", "manual"), ("clean/newsonair", "manual"),
+           ("clean/assam_gazette", "manual"),
+           ("clean/jibonorshongram_articles", "manual"),
+           ("clean/dli_books", "manual"), ("clean/shodhganga", "manual"),
+           ("raw/sangraha", "downloaded"), ("raw/mwirelabs", "downloaded"),
+           ("raw/cc100", "downloaded"), ("raw/indiccorpv2", "downloaded")]
 
 TOKEN_RE = re.compile(r"\S+")
 
@@ -159,7 +174,8 @@ def render_section(stats):
         f"_Last updated: {ts}_",
         "",
         f"- **Real tokens (kept):** {fmt(total)} / {fmt(TARGET_TOKENS)} target "
-        f"({target_pct:.1f}%)",
+        f"({target_pct:.1f}%) -- rough whitespace count, see spec-corrected "
+        f"estimate below",
         f"  - Manual (ocr + scrape): {fmt(manual)} ({manual_pct:.1f}%)",
         f"  - Downloaded (sangraha): {fmt(downloaded)} ({100 - manual_pct:.1f}%)",
         f"    - of which from `unverified` (automated perplexity-filtered, "
@@ -169,6 +185,21 @@ def render_section(stats):
         f"{fmt(TARGET_TOKENS // 5)}): "
         f"{'MET' if manual >= TARGET_TOKENS // 5 else 'NOT MET'} "
         f"({fmt(manual)} so far)",
+        "",
+        f"- **Spec-corrected estimate (real BPE tokens, per line 121's "
+        f"\"after tokenization\"):** measured fertility "
+        f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (32k-vocab "
+        f"SentencePiece BPE, own corpus sample, held-out eval -- see constant "
+        f"comment above for method). Applying it:",
+        f"  - Total: ~{fmt(round(total * MEASURED_BPE_FERTILITY))} / "
+        f"{fmt(TARGET_TOKENS)} target "
+        f"({total * MEASURED_BPE_FERTILITY / TARGET_TOKENS * 100:.1f}%)",
+        f"  - Manual: ~{fmt(round(manual * MEASURED_BPE_FERTILITY))} / "
+        f"{fmt(TARGET_TOKENS // 5)} floor "
+        f"({manual * MEASURED_BPE_FERTILITY / (TARGET_TOKENS // 5) * 100:.1f}%)",
+        f"  - This is a snapshot, not final -- the real tokenizer isn't "
+        f"trained yet and vocab size isn't chosen (spec's own fertility/"
+        f"UNK-rate sweep is still open). Re-measure once it is.",
         "",
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",

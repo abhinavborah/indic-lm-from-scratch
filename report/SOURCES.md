@@ -28,8 +28,8 @@ tapped, not per-document detail.
 | asomiyapratidin.in | Manual, scrape | Current sitemap window mostly drained, small trickle of new articles as they publish. |
 | assamese.sentinelassam.com | Manual, scrape (open-ended loop) | In progress. About 17,000 articles discovered. A checkpoint bug found and fixed this session reset its progress counter partway through; the collected text was not lost, but some already-collected articles are being re-fetched before new ones resume. |
 | dy365live.com | Manual, scrape (open-ended loop) | Added this session. Mostly caught up to its sitemap's current window, new articles trickle in as they publish. Affected by the same checkpoint bug as sentinelassam, now fixed. |
-| assam.news18.com | Manual, scrape with a custom JSON extractor | Added this session. About 40 articles processed from the daily sitemap so far. |
-| YouTube auto-generated Assamese captions | Manual, machine transcription (not human transcription, see notes in `assamese/data/SOURCES.md`) | Added this session. Three channels (aboyobbhuyan, JSSUnsscripted, Unfiltered with Krishnakshi), all early in collection, paused partway through this session. |
+| assam.news18.com | Manual, scrape with a custom JSON extractor | Complete and stopped. 4,522 articles, ~1.44M words. Was missing from the counting script's source list until 2026-08-20 (bug, fixed same day). |
+| YouTube auto-generated Assamese captions | Manual, machine transcription (not human transcription, see notes in `assamese/data/SOURCES.md`) | Added this session. Three channels (aboyobbhuyan, JSSUnsscripted, Unfiltered with Krishnakshi), all early in collection, paused partway through this session. Was missing from the counting script's source list until 2026-08-20 (bug, fixed same day). |
 | dainandinbartagroup.in (Dainandin Barta) | Manual, scrape (open-ended loop) | Added this session. Large catalog, well past 10,000 collected. |
 | assam.nenow.in (Northeast Now) | Manual, scrape (open-ended loop) | Added this session. Large catalog, well past 14,000 collected. |
 | saneki.in | Manual, scrape (open-ended loop) | Added this session. Weekly literary magazine, well past 11,000 collected. |
@@ -37,7 +37,7 @@ tapped, not per-document detail.
 | as.wikisource.org dump | Manual, dump-based extraction (own preprocessing) | Complete. 403 pages, about 222K words. |
 | as.wikiquote.org dump | Manual, dump-based extraction (own preprocessing) | Complete. 1,729 pages, about 437K words. |
 | xobdo.org | Manual, dictionary scrape | Complete. 47,972 dictionary entries. |
-| archive.org, broader Assamese-language query | Manual, plain-text OCR derivative | Complete and stopped. About 98 genuinely new items, most overlapped with the Digital Library of India source below. Hit archive.org's 10,000-result pagination cap. |
+| archive.org, broader Assamese-language query | Manual, plain-text OCR derivative | Complete and stopped. 98 genuinely new items, ~2.18M words, most overlapped with the Digital Library of India source below. Hit archive.org's 10,000-result pagination cap. Was missing from the counting script's source list until 2026-08-20 (bug, fixed same day). |
 | as.vikaspedia.in | Manual, scrape (own JSON extraction, open-ended loop) | In progress. Added this session. 2334 URLs attempted, 1447 real articles. Same slug-collision bug as Hindi's copy, found and fixed. |
 | jibonorshongram.in, ebook listing (Wayback Machine) | Manual, Google Drive PDF plus pdftotext/OCR fallback | In progress. Added this session. 26/78 books finished. Accepted copyright risk, explicit user decision, third-party republished works, must be described accurately in the report. |
 | Digital Library of India, Assamese books (archive.org) | Manual, plain-text OCR derivative, no local OCR needed | In progress, open-ended loop. Added this session. Strongest Assamese source found this session: 116 items done, about 5.46M words, and climbing. 2,179 total items available. A filename URL-encoding bug was found and fixed (same fix applied to the Hindi copy above). |
@@ -54,12 +54,12 @@ tapped, not per-document detail.
 
 ## Real token totals
 
-From `report/token_progress.md`. Hindi's collection is halted (both
-thresholds already cleared), so its numbers are stable. Assamese collection
-is still active, so a fresher rescan will read higher; check
-`report/token_progress.md` directly for the latest.
+From `report/token_progress.md`. Both languages' corpora are frozen (final
+splits built, production tokenizers trained, 8,000-vocab both languages).
+Real numbers below are the trained tokenizer's actual output on the real
+held-out val split, not a rough proxy.
 
-- **Hindi:** 565.97M/500M total (113.2%, target cleared). Manual 134.96M/100M (both thresholds met).
-- **Assamese:** 287.94M/500M rough total (57.6%). Manual: 41.79M/100M rough (41.8% of the floor, not met yet). Spec-corrected estimates depend on the tokenizer vocabulary size, not yet finalized. See `report/token_progress.md` for the current per-vocab-size breakdown.
+- **Hindi:** ~816.6M/500M real total (163.3%, target cleared). Manual ~195.1M/100M (195.1%, floor cleared). Fertility 1.4420, UNK 0.0.
+- **Assamese:** ~565.1M/500M real total (113.0%, target cleared). Manual ~136.1M/100M (136.1%, floor cleared). Fertility 1.7437, UNK 0.0. (Corrected 2026-08-20 after fixing a source-list bug that had excluded three real, already-collected manual sources — archive.org broader query, news18, YouTube captions, ~3.67M rough words combined — from every count and from the train/val/test split itself.)
 
-*Last updated: 2026-08-19, ~19:00.*
+*Last updated: 2026-08-20, ~19:25.*

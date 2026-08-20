@@ -6,8 +6,8 @@ The Wayback CDX index holds 2,275+ other canonical URLs from this site --
 it was a general Assamese lifestyle/blog/news-aggregator, not just an ebook
 page. Manual spot-check found mixed quality: job-alert posts are thin
 boilerplate (the site's own footer admits job listings are aggregated from
-elsewhere -- same third-party-republish caveat as the ebook page, see
-CONTEXT.md's 2026-08-18 entry), but story-category ("কাহিনী") posts are real,
+elsewhere -- same third-party-republish caveat as the ebook page), but
+story-category ("কাহিনী") posts are real,
 original, full-length prose. No per-category quality gate is applied here;
 clean_text's purity filter plus a minimum-word floor does the filtering.
 

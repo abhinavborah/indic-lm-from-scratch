@@ -15,7 +15,7 @@ FIGURES_DIR = __file__.rsplit("/", 1)[0] + "/figures"
 
 def plot_manual_vs_downloaded():
     languages = ["Hindi", "Assamese"]
-    manual = [135_301_892, 74_452_715]
+    manual = [135_301_892, 78_037_234]
     downloaded = [431_013_561, 246_026_167]
 
     fig, ax = plt.subplots(figsize=(7, 5))
@@ -37,9 +37,9 @@ def plot_manual_vs_downloaded():
 
 def plot_train_val_test_split():
     languages = ["Hindi", "Assamese"]
-    train = [555_124_385, 314_223_263]
-    val = [5_453_827, 3_112_133]
-    test = [5_737_241, 3_143_486]
+    train = [555_124_385, 317_626_304]
+    val = [5_453_827, 3_280_364]
+    test = [5_737_241, 3_156_733]
 
     fig, ax = plt.subplots(figsize=(7, 5))
     x = range(len(languages))

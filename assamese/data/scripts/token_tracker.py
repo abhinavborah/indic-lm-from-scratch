@@ -58,8 +58,8 @@ REPORT_PATH = REPO_ROOT / "report" / "token_progress.md"
 
 TARGET_TOKENS = 500_000_000
 # Spec targets tokens "after tokenization" (real BPE), not rough whitespace
-# words. Production vocab size revised this session: 5,000 -> 8,000 (see
-# CONTEXT.md 2026-08-20 entries). The original 5,000 pick was based on the
+# words. Production vocab size revised this session: 5,000 -> 8,000. The
+# original 5,000 pick was based on the
 # 32M-char proxy sweep showing Assamese's fertility curve never flattening
 # the way Hindi's does; once the real 5,000-vocab tokenizer was trained and
 # measured (1.9220 real fertility, notably better than the 2.369 proxy
@@ -70,10 +70,15 @@ TARGET_TOKENS = 500_000_000
 # matched to Hindi's vocab size. The production tokenizer
 # (assamese/tokenizer/assamese_bpe_8000.model) was trained on the real
 # final train split (build_splits.py's 98% train document-level split),
-# fertility measured on the real held-out val split. UNK rate 0.0. This is
-# the final number -- no more re-measuring needed unless the corpus or
-# vocab size changes again.
-MEASURED_BPE_FERTILITY = 1.7417
+# fertility measured on the real held-out val split. UNK rate 0.0.
+# Re-measured 2026-08-20 after fixing a bug where archive_broad, news18,
+# and youtube_captions (real, already-cleaned, already-collected sources)
+# were missing from SOURCES below and so were silently excluded from every
+# count and from the actual train/val/test split. Adding them (~3.67M rough
+# words, ~1.1% of corpus) barely moved fertility (1.7417 -> 1.7437) -- not
+# enough to justify retraining the tokenizer, so the 8K model is unchanged,
+# just re-measured on the corrected val split.
+MEASURED_BPE_FERTILITY = 1.7437
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (assamese-data's fix -- raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
@@ -85,6 +90,8 @@ SOURCES = [("clean/ocr", "manual"), ("clean/scrape", "manual"),
            ("clean/assam_gazette", "manual"),
            ("clean/jibonorshongram_articles", "manual"),
            ("clean/dli_books", "manual"), ("clean/shodhganga", "manual"),
+           ("clean/archive_broad", "manual"), ("clean/news18", "manual"),
+           ("clean/youtube_captions", "manual"),
            ("raw/sangraha", "downloaded"), ("raw/mwirelabs", "downloaded"),
            ("raw/cc100", "downloaded"), ("raw/indiccorpv2", "downloaded")]
 

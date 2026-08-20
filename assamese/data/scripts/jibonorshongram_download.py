@@ -6,9 +6,9 @@ snapshot instead (~100 titles: novels and poetry by named Assamese authors,
 each linked as a Google Drive-hosted PDF). This source is a third-party
 e-book aggregator, not a licensed publisher -- the listing page's own
 disclaimer states these are republished without confirmed author/publisher
-permission. Included per explicit user decision (see CONTEXT.md, 2026-08-18
-entry) after the copyright exposure was flagged; report/SOURCES.md must
-describe this source accurately, not as a licensed release.
+permission. Included per explicit user decision after the copyright
+exposure was flagged; report/SOURCES.md must describe this source
+accurately, not as a licensed release.
 
 Per book: download the PDF from its Google Drive link (handling Drive's
 large-file "can't scan for viruses" interstitial), then per-page try

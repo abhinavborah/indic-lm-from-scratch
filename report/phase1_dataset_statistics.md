@@ -12,15 +12,15 @@ Covers both models built for this project: Model H (Hindi, higher-resource) and 
 
 | | Hindi | Assamese |
 |---|---|---|
-| Total tokens (rough, whitespace) | 566,315,453 | 320,478,882 |
-| Manual tokens (rough) | 135,301,892 | 74,452,715 |
+| Total tokens (rough, whitespace) | 566,315,453 | 324,063,401 |
+| Manual tokens (rough) | 135,301,892 | 78,037,234 |
 | Downloaded tokens (rough) | 431,013,561 | 246,026,167 |
-| Manual fraction | 23.9% | 23.2% |
+| Manual fraction | 23.9% | 24.1% |
 | Vocabulary size | 8,000 | 8,000 |
-| Fertility (real, tokens/word) | 1.4420 | 1.7417 |
+| Fertility (real, tokens/word) | 1.4420 | 1.7437 |
 | UNK rate | 0.0 | 0.0 |
-| Total tokens (real, after tokenization) | ~816,626,883 | ~558,178,069 |
-| Manual tokens (real, after tokenization) | ~195,105,328 | ~129,675,094 |
+| Total tokens (real, after tokenization) | ~816,626,883 | ~565,069,352 |
+| Manual tokens (real, after tokenization) | ~195,105,328 | ~136,073,525 |
 | Manual floor (100M) | Met | Met |
 | Total target (500M) | Met | Met |
 
@@ -34,7 +34,7 @@ Full per-source detail (site, status, item counts, notes on what was checked and
 
 **Hindi:** NCERT textbook OCR, Digital Library of India book archive, Hindi Wikipedia (dump), Vikaspedia, and four news sites (abplive, indiatv — both fully drained; patrika, zeenews — still active before the corpus freeze) for manual collection; `ai4bharat/sangraha` (verified + unverified) for downloaded.
 
-**Assamese:** SCERT/NCERT textbook OCR, Assamese Wikipedia/Wikisource/Wikiquote (dumps), xobdo.org dictionary, Vikaspedia, Digital Library of India book archive, government gazette and press-release archives, and eight news/literary sites (niyomiyabarta, asomiyapratidin, sentinelassam, dy365, news18, dainandinbartagroup, nenow, saneki) for manual collection; `ai4bharat/sangraha`, `MWirelabs/assamese-monolingual-corpus`, CC-100, and `ai4bharat/IndicCorpV2` for downloaded.
+**Assamese:** SCERT/NCERT textbook OCR, Assamese Wikipedia/Wikisource/Wikiquote (dumps), xobdo.org dictionary, Vikaspedia, Digital Library of India book archive, government gazette and press-release archives, a broader archive.org Assamese-language query, YouTube auto-generated captions (three podcast/documentary channels), and eight news/literary sites (niyomiyabarta, asomiyapratidin, sentinelassam, dy365, news18, dainandinbartagroup, nenow, saneki) for manual collection; `ai4bharat/sangraha`, `MWirelabs/assamese-monolingual-corpus`, CC-100, and `ai4bharat/IndicCorpV2` for downloaded.
 
 ## Cleaning steps (both languages)
 
@@ -51,9 +51,9 @@ Document-level (each surviving cleaned segment — one article, OCR page, dictio
 
 | | Hindi train | Hindi val | Hindi test | Assamese train | Assamese val | Assamese test |
 |---|---|---|---|---|---|---|
-| Documents | 1,289,481 | 13,159 | 13,100 | 3,711,342 | 37,766 | 38,047 |
-| Tokens (rough) | 555,124,385 | 5,453,827 | 5,737,241 | 314,223,263 | 3,112,133 | 3,143,486 |
-| Share | 98.02% | 0.96% | 1.01% | 98.05% | 0.97% | 0.98% |
+| Documents | 1,289,481 | 13,159 | 13,100 | 3,715,877 | 37,812 | 38,090 |
+| Tokens (rough) | 555,124,385 | 5,453,827 | 5,737,241 | 317,626,304 | 3,280,364 | 3,156,733 |
+| Share | 98.02% | 0.96% | 1.01% | 98.01% | 1.01% | 0.97% |
 
 ## Tokenizer
 
@@ -69,7 +69,9 @@ Vocab sizes were chosen via the course's own prescribed method — fertility on 
 
 **Hindi: 8,000.** The proxy curve makes its single largest jump between 5K and 8K (2.109→1.977), then flattens; going further buys little (8K→10K only saves 0.05) while costing real embedding-table budget out of the fixed ~25M-parameter model.
 
-**Assamese: 8,000, revised from an initial 5,000.** The proxy sweep initially favored 5,000 for Assamese — its curve never really flattens through 24K the way Hindi's does, and the corpus's own scarcity/duplication risk argued for preserving parameter budget for depth over embedding. But once the real 5,000-vocab tokenizer was trained and measured on the real corpus, real fertility (1.9220) came in notably better than the proxy estimate (2.369) had suggested. That same real-vs-proxy gap was checked at 8,000 too: real fertility 1.7417 (vs. a 2.177 proxy estimate), and the real threshold impact at 8K stays comfortably clear (manual ~129.7M/100M = 129.7%, total ~558.2M/500M = 111.6% — see the overview table above). With no severe real-measured cost at 8K, Assamese was matched to Hindi's vocab size rather than kept smaller on the strength of a proxy-sample argument alone. The embedding-vs-depth-budget tradeoff (below) and the general scaling-law data-scarcity argument (Tao et al., "Scaling Laws with Vocabulary," arXiv 2407.13623) still exist as considerations, but they're theoretical until Phase 2 training actually measures downstream model quality — they weren't strong enough on their own to prefer a smaller vocab once the real fertility numbers ruled out a severe token-count cost.
+**Assamese: 8,000, revised from an initial 5,000.** The proxy sweep initially favored 5,000 for Assamese — its curve never really flattens through 24K the way Hindi's does, and the corpus's own scarcity/duplication risk argued for preserving parameter budget for depth over embedding. But once the real 5,000-vocab tokenizer was trained and measured on the real corpus, real fertility (1.9220) came in notably better than the proxy estimate (2.369) had suggested. That same real-vs-proxy gap was checked at 8,000 too: real fertility 1.7437 (vs. a 2.177 proxy estimate), and the real threshold impact at 8K stays comfortably clear (manual ~136.1M/100M = 136.1%, total ~565.1M/500M = 113.0% — see the overview table above). With no severe real-measured cost at 8K, Assamese was matched to Hindi's vocab size rather than kept smaller on the strength of a proxy-sample argument alone. The embedding-vs-depth-budget tradeoff (below) and the general scaling-law data-scarcity argument (Tao et al., "Scaling Laws with Vocabulary," arXiv 2407.13623) still exist as considerations, but they're theoretical until Phase 2 training actually measures downstream model quality — they weren't strong enough on their own to prefer a smaller vocab once the real fertility numbers ruled out a severe token-count cost.
+
+A source-tracking bug was found and fixed the same day the vocab was finalized: three real, already-collected, already-cleaned manual sources (a broader archive.org Assamese-language query, the `news18` scrape, and YouTube auto-generated captions — about 3.67M rough words combined, ~1.1% of the corpus) were missing from the counting/split-building script's source list and so were silently excluded from every reported number and from the train/val/test split itself, despite sitting correctly collected on disk. Fixed by adding them to the source list and rebuilding the splits and all counts; the tokenizer itself was not retrained since fertility barely moved (1.7417 -> 1.7437) with the fix. All numbers in this report reflect the corrected, complete corpus.
 
 At d_model=384 (illustrative; final architecture is a Phase 2 decision), an 8K-vocab embedding table costs 12.3% of a 25M-parameter budget for either language — leaving the large majority of the budget for actual transformer depth.
 
@@ -77,7 +79,7 @@ At d_model=384 (illustrative; final architecture is a Phase 2 decision), an 8K-v
 
 | | Hindi (vocab 8,000) | Assamese (vocab 8,000) |
 |---|---|---|
-| Fertility | 1.4420 tokens/word | 1.7417 tokens/word |
+| Fertility | 1.4420 tokens/word | 1.7437 tokens/word |
 | UNK rate | 0.0 | 0.0 |
 | Avg chars/token (vocab pieces) | 4.075 | 4.325 |
 | Avg chars/token (real corpus encoding) | 3.276 | 3.689 |

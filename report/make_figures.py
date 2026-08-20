@@ -15,8 +15,8 @@ FIGURES_DIR = __file__.rsplit("/", 1)[0] + "/figures"
 
 def plot_manual_vs_downloaded():
     languages = ["Hindi", "Assamese"]
-    manual = [135_301_892, 78_037_234]
-    downloaded = [431_013_561, 246_026_167]
+    manual = [135_428_971, 77_301_769]
+    downloaded = [433_768_075, 246_596_413]
 
     fig, ax = plt.subplots(figsize=(7, 5))
     x = range(len(languages))
@@ -37,9 +37,9 @@ def plot_manual_vs_downloaded():
 
 def plot_train_val_test_split():
     languages = ["Hindi", "Assamese"]
-    train = [555_124_385, 317_626_304]
-    val = [5_453_827, 3_280_364]
-    test = [5_737_241, 3_156_733]
+    train = [557_816_148, 317_441_287]
+    val = [5_595_268, 3_168_811]
+    test = [5_785_630, 3_288_084]
 
     fig, ax = plt.subplots(figsize=(7, 5))
     x = range(len(languages))
@@ -64,8 +64,8 @@ def plot_fertility_vs_vocab():
     assamese_proxy = [2.369, 2.1769, 2.099, 1.9790, 1.8626, 1.8024]
 
     real_vocab_sizes = [5000, 8000, 10000]
-    hindi_real = [1.5605, 1.4420, 1.3964]
-    assamese_real = [1.9220, 1.7437, 1.6710]
+    hindi_real = [1.6171, 1.4940, 1.4471]
+    assamese_real = [1.9618, 1.7780, 1.7060]
 
     fig, ax = plt.subplots(figsize=(7, 5))
     ax.plot(vocab_sizes, hindi_proxy, marker="o", label="Hindi (proxy sweep)",

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Scaffold for the vocab-size sweep: fertility + UNK-rate on held-out text.
 
-Not run against the real corpus yet (that waits for the cleaned/split
-corpus from preprocessing). Structure: train one candidate model per
-vocab size, measure fertility (tokens per whitespace word) and UNK rate on
-a held-out sample, so the actual Phase 4 sweep is "call this with the real
-candidate sizes and held-out file", not new code.
+Structure: train one candidate model per vocab size, measure fertility
+(tokens per whitespace word) and UNK rate on a held-out sample. This was
+run against the real corpus for the 5K/8K/10K candidates reported in
+report/phase1_dataset_statistics.md, in addition to an earlier proxy sweep
+over a wider range of sizes on a smaller sample.
 """
 
 from train_tokenizer import train, load

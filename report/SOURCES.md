@@ -10,14 +10,14 @@ tapped, not per-document detail.
 
 | Source | Type | Status |
 |---|---|---|
-| NCERT Hindi-medium textbooks (ncert.nic.in), 1617 chapter/prelim codes across 153 books | Manual, OCR/pdftotext plus Tesseract `hin` fallback | In progress. 1212/1617 codes attempted, 789 extracted. About 30 to 40% of codes 404 (retired old-curriculum books, handled gracefully). |
-| hi.wikipedia.org | Manual, dump-based extraction (own preprocessing) | Complete. 3271/3271 chunks, about 48.1M words. |
-| Hindi news sites (patrika, zeenews active; abplive and indiatv fully drained; jagran, amarujala smoke-tested only; prabhatkhabar, aajtak blocked at the CDN/IP level) | Manual, scrape (open-ended loop) | In progress. |
-| hi.vikaspedia.in | Manual, scrape (own JSON extraction, open-ended loop) | In progress. 2235 URLs attempted, 1632 real articles. Added this session, slug-collision bug found and fixed. |
-| Digital Library of India, Hindi books (archive.org) | Manual, plain-text OCR derivative, no local OCR needed | In progress, open-ended loop. Added this session. 53,172 total items available (24 times the Assamese pool), same script as the Assamese version. About 20 items done, about 2.5M words, within minutes of starting. Expected to close most or all of Hindi's remaining manual gap on its own. |
+| NCERT Hindi-medium textbooks (ncert.nic.in), 1617 chapter/prelim codes across 153 books | Manual, OCR/pdftotext plus Tesseract `hin` fallback | Stopped at the corpus freeze. 113 items extracted, about 7.1M words. About 30 to 40% of codes 404 (retired old-curriculum books, handled gracefully). |
+| hi.wikipedia.org | Manual, dump-based extraction (own preprocessing) | Complete. 3271/3271 chunks, about 72.2M words. |
+| Hindi news sites: abplive (fully drained, ~6.7M words), indiatv (fully drained, ~4.0M words), patrika (~10.6M words), zeenews (~12.1M words, largest remaining catalog not exhausted), livehindustan (~0.8M words); jagran, amarujala smoke-tested only; bbc_hindi never run; prabhatkhabar, aajtak blocked at the CDN/IP level | Manual, scrape | Stopped at the corpus freeze. |
+| hi.vikaspedia.in | Manual, scrape (own JSON extraction) | Stopped at the corpus freeze. 5345 items extracted, about 7.6M words. Slug-collision bug found and fixed. |
+| Digital Library of India, Hindi books (archive.org) | Manual, plain-text OCR derivative, no local OCR needed | Stopped at the corpus freeze. 434 items done, about 41.7M words, of 53,172 total available. |
 | shabdkosh.com, rajbhasha.gov.in | Manual, dictionary scrape | Candidate, never checked. |
-| PIB archive, Doordarshan News | Manual, scrape | Checked, real and reachable, not built against: Hindi does not need more manual tokens right now. |
-| `ai4bharat/sangraha` (HF datasets), `verified` and `unverified`, `hin` | Downloaded | Complete. 431M tokens. |
+| PIB archive, Doordarshan News | Manual, scrape | Checked, real and reachable, not built against: Hindi cleared its manual floor without them. |
+| `ai4bharat/sangraha` (HF datasets), `verified` and `unverified`, `hin` | Downloaded | Complete. ~433.8M tokens. |
 
 ## Assamese (Model L)
 
@@ -59,7 +59,9 @@ splits built, production tokenizers trained, 8,000-vocab both languages).
 Real numbers below are the trained tokenizer's actual output on the real
 held-out val split, not a rough proxy.
 
-- **Hindi:** ~816.6M/500M real total (163.3%, target cleared). Manual ~195.1M/100M (195.1%, floor cleared). Fertility 1.4420, UNK 0.0.
-- **Assamese:** ~565.1M/500M real total (113.0%, target cleared). Manual ~136.1M/100M (136.1%, floor cleared). Fertility 1.7437, UNK 0.0. (Corrected 2026-08-20 after fixing a source-list bug that had excluded three real, already-collected manual sources — archive.org broader query, news18, YouTube captions, ~3.67M rough words combined — from every count and from the train/val/test split itself.)
+- **Hindi:** ~850.4M/500M real total (170.1%, target cleared). Manual ~202.3M/100M (202.3%, floor cleared). Fertility 1.4940, UNK 0.0.
+- **Assamese:** ~575.9M/500M real total (115.2%, target cleared). Manual ~137.4M/100M (137.4%, floor cleared). Fertility 1.7780, UNK 0.0.
 
-*Last updated: 2026-08-20, ~19:25.*
+Two corrections landed after these numbers were first reported: a source-list bug (2026-08-20) that had excluded three real, already-collected manual sources (archive.org broader query, news18, YouTube captions, ~3.67M rough words combined) from every count and from the train/val/test split; and a cleaning bug (2026-08-21, both languages) that had been stripping embedded English proper nouns and brand names (e.g. "Tata", "IRCTC") from the corpus at the word level, based on an ambiguous early course Q&A answer that a later clarification on the same page reversed. Both production tokenizers were retrained on the corrected corpus for the second fix. See `report/phase1_dataset_statistics.md`'s vocabulary-choice section for the full detail.
+
+*Last updated: 2026-08-21.*

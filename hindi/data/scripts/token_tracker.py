@@ -10,11 +10,11 @@ for all three, and for every source:
   1. Splits files into blank-line-delimited segments (matches how every
      collector in this tree writes text: sangraha docs and OCR pages are
      both joined with "\\n\\n").
-  2. Runs clean_text.clean_text() on each segment: NFC-normalizes, strips
-     individual Latin-script words (English brand names/proper nouns
-     embedded mid-sentence), then drops any resulting line that isn't
-     predominantly Devanagari. A segment that cleans down to nothing is
-     counted as filtered out, not kept.
+  2. Runs clean_text.clean_text() on each segment: NFC-normalizes, then
+     drops any line that isn't predominantly Devanagari. Embedded English
+     words/proper nouns are kept, not stripped, per course guidance. A
+     segment that cleans down to nothing is counted as filtered out, not
+     kept.
   3. Drops exact-duplicate cleaned segments (blake2b hash), across all three
      sources.
   4. Counts rough whitespace tokens on what survives, and reports manual
@@ -46,6 +46,15 @@ REPO_ROOT = DATA_DIR.parents[1]                     # repo root
 REPORT_PATH = REPO_ROOT / "report" / "token_progress.md"
 
 TARGET_TOKENS = 500_000_000
+# Spec targets tokens "after tokenization" (real BPE), not rough whitespace
+# words. Production tokenizer (hindi/tokenizer/hindi_bpe_8000.model) was
+# trained on the real final train split (build_splits.py's 98% train
+# document-level split); fertility measured on the real held-out val
+# split. UNK rate 0.0. Retrained 2026-08-21 after fixing a bug where
+# embedded English words/proper nouns (Tata, IRCTC, etc.) were being
+# stripped from the corpus at the word level, based on an ambiguous early
+# course Q&A answer that a later clarification on the same page reversed.
+MEASURED_BPE_FERTILITY = 1.4940
 # (path relative to hindi/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (hindi-data's fix: raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
@@ -142,7 +151,8 @@ def render_section(stats):
         f"_Last updated: {ts}_",
         "",
         f"- **Real tokens (kept):** {fmt(total)} / {fmt(TARGET_TOKENS)} target "
-        f"({target_pct:.1f}%)",
+        f"({target_pct:.1f}%), rough whitespace count, see spec-corrected "
+        f"estimate below",
         f"  - Manual (ocr + scrape): {fmt(manual)} ({manual_pct:.1f}%)",
         f"  - Downloaded (sangraha): {fmt(downloaded)} ({100 - manual_pct:.1f}%)",
         f"    - of which from `unverified` (automated perplexity-filtered, "
@@ -153,11 +163,26 @@ def render_section(stats):
         f"{'MET' if manual >= TARGET_TOKENS // 5 else 'NOT MET'} "
         f"({fmt(manual)} so far)",
         "",
+        f"- **Spec-corrected estimate (real BPE tokens, per line 121's "
+        f"\"after tokenization\"):** measured fertility "
+        f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (8,000-vocab "
+        f"production SentencePiece BPE, trained on the real final train "
+        f"split, measured on the real held-out val split, see constant "
+        f"comment above for method). Applying it:",
+        f"  - Total: ~{fmt(round(total * MEASURED_BPE_FERTILITY))} / "
+        f"{fmt(TARGET_TOKENS)} target "
+        f"({total * MEASURED_BPE_FERTILITY / TARGET_TOKENS * 100:.1f}%)",
+        f"  - Manual: ~{fmt(round(manual * MEASURED_BPE_FERTILITY))} / "
+        f"{fmt(TARGET_TOKENS // 5)} floor "
+        f"({manual * MEASURED_BPE_FERTILITY / (TARGET_TOKENS // 5) * 100:.1f}%)",
+        f"  - This is the final number: real production tokenizer, real "
+        f"held-out split, UNK rate 0.0. No longer a proxy estimate.",
+        "",
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",
         f"  - Dropped for script impurity / fully word-stripped "
-        f"(clean_text.py: NFC normalize, strip embedded Latin words, drop "
-        f"non-Devanagari-majority lines): {fmt(stats['segments_impure'])} "
+        f"(clean_text.py: NFC normalize, drop non-Devanagari-majority "
+        f"lines): {fmt(stats['segments_impure'])} "
         f"segments, {fmt(stats['tokens_impure_dropped'])} rough tokens",
         f"  - Dropped as exact duplicates: {fmt(stats['segments_duplicate'])} "
         f"segments, {fmt(stats['tokens_duplicate_dropped'])} rough tokens",
@@ -181,10 +206,11 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
   (machine-translated/romanized text, excluded from collection entirely).
 - Counts are rough (whitespace tokenization). Real fertility-based counts
   come from the trained tokenizer.
-- Word-level foreign-word stripping (per course guidance: digits are fine,
-  but embedded non-language words must go) and script-purity filtering both
-  happen inside each language's `clean_text.py`/`text_clean.py`, not in this
-  tracker; this script only counts what survives.
+- Script-purity filtering (dropping whole lines that aren't predominantly
+  in the target script) happens inside each language's
+  `clean_text.py`/`text_clean.py`, not in this tracker; this script only
+  counts what survives. Embedded English words/proper nouns within an
+  otherwise-native line are kept, per course guidance, not stripped.
 """
 
 

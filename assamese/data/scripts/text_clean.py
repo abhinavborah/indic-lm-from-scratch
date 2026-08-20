@@ -1,21 +1,25 @@
 """Shared Assamese text-purity helpers, used by both ocr_pipeline.py and
 scraper.py so cleaning behaves identically regardless of source.
 
-Two passes, per course guidance ("digits are fine but do remove non
-language words"):
-  - line-level: drop a whole line if it isn't majority Bengali-Assamese-block
-    script (catches boilerplate lines: bylines, dates, "Advertisment", etc).
-  - word-level: within a kept line, drop individual whitespace-separated
-    tokens that are pure Latin script with no Bengali characters (catches
-    English proper nouns/brand names embedded mid-sentence). Digit-only and
-    punctuation-only tokens are never dropped.
-"""
+Line-level filter only: drop a whole line if it isn't majority
+Bengali-Assamese-block script (catches boilerplate lines: bylines, dates,
+"Advertisment", etc).
 
-import re
+An earlier word-level pass that additionally stripped individual
+Latin-script tokens (English proper nouns/brand names embedded mid-sentence)
+was removed after a later course Q&A clarification. The original guidance
+("digits are fine but do remove non language words") was ambiguous and had
+been read as "strip words like Tata, IRCTC." A follow-up question asked
+directly whether that meant only gibberish (e.g. "asdfg") should be
+removed while keeping meaningful English words and names like Tata, IRCTC,
+and Google, and the answer was yes. Real proper nouns and loanwords
+embedded in otherwise-Assamese news prose are natural phrasing, not noise,
+so they are kept; only whole lines that fail the majority-script check are
+dropped.
+"""
 
 BENGALI_LO, BENGALI_HI = 0x0980, 0x09FF
 MIN_LINE_BENGALI_RATIO = 0.5
-_LATIN_RE = re.compile(r"[A-Za-z]")
 
 # Assamese/Bengali share the same Unicode block, so script-range checks alone
 # can't tell them apart. ৰ (ra) and ৱ (va/wa) are letters Assamese uses
@@ -45,17 +49,6 @@ def is_bengali_line(line):
     return (beng / len(alpha)) >= MIN_LINE_BENGALI_RATIO
 
 
-def strip_latin_words(line):
-    kept = []
-    for word in line.split(" "):
-        has_bengali = any(is_bengali_char(c) for c in word)
-        has_latin = bool(_LATIN_RE.search(word))
-        if has_latin and not has_bengali:
-            continue  # pure-Latin token (English word/brand name), drop
-        kept.append(word)
-    return " ".join(kept)
-
-
 def is_likely_assamese(text):
     """Whole-segment heuristic (not per-line: a single pure-Bengali-range
     line inside a genuinely Assamese article is normal). Returns True when
@@ -69,8 +62,7 @@ def is_likely_assamese(text):
 
 
 def clean_text(raw_text):
-    """Line-level filter, then word-level filter on survivors. Returns
-    (cleaned_text, dropped_line_count)."""
+    """Line-level filter only. Returns (cleaned_text, dropped_line_count)."""
     lines = [ln.strip() for ln in raw_text.splitlines()]
     kept_lines = []
     dropped = 0
@@ -80,5 +72,5 @@ def clean_text(raw_text):
         if not is_bengali_line(ln):
             dropped += 1
             continue
-        kept_lines.append(strip_latin_words(ln))
+        kept_lines.append(ln)
     return "\n".join(kept_lines), dropped

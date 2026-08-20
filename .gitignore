@@ -12,3 +12,4 @@ __pycache__/
 */data/run_*.log
 */data/.*.lock
 */data/.state.*.tmp
+*/data/COLLECTION_LOG.md

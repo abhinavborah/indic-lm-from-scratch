@@ -11,11 +11,11 @@ every source:
   1. Splits files into blank-line-delimited segments (matches how every
      collector in this tree writes text: sangraha docs and OCR pages are
      both joined with "\\n\\n").
-  2. Runs text_clean.clean_text() on each segment, drops lines that aren't
-     predominantly Bengali-Assamese-script, then strips individual
-     Latin-script words from what's left (English brand names/proper nouns
-     embedded mid-sentence). A segment that cleans down to nothing is
-     counted as filtered out, not kept.
+  2. Runs text_clean.clean_text() on each segment, dropping lines that
+     aren't predominantly Bengali-Assamese-script. Embedded English
+     words/proper nouns are kept, not stripped, per course guidance. A
+     segment that cleans down to nothing is counted as filtered out, not
+     kept.
   3. For scrape/sangraha sources only (not ocr, see below), runs
      text_clean.is_likely_assamese() as a second, separate filter: Assamese
      and Bengali share the same Unicode block, so step 2's script check
@@ -75,10 +75,16 @@ TARGET_TOKENS = 500_000_000
 # and youtube_captions (real, already-cleaned, already-collected sources)
 # were missing from SOURCES below and so were silently excluded from every
 # count and from the actual train/val/test split. Adding them (~3.67M rough
-# words, ~1.1% of corpus) barely moved fertility (1.7417 -> 1.7437), not
-# enough to justify retraining the tokenizer, so the 8K model is unchanged,
-# just re-measured on the corrected val split.
-MEASURED_BPE_FERTILITY = 1.7437
+# words, ~1.1% of corpus) barely moved fertility (1.7417 -> 1.7437).
+# Retrained again 2026-08-21 after fixing a cleaning bug that had been
+# stripping embedded English words/proper nouns (Tata, IRCTC, etc.) from
+# the corpus at the word level, based on an ambiguous early course Q&A
+# answer that a later clarification on the same page reversed. Recovering
+# those words shifted fertility enough to matter this time (old tokenizer
+# on the corrected corpus measured 1.7874, up from 1.7437), so the 8K
+# tokenizer was retrained on the corrected corpus; the retrained model
+# measures 1.7780 on the same corrected val split.
+MEASURED_BPE_FERTILITY = 1.7780
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (assamese-data's fix: raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
@@ -218,9 +224,9 @@ def render_section(stats):
         "",
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",
-        f"  - Dropped for script impurity / fully word-stripped "
-        f"(text_clean.py: strip embedded Latin words, drop non-Bengali-"
-        f"Assamese-block-majority lines): {fmt(stats['segments_impure'])} "
+        f"  - Dropped for script impurity "
+        f"(text_clean.py: drop non-Bengali-Assamese-block-majority lines): "
+        f"{fmt(stats['segments_impure'])} "
         f"segments, {fmt(stats['tokens_impure_dropped'])} rough tokens",
         f"  - Dropped as suspected Bengali-not-Assamese (ৰ/ৱ heuristic, "
         f"scrape+sangraha only; see caveat below): "
@@ -257,10 +263,11 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
   (machine-translated/romanized text, excluded from collection entirely).
 - Counts are rough (whitespace tokenization). Real fertility-based counts
   come from the trained tokenizer.
-- Word-level foreign-word stripping (per course guidance: digits are fine,
-  but embedded non-language words must go) and script-purity filtering both
-  happen inside each language's `clean_text.py`/`text_clean.py`, not in this
-  tracker; this script only counts what survives.
+- Script-purity filtering (dropping whole lines that aren't predominantly
+  in the target script) happens inside each language's
+  `clean_text.py`/`text_clean.py`, not in this tracker; this script only
+  counts what survives. Embedded English words/proper nouns within an
+  otherwise-native line are kept, per course guidance, not stripped.
 """
 
 

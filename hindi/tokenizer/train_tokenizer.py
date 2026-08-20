@@ -25,9 +25,10 @@ decisions rather than stock defaults:
   - `special_tokens` lets Phase 3 finetuning add its own control tokens
     (e.g. role markers) without touching the core training call.
 
-Do not run this against the real corpus yet: scaffold + unit test only
-until preprocessing (dedup/split/clean) is finished. See test_tokenizer.py
-for the current, small-sample self-check.
+Already run against the real corpus: the production tokenizer
+(hindi_bpe_8000.model/.vocab) was trained this way on the final train
+split produced by build_splits.py. See test_tokenizer.py for the small,
+fast scaffold self-check used during development.
 """
 
 from pathlib import Path

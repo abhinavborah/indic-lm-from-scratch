@@ -8,7 +8,7 @@ Canonical spec: `docs/LMA_Individual_Project_v1-1.md` (not in this repo, see the
 
 ```
 ├── hindi/
-│   ├── data/        # collection scripts, SOURCES.md, COLLECTION_LOG.md, splits/ (gitignored, see Drive links)
+│   ├── data/        # collection scripts, SOURCES.md; splits/ and COLLECTION_LOG.md are gitignored (splits/ on Drive, see Drive links; COLLECTION_LOG.md is a local per-item log, not a graded deliverable)
 │   └── tokenizer/   # training code and trained vocab/model files (hindi_bpe_8000.{model,vocab})
 ├── assamese/
 │   ├── data/        # same shape as hindi/data/

@@ -13,18 +13,18 @@ filter) as every other source in this pipeline.
 Streams the bz2 file page-by-page (never holds the whole decompressed dump
 in memory) using stdlib xml.etree.ElementTree's iterparse. Skips redirects,
 disambiguation stubs, and non-article namespaces. Wikitext markup (templates,
-refs, tables, links, headings) is stripped with regex-based rules -- not a
-full MediaWiki parser, but clean_text.py's Devanagari/Latin filters catch
-most of what leaks through as non-prose.
+refs, tables, links, headings) is stripped with regex-based rules. This is
+not a full MediaWiki parser, but clean_text.py's Devanagari/Latin filters
+catch most of what leaks through as non-prose.
 
 Single-process/CPU-bound: a multiprocessing.Pool was tried for the
 strip_wikitext()+clean_text() step, but the actual bottleneck turned out to
 be the bz2 decompress + XML iterparse itself (both inherently sequential,
 single stream, stay on the main process no matter how many downstream
-workers exist) -- the pool sat near-idle while the main process stayed
+workers exist). The pool sat near-idle while the main process stayed
 pegged. A real fix means splitting the *decompressed* XML by page boundaries
 into byte-range chunks and running independent decompress+parse+strip+clean
-per chunk (with per-chunk state/output that gets merged) -- meaningfully
+per chunk (with per-chunk state/output that gets merged), meaningfully
 more complex, left as a follow-up rather than rushed in.
 
 Resumable: hindi/data/.state.json under the "wiki_dump" namespace tracks the
@@ -70,13 +70,13 @@ def log(msg):
 
 def strip_wikitext(wikitext):
     """Minimal wikitext -> plain text: drop templates/refs/tables/markup
-    noise so what's left is prose. Not a full MediaWiki parser -- good
+    noise so what's left is prose. Not a full MediaWiki parser; good
     enough given clean_text.py's Devanagari-density filter mops up anything
     that slips through as a non-Hindi line/word anyway."""
     text = wikitext
     text = re.sub(r"<ref[^>]*/?>.*?</ref>", " ", text, flags=re.DOTALL)
     text = re.sub(r"<ref[^>]*/>", " ", text)
-    # Nested {{templates}} -- strip innermost-first, a few passes handles
+    # Nested {{templates}}: strip innermost-first, a few passes handles
     # realistic nesting depth without a real balanced-brace parser.
     for _ in range(5):
         new_text = re.sub(r"\{\{[^{}]*\}\}", " ", text)
@@ -96,7 +96,7 @@ def strip_wikitext(wikitext):
 
 def iter_pages(dump_path):
     """Yields (title, wikitext) for each main-namespace, non-redirect page in
-    the dump. Streams via bz2 + iterparse -- never loads the full XML tree."""
+    the dump. Streams via bz2 + iterparse; never loads the full XML tree."""
     with bz2.open(dump_path, "rb") as f:
         context = ET.iterparse(f, events=("end",))
         ns_prefix = None

@@ -2,7 +2,7 @@
 """Downloader for DIPR Assam's Assamese-language press releases (manual-collection corpus).
 
 Directorate of Information and Public Relations, Govt. of Assam
-(dipr.assam.gov.in) -- official state government communications, a subset
+(dipr.assam.gov.in), official state government communications, a subset
 explicitly titled "...Press Release Assamese No N...". Each release is a
 small born-digital PDF, not scrapeable HTML.
 

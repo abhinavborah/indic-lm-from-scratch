@@ -20,13 +20,13 @@ _LATIN_RE = re.compile(r"[A-Za-z]")
 # Assamese/Bengali share the same Unicode block, so script-range checks alone
 # can't tell them apart. ৰ (ra) and ৱ (va/wa) are letters Assamese uses
 # constantly (e.g. the -ৰ genitive case marker) and standard Bengali never
-# uses at all -- their near-total absence in an otherwise in-script segment
+# uses at all; their near-total absence in an otherwise in-script segment
 # is a signal the text is actually Bengali, not Assamese. This is a
 # heuristic, not a language-ID classifier: short segments are exempted
 # (too little signal), and it's only meaningful on text that hasn't gone
 # through an Assamese-specific correction pass already (see ocr_pipeline.py's
 # correct_ra, which force-converts all Bengali "র"->"ৰ" and would make this
-# check trivially pass on anything -- not applied to OCR output for that
+# check trivially pass on anything, so it's not applied to OCR output for that
 # reason, only to scraped text).
 RA_VA_CHARS = {"ৰ", "ৱ"}
 MIN_ASSAMESE_MARKER_RATIO = 0.005
@@ -51,13 +51,13 @@ def strip_latin_words(line):
         has_bengali = any(is_bengali_char(c) for c in word)
         has_latin = bool(_LATIN_RE.search(word))
         if has_latin and not has_bengali:
-            continue  # pure-Latin token (English word/brand name) -- drop
+            continue  # pure-Latin token (English word/brand name), drop
         kept.append(word)
     return " ".join(kept)
 
 
 def is_likely_assamese(text):
-    """Whole-segment heuristic (not per-line -- a single pure-Bengali-range
+    """Whole-segment heuristic (not per-line: a single pure-Bengali-range
     line inside a genuinely Assamese article is normal). Returns True when
     there's too little Bengali-range text to judge, so callers should apply
     this only as a soft/logged signal, not a hard gate on short segments."""

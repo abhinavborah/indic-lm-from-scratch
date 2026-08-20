@@ -5,10 +5,10 @@ Vikaspedia (C-DAC / MeitY, Government of India) is a multilingual public-
 policy knowledge portal. Its article pages are a Next.js app that appears
 JS-rendered (a plain HTML fetch of the page shell shows no body text), but
 the real article body ships inline as JSON in a `__NEXT_DATA__` script tag
-regardless -- `props.pageProps.ssrPageContent.content` holds the actual
+regardless: `props.pageProps.ssrPageContent.content` holds the actual
 HTML-formatted article body for real leaf articles. `ssrPageData` (rather
 than `ssrPageContent`) or a non-null `ssrContentStatus` (e.g. 301) means the
-URL is a folder/category page or stale/moved -- skipped, not an article.
+URL is a folder/category page or stale/moved; skipped, not an article.
 Confirmed empirically via direct curl before writing this script; no
 browser automation needed.
 
@@ -67,7 +67,7 @@ def save_state(state):
 
 def fetch(url):
     # sitemap <loc> entries and the article slugs derived from them are raw
-    # UTF-8 (Devanagari), not percent-encoded -- urllib.request refuses a
+    # UTF-8 (Devanagari), not percent-encoded: urllib.request refuses a
     # non-ASCII URL outright, so encode the path/query safely first.
     safe_url = urllib.parse.quote(url, safe=":/?=&")
     req = urllib.request.Request(safe_url, headers={"User-Agent": USER_AGENT})
@@ -80,8 +80,8 @@ def fetch(url):
 
 
 def discover_urls():
-    """sitemap.xml is huge (MBs) -- regex over raw bytes rather than a full
-    XML DOM parse, streaming-friendly and avoids pulling in an XML lib."""
+    """sitemap.xml is huge (MBs); regex over raw bytes rather than a full
+    XML DOM parse is streaming-friendly and avoids pulling in an XML lib."""
     body = fetch(SITEMAP_URL)
     if body is None:
         return []
@@ -115,7 +115,7 @@ def process_url(url_bytes, state):
 
     html = fetch(url)
     if html is None:
-        return False  # transient -- leave off state, retry next run
+        return False  # transient, leave off state, retry next run
     text = extract_article_text(html)
     if not text:
         state[url] = {"status": "not_article"}
@@ -124,7 +124,7 @@ def process_url(url_bytes, state):
 
     cleaned = clean_text(text)
     # non-ASCII (Devanagari) slugs collapse to near-identical ASCII residue
-    # after stripping -- append a URL hash so distinct articles never
+    # after stripping; a URL hash is appended so distinct articles never
     # collide on the same filename.
     url_hash = hashlib.blake2b(url.encode(), digest_size=4).hexdigest()
     ascii_slug = re.sub(r"[^a-zA-Z0-9]+", "_", url.split("vikaspedia.in")[-1]).strip("_").lower()[:60]

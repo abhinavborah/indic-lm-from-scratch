@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Assamese Wikisource manual-collection source: dump-based, same logic as
-wiki_dump_extract.py (Assamese Wikipedia) -- a dump counts as manual
+wiki_dump_extract.py (Assamese Wikipedia): a dump counts as manual
 collection as long as *we* do the preprocessing. Wikisource holds
 proofread, public-domain literary/document text (poetry, prose, official
 documents), a different register from Wikipedia's encyclopedic prose.
@@ -14,7 +14,7 @@ tracks the last fully-processed page index. Output: unfiltered prose to
 assamese/data/raw/scrape/as_wikisource.txt, purity-filtered text to
 assamese/data/clean/scrape/as_wikisource.txt (same shape as as_wikipedia.txt
 so token_tracker.py picks it up automatically via its existing clean/scrape
-glob -- no tracker changes needed for this source).
+glob, so no tracker changes needed for this source).
 """
 
 import urllib.request

@@ -3,14 +3,14 @@
 
 Per chapter code (see ncert_catalog.py): download the PDF from
 ncert.nic.in/textbook/pdf/, then try pdftotext first (many NCERT PDFs are
-born-digital). Some NCERT PDFs embed a non-Unicode glyph font -- pdftotext
+born-digital). Some NCERT PDFs embed a non-Unicode glyph font, so pdftotext
 "succeeds" but returns garbage/mojibake with near-zero real Devanagari
-codepoints -- so the extracted text is validated by Devanagari-block density
-before being trusted; below threshold, falls back to rendering the page via
-pdftoppm and running Tesseract with the `hin` model. Output is passed through
-clean_text.py (NFC normalize + drop non-Devanagari lines) before being
-appended to the per-book output file, so raw/ocr/*.txt is already
-script-filtered.
+codepoints. The extracted text is therefore validated by Devanagari-block
+density before being trusted; below threshold, falls back to rendering the
+page via pdftoppm and running Tesseract with the `hin` model. Output is
+passed through clean_text.py (NFC normalize + drop non-Devanagari lines)
+before being appended to the per-book output file, so raw/ocr/*.txt is
+already script-filtered.
 
 Resumable: hindi/data/.state.json tracks per-chapter-code status ("done" /
 "no_pdf"). Safe to interrupt (Ctrl-C) and rerun; already-finished codes are
@@ -45,7 +45,7 @@ OCR_DPI = 200
 CURL_ATTEMPT_TIMEOUT_S = 30  # single curl invocation's own -m timeout
 DOWNLOAD_DEADLINE_S = 45 * 60  # retry a single file's download for up to this long before giving up
 DOWNLOAD_RETRY_BACKOFF_S = 5   # pause between retry attempts on the same file
-DOWNLOAD_WORKERS = 6  # concurrent PDF downloads -- a slow/flaky file must not block the others
+DOWNLOAD_WORKERS = 6  # concurrent PDF downloads; a slow/flaky file must not block the others
 SUBPROCESS_TIMEOUT_S = 60  # pdftoppm/tesseract can hang on a malformed page; never block forever
 LOG_EVERY_N_ITEMS = 10
 DEFAULT_MAX_NEW_ITEMS = 200  # batch pacing: stop after N *newly* attempted items...
@@ -79,10 +79,10 @@ def download_pdf(code, tmp_dir, stop_event=None):
     """ncert.nic.in resets the connection mid-transfer on larger PDFs fairly
     often; retry with -C - (range resume) rather than restarting from zero.
     Retries against a wall-clock deadline (not a fixed attempt count) so a
-    file that's merely slow -- rather than genuinely dead -- gets a generous
+    file that's merely slow, rather than genuinely dead, gets a generous
     chance before being given up on as a real 404/failure. `stop_event`, when
     given, lets an in-progress retry loop abandon early once the batch has
-    already decided to stop -- otherwise a worker thread's up-to-45min retry
+    already decided to stop; otherwise a worker thread's up-to-45min retry
     budget would keep the whole process alive well past the batch boundary
     (ThreadPoolExecutor workers are not daemon threads).
     """
@@ -105,14 +105,14 @@ def download_pdf(code, tmp_dir, stop_event=None):
             continue
         http_code = r.stdout.strip()
         if r.returncode != 0 or http_code == "000":
-            # connection-level failure (reset/refused/DNS/TLS) -- no real HTTP
+            # connection-level failure (reset/refused/DNS/TLS): no real HTTP
             # response came back, so this is exactly the transient case the
             # retry loop exists for; retry against the deadline instead of
             # giving up on the first blip.
             time.sleep(DOWNLOAD_RETRY_BACKOFF_S)
             continue
         if http_code not in ("200", "206"):
-            # real HTTP status (404 etc) -- the server answered, code doesn't
+            # real HTTP status (404 etc): the server answered, code doesn't
             # exist; fail fast, don't burn the retry deadline on a dead code.
             out_path.unlink(missing_ok=True)
             return None
@@ -124,8 +124,8 @@ def download_pdf(code, tmp_dir, stop_event=None):
 
 
 def _run(cmd, **kw):
-    """subprocess.run with a hard timeout -- pdftoppm/tesseract can hang on a
-    malformed page, and an unbounded call would stall the whole pipeline."""
+    """subprocess.run with a hard timeout, since pdftoppm/tesseract can hang
+    on a malformed page, and an unbounded call would stall the whole pipeline."""
     try:
         return subprocess.run(cmd, capture_output=True, text=True, timeout=SUBPROCESS_TIMEOUT_S, **kw)
     except subprocess.TimeoutExpired:
@@ -168,7 +168,7 @@ def process_download_result(prefix, code, pdf_path, state, tmp_dir, log_file=LOG
     download failed). Runs in the main thread even when downloads themselves
     are parallelized, since it also does the CPU-bound OCR fallback and
     writes to the shared state file. Writes BOTH the original unfiltered
-    extracted text (raw/ocr/) and clean_text()'s output (clean/ocr/) -- the
+    extracted text (raw/ocr/) and clean_text()'s output (clean/ocr/): the
     spec requires retaining both, not just the cleaned version."""
     if pdf_path is None:
         state[code] = {"status": "no_pdf"}
@@ -198,7 +198,7 @@ def process_item(prefix, code, state, tmp_dir, log_file=LOG_FILE):
     """Serial download+extract for a single item (used by the resume self-test
     and any one-off/ad hoc call). The batch runner in main() parallelizes the
     download step across items instead of calling this directly."""
-    if code in state:  # "done" or "no_pdf" -- both are resolved, skip on resume/re-batch
+    if code in state:  # "done" or "no_pdf"; both are resolved, skip on resume/re-batch
         return
     pdf_path = download_pdf(code, tmp_dir)
     process_download_result(prefix, code, pdf_path, state, tmp_dir, log_file)
@@ -232,9 +232,9 @@ def main():
     # Downloads run in a thread pool (I/O-bound, so a slow/flaky file doesn't
     # block the others behind it); extraction (CPU-bound OCR + shared-state
     # writes) stays serial in the main thread as each download completes.
-    # cancel_futures=True on shutdown only drops *unstarted* work -- a
+    # cancel_futures=True on shutdown only drops *unstarted* work. A
     # download already mid-retry (up to DOWNLOAD_DEADLINE_S) keeps running in
-    # its thread even after we stop consuming results, so at-most-N-workers
+    # its thread even after results stop being consumed, so at-most-N-workers
     # of overrun past a batch's stop point is expected, not a bug.
     stop_event = threading.Event()
     pool = ThreadPoolExecutor(max_workers=DOWNLOAD_WORKERS)

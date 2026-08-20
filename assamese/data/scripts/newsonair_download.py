@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Downloader for newsonair.gov.in's Assamese regional bulletin PDFs (manual-collection corpus).
 
-News On AIR (Akashvani/All India Radio, Prasar Bharati, Govt of India) --
+News On AIR (Akashvani/All India Radio, Prasar Bharati, Govt of India):
 official news-script PDFs for its Guwahati Assamese regional unit, published
 daily. Same underlying source as AIKosh's "Assamese News Bulletin - Akashvani"
 dataset, but live and open (no account registration needed), unlike AIKosh's
@@ -10,7 +10,7 @@ copy which is marked Restricted.
 Discovery: bulletins-city/assamese/ lists the most recent bulletins with
 direct PDF download links. Real pagination exists via ?page=N (confirmed by
 direct check: page=29 reaches mid-May 2026, page=100 reaches Sep 2025, each
-page distinct from the last) -- an earlier version of this script missed
+page distinct from the last); an earlier version of this script missed
 it (tried /page/N/ as a path segment, got 404, wrongly concluded there was
 no pagination). Paginates until two consecutive pages add nothing new.
 
@@ -41,7 +41,7 @@ REQUEST_TIMEOUT_S = 30
 MAX_PAGES = 1000  # safety cap; real depth unknown, confirmed real content past page 100
 EMPTY_PAGE_STREAK_TO_STOP = 2
 # These site-wide static PDFs sit in the page footer and appear on EVERY
-# page regardless of content -- discovered when discovery ran to page 500
+# page regardless of content, discovered when discovery ran to page 500
 # with the URL count stuck flat since ~page 440: the stop condition never
 # fired because these kept every page looking "non-empty". Filtered by
 # filename since they're not scoped to the results table any other way.
@@ -93,7 +93,7 @@ def fetch(url):
 
 
 def discover_pdf_urls_on_page(page_num, retries=2):
-    """Returns None on a fetch failure (after retries) -- distinct from a
+    """Returns None on a fetch failure (after retries), distinct from a
     real empty list, so the caller doesn't mistake a transient timeout for
     genuinely reaching the end of the archive."""
     url = LISTING_URL if page_num == 1 else f"{LISTING_URL}?page={page_num}"
@@ -120,10 +120,10 @@ def discover_pdf_urls(state):
     """Paginate via ?page=N until EMPTY_PAGE_STREAK_TO_STOP consecutive pages
     successfully load and have zero PDF links (structurally past the end of
     the archive), or MAX_PAGES is hit. A fetch failure does NOT count toward
-    that streak -- it's retried within discover_pdf_urls_on_page, and if
+    that streak; it's retried within discover_pdf_urls_on_page, and if
     still unreachable the page is just skipped and pagination continues, so
     a transient timeout can never be mistaken for end-of-archive. Also does
-    NOT stop just because a page's items are already in state -- on a resume
+    NOT stop just because a page's items are already in state; on a resume
     run, early pages are fully synced but later pages still hold new
     content, and stopping on "nothing new this page" would cut the crawl
     short before reaching it."""

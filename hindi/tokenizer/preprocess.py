@@ -4,7 +4,7 @@
 Reuses hindi/data/scripts/clean_text.py (NFC-normalize, strip embedded
 Latin-script words, drop non-Devanagari-majority lines) so the tokenizer is
 trained on the same notion of "clean Hindi" as the corpus-progress reports
-use -- one purity definition per language, not a second copy that could
+use: one purity definition per language, not a second copy that could
 drift from it.
 """
 
@@ -25,8 +25,8 @@ def preprocess_lines(lines):
 
 
 def preprocess_file(raw_path, out_path):
-    """Clean a raw text file into a plain-text file, one cleaned line per line
-    -- the format sentencepiece's trainer expects as `input=`."""
+    """Clean a raw text file into a plain-text file, one cleaned line per line:
+    the format sentencepiece's trainer expects as `input=`."""
     raw_path, out_path = Path(raw_path), Path(out_path)
     with raw_path.open("r", encoding="utf-8", errors="replace") as src, \
          out_path.open("w", encoding="utf-8") as dst:

@@ -2,11 +2,11 @@
 """Downloader for jibonorshongram.in's general articles via Wayback Machine (manual-collection corpus).
 
 Separate from `jibonorshongram_download.py` (the ~78-book ebook listing).
-The Wayback CDX index holds 2,275+ other canonical URLs from this site --
+The Wayback CDX index holds 2,275+ other canonical URLs from this site:
 it was a general Assamese lifestyle/blog/news-aggregator, not just an ebook
 page. Manual spot-check found mixed quality: job-alert posts are thin
 boilerplate (the site's own footer admits job listings are aggregated from
-elsewhere -- same third-party-republish caveat as the ebook page), but
+elsewhere, the same third-party-republish caveat as the ebook page), but
 story-category ("কাহিনী") posts are real,
 original, full-length prose. No per-category quality gate is applied here;
 clean_text's purity filter plus a minimum-word floor does the filtering.
@@ -115,7 +115,7 @@ def process_url(url, ts, state):
     wayback_url = f"https://web.archive.org/web/{ts}/{url}"
     html = fetch(wayback_url)
     if html is None:
-        return False  # transient -- leave off state, retry next run
+        return False  # transient: leave off state, retry next run
 
     soup = BeautifulSoup(html, "html.parser")
     container = soup.select_one("article")

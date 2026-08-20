@@ -2,32 +2,32 @@
 """Assamese manual-collection corpus: yt-dlp auto-generated 'as' captions
 from long-form Assamese podcast/documentary channels.
 
-This is machine transcription (YouTube ASR), not human transcription -- a
+This is machine transcription (YouTube ASR), not human transcription, a
 different tier from OCR/scrape, but still real: verified on real videos this
 session that the extracted text is coherent, topical, natural-sounding
 Assamese, not garbled machine-translation-from-a-different-language (the
-per-video "language" metadata field is often wrong -- hi/bn/en-US declared
-even for genuinely Assamese-spoken content -- but the "as" auto-caption
+per-video "language" metadata field is often wrong: hi/bn/en-US declared
+even for genuinely Assamese-spoken content; but the "as" auto-caption
 track itself reads as real Assamese regardless of that mislabel).
 
 Known ASR artifact this session found and filters for: stutter/repetition
 loops (e.g. a word repeated 5-10x in a row) that survive the language-purity
-filter (still valid in-script Assamese) but are not natural phrasing --
+filter (still valid in-script Assamese) but are not natural phrasing;
 collapse_repeats() strips these before counting/writing clean output.
 
 YouTube's timedtext/caption endpoint rate-limits aggressively and the block
 does not clear quickly (observed: still 429ing 10+ minutes after the last
-successful fetch, not a simple few-seconds throttle) -- REQUEST_DELAY_S is
+successful fetch, not a simple few-seconds throttle); REQUEST_DELAY_S is
 deliberately generous, and BACKOFF_BASE_S/BACKOFF_CAP_S govern the retry
 backoff on a 429. A video that still fails after MAX_RETRIES attempts is
 pushed to the end of the in-run queue (not marked done) and retried once
 the rest of the queue has been attempted, per the checkpoint contract below.
 
 Resumable: assamese/data/.state.json under the "youtube_captions" namespace
-tracks every video id already written (success or permanent skip -- no
+tracks every video id already written (success or permanent skip: no
 caption track / video unavailable), so a rerun only fetches new videos.
 Shares the state file with scraper.py/ocr_pipeline.py via state_io's
-flock-protected read-modify-write -- safe to run concurrently.
+flock-protected read-modify-write; safe to run concurrently.
 """
 
 import re
@@ -44,14 +44,14 @@ CLEAN_OUT_DIR = DATA_DIR / "clean" / "youtube_captions"
 STATE_FILE = DATA_DIR / ".state.json"
 LOG_FILE = DATA_DIR / "COLLECTION_LOG.md"
 # Each channel gets its OWN top-level state_io namespace (not a shared
-# "youtube_captions" dict keyed by channel name) -- each channel runs as its
+# "youtube_captions" dict keyed by channel name); each channel runs as its
 # own OS process (separate herdr pane per channel), and state_io's
 # load-once-save-wholesale namespace contract only serializes writes within
 # a single process's lifetime, not across processes that each hold a stale
 # full-namespace snapshot from startup. Found this session: three channels
 # in three concurrent processes sharing one "youtube_captions" namespace
 # clobbered each other's checkpoints on every save (last writer wins for the
-# whole namespace) -- aboyobbhuyan's 5 real successful downloads survived on
+# whole namespace); aboyobbhuyan's 5 real successful downloads survived on
 # disk (raw/clean text files are per-channel, unaffected) but its done_ids
 # checkpoint was wiped by the other two channels' saves, which would have
 # silently re-downloaded and re-appended them on resume. One namespace per
@@ -72,7 +72,7 @@ LOG_EVERY_N_VIDEOS = 5
 BATCH_MAX_SECONDS = 86400  # 24h safety net, matches scraper.py's convention
 
 # Structured as a list so adding a channel is a one-line addition, not a
-# rewrite -- each name is run as its own pane/process (see COLLECTION_LOG.md
+# rewrite; each name is run as its own pane/process (see COLLECTION_LOG.md
 # for per-channel progress), sharing this file's state namespace by keying
 # on "name" the same way scraper.py's SOURCES do.
 SOURCES = [
@@ -122,7 +122,7 @@ REPEAT_RUN_RE = re.compile(r"(\S+)(?:\s+\1){2,}")  # same word 3+ times in a row
 
 def collapse_repeats(text):
     """ASR stutter artifact found this session, e.g. 'ইট ইট ইট ইট ইট ইট ই ই
-    শক্তি' -- valid in-script Assamese, so the purity filter lets it through,
+    শক্তি', valid in-script Assamese, so the purity filter lets it through,
     but it isn't natural phrasing. Collapse a repeated-word run down to one
     occurrence rather than dropping the whole line (surrounding words are
     usually genuine)."""
@@ -153,11 +153,11 @@ def download_captions(video_id):
             time.sleep(backoff)
             continue
         if "no subtitles" in stderr.lower() or "Requested format is not available" in stderr:
-            return ""  # confirmed no 'as' track -- permanent skip
+            return ""  # confirmed no 'as' track, permanent skip
         log(f"{video_id}: fetch attempt {attempt}/{MAX_RETRIES} failed: "
             f"{stderr.strip().splitlines()[-1] if stderr.strip() else 'unknown error'}")
         time.sleep(REQUEST_DELAY_S)
-    return None  # exhausted retries this pass -- caller requeues to end
+    return None  # exhausted retries this pass, caller requeues to end
 
 
 def process_source(source):
@@ -178,7 +178,7 @@ def process_source(source):
         log(f"{name}: channel discovery attempt {attempt + 1}/3 failed, retrying")
         time.sleep(REQUEST_DELAY_S)
     if ids is None:
-        log(f"{name}: channel discovery failed 3/3 times -- skipping this run")
+        log(f"{name}: channel discovery failed 3/3 times, skipping this run")
         return
 
     queue = deque(v for v in ids if v not in done)
@@ -204,9 +204,9 @@ def process_source(source):
 
             if text is None:
                 if video_id in requeued_once:
-                    log(f"{video_id}: failed again after requeue -- leaving for next run")
+                    log(f"{video_id}: failed again after requeue, leaving for next run")
                     continue  # not marked done, next invocation of the script retries it
-                log(f"{video_id}: failed {MAX_RETRIES}/{MAX_RETRIES} fetch attempts -- "
+                log(f"{video_id}: failed {MAX_RETRIES}/{MAX_RETRIES} fetch attempts, "
                     f"pushed to end of queue, retrying after the rest")
                 requeued_once.add(video_id)
                 queue.append(video_id)
@@ -255,7 +255,7 @@ def main():
     requested = sys.argv[1].split(",") if len(sys.argv) > 1 else None
     selected = [s for s in SOURCES if not requested or s["name"] in requested]
     if not selected:
-        log(f"No matching sources for {requested!r} -- known: {[s['name'] for s in SOURCES]}")
+        log(f"No matching sources for {requested!r}; known: {[s['name'] for s in SOURCES]}")
         return
 
     RAW_OUT_DIR.mkdir(parents=True, exist_ok=True)

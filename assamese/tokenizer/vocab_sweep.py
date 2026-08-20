@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scaffold for the vocab-size sweep -- fertility + UNK-rate on held-out text.
+"""Scaffold for the vocab-size sweep: fertility + UNK-rate on held-out text.
 
 Not run against the real corpus yet (that waits for the cleaned/split
 corpus from preprocessing). Structure: train one candidate model per

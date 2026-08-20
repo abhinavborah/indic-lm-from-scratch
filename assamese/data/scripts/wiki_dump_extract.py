@@ -5,7 +5,7 @@ Course clarification: a Wikipedia XML dump counts as manual collection
 *if you preprocess it yourself* (unlike a ready-made corpus like Sangraha,
 which is already tokenized prose). This script streams
 aswiki-latest-pages-articles.xml.bz2, strips wikitext markup down to prose
-by hand (no mwparserfromhell/wikiextractor dependency -- regex-based, same
+by hand (no mwparserfromhell/wikiextractor dependency, regex-based, same
 spirit as the hand-rolled tokenizer elsewhere in this project), and runs the
 result through the same text_clean purity filters used for OCR/scrape output.
 
@@ -95,7 +95,7 @@ def wikitext_to_prose(wikitext):
     text = html.unescape(text)
     # Safety net: malformed source wikitext (mismatched single/double
     # brackets, truncated templates) occasionally survives the structured
-    # passes above as a stray bracket -- real Assamese prose never uses
+    # passes above as a stray bracket. Real Assamese prose never uses
     # square/curly brackets, so any left at this point are markup residue.
     text = re.sub(r"[\[\]{}]", "", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -106,7 +106,7 @@ def wikitext_to_prose(wikitext):
 
 def iter_dump_pages(dump_path):
     """Yields (title, wikitext) for namespace-0, non-redirect pages, in
-    stable dump order. Streams the bz2 file directly -- never fully
+    stable dump order. Streams the bz2 file directly, never fully
     decompresses to disk (the decompressed dump is several hundred MB)."""
     with bz2.open(dump_path, "rb") as f:
         context = ET.iterparse(f, events=("end",))
@@ -125,7 +125,7 @@ def iter_dump_pages(dump_path):
 
 def main():
     if not DUMP_PATH.exists():
-        log(f"MISSING dump file: {DUMP_PATH} -- download it first from "
+        log(f"MISSING dump file: {DUMP_PATH}; download it first from "
             f"https://dumps.wikimedia.org/aswiki/latest/aswiki-latest-pages-articles.xml.bz2")
         return
 

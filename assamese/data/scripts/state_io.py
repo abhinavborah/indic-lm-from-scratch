@@ -4,7 +4,7 @@ Multiple collection scripts (OCR, scraper) run concurrently and checkpoint to
 the same state file under separate top-level namespaces ("ocr", "scrape").
 Each call takes an exclusive flock (on a separate, never-replaced .lock file)
 for the read-modify-write, and writes are committed via a temp-file + atomic
-os.replace() rather than truncate-in-place -- a kill mid-write (this machine
+os.replace() rather than truncate-in-place, so a kill mid-write (this machine
 sleeps often and has killed background jobs before) can no longer leave
 .state.json empty and wipe every namespace's checkpoint progress.
 """

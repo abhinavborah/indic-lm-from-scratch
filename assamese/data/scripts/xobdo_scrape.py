@@ -5,8 +5,8 @@ xobdo.org (est. 2006, first online Assamese dictionary, wiki-based/
 community-edited) exposes its whole alphabetical word index as ~361
 precomputed (start, end) lexicographic range pairs baked into the /alpha
 page's HTML (one per `loadWordRange(this, start, end, langId, posId)` call).
-Each range maps directly to a clean JSON API --
-/2025-web/api/wordsalpha.php?start=..&end=..&l=2 (2 = Assamese) -- that
+Each range maps directly to a clean JSON API,
+/2025-web/api/wordsalpha.php?start=..&end=..&l=2 (2 = Assamese), which
 returns word + part-of-speech + full definition text with no HTML parsing
 needed. This script scrapes that JSON API range by range (own preprocessing
 of a live site = manual collection, same logic as the Wikipedia dump).
@@ -19,7 +19,7 @@ word, since a single word+gloss is usually too short for the ৰ/ৱ-frequency
 check to be meaningful.
 
 Resumable: assamese/data/.state.json under the "xobdo" namespace tracks the
-last fully-processed range index (range order is stable -- baked into the
+last fully-processed range index (range order is stable, baked into the
 static HTML). Output: unfiltered prose to assamese/data/raw/scrape/xobdo.txt,
 purity-filtered to assamese/data/clean/scrape/xobdo.txt.
 """
@@ -128,7 +128,7 @@ def main():
 
     ranges = discover_ranges()
     if ranges is None:
-        log("xobdo: could not discover alphabetical ranges from /alpha -- aborting")
+        log("xobdo: could not discover alphabetical ranges from /alpha, aborting")
         return
     log(f"xobdo: discovered {len(ranges)} alphabetical ranges")
 

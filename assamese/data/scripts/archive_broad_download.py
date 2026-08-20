@@ -6,7 +6,7 @@ scoped to one collection (manual-collection corpus).
 (vs. the 2,179 already covered via collection:digitallibraryindia and the
 6,024 via the Assam Gazette). Top collections in a sample: opensource,
 magazine_rack, community, folkscanomy_religion, plus assorted personal
-uploads -- a heterogeneous mix, unlike DLI's curated book catalog, so yield
+uploads, a heterogeneous mix unlike DLI's curated book catalog, so yield
 and quality per item are unproven until real batches land. Same
 archive.org auto-OCR `_djvu.txt` mechanism as the other two sources, no
 local OCR needed.
@@ -17,7 +17,7 @@ tagged language:asm, so it's a strict subset of this broader query) and
 possibly assam_gazette. process_item() checks all three namespaces before
 downloading anything, so nothing gets double-counted or re-fetched.
 
-advancedsearch.php hard-caps sorted pagination at 10,000 -- with 15,385
+advancedsearch.php hard-caps sorted pagination at 10,000; with 15,385
 total matches, roughly 5,000 items past the cap are unreachable via this
 method (same documented limitation as dli_books_download.py; see that
 script's discover_identifiers docstring for why the cursor-based scrape API
@@ -58,7 +58,7 @@ REQUEST_TIMEOUT_S = 30
 PAGE_SIZE = 100
 DEFAULT_MAX_NEW_ITEMS = 100
 # archive.org is a large, CDN-backed service built for heavy concurrent
-# traffic (unlike the small news sites this project also scrapes) -- a
+# traffic (unlike the small news sites this project also scrapes), so a
 # handful of concurrent connections is well within normal usage, not
 # aggressive scraping. Each worker still paces its own requests (see
 # process_item's sleep), so this multiplies throughput without bursting.
@@ -111,7 +111,7 @@ def correct_ra(text):
 
 def discover_identifiers(start):
     """Same 10,000-result advancedsearch.php cap as dli_books_download.py
-    and assam_gazette_download.py -- see those scripts for why the
+    and assam_gazette_download.py; see those scripts for why the
     cursor-based scrape API alternative was tried and reverted."""
     params = {
         "q": "language:(asm) AND mediatype:texts",
@@ -149,12 +149,12 @@ def djvu_txt_filename(identifier):
 
 def fetch_download(url):
     """Like fetch(), but distinguishes a permanent access restriction
-    (401/403 -- archive.org lending-library items that require their own
+    (401/403: archive.org lending-library items that require their own
     separate archive.org login, unrelated to this project and unfixable
     here) from a transient failure. Observed live: without this, the same
     couple of restricted items get retried on every page forever (they
     keep reappearing across different `start` offsets, a pagination quirk
-    on archive.org's side) -- pure wasted requests and log noise. Marking
+    on archive.org's side), pure wasted requests and log noise. Marking
     them permanently skips that."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
@@ -186,7 +186,7 @@ def process_item(identifier, state, other_seen):
         save_state(state)
         return True
     if body is None:
-        return False  # transient -- leave off state, retry next run
+        return False  # transient: leave off state, retry next run
 
     raw_text = correct_ra(body.decode("utf-8", errors="ignore"))
     cleaned, _dropped = clean_text(raw_text)
@@ -225,9 +225,9 @@ def main():
         if result is None:
             if start >= 10000:
                 log(f"archive_broad: hit archive.org's advancedsearch.php 10,000-result pagination cap "
-                    f"at start={start} -- collection has more items but this method cannot reach them")
+                    f"at start={start}: collection has more items but this method cannot reach them")
             else:
-                log(f"archive_broad: discovery request failed at start={start} (transient) -- "
+                log(f"archive_broad: discovery request failed at start={start} (transient); "
                     f"will retry from same position next run")
             break
         ids, last_num_found = result["ids"], result["num_found"]
@@ -244,7 +244,7 @@ def main():
                 to_process.append(identifier)
 
         def handle_one(identifier):
-            # Each worker still paces its own requests -- WORKERS concurrent
+            # Each worker still paces its own requests: WORKERS concurrent
             # workers each doing ~0.3s-spaced requests multiplies aggregate
             # throughput without any single connection bursting.
             attempted = process_item(identifier, state, other_seen)
@@ -252,8 +252,8 @@ def main():
             return identifier, attempted
 
         # Process this whole page concurrently, but only advance `start`
-        # (the resume checkpoint) once every item in it has been attempted
-        # -- same page-boundary checkpoint guarantee as the sequential
+        # (the resume checkpoint) once every item in it has been attempted,
+        # the same page-boundary checkpoint guarantee as the sequential
         # version, so a kill mid-page just re-attempts that page's
         # not-yet-in-state items next run, nothing silently skipped.
         if to_process:

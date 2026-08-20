@@ -73,14 +73,15 @@ def fetch(url):
 
 def discover_identifiers(start):
     """archive.org's advancedsearch.php hard-caps sorted pagination at
-    10,000 results -- tried switching to the cursor-based scrape API
+    10,000 results. Switching to the cursor-based scrape API
     (services/search/v1/scrape) to page past that for this 53,172-item
-    collection, but its cursor mechanism proved unreliable here (page-2
-    requests consistently rejected the page-1 cursor with "Bad cursor",
-    reproduced across multiple attempts, encodings, and a raw rtk-proxy
-    bypass -- looks like an archive.org-side issue with that endpoint, not
-    fixable from this side). Reverted to advancedsearch.php: the first
-    10,000 results are reliable, which is what's actually reachable."""
+    collection was tried, but its cursor mechanism proved unreliable here
+    (page-2 requests consistently rejected the page-1 cursor with "Bad
+    cursor", reproduced across multiple attempts, encodings, and a raw
+    rtk-proxy bypass), which looks like an archive.org-side issue with
+    that endpoint rather than something fixable from this side. Reverted
+    to advancedsearch.php: the first 10,000 results are reliable, which
+    is what's actually reachable."""
     params = {
         "q": "collection:digitallibraryindia AND language:(hin)",
         "fl[]": "identifier",
@@ -103,7 +104,7 @@ def discover_identifiers(start):
         # archive.org returns this same malformed/error shape for two very
         # different reasons that used to be indistinguishable in the log:
         # a genuine transient hiccup (rate-limit blip, server error) at any
-        # start, OR -- specifically once start >= 10,000 -- the documented,
+        # start, or, specifically once start >= 10,000, the documented,
         # permanent advancedsearch.php pagination cap (see docstring above).
         # main() tells these apart using `start` at the call site.
         log(f"discover_identifiers: malformed search response at start={start}: {e}")
@@ -133,7 +134,7 @@ def process_item(identifier, state):
 
     body = fetch(DOWNLOAD_URL.format(id=identifier, fname=urllib.parse.quote(fname)))
     if body is None:
-        return False  # transient -- leave off state, retry next run
+        return False  # transient, leave off state, retry next run
 
     raw_text = body.decode("utf-8", errors="ignore")
     cleaned = clean_text(raw_text)
@@ -168,16 +169,16 @@ def main():
     while new_count < args.max_new_items:
         result = discover_identifiers(start)
         if result is None:
-            # Same failure shape, two different meanings -- start tells them
+            # Same failure shape, two different meanings; start tells them
             # apart: below 10,000 it's a genuine transient hiccup (state
             # isn't advanced, next run retries this exact position); at or
             # above 10,000 it's the permanent advancedsearch.php cap, and no
             # amount of retrying will get past it.
             if start >= 10000:
                 log(f"dli_books: hit archive.org's advancedsearch.php 10,000-result pagination cap "
-                    f"at start={start} -- collection has more items but this method cannot reach them")
+                    f"at start={start}; collection has more items but this method cannot reach them")
             else:
-                log(f"dli_books: discovery request failed at start={start} (transient) -- "
+                log(f"dli_books: discovery request failed at start={start} (transient); "
                     f"will retry from same position next run")
             break
         ids, last_num_found = result["ids"], result["num_found"]

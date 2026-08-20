@@ -2,19 +2,19 @@
 """One-shot downloader for CC-100's Assamese slice (data.statmt.org).
 
 CC-100 (Conneau et al. 2020, recreation of the XLM-R training corpus) is a
-CommonCrawl-derived monolingual web corpus -- a different source lineage
+CommonCrawl-derived monolingual web corpus, a different source lineage
 from Sangraha/MWirelabs (both trace back through Samanantar) and from the
 Wikimedia dumps, so it's not expected to substantially overlap. Assamese's
 slice is tiny (7.6MB compressed) compared to higher-resource languages in
-the same corpus -- reflects how little Assamese web text CommonCrawl
+the same corpus, reflecting how little Assamese web text CommonCrawl
 actually indexed, not a bug in this script.
 
-Downloaded corpus, not manual collection -- same "downloaded" bucket as
+Downloaded corpus, not manual collection: same "downloaded" bucket as
 Sangraha/MWirelabs. Writes true raw text; cleaning happens read-only at
 count time in token_tracker.py (registered there as ("raw/cc100",
 "downloaded")), matching every other downloaded-bucket source in this tree.
 
-A single static file, not a crawl -- no resumability/checkpoint state
+A single static file, not a crawl, so no resumability/checkpoint state
 needed. Safe to just rerun; skips the download if the raw file already
 exists.
 """

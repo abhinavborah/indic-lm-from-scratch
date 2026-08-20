@@ -3,7 +3,7 @@
 
 Replaces wiki_dump_extract.py's single-stream approach. The plain
 hiwiki-latest-pages-articles.xml.bz2 is one continuous bz2 stream that can
-only be decompressed sequentially from byte zero -- exactly why an earlier
+only be decompressed sequentially from byte zero, exactly why an earlier
 attempt at multiprocessing.Pool over strip_wikitext()/clean_text() did
 nothing (the real bottleneck, bz2 decompress + XML parse, stayed on the main
 process no matter how many downstream workers existed).
@@ -14,7 +14,7 @@ for exactly this: it's a sequence of *independent* bz2 streams, each holding
 (hiwiki-latest-pages-articles-multistream-index.txt.bz2, format
 "byte_offset:page_id:title", grouped by the offset where each stream
 starts) lets any process seek directly to a stream's start and decompress
-just that slice -- independent of every other stream. That's what makes
+just that slice, independent of every other stream. That's what makes
 real parallelism possible: N worker processes each own a disjoint set of
 byte ranges and decompress/parse/strip/clean them concurrently, same
 approach WikiExtractor and other dump-parallelization tools use.
@@ -68,7 +68,7 @@ def log(msg):
 
 def strip_wikitext(wikitext):
     """Minimal wikitext -> plain text: drop templates/refs/tables/markup
-    noise so what's left is prose. Not a full MediaWiki parser -- good
+    noise so what's left is prose. Not a full MediaWiki parser; good
     enough given clean_text.py's Devanagari-density filter mops up anything
     that slips through as a non-Hindi line/word anyway."""
     text = wikitext
@@ -92,7 +92,7 @@ def strip_wikitext(wikitext):
 
 def build_chunk_offsets(index_path):
     """Parses the multistream index (bz2-compressed, "offset:page_id:title"
-    per line, many consecutive lines sharing one offset -- one per stream)
+    per line, many consecutive lines sharing one offset, one per stream)
     into a sorted list of unique byte offsets. Each offset is the start of
     one independent bz2 stream in the dump; paired with the next offset (or
     EOF for the last one) it defines that stream's exact byte range."""
@@ -106,11 +106,11 @@ def build_chunk_offsets(index_path):
 
 def _process_chunk(args_tuple):
     """Runs in a worker process: seek to this chunk's byte range in the
-    multistream dump, decompress just that slice (an independent bz2 stream
-    -- no dependency on any other chunk), parse the <page> elements inside,
+    multistream dump, decompress just that slice (an independent bz2 stream,
+    with no dependency on any other chunk), parse the <page> elements inside,
     strip+clean each one. Returns a list of (title, stripped, cleaned).
 
-    A malformed chunk (bad XML) is logged and skipped rather than raised --
+    A malformed chunk (bad XML) is logged and skipped rather than raised:
     one bad ~100-page stream out of thousands shouldn't kill the whole pool
     run and lose every already-completed chunk's in-flight work."""
     dump_path, start, end = args_tuple
@@ -119,7 +119,7 @@ def _process_chunk(args_tuple):
         raw = f.read(end - start) if end is not None else f.read()
     xml_fragment = bz2.decompress(raw)
     # Each stream is a bare sequence of <page>...</page> elements with no
-    # single root -- wrap in one so ElementTree can parse it as a document.
+    # single root; wrap in one so ElementTree can parse it as a document.
     try:
         root = ET.fromstring(b"<root>" + xml_fragment + b"</root>")
     except ET.ParseError as e:
@@ -174,7 +174,7 @@ def main():
     log(f"wiki_dump_parallel: {len(done_offsets)} chunks already done, {len(pending)} pending")
 
     workers = args.workers or (os.cpu_count() or 4)
-    in_flight_limit = workers * 2  # bounded window -- NOT "submit everything upfront": that would make
+    in_flight_limit = workers * 2  # bounded window, not "submit everything upfront": that would make
                                     # an early time-cap stop meaningless, since shutdown(wait=True) blocks
                                     # until every already-dispatched chunk finishes regardless
     todo = iter(pending[:args.max_chunks])

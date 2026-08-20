@@ -3,22 +3,22 @@
 
 Reuses exactly the same source list, segment iteration, and dedup logic as
 token_tracker.py so the split's totals match what's been reported all
-session -- this isn't a second, independently-tuned cleaning pass, it's the
+session: this isn't a second, independently-tuned cleaning pass, it's the
 same filter, now actually writing the surviving text out instead of just
 counting it.
 
 Split method: each blank-line-delimited segment (the same unit dedup
-operates on -- one article, OCR page, dictionary entry, etc.) is assigned
+operates on: one article, OCR page, dictionary entry, etc.) is assigned
 to train/val/test by hashing its own cleaned content mod 100. This is
 single-pass (no need to know the corpus size in advance, no second scan)
-and fully deterministic and reproducible from the corpus alone -- rerunning
+and fully deterministic and reproducible from the corpus alone. Rerunning
 this script on the same corpus always produces the same split, with no
 separate random seed to track. ~98% train / 1% val / 1% test: this is
 current standard LM-pretraining practice (see nanoGPT's ~99.95/0.05
 split on OpenWebText), not the 80/10/10 convention from classification
-tasks -- pretraining corpora are large enough that a held-out set doesn't
-need to scale proportionally with corpus size for a statistically stable
-loss estimate.
+tasks, since pretraining corpora are large enough that a held-out set
+doesn't need to scale proportionally with corpus size for a statistically
+stable loss estimate.
 """
 
 import hashlib

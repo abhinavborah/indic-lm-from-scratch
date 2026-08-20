@@ -2,7 +2,7 @@
 """One-off: re-clean already-written raw/ocr and raw/scrape .txt files with
 the word-level purity filter added after they were first produced (course
 clarification: strip individual Latin-script non-digit words, not just whole
-lines). Rewrites each file in place; safe to rerun (idempotent -- re-cleaning
+lines). Rewrites each file in place; safe to rerun (idempotent: re-cleaning
 already-clean text is a no-op).
 """
 

@@ -1,27 +1,27 @@
 #!/usr/bin/env python3
-"""Rough token-count tracker for Assamese -- dedup + purity filter + progress report.
+"""Rough token-count tracker for Assamese: dedup + purity filter + progress report.
 
 Spec-compliance layer for two numbers: the ~500M training-token target, and
 the >=20% manual-vs-downloaded split. Walks
 assamese/data/clean/{ocr,scrape}/** (pre-cleaned by ocr_pipeline.py/
-scraper.py) and assamese/data/raw/sangraha/** (still true raw text --
-cleaning happens here, at count-time) -- read-only for all three, and for
+scraper.py) and assamese/data/raw/sangraha/** (still true raw text;
+cleaning happens here, at count-time), read-only for all three, and for
 every source:
 
   1. Splits files into blank-line-delimited segments (matches how every
-     collector in this tree writes text -- sangraha docs and OCR pages are
+     collector in this tree writes text: sangraha docs and OCR pages are
      both joined with "\\n\\n").
-  2. Runs text_clean.clean_text() on each segment -- drops lines that aren't
+  2. Runs text_clean.clean_text() on each segment, drops lines that aren't
      predominantly Bengali-Assamese-script, then strips individual
      Latin-script words from what's left (English brand names/proper nouns
      embedded mid-sentence). A segment that cleans down to nothing is
      counted as filtered out, not kept.
-  3. For scrape/sangraha sources only (not ocr -- see below), runs
+  3. For scrape/sangraha sources only (not ocr, see below), runs
      text_clean.is_likely_assamese() as a second, separate filter: Assamese
      and Bengali share the same Unicode block, so step 2's script check
      can't tell them apart. This heuristic checks for the near-total absence
      of ৰ/ৱ (letters Assamese uses constantly, standard Bengali never) as a
-     signal of "actually Bengali, not Assamese" -- catches cases like
+     signal of "actually Bengali, not Assamese"; catches cases like
      Sangraha's automated pipeline mislabeling adjacent-language text.
      Skipped for ocr/ specifically: ocr_pipeline.py's correct_ra() already
      force-converts all Bengali "র" to "ৰ" before writing, which would make
@@ -31,14 +31,14 @@ every source:
   5. Counts rough whitespace tokens on what survives, and reports manual
      (ocr+scrape) vs downloaded (sangraha) totals and progress toward the
      500M target into report/token_progress.md's "## Assamese" section (the
-     Hindi copy of this script owns the "## Hindi" section the same way --
+     Hindi copy of this script owns the "## Hindi" section the same way;
      both scripts share the report file, not the counting code).
 
-Rough == whitespace/regex tokenization, not BPE -- real counts come once the
+Rough == whitespace/regex tokenization, not BPE; real counts come once the
 tokenizer is trained on the cleaned corpus. This script does NOT write
 cleaned text anywhere; it only counts.
 
-ponytail: full rescan every run, no incremental state -- dedup semantics
+ponytail: full rescan every run, no incremental state; dedup semantics
 (global hash set) are simplest that way. Upgrade to incremental hashing if
 reruns get too slow once the corpus is far larger than today's scale.
 """
@@ -63,7 +63,7 @@ TARGET_TOKENS = 500_000_000
 # 32M-char proxy sweep showing Assamese's fertility curve never flattening
 # the way Hindi's does; once the real 5,000-vocab tokenizer was trained and
 # measured (1.9220 real fertility, notably better than the 2.369 proxy
-# estimate), that same real-vs-proxy gap was checked at 8,000 too -- real
+# estimate), that same real-vs-proxy gap was checked at 8,000 too; real
 # fertility 1.7417 (proxy had estimated 2.177), and real threshold impact
 # at 8K stays comfortably clear (manual ~129.7M/100M = 129.7%, total
 # ~558.2M/500M = 111.6%). No severe cost at 8K once measured for real, so
@@ -75,14 +75,14 @@ TARGET_TOKENS = 500_000_000
 # and youtube_captions (real, already-cleaned, already-collected sources)
 # were missing from SOURCES below and so were silently excluded from every
 # count and from the actual train/val/test split. Adding them (~3.67M rough
-# words, ~1.1% of corpus) barely moved fertility (1.7417 -> 1.7437) -- not
+# words, ~1.1% of corpus) barely moved fertility (1.7417 -> 1.7437), not
 # enough to justify retraining the tokenizer, so the 8K model is unchanged,
 # just re-measured on the corrected val split.
 MEASURED_BPE_FERTILITY = 1.7437
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
-# under clean/ (assamese-data's fix -- raw/ocr and raw/scrape hold true raw
+# under clean/ (assamese-data's fix: raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
-# unaffected -- the downloader always wrote true raw text, cleaning has
+# unaffected; the downloader always wrote true raw text, cleaning has
 # always happened here at count-time via clean_text().
 SOURCES = [("clean/ocr", "manual"), ("clean/scrape", "manual"),
            ("clean/vikaspedia", "manual"), ("clean/dipr", "manual"),
@@ -189,12 +189,12 @@ def render_section(stats):
         f"_Last updated: {ts}_",
         "",
         f"- **Real tokens (kept):** {fmt(total)} / {fmt(TARGET_TOKENS)} target "
-        f"({target_pct:.1f}%) -- rough whitespace count, see spec-corrected "
+        f"({target_pct:.1f}%), rough whitespace count, see spec-corrected "
         f"estimate below",
         f"  - Manual (ocr + scrape): {fmt(manual)} ({manual_pct:.1f}%)",
         f"  - Downloaded (sangraha): {fmt(downloaded)} ({100 - manual_pct:.1f}%)",
         f"    - of which from `unverified` (automated perplexity-filtered, "
-        f"**not** human-verified -- lower-confidence tier): "
+        f"**not** human-verified, lower-confidence tier): "
         f"{fmt(stats['sangraha_unverified_tokens'])}",
         f"  - Manual quota (>=20% of {fmt(TARGET_TOKENS)} = "
         f"{fmt(TARGET_TOKENS // 5)}): "
@@ -205,7 +205,7 @@ def render_section(stats):
         f"\"after tokenization\"):** measured fertility "
         f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (8,000-vocab "
         f"production SentencePiece BPE, trained on the real final train "
-        f"split, measured on the real held-out val split -- see constant "
+        f"split, measured on the real held-out val split; see constant "
         f"comment above for method). Applying it:",
         f"  - Total: ~{fmt(round(total * MEASURED_BPE_FERTILITY))} / "
         f"{fmt(TARGET_TOKENS)} target "
@@ -219,18 +219,18 @@ def render_section(stats):
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",
         f"  - Dropped for script impurity / fully word-stripped "
-        f"(text_clean.py -- strip embedded Latin words, drop non-Bengali-"
+        f"(text_clean.py: strip embedded Latin words, drop non-Bengali-"
         f"Assamese-block-majority lines): {fmt(stats['segments_impure'])} "
         f"segments, {fmt(stats['tokens_impure_dropped'])} rough tokens",
         f"  - Dropped as suspected Bengali-not-Assamese (ৰ/ৱ heuristic, "
-        f"scrape+sangraha only -- see caveat below): "
+        f"scrape+sangraha only; see caveat below): "
         f"{fmt(stats['segments_suspect_bengali'])} segments, "
         f"{fmt(stats['tokens_suspect_bengali_dropped'])} rough tokens",
         f"  - Dropped as exact duplicates: {fmt(stats['segments_duplicate'])} "
         f"segments, {fmt(stats['tokens_duplicate_dropped'])} rough tokens",
         "",
         "**Note on the ৰ/ৱ heuristic:** this is a frequency heuristic, not a "
-        "real language-ID classifier -- two letters' frequency is a weak "
+        "real language-ID classifier; two letters' frequency is a weak "
         "signal on its own. A lightweight tool like `langid.py`, fastText "
         "`lid.176`, or `cld3` would do a properly calibrated job; not added "
         "now, just flagging it as a future option. It's skipped entirely for "
@@ -252,7 +252,7 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
 ## Caveats
 
 - Sangraha's `unverified` config is automated-perplexity-filtered, not
-  human-verified like `verified` -- treat it as a lower-confidence tier, not
+  human-verified like `verified`; treat it as a lower-confidence tier, not
   equivalent-quality text. `synthetic` is never pulled at all
   (machine-translated/romanized text, excluded from collection entirely).
 - Counts are rough (whitespace tokenization). Real fertility-based counts
@@ -260,7 +260,7 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
 - Word-level foreign-word stripping (per course guidance: digits are fine,
   but embedded non-language words must go) and script-purity filtering both
   happen inside each language's `clean_text.py`/`text_clean.py`, not in this
-  tracker -- this script only counts what survives.
+  tracker; this script only counts what survives.
 """
 
 

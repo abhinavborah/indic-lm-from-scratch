@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Rough token-count tracker for Hindi -- dedup + purity filter + progress report.
+"""Rough token-count tracker for Hindi: dedup + purity filter + progress report.
 
 Spec-compliance layer for two numbers: the ~500M training-token target, and
 the >=20% manual-vs-downloaded split. Walks hindi/data/clean/{ocr,scrape}/**
 (pre-cleaned by ocr_pipeline.py/scraper.py) and hindi/data/raw/sangraha/**
-(still true raw text -- cleaning happens here, at count-time) -- read-only
+(still true raw text, since cleaning happens here, at count-time), read-only
 for all three, and for every source:
 
   1. Splits files into blank-line-delimited segments (matches how every
-     collector in this tree writes text -- sangraha docs and OCR pages are
+     collector in this tree writes text: sangraha docs and OCR pages are
      both joined with "\\n\\n").
-  2. Runs clean_text.clean_text() on each segment -- NFC-normalizes, strips
+  2. Runs clean_text.clean_text() on each segment: NFC-normalizes, strips
      individual Latin-script words (English brand names/proper nouns
      embedded mid-sentence), then drops any resulting line that isn't
      predominantly Devanagari. A segment that cleans down to nothing is
@@ -21,13 +21,13 @@ for all three, and for every source:
      (ocr+scrape) vs downloaded (sangraha) totals and progress toward the
      500M target into report/token_progress.md's "## Hindi" section (the
      Assamese copy of this script owns the "## Assamese" section the same
-     way -- both scripts share the report file, not the counting code).
+     way, since both scripts share the report file, not the counting code).
 
-Rough == whitespace/regex tokenization, not BPE -- real counts come once the
+Rough == whitespace/regex tokenization, not BPE; real counts come once the
 tokenizer is trained on the cleaned corpus. This script does NOT write
 cleaned text anywhere; it only counts.
 
-ponytail: full rescan every run, no incremental state -- dedup semantics
+ponytail: full rescan every run, no incremental state, since dedup semantics
 (global hash set) are simplest that way. Upgrade to incremental hashing if
 reruns get too slow once the corpus is far larger than today's scale.
 """
@@ -47,9 +47,9 @@ REPORT_PATH = REPO_ROOT / "report" / "token_progress.md"
 
 TARGET_TOKENS = 500_000_000
 # (path relative to hindi/data/, bucket). ocr/scrape now land pre-cleaned
-# under clean/ (hindi-data's fix -- raw/ocr and raw/scrape hold true raw
+# under clean/ (hindi-data's fix: raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
-# unaffected -- the downloader always wrote true raw text, cleaning has
+# unaffected: the downloader always wrote true raw text, cleaning has
 # always happened here at count-time via clean_text().
 SOURCES = [("clean/ocr", "manual"), ("clean/scrape", "manual"),
            ("clean/vikaspedia", "manual"), ("clean/dli_books", "manual"),
@@ -146,7 +146,7 @@ def render_section(stats):
         f"  - Manual (ocr + scrape): {fmt(manual)} ({manual_pct:.1f}%)",
         f"  - Downloaded (sangraha): {fmt(downloaded)} ({100 - manual_pct:.1f}%)",
         f"    - of which from `unverified` (automated perplexity-filtered, "
-        f"**not** human-verified -- lower-confidence tier): "
+        f"**not** human-verified, lower-confidence tier): "
         f"{fmt(stats['sangraha_unverified_tokens'])}",
         f"  - Manual quota (>=20% of {fmt(TARGET_TOKENS)} = "
         f"{fmt(TARGET_TOKENS // 5)}): "
@@ -156,7 +156,7 @@ def render_section(stats):
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",
         f"  - Dropped for script impurity / fully word-stripped "
-        f"(clean_text.py -- NFC normalize, strip embedded Latin words, drop "
+        f"(clean_text.py: NFC normalize, strip embedded Latin words, drop "
         f"non-Devanagari-majority lines): {fmt(stats['segments_impure'])} "
         f"segments, {fmt(stats['tokens_impure_dropped'])} rough tokens",
         f"  - Dropped as exact duplicates: {fmt(stats['segments_duplicate'])} "
@@ -176,7 +176,7 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
 ## Caveats
 
 - Sangraha's `unverified` config is automated-perplexity-filtered, not
-  human-verified like `verified` -- treat it as a lower-confidence tier, not
+  human-verified like `verified`; treat it as a lower-confidence tier, not
   equivalent-quality text. `synthetic` is never pulled at all
   (machine-translated/romanized text, excluded from collection entirely).
 - Counts are rough (whitespace tokenization). Real fertility-based counts
@@ -184,7 +184,7 @@ independently by its own `token_tracker.py` (`hindi/data/scripts/`,
 - Word-level foreign-word stripping (per course guidance: digits are fine,
   but embedded non-language words must go) and script-purity filtering both
   happen inside each language's `clean_text.py`/`text_clean.py`, not in this
-  tracker -- this script only counts what survives.
+  tracker; this script only counts what survives.
 """
 
 

@@ -1,14 +1,14 @@
 """Script-purity filter + Unicode normalization shared by hindi/data collection scripts.
 
 Spec requires collected text be "in the target language's script and natural
-phrasing" -- NFC normalization alone doesn't catch English bylines, ads, or
+phrasing." NFC normalization alone doesn't catch English bylines, ads, or
 code-switched Hinglish lines that a scrape/OCR pass commonly picks up. Course
 Q&A clarification: digits are fine, but embedded English proper nouns/brand
 names (e.g. "Tata", "IRCTC" inside an otherwise-Devanagari sentence) must be
 stripped at the word level, not just by dropping the whole line. So cleaning
-is two passes: (1) word-level -- drop any whitespace-separated token
+is two passes: (1) word-level: drop any whitespace-separated token
 containing a Latin letter, keeping digit/punctuation-only tokens and the
-surrounding Devanagari words; (2) line-level -- on what's left, drop any line
+surrounding Devanagari words; (2) line-level: on what's left, drop any line
 that still isn't predominantly Devanagari (catches lines that were mostly/
 entirely English before word-stripping, rather than leaving stray fragments).
 """

@@ -16,14 +16,14 @@ level, not just by dropping whole lines).
 
 Resumable: hindi/data/.state.json under the "scrape" namespace tracks every
 article URL already written (success or permanent failure) per source, via
-state_io's flock-protected read-modify-write -- safe under concurrent writes
+state_io's flock-protected read-modify-write, safe under concurrent writes
 from multiple source-worker threads, and safe to run alongside other
 collection scripts.
 
 robots.txt Disallow rules are not honored (bypass authorized for this
 project) but requests are still throttled per domain.
 
-Hindi Wikipedia is handled separately -- see wiki_dump_extract.py, which
+Hindi Wikipedia is handled separately: see wiki_dump_extract.py, which
 processes the official XML dump rather than live-scraping the API.
 """
 
@@ -50,7 +50,7 @@ LOG_FILE = DATA_DIR / "COLLECTION_LOG.md"
 # under one shared "scrape" dict. This script's own docstring guarantees
 # all sources run as threads within one process (never separate OS
 # processes), so the shared-dict-in-memory design was never unsafe here in
-# practice -- but the Assamese copy of this script had the identical
+# practice, but the Assamese copy of this script had the identical
 # pattern and it broke the moment two of its sources ended up running in
 # separate processes (separate herdr panes), each loading a stale full-
 # namespace snapshot and wiping the other's checkpoint on save. Applying
@@ -61,7 +61,7 @@ NAMESPACE_PREFIX = "scrape"
 
 USER_AGENT = "Mozilla/5.0 (compatible; lma-individual-project-research-bot)"
 REQUEST_TIMEOUT_S = 20
-REQUEST_DELAY_S = 1.5  # per-domain floor between requests -- each source's own worker thread only ever
+REQUEST_DELAY_S = 1.5  # per-domain floor between requests; each source's own worker thread only ever
                        # hits its own domain, so this throttles per-site regardless of source count
 MAX_RETRIES = 3
 MAX_CHILD_SITEMAPS = 50
@@ -115,12 +115,12 @@ def discover_urls(sitemap_url):
     """Returns None on total discovery failure (network/parse) so callers can
     distinguish "couldn't check" from "checked, nothing new". Some sites
     (patrika, zeenews, prabhatkhabar) nest sitemapindex inside sitemapindex
-    more than one level deep -- BFS until every branch bottoms out at a real
+    more than one level deep: BFS until every branch bottoms out at a real
     <urlset>, capped at MAX_CHILD_SITEMAPS total sitemap documents fetched
     (not just first-level children) so a deeply nested index can't runaway.
 
     patrika mislabels an intermediate index level as <urlset> even though its
-    <loc> entries are further per-date sitemap files, not articles -- a tag
+    <loc> entries are further per-date sitemap files, not articles. A tag
     check alone can't catch that, so a urlset whose entries mostly end in
     .xml is treated as another index level to recurse into rather than a
     final article list."""
@@ -165,9 +165,9 @@ def discover_urls(sitemap_url):
 
 
 def scrape_article(url, content_selector):
-    """Returns None on a transient fetch failure (network/timeout -- retry
+    """Returns None on a transient fetch failure (network/timeout, retry
     later, never mark done), "" when the page loaded but the selector found
-    no article container (confirmed non-article page -- permanent skip), or
+    no article container (confirmed non-article page, permanent skip), or
     the extracted text otherwise. Distinct from `fetch`'s own None, which
     means "no bytes came back at all"."""
     raw = fetch(url)
@@ -195,7 +195,7 @@ def process_source(source, state_lock, max_articles, max_seconds):
         log(f"{name}: discovery attempt {attempt + 1}/3 failed, retrying")
         time.sleep(REQUEST_DELAY_S * (attempt + 1))
     if urls is None:
-        log(f"{name}: discovery failed 3/3 times -- skipping this run, "
+        log(f"{name}: discovery failed 3/3 times, skipping this run, "
             f"NOT marking as drained ({len(done)} done so far)")
         return {"name": name, "new_articles": 0, "words": 0, "elapsed_s": 0.0}
 
@@ -215,9 +215,9 @@ def process_source(source, state_lock, max_articles, max_seconds):
             text = scrape_article(url, source["content_selector"])
             with state_lock:
                 if text is None:
-                    continue  # transient fetch failure -- leave off done_urls, retry next run
+                    continue  # transient fetch failure, leave off done_urls, retry next run
                 if not text:
-                    entry["done_urls"].append(url)  # confirmed non-article page -- permanent skip
+                    entry["done_urls"].append(url)  # confirmed non-article page, permanent skip
                     state_io.save_namespace(STATE_FILE, namespace, entry)
                     continue
 
@@ -240,7 +240,7 @@ def process_source(source, state_lock, max_articles, max_seconds):
                     f"~{batch_words} words this batch (~{entry['total_words']} total ever)")
 
     elapsed = time.time() - batch_start
-    log(f"{name}: batch done -- {processed} new articles, ~{batch_words} words, "
+    log(f"{name}: batch done: {processed} new articles, ~{batch_words} words, "
         f"{elapsed:.0f}s, ~{entry['total_words']} words total ever")
     return {"name": name, "new_articles": processed, "words": batch_words, "elapsed_s": elapsed}
 

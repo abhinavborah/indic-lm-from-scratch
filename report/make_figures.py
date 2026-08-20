@@ -71,6 +71,7 @@ def plot_fertility_vs_vocab():
     ax.set_xscale("log")
     ax.set_xticks(vocab_sizes)
     ax.set_xticklabels([f"{v // 1000}K" for v in vocab_sizes])
+    ax.minorticks_off()
     ax.set_xlabel("Vocabulary Size")
     ax.set_ylabel("Fertility (tokens/word)")
     ax.set_title("Vocabulary Size vs. Fertility (proxy sweep, 32M-char sample)")

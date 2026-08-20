@@ -3,12 +3,12 @@
 
 This is a pre-cleaned, pre-deduplicated third-party corpus (IITB-IndicMonoDoc
 + Samanantar Assamese side + Assamese poetry/civic texts), not something we
-scrape or preprocess ourselves -- same "downloaded" bucket as Sangraha, not
+scrape or preprocess ourselves: same "downloaded" bucket as Sangraha, not
 "manual". Added specifically to help close the 500M *total* token target
 after the 100M *manual* floor was found to be unreachable with current
 manual sources (see report/token_progress.md).
 
-License: CC BY-SA 4.0 -- attribution required, must be cited in
+License: CC BY-SA 4.0; attribution required, must be cited in
 report/SOURCES.md (already done). Some overlap with Sangraha is expected
 since both draw on Samanantar; token_tracker.py's exact-duplicate dedup
 handles the overlap, so the net gain will be less than this dataset's raw
@@ -17,7 +17,7 @@ handles the overlap, so the net gain will be less than this dataset's raw
 Resumable: checkpoints into assamese/data/.state.json under the
 "mwirelabs" namespace. Writes plain-text shard files into
 assamese/data/raw/mwirelabs/, one file per shard index, rotated every
-SHARD_TOKEN_LIMIT rough tokens -- token_tracker.py needs a
+SHARD_TOKEN_LIMIT rough tokens. token_tracker.py needs a
 ("raw/mwirelabs", "downloaded") entry in its SOURCES list to pick this up
 (already added).
 """
@@ -114,7 +114,7 @@ def main():
                 out_f = shard_path(state["shard_idx"]).open("w", encoding="utf-8")
         else:
             state["done"] = True
-            log(f"stream exhausted -- {state['tokens_done']:,} tokens, {state['rows_done']} rows")
+            log(f"stream exhausted: {state['tokens_done']:,} tokens, {state['rows_done']} rows")
     finally:
         out_f.close()
         save_state(state)

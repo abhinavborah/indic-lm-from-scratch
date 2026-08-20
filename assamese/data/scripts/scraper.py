@@ -5,18 +5,18 @@ Sources are discovered via each site's own sitemap.xml (a sitemapindex is
 followed one level down into its child <urlset> sitemaps). Article text is
 pulled from the page's <article> container via BeautifulSoup, then run
 through a language-purity filter: any line whose alphabetic characters
-aren't majority Bengali-Assamese-block Unicode (U+0980-U+09FF) is dropped --
-strips the English bylines, "Advertisment"/"Follow Us"/date-stamp boilerplate
+aren't majority Bengali-Assamese-block Unicode (U+0980-U+09FF) is dropped,
+which strips the English bylines, "Advertisment"/"Follow Us"/date-stamp boilerplate
 that WordPress/Publive templates interleave with the real article text.
 
 robots.txt Disallow rules are not honored here (bypass authorized for this
-project) but requests are still throttled -- REQUEST_DELAY_S between every
+project) but requests are still throttled: REQUEST_DELAY_S between every
 HTTP call, regardless of site.
 
 Resumable: assamese/data/.state.json under the "scrape" namespace tracks
 every article URL already written (success or permanent failure), so a
 rerun only fetches new URLs. Shares the state file with ocr_pipeline.py via
-state_io's flock-protected read-modify-write -- safe to run concurrently.
+state_io's flock-protected read-modify-write; safe to run concurrently.
 """
 
 import re
@@ -42,14 +42,14 @@ LOG_FILE = DATA_DIR / "COLLECTION_LOG.md"
 # Each source gets its OWN top-level state_io namespace, not sub-keys under
 # one shared "scrape" dict. Found this session (19 Aug 2026): sentinelassam
 # and dy365 each run as their own separate OS process (own herdr pane), and
-# each process loads the whole "scrape" namespace once at startup -- a
+# each process loads the whole "scrape" namespace once at startup; a
 # process that doesn't know about a sibling source's sub-key wipes it on
 # its next save (last writer wins for the WHOLE namespace). This actually
 # happened: sentinelassam's checkpoint (7280+ done_urls) was wiped to zero
 # by a save from the niyomiyabarta/asomiyapratidin process, which had never
 # seen sentinelassam's entry. The raw/clean text files were unaffected
 # (append-only, separate from state.json), only the checkpoint pointer was
-# lost -- but a resume would have re-fetched and re-appended all 7280+
+# lost, but a resume would have re-fetched and re-appended all 7280+
 # already-done articles. Same root cause and same fix as
 # youtube_captions.py's namespace-per-channel fix earlier this session.
 NAMESPACE_PREFIX = "scrape"
@@ -61,13 +61,13 @@ MAX_CHILD_SITEMAPS = 1500  # sentinelassam's sitemap.xml alone lists 1,346 daily
                             # child sitemaps (one per publishing day since ~2018);
                             # the old 50-document cap silently missed all but the
                             # most recent ~50 days for any site with that many
-                            # children, including niyomiyabarta -- raising it also
+                            # children, including niyomiyabarta; raising it also
                             # widens niyomiyabarta's own reachable backlog, not
                             # just unlocking this new source.
 LOG_EVERY_N_ARTICLES = 20
-BATCH_MAX_ARTICLES = 1_000_000  # effectively uncapped -- run until new_urls is exhausted
+BATCH_MAX_ARTICLES = 1_000_000  # effectively uncapped, run until new_urls is exhausted
 BATCH_MAX_SECONDS = 86400       # 24h safety net, not a real pacing cap anymore
-# These are small news sites, not CDN-backed archives -- unlike archive.org,
+# These are small news sites, not CDN-backed archives, unlike archive.org,
 # a burst of connections risks tripping a basic rate-limiter/WAF. Kept
 # deliberately low (vs. e.g. archive_broad_download.py's 4): each worker
 # still waits REQUEST_DELAY_S between its own requests, so this multiplies
@@ -75,7 +75,7 @@ BATCH_MAX_SECONDS = 86400       # 24h safety net, not a real pacing cap anymore
 WORKERS_PER_SOURCE = 3
 
 # as.wikipedia.org is handled by wiki_dump_extract.py (dump-based, not live
-# scraping here) -- see that script for why.
+# scraping here); see that script for why.
 SOURCES = [
     {
         "name": "niyomiyabarta",
@@ -91,10 +91,10 @@ SOURCES = [
         "name": "sentinelassam",
         "sitemap": "https://assamese.sentinelassam.com/sitemap.xml",
         # Modern React app, CSS-module hashed classnames (e.g.
-        # "text-story-m_story-content-inner-wrapper__s3KPp") -- matched by
+        # "text-story-m_story-content-inner-wrapper__s3KPp"); matched by
         # stable prefix via [class*=], not the volatile hash suffix. Two
         # elements share that prefix per page: the real text body, and an
-        # empty hero-image caption wrapper (extra "hero-image" class) --
+        # empty hero-image caption wrapper (extra "hero-image" class);
         # :not() excludes the latter. Verified against a live article
         # (World Environment Day piece, 05 Jun 2026): real Assamese prose,
         # not boilerplate.
@@ -103,13 +103,13 @@ SOURCES = [
     {
         "name": "dy365",
         "sitemap": "https://dy365live.com/news-sitemap.xml",
-        # Plain WordPress-style <article> wrapper -- verified against a live
+        # Plain WordPress-style <article> wrapper, verified against a live
         # article (CNG pump explosion story, 19 Aug 2026): clean, coherent
         # Assamese prose, same shape as niyomiyabarta/asomiyapratidin.
         "content_selector": "article",
         # news-sitemap.xml alone only exposes a narrow ~170-article recent
         # window (confirmed this session). The category listing page
-        # (dy365live.com/assamese?page=N) goes much deeper -- pages 20, 50,
+        # (dy365live.com/assamese?page=N) goes much deeper: pages 20, 50,
         # 75, 90, 95 all returned 10 fresh unique articles each when checked
         # this session, so this is combined with the sitemap rather than
         # replacing it.
@@ -190,14 +190,14 @@ REFRESH_RECENT_CHILDREN = 5  # always re-fetch the N most-recent child sitemaps 
 
 def discover_urls(sitemap_url, sitemap_cache=None):
     """Returns None on total discovery failure (network/parse) so callers
-    can distinguish "couldn't check" from "checked, nothing new" -- a
+    can distinguish "couldn't check" from "checked, nothing new"; a
     transient fetch failure must never look like a fully-drained source.
 
     sitemap_cache (optional, mutated in place, persisted by the caller in
     the source's checkpoint entry): a dict of child-sitemap-url -> its
     article URL list. Found this session: a large sitemapindex (sites with
     daily child sitemaps going back years, e.g. sentinelassam) was being
-    walked in full from scratch on every single restart -- 1000+ child
+    walked in full from scratch on every single restart: 1000+ child
     fetches, 40-60+ minutes, just to rebuild a URL list that's almost
     entirely unchanged run to run. Only REFRESH_RECENT_CHILDREN children are
     re-fetched; older ones reuse their cached result."""
@@ -228,7 +228,7 @@ def discover_urls(sitemap_url, sitemap_cache=None):
             child_raw = fetch(child)
             if child_raw is None:
                 if child in cache:
-                    urls.extend(cache[child])  # transient fetch failure -- fall back to last-known-good
+                    urls.extend(cache[child])  # transient fetch failure, fall back to last-known-good
                 else:
                     log(f"SKIP child sitemap (fetch failed): {child}")
                 continue
@@ -250,9 +250,9 @@ def discover_urls(sitemap_url, sitemap_cache=None):
 
 
 def scrape_article(url, content_selector):
-    """Returns None on a transient fetch failure (network/timeout -- retry
+    """Returns None on a transient fetch failure (network/timeout: retry
     later, never mark done), "" when the page loaded but the selector found
-    no article container (confirmed non-article page -- permanent skip), or
+    no article container (confirmed non-article page: permanent skip), or
     the extracted text otherwise. Distinct from `fetch`'s own None, which
     means "no bytes came back at all"."""
     raw = fetch(url)
@@ -324,7 +324,7 @@ def process_source(source):
         time.sleep(REQUEST_DELAY_S * (attempt + 1))
     state_io.save_namespace(STATE_FILE, namespace, entry)  # persist sitemap_cache even if discovery then fails
     if urls is None:
-        log(f"{name}: discovery failed 3/3 times -- skipping this run, "
+        log(f"{name}: discovery failed 3/3 times, skipping this run, "
             f"NOT marking as drained ({len(entry['done_urls'])} done so far)")
         return
 
@@ -337,7 +337,7 @@ def process_source(source):
     batch_start = time.time()
     hit_batch_cap = False
     # fetch_item_text() (the network call) runs fully concurrently across
-    # WORKERS_PER_SOURCE threads -- that's the slow part worth parallelizing.
+    # WORKERS_PER_SOURCE threads; that's the slow part worth parallelizing.
     # Everything that touches the shared raw_f/clean_f file handles or the
     # entry dict is serialized under this lock so writes never interleave;
     # the lock is only ever held for fast in-memory/disk-append work, so it
@@ -349,7 +349,7 @@ def process_source(source):
     # single URL up to MAX_RETRIES times internally (with backoff on 429),
     # so a queue-level "failed" here means that whole internal retry budget
     # was exhausted once already. requeued tracks which URLs have already
-    # had their one requeue -- a second failure after that is permanent for
+    # had their one requeue; a second failure after that is permanent for
     # this run (not marked done, so the next full script invocation retries
     # it fresh, but this run stops chasing it).
     work_queue = Queue()
@@ -375,7 +375,7 @@ def process_source(source):
                 if text is None:
                     with write_lock:
                         if url in requeued:
-                            log(f"{name}: {url} failed again after requeue -- giving up for this run")
+                            log(f"{name}: {url} failed again after requeue, giving up for this run")
                             permanently_failed.append(url)
                         else:
                             log(f"{name}: {url} failed, pushed to end of queue, retrying after the rest")
@@ -385,7 +385,7 @@ def process_source(source):
 
                 with write_lock:
                     if not text:
-                        entry["done_urls"].append(url)  # confirmed non-article page -- permanent skip
+                        entry["done_urls"].append(url)  # confirmed non-article page, permanent skip
                         state_io.save_namespace(STATE_FILE, namespace, entry)
                         continue
 
@@ -406,7 +406,7 @@ def process_source(source):
                     entry["total_words"] += len(cleaned.split())
                     entry["dropped_lines"] += dropped
                     # ponytail: full state file rewritten every article (O(n) per
-                    # save) -- fine up to tens of thousands of URLs; if it becomes
+                    # save), fine up to tens of thousands of URLs; if it becomes
                     # the bottleneck, switch done_urls to an append-only JSONL log.
                     state_io.save_namespace(STATE_FILE, namespace, entry)
 
@@ -449,14 +449,14 @@ def main():
     requested = sys.argv[1].split(",") if len(sys.argv) > 1 else None
     selected = [s for s in SOURCES if not requested or s["name"] in requested]
     if not selected:
-        log(f"No matching sources for {requested!r} -- known: {[s['name'] for s in SOURCES]}")
+        log(f"No matching sources for {requested!r}; known: {[s['name'] for s in SOURCES]}")
         return
 
     RAW_OUT_DIR.mkdir(parents=True, exist_ok=True)
     CLEAN_OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # fetch() is blocking (subprocess curl calls), so plain OS threads give
-    # real I/O concurrency here -- no asyncio/aiohttp needed. Each source now
+    # real I/O concurrency here, no asyncio/aiohttp needed. Each source now
     # loads/saves its own namespace independently (see NAMESPACE_PREFIX
     # comment above), so this is safe both within one process and across
     # separate processes/panes running different sources concurrently.

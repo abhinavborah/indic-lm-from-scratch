@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Streaming downloader for ai4bharat/sangraha -- Assamese only.
+"""Streaming downloader for ai4bharat/sangraha, Assamese only.
 
 Configs pulled: "verified" and "unverified". Never "synthetic" (that split
 is machine-translated + romanized text, not organic monolingual prose, so
@@ -7,14 +7,14 @@ it's excluded from the public/downloaded corpus entirely).
 
 No token-count cap here (unlike the Hindi copy of this script): Sangraha's
 real (non-synthetic) Assamese text across both configs combined is well
-under the 500M/language target, so every available document gets pulled --
+under the 500M/language target, so every available document gets pulled;
 there's no risk of overshooting.
 
 Resumable: checkpoints into assamese/data/.state.json under the "sangraha"
 namespace (same file ocr_pipeline.py and scraper.py checkpoint into, under
-their own "ocr"/"scrape" namespaces -- state_io.py's flock-protected
+their own "ocr"/"scrape" namespaces; state_io.py's flock-protected
 save/load keeps concurrent scripts from clobbering each other). Safe to
-interrupt and rerun -- already-consumed docs are skipped via
+interrupt and rerun; already-consumed docs are skipped via
 IterableDataset.skip(n).
 
 Writes plain-text shard files into assamese/data/raw/sangraha/, one file per
@@ -37,7 +37,7 @@ LOG_FILE = DATA_DIR / "SANGRAHA_LOG.md"
 NAMESPACE = "sangraha"
 
 CONFIGS = ["verified", "unverified"]  # never "synthetic"
-TARGET_TOKENS = None  # no cap -- pull everything real, see module docstring
+TARGET_TOKENS = None  # no cap: pull everything real, see module docstring
 
 SHARD_TOKEN_LIMIT = 5_000_000
 LOG_EVERY_N_DOCS = 500
@@ -88,7 +88,7 @@ def process_config(config, state):
                        split="train", streaming=True)
     if skip_n:
         # ponytail: IterableDataset.skip() re-reads and discards every prior
-        # doc from the start of the stream -- resume cost grows with
+        # doc from the start of the stream, so resume cost grows with
         # docs_done. Fine at current scale (network is the bottleneck
         # either way); upgrade to tracking parquet-file+row-group offsets
         # if resume overhead becomes noticeable.
@@ -128,13 +128,13 @@ def process_config(config, state):
                 out_f = shard_path(config, entry["shard_idx"]).open("w", encoding="utf-8")
 
             if TARGET_TOKENS is not None and total_tokens(state) >= TARGET_TOKENS:
-                log(f"reached target {TARGET_TOKENS:,} rough tokens -- stopping {config}")
+                log(f"reached target {TARGET_TOKENS:,} rough tokens, stopping {config}")
                 entry["done"] = True
                 hit_target = True
                 break
         else:
             entry["done"] = True
-            log(f"[{config}] stream exhausted -- {entry['tokens_done']:,} tokens, "
+            log(f"[{config}] stream exhausted: {entry['tokens_done']:,} tokens, "
                 f"{entry['docs_done']} docs")
     finally:
         out_f.close()

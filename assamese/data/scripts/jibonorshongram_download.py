@@ -4,7 +4,7 @@
 Live site is unreachable; the book listing is pulled from a Wayback Machine
 snapshot instead (~100 titles: novels and poetry by named Assamese authors,
 each linked as a Google Drive-hosted PDF). This source is a third-party
-e-book aggregator, not a licensed publisher -- the listing page's own
+e-book aggregator, not a licensed publisher: the listing page's own
 disclaimer states these are republished without confirmed author/publisher
 permission. Included per explicit user decision after the copyright
 exposure was flagged; report/SOURCES.md must describe this source
@@ -13,7 +13,7 @@ accurately, not as a licensed release.
 Per book: download the PDF from its Google Drive link (handling Drive's
 large-file "can't scan for viruses" interstitial), then per-page try
 pdftotext first, falling back to Tesseract (`ben` model) when the Bengali-
-script density is too low -- same validation/fallback shape as
+script density is too low, the same validation/fallback shape as
 ocr_pipeline.py, reused here since these PDFs may mix born-digital and
 scanned-image pages.
 

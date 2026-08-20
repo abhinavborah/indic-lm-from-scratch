@@ -3,17 +3,17 @@
 
 Per page: try pdftotext first (fast path for born-digital PDFs). Many of
 these government PDFs embed a non-Unicode glyph font, so pdftotext succeeds
-but returns garbage (zero real Bengali/Assamese codepoints) -- validated by
+but returns garbage (zero real Bengali/Assamese codepoints), validated by
 checking the Bengali Unicode block density of the extracted text. Below
 threshold, falls back to rendering the page via pdftoppm and running
 Tesseract with the `ben` (Bengali) model (no usable `asm` pack exists;
 Assamese and Bengali share nearly the whole glyph inventory).
 
-Known OCR limitation: Assamese has no letter corresponding to Bengali "র" --
+Known OCR limitation: Assamese has no letter corresponding to Bengali "র";
 every "র" the ben model outputs is actually misrecognized Assamese "ৰ", so
 that substitution is applied unconditionally (100% safe). Bengali "ব" is
 NOT touched: Assamese uses both "ব" and "ৱ" natively, so ben-model output of
-"ব" is genuinely ambiguous and is left uncorrected -- spot-check if precision
+"ব" is genuinely ambiguous and is left uncorrected; spot-check if precision
 here matters.
 
 Resumable: assamese/data/.state.json tracks per-PDF last completed page.
@@ -129,7 +129,7 @@ def process_pdf(pdf_path, ocr_state, tmp_dir):
                 text = extract_page_ocr(pdf_path, page, tmp_dir)
             # correct_ra is an OCR-fidelity fix (Assamese "ৰ" is always
             # misrecognized as Bengali "র" by the ben model), not corpus
-            # cleaning -- applied to both raw and clean output.
+            # cleaning; applied to both raw and clean output.
             raw_text = correct_ra(text)
             clean_text_out, _dropped_lines = clean_text(raw_text)
 

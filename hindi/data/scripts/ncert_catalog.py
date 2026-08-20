@@ -1,7 +1,7 @@
 """Catalog of NCERT Hindi-medium textbook codes, Class VI-XII.
 
 Extracted from ncert.nic.in/textbook.php's client-side `change1()` lookup
-table (the class/subject/book picker has no server AJAX endpoint -- every
+table (the class/subject/book picker has no server AJAX endpoint: every
 class-subject-book combination's `textbook.php?<code>=0-<N>` link is
 hardcoded inline in that JS function, keyed by dropdown selection). Each
 entry is (book_code_prefix, chapter_count); the code's own structure is

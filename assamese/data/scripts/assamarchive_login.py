@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""One-off login helper for assamarchive.org ("Digitizing অসম" -- Nanda
+"""One-off login helper for assamarchive.org ("Digitizing অসম", Nanda
 Talukdar Foundation's Assamese book/journal digitization project).
 
-Run this yourself -- it reads the credential from a local, gitignored file
+Run this yourself: it reads the credential from a local, gitignored file
 (never hardcoded, never committed) and performs the actual authentication.
 It saves the resulting session cookies to another gitignored file that the
 scraper (assamarchive_download.py, once built) reads to make authenticated
-requests -- the scraper itself never touches the password.
+requests; the scraper itself never touches the password.
 
 Setup: copy assamese/data/.credentials.local.json.template to
 assamese/data/.credentials.local.json and fill in emailOrMobile/password.

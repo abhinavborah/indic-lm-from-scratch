@@ -9,7 +9,7 @@ Dump source: https://dumps.wikimedia.org/aswikiquote/latest/
              aswikiquote-latest-pages-articles.xml.bz2 (~1.9MiB compressed)
 
 Wikitext-to-prose stripping is identical to wiki_dump_extract.py (same
-MediaWiki markup) -- duplicated here rather than imported, matching this
+MediaWiki markup), duplicated here rather than imported, matching this
 project's existing convention of not sharing code across per-source
 scripts within a language.
 
@@ -112,7 +112,7 @@ def iter_dump_pages(dump_path):
 
 def main():
     if not DUMP_PATH.exists():
-        log(f"MISSING dump file: {DUMP_PATH} -- download it first from "
+        log(f"MISSING dump file: {DUMP_PATH}; download it first from "
             f"https://dumps.wikimedia.org/aswikiquote/latest/aswikiquote-latest-pages-articles.xml.bz2")
         return
 

@@ -72,7 +72,7 @@ def main():
         assert "परीक्षण" in raw_content, "raw text missing from raw output file"
         assert "परीक्षण" in clean_content, "cleaned Devanagari text missing from clean output file"
 
-    print("test_resume: OK -- resume skips completed items, processes new ones, "
+    print("test_resume: OK: resume skips completed items, processes new ones, "
           "state persists across reload")
 
 

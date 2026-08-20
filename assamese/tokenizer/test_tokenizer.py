@@ -31,7 +31,7 @@ def demo():
         corpus_path.write_text("\n".join(cleaned), encoding="utf-8")
 
         # byte_fallback=True reserves 256 byte pieces + 4 control ids
-        # (pad/bos/eos/unk), so vocab_size must clear ~260 -- 300 leaves
+        # (pad/bos/eos/unk), so vocab_size must clear ~260; 300 leaves
         # enough headroom for a few real BPE merges on top.
         vocab_size = 300
         model_path = train(corpus_path, Path(tmp) / "test_model", vocab_size=vocab_size)

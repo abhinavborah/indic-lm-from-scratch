@@ -35,7 +35,7 @@ _Last updated: 2026-08-20 14:17:48_
 
 ## Assamese
 
-_Last updated: 2026-08-20 15:23:48_
+_Last updated: 2026-08-20 17:41:24_
 
 - **Real tokens (kept):** 320,478,882 / 500,000,000 target (64.1%) -- rough whitespace count, see spec-corrected estimate below
   - Manual (ocr + scrape): 74,452,715 (23.2%)
@@ -43,9 +43,9 @@ _Last updated: 2026-08-20 15:23:48_
     - of which from `unverified` (automated perplexity-filtered, **not** human-verified -- lower-confidence tier): 7,948,008
   - Manual quota (>=20% of 500,000,000 = 100,000,000): NOT MET (74,452,715 so far)
 
-- **Spec-corrected estimate (real BPE tokens, per line 121's "after tokenization"):** measured fertility 1.9220 real tokens per rough word (5,000-vocab production SentencePiece BPE, trained on the real final train split, measured on the real held-out val split -- see constant comment above for method). Applying it:
-  - Total: ~615,960,411 / 500,000,000 target (123.2%)
-  - Manual: ~143,098,118 / 100,000,000 floor (143.1%)
+- **Spec-corrected estimate (real BPE tokens, per line 121's "after tokenization"):** measured fertility 1.7417 real tokens per rough word (8,000-vocab production SentencePiece BPE, trained on the real final train split, measured on the real held-out val split -- see constant comment above for method). Applying it:
+  - Total: ~558,178,069 / 500,000,000 target (111.6%)
+  - Manual: ~129,674,294 / 100,000,000 floor (129.7%)
   - This is the final number: real production tokenizer, real held-out split, UNK rate 0.0. No longer a proxy estimate.
 
 - **Filtering:** 3,951,952 segments scanned across 10,345 files.

@@ -16,11 +16,11 @@ Covers both models built for this project: Model H (Hindi, higher-resource) and 
 | Manual tokens (rough) | 135,301,892 | 74,452,715 |
 | Downloaded tokens (rough) | 431,013,561 | 246,026,167 |
 | Manual fraction | 23.9% | 23.2% |
-| Vocabulary size | 8,000 | 5,000 |
-| Fertility (real, tokens/word) | 1.4420 | 1.9220 |
+| Vocabulary size | 8,000 | 8,000 |
+| Fertility (real, tokens/word) | 1.4420 | 1.7417 |
 | UNK rate | 0.0 | 0.0 |
-| Total tokens (real, after tokenization) | ~816,626,883 | ~615,960,411 |
-| Manual tokens (real, after tokenization) | ~195,105,328 | ~143,098,118 |
+| Total tokens (real, after tokenization) | ~816,626,883 | ~558,178,069 |
+| Manual tokens (real, after tokenization) | ~195,105,328 | ~129,675,094 |
 | Manual floor (100M) | Met | Met |
 | Total target (500M) | Met | Met |
 
@@ -63,24 +63,24 @@ Both tokenizers are byte-level BPE trained with `sentencepiece`, per course guid
 
 ### Vocabulary size choice
 
-Vocab sizes differ by language (the spec explicitly permits this — "the embedding and output layers may differ in size between Model H and Model L"). Chosen via the course's own prescribed method — fertility on held-out text — measured across 5K–32K for both languages:
+Vocab sizes were chosen via the course's own prescribed method — fertility on held-out text — measured across 5K–32K for both languages on a proxy sample first:
 
 ![Vocabulary size vs fertility](figures/fertility_vs_vocab.png)
 
-**Hindi: 8,000.** The curve makes its single largest jump between 5K and 8K (2.109→1.977), then flattens; going further buys little (8K→10K only saves 0.05) while costing real embedding-table budget out of the fixed ~25M-parameter model.
+**Hindi: 8,000.** The proxy curve makes its single largest jump between 5K and 8K (2.109→1.977), then flattens; going further buys little (8K→10K only saves 0.05) while costing real embedding-table budget out of the fixed ~25M-parameter model.
 
-**Assamese: 5,000.** Unlike Hindi, Assamese's fertility curve never really flattens through 24K — there's no clean "knee" to point to on the chart alone. The deciding factors instead: Assamese's corpus is smaller and more repetitive than Hindi's (documented duplicate-template issues from several news sources this session), so the model needs its parameter budget spent on depth (attention/FFN), not embedding rows that would be undertrained on a scarcer corpus anyway. This also matches published scaling-law research (Tao et al., "Scaling Laws with Vocabulary," arXiv 2407.13623): their own data-scarcity finding — a 302M-parameter model's compute-optimal vocab drops from 16K to 10K once training data, not compute, is the bottleneck — points the same direction for a model an order of magnitude smaller and comparably data-limited.
+**Assamese: 8,000, revised from an initial 5,000.** The proxy sweep initially favored 5,000 for Assamese — its curve never really flattens through 24K the way Hindi's does, and the corpus's own scarcity/duplication risk argued for preserving parameter budget for depth over embedding. But once the real 5,000-vocab tokenizer was trained and measured on the real corpus, real fertility (1.9220) came in notably better than the proxy estimate (2.369) had suggested. That same real-vs-proxy gap was checked at 8,000 too: real fertility 1.7417 (vs. a 2.177 proxy estimate), and the real threshold impact at 8K stays comfortably clear (manual ~129.7M/100M = 129.7%, total ~558.2M/500M = 111.6% — see the overview table above). With no severe real-measured cost at 8K, Assamese was matched to Hindi's vocab size rather than kept smaller on the strength of a proxy-sample argument alone. The embedding-vs-depth-budget tradeoff (below) and the general scaling-law data-scarcity argument (Tao et al., "Scaling Laws with Vocabulary," arXiv 2407.13623) still exist as considerations, but they're theoretical until Phase 2 training actually measures downstream model quality — they weren't strong enough on their own to prefer a smaller vocab once the real fertility numbers ruled out a severe token-count cost.
 
-At d_model=384 (illustrative; final architecture is a Phase 2 decision), embedding tables cost 7.7% of a 25M-parameter budget at 5K vocab and 12.3% at 8K — both leave the large majority of the budget for actual transformer depth.
+At d_model=384 (illustrative; final architecture is a Phase 2 decision), an 8K-vocab embedding table costs 12.3% of a 25M-parameter budget for either language — leaving the large majority of the budget for actual transformer depth.
 
 ### Token-frequency statistics
 
-| | Hindi (vocab 8,000) | Assamese (vocab 5,000) |
+| | Hindi (vocab 8,000) | Assamese (vocab 8,000) |
 |---|---|---|
-| Fertility | 1.4420 tokens/word | 1.9220 tokens/word |
+| Fertility | 1.4420 tokens/word | 1.7417 tokens/word |
 | UNK rate | 0.0 | 0.0 |
-| Avg chars/token (vocab pieces) | 4.075 | 3.999 |
-| Avg chars/token (real corpus encoding) | 3.276 | 3.321 |
+| Avg chars/token (vocab pieces) | 4.075 | 4.325 |
+| Avg chars/token (real corpus encoding) | 3.276 | 3.689 |
 | Top frequent pieces (excluding special tokens) | `▁क ▁स ▁ह ▁म ▁प ्र ें ार ▁है ▁के` | `▁ক য় াৰ ▁ব ▁প ▁স ▁আ ্ৰ ▁ম ্য` |
 
 ### Tokenization examples
@@ -93,8 +93,9 @@ At d_model=384 (illustrative; final architecture is a Phase 2 decision), embeddi
 
 **Assamese** (`উত্তৰ-পূব ভাৰতৰ অসমৰ সংগীতসমূহ হ'ল মূলতঃ থলুৱা লোক সংগীত আৰু`):
 ```
-▁উত্তৰ - পূব ▁ভাৰতৰ ▁অসমৰ ▁সংগীত সমূহ ▁হ ' ল ▁মূ লত ঃ ▁থল ুৱা
+▁উত্তৰ - পূব ▁ভাৰতৰ ▁অসমৰ ▁সংগীত সমূহ ▁হ ’ ল ▁মূলতঃ ▁থলুৱা ▁লোক ▁সংগীত ▁আৰু
 ```
+(the 8K vocab has a dedicated piece for `মূলতঃ`/`থলুৱা` where the 5K vocab split them further — a direct, visible instance of the fertility improvement)
 
 ## Known limitations, documented not hidden
 

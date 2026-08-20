@@ -58,21 +58,22 @@ REPORT_PATH = REPO_ROOT / "report" / "token_progress.md"
 
 TARGET_TOKENS = 500_000_000
 # Spec targets tokens "after tokenization" (real BPE), not rough whitespace
-# words. Production vocab size decided this session: 5,000 (see CONTEXT.md
-# 2026-08-20 entry -- Assamese's fertility curve never flattens the way
-# Hindi's does even at 24K, so the deciding factors were the embedding-vs-
-# depth budget tradeoff at 25M params and the corpus's own data-scarcity/
-# duplication risk, not a fertility knee). This is now the REAL number:
-# the production tokenizer (assamese/tokenizer/assamese_bpe_5000.model) was
-# trained on the real final train split (build_splits.py's 98% train
-# document-level split), and fertility was measured on the real held-out
-# val split -- 1.9220 real tokens per rough word, UNK rate 0.0. Lower than
-# the earlier 32M-char proxy-sample estimate (2.369): the full corpus gives
-# the tokenizer far more data to learn efficient merges from than a small
-# sample could, so real compression came out better than the proxy
-# predicted. This is the final number -- no more re-measuring needed unless
-# the corpus or vocab size changes.
-MEASURED_BPE_FERTILITY = 1.9220
+# words. Production vocab size revised this session: 5,000 -> 8,000 (see
+# CONTEXT.md 2026-08-20 entries). The original 5,000 pick was based on the
+# 32M-char proxy sweep showing Assamese's fertility curve never flattening
+# the way Hindi's does; once the real 5,000-vocab tokenizer was trained and
+# measured (1.9220 real fertility, notably better than the 2.369 proxy
+# estimate), that same real-vs-proxy gap was checked at 8,000 too -- real
+# fertility 1.7417 (proxy had estimated 2.177), and real threshold impact
+# at 8K stays comfortably clear (manual ~129.7M/100M = 129.7%, total
+# ~558.2M/500M = 111.6%). No severe cost at 8K once measured for real, so
+# matched to Hindi's vocab size. The production tokenizer
+# (assamese/tokenizer/assamese_bpe_8000.model) was trained on the real
+# final train split (build_splits.py's 98% train document-level split),
+# fertility measured on the real held-out val split. UNK rate 0.0. This is
+# the final number -- no more re-measuring needed unless the corpus or
+# vocab size changes again.
+MEASURED_BPE_FERTILITY = 1.7417
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (assamese-data's fix -- raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
@@ -195,7 +196,7 @@ def render_section(stats):
         "",
         f"- **Spec-corrected estimate (real BPE tokens, per line 121's "
         f"\"after tokenization\"):** measured fertility "
-        f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (5,000-vocab "
+        f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (8,000-vocab "
         f"production SentencePiece BPE, trained on the real final train "
         f"split, measured on the real held-out val split -- see constant "
         f"comment above for method). Applying it:",

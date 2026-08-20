@@ -66,8 +66,8 @@ def plot_fertility_vs_vocab():
     fig, ax = plt.subplots(figsize=(7, 5))
     ax.plot(vocab_sizes, hindi, marker="o", label="Hindi", color="#2a78d6")
     ax.plot(vocab_sizes, assamese, marker="o", label="Assamese", color="#eb6834")
-    ax.axvline(8000, color="#2a78d6", linestyle=":", linewidth=1, alpha=0.6)
-    ax.axvline(5000, color="#eb6834", linestyle=":", linewidth=1, alpha=0.6)
+    ax.axvline(8000, color="gray", linestyle=":", linewidth=1.2, alpha=0.7,
+               label="Chosen vocab (both languages)")
     ax.set_xscale("log")
     ax.set_xticks(vocab_sizes)
     ax.set_xticklabels([f"{v // 1000}K" for v in vocab_sizes])

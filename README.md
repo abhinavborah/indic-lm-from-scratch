@@ -16,7 +16,7 @@ Canonical spec: `docs/LMA_Individual_Project_v1-1.md` (not in this repo; see the
 │   └── configs/       # Phase 2
 ├── assamese/
 │   ├── data/        # same shape as hindi/data/
-│   ├── tokenizer/   # assamese_bpe_5000.{model,vocab}
+│   ├── tokenizer/   # assamese_bpe_8000.{model,vocab}
 │   ├── model/ train/ eval/ configs/   # Phase 2
 └── report/
     ├── SOURCES.md                     # combined source tracking, both languages
@@ -46,7 +46,7 @@ Large data artifacts (raw/cleaned corpus text, train/val/test splits) are **not*
    from train_tokenizer import train
    train("../data/splits/train.txt", "<lang>_bpe_<vocab_size>", vocab_size)
    ```
-   Hindi uses vocab_size 8,000; Assamese uses 5,000 (see `report/phase1_dataset_statistics.md` for why these differ and how they were chosen). Training samples via sentencepiece's own `input_sentence_size` mechanism rather than the full split, per course guidance that training on a representative sample is acceptable if justified.
+   Both Hindi and Assamese use vocab_size 8,000 (see `report/phase1_dataset_statistics.md` for how this was chosen — different vocab sizes per language would have been spec-permitted, but the real measured numbers didn't justify a smaller vocab for Assamese once trained on the real corpus). Training samples via sentencepiece's own `input_sentence_size` mechanism rather than the full split, per course guidance that training on a representative sample is acceptable if justified.
 5. **Generate report figures**: `python3 report/make_figures.py`.
 
 ## Deliverables (Phase 1)

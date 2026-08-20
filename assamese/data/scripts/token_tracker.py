@@ -58,14 +58,17 @@ REPORT_PATH = REPO_ROOT / "report" / "token_progress.md"
 
 TARGET_TOKENS = 500_000_000
 # Spec targets tokens "after tokenization" (real BPE), not rough whitespace
-# words -- measured once, empirically: trained a 32k-vocab SentencePiece BPE
-# model on a 42M-char representative sample of this corpus (all 5 sources,
-# proportionally), held out 10% for eval. Result: 609,704 whitespace words
-# encoded to 877,858 real BPE tokens = 1.4398 tokens/word. Vocab size isn't
-# finalized yet (see spec's fertility/UNK-rate sweep, not done), so this is
-# a snapshot at one plausible vocab size, not the final number -- re-measure
-# once the real tokenizer is trained and drop this constant.
-MEASURED_BPE_FERTILITY = 1.4398
+# words. Production vocab size decided this session: 5,000 (see CONTEXT.md
+# 2026-08-20 entry -- Assamese's fertility curve never flattens the way
+# Hindi's does even at 24K, so the deciding factors were the embedding-vs-
+# depth budget tradeoff at 25M params and the corpus's own data-scarcity/
+# duplication risk, not a fertility knee). Measured empirically this
+# session: 5,000-vocab SentencePiece BPE trained on a 32M-char proxy sample
+# (1,120 files, all 9 collection categories, proportional), held out 10%
+# for eval -- fertility 2.369 real tokens per rough word. This is still a
+# proxy-sample estimate, not the final production tokenizer's number --
+# re-measure once that's trained on the real, final, split corpus.
+MEASURED_BPE_FERTILITY = 2.369
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (assamese-data's fix -- raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
@@ -188,7 +191,7 @@ def render_section(stats):
         "",
         f"- **Spec-corrected estimate (real BPE tokens, per line 121's "
         f"\"after tokenization\"):** measured fertility "
-        f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (32k-vocab "
+        f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (5,000-vocab "
         f"SentencePiece BPE, own corpus sample, held-out eval -- see constant "
         f"comment above for method). Applying it:",
         f"  - Total: ~{fmt(round(total * MEASURED_BPE_FERTILITY))} / "
@@ -197,9 +200,10 @@ def render_section(stats):
         f"  - Manual: ~{fmt(round(manual * MEASURED_BPE_FERTILITY))} / "
         f"{fmt(TARGET_TOKENS // 5)} floor "
         f"({manual * MEASURED_BPE_FERTILITY / (TARGET_TOKENS // 5) * 100:.1f}%)",
-        f"  - This is a snapshot, not final -- the real tokenizer isn't "
-        f"trained yet and vocab size isn't chosen (spec's own fertility/"
-        f"UNK-rate sweep is still open). Re-measure once it is.",
+        f"  - This is a snapshot, not final -- vocab size is chosen (5,000) "
+        f"but the real tokenizer isn't trained yet, this fertility is still "
+        f"from a proxy sample, not the final split corpus. Re-measure once "
+        f"the real tokenizer trains.",
         "",
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",

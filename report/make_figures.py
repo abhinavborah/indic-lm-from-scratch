@@ -60,12 +60,22 @@ def plot_train_val_test_split():
 
 def plot_fertility_vs_vocab():
     vocab_sizes = [5000, 8000, 10000, 15000, 24000, 32000]
-    hindi = [2.1086, 1.9772, 1.9239, 1.8390, 1.7574, 1.7149]
-    assamese = [2.369, 2.1769, 2.099, 1.9790, 1.8626, 1.8024]
+    hindi_proxy = [2.1086, 1.9772, 1.9239, 1.8390, 1.7574, 1.7149]
+    assamese_proxy = [2.369, 2.1769, 2.099, 1.9790, 1.8626, 1.8024]
+
+    real_vocab_sizes = [5000, 8000, 10000]
+    hindi_real = [1.5605, 1.4420, 1.3964]
+    assamese_real = [1.9220, 1.7437, 1.6710]
 
     fig, ax = plt.subplots(figsize=(7, 5))
-    ax.plot(vocab_sizes, hindi, marker="o", label="Hindi", color="#2a78d6")
-    ax.plot(vocab_sizes, assamese, marker="o", label="Assamese", color="#eb6834")
+    ax.plot(vocab_sizes, hindi_proxy, marker="o", label="Hindi (proxy sweep)",
+            color="#2a78d6", alpha=0.5)
+    ax.plot(vocab_sizes, assamese_proxy, marker="o", label="Assamese (proxy sweep)",
+            color="#eb6834", alpha=0.5)
+    ax.plot(real_vocab_sizes, hindi_real, marker="s", linestyle="--",
+            label="Hindi (real, production tokenizer)", color="#2a78d6")
+    ax.plot(real_vocab_sizes, assamese_real, marker="s", linestyle="--",
+            label="Assamese (real, production tokenizer)", color="#eb6834")
     ax.axvline(8000, color="gray", linestyle=":", linewidth=1.2, alpha=0.7,
                label="Chosen vocab (both languages)")
     ax.set_xscale("log")
@@ -74,8 +84,8 @@ def plot_fertility_vs_vocab():
     ax.minorticks_off()
     ax.set_xlabel("Vocabulary Size")
     ax.set_ylabel("Fertility (tokens/word)")
-    ax.set_title("Vocabulary Size vs. Fertility (proxy sweep, 32M-char sample)")
-    ax.legend()
+    ax.set_title("Vocabulary Size vs. Fertility: proxy sweep vs. real measurement")
+    ax.legend(fontsize=8)
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
     fig.savefig(f"{FIGURES_DIR}/fertility_vs_vocab.png", dpi=150)

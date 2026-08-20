@@ -82,8 +82,10 @@ At d_model=384 (illustrative; final architecture is a Phase 2 decision), an 8K-v
 | Fertility | 1.4420 tokens/word | 1.7437 tokens/word |
 | UNK rate | 0.0 | 0.0 |
 | Avg chars/token (vocab pieces) | 4.075 | 4.325 |
-| Avg chars/token (real corpus encoding) | 3.276 | 3.689 |
+| Avg chars/token (real corpus encoding) | 3.5869 | 3.6890 |
 | Top frequent pieces (excluding special tokens) | `▁क ▁स ▁ह ▁म ▁प ्र ें ार ▁है ▁के` | `▁ক য় াৰ ▁ব ▁প ▁স ▁আ ্ৰ ▁ম ্য` |
+
+"Real corpus encoding" is measured as total raw character count (including spaces) of the held-out val split, divided by the number of BPE tokens the production tokenizer produces encoding it. Hindi's figure was corrected during a later audit pass: the previously reported 3.276 could not be reproduced with this method and was stale from an earlier, unverified measurement; 3.5869 is the current, reproducible value on the same val split used for its fertility measurement.
 
 ### Tokenization examples
 

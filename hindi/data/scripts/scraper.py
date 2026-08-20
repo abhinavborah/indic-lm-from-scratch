@@ -46,7 +46,18 @@ OUT_DIR = DATA_DIR / "raw" / "scrape"      # original, unfiltered article text
 CLEAN_DIR = DATA_DIR / "clean" / "scrape"  # clean_text() output, same filenames
 STATE_FILE = DATA_DIR / ".state.json"
 LOG_FILE = DATA_DIR / "COLLECTION_LOG.md"
-NAMESPACE = "scrape"
+# Each source gets its own top-level state_io namespace, not a sub-key
+# under one shared "scrape" dict. This script's own docstring guarantees
+# all sources run as threads within one process (never separate OS
+# processes), so the shared-dict-in-memory design was never unsafe here in
+# practice -- but the Assamese copy of this script had the identical
+# pattern and it broke the moment two of its sources ended up running in
+# separate processes (separate herdr panes), each loading a stale full-
+# namespace snapshot and wiping the other's checkpoint on save. Applying
+# the same per-source-namespace fix here defensively, so this script stays
+# safe even if a future session ever runs its sources as separate
+# processes instead of threads.
+NAMESPACE_PREFIX = "scrape"
 
 USER_AGENT = "Mozilla/5.0 (compatible; lma-individual-project-research-bot)"
 REQUEST_TIMEOUT_S = 20
@@ -169,10 +180,11 @@ def scrape_article(url, content_selector):
     return container.get_text(separator="\n", strip=True)
 
 
-def process_source(source, scrape_state, state_lock, max_articles, max_seconds):
+def process_source(source, state_lock, max_articles, max_seconds):
     name = source["name"]
+    namespace = f"{NAMESPACE_PREFIX}_{name}"
     with state_lock:
-        entry = scrape_state.setdefault(name, {"done_urls": [], "total_words": 0})
+        entry = state_io.load_namespace(STATE_FILE, namespace, {"done_urls": [], "total_words": 0})
         done = set(entry["done_urls"])
 
     urls = None
@@ -206,7 +218,7 @@ def process_source(source, scrape_state, state_lock, max_articles, max_seconds):
                     continue  # transient fetch failure -- leave off done_urls, retry next run
                 if not text:
                     entry["done_urls"].append(url)  # confirmed non-article page -- permanent skip
-                    state_io.save_namespace(STATE_FILE, NAMESPACE, scrape_state)
+                    state_io.save_namespace(STATE_FILE, namespace, entry)
                     continue
 
                 out_f.write(text + "\n\n")
@@ -219,7 +231,7 @@ def process_source(source, scrape_state, state_lock, max_articles, max_seconds):
                 words = len(cleaned.split())
                 entry["done_urls"].append(url)
                 entry["total_words"] += words
-                state_io.save_namespace(STATE_FILE, NAMESPACE, scrape_state)
+                state_io.save_namespace(STATE_FILE, namespace, entry)
 
             batch_words += words
             processed += 1
@@ -250,14 +262,14 @@ def main():
         log(f"No matching sources for --sources {args.sources}")
         return
 
-    scrape_state = state_io.load_namespace(STATE_FILE, NAMESPACE, {})
-    state_lock = threading.Lock()  # guards in-memory scrape_state dict across worker threads;
+    state_lock = threading.Lock()  # each source now loads/saves its own namespace, so this
+                                    # only serializes ordering of load-then-mutate within a source;
                                     # state_io itself is flock-safe for the on-disk file separately
 
     log(f"Starting {len(sources)} concurrent source workers: {[s['name'] for s in sources]}")
     run_start = time.time()
     with ThreadPoolExecutor(max_workers=len(sources)) as pool:
-        futures = [pool.submit(process_source, s, scrape_state, state_lock,
+        futures = [pool.submit(process_source, s, state_lock,
                                 args.max_articles, args.max_seconds) for s in sources]
         results = [f.result() for f in futures]
 

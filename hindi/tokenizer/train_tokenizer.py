@@ -6,10 +6,19 @@ than hand-rolling merge counting), but layered with this project's own
 decisions rather than stock defaults:
   - `preprocess.py`'s purity filter runs first -- the trainer only ever sees
     already-cleaned Hindi text, not raw scrape/OCR/Sangraha noise.
-  - `byte_fallback=True` + `character_coverage=1.0` gives byte-level
+  - `byte_fallback=True` + `character_coverage=0.9995` gives byte-level
     fallback for anything outside the learned vocab, so encoding never hits
     a hard UNK on unseen characters (the closest sentencepiece equivalent to
-    a from-scratch byte-level BPE's guarantee).
+    a from-scratch byte-level BPE's guarantee). Coverage is 0.9995, not 1.0:
+    at full-corpus scale the real character alphabet is far noisier than a
+    small proxy sample suggested (this exact issue hit Assamese's real train
+    split, 5,828 unique characters, mostly rare stray symbols/noise that
+    slipped past line-level purity filtering, exceeding the vocab budget
+    outright with coverage=1.0). 0.9995 is sentencepiece's own default for
+    exactly this (see doc/options.md: "use 1.0 for languages with small
+    alphabets... 0.9995 for large character sets"); the rare tail still
+    round-trips losslessly via byte_fallback instead of forcing a top-level
+    vocab slot.
   - `vocab_size` is NOT fixed here -- `vocab_sweep.py` picks it empirically
     via fertility/UNK-rate on held-out text, this module just trains one
     candidate at a time.
@@ -28,7 +37,15 @@ import sentencepiece as spm
 DEFAULT_SPECIAL_TOKENS = ()  # e.g. ("<|user|>", "<|assistant|>") once Phase 3 needs them
 
 
-def train(input_path, model_prefix, vocab_size, special_tokens=DEFAULT_SPECIAL_TOKENS):
+DEFAULT_INPUT_SENTENCE_SIZE = 5_000_000  # sentencepiece's own recommended way to bound
+# training cost on a large corpus (see doc/options.md) -- samples this many lines from
+# the input rather than loading the entire multi-hundred-million-token train split.
+# Matches the HackMD-sanctioned "train on a sample, justified" approach, just done via
+# the library's own mechanism instead of a hand-built sample file.
+
+
+def train(input_path, model_prefix, vocab_size, special_tokens=DEFAULT_SPECIAL_TOKENS,
+          input_sentence_size=DEFAULT_INPUT_SENTENCE_SIZE):
     """Train a byte-level BPE model on an already-cleaned text file.
 
     input_path: plain text, one cleaned segment per line (preprocess.py's output).
@@ -41,7 +58,9 @@ def train(input_path, model_prefix, vocab_size, special_tokens=DEFAULT_SPECIAL_T
         vocab_size=vocab_size,
         model_type="bpe",
         byte_fallback=True,
-        character_coverage=1.0,
+        character_coverage=0.9995,
+        input_sentence_size=input_sentence_size,
+        shuffle_input_sentence=True,
         pad_id=0, bos_id=1, eos_id=2, unk_id=3,
         user_defined_symbols=list(special_tokens),
     )

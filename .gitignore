@@ -5,6 +5,7 @@ __pycache__/
 .DS_Store
 */data/raw/
 */data/clean/
+*/data/splits/
 */data/.state.json
 */data/.credentials.local.json
 */data/.*_session.json

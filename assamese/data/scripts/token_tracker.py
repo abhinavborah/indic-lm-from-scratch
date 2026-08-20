@@ -62,13 +62,17 @@ TARGET_TOKENS = 500_000_000
 # 2026-08-20 entry -- Assamese's fertility curve never flattens the way
 # Hindi's does even at 24K, so the deciding factors were the embedding-vs-
 # depth budget tradeoff at 25M params and the corpus's own data-scarcity/
-# duplication risk, not a fertility knee). Measured empirically this
-# session: 5,000-vocab SentencePiece BPE trained on a 32M-char proxy sample
-# (1,120 files, all 9 collection categories, proportional), held out 10%
-# for eval -- fertility 2.369 real tokens per rough word. This is still a
-# proxy-sample estimate, not the final production tokenizer's number --
-# re-measure once that's trained on the real, final, split corpus.
-MEASURED_BPE_FERTILITY = 2.369
+# duplication risk, not a fertility knee). This is now the REAL number:
+# the production tokenizer (assamese/tokenizer/assamese_bpe_5000.model) was
+# trained on the real final train split (build_splits.py's 98% train
+# document-level split), and fertility was measured on the real held-out
+# val split -- 1.9220 real tokens per rough word, UNK rate 0.0. Lower than
+# the earlier 32M-char proxy-sample estimate (2.369): the full corpus gives
+# the tokenizer far more data to learn efficient merges from than a small
+# sample could, so real compression came out better than the proxy
+# predicted. This is the final number -- no more re-measuring needed unless
+# the corpus or vocab size changes.
+MEASURED_BPE_FERTILITY = 1.9220
 # (path relative to assamese/data/, bucket). ocr/scrape now land pre-cleaned
 # under clean/ (assamese-data's fix -- raw/ocr and raw/scrape hold true raw
 # text now, which would skew counts if scanned here). sangraha is
@@ -192,7 +196,8 @@ def render_section(stats):
         f"- **Spec-corrected estimate (real BPE tokens, per line 121's "
         f"\"after tokenization\"):** measured fertility "
         f"{MEASURED_BPE_FERTILITY:.4f} real tokens per rough word (5,000-vocab "
-        f"SentencePiece BPE, own corpus sample, held-out eval -- see constant "
+        f"production SentencePiece BPE, trained on the real final train "
+        f"split, measured on the real held-out val split -- see constant "
         f"comment above for method). Applying it:",
         f"  - Total: ~{fmt(round(total * MEASURED_BPE_FERTILITY))} / "
         f"{fmt(TARGET_TOKENS)} target "
@@ -200,10 +205,8 @@ def render_section(stats):
         f"  - Manual: ~{fmt(round(manual * MEASURED_BPE_FERTILITY))} / "
         f"{fmt(TARGET_TOKENS // 5)} floor "
         f"({manual * MEASURED_BPE_FERTILITY / (TARGET_TOKENS // 5) * 100:.1f}%)",
-        f"  - This is a snapshot, not final -- vocab size is chosen (5,000) "
-        f"but the real tokenizer isn't trained yet, this fertility is still "
-        f"from a proxy sample, not the final split corpus. Re-measure once "
-        f"the real tokenizer trains.",
+        f"  - This is the final number: real production tokenizer, real "
+        f"held-out split, UNK rate 0.0. No longer a proxy estimate.",
         "",
         f"- **Filtering:** {fmt(stats['segments_scanned'])} segments scanned "
         f"across {fmt(stats['files_scanned'])} files.",

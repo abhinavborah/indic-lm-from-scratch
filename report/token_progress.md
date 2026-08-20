@@ -35,7 +35,7 @@ _Last updated: 2026-08-20 14:17:48_
 
 ## Assamese
 
-_Last updated: 2026-08-20 14:10:50_
+_Last updated: 2026-08-20 15:23:48_
 
 - **Real tokens (kept):** 320,478,882 / 500,000,000 target (64.1%) -- rough whitespace count, see spec-corrected estimate below
   - Manual (ocr + scrape): 74,452,715 (23.2%)
@@ -43,10 +43,10 @@ _Last updated: 2026-08-20 14:10:50_
     - of which from `unverified` (automated perplexity-filtered, **not** human-verified -- lower-confidence tier): 7,948,008
   - Manual quota (>=20% of 500,000,000 = 100,000,000): NOT MET (74,452,715 so far)
 
-- **Spec-corrected estimate (real BPE tokens, per line 121's "after tokenization"):** measured fertility 2.3690 real tokens per rough word (5,000-vocab SentencePiece BPE, own corpus sample, held-out eval -- see constant comment above for method). Applying it:
-  - Total: ~759,214,471 / 500,000,000 target (151.8%)
-  - Manual: ~176,378,482 / 100,000,000 floor (176.4%)
-  - This is a snapshot, not final -- vocab size is chosen (5,000) but the real tokenizer isn't trained yet, this fertility is still from a proxy sample, not the final split corpus. Re-measure once the real tokenizer trains.
+- **Spec-corrected estimate (real BPE tokens, per line 121's "after tokenization"):** measured fertility 1.9220 real tokens per rough word (5,000-vocab production SentencePiece BPE, trained on the real final train split, measured on the real held-out val split -- see constant comment above for method). Applying it:
+  - Total: ~615,960,411 / 500,000,000 target (123.2%)
+  - Manual: ~143,098,118 / 100,000,000 floor (143.1%)
+  - This is the final number: real production tokenizer, real held-out split, UNK rate 0.0. No longer a proxy estimate.
 
 - **Filtering:** 3,951,952 segments scanned across 10,345 files.
   - Dropped for script impurity / fully word-stripped (text_clean.py -- strip embedded Latin words, drop non-Bengali-Assamese-block-majority lines): 23,685 segments, 9,975,282 rough tokens

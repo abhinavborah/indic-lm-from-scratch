@@ -14,9 +14,16 @@ FIGURES_DIR = __file__.rsplit("/", 1)[0] + "/figures"
 
 
 def plot_manual_vs_downloaded():
+    # Real (fertility-adjusted) tokens, not rough whitespace counts: the
+    # spec's manual floor and total target are both stated "after
+    # tokenization" (line 121), so this is the number that actually
+    # determines pass/fail, and the only one that should be checked
+    # against the 100M floor line. A rough-count version of this chart
+    # would show Assamese's manual bar under the floor line even though
+    # the real, tokenized count clears it with room (137.4M vs 100M).
     languages = ["Hindi", "Assamese"]
-    manual = [135_428_971, 77_301_769]
-    downloaded = [433_768_075, 246_596_413]
+    manual = [202_330_883, 137_442_545]
+    downloaded = [648_049_504, 438_448_422]
 
     fig, ax = plt.subplots(figsize=(7, 5))
     x = range(len(languages))
@@ -24,12 +31,12 @@ def plot_manual_vs_downloaded():
     ax.bar(x, downloaded, bottom=manual, label="Downloaded", color="#eb6834")
     ax.set_xticks(list(x))
     ax.set_xticklabels(languages)
-    ax.set_ylabel("Rough tokens (whitespace count)")
+    ax.set_ylabel("Real tokens, after tokenization")
     ax.set_xlabel("Language")
-    ax.set_title("Manual vs. Downloaded Tokens by Language")
+    ax.set_title("Manual vs. Downloaded Tokens by Language (real, after tokenization)")
     ax.legend()
     ax.axhline(100_000_000, color="gray", linestyle="--", linewidth=1)
-    ax.text(1.4, 105_000_000, "100M manual floor", fontsize=8, color="gray")
+    ax.text(1.4, 108_000_000, "100M manual floor", fontsize=8, color="gray")
     fig.tight_layout()
     fig.savefig(f"{FIGURES_DIR}/manual_vs_downloaded.png", dpi=150)
     plt.close(fig)

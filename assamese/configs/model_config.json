@@ -26,9 +26,9 @@
   "schedule": {
     "type": "warmup_then_cosine",
     "warmup_steps": 200,
-    "peak_lr": null,
-    "min_lr": null,
-    "notes": "peak_lr and min_lr intentionally unset -- to be picked deliberately from a small LR sweep during the local smoke-test checkpoint, not guessed. See docs-phase-2/training_diagnostics.md."
+    "peak_lr": 0.0003,
+    "min_lr": 3e-05,
+    "notes": "picked via smoke_test.py's LR sweep on real data (mps); candidates [0.0001, 0.0003, 0.0006, 0.001] over 50 steps each, min_lr = peak_lr / 10 (standard nanoGPT convention). See viva-lma.md for the sweep results."
   },
   "tokenizer": {
     "model_path": "assamese/tokenizer/assamese_bpe_8000.model",
@@ -41,5 +41,11 @@
     "expected_initial_loss_nats": 8.99,
     "expected_initial_perplexity": 8000,
     "formula": "L0 = ln(vocab_size)"
+  },
+  "smoke_test_throughput": {
+    "device": "mps",
+    "tokens_per_sec": 12123.0,
+    "batch_size": 8,
+    "context_length": 256
   }
 }

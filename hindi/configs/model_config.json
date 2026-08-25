@@ -1,0 +1,45 @@
+{
+  "language": "hindi",
+  "model": {
+    "vocab_size": 8000,
+    "n_layer": 12,
+    "d_model": 384,
+    "n_head": 6,
+    "d_ff": 1536,
+    "context_length": 256,
+    "dropout": 0.1,
+    "tie_embeddings": true,
+    "positional_embedding": "rope",
+    "norm_style": "pre_ln"
+  },
+  "param_count_estimate": {
+    "tied_total": 24400000,
+    "note": "12 * 12 * d_model^2 (attn+ffn) + tied embed (vocab*d_model) + pos embed (context*d_model); see docs-phase-2/depth_width_tradeoff.md"
+  },
+  "optimizer": {
+    "type": "adamw",
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "weight_decay": 0.1,
+    "grad_clip_norm": 1.0
+  },
+  "schedule": {
+    "type": "warmup_then_cosine",
+    "warmup_steps": 200,
+    "peak_lr": null,
+    "min_lr": null,
+    "notes": "peak_lr and min_lr intentionally unset -- to be picked deliberately from a small LR sweep during the local smoke-test checkpoint, not guessed. See docs-phase-2/training_diagnostics.md."
+  },
+  "tokenizer": {
+    "model_path": "hindi/tokenizer/hindi_bpe_8000.model",
+    "pad_id": 0,
+    "bos_id": 1,
+    "eos_id": 2,
+    "unk_id": 3
+  },
+  "sanity_check": {
+    "expected_initial_loss_nats": 8.99,
+    "expected_initial_perplexity": 8000,
+    "formula": "L0 = ln(vocab_size)"
+  }
+}

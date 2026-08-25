@@ -12,9 +12,9 @@
     "positional_embedding": "rope",
     "norm_style": "pre_ln"
   },
-  "param_count_estimate": {
-    "tied_total": 24400000,
-    "note": "12 * 12 * d_model^2 (attn+ffn) + tied embed (vocab*d_model) + pos embed (context*d_model); see docs-phase-2/depth_width_tradeoff.md"
+  "param_count_measured": {
+    "tied_total": 24366336,
+    "note": "same architecture and vocab_size as hindi (checkpoint 2's model_config.json), so the same measured count applies -- to be independently re-verified once assamese/model/model.py is built in checkpoint 3, since the two models must stay fully independent."
   },
   "optimizer": {
     "type": "adamw",

@@ -22,3 +22,8 @@ requests
 # Report figures (dataset statistics plots, per spec's title/label/legend
 # requirement).
 matplotlib
+
+# Phase 2: model implementation, training, eval. Spec mandates PyTorch
+# specifically (not a substitutable choice) -- see
+# docs/docs-phase-2/implementation_plan.md.
+torch

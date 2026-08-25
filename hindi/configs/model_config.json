@@ -12,9 +12,9 @@
     "positional_embedding": "rope",
     "norm_style": "pre_ln"
   },
-  "param_count_estimate": {
-    "tied_total": 24400000,
-    "note": "12 * 12 * d_model^2 (attn+ffn) + tied embed (vocab*d_model) + pos embed (context*d_model); see docs-phase-2/depth_width_tradeoff.md"
+  "param_count_measured": {
+    "tied_total": 24366336,
+    "note": "measured via DecoderLM.num_parameters() in hindi/model/model.py, checkpoint 2 self-check. Slightly below docs-phase-2/depth_width_tradeoff.md's 24.4M estimate: that estimate's +0.1M pos-embed term assumed learned absolute positions, but the actual choice (RoPE) has zero learned position parameters."
   },
   "optimizer": {
     "type": "adamw",

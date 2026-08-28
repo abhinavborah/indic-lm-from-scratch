@@ -12,6 +12,7 @@ resumed run reproduces the exact same trajectory as an uninterrupted one
 
 import json
 import math
+import os
 from pathlib import Path
 
 import sentencepiece as spm
@@ -62,7 +63,14 @@ def lr_at_step(step, warmup_steps, peak_lr, min_lr, total_steps):
 
 def save_checkpoint(path, model, optimizer, step, config):
     """Save weights, optimizer state, training step, and config -- the four
-    things the project's checkpoint-resume requirement mandates."""
+    things the project's checkpoint-resume requirement mandates.
+
+    Writes to a temp file first, then renames onto the real path. path holds
+    the only copy of the checkpoint (each call overwrites it), so a session
+    dying mid torch.save would otherwise corrupt the one checkpoint that
+    exists, losing all prior progress rather than just the latest interval."""
+    path = Path(path)
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
     torch.save(
         {
             "model_state_dict": model.state_dict(),
@@ -70,8 +78,9 @@ def save_checkpoint(path, model, optimizer, step, config):
             "step": step,
             "config": config,
         },
-        path,
+        tmp_path,
     )
+    os.replace(tmp_path, path)
 
 
 def load_checkpoint(path, model, optimizer, map_location="cpu"):

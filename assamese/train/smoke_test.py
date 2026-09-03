@@ -3,7 +3,7 @@
 before touching Colab. Does four things a synthetic unit test can't:
 
 1. Picks peak_lr/min_lr from a real small sweep (deliberately, per
-   docs-phase-2/training_diagnostics.md -- "peak LR is the single most
+   docs-phase-2/training_diagnostics.md, "peak LR is the single most
    important hyperparameter", not guessed) and writes the result into
    model_config.json, replacing the placeholder nulls.
 2. Picks batch_size from a real sweep too, not a guessed default. Cheap
@@ -15,7 +15,7 @@ before touching Colab. Does four things a synthetic unit test can't:
    loss-per-token meaningfully versus the baseline.
 3. Confirms the whole pipeline (real tokenizer, real train/val splits,
    real model) runs on the M4 Pro's MPS backend and produces a falling
-   loss curve with a val loss that stays close to train loss -- the
+   loss curve with a val loss that stays close to train loss, the
    "healthy loss curve" diagnostic from training_diagnostics.md.
 4. Measures real MPS tokens/sec throughput at the winning batch size, the
    number docs-phase-2/implementation_plan.md said not to guess before
@@ -38,7 +38,7 @@ import torch
 
 def peak_rss_gb():
     """This process's peak resident memory so far, in GB. ru_maxrss is
-    bytes on macOS (Darwin) but KB on Linux -- this project only runs
+    bytes on macOS (Darwin) but KB on Linux; this project only runs
     locally on the M4 Pro, but the unit split is a classic gotcha worth
     getting right rather than silently wrong on a different machine."""
     raw = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
@@ -49,11 +49,11 @@ def release_mps_memory():
     """Force a GC pass and release MPS's cached buffers back to the system.
     Must be called AFTER the caller has already deleted its own references
     to the short-lived model/optimizer (del inside this function would only
-    drop this function's own local binding, not the caller's -- the object
+    drop this function's own local binding, not the caller's; the object
     would still be alive). Without this, a sweep loop that creates a fresh
     model+optimizer per candidate (the LR sweep does 4, the batch-size
     sweep does 8, a re-sweep does 4 more) accumulates memory across
-    candidates instead of releasing it between them -- on a real run this
+    candidates instead of releasing it between them; on a real run this
     drove physical memory to 26.6GB (near the M4 Pro's full 24GB unified
     memory plus swap), stalling the whole process on memory pressure
     rather than actually computing."""
@@ -83,16 +83,20 @@ VAL_EVERY = 50
 GRAD_CLIP = 1.0
 
 # Batch-size sweep: candidates to try, a fixed token budget per candidate
-# (not fixed steps -- bigger batches take fewer, larger steps to cover the
+# (not fixed steps: bigger batches take fewer, larger steps to cover the
 # same tokens, so token budget is the fair comparison unit), a throughput
 # probe length, and how much worse (fractionally) a bigger batch's
 # fixed-token-budget loss is allowed to be before it's rejected in favor
 # of a smaller, slower-but-not-degraded candidate. Kept to 128 as the
-# starting ceiling, not 256 -- activation memory scales roughly linearly
+# starting ceiling, not 256; activation memory scales roughly linearly
 # with batch size, and a real run hit 26.6GB physical footprint (near the
 # M4 Pro's full 24GB unified memory) partly from candidates this large,
 # not just from the cross-candidate leak that's also fixed below.
-BATCH_CANDIDATES = [32, 64, 128]
+BATCH_CANDIDATES = [8, 16, 32, 64]  # 8/16 added to test below the baseline too, not just
+# above it (the original sweep only ever tested going bigger than 32, never justified
+# treating 32 as a floor). 128 dropped: already hit an unbounded MPS shader-compile
+# stall on this hardware in an earlier run (hardware-level, not data-dependent), no new
+# information from re-triggering the same 12+ minute stall here
 BATCH_THROUGHPUT_STEPS = 50
 BATCH_TOKEN_BUDGET = 2_000_000
 BATCH_QUALITY_TOLERANCE = 0.05
@@ -181,7 +185,7 @@ def sweep_peak_lr(model_config, data, device, batch_size=SWEEP_BATCH_SIZE):
         release_mps_memory()
 
     viable = [r for r in results if r["decreased"] and r["finite"]]
-    assert viable, "no candidate LR produced a decreasing, finite loss -- sweep range is wrong"
+    assert viable, "no candidate LR produced a decreasing, finite loss; sweep range is wrong"
     best = min(viable, key=lambda r: r["last_avg"])
     return best["peak_lr"], results
 
@@ -190,7 +194,7 @@ def measure_batch_candidate(model_config, data, device, batch_size, base_lr, bas
     """Measure throughput and fixed-token-budget loss for one batch size
     candidate. base_lr (swept at base_lr_batch_size) is linearly scaled to
     this candidate's batch size (standard linear scaling rule) as a fair
-    starting point for the loss comparison -- not a final LR choice, just
+    starting point for the loss comparison, not a final LR choice, just
     enough to rank candidates consistently against each other. The real
     LR gets properly re-swept at whichever batch size wins, via
     sweep_peak_lr, not read off this scaled estimate."""
@@ -249,8 +253,8 @@ def sweep_batch_size(model_config, data, device, base_lr):
     fixed-token-budget (BATCH_TOKEN_BUDGET) final loss, using an LR
     linearly scaled from base_lr for a fair per-candidate comparison.
     Picks the fastest candidate whose final loss doesn't exceed the
-    BASELINE_BATCH_SIZE candidate's loss by more than BATCH_QUALITY_TOLERANCE
-    -- if a bigger batch trains just as well per token and faster, it's
+    BASELINE_BATCH_SIZE candidate's loss by more than BATCH_QUALITY_TOLERANCE:
+    if a bigger batch trains just as well per token and faster, it's
     strictly better; if it trains meaningfully worse per token, the extra
     speed isn't worth it."""
     results = []
@@ -263,7 +267,7 @@ def sweep_batch_size(model_config, data, device, base_lr):
               f"({r['tokens_processed']:,} tokens, scaled_lr={r['scaled_lr']:.2e}), "
               f"peak_rss={rss:.1f}GB", flush=True)
         if rss >= MAX_PEAK_RSS_GB:
-            print(f"  peak RSS {rss:.1f}GB reached the {MAX_PEAK_RSS_GB}GB safety ceiling -- "
+            print(f"  peak RSS {rss:.1f}GB reached the {MAX_PEAK_RSS_GB}GB safety ceiling, "
                   f"stopping before trying a larger batch size", flush=True)
             break
 
@@ -350,17 +354,17 @@ def demo():
 
     expected_l0 = torch.log(torch.tensor(float(model_config["vocab_size"]))).item()
     assert abs(train_losses[0] - expected_l0) < 1.0, \
-        f"first real-data loss {train_losses[0]:.4f} far from L0={expected_l0:.4f} -- pipeline is likely broken"
+        f"first real-data loss {train_losses[0]:.4f} far from L0={expected_l0:.4f}; pipeline is likely broken"
 
     first_avg = sum(train_losses[:10]) / 10
     last_avg = sum(train_losses[-10:]) / 10
     assert last_avg < first_avg, "smoke run's loss did not decrease overall"
     assert all(l == l and abs(l) != float("inf") for l in train_losses), \
-        "NaN or Inf appeared in the training loss -- training diverged"
+        "NaN or Inf appeared in the training loss; training diverged"
 
     final_val = val_losses[max(val_losses)]
     assert abs(last_avg - final_val) < 3.0, \
-        f"train/val loss gap too large (train={last_avg:.4f}, val={final_val:.4f}) -- possible overfitting even at this small scale"
+        f"train/val loss gap too large (train={last_avg:.4f}, val={final_val:.4f}); possible overfitting even at this small scale"
 
     with tempfile.TemporaryDirectory() as tmp:
         ckpt_path = Path(tmp) / "smoke_checkpoint.pt"

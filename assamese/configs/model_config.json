@@ -14,7 +14,7 @@
   },
   "param_count_measured": {
     "tied_total": 24366336,
-    "note": "same architecture and vocab_size as hindi (checkpoint 2's model_config.json), so the same measured count applies -- to be independently re-verified once assamese/model/model.py is built in checkpoint 3, since the two models must stay fully independent."
+    "note": "same architecture and vocab_size as hindi (checkpoint 2's model_config.json), so the same measured count applies; to be independently re-verified once assamese/model/model.py is built in checkpoint 3, since the two models must stay fully independent."
   },
   "optimizer": {
     "type": "adamw",
@@ -28,7 +28,7 @@
     "warmup_steps": 200,
     "peak_lr": 0.0003,
     "min_lr": 3e-05,
-    "notes": "picked via smoke_test.py's LR sweep on real data (mps); candidates [0.0001, 0.0003, 0.0006, 0.001] over 50 steps each, min_lr = peak_lr / 10 (standard nanoGPT convention). See viva-lma.md for the sweep results."
+    "notes": "picked via smoke_test.py's LR sweep on real data (mps) at batch_size=32; candidates [0.0001, 0.0003, 0.0006, 0.001] over 50 steps each, min_lr = peak_lr / 10 (standard nanoGPT convention). See viva-lma.md for the sweep results."
   },
   "tokenizer": {
     "model_path": "assamese/tokenizer/assamese_bpe_8000.model",
@@ -44,8 +44,47 @@
   },
   "smoke_test_throughput": {
     "device": "mps",
-    "tokens_per_sec": 12123.0,
-    "batch_size": 8,
+    "tokens_per_sec": 13672.6,
+    "batch_size": 32,
     "context_length": 256
+  },
+  "batch_size": 32,
+  "batch_size_sweep": {
+    "candidates": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "results": [
+      {
+        "batch_size": 8,
+        "tokens_per_sec": 12328.1,
+        "final_loss": 5.7928,
+        "num_steps": 976
+      },
+      {
+        "batch_size": 16,
+        "tokens_per_sec": 14373.1,
+        "final_loss": 5.9887,
+        "num_steps": 488
+      },
+      {
+        "batch_size": 32,
+        "tokens_per_sec": 14947.2,
+        "final_loss": 6.5135,
+        "num_steps": 244
+      },
+      {
+        "batch_size": 64,
+        "tokens_per_sec": 12700.4,
+        "final_loss": 7.1074,
+        "num_steps": 122
+      }
+    ],
+    "baseline_batch_size": 32,
+    "quality_tolerance": 0.05,
+    "picked": 32,
+    "notes": "picked via smoke_test.py's batch-size sweep on real data (mps); fastest candidate among [8, 16, 32, 64] whose fixed-2,000,000-token loss did not exceed batch_size=32's loss by more than 5%. See viva-lma.md for full reasoning."
   }
 }

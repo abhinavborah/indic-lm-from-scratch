@@ -44,39 +44,47 @@
   },
   "smoke_test_throughput": {
     "device": "mps",
-    "tokens_per_sec": 14916.2,
+    "tokens_per_sec": 14185.4,
     "batch_size": 32,
     "context_length": 256
   },
   "batch_size": 32,
   "batch_size_sweep": {
     "candidates": [
+      8,
+      16,
       32,
-      64,
-      128
+      64
     ],
     "results": [
       {
+        "batch_size": 8,
+        "tokens_per_sec": 11936.3,
+        "final_loss": 3.5848,
+        "num_steps": 976
+      },
+      {
+        "batch_size": 16,
+        "tokens_per_sec": 11118.5,
+        "final_loss": 4.3781,
+        "num_steps": 488
+      },
+      {
         "batch_size": 32,
-        "tokens_per_sec": 14781.4,
-        "final_loss": 5.8226,
+        "tokens_per_sec": 13580.6,
+        "final_loss": 5.6772,
         "num_steps": 244
       },
       {
         "batch_size": 64,
-        "tokens_per_sec": 15378.0,
-        "final_loss": 6.3570,
-        "num_steps": 122,
-        "note": "rejected: only 1.6% faster than batch_size=32 while 6.5% worse on fixed-token-budget loss, exceeding the 5% quality tolerance (max acceptable was 6.2662)"
-      },
-      {
-        "batch_size": 128,
-        "note": "not measured: candidate hit an apparently-unbounded Apple MPS Graph JIT shader-compilation stall for this batch shape on this hardware (confirmed via process sampling: stuck in MPSGraph encodeToCommandBuffer / commitAndContinue creating a new command buffer, not a hang or bug in the sweep code). Killed after 12+ minutes with zero step progress on a 50-step throughput probe. Hardware/backend characteristic, not something to fix in code."
+        "tokens_per_sec": 13634.6,
+        "final_loss": 6.3382,
+        "num_steps": 122
       }
     ],
     "baseline_batch_size": 32,
     "quality_tolerance": 0.05,
     "picked": 32,
-    "notes": "picked via smoke_test.py's batch-size sweep on real data (mps). batch_size=64 was measured and rejected (worse loss-per-token than the 5% tolerance allows despite negligible speedup); batch_size=128 could not be measured in practical time due to a one-time MPS shader-compile stall. batch_size=32 (the original default) wins on the actual evidence, not because larger batches weren't tried. See viva-lma.md 2026-08-29 entries for full reasoning and the process-level diagnosis."
+    "notes": "picked via smoke_test.py's batch-size sweep on real data (mps); fastest candidate among [8, 16, 32, 64] whose fixed-2,000,000-token loss did not exceed batch_size=32's loss by more than 5%. See viva-lma.md for full reasoning."
   }
 }

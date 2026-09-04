@@ -1,0 +1,20 @@
+{
+  "language": "assamese",
+  "checkpoint_step": 69000,
+  "results": {
+    "val": {
+      "cross_entropy_nats": 3.9653,
+      "perplexity": 52.73,
+      "bits_per_byte": 0.5934,
+      "tokens_evaluated": 5633792,
+      "byte_length": 54315430
+    },
+    "test": {
+      "cross_entropy_nats": 3.9829,
+      "perplexity": 53.67,
+      "bits_per_byte": 0.599,
+      "tokens_evaluated": 5861120,
+      "byte_length": 56227636
+    }
+  }
+}

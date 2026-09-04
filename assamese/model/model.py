@@ -1,10 +1,10 @@
 """Decoder-only causal Transformer for Assamese, built from raw nn.Linear /
-nn.Embedding / nn.LayerNorm / nn.Dropout -- no nn.Transformer*, no
+nn.Embedding / nn.LayerNorm / nn.Dropout, no nn.Transformer*, no
 pre-built attention block.
 
 Architecture per docs-phase-2/depth_width_tradeoff.md: pre-LN, RoPE
 positional embeddings, tied input/output embeddings. Independent copy of
-hindi/model/model.py -- same architecture pattern, no shared import, per
+hindi/model/model.py, same architecture pattern, no shared import, per
 the hard constraint that Model H and Model L stay fully independent.
 """
 
@@ -56,8 +56,12 @@ class CausalSelfAttention(nn.Module):
         )
         self.register_buffer("causal_mask", causal_mask, persistent=False)
 
-    def forward(self, x, cos, sin):
-        """x: (B, T, d_model) -> (B, T, d_model). Position t only attends to positions <= t."""
+    def forward(self, x, cos, sin, return_attention=False):
+        """x: (B, T, d_model) -> (B, T, d_model). Position t only attends to positions <= t.
+        return_attention=False (default) changes nothing about the return value or
+        computation, so existing checkpoints and tests are unaffected. When True,
+        also returns the post-softmax attention weights, shape (B, n_head, T, T),
+        for the attention-analysis eval (heatmaps, entropy, mean attention distance)."""
         B, T, D = x.shape
 
         q = self.q_proj(x).view(B, T, self.n_head, self.head_dim).transpose(1, 2)
@@ -74,7 +78,10 @@ class CausalSelfAttention(nn.Module):
 
         out = att @ v
         out = out.transpose(1, 2).contiguous().view(B, T, D)
-        return self.out_proj(out)
+        out = self.out_proj(out)
+        if return_attention:
+            return out, att
+        return out
 
 
 class FeedForward(nn.Module):
@@ -100,7 +107,12 @@ class Block(nn.Module):
         self.ln2 = nn.LayerNorm(d_model)
         self.ff = FeedForward(d_model, d_ff, dropout)
 
-    def forward(self, x, cos, sin):
+    def forward(self, x, cos, sin, return_attention=False):
+        if return_attention:
+            attn_out, att = self.attn(self.ln1(x), cos, sin, return_attention=True)
+            x = x + attn_out
+            x = x + self.ff(self.ln2(x))
+            return x, att
         x = x + self.attn(self.ln1(x), cos, sin)
         x = x + self.ff(self.ln2(x))
         return x
@@ -160,12 +172,24 @@ class DecoderLM(nn.Module):
         elif isinstance(module, nn.Embedding):
             nn.init.normal_(module.weight, mean=0.0, std=0.02)
 
-    def forward(self, idx):
-        """idx: (B, T) token ids -> logits: (B, T, vocab_size)."""
+    def forward(self, idx, return_attention=False):
+        """idx: (B, T) token ids -> logits: (B, T, vocab_size).
+        return_attention=False (default) is unchanged from before this flag
+        existed, same computation, same return value, so existing
+        checkpoints and tests are unaffected. When True, also returns a list
+        of per-layer attention weights (n_layer tensors, each (B, n_head, T, T)),
+        for the attention-analysis eval only."""
         T = idx.shape[1]
         assert T <= self.config["context_length"], "sequence longer than context_length"
 
         x = self.drop(self.token_embedding(idx))
+        if return_attention:
+            attentions = []
+            for block in self.blocks:
+                x, att = block(x, self.rope_cos, self.rope_sin, return_attention=True)
+                attentions.append(att)
+            x = self.ln_f(x)
+            return self.head(x), attentions
         for block in self.blocks:
             x = block(x, self.rope_cos, self.rope_sin)
         x = self.ln_f(x)

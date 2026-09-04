@@ -1,0 +1,20 @@
+{
+  "language": "hindi",
+  "checkpoint_step": 101812,
+  "results": {
+    "val": {
+      "cross_entropy_nats": 3.6592,
+      "perplexity": 38.83,
+      "bits_per_byte": 0.5981,
+      "tokens_evaluated": 8359424,
+      "byte_length": 73784013
+    },
+    "test": {
+      "cross_entropy_nats": 3.6496,
+      "perplexity": 38.46,
+      "bits_per_byte": 0.5952,
+      "tokens_evaluated": 8633600,
+      "byte_length": 76369421
+    }
+  }
+}

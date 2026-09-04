@@ -231,4 +231,7 @@ step, and configuration, saved atomically). The learning rate schedule
 is a deterministic function of the saved training step (`lr_at_step`),
 not a separate stateful scheduler object, so no additional scheduler
 state is needed to resume a run exactly: the step count alone is
-sufficient to reconstruct the schedule's position.
+sufficient to reconstruct the schedule's position. This mirrors
+nanoGPT's own `train.py`, which computes LR via a manual `get_lr(it)`
+function rather than a `torch.optim.lr_scheduler` object and likewise
+saves no separate scheduler state in its checkpoint dict.

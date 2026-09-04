@@ -69,21 +69,22 @@ Large data artifacts (raw and cleaned corpus text, train/val/test splits) are **
 
 Checkpoints and the tokenized `.bin` corpus files are **not** in git, same large-artifact policy as Phase 1. See the Drive links below.
 
-1. **Train, from repo root**:
-   ```bash
-   python3 docs/docs-phase-2/run_full_training_reference.py hindi \
-     --checkpoint-dir <checkpoint-dir> \
-     --data-dir hindi/data/splits \
-     --batch-size 32
-   ```
-   Same command for `assamese`. Batch size and learning rate for each
-   language were chosen by a real sweep (`<lang>/train/smoke_test.py`),
-   not guessed; results are recorded in `<lang>/configs/model_config.json`
-   under `batch_size_sweep`. Auto-resumes from a checkpoint if one exists
-   at `--checkpoint-dir`; pass `--fresh` to discard it and start over.
-   Tokenizes `train.txt`/`val.txt` to a `uint16` memmap on first run
-   (one-time, reused on every later run). Graceful Ctrl+C: first press
-   finishes the in-flight step and saves before exiting.
+1. **Train**: run `<lang>/train/colab_full_training.ipynb` (e.g.
+   `hindi/train/colab_full_training.ipynb`, same notebook shape for
+   `assamese`). Cells 0-3 (repo clone, Drive mount, `pip install`) are
+   Colab setup only; the actual tokenize/train/checkpoint loop (cells 4
+   onward) is plain, portable Python. To run locally instead of on Colab,
+   point the notebook's `REPO_DIR` at your local clone and `DATA_DIR`/
+   `CHECKPOINT_DIR` at local paths (e.g. `hindi/data/splits` and a
+   checkpoint directory of your choice) instead of the Drive mount paths,
+   then run the cells top to bottom (skipping the Colab-only cells).
+   Batch size and learning rate for each language were chosen by a real
+   sweep (`<lang>/train/smoke_test.py`), not guessed; results are recorded
+   in `<lang>/configs/model_config.json` under `batch_size_sweep`.
+   Auto-resumes from a checkpoint if one already exists at
+   `CHECKPOINT_PATH`; to start over, remove or rename that checkpoint file
+   before running. Tokenizes `train.txt`/`val.txt` to a `uint16` memmap on
+   first run (one-time, reused on every later run).
 2. **Evaluate** (PPL/BPB, full held-out val and test splits, no sampling):
    ```bash
    python3 hindi/eval/eval_lm.py --checkpoint-path <checkpoint-dir>/hindi_checkpoint.pt

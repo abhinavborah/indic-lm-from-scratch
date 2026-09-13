@@ -1,9 +1,17 @@
 """Reasoning finetuning for the Assamese decoder-only LM.
 
 Starts from the Phase 2 pretrained checkpoint, keeps the tokenizer and
-vocabulary fixed, full-parameter finetune (not PEFT -- see
-docs-phase-3/finetune_method_choice.md for why), on the synthetic
-reasoning dataset in data/reasoning/.
+vocabulary fixed, LoRA finetune (not full-parameter -- see
+docs-phase-3/finetune_method_choice.md's 2026-09-13 update for why: the
+regularization argument against overfitting a tiny 6000-example set, not
+the usual compute-saving argument, which doesn't apply at 24.3M params).
+
+LoRA targets W_q and W_v only, per the original LoRA paper's own ablation
+(Hu et al. 2021, Table 5/6): adapting {W_q, W_v} matches the quality of
+adapting all four attention matrices while needing less capacity, and a
+small rank (r=1-4 in their experiments) already suffices for that pair.
+model.py is never modified -- LoRALinear wraps the existing q_proj/v_proj
+nn.Linear submodules on an already-loaded pretrained model instance.
 
 Sequence format and loss masking, per docs-phase-3/finetune_protocol.md:
     <question tokens> <s> <answer tokens> </s>
@@ -20,8 +28,15 @@ position, and padded target positions are excluded from the loss, so
 their (meaningless) output is simply never used.
 
 Reuses save_checkpoint/load_config/lr_at_step/get_batch from train.py
-unchanged -- same resume-capable checkpoint format as pretraining, per
-spec's Phase 3 protocol requirement.
+unchanged. Per-epoch checkpoints during training stay in a LoRA-native
+state dict (base weights + lora_A/lora_B), resumable by rebuilding the
+same LoRA-injected model before loading. The final deliverable checkpoint
+is produced by merge_lora_to_plain: LoRA's delta is folded back into
+q_proj/v_proj's weights, yielding a plain DecoderLM state dict -- the
+same shape as a pretraining checkpoint (spec's literal "same
+resume-capable format as pretraining" requirement) and, critically, the
+exact shape Phase 2's attention-analysis toolkit already expects, so that
+tool is reused completely unchanged on the finetuned checkpoint.
 """
 
 import json
@@ -30,16 +45,98 @@ import sys
 from pathlib import Path
 
 import torch
+import torch.nn as nn
 import torch.nn.functional as F
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
+from model import DecoderLM  # noqa: E402
 from train import get_batch, load_config, lr_at_step, save_checkpoint  # noqa: E402
 
 BOS_ID = 1  # <s>, reused here as the prompt/answer boundary marker
 EOS_ID = 2  # </s>, terminal end of sequence
 PAD_ID = 0
-MAX_SEQ_LEN = 128  # comfortably above the generator's measured worst case (~78 tokens,
+MAX_SEQ_LEN = 128  # comfortably above the generator's measured worst case (~67 tokens,
 # see data/reasoning/test_generate_reasoning_data.py's token-budget self-check)
+
+
+class LoRALinear(nn.Module):
+    """Wraps a frozen nn.Linear with a trainable low-rank delta:
+    output = base(x) + (alpha/rank) * x @ lora_A^T @ lora_B^T.
+
+    lora_B starts at zero (lora_A does not), so the wrapped layer computes
+    exactly the frozen base layer's output before any training happens --
+    the same zero-init convention as the original LoRA paper, so injecting
+    this wrapper into an already-loaded pretrained model changes nothing
+    about its behavior until training actually updates lora_A/lora_B."""
+
+    def __init__(self, base_linear, rank, alpha):
+        super().__init__()
+        self.base = base_linear
+        for p in self.base.parameters():
+            p.requires_grad = False
+        self.rank = rank
+        self.scaling = alpha / rank
+        self.lora_A = nn.Parameter(torch.empty(rank, base_linear.in_features))
+        self.lora_B = nn.Parameter(torch.zeros(base_linear.out_features, rank))
+        nn.init.kaiming_uniform_(self.lora_A, a=math.sqrt(5))
+
+    def forward(self, x):
+        base_out = self.base(x)
+        lora_out = (x @ self.lora_A.t()) @ self.lora_B.t()
+        return base_out + self.scaling * lora_out
+
+    def merged_weight(self):
+        """base.weight + the folded-in LoRA delta, same shape as the base
+        weight -- used to export a plain nn.Linear-compatible weight."""
+        return self.base.weight + self.scaling * (self.lora_B @ self.lora_A)
+
+
+def inject_lora(model, rank, alpha):
+    """Replaces q_proj and v_proj in every block with a LoRALinear wrapper,
+    in place. Call this AFTER loading pretrained weights into `model` --
+    the wrapper freezes and wraps whatever nn.Linear is there at call time."""
+    for block in model.blocks:
+        block.attn.q_proj = LoRALinear(block.attn.q_proj, rank, alpha)
+        block.attn.v_proj = LoRALinear(block.attn.v_proj, rank, alpha)
+    return model
+
+
+def freeze_non_lora_params(model):
+    """Sets requires_grad on every parameter: True only for lora_A/lora_B,
+    False for everything else (including q_proj/v_proj's own frozen base
+    weights, already set False by LoRALinear.__init__ -- this also covers
+    every other parameter in the model: embeddings, k_proj, out_proj, FFN,
+    LayerNorm, the output head)."""
+    for name, p in model.named_parameters():
+        p.requires_grad = "lora_A" in name or "lora_B" in name
+
+
+def merge_lora_to_plain(lora_model, config):
+    """Builds a fresh, plain DecoderLM (no LoRA wrappers) with q_proj/v_proj
+    set to the merged (base + LoRA delta) weight, everything else copied
+    unchanged. The result is indistinguishable in structure from a Phase 2
+    pretrained checkpoint's model -- safe to hand to unmodified Phase 2
+    eval/attention-analysis code."""
+    plain_model = DecoderLM(config)
+    plain_model.token_embedding.load_state_dict(lora_model.token_embedding.state_dict())
+    plain_model.ln_f.load_state_dict(lora_model.ln_f.state_dict())
+    if not config["tie_embeddings"]:
+        plain_model.head.load_state_dict(lora_model.head.state_dict())
+
+    for plain_block, lora_block in zip(plain_model.blocks, lora_model.blocks):
+        plain_block.ln1.load_state_dict(lora_block.ln1.state_dict())
+        plain_block.ln2.load_state_dict(lora_block.ln2.state_dict())
+        plain_block.ff.load_state_dict(lora_block.ff.state_dict())
+        plain_block.attn.k_proj.load_state_dict(lora_block.attn.k_proj.state_dict())
+        plain_block.attn.out_proj.load_state_dict(lora_block.attn.out_proj.state_dict())
+        with torch.no_grad():
+            plain_block.attn.q_proj.weight.copy_(lora_block.attn.q_proj.merged_weight())
+            plain_block.attn.q_proj.bias.copy_(lora_block.attn.q_proj.base.bias)
+            plain_block.attn.v_proj.weight.copy_(lora_block.attn.v_proj.merged_weight())
+            plain_block.attn.v_proj.bias.copy_(lora_block.attn.v_proj.base.bias)
+
+    return plain_model
 
 
 def load_pretrained_weights(path, model, map_location="cpu"):

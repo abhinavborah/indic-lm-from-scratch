@@ -3,6 +3,7 @@
     python3 test_finetune.py
 """
 
+import copy
 import sys
 import tempfile
 from pathlib import Path
@@ -15,7 +16,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "data" / "reasoning"))
 
 from finetune import (
-    BOS_ID, EOS_ID, PAD_ID, encode_example, finetune, load_pretrained_weights, masked_lm_loss,
+    BOS_ID, EOS_ID, LoRALinear, PAD_ID, encode_example, finetune, freeze_non_lora_params,
+    inject_lora, load_pretrained_weights, masked_lm_loss, merge_lora_to_plain,
 )
 from model import DecoderLM
 from train import load_checkpoint, save_checkpoint
@@ -27,6 +29,9 @@ TINY_CONFIG = {
     "context_length": 128, "dropout": 0.0, "tie_embeddings": True,
     "positional_embedding": "rope", "norm_style": "pre_ln",
 }
+
+LORA_RANK = 4
+LORA_ALPHA = 8
 
 
 def demo():
@@ -73,10 +78,43 @@ def demo():
     assert torch.allclose(loss_a, loss_b), \
         "loss must be unaffected by logit changes at masked-out (weight-0) positions"
 
+    # --- inject_lora: zero-init means behavior is unchanged right after injection ---
+    torch.manual_seed(0)
+    base_model = DecoderLM(TINY_CONFIG)
+    probe_input = torch.randint(0, TINY_CONFIG["vocab_size"], (1, 16))
+    base_model.eval()
+    with torch.no_grad():
+        logits_before = base_model(probe_input)
+
+    lora_model = copy.deepcopy(base_model)
+    inject_lora(lora_model, rank=LORA_RANK, alpha=LORA_ALPHA)
+    lora_model.eval()
+    with torch.no_grad():
+        logits_after = lora_model(probe_input)
+    assert torch.allclose(logits_before, logits_after, atol=1e-5), \
+        "LoRA injection must not change model output before any training (lora_B starts at zero)"
+    lora_model.train()
+
+    # --- freeze_non_lora_params: only lora_A/lora_B are trainable ---
+    freeze_non_lora_params(lora_model)
+    trainable_names = {n for n, p in lora_model.named_parameters() if p.requires_grad}
+    assert trainable_names, "at least some parameters must be trainable"
+    assert all("lora_A" in n or "lora_B" in n for n in trainable_names), \
+        f"only lora_A/lora_B should be trainable, got: {trainable_names}"
+    frozen_names = {n for n, p in lora_model.named_parameters() if not p.requires_grad}
+    assert any("q_proj.base" in n for n in frozen_names) and any("v_proj.base" in n for n in frozen_names), \
+        "q_proj/v_proj base weights must be frozen"
+    assert any("k_proj" in n for n in frozen_names), "k_proj must be untouched and frozen (not a LoRA target)"
+
     # --- end-to-end: tiny model, tiny data, loss should decrease, checkpoint round-trips ---
     torch.manual_seed(0)
     model = DecoderLM(TINY_CONFIG)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3)
+    inject_lora(model, rank=LORA_RANK, alpha=LORA_ALPHA)
+    freeze_non_lora_params(model)
+    base_snapshot = copy.deepcopy(dict(model.named_parameters()))
+    optimizer = torch.optim.AdamW(
+        [p for p in model.parameters() if p.requires_grad], lr=1e-2
+    )
 
     train_examples = [
         {"prompt": "ৰামৰ বয়স শ্যামতকৈ বেছি। বেছি বয়স থকা কোনটো?", "answer": "ৰাম"},
@@ -93,7 +131,7 @@ def demo():
         log = finetune(
             model, optimizer, sp, train_examples, val_examples, pretrain_val_data,
             num_epochs=6, batch_size=2, context_length=TINY_CONFIG["context_length"],
-            peak_lr=1e-3, min_lr=1e-4, warmup_steps=2, grad_clip_norm=1.0, seed=0,
+            peak_lr=1e-2, min_lr=1e-3, warmup_steps=2, grad_clip_norm=1.0, seed=0,
             checkpoint_path=ckpt_path, config=TINY_CONFIG,
         )
         assert len(log) == 6
@@ -101,23 +139,48 @@ def demo():
             "training loss should decrease over 6 epochs on 4 tiny repeated examples"
         assert ckpt_path.exists()
 
-        # checkpoint round-trip via the SAME load_checkpoint used for pretraining resume
+        # frozen params must be bit-for-bit unchanged after training; only LoRA params may move
+        for name, p in model.named_parameters():
+            if p.requires_grad:
+                assert not torch.allclose(p, base_snapshot[name]), \
+                    f"trainable param {name} did not change during training"
+            else:
+                assert torch.allclose(p, base_snapshot[name]), \
+                    f"frozen param {name} changed during training but should not have"
+
+        # checkpoint round-trip: rebuild the SAME LoRA structure before loading (keys must match)
         model2 = DecoderLM(TINY_CONFIG)
-        optimizer2 = torch.optim.AdamW(model2.parameters(), lr=1e-3)
+        inject_lora(model2, rank=LORA_RANK, alpha=LORA_ALPHA)
+        freeze_non_lora_params(model2)
+        optimizer2 = torch.optim.AdamW([p for p in model2.parameters() if p.requires_grad], lr=1e-2)
         resumed_step = load_checkpoint(ckpt_path, model2, optimizer2)
-        assert resumed_step == log[-1]["epoch"] * 2 + 2 or resumed_step > 0  # steps_per_epoch=2 here
+        assert resumed_step > 0
         for p1, p2 in zip(model.parameters(), model2.parameters()):
             assert torch.allclose(p1, p2), "resumed model weights must match the saved model exactly"
 
-        # load_pretrained_weights must load ONLY weights, leave a fresh optimizer untouched
+        # load_pretrained_weights loads only weights into a PLAIN (pre-injection) model
         model3 = DecoderLM(TINY_CONFIG)
         fresh_optimizer = torch.optim.AdamW(model3.parameters(), lr=1e-3)
         fresh_state_before = fresh_optimizer.state_dict()
-        load_pretrained_weights(ckpt_path, model3)
+        pretrain_ckpt_path = Path(tmp) / "pretrain_ckpt.pt"
+        save_checkpoint(pretrain_ckpt_path, base_model, torch.optim.AdamW(base_model.parameters()), 100, TINY_CONFIG)
+        load_pretrained_weights(pretrain_ckpt_path, model3)
         assert fresh_optimizer.state_dict() == fresh_state_before, \
             "load_pretrained_weights must not touch any optimizer, only the model"
-        for p1, p3 in zip(model.parameters(), model3.parameters()):
-            assert torch.allclose(p1, p3)
+        for p_base, p3 in zip(base_model.parameters(), model3.parameters()):
+            assert torch.allclose(p_base, p3)
+
+        # merge_lora_to_plain: merged plain model must reproduce the LoRA model's forward pass
+        model.eval()
+        merged = merge_lora_to_plain(model, TINY_CONFIG)
+        merged.eval()
+        with torch.no_grad():
+            lora_logits = model(probe_input)
+            merged_logits = merged(probe_input)
+        assert torch.allclose(lora_logits, merged_logits, atol=1e-5), \
+            "merged plain model must produce identical logits to the trained LoRA model"
+        assert not any(isinstance(m, LoRALinear) for m in merged.modules()), \
+            "merged model must contain no LoRA wrapper modules"
 
     print("assamese finetune module self-check: OK")
 

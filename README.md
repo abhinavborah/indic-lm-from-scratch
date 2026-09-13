@@ -2,8 +2,6 @@
 
 Two fully independent, from-scratch, ~25M-parameter decoder-only Transformer language models, built for CL3410 (Language Models and Agents). Model H is Hindi, the higher-resource language. Model L is Assamese, the lower-resource language, chosen from the assignment's allowed list. Data, tokenizer, vocabulary, and weights are kept separate throughout. No artifacts are shared between the two models.
 
-Canonical spec: `docs/LMA_Individual_Project_v1-1.md` (not in this repo, see the course materials).
-
 ## Repository layout
 
 ```

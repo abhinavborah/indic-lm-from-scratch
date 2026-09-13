@@ -73,7 +73,7 @@ def demo():
     # and the answer span (see finetune_protocol.md's sequence format).
     import sentencepiece as spm
 
-    tokenizer_path = Path(__file__).resolve().parents[2] / "tokenizer" / "hindi_bpe_8000.model"
+    tokenizer_path = Path(__file__).resolve().parents[2] / "tokenizer" / "assamese_bpe_8000.model"
     sp = spm.SentencePieceProcessor()
     sp.load(str(tokenizer_path))
 
@@ -92,7 +92,7 @@ def demo():
         f"worst-case example ({len(token_ids)} tokens) does not fit context_length=256"
 
     print(f"worst-case 3-hop example token length: {len(token_ids)} (+2 for </s> markers)")
-    print("hindi reasoning-data generator self-check: OK")
+    print("assamese reasoning-data generator self-check: OK")
 
 
 if __name__ == "__main__":

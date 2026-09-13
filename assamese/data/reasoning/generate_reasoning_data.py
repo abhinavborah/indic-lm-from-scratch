@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""Synthetic comparative/transitive reasoning dataset generator for Hindi.
+"""Synthetic comparative/transitive reasoning dataset generator for Assamese.
 
 Generates Q-then-A examples over four attribute domains (height, age, price,
 quantity), each a comparison over 2-4 entities: direct pairwise comparisons
-and 2-hop/3-hop transitive chains ("A's height is more than B's, B's is more
-than C's, who has the least?"). No numbers ever appear in the rendered text;
+and 2-hop/3-hop transitive chains (X's height is more than Y's, Y's is more
+than Z's, who has the least?). No numbers ever appear in the rendered text;
 values exist only internally to fix a strict ordering.
+
+Independent of hindi/data/reasoning/generate_reasoning_data.py: same
+generation logic and split methodology, but its own entity pools and
+Assamese-grammar templates, per this project's fully-independent-languages
+rule. Do not import across the hindi/assamese boundary.
 
 Deliberate scope cut: the "equal" comparison outcome (spec mentions greater,
 smaller, equal as illustrative) is not generated in this first build. Spec's

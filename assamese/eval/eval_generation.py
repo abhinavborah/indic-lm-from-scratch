@@ -7,8 +7,8 @@ forced reference, per spec's "(or teacher-forced targets)" option).
 Prefix/generation split of the context budget: context_length=256, prefix
 64 tokens, generation up to 192 tokens. This is a deliberate scaling of a
 general 200-token repetition-loop diagnostic down to fit this project's
-own context_length rather than retraining at a larger one (see CONTEXT.md,
-2026-08-31 decision); 192 is close to that reference figure, not an
+own context_length rather than retraining at a larger one (decided
+2026-08-31); 192 is close to that reference figure, not an
 arbitrary shrink.
 
 50 held-out prefixes per language, evenly spread across the full test

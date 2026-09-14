@@ -9,8 +9,7 @@ surface forms, train on three, hold the fourth back).
 Uses Assamese-specific grammar (তকৈ as the comparative postposition, ৰ as
 the genitive marker, থকা for "the one having") rather than a Bengali-style
 comparative (যেমন চেয়ে/থেকে), since Assamese and Bengali share the Unicode
-block but are different languages (see this project's CONTEXT.md on the
-Assamese/Bengali purity distinction). Independent from
+block but are different languages. Independent from
 hindi/data/reasoning/templates.py, not a transliteration of it.
 
 Both ৰ (genitive) and তকৈ (comparative "than") are bound suffixes in

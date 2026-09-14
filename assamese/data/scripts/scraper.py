@@ -120,8 +120,7 @@ SOURCES = [
         "sitemap": "https://www.dainandinbartagroup.in/sitemap_index.xml",
         # Plain WordPress <article> wrapper, same as niyomiyabarta. Verified
         # against a live article (sports story, 29 Nov 2024): real, coherent
-        # Assamese. Found via firecrawl search this session, not previously
-        # in SOURCES.md.
+        # Assamese.
         "content_selector": "article",
     },
     {
@@ -131,7 +130,7 @@ SOURCES = [
         # div.entry-content, not a plain <article> tag (that selector only
         # matched a short reused excerpt widget, not the real body).
         # Verified against a live article (govt appointment brief): real,
-        # coherent Assamese. Found via firecrawl search this session.
+        # coherent Assamese.
         "content_selector": "div.entry-content",
     },
     {
@@ -140,10 +139,10 @@ SOURCES = [
         # Weekly Assamese digital literary magazine (poetry, essays). Plain
         # <article> wrapper. Verified against a live poem: real, natural
         # Assamese literary prose, good source for the "natural phrasing"
-        # quality the spec cares about, not just news boilerplate. Found via
-        # firecrawl search this session. Paginated sitemap (Blogger-style
-        # ?page=N children), same shape as thereveal.co.in's, but this site
-        # is Assamese-primary where thereveal sampled as English-primary.
+        # quality the spec cares about, not just news boilerplate. Paginated
+        # sitemap (Blogger-style ?page=N children), same shape as
+        # thereveal.co.in's, but this site is Assamese-primary where
+        # thereveal sampled as English-primary.
         "content_selector": "article",
     },
 ]

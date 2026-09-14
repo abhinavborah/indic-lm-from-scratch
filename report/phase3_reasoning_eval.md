@@ -2,11 +2,31 @@
 
 ## Method
 
-Each model's own Phase 2 pretrained checkpoint is finetuned via LoRA
-(rank 8, alpha 16, targeting `q_proj`/`v_proj` in every attention block;
-base weights and the token embedding table, including the output head
-tied to it, stay frozen) on that language's own synthetic comparative-
-reasoning dataset. No data or weights are shared between the two models.
+Each model's own Phase 2 pretrained checkpoint is finetuned (SFT:
+supervised finetuning on labelled input/output pairs, not general
+instruction-following training) via LoRA (rank 8, alpha 16, targeting
+`q_proj`/`v_proj` in every attention block; base weights and the token
+embedding table, including the output head tied to it, stay frozen) on
+that language's own synthetic comparative-reasoning dataset. No data or
+weights are shared between the two models.
+
+**Why LoRA over full finetuning.** At 24.3M total parameters, full
+finetuning gives the entire model real room to memorize a finetuning set
+of only ~4,500-6,000 examples rather than generalize from it. This is not
+a hypothetical risk: on a comparable held-out age-ordering task, a small
+full-finetuned model reached near-zero training loss but 0% exact-match
+on unseen entity names, having learned to reproduce the trained entity
+pool's answer format rather than the underlying comparison operation.
+LoRA's rank-constrained weight update cannot memorize as freely as an
+unconstrained full-parameter update, which plausibly helps generalization
+on exactly the two axes this evaluation reports separately: unseen-entity
+and unseen-wording accuracy. Compute/memory savings, LoRA's more common
+selling point, are not the motivating factor here; there is no memory
+pressure to relieve at this parameter count. Plain LoRA (not DoRA, not
+QLoRA) was chosen specifically because DoRA's purpose is closing LoRA's
+capacity gap to full finetuning, which would erode the same
+regularization property motivating the switch; QLoRA's quantization
+solves a memory problem this model does not have.
 
 Rank and alpha were picked by an empirical sweep (`<lang>/train/
 lora_rank_sweep.py`), not guessed: reasoning-val loss drops monotonically
@@ -36,12 +56,44 @@ Phase 2's evaluation and attention tooling can load them unchanged.
 ## Dataset
 
 Synthetic comparative-reasoning dataset, generated programmatically per
-language (own templates, own entity-name pools, own script), not
-downloaded from an existing benchmark. Both leakage-avoidance axes from
-Lec09 are enforced: some template surface forms are held out entirely for
-test (train on 3 forms per relation, hold 1), and some entity-name pools
-are held out entirely for test, never appearing in train even paired with
-seen templates.
+language (own templates, own entity-name pools, own script) from a pure
+function `generate(seed, domain, split) -> list[example]`, not downloaded
+from an existing benchmark. Evaluated against the four named best-
+practice criteria the course's own SFT-data guidance specifies.
+
+**Coverage** (does every target behavior have examples): 4 independently
+instantiable attribute domains (height, age, price, quantity), each
+covering direct pairwise comparisons, 2-hop chained comparisons (A>B,
+B>C), and 3-hop chained comparisons, plus equal/tie outcomes (~10% of the
+dataset, both languages) where the spec's "greater, smaller, equal"
+scope requires it. Ties are structurally excluded from 2-hop (3-entity)
+chains, since with exactly 3 entities every adjacent pair touches one of
+the two queried extremes, making a tie there ambiguous with the asked-for
+answer; ties are only included where they can sit strictly between the
+two extremes (2-entity and 4-entity chains).
+
+**Diversity of form** (phrasing variety per behavior): 4 premise
+phrasings and 4 question phrasings per domain, varying word order and
+connective words within the 3 trained forms rather than reusing 3 fixed
+strings verbatim, to avoid a repeated-phrase stylistic tic. Entity pools:
+155 person names / 119 object names (Hindi), 150 person names / 122
+object names (Assamese), both languages using natural in-language names,
+not transliterations of the other language's names.
+
+**Correctness** (is every label actually right): answers are extractive
+from the stated premises by the generator's own deterministic logic, not
+hand-labeled, so label correctness is a property of the generation
+function itself rather than manual annotation quality. Covered by
+`test_generate_reasoning_data.py`'s self-tests, both languages.
+
+**Separation** (no test item appears in training): both leakage-avoidance
+axes from Lec09 are enforced. Some template surface forms are held out
+entirely for test (train on 3 forms per relation, hold 1). Some
+entity-name pools are held out entirely for test (80/20 train/held split
+on both person and object pools), never appearing in train even paired
+with seen templates. Train and test_seen are additionally instance-level
+disjoint (the same entity combination and premise ordering never appears
+in both), not just template/entity-level disjoint.
 
 | Split | Hindi / Assamese (each) |
 |---|---|

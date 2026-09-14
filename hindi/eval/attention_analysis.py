@@ -152,7 +152,16 @@ def plot_heatmaps(attn_layer, pieces, layer_label, out_path):
     plt.close(fig)
 
 
-def run(checkpoint_path, data_dir=None):
+def run_with_examples(checkpoint_path, sp, examples, checkpoint_label=""):
+    """Guts of run(), minus the file-sampling: takes a pre-tokenized
+    (sp, examples) pair directly, so a caller can point this toolkit at
+    reasoning prompts (or any other text source) instead of the pretrain
+    corpus's test.txt, on any checkpoint -- no new attention-computation
+    logic, only a different example source. run() below is the original
+    Phase 2 entry point, unchanged, calling this after its own file
+    sampling. checkpoint_label distinguishes output filenames/titles when
+    comparing multiple checkpoints (e.g. pretrained vs finetuned) so runs
+    never overwrite each other."""
     full_config = load_model_config()
     model_config = full_config["model"]
     n_layer = model_config["n_layer"]
@@ -166,12 +175,15 @@ def run(checkpoint_path, data_dir=None):
     model.to(device)
     print(f"loaded checkpoint at step {step:,}")
 
-    data_dir = Path(data_dir) if data_dir else DEFAULT_DATA_DIR
-    sp, examples = sample_example_sentences(data_dir / "test.txt", TOKENIZER_PATH, NUM_EXAMPLE_SENTENCES)
-    print(f"sampled {len(examples)} example sentences from test.txt")
+    print(f"using {len(examples)} example sentences")
 
     early_layer, late_layer = 0, n_layer - 1
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
+    suffix = f"_{checkpoint_label}" if checkpoint_label else ""
+    # Phase 3 reuse gets its own prefix so these outputs are never mistaken
+    # for the original Phase 2 deliverable files (which keep their exact
+    # unsuffixed names below, untouched).
+    prefix = "phase3_attention_reasoning_hindi" if checkpoint_label else "phase2_attention_hindi"
 
     entropy_by_layer = [[] for _ in range(n_layer)]
     distance_by_layer = [[] for _ in range(n_layer)]
@@ -187,9 +199,9 @@ def run(checkpoint_path, data_dir=None):
 
         if ex_idx == 0:
             plot_heatmaps(attentions[early_layer], pieces, f"layer {early_layer} (early)",
-                          FIGURES_DIR / "phase2_attention_hindi_early_layer.png")
+                          FIGURES_DIR / f"{prefix}_early_layer{suffix}.png")
             plot_heatmaps(attentions[late_layer], pieces, f"layer {late_layer} (late)",
-                          FIGURES_DIR / "phase2_attention_hindi_late_layer.png")
+                          FIGURES_DIR / f"{prefix}_late_layer{suffix}.png")
             print(f"heatmaps written for example: {seg_text[:60]}...")
 
     n_head = model_config["n_head"]
@@ -217,6 +229,17 @@ def run(checkpoint_path, data_dir=None):
         "mean_attention_distance_per_layer_per_head": distance_summary,
         "example_sentences": [seg for seg, _ in examples],
     }
+
+
+def run(checkpoint_path, data_dir=None):
+    """Original Phase 2 entry point: samples example sentences from the
+    pretrain corpus's held-out test.txt, unchanged behavior/output
+    filenames. See run_with_examples for the Phase 3 reasoning-prompt
+    variant."""
+    data_dir = Path(data_dir) if data_dir else DEFAULT_DATA_DIR
+    sp, examples = sample_example_sentences(data_dir / "test.txt", TOKENIZER_PATH, NUM_EXAMPLE_SENTENCES)
+    print(f"sampled {len(examples)} example sentences from test.txt")
+    return run_with_examples(checkpoint_path, sp, examples)
 
 
 def main():

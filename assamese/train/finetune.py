@@ -27,7 +27,14 @@ already prevents any real token from attending to a later, padded
 position, and padded target positions are excluded from the loss, so
 their (meaningless) output is simply never used.
 
-Reuses save_checkpoint/load_config/lr_at_step from train.py unchanged.
+Reuses save_checkpoint/load_config from train.py unchanged. LR schedule is
+its own (not train.py's lr_at_step): linear warmup then held constant at
+peak_lr, not cosine decay -- see docs-phase-3/forgetting_threshold_review.md's
+2026-09-14 addendum. A cosine horizon requires knowing total_steps upfront,
+but this run's real length is decided by early stopping, not a fixed epoch
+count; committing to a horizon guess either under- or over-decays depending
+on when the run actually stops. Warmup-then-constant is the standard choice
+for exactly this case (short LoRA finetune of a priori unknown length).
 Per-epoch checkpoints during training stay in a LoRA-native
 state dict (base weights + lora_A/lora_B), resumable by rebuilding the
 same LoRA-injected model before loading. The final deliverable checkpoint
@@ -43,6 +50,7 @@ import json
 import math
 import random
 import sys
+import time
 from pathlib import Path
 
 import torch
@@ -52,13 +60,23 @@ import torch.nn.functional as F
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
 from model import DecoderLM  # noqa: E402
-from train import load_config, lr_at_step, save_checkpoint  # noqa: E402
+from train import load_config, save_checkpoint  # noqa: E402
 
 BOS_ID = 1  # <s>, reused here as the prompt/answer boundary marker
 EOS_ID = 2  # </s>, terminal end of sequence
 PAD_ID = 0
 MAX_SEQ_LEN = 128  # comfortably above the generator's measured worst case (~67 tokens,
 # see data/reasoning/test_generate_reasoning_data.py's token-budget self-check)
+
+# Fixed seed for every pretrain_val_ppl call, baseline and per-epoch alike --
+# NOT the training run's own seed. Using the training seed here (the
+# original bug, fixed 2026-09-14) meant seed-1/seed-2 runs compared a
+# threshold computed on seed-0's window sample against PPL measured on a
+# different window sample every epoch: an invalid comparison that tripped a
+# real stop at a 0.06% margin, an order of magnitude inside known sampling
+# noise (~0.6%, see pretrain_val_ppl's own docstring). See
+# docs-phase-3/forgetting_threshold_review.md.
+PRETRAIN_EVAL_SEED = 0
 
 
 class LoRALinear(nn.Module):
@@ -265,7 +283,6 @@ def finetune(
     batch_size,
     context_length,
     peak_lr,
-    min_lr,
     warmup_steps,
     grad_clip_norm,
     seed,
@@ -275,11 +292,22 @@ def finetune(
     max_seq_len=MAX_SEQ_LEN,
     early_stopping_patience=None,
     ppl_forgetting_threshold=None,
+    on_epoch_end=None,
 ):
     """Runs up to num_epochs full passes over train_examples. Logs both the
     reasoning-task validation loss and the pretrain-val PPL after every
     epoch (the forgetting signal from
     docs-phase-3/sample_size_and_stopping_criterion.md).
+
+    on_epoch_end: optional callable invoked once per completed epoch, after
+    that epoch's training, eval, and logging are already done -- receives
+    the epoch's own log dict (so a caller can do live per-epoch logging,
+    e.g. a CSV row) and its truthy return breaks the loop there. The
+    current epoch is never cut short mid-batch. In early-stopping mode a
+    requested stop reuses the existing best-snapshot restore-and-save tail
+    below, same as a natural early stop; without early stopping, the
+    epoch's checkpoint is already saved before the callback runs, so the
+    break is a clean exit either way.
 
     Without early_stopping_patience (default): runs the full num_epochs,
     checkpointing every epoch to checkpoint_path (each write overwrites the
@@ -299,15 +327,13 @@ def finetune(
     from one full-size checkpoint file per epoch.
 
     Returns a list of per-epoch dicts: {epoch, train_loss, reasoning_val_loss,
-    pretrain_val_loss, pretrain_val_ppl}, covering only the epochs actually
-    run (shorter than num_epochs if early stopping triggered).
+    pretrain_val_loss, pretrain_val_ppl, elapsed_s}, covering only the epochs
+    actually run (shorter than num_epochs if early stopping triggered).
     """
     model.to(device)
     model.train()
     rng = random.Random(seed)
-
-    steps_per_epoch = math.ceil(len(train_examples) / batch_size)
-    total_steps = steps_per_epoch * num_epochs
+    t0 = time.time()
 
     log = []
     step = 0
@@ -319,7 +345,7 @@ def finetune(
     for epoch in range(num_epochs):
         epoch_losses = []
         for x, y, mask in make_batches(train_examples, sp, batch_size, max_seq_len, rng):
-            lr = lr_at_step(step, warmup_steps, peak_lr, min_lr, total_steps)
+            lr = peak_lr * (step + 1) / warmup_steps if step < warmup_steps else peak_lr
             for group in optimizer.param_groups:
                 group["lr"] = lr
 
@@ -339,7 +365,7 @@ def finetune(
             model, sp, reasoning_val_examples, batch_size, max_seq_len, device
         )
         pretrain_val_loss, pretrain_val_ppl_value = pretrain_val_ppl(
-            model, pretrain_val_data, context_length, device, seed=seed
+            model, pretrain_val_data, context_length, device, seed=PRETRAIN_EVAL_SEED
         )
 
         log.append({
@@ -348,11 +374,16 @@ def finetune(
             "reasoning_val_loss": reasoning_val_loss,
             "pretrain_val_loss": pretrain_val_loss,
             "pretrain_val_ppl": pretrain_val_ppl_value,
+            "elapsed_s": time.time() - t0,
         })
+
+        stop_requested = on_epoch_end is not None and bool(on_epoch_end(log[-1]))
 
         if early_stopping_patience is None:
             if checkpoint_path:
                 save_checkpoint(checkpoint_path, model, optimizer, step, config)
+            if stop_requested:
+                break
             continue
 
         if reasoning_val_loss < best_loss:
@@ -368,7 +399,7 @@ def finetune(
         )
         patience_exhausted = epochs_without_improvement >= early_stopping_patience
 
-        if forgetting_triggered or patience_exhausted:
+        if forgetting_triggered or patience_exhausted or stop_requested:
             break
 
     if early_stopping_patience is not None and best_snapshot is not None:

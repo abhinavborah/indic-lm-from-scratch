@@ -131,7 +131,7 @@ def demo():
         log = finetune(
             model, optimizer, sp, train_examples, val_examples, pretrain_val_data,
             num_epochs=6, batch_size=2, context_length=TINY_CONFIG["context_length"],
-            peak_lr=1e-2, min_lr=1e-3, warmup_steps=2, grad_clip_norm=1.0, seed=0,
+            peak_lr=1e-2, warmup_steps=2, grad_clip_norm=1.0, seed=0,
             checkpoint_path=ckpt_path, config=TINY_CONFIG,
         )
         assert len(log) == 6
@@ -193,7 +193,7 @@ def demo():
         es_log = finetune(
             es_model, es_optimizer, sp, train_examples, val_examples, pretrain_val_data,
             num_epochs=20, batch_size=2, context_length=TINY_CONFIG["context_length"],
-            peak_lr=1e-2, min_lr=1e-3, warmup_steps=2, grad_clip_norm=1.0, seed=1,
+            peak_lr=1e-2, warmup_steps=2, grad_clip_norm=1.0, seed=1,
             checkpoint_path=es_ckpt_path, config=TINY_CONFIG,
             early_stopping_patience=3,
         )
@@ -213,6 +213,60 @@ def demo():
             if p.requires_grad:
                 assert torch.allclose(p, es_ckpt["model_state_dict"][name]), \
                     f"checkpoint on disk must match the restored best-epoch weights for {name}"
+
+        # --- on_epoch_end: receives each epoch's own log dict, live ---
+        torch.manual_seed(2)
+        sf_model = DecoderLM(TINY_CONFIG)
+        inject_lora(sf_model, rank=LORA_RANK, alpha=LORA_ALPHA)
+        freeze_non_lora_params(sf_model)
+        sf_optimizer = torch.optim.AdamW([p for p in sf_model.parameters() if p.requires_grad], lr=1e-2)
+        sf_ckpt_path = Path(tmp) / "on_epoch_end_ckpt.pt"
+
+        seen_entries = []
+
+        def on_epoch_end(entry):
+            seen_entries.append(entry)
+            return len(seen_entries) >= 3
+
+        sf_log = finetune(
+            sf_model, sf_optimizer, sp, train_examples, val_examples, pretrain_val_data,
+            num_epochs=20, batch_size=2, context_length=TINY_CONFIG["context_length"],
+            peak_lr=1e-2, warmup_steps=2, grad_clip_norm=1.0, seed=2,
+            checkpoint_path=sf_ckpt_path, config=TINY_CONFIG,
+            on_epoch_end=on_epoch_end,
+        )
+        assert len(sf_log) == 3, "on_epoch_end returning True on the 3rd call must break after exactly 3 epochs"
+        assert seen_entries == sf_log, \
+            "on_epoch_end must be called exactly once per completed epoch, with that epoch's own log dict"
+        assert all("elapsed_s" in e for e in sf_log), "each epoch's log dict must carry elapsed_s"
+        sf_ckpt = torch.load(sf_ckpt_path, map_location="cpu", weights_only=False)
+        for name, p in sf_model.named_parameters():
+            if p.requires_grad:
+                assert torch.allclose(p, sf_ckpt["model_state_dict"][name]), \
+                    f"checkpoint on on_epoch_end exit must match the last completed epoch's weights for {name}"
+
+        # --- on_epoch_end combined with early stopping: reuses the best-snapshot restore-and-save tail ---
+        torch.manual_seed(3)
+        sfes_model = DecoderLM(TINY_CONFIG)
+        inject_lora(sfes_model, rank=LORA_RANK, alpha=LORA_ALPHA)
+        freeze_non_lora_params(sfes_model)
+        sfes_optimizer = torch.optim.AdamW([p for p in sfes_model.parameters() if p.requires_grad], lr=1e-2)
+        sfes_ckpt_path = Path(tmp) / "on_epoch_end_es_ckpt.pt"
+
+        sfes_log = finetune(
+            sfes_model, sfes_optimizer, sp, train_examples, val_examples, pretrain_val_data,
+            num_epochs=20, batch_size=2, context_length=TINY_CONFIG["context_length"],
+            peak_lr=1e-2, warmup_steps=2, grad_clip_norm=1.0, seed=3,
+            checkpoint_path=sfes_ckpt_path, config=TINY_CONFIG,
+            early_stopping_patience=10, on_epoch_end=lambda entry: True,
+        )
+        assert len(sfes_log) == 1, "on_epoch_end True on the very first epoch boundary must break immediately"
+        final_loss_sfes = _evaluate_reasoning_loss(
+            sfes_model, sp, val_examples, 2, TINY_CONFIG["context_length"], "cpu"
+        )
+        assert abs(final_loss_sfes - sfes_log[0]["reasoning_val_loss"]) < 1e-4, \
+            "single-epoch run must restore that same epoch's weights (it is trivially the best seen)"
+        assert sfes_ckpt_path.exists()
 
     print("assamese finetune module self-check: OK")
 

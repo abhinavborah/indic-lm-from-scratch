@@ -27,8 +27,8 @@ already prevents any real token from attending to a later, padded
 position, and padded target positions are excluded from the loss, so
 their (meaningless) output is simply never used.
 
-Reuses save_checkpoint/load_config/lr_at_step/get_batch from train.py
-unchanged. Per-epoch checkpoints during training stay in a LoRA-native
+Reuses save_checkpoint/load_config/lr_at_step from train.py unchanged.
+Per-epoch checkpoints during training stay in a LoRA-native
 state dict (base weights + lora_A/lora_B), resumable by rebuilding the
 same LoRA-injected model before loading. The final deliverable checkpoint
 is produced by merge_lora_to_plain: LoRA's delta is folded back into
@@ -41,6 +41,7 @@ tool is reused completely unchanged on the finetuned checkpoint.
 
 import json
 import math
+import random
 import sys
 from pathlib import Path
 
@@ -51,7 +52,7 @@ import torch.nn.functional as F
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
 from model import DecoderLM  # noqa: E402
-from train import get_batch, load_config, lr_at_step, save_checkpoint  # noqa: E402
+from train import load_config, lr_at_step, save_checkpoint  # noqa: E402
 
 BOS_ID = 1  # <s>, reused here as the prompt/answer boundary marker
 EOS_ID = 2  # </s>, terminal end of sequence
@@ -206,17 +207,30 @@ def masked_lm_loss(logits, targets, mask):
     return masked.sum() / mask.sum().clamp(min=1.0)
 
 
-def pretrain_val_ppl(model, val_data, context_length, device, num_batches=10, batch_size=8, seed=0):
-    """Perplexity on a sample of the ORIGINAL Phase 2 pretrain validation
-    split (plain next-token prediction, no masking) -- the forgetting
-    signal from docs-phase-3/sample_size_and_stopping_criterion.md, tracked
-    alongside (never conflated with) the reasoning-task loss above."""
+def pretrain_val_ppl(model, val_data, context_length, device, num_batches=20, batch_size=16, seed=0):
+    """Perplexity on a random sample of the ORIGINAL Phase 2 pretrain
+    validation split (plain next-token prediction, no masking) -- the
+    forgetting signal from docs-phase-3/sample_size_and_stopping_criterion.md,
+    tracked alongside (never conflated with) the reasoning-task loss above.
+
+    Samples num_batches * batch_size independent random windows spread
+    across the FULL val_data range (train.py's get_batch is deliberately
+    not reused here: its step-keyed formula only ever advances through a
+    handful of contiguous windows near a fixed offset, which underlies
+    real training's need for deterministic resumability, but is not a
+    representative sample of a large val set for a one-off eval like this
+    -- caught empirically on 2026-09-14 when a baseline PPL check on real
+    data came back 205 against a documented 38.46, traced to the sample
+    being confined to the first ~20K of 8.36M val tokens)."""
     model.eval()
+    max_start = len(val_data) - context_length - 1
+    rng = random.Random(seed)
     total_loss, total_count = 0.0, 0
     with torch.no_grad():
-        for b in range(num_batches):
-            x, y = get_batch(val_data, batch_size, context_length, step=seed * 10_000 + b)
-            x, y = x.to(device), y.to(device)
+        for _ in range(num_batches):
+            starts = [rng.randint(0, max_start) for _ in range(batch_size)]
+            x = torch.stack([val_data[s : s + context_length] for s in starts]).to(device)
+            y = torch.stack([val_data[s + 1 : s + context_length + 1] for s in starts]).to(device)
             logits = model(x)
             loss = F.cross_entropy(logits.view(-1, logits.size(-1)), y.view(-1))
             total_loss += loss.item() * y.numel()
@@ -258,7 +272,7 @@ def finetune(
     """
     model.to(device)
     model.train()
-    rng = __import__("random").Random(seed)
+    rng = random.Random(seed)
 
     steps_per_epoch = math.ceil(len(train_examples) / batch_size)
     total_steps = steps_per_epoch * num_epochs
@@ -308,7 +322,7 @@ def finetune(
 def _evaluate_reasoning_loss(model, sp, examples, batch_size, max_seq_len, device):
     model.eval()
     losses = []
-    rng = __import__("random").Random(0)  # fixed order for eval, not shuffled meaningfully
+    rng = random.Random(0)  # fixed order for eval, not shuffled meaningfully
     with torch.no_grad():
         for x, y, mask in make_batches(examples, sp, batch_size, max_seq_len, rng):
             x, y, mask = x.to(device), y.to(device), mask.to(device)

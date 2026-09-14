@@ -8,7 +8,7 @@ from pathlib import Path
 
 from entities import POOLS
 from generate_reasoning_data import generate_all
-from templates import DOMAINS, HELD_FORM_ID, TRAIN_FORM_IDS
+from templates import DOMAINS, EQUAL_WORD, HELD_FORM_ID, TRAIN_FORM_IDS
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tokenizer"))
 
@@ -60,12 +60,42 @@ def demo():
     # Keyed on the semantic chain only (not form ids): the same chain phrased
     # differently is still the same problem, and must not span both train
     # and test_seen (see generate_reasoning_data.py's _dedup_key docstring).
-    keys = [(r["domain"], tuple(r["entities"]), r["direction"]) for r in seen_pool_union]
+    keys = [(r["domain"], tuple(r["entities"]), r["direction"], r["has_tie"]) for r in seen_pool_union]
     assert len(keys) == len(set(keys)), "duplicate chain found across train/val/test_seen"
 
     for split_rows in examples.values():
         for row in split_rows:
-            assert row["answer"] in row["entities"], f"answer not among listed entities: {row}"
+            if row["direction"] == "equal":
+                assert row["answer"] == EQUAL_WORD, f"equal-direction answer must be the equal word: {row}"
+            else:
+                assert row["answer"] in row["entities"], f"answer not among listed entities: {row}"
+
+    # --- tie/equal-case checks (added 2026-09-14 per spec's "greater, smaller,
+    # equal" requirement and user direction on scope/share/extremum-safety) ---
+    all_rows = [row for rows in examples.values() for row in rows]
+    tie_rows = [row for row in all_rows if row["has_tie"]]
+    assert tie_rows, "no tie examples generated at all"
+
+    tie_share = len(tie_rows) / len(all_rows)
+    assert 0.03 <= tie_share <= 0.20, \
+        f"tie share {tie_share:.3f} far from the targeted ~10% (small-batch tolerance 3-20%)"
+
+    for row in tie_rows:
+        assert row["num_entities"] in (2, 4), \
+            f"only pairwise (2) or 3-hop (4) examples may carry a tie, got num_entities={row['num_entities']}: {row}"
+        if row["num_entities"] == 2:
+            assert row["direction"] == "equal" and row["answer"] == EQUAL_WORD, \
+                f"pairwise tie must have direction='equal' and answer={EQUAL_WORD!r}: {row}"
+        else:
+            # 3-hop (4-entity) tie: interior pair only, answer stays the single
+            # unambiguous extremum entity, exactly as a non-tied example would.
+            assert row["direction"] in ("largest", "smallest")
+            assert row["answer"] == (row["entities"][0] if row["direction"] == "largest" else row["entities"][-1])
+
+    for row in all_rows:
+        if row["num_entities"] == 3:
+            assert not row["has_tie"], \
+                f"a 2-hop (3-entity) example must never carry a tie (extremum-ambiguity rule): {row}"
 
     # Longest-case token-budget check against the real trained tokenizer:
     # a 3-hop chain (4 entities) rendered with the held-out (longest) forms,

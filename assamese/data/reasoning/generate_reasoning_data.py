@@ -12,12 +12,14 @@ generation logic and split methodology, but its own entity pools and
 Assamese-grammar templates, per this project's fully-independent-languages
 rule. Do not import across the hindi/assamese boundary.
 
-Deliberate scope cut: the "equal" comparison outcome (spec mentions greater,
-smaller, equal as illustrative) is not generated in this first build. Spec's
-own emphasis is "especially transitive/ordering comparisons," which this
-covers fully; equal-value examples add template/answer-format complexity
-(a third answer class) for comparatively little coverage gain. Revisit only
-if time permits after the core three-way split works.
+Includes a minority share of ties (equal values), per spec's "comparison
+questions (greater, smaller, equal)" and user direction 2026-09-14: pairwise
+(2-entity) ties and interior mid-chain ties (3-hop/4-entity only), targeting
+roughly 10% of the dataset overall. 2-hop (3-entity) chains structurally
+cannot hold a tie without landing it on the asked-about extremum (with 3
+entities, every adjacent pair touches position 0 or position 2), which
+violates the never-ambiguous-answer rule -- so ties are absent from 3-entity
+examples by construction, not an oversight.
 
 Five output splits, per docs-phase-3/dataset_leakage_methodology.md:
   train, val                 seen entities, seen (trained) wording
@@ -35,12 +37,21 @@ import random
 from pathlib import Path
 
 from entities import POOLS
-from templates import DOMAINS, HELD_FORM_ID, TRAIN_FORM_IDS, render_premise, render_question
+from templates import (
+    DOMAINS, EQUAL_WORD, HELD_FORM_ID, TRAIN_FORM_IDS, render_equal_premise, render_premise,
+    render_question,
+)
 
 MASTER_SEED = 20260913
 
 # (num_entities: weight) for the mix of pairwise / 2-hop / 3-hop chains.
 CHAIN_LENGTH_WEIGHTS = {2: 0.45, 3: 0.40, 4: 0.15}
+
+# Only num_entities in {2, 4} can carry a tie without ambiguity (see module
+# docstring). Their combined population share is 0.45 + 0.15 = 0.60; to land
+# the overall dataset's tie share near the targeted ~10%, the per-eligible-
+# example tie probability is 0.10 / 0.60 = 1/6.
+TIE_PROBABILITY = 1 / 6
 
 SPLIT_TARGETS = {
     "train": 4500,
@@ -53,32 +64,52 @@ SPLIT_TARGETS = {
 
 def _sample_chain(rng, pool, num_entities):
     """Pick num_entities distinct names and a strict descending order for them.
-    Returns names ordered largest-to-smallest; only order matters, not values."""
+    Returns (ordered_names, tie_index): ordered_names is largest-to-smallest;
+    tie_index is the adjacent-pair index (i, i+1) whose values were forced
+    equal, or None if this example carries no tie. Only num_entities==2
+    (tie_index=0, both entities) or ==4 (tie_index=1, the sole interior pair
+    that touches neither extremum) can produce a tie; num_entities==3 never
+    does, structurally (see module docstring)."""
     names = rng.sample(pool, num_entities)
     values = rng.sample(range(0, 100_000), num_entities)
     order = sorted(zip(names, values), key=lambda pair: -pair[1])
-    return [name for name, _ in order]
+    ordered_names = [name for name, _ in order]
+
+    tie_index = None
+    if num_entities in (2, 4) and rng.random() < TIE_PROBABILITY:
+        tie_index = 0 if num_entities == 2 else 1
+
+    return ordered_names, tie_index
 
 
 def _make_example(rng, domain_name, pool, form_ids, num_entities):
     attr_noun = DOMAINS[domain_name]["attr_noun"]
-    ordered = _sample_chain(rng, pool, num_entities)
+    ordered, tie_index = _sample_chain(rng, pool, num_entities)
 
     premise_form = rng.choice(form_ids)
     question_form = rng.choice(form_ids)
 
-    premise_sentences = [
-        render_premise(premise_form, ordered[i], ordered[i + 1], attr_noun)
-        for i in range(num_entities - 1)
-    ]
+    premise_sentences = []
+    for i in range(num_entities - 1):
+        if i == tie_index:
+            premise_sentences.append(render_equal_premise(ordered[i], ordered[i + 1], attr_noun))
+        else:
+            premise_sentences.append(render_premise(premise_form, ordered[i], ordered[i + 1], attr_noun))
     rng.shuffle(premise_sentences)
 
-    direction = rng.choice(["largest", "smallest"])
-    answer = ordered[0] if direction == "largest" else ordered[-1]
+    is_pairwise_tie = tie_index == 0 and num_entities == 2
+    asked_direction = rng.choice(["largest", "smallest"])
+
+    if is_pairwise_tie:
+        direction = "equal"
+        answer = EQUAL_WORD
+    else:
+        direction = asked_direction
+        answer = ordered[0] if direction == "largest" else ordered[-1]
 
     question_entities = list(ordered)
     rng.shuffle(question_entities)
-    question = render_question(question_form, question_entities, attr_noun, direction)
+    question = render_question(question_form, question_entities, attr_noun, asked_direction)
 
     prompt = " ".join(premise_sentences) + " " + question
     return {
@@ -88,21 +119,25 @@ def _make_example(rng, domain_name, pool, form_ids, num_entities):
         "premise_form_id": premise_form,
         "question_form_id": question_form,
         "direction": direction,
+        "has_tie": tie_index is not None,
         "prompt": prompt,
         "answer": answer,
     }
 
 
 def _dedup_key(example):
-    """Keys on the semantic chain only (domain, entities, direction), not on
-    which template form rendered it. The same chain phrased with a different
-    form is still the same reasoning problem, and must not be allowed to
-    appear in both train and test_seen under different wording (that would
-    silently leak the answer via memorized entity/order, not test anything)."""
+    """Keys on the semantic chain only (domain, entities, direction, has_tie),
+    not on which template form rendered it. The same chain phrased with a
+    different form is still the same reasoning problem, and must not be
+    allowed to appear in both train and test_seen under different wording
+    (that would silently leak the answer via memorized entity/order, not
+    test anything). has_tie is included because two examples with the same
+    entity order can differ in whether an interior pair is exactly tied."""
     return (
         example["domain"],
         tuple(example["entities"]),
         example["direction"],
+        example["has_tie"],
     )
 
 
@@ -177,11 +212,14 @@ def _template_variety_stats(examples):
     forms_used = {(row["premise_form_id"], row["question_form_id"]) for row in all_rows}
     domains_used = {row["domain"] for row in all_rows}
     depths_used = {row["num_entities"] - 1 for row in all_rows}
+    tie_count = sum(1 for row in all_rows if row["has_tie"])
     return {
         "total_examples": len(all_rows),
         "distinct_form_pairs": len(forms_used),
         "domains_used": sorted(domains_used),
         "chain_depths_used": sorted(depths_used),
+        "tie_count": tie_count,
+        "tie_share": round(tie_count / len(all_rows), 4),
     }
 
 

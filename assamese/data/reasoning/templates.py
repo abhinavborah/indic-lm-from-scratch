@@ -40,6 +40,17 @@ PREMISE_FORMS = [
     "{attr}ৰ ক্ষেত্ৰত, {bigger}ৰ অৱস্থা {smaller}তকৈ ভাল।",
 ]
 
+# Quantitative/direct-equality register only (সমান) -- not সমতুল্য (semantic
+# equivalence), সমানতা (social/legal equality), or সমতা (abstract fairness);
+# those describe different task types entirely (paraphrase judgment, civics
+# content, philosophical prose), none of which involve a comparison chain.
+EQUAL_WORD = "সমান"
+EQUAL_PREMISE_FORM = "{a} আৰু {b}ৰ {attr} সমান।"
+
+
+def render_equal_premise(a, b, attr_noun):
+    return EQUAL_PREMISE_FORM.format(a=a, b=b, attr=attr_noun)
+
 QUESTION_FORMS = [
     "এইবোৰৰ ভিতৰত {superlative} জন কোন, {names}?",
     "{names}ৰ ভিতৰত {superlative} কোনটো?",

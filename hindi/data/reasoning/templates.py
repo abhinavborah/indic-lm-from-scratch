@@ -25,6 +25,17 @@ PREMISE_FORMS = [
     "{attr} के मामले में, {bigger} की स्थिति {smaller} से बेहतर है।",
 ]
 
+# Quantitative/direct-equality register only (बराबर) -- not समतुल्य (semantic
+# equivalence), समानता (social/legal equality), or समता (abstract fairness);
+# those describe different task types entirely (paraphrase judgment, civics
+# content, philosophical prose), none of which involve a comparison chain.
+EQUAL_WORD = "बराबर"
+EQUAL_PREMISE_FORM = "{a} और {b} की {attr} बराबर है।"
+
+
+def render_equal_premise(a, b, attr_noun):
+    return EQUAL_PREMISE_FORM.format(a=a, b=b, attr=attr_noun)
+
 QUESTION_FORMS = [
     "इनमें से {superlative} कौन है, {names}?",
     "{names} में से {superlative} कौन सा है?",

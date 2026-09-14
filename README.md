@@ -9,11 +9,18 @@ Two fully independent, from-scratch, ~25M-parameter decoder-only Transformer lan
 │   ├── data/        # collection scripts, SOURCES.md; splits/ and COLLECTION_LOG.md are gitignored (splits/ on Drive, see Drive links; COLLECTION_LOG.md is a local per-item log, not a graded deliverable)
 │   ├── tokenizer/   # training code and trained vocab/model files (hindi_bpe_8000.{model,vocab})
 │   ├── model/       # model.py (decoder-only Transformer, from scratch), test_model.py
-│   ├── train/       # train.py, smoke_test.py, test_train.py, colab_full_training.ipynb
+│   ├── train/       # train.py, smoke_test.py, test_train.py, colab_full_training.ipynb;
+│   │                # finetune.py (LoRA), lora_rank_sweep.py, test_finetune.py,
+│   │                # colab_finetune.ipynb
 │   ├── eval/        # eval_lm.py (PPL/BPB), eval_generation.py (BLEU/chrF/ROUGE-L,
 │   │                # diversity/repetition), attention_analysis.py (heatmaps,
-│   │                # entropy, distance), test_eval.py, test_generation.py, test_attention.py
+│   │                # entropy, distance), test_eval.py, test_generation.py, test_attention.py;
+│   │                # reasoning_eval.py (pretrained vs finetuned exact match),
+│   │                # attention_reasoning_prompts.py (post-finetune attention comparison),
+│   │                # test_reasoning_eval.py
 │   └── configs/     # model_config.json (architecture, optimizer, schedule, sweep results)
+├── <lang>/data/reasoning/  # synthetic reasoning dataset generator (entities.py, templates.py,
+│                           # generate_reasoning_data.py) and its train/val/test_*.jsonl output
 ├── assamese/
 │   └── (same shape as hindi/)
 └── report/
@@ -26,10 +33,15 @@ Two fully independent, from-scratch, ~25M-parameter decoder-only Transformer lan
     ├── phase2_attention_analysis.md      # Phase 2 deliverable: heatmaps, entropy, mean attention distance
     ├── phase2_resource_comparison.md     # Phase 2 deliverable: training/eval cost, H vs L
     ├── phase2_gap_decomposition.md       # Phase 2: H vs L gap attributed to data/tokenization/model
+    ├── phase3_reasoning_eval.md          # Phase 3 deliverable: pretrained vs finetuned reasoning accuracy
+    ├── phase3_attention_reasoning.md     # Phase 3 deliverable: post-finetune attention comparison
+    ├── final_report.md                   # Phase 3 deliverable: consolidated final report (4 spec questions)
     ├── make_figures.py                   # generates report/figures/*.png (Phase 1)
     ├── make_figures_phase2.py            # generates report/figures/phase2_*.png (Phase 2)
+    ├── make_figures_phase3.py            # generates report/figures/phase3_*.png (Phase 3)
     ├── figures/                          # plots referenced by the report files above
-    └── logs/                             # <lang>_loss_log.csv, per-step training logs (small, committed directly)
+    └── logs/                             # <lang>_loss_log.csv (Phase 2 per-step); phase3_finetune/
+                                           # <lang>_finetune_seed{0,1,2}_log.csv (Phase 3 per-epoch)
 ```
 
 ## Setup
@@ -123,6 +135,39 @@ Checkpoints and the tokenized `.bin` corpus files are **not** in git, same large
 - Resource-level comparison: `report/phase2_resource_comparison.md`
 - H vs L gap discussion (data/tokenization/model): `report/phase2_gap_decomposition.md`
 - Checkpoints: Drive, see below
+
+## Reproduction steps (Phase 3)
+
+Finetuned checkpoints are **not** in git, same large-artifact policy as Phases 1-2. See the Drive links below.
+
+1. **Generate the reasoning dataset** (per language, run from `<lang>/data/reasoning/`): `python3 generate_reasoning_data.py`. Writes `train.jsonl`, `val.jsonl`, `test_seen.jsonl`, `test_unseen_entity.jsonl`, `test_unseen_wording.jsonl` (4,500/450/450/450/150 examples respectively, both languages). Held-out entity-name pools and held-out template surface forms are the leakage-avoidance axes; see `report/phase3_reasoning_eval.md`'s Dataset section for the exact methodology.
+2. **Finetune**: run `<lang>/train/colab_finetune.ipynb` (same notebook shape for both languages). Cells 0-3 (repo clone, Drive mount, `pip install`) are Colab setup only. Loops all 3 seeds (`SEEDS = [0, 1, 2]`) in one execution; a seed whose finetuned checkpoint already exists on Drive is skipped, not retrained, so reconnecting after a disconnect and rerunning from the top picks up at the next un-run seed automatically. LoRA rank/alpha (8/16) were picked by an empirical sweep (`<lang>/train/lora_rank_sweep.py --pretrained-checkpoint <path> --pretrain-val-bin <path>`), not guessed; see `report/phase3_reasoning_eval.md`'s Method section for the sweep result and reasoning. Early stopping (patience on reasoning-validation loss) picks the actual stopping epoch per run; pretrain-val PPL is tracked every epoch as a forgetting diagnostic, not an auto-stop signal. Cell 7 merges each seed's LoRA checkpoint into a plain `DecoderLM` checkpoint, the same format Phase 2's eval/attention tooling already expects.
+3. **Generate finetune loss-curve and forgetting-diagnostic figures**: `python3 report/make_figures_phase3.py`, reads the per-epoch CSV logs from `report/logs/phase3_finetune/`.
+4. **Reasoning evaluation** (pretrained vs. finetuned exact match, 3 mandatory splits, strict and lenient scoring, never aggregated):
+   ```bash
+   python3 hindi/eval/reasoning_eval.py \
+       --pretrained-checkpoint <checkpoint-dir>/hindi_checkpoint.pt \
+       --finetuned-dir <finetune-checkpoint-dir>/hindi
+   ```
+   Writes `hindi/eval/reasoning_eval_metrics.json`. Same command for `assamese`. Results are in `report/phase3_reasoning_eval.md`.
+5. **Post-finetune attention comparison** (pretrained vs. finetuned, early and late layer, on real comparative-reasoning prompts):
+   ```bash
+   python3 hindi/eval/attention_reasoning_prompts.py \
+       --pretrained-checkpoint <checkpoint-dir>/hindi_checkpoint.pt \
+       --finetuned-checkpoint <finetune-checkpoint-dir>/hindi/hindi_finetuned_seed0_merged.pt
+   ```
+   Writes `hindi/eval/attention_reasoning_metrics.json` and heatmap PNGs (`phase3_attention_reasoning_hindi_*.png`) to `report/figures/`. Same command for `assamese`. Results are in `report/phase3_attention_reasoning.md`.
+
+## Deliverables (Phase 3)
+
+- Reasoning dataset generation scripts: `<lang>/data/reasoning/entities.py`, `templates.py`, `generate_reasoning_data.py`
+- Reasoning train/val/test splits: `<lang>/data/reasoning/*.jsonl` (small, committed directly, unlike Phase 1's large corpus splits)
+- Finetuning scripts and configs: `<lang>/train/finetune.py`, `lora_rank_sweep.py`, `<lang>/train/colab_finetune.ipynb`
+- Finetuning logs: `report/logs/phase3_finetune/*.csv`, `report/figures/phase3_finetune_loss_curves.png`, `report/figures/phase3_pretrain_ppl_forgetting.png`
+- Pretrained vs. finetuned reasoning accuracy, qualitative examples: `report/phase3_reasoning_eval.md`
+- Pretrain vs. finetune attention comparison: `report/phase3_attention_reasoning.md`
+- Final comparison tables, error analysis, and the 4 required spec questions: `report/final_report.md`
+- Finetuned checkpoints: Drive, see below
 
 ## Google Drive links
 

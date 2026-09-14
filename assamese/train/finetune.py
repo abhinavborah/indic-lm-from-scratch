@@ -240,6 +240,20 @@ def pretrain_val_ppl(model, val_data, context_length, device, num_batches=20, ba
     return avg_loss, math.exp(avg_loss)
 
 
+def _snapshot_trainable(model):
+    """Deep-copies only the trainable (LoRA) parameters -- cheap, since the
+    frozen base weights never change during training and don't need
+    snapshotting to reconstruct the model's state at any given epoch."""
+    return {name: p.detach().clone() for name, p in model.named_parameters() if p.requires_grad}
+
+
+def _restore_trainable(model, snapshot):
+    with torch.no_grad():
+        for name, p in model.named_parameters():
+            if name in snapshot:
+                p.copy_(snapshot[name])
+
+
 def finetune(
     model,
     optimizer,
@@ -259,16 +273,34 @@ def finetune(
     config=None,
     device="cpu",
     max_seq_len=MAX_SEQ_LEN,
+    early_stopping_patience=None,
+    ppl_forgetting_threshold=None,
 ):
-    """Runs num_epochs full passes over train_examples. Checkpoints and logs
-    both the reasoning-task validation loss and the pretrain-val PPL after
-    every epoch, so the actual stopping point (per the TA's samples-vs-PPL
-    guidance in docs-phase-3/sample_size_and_stopping_criterion.md) can be
-    picked by inspecting the log afterward, rather than an automatic
-    in-loop early stop.
+    """Runs up to num_epochs full passes over train_examples. Logs both the
+    reasoning-task validation loss and the pretrain-val PPL after every
+    epoch (the forgetting signal from
+    docs-phase-3/sample_size_and_stopping_criterion.md).
+
+    Without early_stopping_patience (default): runs the full num_epochs,
+    checkpointing every epoch to checkpoint_path (each write overwrites the
+    last, so only the final epoch's weights persist) -- the original
+    behavior, kept for the self-test and any caller that wants the log
+    inspected by hand afterward.
+
+    With early_stopping_patience=N: tracks the best (lowest)
+    reasoning_val_loss seen so far, keeping only its trainable-parameter
+    snapshot in memory (cheap -- LoRA params only, not the frozen base).
+    Stops after N epochs with no improvement, or immediately if
+    ppl_forgetting_threshold is set and pretrain_val_ppl ever exceeds it
+    (a real forgetting event overrides reasoning-loss patience). model's
+    weights are restored to the best epoch before returning, and exactly
+    one checkpoint write happens (the best epoch), not one per epoch --
+    avoids both saving an overfit final epoch and a Drive-storage blowup
+    from one full-size checkpoint file per epoch.
 
     Returns a list of per-epoch dicts: {epoch, train_loss, reasoning_val_loss,
-    pretrain_val_loss, pretrain_val_ppl}.
+    pretrain_val_loss, pretrain_val_ppl}, covering only the epochs actually
+    run (shorter than num_epochs if early stopping triggered).
     """
     model.to(device)
     model.train()
@@ -279,6 +311,11 @@ def finetune(
 
     log = []
     step = 0
+    best_loss = float("inf")
+    best_epoch = None
+    best_snapshot = None
+    epochs_without_improvement = 0
+
     for epoch in range(num_epochs):
         epoch_losses = []
         for x, y, mask in make_batches(train_examples, sp, batch_size, max_seq_len, rng):
@@ -313,6 +350,29 @@ def finetune(
             "pretrain_val_ppl": pretrain_val_ppl_value,
         })
 
+        if early_stopping_patience is None:
+            if checkpoint_path:
+                save_checkpoint(checkpoint_path, model, optimizer, step, config)
+            continue
+
+        if reasoning_val_loss < best_loss:
+            best_loss = reasoning_val_loss
+            best_epoch = epoch
+            best_snapshot = _snapshot_trainable(model)
+            epochs_without_improvement = 0
+        else:
+            epochs_without_improvement += 1
+
+        forgetting_triggered = (
+            ppl_forgetting_threshold is not None and pretrain_val_ppl_value > ppl_forgetting_threshold
+        )
+        patience_exhausted = epochs_without_improvement >= early_stopping_patience
+
+        if forgetting_triggered or patience_exhausted:
+            break
+
+    if early_stopping_patience is not None and best_snapshot is not None:
+        _restore_trainable(model, best_snapshot)
         if checkpoint_path:
             save_checkpoint(checkpoint_path, model, optimizer, step, config)
 

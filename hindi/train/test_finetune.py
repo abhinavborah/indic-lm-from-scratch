@@ -16,8 +16,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "data" / "reasoning"))
 
 from finetune import (
-    BOS_ID, EOS_ID, LoRALinear, PAD_ID, encode_example, finetune, freeze_non_lora_params,
-    inject_lora, load_pretrained_weights, masked_lm_loss, merge_lora_to_plain,
+    BOS_ID, EOS_ID, LoRALinear, PAD_ID, _evaluate_reasoning_loss, encode_example, finetune,
+    freeze_non_lora_params, inject_lora, load_pretrained_weights, masked_lm_loss, merge_lora_to_plain,
 )
 from model import DecoderLM
 from train import load_checkpoint, save_checkpoint
@@ -181,6 +181,40 @@ def demo():
             "merged plain model must produce identical logits to the trained LoRA model"
         assert not any(isinstance(m, LoRALinear) for m in merged.modules()), \
             "merged model must contain no LoRA wrapper modules"
+
+        # --- early stopping: stops on patience, restores the best epoch's weights ---
+        torch.manual_seed(1)
+        es_model = DecoderLM(TINY_CONFIG)
+        inject_lora(es_model, rank=LORA_RANK, alpha=LORA_ALPHA)
+        freeze_non_lora_params(es_model)
+        es_optimizer = torch.optim.AdamW([p for p in es_model.parameters() if p.requires_grad], lr=1e-2)
+        es_ckpt_path = Path(tmp) / "early_stop_ckpt.pt"
+
+        es_log = finetune(
+            es_model, es_optimizer, sp, train_examples, val_examples, pretrain_val_data,
+            num_epochs=20, batch_size=2, context_length=TINY_CONFIG["context_length"],
+            peak_lr=1e-2, min_lr=1e-3, warmup_steps=2, grad_clip_norm=1.0, seed=1,
+            checkpoint_path=es_ckpt_path, config=TINY_CONFIG,
+            early_stopping_patience=3,
+        )
+        # On tiny repeated data the model may just keep improving for the whole
+        # budget (no epoch is ever worse), so patience isn't guaranteed to fire
+        # here -- that's a fair outcome, not a bug. What must always hold: the
+        # model ends up at whichever epoch actually had the best reasoning_val_loss.
+        assert len(es_log) <= 20
+        best_entry = min(es_log, key=lambda e: e["reasoning_val_loss"])
+        final_loss = _evaluate_reasoning_loss(es_model, sp, val_examples, 2, TINY_CONFIG["context_length"], "cpu")
+        assert abs(final_loss - best_entry["reasoning_val_loss"]) < 1e-4, \
+            "model weights after finetune() must match the best-epoch checkpoint, not the last epoch trained"
+        assert es_ckpt_path.exists()
+
+        # a checkpoint saved without early stopping writes every epoch (overwriting),
+        # one saved WITH early stopping writes exactly once (the restored best epoch)
+        es_ckpt = torch.load(es_ckpt_path, map_location="cpu", weights_only=False)
+        for name, p in es_model.named_parameters():
+            if p.requires_grad:
+                assert torch.allclose(p, es_ckpt["model_state_dict"][name]), \
+                    f"checkpoint on disk must match the restored best-epoch weights for {name}"
 
     print("hindi finetune module self-check: OK")
 

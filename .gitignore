@@ -13,3 +13,7 @@ __pycache__/
 */data/.*.lock
 */data/.state.*.tmp
 */data/COLLECTION_LOG.md
+
+# Local-only dev entry point, not a graded deliverable -- colab_finetune.ipynb
+# is the sole committed finetuning entry point, and hardcodes no local paths.
+*/train/local_finetune.py

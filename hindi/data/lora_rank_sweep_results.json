@@ -1,0 +1,145 @@
+{
+  "baseline_pretrain_val_ppl": 38.23347253056161,
+  "candidates": [
+    {
+      "rank": 2,
+      "alpha": 4,
+      "trainable_params": 36864,
+      "reasoning_val_loss": 7.8410087585449215,
+      "pretrain_val_ppl": 34.103754787557996,
+      "log": [
+        {
+          "epoch": 0,
+          "train_loss": 9.355473468178197,
+          "reasoning_val_loss": 9.594566408793131,
+          "pretrain_val_loss": 3.5278064608573914,
+          "pretrain_val_ppl": 34.04919739177615
+        },
+        {
+          "epoch": 1,
+          "train_loss": 8.927770514237253,
+          "reasoning_val_loss": 9.016130987803141,
+          "pretrain_val_loss": 3.5277924656867983,
+          "pretrain_val_ppl": 34.04872087078459
+        },
+        {
+          "epoch": 2,
+          "train_loss": 8.380915240237588,
+          "reasoning_val_loss": 8.458197021484375,
+          "pretrain_val_loss": 3.5283786177635195,
+          "pretrain_val_ppl": 34.068684449507685
+        },
+        {
+          "epoch": 3,
+          "train_loss": 7.872931116505673,
+          "reasoning_val_loss": 8.052459335327148,
+          "pretrain_val_loss": 3.5290323972702025,
+          "pretrain_val_ppl": 34.09096513975615
+        },
+        {
+          "epoch": 4,
+          "train_loss": 7.5663910915977075,
+          "reasoning_val_loss": 7.8410087585449215,
+          "pretrain_val_loss": 3.529407489299774,
+          "pretrain_val_ppl": 34.103754787557996
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "alpha": 8,
+      "trainable_params": 73728,
+      "reasoning_val_loss": 5.79964656829834,
+      "pretrain_val_ppl": 34.4303104612804,
+      "log": [
+        {
+          "epoch": 0,
+          "train_loss": 9.282285364050614,
+          "reasoning_val_loss": 9.356069119771321,
+          "pretrain_val_loss": 3.5278136134147644,
+          "pretrain_val_ppl": 34.04944093148496
+        },
+        {
+          "epoch": 1,
+          "train_loss": 8.472001100841322,
+          "reasoning_val_loss": 8.272225379943848,
+          "pretrain_val_loss": 3.52907110452652,
+          "pretrain_val_ppl": 34.092284733020676
+        },
+        {
+          "epoch": 2,
+          "train_loss": 7.311412346990485,
+          "reasoning_val_loss": 6.811436112721761,
+          "pretrain_val_loss": 3.5327931523323057,
+          "pretrain_val_ppl": 34.21941429098435
+        },
+        {
+          "epoch": 3,
+          "train_loss": 6.38092639571742,
+          "reasoning_val_loss": 6.063936042785644,
+          "pretrain_val_loss": 3.5366808652877806,
+          "pretrain_val_ppl": 34.35270848815332
+        },
+        {
+          "epoch": 4,
+          "train_loss": 5.924446808664422,
+          "reasoning_val_loss": 5.79964656829834,
+          "pretrain_val_loss": 3.5389372944831847,
+          "pretrain_val_ppl": 34.4303104612804
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "alpha": 16,
+      "trainable_params": 147456,
+      "reasoning_val_loss": 3.7234561761220295,
+      "pretrain_val_ppl": 35.85576099981497,
+      "log": [
+        {
+          "epoch": 0,
+          "train_loss": 9.144771964926468,
+          "reasoning_val_loss": 8.922314008076986,
+          "pretrain_val_loss": 3.528149688243866,
+          "pretrain_val_ppl": 34.06088601462147
+        },
+        {
+          "epoch": 1,
+          "train_loss": 7.558811990838302,
+          "reasoning_val_loss": 6.420904445648193,
+          "pretrain_val_loss": 3.534220111370087,
+          "pretrain_val_ppl": 34.26827884904427
+        },
+        {
+          "epoch": 2,
+          "train_loss": 5.607133363422594,
+          "reasoning_val_loss": 4.831523450215657,
+          "pretrain_val_loss": 3.5509285926818848,
+          "pretrain_val_ppl": 34.84565989358987
+        },
+        {
+          "epoch": 3,
+          "train_loss": 4.359884989889045,
+          "reasoning_val_loss": 3.9836652119954428,
+          "pretrain_val_loss": 3.569577991962433,
+          "pretrain_val_ppl": 35.50160802599561
+        },
+        {
+          "epoch": 4,
+          "train_loss": 3.8744115829467773,
+          "reasoning_val_loss": 3.7234561761220295,
+          "pretrain_val_loss": 3.5795042514801025,
+          "pretrain_val_ppl": 35.85576099981497
+        }
+      ]
+    }
+  ],
+  "picked_rank": 8,
+  "picked_alpha": 16,
+  "tolerance": 0.02,
+  "sweep_epochs": 5,
+  "train_subset": 1200,
+  "peak_lr": 0.0001,
+  "min_lr": 1e-05,
+  "seed": 20260914
+}

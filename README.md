@@ -155,6 +155,27 @@ Each contains `<lang>_checkpoint.pt` (hindi: step 101,812; assamese: step
 69,000, both one full epoch), `<lang>_train.bin`/`<lang>_val.bin`
 (tokenized corpus, `uint16` memmap), and `<lang>_loss_log.csv`.
 
+**Phase 3 finetuned checkpoints:**
+- [Phase 3 checkpoints: Google Drive folder](https://drive.google.com/drive/folders/1RdI54dSkRMw3hSC0G-janaNNRwyJO_Cg?usp=drive_link)
+
+One shared folder with a per-language subfolder inside (matches
+`colab_finetune.ipynb`'s `FINETUNE_CHECKPOINT_DIR` convention, unlike the
+separate per-language Phase 2 folders above):
+
+```
+lma_phase3_checkpoints/
+├── hindi/
+│   ├── hindi_finetuned_seed{0,1,2}.pt          # raw LoRA checkpoint, optimizer state included
+│   ├── hindi_finetuned_seed{0,1,2}_merged.pt   # merged plain DecoderLM checkpoint
+│   └── logs/
+│       └── hindi_finetune_seed{0,1,2}_log.csv  # per-epoch train/val loss, pretrain-val PPL
+└── assamese/
+    ├── assamese_finetuned_seed{0,1,2}.pt
+    ├── assamese_finetuned_seed{0,1,2}_merged.pt
+    └── logs/
+        └── assamese_finetune_seed{0,1,2}_log.csv
+```
+
 ## Hard constraints (enforced throughout)
 
 No pretrained models, no pretrained tokenizers, no HuggingFace Transformer model classes, no `nn.Transformer*`. Hindi and Assamese share no data, no vocabulary, and no weights. They are two fully independent pipelines, built and run separately.

@@ -89,6 +89,5 @@ cost of coherence collapsing (visible directly in the temp 1.5 sample
 above, and in BLEU's near-zero score at that setting for both languages).
 This is consistent with why unlikelihood training and similar
 degeneration-mitigation techniques exist in the literature (considered
-for this project, not adopted, decided 2026-08-31):
-greedy decoding on a model this size reliably produces the failure mode
-those techniques target.
+for this project, not adopted): greedy decoding on a model this size
+reliably produces the failure mode those techniques target.

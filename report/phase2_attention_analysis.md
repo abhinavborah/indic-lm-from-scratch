@@ -1,7 +1,7 @@
 # Phase 2: Attention Analysis
 
 Computed on real held-out sentences from each language's test split (not
-hand-crafted, decided 2026-08-31), using `model.py`'s
+hand-crafted), using `model.py`'s
 `return_attention` flag (additive, verified to leave logits and existing
 checkpoint compatibility unchanged, see `report/phase2_architecture.md`).
 4 example sentences per language, 10 to 40 tokens each, short enough for

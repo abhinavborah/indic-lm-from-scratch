@@ -29,8 +29,8 @@ import torch
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
 from finetune import (
-    PRETRAIN_EVAL_SEED, finetune, freeze_non_lora_params, inject_lora, load_pretrained_weights,
-    load_reasoning_examples, pretrain_val_ppl,
+    PRETRAIN_EVAL_SEED, build_optimizer, finetune, freeze_non_lora_params, inject_lora,
+    load_pretrained_weights, load_reasoning_examples, pretrain_val_ppl,
 )
 from model import DecoderLM
 
@@ -92,9 +92,8 @@ def main():
         inject_lora(model, rank=rank, alpha=alpha)
         freeze_non_lora_params(model)
         trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
-        optimizer = torch.optim.AdamW(
-            [p for p in model.parameters() if p.requires_grad],
-            betas=(opt_config["beta1"], opt_config["beta2"]), weight_decay=opt_config["weight_decay"],
+        optimizer = build_optimizer(
+            model, weight_decay=opt_config["weight_decay"], betas=(opt_config["beta1"], opt_config["beta2"])
         )
 
         log = finetune(

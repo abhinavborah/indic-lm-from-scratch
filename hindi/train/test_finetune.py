@@ -10,14 +10,16 @@ from pathlib import Path
 
 import sentencepiece as spm
 import torch
+import torch.nn.functional as F
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "data" / "reasoning"))
 
 from finetune import (
-    BOS_ID, EOS_ID, LoRALinear, PAD_ID, _evaluate_reasoning_loss, encode_example, finetune,
-    freeze_non_lora_params, inject_lora, load_pretrained_weights, masked_lm_loss, merge_lora_to_plain,
+    BOS_ID, EOS_ID, LoRALinear, PAD_ID, _evaluate_reasoning_loss, build_optimizer, encode_example,
+    finetune, freeze_non_lora_params, inject_lora, load_pretrained_weights, masked_lm_loss,
+    merge_lora_to_plain,
 )
 from model import DecoderLM
 from train import load_checkpoint, save_checkpoint
@@ -95,16 +97,53 @@ def demo():
         "LoRA injection must not change model output before any training (lora_B starts at zero)"
     lora_model.train()
 
-    # --- freeze_non_lora_params: only lora_A/lora_B are trainable ---
+    # --- freeze_non_lora_params: lora_A/lora_B AND token_embedding.weight are trainable ---
+    # (token_embedding.weight is gradient-masked to BOS_ID/EOS_ID rows only, checked below --
+    # see docs-phase-3/lora_eos_untrained_finding.md for why: these two rows are never
+    # emitted mid-corpus during pretraining, so under a plain lora_A/lora_B-only freeze
+    # they stay untrained and the model never learns to terminate generation)
     freeze_non_lora_params(lora_model)
     trainable_names = {n for n, p in lora_model.named_parameters() if p.requires_grad}
     assert trainable_names, "at least some parameters must be trainable"
-    assert all("lora_A" in n or "lora_B" in n for n in trainable_names), \
-        f"only lora_A/lora_B should be trainable, got: {trainable_names}"
+    assert all(
+        "lora_A" in n or "lora_B" in n or n == "token_embedding.weight" for n in trainable_names
+    ), f"only lora_A/lora_B/token_embedding.weight should be trainable, got: {trainable_names}"
+    assert "token_embedding.weight" in trainable_names
     frozen_names = {n for n, p in lora_model.named_parameters() if not p.requires_grad}
     assert any("q_proj.base" in n for n in frozen_names) and any("v_proj.base" in n for n in frozen_names), \
         "q_proj/v_proj base weights must be frozen"
     assert any("k_proj" in n for n in frozen_names), "k_proj must be untouched and frozen (not a LoRA target)"
+
+    # --- embedding gradient mask: only BOS_ID/EOS_ID rows may receive a nonzero gradient ---
+    torch.manual_seed(10)
+    grad_model = DecoderLM(TINY_CONFIG)
+    inject_lora(grad_model, rank=LORA_RANK, alpha=LORA_ALPHA)
+    freeze_non_lora_params(grad_model)
+    grad_probe_x = torch.randint(0, TINY_CONFIG["vocab_size"], (1, 8))
+    grad_probe_y = torch.randint(0, TINY_CONFIG["vocab_size"], (1, 8))
+    logits = grad_model(grad_probe_x)
+    F.cross_entropy(logits.view(-1, logits.size(-1)), grad_probe_y.view(-1)).backward()
+    emb_grad = grad_model.token_embedding.weight.grad
+    nonzero_rows = set((emb_grad.abs().sum(dim=1) > 0).nonzero().flatten().tolist())
+    assert nonzero_rows <= {BOS_ID, EOS_ID}, \
+        f"only rows {BOS_ID}/{EOS_ID} may have a nonzero embedding gradient, got: {nonzero_rows}"
+
+    # --- weight decay isolation: build_optimizer must not let decay shrink untouched rows ---
+    init_embedding = grad_model.token_embedding.weight.detach().clone()
+    grad_optimizer = build_optimizer(grad_model, weight_decay=0.5, lr=1e-1)  # exaggerated to surface any leak
+    for _ in range(5):
+        logits = grad_model(grad_probe_x)
+        loss = F.cross_entropy(logits.view(-1, logits.size(-1)), grad_probe_y.view(-1))
+        grad_optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        grad_optimizer.step()
+    untouched_rows = [i for i in range(TINY_CONFIG["vocab_size"]) if i not in (BOS_ID, EOS_ID)]
+    assert torch.allclose(
+        grad_model.token_embedding.weight[untouched_rows], init_embedding[untouched_rows]
+    ), "weight decay must not shrink embedding rows outside BOS_ID/EOS_ID"
+    assert not torch.allclose(
+        grad_model.token_embedding.weight[[BOS_ID, EOS_ID]], init_embedding[[BOS_ID, EOS_ID]]
+    ), "BOS_ID/EOS_ID rows should actually move after real gradient steps"
 
     # --- end-to-end: tiny model, tiny data, loss should decrease, checkpoint round-trips ---
     torch.manual_seed(0)
@@ -112,9 +151,7 @@ def demo():
     inject_lora(model, rank=LORA_RANK, alpha=LORA_ALPHA)
     freeze_non_lora_params(model)
     base_snapshot = copy.deepcopy(dict(model.named_parameters()))
-    optimizer = torch.optim.AdamW(
-        [p for p in model.parameters() if p.requires_grad], lr=1e-2
-    )
+    optimizer = build_optimizer(model, lr=1e-2)
 
     train_examples = [
         {"prompt": "राम की उम्र श्याम से ज़्यादा है। ज़्यादा उम्र वाला कौन सा है?", "answer": "राम"},
@@ -152,7 +189,7 @@ def demo():
         model2 = DecoderLM(TINY_CONFIG)
         inject_lora(model2, rank=LORA_RANK, alpha=LORA_ALPHA)
         freeze_non_lora_params(model2)
-        optimizer2 = torch.optim.AdamW([p for p in model2.parameters() if p.requires_grad], lr=1e-2)
+        optimizer2 = build_optimizer(model2, lr=1e-2)
         resumed_step = load_checkpoint(ckpt_path, model2, optimizer2)
         assert resumed_step > 0
         for p1, p2 in zip(model.parameters(), model2.parameters()):
@@ -187,7 +224,7 @@ def demo():
         es_model = DecoderLM(TINY_CONFIG)
         inject_lora(es_model, rank=LORA_RANK, alpha=LORA_ALPHA)
         freeze_non_lora_params(es_model)
-        es_optimizer = torch.optim.AdamW([p for p in es_model.parameters() if p.requires_grad], lr=1e-2)
+        es_optimizer = build_optimizer(es_model, lr=1e-2)
         es_ckpt_path = Path(tmp) / "early_stop_ckpt.pt"
 
         es_log = finetune(
@@ -221,7 +258,7 @@ def demo():
         sf_model = DecoderLM(TINY_CONFIG)
         inject_lora(sf_model, rank=LORA_RANK, alpha=LORA_ALPHA)
         freeze_non_lora_params(sf_model)
-        sf_optimizer = torch.optim.AdamW([p for p in sf_model.parameters() if p.requires_grad], lr=1e-2)
+        sf_optimizer = build_optimizer(sf_model, lr=1e-2)
         sf_ckpt_path = Path(tmp) / "on_epoch_end_ckpt.pt"
 
         seen_entries = []
@@ -252,7 +289,7 @@ def demo():
         sfes_model = DecoderLM(TINY_CONFIG)
         inject_lora(sfes_model, rank=LORA_RANK, alpha=LORA_ALPHA)
         freeze_non_lora_params(sfes_model)
-        sfes_optimizer = torch.optim.AdamW([p for p in sfes_model.parameters() if p.requires_grad], lr=1e-2)
+        sfes_optimizer = build_optimizer(sfes_model, lr=1e-2)
         sfes_ckpt_path = Path(tmp) / "on_epoch_end_es_ckpt.pt"
 
         sfes_log = finetune(

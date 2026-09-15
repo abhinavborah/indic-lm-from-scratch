@@ -122,13 +122,59 @@ def inject_lora(model, rank, alpha):
 
 
 def freeze_non_lora_params(model):
-    """Sets requires_grad on every parameter: True only for lora_A/lora_B,
-    False for everything else (including q_proj/v_proj's own frozen base
-    weights, already set False by LoRALinear.__init__ -- this also covers
-    every other parameter in the model: embeddings, k_proj, out_proj, FFN,
-    LayerNorm, the output head)."""
+    """Sets requires_grad on every parameter: True for lora_A/lora_B and
+    token_embedding.weight, False for everything else (including
+    q_proj/v_proj's own frozen base weights, already set False by
+    LoRALinear.__init__, and every other parameter: k_proj, out_proj, FFN,
+    LayerNorm).
+
+    token_embedding.weight is trainable but gradient-masked to BOS_ID/EOS_ID
+    rows only (see docs-phase-3/lora_eos_untrained_finding.md): <s>/</s> are
+    never emitted mid-corpus during pretraining, so their rows are still
+    untouched random init under the plain lora_A/lora_B-only freeze, and the
+    model never learns to terminate generation. requires_grad has no
+    per-row granularity, so the row restriction is enforced by a gradient
+    hook instead -- every other row's gradient is zeroed before it ever
+    reaches the optimizer. With tie_embeddings=True, token_embedding.weight
+    and head.weight are the same Parameter object (model.py's
+    `self.head.weight = self.token_embedding.weight`), so named_parameters
+    surfaces it once and this hook covers both the input-embedding and
+    tied-output-head gradient contributions.
+
+    Callers must build the optimizer via build_optimizer(), not a plain
+    single-group AdamW(...): weight decay is applied to the parameter value
+    directly, independent of the gradient mask above, so an unsplit
+    optimizer would still shrink every untrained embedding row every step."""
     for name, p in model.named_parameters():
-        p.requires_grad = "lora_A" in name or "lora_B" in name
+        p.requires_grad = "lora_A" in name or "lora_B" in name or name == "token_embedding.weight"
+
+    def _mask_bos_eos_rows(grad):
+        mask = torch.zeros_like(grad)
+        mask[[BOS_ID, EOS_ID]] = 1.0
+        return grad * mask
+
+    model.token_embedding.weight.register_hook(_mask_bos_eos_rows)
+
+
+def build_optimizer(model, weight_decay=0.0, betas=(0.9, 0.95), lr=1e-3):
+    """AdamW over model's currently-trainable parameters, split into two
+    groups so weight decay never reaches token_embedding.weight: decay
+    shrinks a parameter's value every step regardless of its gradient, so
+    even a correctly gradient-masked embedding row would still get decayed
+    if it shared a group with lora_A/lora_B. token_embedding.weight (if
+    trainable) gets weight_decay=0.0; everything else gets `weight_decay`.
+    lr is a placeholder here -- finetune()'s own warmup schedule overwrites
+    every group's lr before the first optimizer step."""
+    other_params, embedding_params = [], []
+    for name, p in model.named_parameters():
+        if not p.requires_grad:
+            continue
+        (embedding_params if name == "token_embedding.weight" else other_params).append(p)
+
+    groups = [{"params": other_params, "weight_decay": weight_decay}]
+    if embedding_params:
+        groups.append({"params": embedding_params, "weight_decay": 0.0})
+    return torch.optim.AdamW(groups, betas=betas, lr=lr)
 
 
 def merge_lora_to_plain(lora_model, config):

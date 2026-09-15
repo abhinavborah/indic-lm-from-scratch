@@ -141,7 +141,7 @@ def load_splits():
 
 def evaluate_checkpoint(checkpoint_path, model_config, sp, splits, device):
     model, step = load_plain_model(checkpoint_path, model_config, device)
-    result = {"checkpoint": str(checkpoint_path), "step": step, "splits": {}}
+    result = {"checkpoint": Path(checkpoint_path).name, "step": step, "splits": {}}
     for name, examples in splits.items():
         strict_acc, lenient_acc, n, qualitative = evaluate_split(
             model, sp, examples, model_config["context_length"], device

@@ -29,71 +29,86 @@ per model, per spec's "at least one early and one late layer" requirement.
 ## Results: mean attention entropy and distance, early vs. late layer
 
 Entropy in nats (higher = more diffuse attention across heads); mean
-attention distance in tokens (higher = more long-range).
+attention distance in tokens (higher = more long-range). Numbers below are
+from the final checkpoints (post EOS-termination-fix, seed 0 merged, same
+convention as before) -- pretrained-checkpoint numbers are identical to
+the originally reported ones (the pretrained checkpoint never changed);
+finetuned numbers shifted somewhat and are reported fresh, not reused.
 
 **Hindi**
 
 | Example | Layer | Metric | Pretrained | Finetuned (seed 0) |
 |---|---|---|---|---|
-| pairwise | early (0) | entropy | 2.008 | 1.987 |
-| pairwise | early (0) | distance | 6.421 | 6.418 |
-| pairwise | late (11) | entropy | 1.627 | 1.318 |
-| pairwise | late (11) | distance | 4.618 | 3.866 |
-| chained | early (0) | entropy | 2.577 | 2.561 |
-| chained | early (0) | distance | 12.108 | 12.082 |
-| chained | late (11) | entropy | 2.109 | 1.589 |
-| chained | late (11) | distance | 8.242 | 5.843 |
+| pairwise | early (0) | entropy | 2.008 | 1.993 |
+| pairwise | early (0) | distance | 6.421 | 6.487 |
+| pairwise | late (11) | entropy | 1.627 | 1.571 |
+| pairwise | late (11) | distance | 4.618 | 4.827 |
+| chained | early (0) | entropy | 2.577 | 2.562 |
+| chained | early (0) | distance | 12.108 | 12.129 |
+| chained | late (11) | entropy | 2.109 | 1.870 |
+| chained | late (11) | distance | 8.242 | 6.705 |
 
 **Assamese**
 
 | Example | Layer | Metric | Pretrained | Finetuned (seed 0) |
 |---|---|---|---|---|
-| pairwise | early (0) | entropy | 2.213 | 2.195 |
-| pairwise | early (0) | distance | 5.570 | 5.508 |
-| pairwise | late (11) | entropy | 1.671 | 1.479 |
-| pairwise | late (11) | distance | 6.061 | 5.407 |
-| chained | early (0) | entropy | 2.573 | 2.534 |
-| chained | early (0) | distance | 9.238 | 9.240 |
-| chained | late (11) | entropy | 2.209 | 1.819 |
-| chained | late (11) | distance | 11.335 | 9.908 |
+| pairwise | early (0) | entropy | 2.213 | 2.194 |
+| pairwise | early (0) | distance | 5.570 | 5.570 |
+| pairwise | late (11) | entropy | 1.671 | 1.565 |
+| pairwise | late (11) | distance | 6.061 | 5.635 |
+| chained | early (0) | entropy | 2.573 | 2.522 |
+| chained | early (0) | distance | 9.238 | 9.304 |
+| chained | late (11) | entropy | 2.209 | 1.878 |
+| chained | late (11) | distance | 11.335 | 9.477 |
 
 ## Discussion
 
-**Early-layer attention is essentially unchanged by finetuning**, both
-languages, both example types (entropy and distance shift by well under
-1% at layer 0 in every case). This is consistent with LoRA's target
-choice: `q_proj`/`v_proj` adapters exist in every layer, but the model's
-low-level token-composition behavior in early layers is apparently not
-where the reasoning-task adaptation happens.
+**Early-layer attention is still essentially unchanged by finetuning**,
+both languages, both example types (entropy and distance shift by a few
+percent at most at layer 0, several entries under 1%). This is consistent
+with LoRA's target choice: `q_proj`/`v_proj` adapters exist in every
+layer, but the model's low-level token-composition behavior in early
+layers is apparently not where the reasoning-task adaptation happens.
 
-**Late-layer attention becomes sharper and more local after finetuning,
-in every one of the four (language x example-type) comparisons.** Entropy
-drops (Hindi chained: 2.109 to 1.589; Assamese chained: 2.209 to 1.819)
-and mean attention distance shortens (Hindi chained: 8.242 to 5.843
-tokens; Assamese chained: 11.335 to 9.908 tokens). The same direction
-holds for the pairwise examples too, at smaller magnitude (as expected,
-since pairwise prompts are shorter and have less long-range structure to
-sharpen in the first place).
+**Late-layer entropy still drops after finetuning in all four
+(language x example-type) comparisons** (Hindi chained: 2.109 to 1.870;
+Assamese chained: 2.209 to 1.878; both pairwise cases too, smaller
+magnitude) -- the "more selective attention" finding holds. **Mean
+attention distance is more mixed than originally reported**: it still
+shortens for three of the four comparisons (Hindi chained: 8.242 to
+6.705; Assamese pairwise: 6.061 to 5.635; Assamese chained: 11.335 to
+9.477), but **Hindi pairwise distance now lengthens slightly instead of
+shortening** (4.618 to 4.827, versus a shortening in the originally
+reported run). This reversal was not present before the EOS-termination
+fix -- the finetuned checkpoints being compared are different models
+(the fix adds a second, small gradient signal through the embedding
+table), so a small, single-example metric on the shortest/simplest prompt
+type flipping sign is plausible rather than alarming, but it means the
+"late-layer attention becomes sharper and more local, no exceptions"
+claim from the original analysis is too strong and is revised here rather
+than repeated.
 
-This is the opposite of what "attention broadens to gather more context
-for reasoning" would predict; instead, finetuning appears to teach the
-late layers to attend more selectively, likely to the specific entity
-tokens that decide the comparison, rather than diffusing attention across
-the whole premise. The chained examples (the genuinely long-range case)
-show the largest absolute shift in both entropy and distance, both
-languages -- consistent with finetuning affecting head specialization
-most where the reasoning task actually requires combining multiple
-premises, not uniformly across all attention patterns.
+This is still, on balance, the opposite of what "attention broadens to
+gather more context for reasoning" would predict for the entropy metric
+and for distance on three of four cases; finetuning appears to teach the
+late layers to attend more selectively in general, likely to the specific
+entity tokens that decide the comparison. The chained examples (the
+genuinely long-range case) still show the largest absolute shift in both
+entropy and distance, both languages -- consistent with finetuning
+affecting head specialization most where the reasoning task actually
+requires combining multiple premises.
 
-**Direction and magnitude are consistent across both languages** (both
-show late-layer sharpening, both show chained > pairwise magnitude), but
-the effect is larger in Hindi (distance drop of 2.399 tokens on chained
-vs. Assamese's 1.427). Whether this tracks Hindi's stronger reasoning-
-accuracy gain on test_seen/test_unseen_entity (see
-`phase3_reasoning_eval.md`) or is a smaller-sample artifact (one example
-per language per type) is not resolved here -- this analysis is a
-qualitative attention-shift check per spec's requirement, not a
-statistically powered claim across many prompts.
+**Which language shows the larger effect has flipped.** Originally Hindi
+showed the larger chained-distance drop (2.399 tokens vs. Assamese's
+1.427); with the post-fix checkpoints, **Assamese now shows the larger
+drop** (1.858 tokens vs. Hindi's 1.537). Whether this tracks the
+reasoning-accuracy trade-off documented in `phase3_reasoning_eval.md`
+(Assamese absorbed more of a content-accuracy cost from the fix than
+Hindi did) or is a smaller-sample artifact (one example per language per
+type) is not resolved here -- this analysis is a qualitative
+attention-shift check per spec's requirement, not a statistically powered
+claim across many prompts, and that limitation is more visible now that a
+methodology change flipped which language "wins" on this one metric.
 
 ## Reproduction
 

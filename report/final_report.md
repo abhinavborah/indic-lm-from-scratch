@@ -73,10 +73,10 @@ pattern.
 
 **Reasoning (Phase 3).** After LoRA finetuning on each language's own
 synthetic comparative-reasoning dataset, Hindi again outperforms Assamese
-on test_seen (98.2% vs. 75.4% lenient exact match, mean of 3 seeds) and
-test_unseen_entity (95.7% vs. 70.0%), tracking the same direction as the
+on test_seen (98.4% vs. 65.2% strict exact match, mean of 3 seeds) and
+test_unseen_entity (96.8% vs. 58.2%), tracking the same direction as the
 Phase 2 LM-quality gap. **The pattern reverses on test_unseen_wording**:
-Assamese scores higher (44.0%) than Hindi (29.6%), holding in every
+Assamese scores higher (43.8%) than Hindi (26.2%), holding in every
 individual seed, not just the mean. This is the one place Model L
 outperforms Model H, and it does not simply follow the Phase 2 corpus-
 size gap -- see `phase3_reasoning_eval.md` for the full per-seed table and
@@ -84,23 +84,38 @@ a candidate explanation (Hindi's higher seen-wording accuracy may carry a
 larger template-memorization component that, by construction, does not
 transfer to unseen phrasing).
 
-Both models show the same qualitative finetuning failure mode: neither
-learns to emit `</s>` reliably to terminate an answer (strict exact-match
-accuracy is 0.0000 in every cell, both models, pretrained and finetuned),
-traced to LoRA's target-module choice (`q_proj`/`v_proj` only) never
-touching the frozen, untrained `</s>` embedding row. Both models still
-show strong content-correctness gains under lenient (prefix-match)
-scoring, confirming the finetune itself worked despite this shared
-termination bug -- see `phase3_reasoning_eval.md` for the full mechanistic
-account.
+Both models initially showed the same qualitative finetuning failure mode:
+neither learned to emit `</s>` reliably to terminate an answer (strict
+exact-match accuracy was 0.0000 in every cell, both models, pretrained and
+finetuned), traced to LoRA's target-module choice (`q_proj`/`v_proj` only)
+never touching the frozen, untrained `</s>` embedding row. This was fixed,
+not just documented: the two affected embedding rows were made trainable
+via a gradient hook (isolating them from the other ~8,000 rows, since
+`requires_grad` has no per-row granularity), with their own zero-weight-decay
+optimizer group to stop decay leaking into them. Verified via `torch.allclose`
+on all 6 final checkpoints (3 seeds x 2 languages): the two rows now differ
+from the pretrained checkpoint, 100 sampled other rows per checkpoint stay
+bit-identical. **The fix landed cleanly for Hindi** (strict now equals
+lenient exactly, every split) **but left a small residual termination gap
+for Assamese** (strict trails lenient by 1-3 points on `test_seen`/
+`test_unseen_entity`) alongside a real, measurable drop in Assamese's raw
+content accuracy on those same two splits relative to its pre-fix numbers
+(consistent across all three seeds) -- `test_unseen_wording` is unaffected
+for both languages. See `phase3_reasoning_eval.md` for the full mechanistic
+account and a candidate explanation for the Assamese-specific cost.
 
 **Attention shift under finetuning is consistent in direction across
-both languages**: late-layer attention becomes sharper and more local
-after finetuning in every language/example-type comparison tested (entropy
-and mean attention distance both drop), most strongly on the long-range
-"chained" comparisons; early-layer attention is essentially unchanged.
-The magnitude of this shift is somewhat larger for Hindi than Assamese
-(`phase3_attention_reasoning.md`).
+both languages on entropy** (late-layer attention entropy drops after
+finetuning in every language/example-type comparison, most strongly on
+the long-range "chained" comparisons; early-layer attention is essentially
+unchanged), but **mean attention distance is more mixed**: it shortens
+(more local attention) in three of four language/example-type comparisons,
+but lengthens slightly for Hindi's pairwise case in the post-fix
+checkpoints -- a reversal from what was originally measured, attributable
+to the finetuned checkpoints themselves changing under the EOS fix, not a
+methodology change in how the metric is computed. Which language shows
+the larger chained-distance shift has also flipped: Assamese now shows the
+larger drop, where Hindi originally did (`phase3_attention_reasoning.md`).
 
 ## 3. What tokenizer / corpus factors most affected the lower-resource model?
 
@@ -148,13 +163,24 @@ accounted for. The Phase 3 reasoning results largely track this same
 attribution (Hindi ahead on 2 of 3 splits), with one genuine exception
 (test_unseen_wording) that does not reduce to the corpus-size story and is
 reported as an open, evidence-grounded observation rather than forced
-into the same pattern. The shared LoRA-EOS finding (both languages fail
-strict termination identically) is evidence that at least one Phase 3
-result is a property of the finetuning method (LoRA's target-module
-choice interacting with untrained special-token embeddings under weight
-tying) rather than of either language's data or resource tier -- an
-important distinction for correctly attributing which Phase 3 results are
-about H-vs-L and which are about the finetuning method itself.
+into the same pattern.
+
+The LoRA-EOS finding is evidence of both a method-level cause and a
+resource-tier-dependent consequence, and the two should not be conflated.
+Before the fix, both languages failed strict termination identically
+(0.0000 in every cell) -- clear evidence that the root cause (LoRA's
+target-module choice never touching the frozen, untrained `</s>`
+embedding row) is a property of the finetuning method, not of either
+language's data. After fixing it, the two languages diverged: Hindi's fix
+is completely clean (strict equals lenient exactly, no other numbers
+moved), while Assamese retains a small residual termination gap and shows
+a measurable, seed-consistent drop in raw content accuracy on `test_seen`/
+`test_unseen_entity` that Hindi does not. That divergence *is* plausibly
+resource-tier-dependent -- the fix adds a second gradient signal competing
+for the same tiny LoRA-scale training budget, and Assamese's smaller,
+noisier pretraining signal may make it more sensitive to sharing that
+budget than Hindi's is. So: the bug was a method artifact; how cleanly the
+fix resolves is itself H-vs-L evidence.
 
 ## Reproducibility
 

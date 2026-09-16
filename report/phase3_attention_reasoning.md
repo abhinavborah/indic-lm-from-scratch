@@ -48,6 +48,29 @@ finetuned numbers shifted somewhat and are reported fresh, not reused.
 | chained | late (11) | entropy | 2.109 | 1.870 |
 | chained | late (11) | distance | 8.242 | 6.705 |
 
+Heatmaps (one subplot per head; each pair below is the same example and
+layer, pretrained vs. finetuned):
+
+*Pairwise, early layer (0)*
+
+![Hindi pairwise early layer pretrained](figures/phase3_attention_reasoning_hindi_early_layer_pretrained_pairwise.png)
+![Hindi pairwise early layer finetuned](figures/phase3_attention_reasoning_hindi_early_layer_finetuned_seed0_pairwise.png)
+
+*Pairwise, late layer (11)*
+
+![Hindi pairwise late layer pretrained](figures/phase3_attention_reasoning_hindi_late_layer_pretrained_pairwise.png)
+![Hindi pairwise late layer finetuned](figures/phase3_attention_reasoning_hindi_late_layer_finetuned_seed0_pairwise.png)
+
+*Chained, early layer (0)*
+
+![Hindi chained early layer pretrained](figures/phase3_attention_reasoning_hindi_early_layer_pretrained_chained.png)
+![Hindi chained early layer finetuned](figures/phase3_attention_reasoning_hindi_early_layer_finetuned_seed0_chained.png)
+
+*Chained, late layer (11)*
+
+![Hindi chained late layer pretrained](figures/phase3_attention_reasoning_hindi_late_layer_pretrained_chained.png)
+![Hindi chained late layer finetuned](figures/phase3_attention_reasoning_hindi_late_layer_finetuned_seed0_chained.png)
+
 **Assamese**
 
 | Example | Layer | Metric | Pretrained | Finetuned (seed 0) |
@@ -60,6 +83,29 @@ finetuned numbers shifted somewhat and are reported fresh, not reused.
 | chained | early (0) | distance | 9.238 | 9.304 |
 | chained | late (11) | entropy | 2.209 | 1.878 |
 | chained | late (11) | distance | 11.335 | 9.477 |
+
+Heatmaps (one subplot per head; each pair below is the same example and
+layer, pretrained vs. finetuned):
+
+*Pairwise, early layer (0)*
+
+![Assamese pairwise early layer pretrained](figures/phase3_attention_reasoning_assamese_early_layer_pretrained_pairwise.png)
+![Assamese pairwise early layer finetuned](figures/phase3_attention_reasoning_assamese_early_layer_finetuned_seed0_pairwise.png)
+
+*Pairwise, late layer (11)*
+
+![Assamese pairwise late layer pretrained](figures/phase3_attention_reasoning_assamese_late_layer_pretrained_pairwise.png)
+![Assamese pairwise late layer finetuned](figures/phase3_attention_reasoning_assamese_late_layer_finetuned_seed0_pairwise.png)
+
+*Chained, early layer (0)*
+
+![Assamese chained early layer pretrained](figures/phase3_attention_reasoning_assamese_early_layer_pretrained_chained.png)
+![Assamese chained early layer finetuned](figures/phase3_attention_reasoning_assamese_early_layer_finetuned_seed0_chained.png)
+
+*Chained, late layer (11)*
+
+![Assamese chained late layer pretrained](figures/phase3_attention_reasoning_assamese_late_layer_pretrained_chained.png)
+![Assamese chained late layer finetuned](figures/phase3_attention_reasoning_assamese_late_layer_finetuned_seed0_chained.png)
 
 ## Discussion
 

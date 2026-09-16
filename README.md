@@ -124,8 +124,7 @@ Checkpoints and the tokenized `.bin` corpus files are **not** in git, same large
   (causal-mask no-leak test, parameter count)
 - Model configuration files: `<lang>/configs/model_config.json`
 - Parameter counts, architecture justification: `report/phase2_architecture.md`
-- Training scripts: `<lang>/train/train.py`, `run_full_training_reference.py`,
-  `<lang>/train/colab_full_training.ipynb`
+- Training scripts: `<lang>/train/train.py`, `<lang>/train/colab_full_training.ipynb`
 - Training logs and loss curves: `report/logs/*_loss_log.csv`,
   `report/phase2_lm_eval.md`, `report/figures/phase2_loss_curves.png`
 - PPL/BPB tables: `report/phase2_lm_eval.md`

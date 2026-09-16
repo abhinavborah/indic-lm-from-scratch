@@ -44,9 +44,13 @@ MAX_SENTENCE_TOKENS = 40
 # unreadable Bengali-Assamese labels. Registering Kohinoor Bangla as a
 # fallback (not the sole font) keeps Latin/ASCII pieces like "4." and
 # the byte-fallback "<0xNN>" tokens legible too, which a single forced
-# non-Latin font would not have covered.
-fm.fontManager.addfont("/System/Library/Fonts/KohinoorBangla.ttc")
-plt.rcParams["font.family"] = ["DejaVu Sans", "Kohinoor Bangla"]
+# non-Latin font would not have covered. Only available on macOS, so
+# this is skipped (falling back to DejaVu Sans alone) on any other OS
+# rather than crashing the eval script outright.
+_KOHINOOR_PATH = "/System/Library/Fonts/KohinoorBangla.ttc"
+if Path(_KOHINOOR_PATH).exists():
+    fm.fontManager.addfont(_KOHINOOR_PATH)
+    plt.rcParams["font.family"] = ["DejaVu Sans", "Kohinoor Bangla"]
 
 
 def pick_device():

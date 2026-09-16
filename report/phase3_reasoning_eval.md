@@ -56,6 +56,10 @@ both languages (Hindi ~38 to ~57 PPL, Assamese ~62 to ~89) -- no
 forgetting signal severe enough to warrant a stop was observed at this
 training budget.
 
+![Finetune training and reasoning-validation loss curves, all seeds, both languages](figures/phase3_finetune_loss_curves.png)
+
+![Pretrain-validation perplexity during finetuning, catastrophic-forgetting diagnostic](figures/phase3_pretrain_ppl_forgetting.png)
+
 Every seed, both languages, reached the 40-epoch ceiling without the
 reasoning-validation-loss patience condition ever firing on its own. This
 was checked directly rather than assumed adequate: a single-seed probe
@@ -120,6 +124,17 @@ on both person and object pools), never appearing in train even paired
 with seen templates. Train and test_seen are additionally instance-level
 disjoint (the same entity combination and premise ordering never appears
 in both), not just template/entity-level disjoint.
+
+Dedup for this instance-level check runs within each split-generation pass
+(seen, unseen-entity, unseen-wording) but not across them. Since
+`test_unseen_wording` deliberately draws from the same entity pool as
+train/val (it holds out wording, not entities), the same exact
+(domain, entity-tuple, direction) combination can occasionally land in
+both, differing only in phrasing. Checked directly against the committed
+data: Hindi has zero such overlaps; Assamese has 3 (1 with train, 2 with
+val), out of 150 `test_unseen_wording` examples (~2%). Small, one-sided
+to Assamese, and does not affect the entity-level or template-level
+holdout guarantees above.
 
 | Split | Hindi / Assamese (each) |
 |---|---|

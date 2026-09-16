@@ -125,28 +125,37 @@ def mean_attention_distance_per_head(attn_layer):
     return distances
 
 
-def plot_heatmaps(attn_layer, pieces, layer_label, out_path):
+def plot_heatmaps(attn_layer, pieces, layer_label, out_path, title_suffix=""):
     """One subplot per head, query (rows) vs key (columns) positions,
-    tick labels are the actual token pieces for this example sentence."""
+    tick labels are the actual token pieces for this example sentence.
+    title_suffix (e.g. "pretrained, chained") disambiguates which
+    checkpoint/example a figure came from, since the filename alone
+    isn't visible once the image is viewed on its own."""
     n_head, T, _ = attn_layer.shape
     ncols = min(3, n_head)
     nrows = (n_head + ncols - 1) // ncols
-    fig, axes = plt.subplots(nrows, ncols, figsize=(4.2 * ncols, 4.2 * nrows))
+    # Longer sequences (Phase 3 full prompt+answer, T ~50) need more room
+    # per token and a smaller font than Phase 2's short single sentences
+    # (T ~10-15) did, or tick labels overlap into unreadable text.
+    cell_in = max(4.2, T * 0.16)
+    tick_fontsize = 6 if T <= 20 else max(3, int(6 * 20 / T))
+    fig, axes = plt.subplots(nrows, ncols, figsize=(cell_in * ncols, cell_in * nrows))
     axes = axes.flatten() if n_head > 1 else [axes]
     for h in range(n_head):
         ax = axes[h]
         im = ax.imshow(attn_layer[h].numpy(), cmap="viridis", vmin=0, vmax=attn_layer[h].max().item())
         ax.set_xticks(range(T))
-        ax.set_xticklabels(pieces, rotation=90, fontsize=6)
+        ax.set_xticklabels(pieces, rotation=90, fontsize=tick_fontsize)
         ax.set_yticks(range(T))
-        ax.set_yticklabels(pieces, fontsize=6)
+        ax.set_yticklabels(pieces, fontsize=tick_fontsize)
         ax.set_xlabel("Key position")
         ax.set_ylabel("Query position")
         ax.set_title(f"Head {h}")
         fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
     for h in range(n_head, len(axes)):
         axes[h].axis("off")
-    fig.suptitle(f"Hindi, {layer_label}: attention weights, all heads")
+    suffix = f" ({title_suffix})" if title_suffix else ""
+    fig.suptitle(f"Hindi, {layer_label}: attention weights, all heads{suffix}")
     fig.tight_layout()
     fig.savefig(out_path, dpi=150)
     plt.close(fig)
@@ -198,10 +207,11 @@ def run_with_examples(checkpoint_path, sp, examples, checkpoint_label=""):
             distance_by_layer[layer_idx].append(mean_attention_distance_per_head(attn_layer))
 
         if ex_idx == 0:
+            title_suffix = checkpoint_label.replace("_", ", ")
             plot_heatmaps(attentions[early_layer], pieces, f"layer {early_layer} (early)",
-                          FIGURES_DIR / f"{prefix}_early_layer{suffix}.png")
+                          FIGURES_DIR / f"{prefix}_early_layer{suffix}.png", title_suffix=title_suffix)
             plot_heatmaps(attentions[late_layer], pieces, f"layer {late_layer} (late)",
-                          FIGURES_DIR / f"{prefix}_late_layer{suffix}.png")
+                          FIGURES_DIR / f"{prefix}_late_layer{suffix}.png", title_suffix=title_suffix)
             print(f"heatmaps written for example: {seg_text[:60]}...")
 
     n_head = model_config["n_head"]

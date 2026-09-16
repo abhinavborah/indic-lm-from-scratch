@@ -109,7 +109,8 @@ not transliterations of the other language's names.
 from the stated premises by the generator's own deterministic logic, not
 hand-labeled, so label correctness is a property of the generation
 function itself rather than manual annotation quality. Covered by
-`test_generate_reasoning_data.py`'s self-tests, both languages.
+`<lang>/data/reasoning/test_generate_reasoning_data.py`'s self-tests, both
+languages.
 
 **Separation** (no test item appears in training): both leakage-avoidance
 axes from Lec09 are enforced. Some template surface forms are held out
@@ -271,7 +272,7 @@ past correct answers) and superseded by building the real fix.
 ## Qualitative failure mode
 
 Format-memorization signature: the drop from test_seen / test_unseen_entity
-(>96% Hindi, >58% Assamese, per-seed) down to test_unseen_wording (25-28%
+(>96% Hindi, ~58% Assamese, per-seed) down to test_unseen_wording (25-28%
 Hindi, 41-45% Assamese) matches the pattern expected when part of the gain
 is template/format memorization rather than pure abstract reasoning
 transfer. Real transfer is still present -- both languages land well above

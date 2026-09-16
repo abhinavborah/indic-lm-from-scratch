@@ -97,7 +97,7 @@ on all 6 final checkpoints (3 seeds x 2 languages): the two rows now differ
 from the pretrained checkpoint, 100 sampled other rows per checkpoint stay
 bit-identical. **The fix landed cleanly for Hindi** (strict now equals
 lenient exactly, every split) **but left a small residual termination gap
-for Assamese** (strict trails lenient by 1-3 points on `test_seen`/
+for Assamese** (strict trails lenient by 1-4 points on `test_seen`/
 `test_unseen_entity`) alongside a real, measurable drop in Assamese's raw
 content accuracy on those same two splits relative to its pre-fix numbers
 (consistent across all three seeds) -- `test_unseen_wording` is unaffected

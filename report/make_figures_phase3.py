@@ -41,7 +41,8 @@ def plot_finetune_loss_curves():
         for seed in SEEDS:
             epochs, train_loss, reasoning_val_loss, _ = load_finetune_log(language, seed)
             style = SEED_STYLES[seed]
-            ax.plot(epochs, train_loss, color=color, alpha=0.35, linewidth=1.0, linestyle=style)
+            ax.plot(epochs, train_loss, color=color, alpha=0.35, linewidth=1.0, linestyle=style,
+                     label=f"seed {seed} (train)")
             ax.plot(epochs, reasoning_val_loss, color=color, alpha=0.9, linewidth=1.8,
                      linestyle=style, label=f"seed {seed} (val)")
         ax.set_xlabel("Epoch")

@@ -50,15 +50,34 @@ multi-seed requirement, early stopping on reasoning-validation loss
 every epoch as a catastrophic-forgetting diagnostic but is not an
 automatic stop condition: no literature or course precedent was found for
 a fixed PPL-increase percentage threshold, and the course's own guidance
-is to plot and inspect the curve rather than auto-trigger on it. Figures
-below show this diagnostic held essentially flat across all three seeds,
-both languages (Hindi ~38 to ~57 PPL, Assamese ~62 to ~89) -- no
-forgetting signal severe enough to warrant a stop was observed at this
-training budget.
+is to plot and inspect the curve rather than auto-trigger on it. Figure
+below shows this diagnostic rising steadily but modestly across all three
+seeds, both languages (Hindi ~41 to ~56 PPL, Assamese ~62 to ~89) -- a
+real drift, not a flat line, but nowhere near the 288x blowup measured
+under full finetuning (see above), so no forgetting signal severe enough
+to warrant a stop was observed at this training budget.
 
 ![Finetune training and reasoning-validation loss curves, all seeds, both languages](figures/phase3_finetune_loss_curves.png)
 
+Training loss (thin) and reasoning-validation loss (thick) per epoch, one
+line style per seed, one panel per language. Both drop sharply in the
+first 1-2 epochs, then decline smoothly with train and validation loss
+tracking closely (no divergence, no validation-loss upturn in any seed)
+-- the visual basis for "patience never fired, every seed ran the full 40
+epochs." Hindi converges toward near-zero loss; Assamese plateaus around
+0.4, consistent with its lower final accuracy.
+
 ![Pretrain-validation perplexity during finetuning, catastrophic-forgetting diagnostic](figures/phase3_pretrain_ppl_forgetting.png)
+
+Perplexity of the original Phase 2 pretrain-validation set, measured every
+epoch during reasoning finetuning, one line per seed, one panel per
+language. Both languages show a real, steady rise over the 40 epochs
+(Hindi ~41 to ~56, Assamese ~62 to ~89) rather than a flat line -- LoRA's
+rank-constrained update does not fully prevent drift on the original
+pretraining distribution, it only keeps that drift far short of the 288x
+blowup measured under full finetuning (see Method above). Y-axis range
+differs between the two panels only because Hindi's and Assamese's
+pretrained checkpoints start from different baseline perplexities.
 
 Every seed, both languages, reached the 40-epoch ceiling without the
 reasoning-validation-loss patience condition ever firing on its own. This

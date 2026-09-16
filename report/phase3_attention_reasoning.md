@@ -48,28 +48,49 @@ finetuned numbers shifted somewhat and are reported fresh, not reused.
 | chained | late (11) | entropy | 2.109 | 1.870 |
 | chained | late (11) | distance | 8.242 | 6.705 |
 
-Heatmaps (one subplot per head; each pair below is the same example and
-layer, pretrained vs. finetuned):
+Heatmaps below: each figure has one subplot per attention head. Row =
+query position, column = key position, both labeled with the actual
+token pieces of the example sentence. Color = attention weight from that
+query to that key (viridis: dark purple near 0, yellow near 1, per-head
+colorbar on the right of each subplot). The blank upper-right triangle in
+every subplot is the causal mask -- a query can only attend to keys at or
+before its own position. Each pair below is the same example and layer,
+pretrained on the left, finetuned on the right.
 
 *Pairwise, early layer (0)*
 
 ![Hindi pairwise early layer pretrained](figures/phase3_attention_reasoning_hindi_early_layer_pretrained_pairwise.png)
 ![Hindi pairwise early layer finetuned](figures/phase3_attention_reasoning_hindi_early_layer_finetuned_seed0_pairwise.png)
 
+Entropy 2.008 to 1.993, distance 6.421 to 6.487 -- early-layer attention
+on the short two-entity example is essentially unmoved by finetuning.
+
 *Pairwise, late layer (11)*
 
 ![Hindi pairwise late layer pretrained](figures/phase3_attention_reasoning_hindi_late_layer_pretrained_pairwise.png)
 ![Hindi pairwise late layer finetuned](figures/phase3_attention_reasoning_hindi_late_layer_finetuned_seed0_pairwise.png)
+
+Entropy drops 1.627 to 1.571 (more selective), but distance lengthens
+slightly, 4.618 to 4.827 -- the one case in this report where distance
+moves the opposite way from entropy (discussed below).
 
 *Chained, early layer (0)*
 
 ![Hindi chained early layer pretrained](figures/phase3_attention_reasoning_hindi_early_layer_pretrained_chained.png)
 ![Hindi chained early layer finetuned](figures/phase3_attention_reasoning_hindi_early_layer_finetuned_seed0_chained.png)
 
+Entropy 2.577 to 2.562, distance 12.108 to 12.129 -- like the pairwise
+case, early-layer attention on the longer three-entity example barely
+shifts.
+
 *Chained, late layer (11)*
 
 ![Hindi chained late layer pretrained](figures/phase3_attention_reasoning_hindi_late_layer_pretrained_chained.png)
 ![Hindi chained late layer finetuned](figures/phase3_attention_reasoning_hindi_late_layer_finetuned_seed0_chained.png)
+
+Entropy 2.109 to 1.870 and distance 8.242 to 6.705 -- the largest shift
+in either metric for Hindi, on the example that actually requires
+combining both premises.
 
 **Assamese**
 
@@ -84,28 +105,44 @@ layer, pretrained vs. finetuned):
 | chained | late (11) | entropy | 2.209 | 1.878 |
 | chained | late (11) | distance | 11.335 | 9.477 |
 
-Heatmaps (one subplot per head; each pair below is the same example and
-layer, pretrained vs. finetuned):
+Same reading as the Hindi heatmaps above: one subplot per head, row =
+query position, column = key position (token pieces labeled), color =
+attention weight (viridis, dark to yellow = 0 to 1), blank upper-right
+triangle is the causal mask. Pretrained on the left, finetuned on the
+right in each pair.
 
 *Pairwise, early layer (0)*
 
 ![Assamese pairwise early layer pretrained](figures/phase3_attention_reasoning_assamese_early_layer_pretrained_pairwise.png)
 ![Assamese pairwise early layer finetuned](figures/phase3_attention_reasoning_assamese_early_layer_finetuned_seed0_pairwise.png)
 
+Entropy 2.213 to 2.194, distance unchanged at 5.570 -- no real shift at
+this layer for the short example.
+
 *Pairwise, late layer (11)*
 
 ![Assamese pairwise late layer pretrained](figures/phase3_attention_reasoning_assamese_late_layer_pretrained_pairwise.png)
 ![Assamese pairwise late layer finetuned](figures/phase3_attention_reasoning_assamese_late_layer_finetuned_seed0_pairwise.png)
+
+Entropy 1.671 to 1.565 and distance 6.061 to 5.635 -- both metrics move
+the same direction here, unlike Hindi's equivalent pair.
 
 *Chained, early layer (0)*
 
 ![Assamese chained early layer pretrained](figures/phase3_attention_reasoning_assamese_early_layer_pretrained_chained.png)
 ![Assamese chained early layer finetuned](figures/phase3_attention_reasoning_assamese_early_layer_finetuned_seed0_chained.png)
 
+Entropy 2.573 to 2.522, distance 9.238 to 9.304 -- minor movement, same
+pattern as every other early-layer pair in this report.
+
 *Chained, late layer (11)*
 
 ![Assamese chained late layer pretrained](figures/phase3_attention_reasoning_assamese_late_layer_pretrained_chained.png)
 ![Assamese chained late layer finetuned](figures/phase3_attention_reasoning_assamese_late_layer_finetuned_seed0_chained.png)
+
+Entropy 2.209 to 1.878 and distance 11.335 to 9.477 -- the largest shift
+in either metric for Assamese, and larger than Hindi's equivalent pair
+(discussed below).
 
 ## Discussion
 

@@ -135,10 +135,12 @@ def plot_heatmaps(attn_layer, pieces, layer_label, out_path, title_suffix=""):
     ncols = min(3, n_head)
     nrows = (n_head + ncols - 1) // ncols
     # Longer sequences (Phase 3 full prompt+answer, T ~50) need more room
-    # per token and a smaller font than Phase 2's short single sentences
-    # (T ~10-15) did, or tick labels overlap into unreadable text.
+    # per token than Phase 2's short single sentences (T ~10-15) did, or
+    # tick labels overlap into unreadable text. Scaling the figure size
+    # keeps per-row spacing ahead of the fixed 6pt font, so the font
+    # itself never needs to shrink.
     cell_in = max(4.2, T * 0.16)
-    tick_fontsize = 6 if T <= 20 else max(3, int(6 * 20 / T))
+    tick_fontsize = 6
     fig, axes = plt.subplots(nrows, ncols, figsize=(cell_in * ncols, cell_in * nrows))
     axes = axes.flatten() if n_head > 1 else [axes]
     for h in range(n_head):

@@ -1,6 +1,27 @@
-# Monolingual Transformer LMs: Hindi and Assamese
+# Indic LM from Scratch: Hindi and Assamese
 
-Two fully independent, from-scratch, ~25M-parameter decoder-only Transformer language models, built for CL3410 (Language Models and Agents). Model H is Hindi, the higher-resource language. Model L is Assamese, the lower-resource language, chosen from the assignment's allowed list. Data, tokenizer, vocabulary, and weights are kept separate throughout. No artifacts are shared between the two models.
+Two fully independent, from-scratch, ~24M-parameter decoder-only Transformer language models in PyTorch, built as a course project for CL3410 (Language Models and Agents) at IIIT Hyderabad. Model H is Hindi, the higher-resource language. Model L is Assamese, the lower-resource language. Data, tokenizer, vocabulary, and weights are kept separate throughout. No artifacts are shared between the two models.
+
+The pipeline covers corpus collection (web scrapers, Wikimedia dumps, OCR), cleaning and deduplication, SentencePiece BPE tokenizers, pretraining, evaluation (perplexity, bits-per-byte, BLEU/chrF/ROUGE-L, attention analysis), and LoRA finetuning on a synthetic comparative-reasoning task.
+
+## Results at a glance
+
+| | Hindi (Model H) | Assamese (Model L) |
+|---|---|---|
+| Parameters | 24,366,336 | 24,366,336 |
+| Corpus size | 834M tokens | 565M tokens |
+| Test perplexity | 38.46 | 53.67 |
+| Test bits-per-byte | 0.5952 | 0.5990 |
+| Reasoning exact match, test_seen (LoRA, mean of 3 seeds) | 98.4% | 65.2% |
+| Reasoning exact match, test_unseen_wording | 26.2% | 43.8% |
+
+Full analysis: `report/final_report.md` (consolidated PDF in `report/`).
+
+## Branches
+
+- `main`: final state (Phase 3, reasoning finetuning and final report)
+- `phase-1`: data collection and tokenizers snapshot
+- `phase-2`: pretraining and evaluation snapshot
 
 ## Repository layout
 
@@ -47,6 +68,7 @@ Two fully independent, from-scratch, ~25M-parameter decoder-only Transformer lan
 ## Setup
 
 ```bash
+git clone https://github.com/abhinavborah/indic-lm-from-scratch.git && cd indic-lm-from-scratch
 uv venv && uv pip install -r requirements.txt
 # or, without uv:
 python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
@@ -170,7 +192,7 @@ Finetuned checkpoints are **not** in git, same large-artifact policy as Phases 1
 
 ## Google Drive links
 
-Large artifacts (raw + cleaned corpus text, train/val/test splits) are hosted on Drive, not committed to git, per the spec's size-limit requirement. Both raw and cleaned versions are included per course guidance.
+Large artifacts (raw + cleaned corpus text, train/val/test splits) are hosted on Drive, not committed to git, to keep the repository small. Both raw and cleaned versions are included.
 
 **[Phase 1 data: Google Drive folder](https://drive.google.com/drive/folders/1ycjrl0WS9C6ZfskwoTjBoqdhnGlsrwMT?usp=sharing)**
 

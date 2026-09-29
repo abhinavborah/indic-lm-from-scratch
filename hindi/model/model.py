@@ -2,7 +2,7 @@
 nn.Embedding / nn.LayerNorm / nn.Dropout, no nn.Transformer*, no
 pre-built attention block.
 
-Architecture per docs-phase-2/depth_width_tradeoff.md: pre-LN, RoPE
+Architecture per report/phase2_architecture.md: pre-LN, RoPE
 positional embeddings, tied input/output embeddings.
 """
 

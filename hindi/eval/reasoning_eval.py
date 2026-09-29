@@ -3,7 +3,7 @@
 deliverable 3.1: "pretrained vs. finetuned accuracy (or exact match) on the
 synthetic test set." Evaluated separately on the 3 mandatory Lec09 splits
 (test_seen, test_unseen_entity, test_unseen_wording) -- per
-docs-phase-3/finetune_protocol.md and dataset_leakage_methodology.md, these
+report/phase3_reasoning_eval.md, these
 are NEVER aggregated together: a gain that shows up on test_seen but not
 test_unseen_wording is format-memorization, not a reasoning gain, and
 averaging the three would hide exactly that distinction.
@@ -19,7 +19,7 @@ non-stopping generation, a known documented risk of greedy decoding on
 this model, not because real answers approach it).
 
 Two exact-match scores are reported, never conflated -- see
-docs-phase-3/lora_eos_untrained_finding.md for why both exist. LoRA
+report/phase3_reasoning_eval.md for why both exist. LoRA
 targets only q_proj/v_proj; the token embedding table (and the output
 head, tied to it) stays frozen, and `<s>`/`</s>` were never trained during
 pretraining (never emitted mid-corpus). Confirmed by direct inspection:

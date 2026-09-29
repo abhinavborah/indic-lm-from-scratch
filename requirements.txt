@@ -25,7 +25,7 @@ matplotlib
 
 # Phase 2: model implementation, training, eval. Spec mandates PyTorch
 # specifically (not a substitutable choice), see
-# docs/docs-phase-2/implementation_plan.md.
+# report/phase2_architecture.md.
 torch
 
 # Phase 2: generation-quality metrics (BLEU, chrF/chrF++, ROUGE-L). Metric

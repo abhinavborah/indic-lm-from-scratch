@@ -21,7 +21,7 @@ entities, every adjacent pair touches position 0 or position 2), which
 violates the never-ambiguous-answer rule -- so ties are absent from 3-entity
 examples by construction, not an oversight.
 
-Five output splits, per docs-phase-3/dataset_leakage_methodology.md:
+Five output splits, per report/phase3_reasoning_eval.md:
   train, val                 seen entities, seen (trained) wording
   test_seen                  seen entities, seen wording (held-out instances)
   test_unseen_entity         held-out entity pool, seen (trained) wording

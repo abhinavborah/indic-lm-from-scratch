@@ -2,7 +2,7 @@
 """Generates the Phase 3 finetuning figures for both languages: per-seed
 train/reasoning-val loss curves, and pretrain-val PPL tracked across epochs
 as a forgetting diagnostic (not an auto-stop signal, see
-docs-phase-3/forgetting_threshold_review.md).
+report/phase3_reasoning_eval.md).
 
 Same convention as make_figures_phase2.py: visualization kept separate
 from computation, reads directly from the small per-epoch CSV logs

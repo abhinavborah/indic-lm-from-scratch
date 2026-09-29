@@ -2,7 +2,7 @@
 
 Starts from the Phase 2 pretrained checkpoint, keeps the tokenizer and
 vocabulary fixed, LoRA finetune (not full-parameter -- see
-docs-phase-3/finetune_method_choice.md's 2026-09-13 update for why: the
+report/phase3_reasoning_eval.md's 2026-09-13 update for why: the
 regularization argument against overfitting a tiny 6000-example set, not
 the usual compute-saving argument, which doesn't apply at 24.3M params).
 
@@ -13,7 +13,7 @@ small rank (r=1-4 in their experiments) already suffices for that pair.
 model.py is never modified -- LoRALinear wraps the existing q_proj/v_proj
 nn.Linear submodules on an already-loaded pretrained model instance.
 
-Sequence format and loss masking, per docs-phase-3/finetune_protocol.md:
+Sequence format and loss masking, per report/phase3_reasoning_eval.md:
     <question tokens> <s> <answer tokens> </s>
 Loss is masked to answer positions only: predicting the first answer
 token through the terminal </s>. Predicting the transition into <s>
@@ -29,7 +29,7 @@ their (meaningless) output is simply never used.
 
 Reuses save_checkpoint/load_config from train.py unchanged. LR schedule is
 its own (not train.py's lr_at_step): linear warmup then held constant at
-peak_lr, not cosine decay -- see docs-phase-3/forgetting_threshold_review.md's
+peak_lr, not cosine decay -- see report/phase3_reasoning_eval.md's
 2026-09-14 addendum. A cosine horizon requires knowing total_steps upfront,
 but this run's real length is decided by early stopping, not a fixed epoch
 count; committing to a horizon guess either under- or over-decays depending
@@ -75,7 +75,7 @@ MAX_SEQ_LEN = 128  # comfortably above the generator's measured worst case (~67 
 # different window sample every epoch: an invalid comparison that tripped a
 # real stop at a 0.06% margin, an order of magnitude inside known sampling
 # noise (~0.6%, see pretrain_val_ppl's own docstring). See
-# docs-phase-3/forgetting_threshold_review.md.
+# report/phase3_reasoning_eval.md.
 PRETRAIN_EVAL_SEED = 0
 
 
@@ -129,7 +129,7 @@ def freeze_non_lora_params(model):
     LayerNorm).
 
     token_embedding.weight is trainable but gradient-masked to BOS_ID/EOS_ID
-    rows only (see docs-phase-3/lora_eos_untrained_finding.md): <s>/</s> are
+    rows only (see report/phase3_reasoning_eval.md): <s>/</s> are
     never emitted mid-corpus during pretraining, so their rows are still
     untouched random init under the plain lora_A/lora_B-only freeze, and the
     model never learns to terminate generation. requires_grad has no
@@ -262,7 +262,7 @@ def make_batches(examples, sp, batch_size, max_seq_len, rng):
 
 def masked_lm_loss(logits, targets, mask):
     """L_SFT = -(1/|A|) * sum_{t in A} log p(x_t | x_<t), per
-    docs-phase-3/finetune_protocol.md. Padded/prompt positions are excluded
+    report/phase3_reasoning_eval.md. Padded/prompt positions are excluded
     via mask; averaged (not summed) over the answer-token count."""
     per_token_loss = F.cross_entropy(
         logits.reshape(-1, logits.size(-1)), targets.reshape(-1), reduction="none"
@@ -274,7 +274,7 @@ def masked_lm_loss(logits, targets, mask):
 def pretrain_val_ppl(model, val_data, context_length, device, num_batches=20, batch_size=16, seed=0):
     """Perplexity on a random sample of the ORIGINAL Phase 2 pretrain
     validation split (plain next-token prediction, no masking) -- the
-    forgetting signal from docs-phase-3/sample_size_and_stopping_criterion.md,
+    forgetting signal from report/phase3_reasoning_eval.md,
     tracked alongside (never conflated with) the reasoning-task loss above.
 
     Samples num_batches * batch_size independent random windows spread
@@ -343,7 +343,7 @@ def finetune(
     """Runs up to num_epochs full passes over train_examples. Logs both the
     reasoning-task validation loss and the pretrain-val PPL after every
     epoch (the forgetting signal from
-    docs-phase-3/sample_size_and_stopping_criterion.md).
+    report/phase3_reasoning_eval.md).
 
     on_epoch_end: optional callable invoked once per completed epoch, after
     that epoch's training, eval, and logging are already done -- receives

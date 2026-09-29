@@ -3,7 +3,7 @@
 before touching Colab. Does four things a synthetic unit test can't:
 
 1. Picks peak_lr/min_lr from a real small sweep (deliberately, per
-   docs-phase-2/training_diagnostics.md, "peak LR is the single most
+   report/phase2_lm_eval.md, "peak LR is the single most
    important hyperparameter", not guessed) and writes the result into
    model_config.json, replacing the placeholder nulls.
 2. Picks batch_size from a real sweep too, not a guessed default. Cheap
@@ -18,7 +18,7 @@ before touching Colab. Does four things a synthetic unit test can't:
    loss curve with a val loss that stays close to train loss, the
    "healthy loss curve" diagnostic from training_diagnostics.md.
 4. Measures real MPS tokens/sec throughput at the winning batch size, the
-   number docs-phase-2/implementation_plan.md said not to guess before
+   number report/phase2_architecture.md said not to guess before
    committing to a Colab training-duration schedule.
 
 Run directly: python3 smoke_test.py

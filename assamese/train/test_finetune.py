@@ -99,7 +99,7 @@ def demo():
 
     # --- freeze_non_lora_params: lora_A/lora_B AND token_embedding.weight are trainable ---
     # (token_embedding.weight is gradient-masked to BOS_ID/EOS_ID rows only, checked below --
-    # see docs-phase-3/lora_eos_untrained_finding.md for why: these two rows are never
+    # see report/phase3_reasoning_eval.md for why: these two rows are never
     # emitted mid-corpus during pretraining, so under a plain lora_A/lora_B-only freeze
     # they stay untrained and the model never learns to terminate generation)
     freeze_non_lora_params(lora_model)

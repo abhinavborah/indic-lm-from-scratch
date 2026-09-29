@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Empirical LoRA rank/alpha sweep on real data, since no literature exists
 at this model's scale (24.3M params, d_model=384) to borrow a default from
--- see docs-phase-3/finetune_method_choice.md's "open, not yet decided"
+-- see report/phase3_reasoning_eval.md's "open, not yet decided"
 section. Same pattern as Phase 2's own LR/batch-size sweeps
 (smoke_test.py): pick the smallest rank that gets within a small tolerance
 of the best reasoning-val loss, favoring more regularization (per this
